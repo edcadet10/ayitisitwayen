@@ -262,12 +262,6 @@ section {
     transform: translateY(-2px);
 }
 
-.mission-icon {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    opacity: 0.8;
-}
-
 .mission-card h3 {
     font-size: 1.25rem;
     font-weight: 500;
