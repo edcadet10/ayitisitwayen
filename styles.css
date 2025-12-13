@@ -57,11 +57,10 @@ body {
     align-items: center;
 }
 
-.nav-brand h1 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--black);
-    letter-spacing: -0.02em;
+.nav-brand .logo {
+    height: 40px;
+    width: auto;
+    display: block;
 }
 
 .nav-links {
@@ -591,15 +590,6 @@ section {
 }
 
 /* Subtle Color Accents */
-.nav-brand h1::after {
-    content: '';
-    display: block;
-    width: 30px;
-    height: 2px;
-    background: linear-gradient(90deg, var(--haiti-blue) 0%, var(--haiti-red) 100%);
-    margin-top: 0.5rem;
-}
-
 .section-title::after {
     content: '';
     display: block;
