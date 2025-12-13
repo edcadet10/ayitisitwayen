@@ -58,7 +58,7 @@ body {
 }
 
 .nav-brand .logo {
-    height: 40px;
+    height: 50px;
     width: auto;
     display: block;
 }
@@ -659,4 +659,63 @@ html {
 .mission-card,
 .team-member {
     animation: fadeInUp 0.5s ease-out;
+}
+
+/* Legal Pages */
+.legal-page {
+    background-color: var(--white);
+    padding: 6rem 0;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--black);
+    margin-bottom: 1rem;
+    letter-spacing: -0.03em;
+}
+
+.legal-date {
+    font-size: 0.875rem;
+    color: var(--gray-500);
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.legal-content {
+    max-width: 800px;
+}
+
+.legal-content h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--black);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+}
+
+.legal-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--gray-700);
+    margin-bottom: 1.25rem;
+}
+
+.legal-content ul {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.legal-content li {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--gray-700);
+    margin-bottom: 0.75rem;
+}
+
+.legal-content strong {
+    color: var(--black);
+    font-weight: 500;
 }
