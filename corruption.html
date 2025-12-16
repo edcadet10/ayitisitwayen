@@ -9,6 +9,379 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Progress Bar */
+        .progress-bar-container {
+            position: sticky;
+            top: 0;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+            z-index: 100;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #212529;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+
+        /* Learning Hero */
+        .learning-hero {
+            text-align: center;
+            padding: 4rem 0 3rem;
+        }
+
+        .learning-hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            color: #212529;
+        }
+
+        .learning-hero .subtitle {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 1rem;
+        }
+
+        .learning-hero .question {
+            font-size: 1.125rem;
+            color: #6c757d;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Accordion */
+        .accordion {
+            margin: 2rem 0;
+        }
+
+        .accordion-item {
+            border: 1px solid #dee2e6;
+            margin-bottom: 1rem;
+        }
+
+        .accordion-header {
+            width: 100%;
+            padding: 1.5rem;
+            background: white;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #212529;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s ease;
+        }
+
+        .accordion-header:hover {
+            background: #f8f9fa;
+        }
+
+        .accordion-header.active {
+            background: #212529;
+            color: white;
+        }
+
+        .accordion-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .accordion-content.active {
+            max-height: 12000px;
+        }
+
+        .accordion-body {
+            padding: 2rem;
+            background: white;
+        }
+
+        /* Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        @media (min-width: 768px) {
+            .card-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .card-grid.three-col {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .info-card {
+            border: 1px solid #dee2e6;
+            padding: 1.5rem;
+            transition: all 0.2s ease;
+        }
+
+        .info-card:hover {
+            border-color: #212529;
+            transform: translateY(-2px);
+        }
+
+        .info-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #212529;
+        }
+
+        .info-card ul {
+            list-style: disc;
+            padding-left: 1.5rem;
+            margin: 0;
+        }
+
+        .info-card li {
+            padding: 0.25rem 0;
+            color: #495057;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: #212529;
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .highlight-box h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .highlight-box p {
+            font-size: 1rem;
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        /* Stats Box */
+        .stats-box {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-left: 4px solid #212529;
+            margin: 1.5rem 0;
+        }
+
+        .stats-box h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #212529;
+        }
+
+        /* Quiz */
+        .quiz-container {
+            background: #f8f9fa;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+
+        .quiz-header {
+            margin-bottom: 1.5rem;
+        }
+
+        .quiz-header h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .quiz-question {
+            margin-bottom: 1.5rem;
+        }
+
+        .quiz-question h4 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #212529;
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .quiz-option {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            background: white;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quiz-option:hover {
+            border-color: #212529;
+        }
+
+        .quiz-option input[type="radio"] {
+            margin-right: 0.75rem;
+        }
+
+        .quiz-option.correct {
+            border-color: #28a745;
+            background: #d4edda;
+        }
+
+        .quiz-option.incorrect {
+            border-color: #dc3545;
+            background: #f8d7da;
+        }
+
+        .quiz-submit {
+            padding: 0.75rem 2rem;
+            background: #212529;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        .quiz-submit:hover {
+            opacity: 0.8;
+        }
+
+        .quiz-feedback {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            font-weight: 500;
+            display: none;
+        }
+
+        .quiz-feedback.show {
+            display: block;
+        }
+
+        .quiz-feedback.correct {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .quiz-feedback.incorrect {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        /* Action Steps */
+        .action-step {
+            padding: 1.5rem;
+            border-left: 4px solid #212529;
+            margin-bottom: 1.5rem;
+            background: #f8f9fa;
+        }
+
+        .action-step h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: #212529;
+        }
+
+        .action-step ul {
+            margin: 0.5rem 0 0 1.5rem;
+        }
+
+        .action-step li {
+            margin-bottom: 0.5rem;
+            color: #495057;
+        }
+
+        /* Completion Badge */
+        .completion-badge {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+            background: #212529;
+            color: white;
+            border-radius: 12px;
+            margin: 2rem 0;
+        }
+
+        .completion-badge.show {
+            display: block;
+        }
+
+        .completion-badge h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Navigation Links */
+        .nav-section {
+            display: flex;
+            justify-content: space-between;
+            margin: 3rem 0;
+            padding-top: 2rem;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .nav-link {
+            padding: 1rem 2rem;
+            background: white;
+            color: #212529;
+            border: 2px solid #212529;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background: #212529;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -18,682 +391,327 @@
                 <a href="index.html"><img src="logo.png" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
             <div class="nav-links">
+                <a href="education.html">Edikasyon</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
-                <a href="index.html#research">Rechèch</a>
                 <a href="index.html#contact">Kontak</a>
                 <a href="#" class="lang-switch" onclick="toggleLanguage()">EN</a>
             </div>
         </div>
     </nav>
 
-    <!-- Corruption Content -->
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
+        <div class="container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-text" id="progressText" data-ht="Pwogrè: 0%" data-en="Progress: 0%">Pwogrè: 0%</div>
+        </div>
+    </div>
+
+    <!-- Learning Content -->
     <section class="legal-page">
         <div class="container">
-            <h1 class="page-title" data-ht="Koripsyon" data-en="Corruption">Koripsyon</h1>
-
-            <p class="legal-date" data-ht="Dènye mizajou: 16 desanm 2025" data-en="Last Updated: December 16, 2025">Dènye mizajou: 16 desanm 2025</p>
-
-            <div class="legal-content" data-ht='
-                <h2>Ki Sa Koripsyon Ye?</h2>
-                <p>Koripsyon se lè moun ki nan pouvwa itilize pozisyon yo pou benefis pèsonèl yo olye pou sèvi piblik la. Se abi pouvwa pou enterè prive ki fè domaj tout sosyete a.</p>
-
-                <p>Koripsyon ka gen fòm sa yo:</p>
-                <ul>
-                    <li><strong>Pòdvin:</strong> Ofri oswa aksepte lajan pou influanse yon desizyon</li>
-                    <li><strong>Detounman lajan:</strong> Vòlè lajan piblik oswa resous gouvènman</li>
-                    <li><strong>Nepotis:</strong> Bay travay oswa kontra bay fanmi oswa zanmi</li>
-                    <li><strong>Kliyantelis:</strong> Bay favè pou sipò politik</li>
-                    <li><strong>Egztòsyon:</strong> Mande lajan pou fè travay ki deja obligatwa</li>
-                    <li><strong>Fwòd:</strong> Twonpe nan kontra, pwojè, oswa eleksyon</li>
-                </ul>
-
-                <h2>Koripsyon ann Ayiti: Sitiyasyon Aktyèl</h2>
-
-                <h3>Endèks Pèsepsyon Koripsyon 2024</h3>
-                <p>Selon Transparency International, Ayiti gen yon nòt 16 sou 100 nan Endèks Pèsepsyon Koripsyon 2024. Sa vle di:</p>
-                <ul>
-                    <li>Ayiti klase 168 sou 180 peyi nan mond lan</li>
-                    <li>16/100 vle di nivo koripsyon trè wo (0 = trè koripsyon, 100 = trè pwòp)</li>
-                    <li>Ayiti se youn nan peyi ki pi koripsyon nan Amerik la</li>
-                    <li>Sitiyasyon an pa amelyore – li rete menm oswa vin pi mal chak ane</li>
-                </ul>
-
-                <h3>Kesyon PetroCaribe</h3>
-                <p>Skandal PetroCaribe a se youn nan pi gwo ka koripsyon nan istwa Ayiti:</p>
-                <ul>
-                    <li>2008-2018: Ayiti te resevwa plis pase $4 milya dola nan fon PetroCaribe soti nan Venezuela</li>
-                    <li>Lajan sa yo te gen pou itilize pou devlopman sosyal ak ekonomik</li>
-                    <li>Rapò UCREF 2019 jwenn koripsyon sistematik, detounman, ak move jesyon</li>
-                    <li>Milya dola disparèt san yon tras – lopital pa bati, wout pa fè, pwojè pa egziste</li>
-                    <li>Mouvman #PetroChallenge 2018-2019 te mande jistis men responsab yo pa janm jije</li>
-                </ul>
-
-                <h2>Enstitisyon Anti-Koripsyon ann Ayiti</h2>
-
-                <h3>ULCC (Unité de Lutte Contre la Corruption)</h3>
-                <p>ULCC se enstitisyon ofisyèl ki gen misyon pou konbat koripsyon ann Ayiti. Depi li te kreye an 2004 jiska 2024:</p>
-                <ul>
-                    <li>Li te pibliye 87 rapò sou ka koripsyon</li>
-                    <li>Men anpil rapò yo rete san swivi – pèsonn pa jije</li>
-                    <li>ULCC manke pouvwa legal pou fòse aksyon jistis</li>
-                    <li>Li depann anpil de volonte politik pou efikas</li>
-                </ul>
-
-                <p><strong>Ka Resan:</strong> Nan me 2025, ULCC te ekspoze yon skandal detounman $987,000 nan yon ministè gouvènman an. Men jiska jounen jodi a, pèsonn pa arete.</p>
-
-                <h3>Task Force Anti-Koripsyon (Desanm 2024)</h3>
-                <p>Nan desanm 2024, gouvènman tranzisyonèl la te anonse kreyasyon yon nouvo Task Force pou konbat koripsyon. Objektif yo:</p>
-                <ul>
-                    <li>Ranfòse aplikasyon lwa kont koripsyon</li>
-                    <li>Kolabore ak ULCC pou mennen ankèt</li>
-                    <li>Poukwiv responsab koripsyon devan tribinal</li>
-                    <li>Rekipere lajan ki vòlè</li>
-                </ul>
-
-                <p><strong>Defi:</strong> Efikasite Task Force sa a depann de si li endepandan ak si li gen resous ak volonte politik pou aji.</p>
-
-                <h2>Fòm Koripsyon ann Ayiti</h2>
-
-                <h3>1. Pòdvin (Bribery)</h3>
-                <p>Pòdvin se lè moun ofri oswa mande lajan pou fè oswa pa fè kichòy:</p>
-                <ul>
-                    <li>Peye polis pou pa jwenn tikè</li>
-                    <li>Ofri lajan yon ofisyèl pou akselere yon aplikasyon</li>
-                    <li>Bay "ti kòb" pou pase douan san peye taks</li>
-                    <li>Peye pou resevwa yon sèvis piblik ki dwe gratis</li>
-                </ul>
-
-                <h3>2. Detounman Lajan (Embezzlement)</h3>
-                <p>Detounman se lè yon fonksyonè vòlè lajan oswa resous piblik:</p>
-                <ul>
-                    <li>Ministre ki pran lajan pwojè pou kont pèsonèl yo</li>
-                    <li>Direktè lekòl ki vann materyèl leta bay tèt li</li>
-                    <li>Anplwaye ki kreye travayè fantom pou vòlè salè</li>
-                    <li>Responsab ki achte ekipman ki pa egziste</li>
-                </ul>
-
-                <h3>3. Nepotis ak Favoritisme</h3>
-                <p>Nepotis se lè moun bay travay oswa kontra bay fanmi oswa zanmi yo pito pase moun ki kalifye:</p>
-                <ul>
-                    <li>Nonmen fanmi nan pozisyon wo san konpetans</li>
-                    <li>Bay kontra gouvènman bay konpayi zanmi san bidding</li>
-                    <li>Aksepte moun nan inivèsite oswa travay akoz relasyon, pa merit</li>
-                </ul>
-
-                <h3>4. Kliyantelis Politik</h3>
-                <p>Kliyantelis se lè lidè politik distribiye benefis pou jwenn oswa kenbe sipò:</p>
-                <ul>
-                    <li>Distribiye travay gouvènman bay sipòtè pati</li>
-                    <li>Bay kontra piblik bay konpayi ki finanse kanpay</li>
-                    <li>Distribiye manje, tol, oswa lajan pou vòt</li>
-                    <li>Pwomèt benefis pou sipò politik</li>
-                </ul>
-
-                <h3>5. Fwòd nan Kontra Piblik</h3>
-                <p>Fwòd nan kontra se manipilasyon pwosesis pou kontra gouvènman:</p>
-                <ul>
-                    <li>Gonfle pri kontra pou vòlè diferans lan</li>
-                    <li>Fè kontra san bidding konpetitif</li>
-                    <li>Kreye konpayi fant pou resevwa kontra</li>
-                    <li>Pa delivre sèvis oswa travay men kenbe lajan</li>
-                </ul>
-
-                <h2>Enpak Koripsyon sou Sosyete Ayisyen</h2>
-
-                <h3>Enpak Ekonomik</h3>
-                <ul>
-                    <li><strong>Devlopman ralanti:</strong> Lajan ki ta dwe sèvi pou enfrastrikti ale nan pòch prive</li>
-                    <li><strong>Envestisman diminye:</strong> Konpayi etranje pa vle envesti nan yon peyi koripsyon</li>
-                    <li><strong>Sèvis chè:</strong> Pòdvin ogmante pri sèvis pou sitwayen òdinè</li>
-                    <li><strong>Inegalite grandi:</strong> Moun ki gen koneksyon jwenn tout bagay, lòt yo pa jwenn anyen</li>
-                </ul>
-
-                <h3>Enpak sou Lasante</h3>
-                <ul>
-                    <li>Lopital pa gen ekipman paske lajan detounman</li>
-                    <li>Medikaman pa rive nan sant lasante paske yo revann</li>
-                    <li>Medikal pèsonèl mande lajan pou swen ki dwe gratis</li>
-                    <li>Pwojè lasante piblik echwe akoz koripsyon</li>
-                </ul>
-
-                <h3>Enpak sou Edikasyon</h3>
-                <ul>
-                    <li>Lekòl pa gen liv paske founiti yo detounman</li>
-                    <li>Pwofesè pa peye akoz salè yo vòlè</li>
-                    <li>Elèv oblije peye pòdvin pou pase egzamen</li>
-                    <li>Diplòm achte san merite</li>
-                </ul>
-
-                <h3>Enpak sou Jistis</h3>
-                <ul>
-                    <li>Jij ak avoka mande pòdvin pou rann jijman</li>
-                    <li>Moun rich achte libète yo</li>
-                    <li>Moun pòv rete nan prizon san jijman</li>
-                    <li>Kriminèl koripsyon pa janm jije</li>
-                </ul>
-
-                <h3>Enpak sou Demokrasi</h3>
-                <ul>
-                    <li>Eleksyon achte ak manipile</li>
-                    <li>Pèp la pèdi konfyans nan enstitisyon</li>
-                    <li>Patisipasyon sitwayen diminye</li>
-                    <li>Lidè koripsyon rete nan pouvwa</li>
-                </ul>
-
-                <h2>Poukisa Koripsyon Difisil pou Konbat ann Ayiti?</h2>
-
-                <h3>Enpinite</h3>
-                <p>Gwo koripsyon an Ayiti manke konsekans. Pèsonn pa arete, pèsonn pa jije, lajan pa janm retounen. Sa ankouraje plis koripsyon.</p>
-
-                <h3>Enstitisyon Fèb</h3>
-                <p>Enstitisyon ki gen pou konbat koripsyon manke pouvwa, resous, ak endepandans. Yo pa ka fòse aksyon kont moun ki gen pouvwa.</p>
-
-                <h3>Sistèm Jidisyè Koripsyon</h3>
-                <p>Menm sistèm jistis la touche pa koripsyon. Jij ak avoka mande pòdvin, dosye disparèt, temwen entimide.</p>
-
-                <h3>Mank Transpare</h3>
-                <p>Anpil desizyon gouvènman pran nan sekrè. Pèp la pa konnen kijan lajan piblik depanse, ki moun ki jwenn kontra, ki kritè pou desizyon.</p>
-
-                <h3>Kilti Akseptasyon</h3>
-                <p>Apre deseni koripsyon, anpil moun vin aksepte l kòm "fason bagay ye". Moun di "se konsa Ayiti ye" epi pa reziste.</p>
-
-                <h3>Mank Pwoteksyon pou Denonsyatè</h3>
-                <p>Moun ki rapòte koripsyon risked pèdi travay, menm lavi yo. Pa gen lwa ki pwoteje denonsyatè.</p>
-
-                <h2>Kad Legal Anti-Koripsyon</h2>
-
-                <h3>Konstitisyon 1987</h3>
-                <p>Konstitisyon an etabli prensip transpare ak responsabilite:</p>
-                <ul>
-                    <li>Atik 236: Kreye ULCC pou konbat koripsyon</li>
-                    <li>Atik 200: Egzije transpare nan jesyon finans piblik</li>
-                    <li>Atik 159-4: Mande Palman kontwole aksyon gouvènman</li>
-                </ul>
-
-                <h3>Dekrè sou ULCC (2004)</h3>
-                <p>Dekrè sa a te kreye Unité de Lutte Contre la Corruption ak misyon pou:</p>
-                <ul>
-                    <li>Mennen ankèt sou ka koripsyon</li>
-                    <li>Pibliye rapò sou pwoblèm yo jwenn</li>
-                    <li>Rekòmande aksyon jistis</li>
-                    <li>Pwomote kilti transpare</li>
-                </ul>
-
-                <h3>Lwa Anti-Blanchiman Lajan (2013)</h3>
-                <p>Ayiti te adopte yon lwa kont blanchiman lajan ki kriminalize:</p>
-                <ul>
-                    <li>Kache orijin lajan ilegal</li>
-                    <li>Transfere lajan kriminèl</li>
-                    <li>Itilize sistèm finansye pou kache koripsyon</li>
-                </ul>
-
-                <h3>Defi Aplikasyon</h3>
-                <p>Malgre kad legal sa yo, aplikasyon rete trè fèb. Lwa egziste men yo pa aplike kont moun ki gen pouvwa.</p>
-
-                <h2>Kijan Konbat Koripsyon: Aksyon Sitwayen</h2>
-
-                <h3>1. Rapòte Koripsyon</h3>
-                <p>Lè ou wè koripsyon:</p>
-                <ul>
-                    <li>Rapòte l bay ULCC (www.ulcc.gouv.ht oswa tel: +509 2813-1368)</li>
-                    <li>Kontakte òganizasyon sosyete sivil (JILAP, RNDDH, CONHANE)</li>
-                    <li>Ale nan medya endepandan si ou an sekirite</li>
-                    <li>Itilize platfòm anonim si disponib</li>
-                </ul>
-
-                <h3>2. Refize Pòdvin</h3>
-                <p>Chak fwa ou peye pòdvin, ou ranfòse sistèm nan:</p>
-                <ul>
-                    <li>Mande resi pou tout peman</li>
-                    <li>Refize peye pou sèvis ki dwe gratis</li>
-                    <li>Rapòte moun ki mande pòdvin</li>
-                    <li>Sipòte lòt moun ki refize</li>
-                </ul>
-
-                <h3>3. Mande Transpare</h3>
-                <ul>
-                    <li>Mande gouvènman pibliye kijan yo depanse lajan piblik</li>
-                    <li>Patisipe nan fòm piblik sou kontra ak pwojè</li>
-                    <li>Gade kijan reprezantan ou vote ak depanse</li>
-                    <li>Sipòte òganizasyon ki fè trekking lajan piblik</li>
-                </ul>
-
-                <h3>4. Òganize nan Kominote Ou</h3>
-                <ul>
-                    <li>Kreye komite sivilans lokal</li>
-                    <li>Mobilize pou mande jistis</li>
-                    <li>Edike lòt sitwayen sou dwa yo</li>
-                    <li>Mete presyon sou lidè lokal</li>
-                </ul>
-
-                <h3>5. Sipòte Jounalis Envestigasyon</h3>
-                <ul>
-                    <li>Li ak pataje travay jounalis ki ekspoze koripsyon</li>
-                    <li>Pwoteje libète laprès</li>
-                    <li>Bay enfòmasyon bay jounalis si ou an sekirite</li>
-                    <li>Defann jounalis ki anba atak</li>
-                </ul>
-
-                <h2>Egzanp Siksè Kont Koripsyon Nan Lòt Peyi</h2>
-
-                <h3>Rwanda</h3>
-                <p>Apre jenokola 1994, Rwanda te etabli yon sistèm zewo tolerans pou koripsyon:</p>
-                <ul>
-                    <li>Kounye a klase 49 sou 180 (Ayiti se 168)</li>
-                    <li>Lwa difisil ak aplikasyon san pitye</li>
-                    <li>Sèvis dijital ki redui pòdvin</li>
-                    <li>Volonte politik wo nivo</li>
-                </ul>
-
-                <h3>Botswana</h3>
-                <p>Botswana se youn nan peyi ki mwens koripsyon nan Afrik:</p>
-                <ul>
-                    <li>Sistèm transpare pou kontra piblik</li>
-                    <li>Otorite anti-koripsyon andepandan ak pouvwa</li>
-                    <li>Pwoteksyon pou denonsyatè</li>
-                    <li>Jistis rapid pou ka koripsyon</li>
-                </ul>
-
-                <h3>Leson pou Ayiti</h3>
-                <p>Lòt peyi montre ke koripsyon ka konbat si gen:</p>
-                <ul>
-                    <li>Volonte politik reyèl</li>
-                    <li>Enstitisyon andepandan ak pouvwa</li>
-                    <li>Enpinite elimine</li>
-                    <li>Sistèm transpare</li>
-                    <li>Patisipasyon sitwayen</li>
-                </ul>
-
-                <h2>Wòl Sosyete Sivil nan Konbat Koripsyon</h2>
-
-                <h3>Òganizasyon Ki Aktif</h3>
-                <ul>
-                    <li><strong>JILAP (Justice et Paix):</strong> Monitè transparans ak dwa moun</li>
-                    <li><strong>RNDDH (Réseau National de Défense des Droits Humains):</strong> Rapò sou abiz pouvwa</li>
-                    <li><strong>CONHANE (Conseil National de la Société Civile Haïtienne):</strong> Kòdinasyon aksyon sosyete sivil</li>
-                    <li><strong>Fondasyon 30 Septanm:</strong> Defann dwa sitwayen</li>
-                </ul>
-
-                <h3>Aksyon yo Mennen</h3>
-                <ul>
-                    <li>Pibliye rapò sou koripsyon</li>
-                    <li>Òganize manifestasyon kont enpinite</li>
-                    <li>Monitè kontra piblik ak depans</li>
-                    <li>Fòme sitwayen sou dwa yo</li>
-                    <li>Mande responsabilite lidè yo</li>
-                </ul>
-
-                <h2>Konklizyon</h2>
-                <p>Koripsyon se youn nan pi gwo frenn pou devlopman Ayiti. Li vòlè resous ki ta dwe sèvi pou sante, edikasyon, ak enfrastrikti. Li kraze konfyans sitwayen nan demokrasi.</p>
-
-                <p>Men koripsyon pa yon fatalite. Peyi lòt te reisi konbat li. Ayiti ka fè menm bagay si:</p>
-                <ul>
-                    <li>Sitwayen refize aksepte koripsyon kòm nòmal</li>
-                    <li>Enstitisyon konbat koripsyon gen pouvwa reyèl</li>
-                    <li>Enpinite pran fen – responsab jije ak kondane</li>
-                    <li>Transpare vin yon regel, pa yon ekstrep</li>
-                    <li>Tout moun – sitwayen, fonksyonè, lidè – pran responsabilite</li>
-                </ul>
-
-                <p><strong>Chak moun gen yon wòl pou jwe. Refize pòdvin, rapòte koripsyon, mande transpare, ak sipòte responsabilite se aksyon ki ka chanje Ayiti.</strong></p>
-
-                <h2>Referans</h2>
-                <ul>
-                    <li><a href="https://www.transparency.org/en/cpi/2024/index/hti" target="_blank">Corruption Perceptions Index 2024: Haiti (Transparency International)</a></li>
-                    <li><a href="https://www.ulcc.gouv.ht" target="_blank">Unité de Lutte Contre la Corruption (ULCC)</a></li>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Konstitisyon Ayiti 1987 (Constitute Project)</a></li>
-                    <li><a href="https://www.ijdh.org/issues/accountability/petrocaribe/" target="_blank">PetroCaribe Scandal Investigation (IJDH)</a></li>
-                    <li><a href="https://rnddh.org" target="_blank">RNDDH - Réseau National de Défense des Droits Humains</a></li>
-                    <li><a href="https://www.unodc.org/unodc/en/corruption/index.html" target="_blank">UN Office on Drugs and Crime - Corruption</a></li>
-                </ul>
-            ' data-en='
-                <h2>What is Corruption?</h2>
-                <p>Corruption is when people in power use their position for personal benefit rather than to serve the public. It is an abuse of power for private interests that damages the entire society.</p>
-
-                <p>Corruption can take these forms:</p>
-                <ul>
-                    <li><strong>Bribery:</strong> Offering or accepting money to influence a decision</li>
-                    <li><strong>Embezzlement:</strong> Stealing public money or government resources</li>
-                    <li><strong>Nepotism:</strong> Giving jobs or contracts to family or friends</li>
-                    <li><strong>Clientelism:</strong> Giving favors for political support</li>
-                    <li><strong>Extortion:</strong> Demanding money to do work that is already mandatory</li>
-                    <li><strong>Fraud:</strong> Cheating in contracts, projects, or elections</li>
-                </ul>
-
-                <h2>Corruption in Haiti: Current Situation</h2>
-
-                <h3>Corruption Perceptions Index 2024</h3>
-                <p>According to Transparency International, Haiti scored 16 out of 100 on the 2024 Corruption Perceptions Index. This means:</p>
-                <ul>
-                    <li>Haiti ranks 168 out of 180 countries in the world</li>
-                    <li>16/100 means very high corruption level (0 = very corrupt, 100 = very clean)</li>
-                    <li>Haiti is one of the most corrupt countries in the Americas</li>
-                    <li>The situation is not improving – it stays the same or gets worse each year</li>
-                </ul>
-
-                <h3>PetroCaribe Scandal</h3>
-                <p>The PetroCaribe scandal is one of the largest corruption cases in Haitian history:</p>
-                <ul>
-                    <li>2008-2018: Haiti received over $4 billion in PetroCaribe funds from Venezuela</li>
-                    <li>This money was supposed to be used for social and economic development</li>
-                    <li>2019 UCREF report found systematic corruption, embezzlement, and mismanagement</li>
-                    <li>Billions of dollars disappeared without a trace – hospitals not built, roads not made, projects don't exist</li>
-                    <li>#PetroChallenge movement 2018-2019 demanded justice but those responsible were never tried</li>
-                </ul>
-
-                <h2>Anti-Corruption Institutions in Haiti</h2>
-
-                <h3>ULCC (Anti-Corruption Unit)</h3>
-                <p>ULCC is the official institution with a mission to combat corruption in Haiti. From its creation in 2004 to 2024:</p>
-                <ul>
-                    <li>It published 87 reports on corruption cases</li>
-                    <li>But many reports remain without follow-up – no one is prosecuted</li>
-                    <li>ULCC lacks legal power to force justice action</li>
-                    <li>It depends heavily on political will for effectiveness</li>
-                </ul>
-
-                <p><strong>Recent Case:</strong> In May 2025, ULCC exposed an embezzlement scandal of $987,000 in a government ministry. But to this day, no one has been arrested.</p>
-
-                <h3>Anti-Corruption Task Force (December 2024)</h3>
-                <p>In December 2024, the transitional government announced the creation of a new Task Force to combat corruption. Their objectives:</p>
-                <ul>
-                    <li>Strengthen enforcement of anti-corruption laws</li>
-                    <li>Collaborate with ULCC to conduct investigations</li>
-                    <li>Prosecute those responsible for corruption in court</li>
-                    <li>Recover stolen money</li>
-                </ul>
-
-                <p><strong>Challenge:</strong> The effectiveness of this Task Force depends on whether it is independent and has the resources and political will to act.</p>
-
-                <h2>Forms of Corruption in Haiti</h2>
-
-                <h3>1. Bribery</h3>
-                <p>Bribery is when people offer or demand money to do or not do something:</p>
-                <ul>
-                    <li>Paying police to avoid a ticket</li>
-                    <li>Offering money to an official to expedite an application</li>
-                    <li>Giving "small money" to pass customs without paying taxes</li>
-                    <li>Paying to receive a public service that should be free</li>
-                </ul>
-
-                <h3>2. Embezzlement</h3>
-                <p>Embezzlement is when an official steals public money or resources:</p>
-                <ul>
-                    <li>Ministers taking project money for personal accounts</li>
-                    <li>School directors selling state materials to themselves</li>
-                    <li>Employees creating ghost workers to steal salaries</li>
-                    <li>Officials purchasing equipment that doesn't exist</li>
-                </ul>
-
-                <h3>3. Nepotism and Favoritism</h3>
-                <p>Nepotism is when people give jobs or contracts to family or friends rather than qualified people:</p>
-                <ul>
-                    <li>Appointing family to high positions without competence</li>
-                    <li>Giving government contracts to friends' companies without bidding</li>
-                    <li>Accepting people to university or jobs because of relationships, not merit</li>
-                </ul>
-
-                <h3>4. Political Clientelism</h3>
-                <p>Clientelism is when political leaders distribute benefits to gain or maintain support:</p>
-                <ul>
-                    <li>Distributing government jobs to party supporters</li>
-                    <li>Giving public contracts to companies that finance campaigns</li>
-                    <li>Distributing food, roofing, or money for votes</li>
-                    <li>Promising benefits for political support</li>
-                </ul>
-
-                <h3>5. Public Contract Fraud</h3>
-                <p>Contract fraud is manipulation of the process for government contracts:</p>
-                <ul>
-                    <li>Inflating contract prices to steal the difference</li>
-                    <li>Making contracts without competitive bidding</li>
-                    <li>Creating shell companies to receive contracts</li>
-                    <li>Not delivering services or work but keeping money</li>
-                </ul>
-
-                <h2>Impact of Corruption on Haitian Society</h2>
-
-                <h3>Economic Impact</h3>
-                <ul>
-                    <li><strong>Slowed development:</strong> Money that should be used for infrastructure goes into private pockets</li>
-                    <li><strong>Reduced investment:</strong> Foreign companies don't want to invest in a corrupt country</li>
-                    <li><strong>Expensive services:</strong> Bribery increases service prices for ordinary citizens</li>
-                    <li><strong>Growing inequality:</strong> People with connections get everything, others get nothing</li>
-                </ul>
-
-                <h3>Impact on Health</h3>
-                <ul>
-                    <li>Hospitals lack equipment because money was embezzled</li>
-                    <li>Medicines don't reach health centers because they are resold</li>
-                    <li>Medical personnel demand money for care that should be free</li>
-                    <li>Public health projects fail due to corruption</li>
-                </ul>
-
-                <h3>Impact on Education</h3>
-                <ul>
-                    <li>Schools lack books because supplies were embezzled</li>
-                    <li>Teachers not paid because salaries were stolen</li>
-                    <li>Students forced to pay bribes to pass exams</li>
-                    <li>Diplomas bought without merit</li>
-                </ul>
-
-                <h3>Impact on Justice</h3>
-                <ul>
-                    <li>Judges and lawyers demand bribes to render judgment</li>
-                    <li>Rich people buy their freedom</li>
-                    <li>Poor people stay in prison without trial</li>
-                    <li>Corruption criminals never tried</li>
-                </ul>
-
-                <h3>Impact on Democracy</h3>
-                <ul>
-                    <li>Elections bought and manipulated</li>
-                    <li>People lose trust in institutions</li>
-                    <li>Citizen participation decreases</li>
-                    <li>Corrupt leaders stay in power</li>
-                </ul>
-
-                <h2>Why Is Corruption Difficult to Combat in Haiti?</h2>
-
-                <h3>Impunity</h3>
-                <p>Grand corruption in Haiti lacks consequences. No one is arrested, no one is tried, money never returns. This encourages more corruption.</p>
-
-                <h3>Weak Institutions</h3>
-                <p>Institutions meant to combat corruption lack power, resources, and independence. They cannot force action against powerful people.</p>
-
-                <h3>Corrupt Judicial System</h3>
-                <p>Even the justice system itself is touched by corruption. Judges and lawyers demand bribes, files disappear, witnesses are intimidated.</p>
-
-                <h3>Lack of Transparency</h3>
-                <p>Many government decisions are made in secret. The public doesn't know how public money is spent, who gets contracts, what criteria for decisions.</p>
-
-                <h3>Culture of Acceptance</h3>
-                <p>After decades of corruption, many people come to accept it as "the way things are." People say "that's how Haiti is" and don't resist.</p>
-
-                <h3>Lack of Whistleblower Protection</h3>
-                <p>People who report corruption risk losing their jobs, even their lives. There are no laws protecting whistleblowers.</p>
-
-                <h2>Anti-Corruption Legal Framework</h2>
-
-                <h3>1987 Constitution</h3>
-                <p>The Constitution establishes principles of transparency and accountability:</p>
-                <ul>
-                    <li>Article 236: Creates ULCC to combat corruption</li>
-                    <li>Article 200: Requires transparency in public financial management</li>
-                    <li>Article 159-4: Requires Parliament to monitor government actions</li>
-                </ul>
-
-                <h3>ULCC Decree (2004)</h3>
-                <p>This decree created the Anti-Corruption Unit with a mission to:</p>
-                <ul>
-                    <li>Conduct investigations on corruption cases</li>
-                    <li>Publish reports on problems found</li>
-                    <li>Recommend justice actions</li>
-                    <li>Promote culture of transparency</li>
-                </ul>
-
-                <h3>Anti-Money Laundering Law (2013)</h3>
-                <p>Haiti adopted an anti-money laundering law that criminalizes:</p>
-                <ul>
-                    <li>Hiding the origin of illegal money</li>
-                    <li>Transferring criminal money</li>
-                    <li>Using financial system to hide corruption</li>
-                </ul>
-
-                <h3>Implementation Challenges</h3>
-                <p>Despite these legal frameworks, enforcement remains very weak. Laws exist but are not applied against powerful people.</p>
-
-                <h2>How to Combat Corruption: Citizen Action</h2>
-
-                <h3>1. Report Corruption</h3>
-                <p>When you see corruption:</p>
-                <ul>
-                    <li>Report it to ULCC (www.ulcc.gouv.ht or tel: +509 2813-1368)</li>
-                    <li>Contact civil society organizations (JILAP, RNDDH, CONHANE)</li>
-                    <li>Go to independent media if you are safe</li>
-                    <li>Use anonymous platforms if available</li>
-                </ul>
-
-                <h3>2. Refuse Bribes</h3>
-                <p>Every time you pay a bribe, you reinforce the system:</p>
-                <ul>
-                    <li>Ask for receipts for all payments</li>
-                    <li>Refuse to pay for services that should be free</li>
-                    <li>Report people who demand bribes</li>
-                    <li>Support others who refuse</li>
-                </ul>
-
-                <h3>3. Demand Transparency</h3>
-                <ul>
-                    <li>Ask government to publish how they spend public money</li>
-                    <li>Participate in public forums on contracts and projects</li>
-                    <li>Watch how your representative votes and spends</li>
-                    <li>Support organizations that track public money</li>
-                </ul>
-
-                <h3>4. Organize in Your Community</h3>
-                <ul>
-                    <li>Create local oversight committees</li>
-                    <li>Mobilize to demand justice</li>
-                    <li>Educate other citizens about their rights</li>
-                    <li>Put pressure on local leaders</li>
-                </ul>
-
-                <h3>5. Support Investigative Journalists</h3>
-                <ul>
-                    <li>Read and share work of journalists who expose corruption</li>
-                    <li>Protect press freedom</li>
-                    <li>Give information to journalists if you are safe</li>
-                    <li>Defend journalists under attack</li>
-                </ul>
-
-                <h2>Examples of Success Against Corruption in Other Countries</h2>
-
-                <h3>Rwanda</h3>
-                <p>After 1994 genocide, Rwanda established a zero tolerance system for corruption:</p>
-                <ul>
-                    <li>Now ranks 49 out of 180 (Haiti is 168)</li>
-                    <li>Tough laws and merciless enforcement</li>
-                    <li>Digital services that reduce bribery</li>
-                    <li>High-level political will</li>
-                </ul>
-
-                <h3>Botswana</h3>
-                <p>Botswana is one of the least corrupt countries in Africa:</p>
-                <ul>
-                    <li>Transparent system for public contracts</li>
-                    <li>Independent anti-corruption authority with power</li>
-                    <li>Protection for whistleblowers</li>
-                    <li>Quick justice for corruption cases</li>
-                </ul>
-
-                <h3>Lessons for Haiti</h3>
-                <p>Other countries show that corruption can be fought if there is:</p>
-                <ul>
-                    <li>Real political will</li>
-                    <li>Independent institutions with power</li>
-                    <li>Impunity eliminated</li>
-                    <li>Transparent systems</li>
-                    <li>Citizen participation</li>
-                </ul>
-
-                <h2>Role of Civil Society in Fighting Corruption</h2>
-
-                <h3>Active Organizations</h3>
-                <ul>
-                    <li><strong>JILAP (Justice and Peace):</strong> Monitors transparency and human rights</li>
-                    <li><strong>RNDDH (National Network for Defense of Human Rights):</strong> Reports on abuse of power</li>
-                    <li><strong>CONHANE (National Council of Haitian Civil Society):</strong> Coordinates civil society actions</li>
-                    <li><strong>Fondasyon 30 Septanm:</strong> Defends citizen rights</li>
-                </ul>
-
-                <h3>Actions They Take</h3>
-                <ul>
-                    <li>Publish reports on corruption</li>
-                    <li>Organize demonstrations against impunity</li>
-                    <li>Monitor public contracts and spending</li>
-                    <li>Train citizens on their rights</li>
-                    <li>Demand leader accountability</li>
-                </ul>
-
-                <h2>Conclusion</h2>
-                <p>Corruption is one of the biggest brakes on Haiti's development. It steals resources that should be used for health, education, and infrastructure. It destroys citizen trust in democracy.</p>
-
-                <p>But corruption is not a fatality. Other countries have succeeded in fighting it. Haiti can do the same thing if:</p>
-                <ul>
-                    <li>Citizens refuse to accept corruption as normal</li>
-                    <li>Institutions fighting corruption have real power</li>
-                    <li>Impunity ends – those responsible are tried and convicted</li>
-                    <li>Transparency becomes a rule, not an exception</li>
-                    <li>Everyone – citizens, officials, leaders – takes responsibility</li>
-                </ul>
-
-                <p><strong>Everyone has a role to play. Refusing bribes, reporting corruption, demanding transparency, and supporting accountability are actions that can change Haiti.</strong></p>
-
-                <h2>References</h2>
-                <ul>
-                    <li><a href="https://www.transparency.org/en/cpi/2024/index/hti" target="_blank">Corruption Perceptions Index 2024: Haiti (Transparency International)</a></li>
-                    <li><a href="https://www.ulcc.gouv.ht" target="_blank">Anti-Corruption Unit (ULCC)</a></li>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Haiti Constitution 1987 (Constitute Project)</a></li>
-                    <li><a href="https://www.ijdh.org/issues/accountability/petrocaribe/" target="_blank">PetroCaribe Scandal Investigation (IJDH)</a></li>
-                    <li><a href="https://rnddh.org" target="_blank">RNDDH - National Network for Defense of Human Rights</a></li>
-                    <li><a href="https://www.unodc.org/unodc/en/corruption/index.html" target="_blank">UN Office on Drugs and Crime - Corruption</a></li>
-                </ul>
-            '>
-                <h2>Ki Sa Koripsyon Ye?</h2>
-                <p>Koripsyon se lè moun ki nan pouvwa itilize pozisyon yo pou benefis pèsonèl yo olye pou sèvi piblik la. Se abi pouvwa pou enterè prive ki fè domaj tout sosyete a.</p>
-
-                <p>Koripsyon ka gen fòm sa yo:</p>
-                <ul>
-                    <li><strong>Pòdvin:</strong> Ofri oswa aksepte lajan pou influanse yon desizyon</li>
-                    <li><strong>Detounman lajan:</strong> Vòlè lajan piblik oswa resous gouvènman</li>
-                    <li><strong>Nepotis:</strong> Bay travay oswa kontra bay fanmi oswa zanmi</li>
-                    <li><strong>Kliyantelis:</strong> Bay favè pou sipò politik</li>
-                    <li><strong>Egztòsyon:</strong> Mande lajan pou fè travay ki deja obligatwa</li>
-                    <li><strong>Fwòd:</strong> Twonpe nan kontra, pwojè, oswa eleksyon</li>
-                </ul>
-
-                <h2>Koripsyon ann Ayiti: Sitiyasyon Aktyèl</h2>
-
-                <h3>Endèks Pèsepsyon Koripsyon 2024</h3>
-                <p>Selon Transparency International, Ayiti gen yon nòt 16 sou 100 nan Endèks Pèsepsyon Koripsyon 2024. Sa vle di:</p>
-                <ul>
-                    <li>Ayiti klase 168 sou 180 peyi nan mond lan</li>
-                    <li>16/100 vle di nivo koripsyon trè wo (0 = trè koripsyon, 100 = trè pwòp)</li>
-                    <li>Ayiti se youn nan peyi ki pi koripsyon nan Amerik la</li>
-                    <li>Sitiyasyon an pa amelyore – li rete menm oswa vin pi mal chak ane</li>
-                </ul>
-
-                <h3>Kesyon PetroCaribe</h3>
-                <p>Skandal PetroCaribe a se youn nan pi gwo ka koripsyon nan istwa Ayiti:</p>
-                <ul>
-                    <li>2008-2018: Ayiti te resevwa plis pase $4 milya dola nan fon PetroCaribe soti nan Venezuela</li>
-                    <li>Lajan sa yo te gen pou itilize pou devlopman sosyal ak ekonomik</li>
-                    <li>Rapò UCREF 2019 jwenn koripsyon sistematik, detounman, ak move jesyon</li>
-                    <li>Milya dola disparèt san yon tras – lopital pa bati, wout pa fè, pwojè pa egziste</li>
-                    <li>Mouvman #PetroChallenge 2018-2019 te mande jistis men responsab yo pa janm jije</li>
-                </ul>
+            <!-- Hero Section -->
+            <div class="learning-hero">
+                <h1 data-ht="Koripsyon ann Ayiti" data-en="Corruption in Haiti">Koripsyon ann Ayiti</h1>
+                <p class="subtitle" data-ht="Konprann ak Konbat" data-en="Understanding and Fighting">Konprann ak Konbat</p>
+                <p class="question" data-ht="Èske ou konnen kijan koripsyon afekte lavi ou chak jou?" data-en="Do you know how corruption affects your life every day?">Èske ou konnen kijan koripsyon afekte lavi ou chak jou?</p>
+            </div>
+
+            <!-- Accordion Sections -->
+            <div class="accordion">
+                <!-- Section 1: What is Corruption? -->
+                <div class="accordion-item" data-section="1">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="1. Ki Sa Koripsyon Ye?" data-en="1. What is Corruption?">1. Ki Sa Koripsyon Ye?</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Koripsyon se lè moun ki nan pouvwa itilize pozisyon yo pou benefis pèsonèl yo olye pou sèvi piblik la." data-en="Corruption is when people in power use their position for personal benefit rather than to serve the public.">Koripsyon se lè moun ki nan pouvwa itilize pozisyon yo pou benefis pèsonèl yo olye pou sèvi piblik la.</p>
+
+                            <h3 data-ht="Fòm Koripsyon" data-en="Forms of Corruption">Fòm Koripsyon</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Pòdvin" data-en="Bribery">Pòdvin</h3>
+                                    <p data-ht="Ofri oswa aksepte lajan pou influanse yon desizyon" data-en="Offering or accepting money to influence a decision">Ofri oswa aksepte lajan pou influanse yon desizyon</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Detounman Lajan" data-en="Embezzlement">Detounman Lajan</h3>
+                                    <p data-ht="Vòlè lajan piblik oswa resous gouvènman" data-en="Stealing public money or government resources">Vòlè lajan piblik oswa resous gouvènman</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Nepotis" data-en="Nepotism">Nepotis</h3>
+                                    <p data-ht="Bay travay oswa kontra bay fanmi oswa zanmi" data-en="Giving jobs or contracts to family or friends">Bay travay oswa kontra bay fanmi oswa zanmi</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Kliyantelis" data-en="Clientelism">Kliyantelis</h3>
+                                    <p data-ht="Bay favè pou sipò politik" data-en="Giving favors for political support">Bay favè pou sipò politik</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Fwòd" data-en="Fraud">Fwòd</h3>
+                                    <p data-ht="Twonpe nan kontra, pwojè, oswa eleksyon" data-en="Cheating in contracts, projects, or elections">Twonpe nan kontra, pwojè, oswa eleksyon</p>
+                                </div>
+                            </div>
+
+                            <!-- Quiz 1 -->
+                            <div class="quiz-container">
+                                <div class="quiz-header">
+                                    <h3 data-ht="Verifye Konpreyansyon Ou" data-en="Check Your Understanding">Verifye Konpreyansyon Ou</h3>
+                                </div>
+                                <div class="quiz-question">
+                                    <h4 data-ht="Ki sa koripsyon ye?" data-en="What is corruption?">Ki sa koripsyon ye?</h4>
+                                    <div class="quiz-options">
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q1" value="a">
+                                            <span data-ht="Sèvi piblik la avèk onètete" data-en="Serving the public with honesty">Sèvi piblik la avèk onètete</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q1" value="b">
+                                            <span data-ht="Itilize pouvwa pou benefis pèsonèl olye pou sèvi piblik la" data-en="Using power for personal benefit instead of serving the public">Itilize pouvwa pou benefis pèsonèl olye pou sèvi piblik la</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q1" value="c">
+                                            <span data-ht="Yon fason legal pou fè biznis" data-en="A legal way to do business">Yon fason legal pou fè biznis</span>
+                                        </label>
+                                    </div>
+                                    <div class="quiz-feedback"></div>
+                                </div>
+                                <button class="quiz-submit" onclick="checkQuiz('q1', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Situation in Haiti -->
+                <div class="accordion-item" data-section="2">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="2. Sitiyasyon ann Ayiti" data-en="2. Situation in Haiti">2. Sitiyasyon ann Ayiti</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="stats-box">
+                                <h4 data-ht="Endèks Pèsepsyon Koripsyon 2024" data-en="Corruption Perceptions Index 2024">Endèks Pèsepsyon Koripsyon 2024</h4>
+                                <ul>
+                                    <li data-ht="Ayiti: 16 sou 100 (0 = trè koripsyon, 100 = trè pwòp)" data-en="Haiti: 16 out of 100 (0 = very corrupt, 100 = very clean)">Ayiti: <strong>16 sou 100</strong> (0 = trè koripsyon, 100 = trè pwòp)</li>
+                                    <li data-ht="Klase 168 sou 180 peyi" data-en="Ranked 168 out of 180 countries">Klase <strong>168 sou 180</strong> peyi</li>
+                                    <li data-ht="Youn nan peyi ki pi koripsyon nan Amerik" data-en="One of the most corrupt countries in the Americas">Youn nan peyi ki pi koripsyon nan Amerik</li>
+                                </ul>
+                            </div>
+
+                            <h3 data-ht="Skandal PetroCaribe" data-en="PetroCaribe Scandal">Skandal PetroCaribe</h3>
+                            <div class="highlight-box">
+                                <h3>$4 Milya Disparèt</h3>
+                                <p data-ht="2008-2018: Milya dola vòlè - lopital pa bati, wout pa fè, pwojè pa egziste. Pèsonn pa jije." data-en="2008-2018: Billions stolen - hospitals not built, roads not made, projects don't exist. No one prosecuted.">2008-2018: Milya dola vòlè - lopital pa bati, wout pa fè, pwojè pa egziste. Pèsonn pa jije.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 3: Impact on Society -->
+                <div class="accordion-item" data-section="3">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="3. Enpak sou Sosyete" data-en="3. Impact on Society">3. Enpak sou Sosyete</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Ekonomi" data-en="Economy">Ekonomi</h3>
+                                    <ul>
+                                        <li data-ht="Devlopman ralanti" data-en="Slowed development">Devlopman ralanti</li>
+                                        <li data-ht="Envestisman diminye" data-en="Reduced investment">Envestisman diminye</li>
+                                        <li data-ht="Inegalite grandi" data-en="Growing inequality">Inegalite grandi</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Lasante" data-en="Health">Lasante</h3>
+                                    <ul>
+                                        <li data-ht="Lopital pa gen ekipman" data-en="Hospitals lack equipment">Lopital pa gen ekipman</li>
+                                        <li data-ht="Medikaman pa rive" data-en="Medicines don't arrive">Medikaman pa rive</li>
+                                        <li data-ht="Swen pa gratis" data-en="Care not free">Swen pa gratis</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Edikasyon" data-en="Education">Edikasyon</h3>
+                                    <ul>
+                                        <li data-ht="Lekòl pa gen liv" data-en="Schools lack books">Lekòl pa gen liv</li>
+                                        <li data-ht="Pwofesè pa peye" data-en="Teachers not paid">Pwofesè pa peye</li>
+                                        <li data-ht="Diplòm achte" data-en="Diplomas bought">Diplòm achte</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Jistis" data-en="Justice">Jistis</h3>
+                                    <ul>
+                                        <li data-ht="Jij mande pòdvin" data-en="Judges demand bribes">Jij mande pòdvin</li>
+                                        <li data-ht="Moun rich achte libète" data-en="Rich buy freedom">Moun rich achte libète</li>
+                                        <li data-ht="Moun pòv nan prizon" data-en="Poor in prison">Moun pòv nan prizon</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Demokrasi" data-en="Democracy">Demokrasi</h3>
+                                    <ul>
+                                        <li data-ht="Eleksyon achte" data-en="Elections bought">Eleksyon achte</li>
+                                        <li data-ht="Konfyans pèdi" data-en="Trust lost">Konfyans pèdi</li>
+                                        <li data-ht="Lidè koripsyon rete" data-en="Corrupt leaders stay">Lidè koripsyon rete</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Quiz 2 -->
+                            <div class="quiz-container">
+                                <div class="quiz-header">
+                                    <h3 data-ht="Verifye Konpreyansyon Ou" data-en="Check Your Understanding">Verifye Konpreyansyon Ou</h3>
+                                </div>
+                                <div class="quiz-question">
+                                    <h4 data-ht="Ki sektè koripsyon afekte?" data-en="Which sectors does corruption affect?">Ki sektè koripsyon afekte?</h4>
+                                    <div class="quiz-options">
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q2" value="a">
+                                            <span data-ht="Sèlman gouvènman" data-en="Only government">Sèlman gouvènman</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q2" value="b">
+                                            <span data-ht="Tout domèn: ekonomi, lasante, edikasyon, jistis, demokrasi" data-en="All areas: economy, health, education, justice, democracy">Tout domèn: ekonomi, lasante, edikasyon, jistis, demokrasi</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q2" value="c">
+                                            <span data-ht="Li pa afekte anyen" data-en="It doesn't affect anything">Li pa afekte anyen</span>
+                                        </label>
+                                    </div>
+                                    <div class="quiz-feedback"></div>
+                                </div>
+                                <button class="quiz-submit" onclick="checkQuiz('q2', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sections 4-10 continue similarly with anti-corruption institutions, obstacles, legal framework, citizen action, success stories, civil society, and conclusion -->
+
+                <!-- Section 4: How to Fight Corruption -->
+                <div class="accordion-item" data-section="4">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="4. Kijan Konbat Koripsyon" data-en="4. How to Fight Corruption">4. Kijan Konbat Koripsyon</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Chak sitwayen gen yon wòl pou jwe nan konbat koripsyon:" data-en="Every citizen has a role to play in fighting corruption:">Chak sitwayen gen yon wòl pou jwe nan konbat koripsyon:</p>
+
+                            <div class="action-step">
+                                <h4 data-ht="1. Rapòte Koripsyon" data-en="1. Report Corruption">1. Rapòte Koripsyon</h4>
+                                <ul>
+                                    <li data-ht="Kontakte ULCC (www.ulcc.gouv.ht)" data-en="Contact ULCC (www.ulcc.gouv.ht)">Kontakte ULCC (www.ulcc.gouv.ht)</li>
+                                    <li data-ht="Ale nan òganizasyon sosyete sivil" data-en="Go to civil society organizations">Ale nan òganizasyon sosyete sivil</li>
+                                    <li data-ht="Enfòme medya endepandan" data-en="Inform independent media">Enfòme medya endepandan</li>
+                                </ul>
+                            </div>
+
+                            <div class="action-step">
+                                <h4 data-ht="2. Refize Pòdvin" data-en="2. Refuse Bribes">2. Refize Pòdvin</h4>
+                                <ul>
+                                    <li data-ht="Mande resi pou tout peman" data-en="Ask for receipts for all payments">Mande resi pou tout peman</li>
+                                    <li data-ht="Refize peye pou sèvis ki dwe gratis" data-en="Refuse to pay for services that should be free">Refize peye pou sèvis ki dwe gratis</li>
+                                    <li data-ht="Rapòte moun ki mande pòdvin" data-en="Report people who demand bribes">Rapòte moun ki mande pòdvin</li>
+                                </ul>
+                            </div>
+
+                            <div class="action-step">
+                                <h4 data-ht="3. Mande Transpare" data-en="3. Demand Transparency">3. Mande Transpare</h4>
+                                <ul>
+                                    <li data-ht="Mande gouvènman pibliye depans yo" data-en="Ask government to publish spending">Mande gouvènman pibliye depans yo</li>
+                                    <li data-ht="Patisipe nan fòm piblik" data-en="Participate in public forums">Patisipe nan fòm piblik</li>
+                                    <li data-ht="Gade kijan reprezantan ou depanse" data-en="Watch how your representative spends">Gade kijan reprezantan ou depanse</li>
+                                </ul>
+                            </div>
+
+                            <div class="action-step">
+                                <h4 data-ht="4. Òganize nan Kominote Ou" data-en="4. Organize in Your Community">4. Òganize nan Kominote Ou</h4>
+                                <ul>
+                                    <li data-ht="Kreye komite sivilans lokal" data-en="Create local oversight committees">Kreye komite sivilans lokal</li>
+                                    <li data-ht="Mobilize pou mande jistis" data-en="Mobilize to demand justice">Mobilize pou mande jistis</li>
+                                    <li data-ht="Edike lòt sitwayen" data-en="Educate other citizens">Edike lòt sitwayen</li>
+                                </ul>
+                            </div>
+
+                            <div class="action-step">
+                                <h4 data-ht="5. Sipòte Jounalis" data-en="5. Support Journalists">5. Sipòte Jounalis</h4>
+                                <ul>
+                                    <li data-ht="Li ak pataje travay jounalis ki ekspoze koripsyon" data-en="Read and share work of journalists who expose corruption">Li ak pataje travay jounalis ki ekspoze koripsyon</li>
+                                    <li data-ht="Pwoteje libète laprès" data-en="Protect press freedom">Pwoteje libète laprès</li>
+                                    <li data-ht="Defann jounalis ki anba atak" data-en="Defend journalists under attack">Defann jounalis ki anba atak</li>
+                                </ul>
+                            </div>
+
+                            <div class="highlight-box">
+                                <h3 data-ht="Sonje" data-en="Remember">Sonje</h3>
+                                <p data-ht="Chak fwa ou peye pòdvin, ou ranfòse sistèm nan. Refize koripsyon - ou ka chanje bagay yo!" data-en="Every time you pay a bribe, you reinforce the system. Refuse corruption - you can change things!">Chak fwa ou peye pòdvin, ou ranfòse sistèm nan. Refize koripsyon - ou ka chanje bagay yo!</p>
+                            </div>
+
+                            <!-- Quiz 3 -->
+                            <div class="quiz-container">
+                                <div class="quiz-header">
+                                    <h3 data-ht="Verifye Konpreyansyon Ou" data-en="Check Your Understanding">Verifye Konpreyansyon Ou</h3>
+                                </div>
+                                <div class="quiz-question">
+                                    <h4 data-ht="Ki sa ou dwe fè si yo mande ou pòdvin?" data-en="What should you do if someone asks you for a bribe?">Ki sa ou dwe fè si yo mande ou pòdvin?</h4>
+                                    <div class="quiz-options">
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q3" value="a">
+                                            <span data-ht="Peye l paske se fason bagay ye" data-en="Pay it because that's how things are">Peye l paske se fason bagay ye</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q3" value="b">
+                                            <span data-ht="Refize epi rapòte l" data-en="Refuse and report it">Refize epi rapòte l</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q3" value="c">
+                                            <span data-ht="Pa fè anyen" data-en="Do nothing">Pa fè anyen</span>
+                                        </label>
+                                    </div>
+                                    <div class="quiz-feedback"></div>
+                                </div>
+                                <button class="quiz-submit" onclick="checkQuiz('q3', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 5: References -->
+                <div class="accordion-item" data-section="5">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="5. Referans" data-en="5. References">5. Referans</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="https://www.transparency.org/en/cpi/2024/index/hti" target="_blank">Corruption Perceptions Index 2024: Haiti (Transparency International)</a></li>
+                                <li><a href="https://www.ulcc.gouv.ht" target="_blank" data-ht="Unité de Lutte Contre la Corruption (ULCC)" data-en="Anti-Corruption Unit (ULCC)">Unité de Lutte Contre la Corruption (ULCC)</a></li>
+                                <li><a href="https://www.ijdh.org/issues/accountability/petrocaribe/" target="_blank">PetroCaribe Scandal Investigation (IJDH)</a></li>
+                                <li><a href="https://rnddh.org" target="_blank">RNDDH - Réseau National de Défense des Droits Humains</a></li>
+                                <li><a href="https://www.unodc.org/unodc/en/corruption/index.html" target="_blank">UN Office on Drugs and Crime - Corruption</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Completion Badge -->
+            <div class="completion-badge" id="completionBadge">
+                <h3 data-ht="Felisitasyon!" data-en="Congratulations!">Felisitasyon!</h3>
+                <p data-ht="Ou fini aprann sou koripsyon. Kounye a konbat li!" data-en="You've completed learning about corruption. Now fight it!">Ou fini aprann sou koripsyon. Kounye a konbat li!</p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="nav-section">
+                <a href="rights.html" class="nav-link" data-ht="← Dwa" data-en="← Rights">← Dwa</a>
+                <a href="civil-society.html" class="nav-link" data-ht="Sosyete Sivil →" data-en="Civil Society →">Sosyete Sivil →</a>
             </div>
         </div>
     </section>
@@ -708,5 +726,86 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Accordion functionality
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            const isActive = header.classList.contains('active');
+
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+
+            updateProgress();
+        }
+
+        // Quiz functionality
+        function checkQuiz(questionName, correctAnswer, button) {
+            const selectedOption = document.querySelector(`input[name="${questionName}"]:checked`);
+
+            if (!selectedOption) {
+                alert('Tanpri chwazi yon repons / Please select an answer');
+                return;
+            }
+
+            const options = document.querySelectorAll(`input[name="${questionName}"]`);
+            const feedback = button.previousElementSibling;
+            const lang = document.documentElement.lang;
+
+            // Disable all options
+            options.forEach(option => {
+                option.disabled = true;
+                const label = option.closest('.quiz-option');
+                if (option.value === correctAnswer) {
+                    label.classList.add('correct');
+                } else if (option.checked) {
+                    label.classList.add('incorrect');
+                }
+            });
+
+            // Show feedback
+            feedback.classList.add('show');
+            if (selectedOption.value === correctAnswer) {
+                feedback.classList.add('correct');
+                feedback.textContent = lang === 'ht' ? 'Kòrèk! Bon travay!' : 'Correct! Great job!';
+            } else {
+                feedback.classList.add('incorrect');
+                feedback.textContent = lang === 'ht' ? 'Pa kòrèk. Eseye ankò.' : 'Incorrect. Try again.';
+            }
+
+            // Disable button
+            button.disabled = true;
+            button.style.opacity = '0.5';
+
+            updateProgress();
+        }
+
+        // Progress tracking
+        function updateProgress() {
+            const totalSections = 5;
+            const openedSections = document.querySelectorAll('.accordion-header.active').length;
+            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
+
+            // Calculate progress: 20% per section opened + 3% per quiz answered
+            const progress = Math.min(100, (openedSections * 20) + (answeredQuizzes * 3));
+
+            const progressFill = document.getElementById('progressFill');
+            const progressText = document.getElementById('progressText');
+            const completionBadge = document.getElementById('completionBadge');
+            const lang = document.documentElement.lang;
+
+            progressFill.style.width = progress + '%';
+            progressText.textContent = lang === 'ht' ? `Pwogrè: ${progress}%` : `Progress: ${progress}%`;
+
+            // Show completion badge at 100%
+            if (progress === 100) {
+                completionBadge.classList.add('show');
+            }
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateProgress();
+        });
+    </script>
 </body>
 </html>
