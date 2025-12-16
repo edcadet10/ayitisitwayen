@@ -9,789 +9,565 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .progress-container {
+            position: sticky;
+            top: 70px;
+            background: white;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--gray-300);
+            z-index: 100;
+            margin-bottom: 2rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--black);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            text-align: center;
+        }
+
+        .accordion {
+            margin-bottom: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+        }
+
+        .accordion-header {
+            padding: 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s ease;
+            user-select: none;
+        }
+
+        .accordion-header:hover {
+            background: var(--gray-100);
+        }
+
+        .accordion-header.active {
+            background: var(--gray-100);
+            border-bottom: 1px solid var(--gray-300);
+        }
+
+        .accordion-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--black);
+        }
+
+        .accordion-icon {
+            font-size: 1.5rem;
+            color: var(--gray-600);
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .accordion-body {
+            padding: 1.5rem 1.25rem;
+        }
+
+        .accordion-content.active {
+            max-height: 5000px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .info-card {
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            background: white;
+            transition: all 0.2s ease;
+        }
+
+        .info-card:hover {
+            border-color: var(--black);
+            transform: translateY(-2px);
+        }
+
+        .info-card h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--black);
+        }
+
+        .info-card p, .info-card ul {
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            color: var(--gray-700);
+        }
+
+        .highlight-box {
+            background: var(--gray-100);
+            border-left: 4px solid var(--black);
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--gray-800);
+        }
+
+        .quiz {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .quiz h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--black);
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .quiz-option {
+            padding: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--black);
+        }
+
+        .quiz-option.correct {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .quiz-option.incorrect {
+            background: #f8d7da;
+            border-color: #dc3545;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--gray-300);
+        }
+
+        .nav-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--black);
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s ease;
+        }
+
+        .nav-button:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
                 <a href="index.html"><img src="logo.png" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
             <div class="nav-links">
+                <a href="education.html">Edikasyon</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
-                <a href="index.html#research">Rechèch</a>
                 <a href="index.html#contact">Kontak</a>
                 <a href="#" class="lang-switch" onclick="toggleLanguage()">EN</a>
             </div>
         </div>
     </nav>
 
-    <!-- Civil Society Content -->
     <section class="legal-page">
         <div class="container">
             <h1 class="page-title" data-ht="Sosyete Sivil" data-en="Civil Society">Sosyete Sivil</h1>
-
-            <p class="legal-date" data-ht="Dènye mizajou: 16 desanm 2025" data-en="Last Updated: December 16, 2025">Dènye mizajou: 16 desanm 2025</p>
-
-            <div class="legal-content" data-ht='
-                <h2>Ki Sa Sosyete Sivil Ye?</h2>
-                <p>Sosyete sivil se tout òganizasyon, gwoup, ak asosyasyon ki egziste ant gouvènman an ak fanmi prive yo. Se espas kote sitwayen yo rasanble pou angaje nan kesyon piblik, defann enterè yo, ak travay pou byen komen.</p>
-
-                <p>Sosyete sivil enkli:</p>
-                <ul>
-                    <li><strong>ONG (Òganizasyon Non-Gouvènmantal):</strong> Gwoup ki travay sou devlopman, dwa moun, anviwònman</li>
-                    <li><strong>Sendika:</strong> Òganizasyon k ap defann dwa travayè</li>
-                    <li><strong>Asosyasyon Pwofesyonèl:</strong> Gwoup doktè, avoka, jounalis, agwonòm</li>
-                    <li><strong>Gwoup Relijye:</strong> Legliz, konfederasyon relijye, òganizasyon fe baze</li>
-                    <li><strong>Mouvman Sosyal:</strong> Gwoup k ap lit pou jistis sosyal, dwa fanm, anviwònman</li>
-                    <li><strong>Òganizasyon Kominotè:</strong> Komite katye, gwoupman vilaj, asosyasyon lokal</li>
-                </ul>
-
-                <h2>Wòl Sosyete Sivil nan yon Demokrasi</h2>
-
-                <h3>1. Kontwòl Gouvènman (Accountability)</h3>
-                <p>Sosyete sivil gade gouvènman ak mande responsabilite:</p>
-                <ul>
-                    <li>Monitè kijan gouvènman depanse lajan piblik</li>
-                    <li>Rapòte koripsyon ak abiz pouvwa</li>
-                    <li>Mande transpare nan desizyon politik</li>
-                    <li>Ekspoze vyolasyon dwa moun</li>
-                </ul>
-
-                <h3>2. Reprezantasyon Sitwayen</h3>
-                <p>Sosyete sivil bay vwa a gwoup ki souvan pa tande:</p>
-                <ul>
-                    <li>Defann enterè peyizan, moun pòv, fanm, jèn</li>
-                    <li>Pote preokipasyon kominote bay loritè yo</li>
-                    <li>Kreye platfòm pou patisipasyon sitwayen</li>
-                    <li>Mobilize moun pou pwoteje dwa yo</li>
-                </ul>
-
-                <h3>3. Edikasyon Sivik</h3>
-                <p>Sosyete sivil enfòme ak edike sitwayen yo:</p>
-                <ul>
-                    <li>Aprann moun sou dwa yo ak responsabilite yo</li>
-                    <li>Eksplike kijan sistèm politik fonksyone</li>
-                    <li>Ankouraje patisipasyon demokratik</li>
-                    <li>Konbat dezenfòmasyon</li>
-                </ul>
-
-                <h3>4. Sèvis Sosyal</h3>
-                <p>Plizyè òganizasyon sosyete sivil ofri sèvis dirèk:</p>
-                <ul>
-                    <li>Klinik lasante nan zòn san aksè</li>
-                    <li>Pwogram edikasyon ak fòmasyon</li>
-                    <li>Asistans legal pou moun ki pa gen mwayen</li>
-                    <li>Secours nan sitiyasyon ijans</li>
-                </ul>
-
-                <h3>5. Espas pou Debat Piblik</h3>
-                <p>Sosyete sivil kreye espas pou diskou demokratik:</p>
-                <ul>
-                    <li>Òganize fòm ak debat sou kesyon piblik</li>
-                    <li>Fasilite dyalòg ant gwoup diferan</li>
-                    <li>Pwomote kiltè tolerans ak respè</li>
-                    <li>Ankouraje patisipasyon sitwayen nan desizyon lokal</li>
-                </ul>
-
-                <h2>Sosyete Sivil ann Ayiti: Kontèks Istorik</h2>
-
-                <h3>Peryòd Kolonyal ak Post-Endepandans</h3>
-                <p>Depi koloni, Ayisyen yo te òganize nan gwoup pou rezistans ak solidarite. Lakou, sosyete sekrè, ak òganizasyon vodou te jwe wòl nan mobilizasyon sosyal.</p>
-
-                <h3>Sous Diktati Duvalier (1957-1986)</h3>
-                <p>Diktati Duvalier te kraze òganizasyon endepandan. Legliz Katolik ak kèk gwoup relijye te rete youn nan sèl espas rezistans. Radio misyonè te jwe yon wòl kle nan enfòmasyon ak mobilizasyon.</p>
-
-                <h3>Apre 1986: Renaissans Sosyete Sivil</h3>
-                <p>Apre chit Duvalier, gen yon eksplosyon òganizasyon sosyete sivil:</p>
-                <ul>
-                    <li>ONG dwa moun te miltipliye</li>
-                    <li>Gwoup fanm ak mouvman peyizan te òganize</li>
-                    <li>Asosyasyon pwofesyonèl te refòme</li>
-                    <li>Medya endepandan te devlope</li>
-                </ul>
-
-                <h3>Jounen Jodi a</h3>
-                <p>Ayiti gen yon sosyete sivil vibran men ki konfwonte gwo defi. Ensèkirite, povrete, ak enstabilite politik limite kapasite òganizasyon yo.</p>
-
-                <h2>Òganizasyon Sosyete Sivil Kle ann Ayiti</h2>
-
-                <h3>Dwa Moun ak Jistis</h3>
-                <ul>
-                    <li><strong>RNDDH (Réseau National de Défense des Droits Humains):</strong> Rezò ki monitè vyolasyon dwa moun, pibliye rapò, ak defann viktim</li>
-                    <li><strong>JILAP (Commission Justice et Paix):</strong> Komisyon Legliz ki travay sou jistis, lapè, ak dwa moun</li>
-                    <li><strong>Fondasyon 30 Septanm:</strong> Òganizasyon ki defann dwa sitwayen ak lit kont enpinite</li>
-                    <li><strong>CONHANE (Conseil National de la Société Civile Haïtienne):</strong> Konsèy ki kòdone aksyon plizyè òganizasyon</li>
-                </ul>
-
-                <h3>Dwa Fanm</h3>
-                <ul>
-                    <li><strong>SOFA (Solidarite Fanm Ayisyen):</strong> Lit pou dwa fanm, jistis jand, ak egalite</li>
-                    <li><strong>Kay Fanm:</strong> Sipò viktim vyolans ak pwogram responsabilizasyon</li>
-                    <li><strong>AFASDA:</strong> Asosyasyon k ap defann dwa fanm nan devlopman</li>
-                    <li><strong>FEF (Fonds Egalité Femmes) 2025-2026:</strong> Fon Anbasad Frans ki finanse pwojè dwa fanm</li>
-                </ul>
-
-                <h3>Devlopman Riral ak Peyizan</h3>
-                <ul>
-                    <li><strong>MPP (Mouvman Peyizan Papay):</strong> Mouvman k ap defann tè peyizan ak agrikilti viab</li>
-                    <li><strong>Tèt Kole Ti Peyizan Ayisyen:</strong> Rezwo k ap lit pou souverènte alimantè</li>
-                    <li><strong>MPNKP (Mouvman Peyizan Nasyonal Kongre Papay):</strong> 10 depatman, travay sou repopilasyon kochon, agroecology</li>
-                    <li><strong>OPODNE:</strong> Òganizasyon ki travay ak 56 kominote nan Nòdès</li>
-                </ul>
-
-                <h3>Anviwònman</h3>
-                <ul>
-                    <li><strong>Fondation Seguin:</strong> Rebwazman ak pwoteksyon baspent</li>
-                    <li><strong>CROSE (Centre de Recherche et d\'Observation Socio-Environnementale):</strong> Rechèch ak defann anviwònman</li>
-                    <li><strong>Gwoup Refò Fonsye:</strong> Lit pou jesyon rezonab tè</li>
-                </ul>
-
-                <h3>Edikasyon ak Jèn</h3>
-                <ul>
-                    <li><strong>FOKAL:</strong> Fòmasyon, edikasyon sivik, ak kiltirèl</li>
-                    <li><strong>Gwoup EDE-RED:</strong> Edikasyon ak responsabilizasyon jèn</li>
-                    <li><strong>FONHDILAC:</strong> Fondasyon pou edikasyon ak devlopman kominote</li>
-                </ul>
-
-                <h2>Konsèy Prezidansyèl Tranzisyonèl (CPT) ak Sosyete Sivil</h2>
-
-                <h3>Konpozisyon CPT</h3>
-                <p>Nan mas 2024, Ayiti te etabli yon Konsèy Prezidansyèl Tranzisyonèl ak 9 manm:</p>
-                <ul>
-                    <li><strong>7 manm votyan:</strong> Reprezante pati politik ak sektè sosyete sivil</li>
-                    <li><strong>2 obsèvatè san dwa vòt:</strong> Patisipe nan diskisyon men pa vote</li>
-                </ul>
-
-                <h3>Patisipasyon Sosyete Sivil</h3>
-                <p>Sosyete sivil te patisipe nan kreyasyon CPT la:</p>
-                <ul>
-                    <li>Negosyasyon akò politik ki te mennen nan CPT</li>
-                    <li>Reprezantasyon kèk sektè nan Konsèy la</li>
-                    <li>Monitè aksyon CPT la</li>
-                    <li>Mande transpare ak responsabilite</li>
-                </ul>
-
-                <h3>Defi ak Kritik</h3>
-                <p>Sosyete sivil te kritike CPT pou:</p>
-                <ul>
-                    <li>Mank transpare nan desizyon</li>
-                    <li>Konfli enterè ant manm yo</li>
-                    <li>Pa mande sitwayen òdinè yo opinyon</li>
-                    <li>Repete eritye politik tradisyonèl</li>
-                </ul>
-
-                <h2>Pwogram Ranfòsman Sosyete Sivil</h2>
-
-                <h3>USAID Civil Society Strengthening Program</h3>
-                <p>USAID ap sipòte pwogram pou ranfòse kapasite sosyete sivil Ayisyen:</p>
-                <ul>
-                    <li>Fòmasyon sou jesyon òganizasyonèl</li>
-                    <li>Sipò finansye pou pwojè kominotè</li>
-                    <li>Ranfòsman kapasite defans ak plede</li>
-                    <li>Netwòking ant òganizasyon</li>
-                </ul>
-
-                <h3>FEF (Fonds Egalité Femmes) 2025-2026</h3>
-                <p>Anbasad Frans te lanse FEF pou sipòte òganizasyon k ap travay sou dwa fanm:</p>
-                <ul>
-                    <li>Finanse pwojè egalite jand</li>
-                    <li>Sipò lit kont vyolans baze sou sèks</li>
-                    <li>Responsabilizasyon ekonomik fanm</li>
-                    <li>Patisipasyon politik fanm</li>
-                </ul>
-
-                <h3>Lòt Patnè Entènasyonal</h3>
-                <ul>
-                    <li>Inyon Ewopeyèn: Sipò dwa moun ak demokrasi</li>
-                    <li>Nasyon Zini: Pwogram devlopman ak dwa sivil</li>
-                    <li>Kanadà: Sipò sosyete sivil ak bòn gouvènans</li>
-                    <li>Òganizasyon entènasyonal ONG: Kolaborasyon ak gwoup lokal</li>
-                </ul>
-
-                <h2>Defi Sosyete Sivil ann Ayiti</h2>
-
-                <h3>Ensèkirite</h3>
-                <p>Vyolans gang yo limite kapasite òganizasyon yo pou opere:</p>
-                <ul>
-                    <li>Militanw dwa moun anba menas</li>
-                    <li>Biwo ONG fèmen akoz vyolans</li>
-                    <li>Difisil pou rive jwenn kominote nan zòn andanje</li>
-                    <li>Aktivis oblije kite peyi a</li>
-                </ul>
-
-                <h3>Mank Resous</h3>
-                <p>Anpil òganizasyon depann de finansman etranje:</p>
-                <ul>
-                    <li>Mank sibi lokalman</li>
-                    <li>Depandans sou donasyon entènasyonal</li>
-                    <li>Difikilte pou peye pèsonèl kalifye</li>
-                    <li>Ekipman ak enfrastrikti limite</li>
-                </ul>
-
-                <h3>Kriz Politik</h3>
-                <p>Enstabilite politik kreye anviwònman difisil:</p>
-                <ul>
-                    <li>Gouvènman ki chanje souvan pa bay kontinite</li>
-                    <li>Priorite politik pa reflete bezwen sosyete sivil</li>
-                    <li>Repression kont kritik gouvènman</li>
-                    <li>Mank espas pou dyalòg reyèl</li>
-                </ul>
-
-                <h3>Divizyon Entèn</h3>
-                <p>Sosyete sivil pa toujou ini:</p>
-                <ul>
-                    <li>Konpetisyon pou finansman kreye rivalite</li>
-                    <li>Diferans ideolojik separe òganizasyon</li>
-                    <li>Mank kòdinasyon limit enpak</li>
-                    <li>Kèk òganizasyon tro pre de politik</li>
-                </ul>
-
-                <h3>Mank Konfyans Piblik</h3>
-                <p>Apre deseni koripsyon, kèk sitwayen pa fè ONG konfyans:</p>
-                <ul>
-                    <li>Pèsepsyon ke ONG ap fè biznis</li>
-                    <li>Akizasyon move jesyon oswa koripsyon</li>
-                    <li>Santi òganizasyon twò lwen de reyalite pèp la</li>
-                    <li>Defi pou mobilize patisipasyon mas</li>
-                </ul>
-
-                <h2>Enpak Sosyete Sivil sou Chanjman Sosyal</h2>
-
-                <h3>Mouvman PetroChallenge (2018-2019)</h3>
-                <p>Sosyete sivil te jwe wòl santral nan mobilizasyon kont koripsyon:</p>
-                <ul>
-                    <li>Pibliye rapò UCREF sou detounman $4 milya</li>
-                    <li>Òganize manifestasyon ak grèv jeneral</li>
-                    <li>Itilize hashtag #KotKòbPetwoKaribea pou mobilize</li>
-                    <li>Mete presyon pou jistis (malgre echèk jiska kounye a)</li>
-                </ul>
-
-                <h3>Defans Dwa Tè Peyizan</h3>
-                <p>Òganizasyon peyizan te batay kont agribiznis ki ap pran tè yo:</p>
-                <ul>
-                    <li>Mouvman Tèt Kole lit pou souverènte alimantè</li>
-                    <li>MPNKP travay nan 10 depatman pou repopilasyon kochon ak agroecology</li>
-                    <li>OPODNE mobilize 56 kominote nan Nòdès</li>
-                    <li>Rezistans kont pwojè ki deplase peyizan</li>
-                </ul>
-
-                <h3>Avanse Dwa Fanm</h3>
-                <p>Mouvman fanm Ayisyen te genyen viktwa enpòtan:</p>
-                <ul>
-                    <li>Kriminalizasyon vyòl nan Kòd Penal 2005</li>
-                    <li>Lwa sou Patnè nan Fè 2013</li>
-                    <li>Kota 30% fanm nan pozisyon elektif (malgre pa toujou aplike)</li>
-                    <li>Kreye ministè ak enstitisyon pou dwa fanm</li>
-                </ul>
-
-                <h3>Monitè Eleksyon</h3>
-                <p>Sosyete sivil jwe yon wòl kle nan eleksyon:</p>
-                <ul>
-                    <li>Obsèvasyon elektoral endepandan</li>
-                    <li>Edikasyon votè</li>
-                    <li>Rapòte fwòd ak iregilarite</li>
-                    <li>Plede pou refòm elektoral</li>
-                </ul>
-
-                <h2>Kijan Angaje nan Sosyete Sivil</h2>
-
-                <h3>1. Jwenn yon Òganizasyon</h3>
-                <p>Chèche gwoup ki travay sou kesyon ki enpòtan pou ou:</p>
-                <ul>
-                    <li>Dwa moun, jistis, transpare</li>
-                    <li>Dwa fanm, egalite jand</li>
-                    <li>Anviwònman, agrikilti viab</li>
-                    <li>Edikasyon, sante, devlopman</li>
-                </ul>
-
-                <h3>2. Volontè Tan ou</h3>
-                <ul>
-                    <li>Patisipe nan aktivite òganizasyon</li>
-                    <li>Ofri konpetans ou (desen, teknoloji, jesyon)</li>
-                    <li>Ede nan kanpay enfòmasyon</li>
-                    <li>Sipòte lojistik pou evènman</li>
-                </ul>
-
-                <h3>3. Sipò Finansyèman</h3>
-                <ul>
-                    <li>Fè don menm ti kòb ka ede</li>
-                    <li>Vin manm òganizasyon</li>
-                    <li>Achte pwodui sosyal (artiza, koperativ)</li>
-                    <li>Patisipe nan aktivite levé fon</li>
-                </ul>
-
-                <h3>4. Pataje Enfòmasyon</h3>
-                <ul>
-                    <li>Swiv òganizasyon sou medya sosyal</li>
-                    <li>Pataje rapò ak enfòmasyon enpòtan</li>
-                    <li>Pale ak lòt moun sou travay òganizasyon yo</li>
-                    <li>Konbat dezenfòmasyon</li>
-                </ul>
-
-                <h3>5. Kreye Pwòp Òganizasyon Ou</h3>
-                <p>Si pa gen òganizasyon k ap travay sou pwoblèm ou wè:</p>
-                <ul>
-                    <li>Rasanble lòt moun ki pataje vizyon ou</li>
-                    <li>Defini misyon ak objektif klè</li>
-                    <li>Kòmanse ak aksyon ti echèl nan kominote ou</li>
-                    <li>Chèche sipò ak konseye lòt òganizasyon</li>
-                </ul>
-
-                <h2>Pwoteksyon Militanw Sosyete Sivil</h2>
-
-                <h3>Risk yo Konfwonte</h3>
-                <p>Militanw dwa moun ak jounalis ann Ayiti souvan anba menas:</p>
-                <ul>
-                    <li>Entimidason ak atak fizik</li>
-                    <li>Menas sou lavi yo</li>
-                    <li>Poursuit legal abiziv</li>
-                    <li>Kannpay difamasyon</li>
-                </ul>
-
-                <h3>Mezi Pwoteksyon</h3>
-                <ul>
-                    <li>Netwòk solidarite ant òganizasyon</li>
-                    <li>Alet rapid lè militanw anba menas</li>
-                    <li>Atansyon entènasyonal pou ka seriz</li>
-                    <li>Sipò legal ak sikolojik</li>
-                </ul>
-
-                <h3>Bezwen pou yon Lwa</h3>
-                <p>Ayiti bezwen yon lwa pou pwoteje defansè dwa moun ki ta:</p>
-                <ul>
-                    <li>Rekonèt wòl enpòtan militanw</li>
-                    <li>Garanti sekirite yo</li>
-                    <li>Sanksyone moun ki atake yo</li>
-                    <li>Pwoteje denonsyatè koripsyon</li>
-                </ul>
-
-                <h2>Avni Sosyete Sivil ann Ayiti</h2>
-
-                <h3>Opòtinite</h3>
-                <ul>
-                    <li><strong>Teknoloji:</strong> Medya sosyal ak platfòm dijital bay nouvo zouti pou mobilizasyon</li>
-                    <li><strong>Dyaspora:</strong> Ayisyen aletranje ka sipòte travay òganizasyon lokal</li>
-                    <li><strong>Jèn:</strong> Nouvo jenerasyon militanw ak ide inovatè</li>
-                    <li><strong>Rezilians:</strong> Istwa rich rezistans ak solidarite</li>
-                </ul>
-
-                <h3>Defi Kontinye</h3>
-                <ul>
-                    <li>Bezwen pou plis sibi lokal ak mwens depandans etranje</li>
-                    <li>Ranfòse kòdinasyon ant òganizasyon</li>
-                    <li>Pwofi nan kominote riral ak zòn manzinen</li>
-                    <li>Rebati konfyans ant òganizasyon ak mas popilè</li>
-                </ul>
-
-                <h3>Priyorite pou Lavan</h3>
-                <ul>
-                    <li>Ranfòse kapasite òganizasyon lokal</li>
-                    <li>Pwoteje militanw dwa moun</li>
-                    <li>Pwomote transpare nan sektè sosyete sivil</li>
-                    <li>Ankouraje patisipasyon sitwayen mas</li>
-                    <li>Bati alianz solid pou chanjman sosyal</li>
-                </ul>
-
-                <h2>Konklizyon</h2>
-                <p>Sosyete sivil se espindòsal yon demokrasi ki fonksyone. Ann Ayiti, malgre defi enormès, òganizasyon sosyete sivil kontinye defann dwa sitwayen, mande responsabilite gouvènman, ak travay pou yon sosyete pi jis.</p>
-
-                <p>Chak sitwayen ka kontribye nan sosyete sivil – kit se kòm manm yon òganizasyon, volontè, donasyon, oswa senpleman pataje enfòmasyon ak defann prensip demokratik.</p>
-
-                <p><strong>Sosyete sivil se vwa pèp la. Lè nou òganize ansanm, nou pi fò pase gouvènman ki pa rann kont, kriminèl ki abize pouvwa, ak sistèm ki eksplwate nou.</strong></p>
-
-                <h2>Referans</h2>
-                <ul>
-                    <li><a href="https://www.usaid.gov/haiti/democracy-and-governance" target="_blank">USAID Civil Society Strengthening Program (USAID)</a></li>
-                    <li><a href="https://rnddh.org" target="_blank">RNDDH - Réseau National de Défense des Droits Humains</a></li>
-                    <li><a href="https://jilap-haiti.org" target="_blank">JILAP - Commission Justice et Paix</a></li>
-                    <li><a href="https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/droits-de-l-homme/actualites-et-evenements-lies-aux-droits-de-l-homme/actualites-2024/article/lancement-de-l-appel-a-projets-fonds-egalite-femmes-en-haiti-2025-2026" target="_blank">Fonds Egalité Femmes 2025-2026 (French Embassy)</a></li>
-                    <li><a href="https://www.sofa-haiti.org" target="_blank">SOFA - Solidarite Fanm Ayisyen</a></li>
-                    <li><a href="https://www.ijdh.org/our-work/democracy-in-haiti/civil-society/" target="_blank">Civil Society in Haiti (IJDH)</a></li>
-                </ul>
-            ' data-en='
-                <h2>What is Civil Society?</h2>
-                <p>Civil society is all the organizations, groups, and associations that exist between government and private families. It is the space where citizens gather to engage in public issues, defend their interests, and work for the common good.</p>
-
-                <p>Civil society includes:</p>
-                <ul>
-                    <li><strong>NGOs (Non-Governmental Organizations):</strong> Groups working on development, human rights, environment</li>
-                    <li><strong>Unions:</strong> Organizations defending workers' rights</li>
-                    <li><strong>Professional Associations:</strong> Groups of doctors, lawyers, journalists, agronomists</li>
-                    <li><strong>Religious Groups:</strong> Churches, religious confederations, faith-based organizations</li>
-                    <li><strong>Social Movements:</strong> Groups fighting for social justice, women's rights, environment</li>
-                    <li><strong>Community Organizations:</strong> Neighborhood committees, village groups, local associations</li>
-                </ul>
-
-                <h2>Role of Civil Society in Democracy</h2>
-
-                <h3>1. Government Accountability</h3>
-                <p>Civil society watches government and demands responsibility:</p>
-                <ul>
-                    <li>Monitor how government spends public money</li>
-                    <li>Report corruption and abuse of power</li>
-                    <li>Demand transparency in political decisions</li>
-                    <li>Expose human rights violations</li>
-                </ul>
-
-                <h3>2. Citizen Representation</h3>
-                <p>Civil society gives voice to groups often unheard:</p>
-                <ul>
-                    <li>Defend interests of peasants, poor people, women, youth</li>
-                    <li>Bring community concerns to authorities</li>
-                    <li>Create platforms for citizen participation</li>
-                    <li>Mobilize people to protect their rights</li>
-                </ul>
-
-                <h3>3. Civic Education</h3>
-                <p>Civil society informs and educates citizens:</p>
-                <ul>
-                    <li>Teach people about their rights and responsibilities</li>
-                    <li>Explain how political system works</li>
-                    <li>Encourage democratic participation</li>
-                    <li>Combat disinformation</li>
-                </ul>
-
-                <h3>4. Social Services</h3>
-                <p>Many civil society organizations offer direct services:</p>
-                <ul>
-                    <li>Health clinics in areas without access</li>
-                    <li>Education and training programs</li>
-                    <li>Legal assistance for people without means</li>
-                    <li>Emergency relief</li>
-                </ul>
-
-                <h3>5. Space for Public Debate</h3>
-                <p>Civil society creates space for democratic discourse:</p>
-                <ul>
-                    <li>Organize forums and debates on public issues</li>
-                    <li>Facilitate dialogue between different groups</li>
-                    <li>Promote culture of tolerance and respect</li>
-                    <li>Encourage citizen participation in local decisions</li>
-                </ul>
-
-                <h2>Civil Society in Haiti: Historical Context</h2>
-
-                <h3>Colonial and Post-Independence Period</h3>
-                <p>Since colonial times, Haitians have organized in groups for resistance and solidarity. Lakou, secret societies, and vodou organizations played roles in social mobilization.</p>
-
-                <h3>Under Duvalier Dictatorship (1957-1986)</h3>
-                <p>The Duvalier dictatorship crushed independent organizations. The Catholic Church and some religious groups remained one of the few spaces of resistance. Mission radio played a key role in information and mobilization.</p>
-
-                <h3>After 1986: Renaissance of Civil Society</h3>
-                <p>After Duvalier's fall, there was an explosion of civil society organizations:</p>
-                <ul>
-                    <li>Human rights NGOs multiplied</li>
-                    <li>Women's groups and peasant movements organized</li>
-                    <li>Professional associations reformed</li>
-                    <li>Independent media developed</li>
-                </ul>
-
-                <h3>Today</h3>
-                <p>Haiti has a vibrant civil society but confronting major challenges. Insecurity, poverty, and political instability limit organizational capacity.</p>
-
-                <h2>Key Civil Society Organizations in Haiti</h2>
-
-                <h3>Human Rights and Justice</h3>
-                <ul>
-                    <li><strong>RNDDH (National Network for Defense of Human Rights):</strong> Network that monitors human rights violations, publishes reports, and defends victims</li>
-                    <li><strong>JILAP (Justice and Peace Commission):</strong> Church commission working on justice, peace, and human rights</li>
-                    <li><strong>Fondasyon 30 Septanm:</strong> Organization defending citizen rights and fighting impunity</li>
-                    <li><strong>CONHANE (National Council of Haitian Civil Society):</strong> Council coordinating multiple organizations' actions</li>
-                </ul>
-
-                <h3>Women's Rights</h3>
-                <ul>
-                    <li><strong>SOFA (Solidarite Fanm Ayisyen):</strong> Fight for women's rights, gender justice, and equality</li>
-                    <li><strong>Kay Fanm:</strong> Support violence victims and empowerment programs</li>
-                    <li><strong>AFASDA:</strong> Association defending women's rights in development</li>
-                    <li><strong>FEF (Fonds Egalité Femmes) 2025-2026:</strong> French Embassy fund financing women's rights projects</li>
-                </ul>
-
-                <h3>Rural Development and Peasants</h3>
-                <ul>
-                    <li><strong>MPP (Mouvman Peyizan Papay):</strong> Movement defending peasant land and sustainable agriculture</li>
-                    <li><strong>Tèt Kole Ti Peyizan Ayisyen:</strong> Network fighting for food sovereignty</li>
-                    <li><strong>MPNKP (National Peasant Movement Kongre Papay):</strong> 10 departments, working on pig repopulation, agroecology</li>
-                    <li><strong>OPODNE:</strong> Organization working with 56 communities in Northeast</li>
-                </ul>
-
-                <h3>Environment</h3>
-                <ul>
-                    <li><strong>Fondation Seguin:</strong> Reforestation and watershed protection</li>
-                    <li><strong>CROSE (Center for Socio-Environmental Research and Observation):</strong> Research and environmental advocacy</li>
-                    <li><strong>Land Reform Groups:</strong> Fight for reasonable land management</li>
-                </ul>
-
-                <h3>Education and Youth</h3>
-                <ul>
-                    <li><strong>FOKAL:</strong> Training, civic education, and cultural</li>
-                    <li><strong>EDE-RED Groups:</strong> Education and youth empowerment</li>
-                    <li><strong>FONHDILAC:</strong> Foundation for education and community development</li>
-                </ul>
-
-                <h2>Transitional Presidential Council (CPT) and Civil Society</h2>
-
-                <h3>CPT Composition</h3>
-                <p>In March 2024, Haiti established a Transitional Presidential Council with 9 members:</p>
-                <ul>
-                    <li><strong>7 voting members:</strong> Represent political parties and civil society sectors</li>
-                    <li><strong>2 non-voting observers:</strong> Participate in discussions but don't vote</li>
-                </ul>
-
-                <h3>Civil Society Participation</h3>
-                <p>Civil society participated in creating the CPT:</p>
-                <ul>
-                    <li>Negotiation of political agreement leading to CPT</li>
-                    <li>Representation of some sectors in the Council</li>
-                    <li>Monitoring CPT actions</li>
-                    <li>Demanding transparency and accountability</li>
-                </ul>
-
-                <h3>Challenges and Criticism</h3>
-                <p>Civil society criticized CPT for:</p>
-                <ul>
-                    <li>Lack of transparency in decisions</li>
-                    <li>Conflicts of interest among members</li>
-                    <li>Not consulting ordinary citizens</li>
-                    <li>Repeating traditional political errors</li>
-                </ul>
-
-                <h2>Civil Society Strengthening Programs</h2>
-
-                <h3>USAID Civil Society Strengthening Program</h3>
-                <p>USAID supports programs to strengthen Haitian civil society capacity:</p>
-                <ul>
-                    <li>Training on organizational management</li>
-                    <li>Financial support for community projects</li>
-                    <li>Strengthening advocacy capacity</li>
-                    <li>Networking between organizations</li>
-                </ul>
-
-                <h3>FEF (Fonds Egalité Femmes) 2025-2026</h3>
-                <p>French Embassy launched FEF to support organizations working on women's rights:</p>
-                <ul>
-                    <li>Finance gender equality projects</li>
-                    <li>Support fight against gender-based violence</li>
-                    <li>Women's economic empowerment</li>
-                    <li>Women's political participation</li>
-                </ul>
-
-                <h3>Other International Partners</h3>
-                <ul>
-                    <li>European Union: Support human rights and democracy</li>
-                    <li>United Nations: Development and civil rights programs</li>
-                    <li>Canada: Support civil society and good governance</li>
-                    <li>International NGO organizations: Collaboration with local groups</li>
-                </ul>
-
-                <h2>Civil Society Challenges in Haiti</h2>
-
-                <h3>Insecurity</h3>
-                <p>Gang violence limits organizational capacity to operate:</p>
-                <ul>
-                    <li>Human rights activists under threat</li>
-                    <li>NGO offices closed due to violence</li>
-                    <li>Difficult to reach communities in dangerous areas</li>
-                    <li>Activists forced to leave the country</li>
-                </ul>
-
-                <h3>Lack of Resources</h3>
-                <p>Many organizations depend on foreign funding:</p>
-                <ul>
-                    <li>Lack of local sustainability</li>
-                    <li>Dependence on international donations</li>
-                    <li>Difficulty paying qualified staff</li>
-                    <li>Limited equipment and infrastructure</li>
-                </ul>
-
-                <h3>Political Crisis</h3>
-                <p>Political instability creates difficult environment:</p>
-                <ul>
-                    <li>Frequently changing governments don't provide continuity</li>
-                    <li>Political priorities don't reflect civil society needs</li>
-                    <li>Repression against government critics</li>
-                    <li>Lack of space for real dialogue</li>
-                </ul>
-
-                <h3>Internal Divisions</h3>
-                <p>Civil society not always united:</p>
-                <ul>
-                    <li>Competition for funding creates rivalry</li>
-                    <li>Ideological differences separate organizations</li>
-                    <li>Lack of coordination limits impact</li>
-                    <li>Some organizations too close to politics</li>
-                </ul>
-
-                <h3>Lack of Public Trust</h3>
-                <p>After decades of corruption, some citizens don't trust NGOs:</p>
-                <ul>
-                    <li>Perception that NGOs are doing business</li>
-                    <li>Accusations of mismanagement or corruption</li>
-                    <li>Feel organizations too far from people's reality</li>
-                    <li>Challenge to mobilize mass participation</li>
-                </ul>
-
-                <h2>Civil Society Impact on Social Change</h2>
-
-                <h3>PetroChallenge Movement (2018-2019)</h3>
-                <p>Civil society played central role in mobilization against corruption:</p>
-                <ul>
-                    <li>Published UCREF report on embezzlement of $4 billion</li>
-                    <li>Organized demonstrations and general strikes</li>
-                    <li>Used hashtag #KotKòbPetwoKaribea to mobilize</li>
-                    <li>Put pressure for justice (despite failure so far)</li>
-                </ul>
-
-                <h3>Defense of Peasant Land Rights</h3>
-                <p>Peasant organizations fought against agribusiness taking their land:</p>
-                <ul>
-                    <li>Tèt Kole movement fighting for food sovereignty</li>
-                    <li>MPNKP working in 10 departments for pig repopulation and agroecology</li>
-                    <li>OPODNE mobilizing 56 communities in Northeast</li>
-                    <li>Resistance against projects displacing peasants</li>
-                </ul>
-
-                <h3>Advancing Women's Rights</h3>
-                <p>Haitian women's movement achieved important victories:</p>
-                <ul>
-                    <li>Criminalization of rape in 2005 Penal Code</li>
-                    <li>2013 Law on Common Law Partners</li>
-                    <li>30% women quota in elective positions (though not always applied)</li>
-                    <li>Created ministries and institutions for women's rights</li>
-                </ul>
-
-                <h3>Election Monitoring</h3>
-                <p>Civil society plays key role in elections:</p>
-                <ul>
-                    <li>Independent electoral observation</li>
-                    <li>Voter education</li>
-                    <li>Reporting fraud and irregularities</li>
-                    <li>Advocacy for electoral reform</li>
-                </ul>
-
-                <h2>How to Engage in Civil Society</h2>
-
-                <h3>1. Join an Organization</h3>
-                <p>Search for groups working on issues important to you:</p>
-                <ul>
-                    <li>Human rights, justice, transparency</li>
-                    <li>Women's rights, gender equality</li>
-                    <li>Environment, sustainable agriculture</li>
-                    <li>Education, health, development</li>
-                </ul>
-
-                <h3>2. Volunteer Your Time</h3>
-                <ul>
-                    <li>Participate in organization activities</li>
-                    <li>Offer your skills (design, technology, management)</li>
-                    <li>Help in information campaigns</li>
-                    <li>Support event logistics</li>
-                </ul>
-
-                <h3>3. Financial Support</h3>
-                <ul>
-                    <li>Donate even small amounts help</li>
-                    <li>Become organization member</li>
-                    <li>Buy social products (artisan, cooperatives)</li>
-                    <li>Participate in fundraising activities</li>
-                </ul>
-
-                <h3>4. Share Information</h3>
-                <ul>
-                    <li>Follow organizations on social media</li>
-                    <li>Share reports and important information</li>
-                    <li>Talk to others about organizations' work</li>
-                    <li>Combat disinformation</li>
-                </ul>
-
-                <h3>5. Create Your Own Organization</h3>
-                <p>If no organization is working on problems you see:</p>
-                <ul>
-                    <li>Gather others who share your vision</li>
-                    <li>Define clear mission and objectives</li>
-                    <li>Start with small-scale actions in your community</li>
-                    <li>Seek support and advice from other organizations</li>
-                </ul>
-
-                <h2>Protection of Civil Society Activists</h2>
-
-                <h3>Risks They Face</h3>
-                <p>Human rights activists and journalists in Haiti often under threat:</p>
-                <ul>
-                    <li>Intimidation and physical attacks</li>
-                    <li>Threats to their lives</li>
-                    <li>Abusive legal prosecution</li>
-                    <li>Defamation campaigns</li>
-                </ul>
-
-                <h3>Protection Measures</h3>
-                <ul>
-                    <li>Solidarity network between organizations</li>
-                    <li>Rapid alert when activists under threat</li>
-                    <li>International attention for serious cases</li>
-                    <li>Legal and psychological support</li>
-                </ul>
-
-                <h3>Need for a Law</h3>
-                <p>Haiti needs a law to protect human rights defenders that would:</p>
-                <ul>
-                    <li>Recognize activists' important role</li>
-                    <li>Guarantee their security</li>
-                    <li>Sanction people who attack them</li>
-                    <li>Protect corruption whistleblowers</li>
-                </ul>
-
-                <h2>Future of Civil Society in Haiti</h2>
-
-                <h3>Opportunities</h3>
-                <ul>
-                    <li><strong>Technology:</strong> Social media and digital platforms provide new mobilization tools</li>
-                    <li><strong>Diaspora:</strong> Haitians abroad can support local organizations' work</li>
-                    <li><strong>Youth:</strong> New generation of activists with innovative ideas</li>
-                    <li><strong>Resilience:</strong> Rich history of resistance and solidarity</li>
-                </ul>
-
-                <h3>Continuing Challenges</h3>
-                <ul>
-                    <li>Need for more local sustainability and less foreign dependence</li>
-                    <li>Strengthen coordination between organizations</li>
-                    <li>Deepen in rural communities and marginalized areas</li>
-                    <li>Rebuild trust between organizations and popular masses</li>
-                </ul>
-
-                <h3>Priorities for the Future</h3>
-                <ul>
-                    <li>Strengthen local organizational capacity</li>
-                    <li>Protect human rights activists</li>
-                    <li>Promote transparency in civil society sector</li>
-                    <li>Encourage mass citizen participation</li>
-                    <li>Build solid alliances for social change</li>
-                </ul>
-
-                <h2>Conclusion</h2>
-                <p>Civil society is the backbone of a functioning democracy. In Haiti, despite enormous challenges, civil society organizations continue to defend citizen rights, demand government accountability, and work for a more just society.</p>
-
-                <p>Every citizen can contribute to civil society – whether as member of an organization, volunteer, donor, or simply by sharing information and defending democratic principles.</p>
-
-                <p><strong>Civil society is the people's voice. When we organize together, we are stronger than governments that don't account, criminals who abuse power, and systems that exploit us.</strong></p>
-
-                <h2>References</h2>
-                <ul>
-                    <li><a href="https://www.usaid.gov/haiti/democracy-and-governance" target="_blank">USAID Civil Society Strengthening Program (USAID)</a></li>
-                    <li><a href="https://rnddh.org" target="_blank">RNDDH - National Network for Defense of Human Rights</a></li>
-                    <li><a href="https://jilap-haiti.org" target="_blank">JILAP - Justice and Peace Commission</a></li>
-                    <li><a href="https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/droits-de-l-homme/actualites-et-evenements-lies-aux-droits-de-l-homme/actualites-2024/article/lancement-de-l-appel-a-projets-fonds-egalite-femmes-en-haiti-2025-2026" target="_blank">Fonds Egalité Femmes 2025-2026 (French Embassy)</a></li>
-                    <li><a href="https://www.sofa-haiti.org" target="_blank">SOFA - Solidarite Fanm Ayisyen</a></li>
-                    <li><a href="https://www.ijdh.org/our-work/democracy-in-haiti/civil-society/" target="_blank">Civil Society in Haiti (IJDH)</a></li>
-                </ul>
-            '>
+            <p class="legal-date" data-ht="Aprann sou wòl sosyete sivil nan demokrasi Ayiti" data-en="Learn about the role of civil society in Haiti's democracy">Aprann sou wòl sosyete sivil nan demokrasi Ayiti</p>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText" data-ht="Pwogresyon: 0%" data-en="Progress: 0%">Pwogresyon: 0%</div>
+            </div>
+
+            <div class="legal-content">
+                <!-- Section 1 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Ki Sa Sosyete Sivil Ye?" data-en="What is Civil Society?">Ki Sa Sosyete Sivil Ye?</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Sosyete sivil se tout òganizasyon, gwoup, ak asosyasyon ki egziste ant gouvènman an ak fanmi prive yo. Se espas kote sitwayen yo rasanble pou angaje nan kesyon piblik, defann enterè yo, ak travay pou byen komen." data-en="Civil society is all the organizations, groups, and associations that exist between government and private families. It is the space where citizens gather to engage in public issues, defend their interests, and work for the common good.">Sosyete sivil se tout òganizasyon, gwoup, ak asosyasyon ki egziste ant gouvènman an ak fanmi prive yo. Se espas kote sitwayen yo rasanble pou angaje nan kesyon piblik, defann enterè yo, ak travay pou byen komen.</p>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="ONG" data-en="NGOs">ONG</h3>
+                                    <p data-ht="Gwoup ki travay sou devlopman, dwa moun, anviwònman" data-en="Groups working on development, human rights, environment">Gwoup ki travay sou devlopman, dwa moun, anviwònman</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Sendika" data-en="Unions">Sendika</h3>
+                                    <p data-ht="Òganizasyon k ap defann dwa travayè" data-en="Organizations defending workers' rights">Òganizasyon k ap defann dwa travayè</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Asosyasyon Pwofesyonèl" data-en="Professional Associations">Asosyasyon Pwofesyonèl</h3>
+                                    <p data-ht="Gwoup doktè, avoka, jounalis, agwonòm" data-en="Groups of doctors, lawyers, journalists, agronomists">Gwoup doktè, avoka, jounalis, agwonòm</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Mouvman Sosyal" data-en="Social Movements">Mouvman Sosyal</h3>
+                                    <p data-ht="Gwoup k ap lit pou jistis sosyal, dwa fanm, anviwònman" data-en="Groups fighting for social justice, women's rights, environment">Gwoup k ap lit pou jistis sosyal, dwa fanm, anviwònman</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Òganizasyon Kominotè" data-en="Community Organizations">Òganizasyon Kominotè</h3>
+                                    <p data-ht="Komite katye, gwoupman vilaj, asosyasyon lokal" data-en="Neighborhood committees, village groups, local associations">Komite katye, gwoupman vilaj, asosyasyon lokal</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Gwoup Relijye" data-en="Religious Groups">Gwoup Relijye</h3>
+                                    <p data-ht="Legliz, konfederasyon relijye, òganizasyon fe baze" data-en="Churches, religious confederations, faith-based organizations">Legliz, konfederasyon relijye, òganizasyon fe baze</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Wòl Sosyete Sivil nan Demokrasi" data-en="Role of Civil Society in Democracy">Wòl Sosyete Sivil nan Demokrasi</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="1. Kontwòl Gouvènman" data-en="1. Government Accountability">1. Kontwòl Gouvènman</h3>
+                                <ul>
+                                    <li data-ht="Monitè kijan gouvènman depanse lajan piblik" data-en="Monitor how government spends public money">Monitè kijan gouvènman depanse lajan piblik</li>
+                                    <li data-ht="Rapòte koripsyon ak abiz pouvwa" data-en="Report corruption and abuse of power">Rapòte koripsyon ak abiz pouvwa</li>
+                                    <li data-ht="Mande transpare nan desizyon politik" data-en="Demand transparency in political decisions">Mande transpare nan desizyon politik</li>
+                                    <li data-ht="Ekspoze vyolasyon dwa moun" data-en="Expose human rights violations">Ekspoze vyolasyon dwa moun</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="2. Reprezantasyon Sitwayen" data-en="2. Citizen Representation">2. Reprezantasyon Sitwayen</h3>
+                                <ul>
+                                    <li data-ht="Defann enterè peyizan, moun pòv, fanm, jèn" data-en="Defend interests of peasants, poor people, women, youth">Defann enterè peyizan, moun pòv, fanm, jèn</li>
+                                    <li data-ht="Pote preokipasyon kominote bay loritè yo" data-en="Bring community concerns to authorities">Pote preokipasyon kominote bay loritè yo</li>
+                                    <li data-ht="Kreye platfòm pou patisipasyon sitwayen" data-en="Create platforms for citizen participation">Kreye platfòm pou patisipasyon sitwayen</li>
+                                    <li data-ht="Mobilize moun pou pwoteje dwa yo" data-en="Mobilize people to protect their rights">Mobilize moun pou pwoteje dwa yo</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="3. Edikasyon Sivik" data-en="3. Civic Education">3. Edikasyon Sivik</h3>
+                                <ul>
+                                    <li data-ht="Aprann moun sou dwa yo ak responsabilite yo" data-en="Teach people about their rights and responsibilities">Aprann moun sou dwa yo ak responsabilite yo</li>
+                                    <li data-ht="Eksplike kijan sistèm politik fonksyone" data-en="Explain how political system works">Eksplike kijan sistèm politik fonksyone</li>
+                                    <li data-ht="Ankouraje patisipasyon demokratik" data-en="Encourage democratic participation">Ankouraje patisipasyon demokratik</li>
+                                    <li data-ht="Konbat dezenfòmasyon" data-en="Combat disinformation">Konbat dezenfòmasyon</li>
+                                </ul>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Sosyete sivil se kontrapwa ki gade gouvènman ak defann enterè pèp la. Se vwa moun ki souvan pa tande nan espas politik ofisyèl." data-en="Civil society is the counterweight that watches government and defends people's interests. It's the voice of those often unheard in official political spaces.">Sosyete sivil se kontrapwa ki gade gouvènman ak defann enterè pèp la. Se vwa moun ki souvan pa tande nan espas politik ofisyèl.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 1 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 1" data-en="Knowledge Check 1">Tès Konesans 1</h3>
+                    <p data-ht="Ki youn nan wòl prensipal sosyete sivil nan yon demokrasi?" data-en="What is one of the main roles of civil society in a democracy?">Ki youn nan wòl prensipal sosyete sivil nan yon demokrasi?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Ranplase gouvènman an" data-en="Replace the government">Ranplase gouvènman an</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Kontwole gouvènman ak mande responsabilite" data-en="Monitor government and demand accountability">Kontwole gouvènman ak mande responsabilite</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Fè biznis ak gouvènman an" data-en="Do business with the government">Fè biznis ak gouvènman an</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Vote pou prezidan" data-en="Vote for president">Vote pou prezidan</div>
+                    </div>
+                </div>
+
+                <!-- Section 3 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Òganizasyon Sosyete Sivil Kle ann Ayiti" data-en="Key Civil Society Organizations in Haiti">Òganizasyon Sosyete Sivil Kle ann Ayiti</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Dwa Moun ak Jistis" data-en="Human Rights and Justice">Dwa Moun ak Jistis</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3>RNDDH</h3>
+                                    <p data-ht="Rezò ki monitè vyolasyon dwa moun, pibliye rapò, ak defann viktim" data-en="Network that monitors human rights violations, publishes reports, and defends victims">Rezò ki monitè vyolasyon dwa moun, pibliye rapò, ak defann viktim</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>JILAP</h3>
+                                    <p data-ht="Komisyon Legliz ki travay sou jistis, lapè, ak dwa moun" data-en="Church commission working on justice, peace, and human rights">Komisyon Legliz ki travay sou jistis, lapè, ak dwa moun</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Fondasyon 30 Septanm" data-en="Fondasyon 30 Septanm">Fondasyon 30 Septanm</h3>
+                                    <p data-ht="Òganizasyon ki defann dwa sitwayen ak lit kont enpinite" data-en="Organization defending citizen rights and fighting impunity">Òganizasyon ki defann dwa sitwayen ak lit kont enpinite</p>
+                                </div>
+                            </div>
+
+                            <h3 style="margin-top: 2rem;" data-ht="Dwa Fanm" data-en="Women's Rights">Dwa Fanm</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3>SOFA</h3>
+                                    <p data-ht="Lit pou dwa fanm, jistis jand, ak egalite" data-en="Fight for women's rights, gender justice, and equality">Lit pou dwa fanm, jistis jand, ak egalite</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>Kay Fanm</h3>
+                                    <p data-ht="Sipò viktim vyolans ak pwogram responsabilizasyon" data-en="Support violence victims and empowerment programs">Sipò viktim vyolans ak pwogram responsabilizasyon</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>AFASDA</h3>
+                                    <p data-ht="Asosyasyon k ap defann dwa fanm nan devlopman" data-en="Association defending women's rights in development">Asosyasyon k ap defann dwa fanm nan devlopman</p>
+                                </div>
+                            </div>
+
+                            <h3 style="margin-top: 2rem;" data-ht="Devlopman Riral ak Peyizan" data-en="Rural Development and Peasants">Devlopman Riral ak Peyizan</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3>MPP</h3>
+                                    <p data-ht="Mouvman k ap defann tè peyizan ak agrikilti viab" data-en="Movement defending peasant land and sustainable agriculture">Mouvman k ap defann tè peyizan ak agrikilti viab</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Tèt Kole" data-en="Tèt Kole">Tèt Kole</h3>
+                                    <p data-ht="Rezwo k ap lit pou souverènte alimantè" data-en="Network fighting for food sovereignty">Rezwo k ap lit pou souverènte alimantè</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>MPNKP</h3>
+                                    <p data-ht="10 depatman, travay sou repopilasyon kochon, agroecology" data-en="10 departments, working on pig repopulation, agroecology">10 depatman, travay sou repopilasyon kochon, agroecology</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>OPODNE</h3>
+                                    <p data-ht="Òganizasyon ki travay ak 56 kominote nan Nòdès" data-en="Organization working with 56 communities in Northeast">Òganizasyon ki travay ak 56 kominote nan Nòdès</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Defi Sosyete Sivil ann Ayiti" data-en="Civil Society Challenges in Haiti">Defi Sosyete Sivil ann Ayiti</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Ensèkirite" data-en="Insecurity">Ensèkirite</h3>
+                                    <ul>
+                                        <li data-ht="Militanw dwa moun anba menas" data-en="Human rights activists under threat">Militanw dwa moun anba menas</li>
+                                        <li data-ht="Biwo ONG fèmen akoz vyolans" data-en="NGO offices closed due to violence">Biwo ONG fèmen akoz vyolans</li>
+                                        <li data-ht="Difisil pou rive jwenn kominote nan zòn andanje" data-en="Difficult to reach communities in dangerous areas">Difisil pou rive jwenn kominote nan zòn andanje</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Mank Resous" data-en="Lack of Resources">Mank Resous</h3>
+                                    <ul>
+                                        <li data-ht="Mank sibi lokalman" data-en="Lack of local sustainability">Mank sibi lokalman</li>
+                                        <li data-ht="Depandans sou donasyon entènasyonal" data-en="Dependence on international donations">Depandans sou donasyon entènasyonal</li>
+                                        <li data-ht="Difikilte pou peye pèsonèl kalifye" data-en="Difficulty paying qualified staff">Difikilte pou peye pèsonèl kalifye</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Kriz Politik" data-en="Political Crisis">Kriz Politik</h3>
+                                    <ul>
+                                        <li data-ht="Gouvènman ki chanje souvan pa bay kontinite" data-en="Frequently changing governments don't provide continuity">Gouvènman ki chanje souvan pa bay kontinite</li>
+                                        <li data-ht="Repression kont kritik gouvènman" data-en="Repression against government critics">Repression kont kritik gouvènman</li>
+                                        <li data-ht="Mank espas pou dyalòg reyèl" data-en="Lack of space for real dialogue">Mank espas pou dyalòg reyèl</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Divizyon Entèn" data-en="Internal Divisions">Divizyon Entèn</h3>
+                                    <ul>
+                                        <li data-ht="Konpetisyon pou finansman kreye rivalite" data-en="Competition for funding creates rivalry">Konpetisyon pou finansman kreye rivalite</li>
+                                        <li data-ht="Diferans ideolojik separe òganizasyon" data-en="Ideological differences separate organizations">Diferans ideolojik separe òganizasyon</li>
+                                        <li data-ht="Mank kòdinasyon limit enpak" data-en="Lack of coordination limits impact">Mank kòdinasyon limit enpak</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Malgre defi yo, sosyete sivil Ayisyen kontinye lite. Se rezilians sa a ki fè espwa pou lavni." data-en="Despite challenges, Haitian civil society continues to fight. It's this resilience that gives hope for the future.">Malgre defi yo, sosyete sivil Ayisyen kontinye lite. Se rezilians sa a ki fè espwa pou lavni.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 2 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 2" data-en="Knowledge Check 2">Tès Konesans 2</h3>
+                    <p data-ht="Ki youn nan pi gwo defi sosyete sivil ann Ayiti ap konfwonte?" data-en="What is one of the biggest challenges civil society in Haiti faces?">Ki youn nan pi gwo defi sosyete sivil ann Ayiti ap konfwonte?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Twòp sipò entènasyonal" data-en="Too much international support">Twòp sipò entènasyonal</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Ensèkirite ki limite kapasite òganize" data-en="Insecurity that limits organizing capacity">Ensèkirite ki limite kapasite òganize</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Twòp moun vle patisipe" data-en="Too many people want to participate">Twòp moun vle patisipe</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Pa gen pwoblèm" data-en="No problems">Pa gen pwoblèm</div>
+                    </div>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Enpak Sosyete Sivil sou Chanjman" data-en="Civil Society Impact on Change">Enpak Sosyete Sivil sou Chanjman</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="Mouvman PetroChallenge (2018-2019)" data-en="PetroChallenge Movement (2018-2019)">Mouvman PetroChallenge (2018-2019)</h3>
+                                <ul>
+                                    <li data-ht="Pibliye rapò UCREF sou detounman $4 milya" data-en="Published UCREF report on embezzlement of $4 billion">Pibliye rapò UCREF sou detounman $4 milya</li>
+                                    <li data-ht="Òganize manifestasyon ak grèv jeneral" data-en="Organized demonstrations and general strikes">Òganize manifestasyon ak grèv jeneral</li>
+                                    <li data-ht="Itilize hashtag #KotKòbPetwoKaribea pou mobilize" data-en="Used hashtag #KotKòbPetwoKaribea to mobilize">Itilize hashtag #KotKòbPetwoKaribea pou mobilize</li>
+                                    <li data-ht="Mete presyon pou jistis" data-en="Put pressure for justice">Mete presyon pou jistis</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="Avanse Dwa Fanm" data-en="Advancing Women's Rights">Avanse Dwa Fanm</h3>
+                                <ul>
+                                    <li data-ht="Kriminalizasyon vyòl nan Kòd Penal 2005" data-en="Criminalization of rape in 2005 Penal Code">Kriminalizasyon vyòl nan Kòd Penal 2005</li>
+                                    <li data-ht="Lwa sou Patnè nan Fè 2013" data-en="2013 Law on Common Law Partners">Lwa sou Patnè nan Fè 2013</li>
+                                    <li data-ht="Kota 30% fanm nan pozisyon elektif" data-en="30% women quota in elective positions">Kota 30% fanm nan pozisyon elektif</li>
+                                    <li data-ht="Kreye ministè ak enstitisyon pou dwa fanm" data-en="Created ministries and institutions for women's rights">Kreye ministè ak enstitisyon pou dwa fanm</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-card">
+                                <h3 data-ht="Defans Dwa Tè Peyizan" data-en="Defense of Peasant Land Rights">Defans Dwa Tè Peyizan</h3>
+                                <ul>
+                                    <li data-ht="Mouvman Tèt Kole lit pou souverènte alimantè" data-en="Tèt Kole movement fighting for food sovereignty">Mouvman Tèt Kole lit pou souverènte alimantè</li>
+                                    <li data-ht="MPNKP travay nan 10 depatman pou agroecology" data-en="MPNKP working in 10 departments for agroecology">MPNKP travay nan 10 depatman pou agroecology</li>
+                                    <li data-ht="Rezistans kont pwojè ki deplase peyizan" data-en="Resistance against projects displacing peasants">Rezistans kont pwojè ki deplase peyizan</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 6 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Kijan Angaje nan Sosyete Sivil" data-en="How to Engage in Civil Society">Kijan Angaje nan Sosyete Sivil</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="1. Jwenn yon Òganizasyon" data-en="1. Join an Organization">1. Jwenn yon Òganizasyon</h3>
+                                    <p data-ht="Chèche gwoup ki travay sou kesyon ki enpòtan pou ou: dwa moun, jistis, anviwònman, edikasyon, sante." data-en="Search for groups working on issues important to you: human rights, justice, environment, education, health.">Chèche gwoup ki travay sou kesyon ki enpòtan pou ou: dwa moun, jistis, anviwònman, edikasyon, sante.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="2. Volontè Tan ou" data-en="2. Volunteer Your Time">2. Volontè Tan ou</h3>
+                                    <p data-ht="Patisipe nan aktivite òganizasyon, ofri konpetans ou, ede nan kanpay enfòmasyon." data-en="Participate in organization activities, offer your skills, help in information campaigns.">Patisipe nan aktivite òganizasyon, ofri konpetans ou, ede nan kanpay enfòmasyon.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="3. Sipò Finansyèman" data-en="3. Financial Support">3. Sipò Finansyèman</h3>
+                                    <p data-ht="Fè don menm ti kòb ka ede, vin manm òganizasyon, achte pwodui sosyal." data-en="Donate even small amounts help, become organization member, buy social products.">Fè don menm ti kòb ka ede, vin manm òganizasyon, achte pwodui sosyal.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="4. Pataje Enfòmasyon" data-en="4. Share Information">4. Pataje Enfòmasyon</h3>
+                                    <p data-ht="Swiv òganizasyon sou medya sosyal, pataje rapò ak enfòmasyon enpòtan, konbat dezenfòmasyon." data-en="Follow organizations on social media, share reports and important information, combat disinformation.">Swiv òganizasyon sou medya sosyal, pataje rapò ak enfòmasyon enpòtan, konbat dezenfòmasyon.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="5. Kreye Pwòp Òganizasyon Ou" data-en="5. Create Your Own Organization">5. Kreye Pwòp Òganizasyon Ou</h3>
+                                    <p data-ht="Si pa gen òganizasyon k ap travay sou pwoblèm ou wè, rasanble lòt moun ki pataje vizyon ou." data-en="If no organization is working on problems you see, gather others who share your vision.">Si pa gen òganizasyon k ap travay sou pwoblèm ou wè, rasanble lòt moun ki pataje vizyon ou.</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Chak sitwayen ka kontribye nan sosyete sivil. Ou pa bezwen diplòm oswa lajan. Ou bezwen angajman ak volonte pou travay pou byen komen." data-en="Every citizen can contribute to civil society. You don't need a degree or money. You need commitment and will to work for the common good.">Chak sitwayen ka kontribye nan sosyete sivil. Ou pa bezwen diplòm oswa lajan. Ou bezwen angajman ak volonte pou travay pou byen komen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 3 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 3" data-en="Knowledge Check 3">Tès Konesans 3</h3>
+                    <p data-ht="Ki sa ki pi enpòtan pou patisipe nan sosyete sivil?" data-en="What's most important to participate in civil society?">Ki sa ki pi enpòtan pou patisipe nan sosyete sivil?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Ou dwe genyen diplòm inivèsite" data-en="You must have a university degree">Ou dwe genyen diplòm inivèsite</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Ou dwe gen anpil lajan pou bay" data-en="You must have lots of money to give">Ou dwe gen anpil lajan pou bay</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Ou dwe gen angajman ak volonte travay pou byen komen" data-en="You must have commitment and will to work for common good">Ou dwe gen angajman ak volonte travay pou byen komen</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Ou dwe kanpe kòm kandida politik" data-en="You must run as political candidate">Ou dwe kanpe kòm kandida politik</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box" style="margin-top: 2rem;">
+                    <p data-ht="Sosyete sivil se vwa pèp la. Lè nou òganize ansanm, nou pi fò pase gouvènman ki pa rann kont, kriminèl ki abize pouvwa, ak sistèm ki eksplwate nou. Angaje tèt ou jodi a." data-en="Civil society is the people's voice. When we organize together, we are stronger than governments that don't account, criminals who abuse power, and systems that exploit us. Get involved today.">Sosyete sivil se vwa pèp la. Lè nou òganize ansanm, nou pi fò pase gouvènman ki pa rann kont, kriminèl ki abize pouvwa, ak sistèm ki eksplwate nou. Angaje tèt ou jodi a.</p>
+                </div>
+
+                <div class="nav-buttons">
+                    <a href="corruption.html" class="nav-button" data-ht="← Retounen: Koripsyon" data-en="← Back: Corruption">← Retounen: Koripsyon</a>
+                    <a href="community-organizing.html" class="nav-button" data-ht="Swiv: Òganizasyon Kominotè →" data-en="Next: Community Organizing →">Swiv: Òganizasyon Kominotè →</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
@@ -801,5 +577,57 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            const isActive = header.classList.contains('active');
+
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+
+            updateProgress();
+        }
+
+        function checkQuiz(option, isCorrect) {
+            const options = option.parentElement.children;
+            for (let opt of options) {
+                opt.style.pointerEvents = 'none';
+            }
+
+            if (isCorrect) {
+                option.classList.add('correct');
+            } else {
+                option.classList.add('incorrect');
+                for (let opt of options) {
+                    if (opt.onclick.toString().includes('true')) {
+                        opt.classList.add('correct');
+                    }
+                }
+            }
+
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const totalSections = 6;
+            const totalQuizzes = 3;
+
+            const openedSections = document.querySelectorAll('.accordion-header.active').length;
+            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
+
+            const progress = Math.min(100, Math.round((openedSections / totalSections) * 70 + (answeredQuizzes / totalQuizzes) * 30));
+
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            const lang = document.documentElement.lang;
+            const progressText = lang === 'ht' ? 'Pwogresyon: ' + progress + '%' : 'Progress: ' + progress + '%';
+            document.getElementById('progressText').textContent = progressText;
+
+            document.getElementById('progressText').setAttribute('data-ht', 'Pwogresyon: ' + progress + '%');
+            document.getElementById('progressText').setAttribute('data-en', 'Progress: ' + progress + '%');
+        }
+
+        window.addEventListener('load', updateProgress);
+    </script>
 </body>
 </html>

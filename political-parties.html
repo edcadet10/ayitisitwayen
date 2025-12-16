@@ -9,757 +9,576 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .progress-container {
+            position: sticky;
+            top: 70px;
+            background: white;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--gray-300);
+            z-index: 100;
+            margin-bottom: 2rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--black);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            text-align: center;
+        }
+
+        .accordion {
+            margin-bottom: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+        }
+
+        .accordion-header {
+            padding: 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s ease;
+            user-select: none;
+        }
+
+        .accordion-header:hover {
+            background: var(--gray-100);
+        }
+
+        .accordion-header.active {
+            background: var(--gray-100);
+            border-bottom: 1px solid var(--gray-300);
+        }
+
+        .accordion-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--black);
+        }
+
+        .accordion-icon {
+            font-size: 1.5rem;
+            color: var(--gray-600);
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .accordion-body {
+            padding: 1.5rem 1.25rem;
+        }
+
+        .accordion-content.active {
+            max-height: 5000px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .info-card {
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            background: white;
+            transition: all 0.2s ease;
+        }
+
+        .info-card:hover {
+            border-color: var(--black);
+            transform: translateY(-2px);
+        }
+
+        .info-card h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--black);
+        }
+
+        .info-card p, .info-card ul {
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            color: var(--gray-700);
+        }
+
+        .highlight-box {
+            background: var(--gray-100);
+            border-left: 4px solid var(--black);
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--gray-800);
+        }
+
+        .quiz {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .quiz h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--black);
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .quiz-option {
+            padding: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--black);
+        }
+
+        .quiz-option.correct {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .quiz-option.incorrect {
+            background: #f8d7da;
+            border-color: #dc3545;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--gray-300);
+        }
+
+        .nav-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--black);
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s ease;
+        }
+
+        .nav-button:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
                 <a href="index.html"><img src="logo.png" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
             <div class="nav-links">
+                <a href="education.html">Edikasyon</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
-                <a href="index.html#research">Rechèch</a>
                 <a href="index.html#contact">Kontak</a>
                 <a href="#" class="lang-switch" onclick="toggleLanguage()">EN</a>
             </div>
         </div>
     </nav>
 
-    <!-- Political Parties Content -->
     <section class="legal-page">
         <div class="container">
             <h1 class="page-title" data-ht="Pati Politik" data-en="Political Parties">Pati Politik</h1>
-
-            <p class="legal-date" data-ht="Dènye mizajou: 16 desanm 2025" data-en="Last Updated: December 16, 2025">Dènye mizajou: 16 desanm 2025</p>
-
-            <div class="legal-content" data-ht='
-                <h2>Ki Sa yon Pati Politik Ye?</h2>
-                <p>Yon pati politik se yon gwoup moun ki òganize pou pran pouvwa politik atravè eleksyon. Pati yo gen ideoloji, pwogram, ak lidè ki reprezante yon vizyon pou kijan peyi a ta dwe dirije.</p>
-
-                <p>Nan yon demokrasi, pati politik jwe wòl enpòtan:</p>
-                <ul>
-                    <li><strong>Reprezantasyon:</strong> Bay vwa a diferan gwoup nan sosyete a</li>
-                    <li><strong>Mobilizasyon:</strong> Ankouraje sitwayen patisipe nan politik</li>
-                    <li><strong>Rekritman:</strong> Idantifye ak prepare lidè politik</li>
-                    <li><strong>Edikasyon:</strong> Enfòme piblik la sou kesyon politik</li>
-                    <li><strong>Gouvènans:</strong> Organize pou aplike pwogram politik</li>
-                </ul>
-
-                <h2>Istwa Pati Politik ann Ayiti</h2>
-
-                <h3>1804-1915: Peryòd Militè</h3>
-                <p>Apre endepandans, politik Ayisyen te domine pa militè ak elit lokal. Pa t gen pati politik modèn – pito faksyon ki te gwope otou lidè kowòm.</p>
-
-                <h3>1915-1934: Okipasyon Ameriken</h3>
-                <p>Pandan okipasyon an, pati politik tradisyonèl te fenmen. Kèk mouvman rezistans te fòme men yo pa t gen kapasite òganize kòrèkteman.</p>
-
-                <h3>1946: Premye Pati Modèn</h3>
-                <p>Apre okipasyon an, gen yon seri pati politik modèn ki te fòme, sitou nan klas mwayen ak entèlektyèl. Men yo te rete frajil ak dezorganize.</p>
-
-                <h3>1957-1986: Diktati Duvalier</h3>
-                <p>François "Papa Doc" Duvalier ak pitit gason l Jean-Claude "Baby Doc" te kreye sistèm yon-pati. Tout opoziyon te entèdi oswa kraze. Pa t gen espas pou pati politik endepandan.</p>
-
-                <h3>1986-Jounen Jodi a: Renouvèlman Demokratik</h3>
-                <p>Apre chit Duvalier an 1986, Ayiti te wè yon pwoliferasyon pati politik:</p>
-                <ul>
-                    <li>1987: Konstitisyon garanti dwa kreye pati politik</li>
-                    <li>1990: Premye eleksyon demokratik – Aristide genyen</li>
-                    <li>1990-2025: Santèn pati te kreye, men anpil fèb oswa egziste sou papye sèlman</li>
-                </ul>
-
-                <h2>Pati Politik Ayisyen Jounen Jodi a</h2>
-
-                <h3>Nimewo Total</h3>
-                <p>Nan oktòb 2025, Konsèy Elektoral Pwovizwa (CEP) te regularize <strong>plis pase 220 pati politik</strong>. Sa se yon kantite trè wo – pami pi wo nan mond lan pou yon peyi ak popilasyon Ayiti.</p>
-
-                <h3>Pwoblèm Pwopagasyon</h3>
-                <p>Pwopagasyon pati yo kreye pwoblèm:</p>
-                <ul>
-                    <li>Difisil pou votè yo konprann diferans ant pati yo</li>
-                    <li>Anpil pati pa gen pwogram klè oswa baz mas</li>
-                    <li>Frajilite – pati yo parèt epi disparèt rapid</li>
-                    <li>Personalizasyon – pati yo baze sou yon lidè, pa ideoloji</li>
-                </ul>
-
-                <h2>Pati Politik Enpòtan ann Ayiti</h2>
-
-                <h3>Fanmi Lavalas</h3>
-                <p><strong>Fondasyon:</strong> 1996</p>
-                <p><strong>Lidè:</strong> Jean-Bertrand Aristide (prezidan 1991, 1994-1996, 2001-2004)</p>
-                <p><strong>Ideoloji:</strong> Popilis, santre sou pèp pòv yo, jistis sosyal</p>
-                <p><strong>Baz:</strong> Mas popilè, peyizan, moun pòv nan vil</p>
-                <p><strong>Istwa:</strong> Aristide te prezidan demokratikman eli an 1990 men te ranvèse pa koudeta 7 mwa apre. Li te retounen 1994 ak sipò Etazini. Dezyèm manda l (2001-2004) te fini ak yon lòt koudeta.</p>
-
-                <h3>OPL (Òganizasyon Pèp an Lit)</h3>
-                <p><strong>Fondasyon:</strong> 1991 (kòm KONAKOM), chanje non 1995</p>
-                <p><strong>Lidè:</strong> Sauveur Pierre Étienne, Edmund Leblansisi Fils</p>
-                <p><strong>Ideoloji:</strong> Santre-gòch, demokratik, refòmis</p>
-                <p><strong>Baz:</strong> Klas mwayen, pwofesyonèl, entèlektyèl</p>
-                <p><strong>Istwa:</strong> Yon fwa alye ak Aristide, men yo te separe an 1996. OPL te vin youn nan prensipal pati opoziyon.</p>
-
-                <h3>Pitit Dessalines</h3>
-                <p><strong>Fondasyon:</strong> 2015</p>
-                <p><strong>Lidè:</strong> Jean-Charles Moïse (kandida prezidansyèl 2015-2016)</p>
-                <p><strong>Ideoloji:</strong> Nasyonalis, popilis</p>
-                <p><strong>Baz:</strong> Sipòtè nasyonalis, kèk kominote riral</p>
-                <p><strong>Istwa:</strong> Te kreye kòm opozizon prezidan Martelly/Moïse. Non an refere a Jean-Jacques Dessalines, fondatè Ayiti.</p>
-
-                <h3>Nou La (Nou pap Dòmi)</h3>
-                <p><strong>Fondasyon:</strong> Ane 2010</p>
-                <p><strong>Ideoloji:</strong> Varyasyon – kèk manm santre-gòch, lòt plis konsèvatè</p>
-                <p><strong>Baz:</strong> Alians plizyè gwoup ak endividi</p>
-                <p><strong>Istwa:</strong> Kreye apre tranbleman tè 2010 kòm mouvman sitwayen, apre vin pati politik.</p>
-
-                <h3>EDE/RED (Effort de Développement / Rasanbleman pour un État de Droit)</h3>
-                <p><strong>Ideoloji:</strong> Aksante sou devlopman ekonomik, leta dwa</p>
-                <p><strong>Baz:</strong> Kèk kominote riral ak jèn</p>
-
-                <h2>Konsèy Prezidansyèl Tranzisyonèl (CPT)</h2>
-
-                <h3>Kreyasyon ak Konpozisyon</h3>
-                <p>Nan mas 2024, apre asasinasyon Prezidan Jovenel Moïse (2021) ak peryòd kriz politik, Ayiti te etabli yon Konsèy Prezidansyèl Tranzisyonèl (CPT):</p>
-                <ul>
-                    <li><strong>9 manm total:</strong> 7 manm votyan + 2 obsèvatè san dwa vòt</li>
-                    <li><strong>Reprezantasyon:</strong> Manm yo chwazi pa diferan pati politik ak sektè sosyete sivil</li>
-                    <li><strong>Misyon:</strong> Dirije peyi a pandan tranzisyon jiska eleksyon ka òganize</li>
-                </ul>
-
-                <h3>Pati Reprezante nan CPT</h3>
-                <p>CPT la te kreye pa yon akò politik ki te enplike plis pase 35 pati politik. Manm yo reprezante:</p>
-                <ul>
-                    <li>Fanmi Lavalas</li>
-                    <li>EDE/RED</li>
-                    <li>Montana Accord (koalisyon sosyete sivil ak pati)</li>
-                    <li>Sektè relijye (obsèvatè)</li>
-                    <li>Lòt pati ak gwoup</li>
-                </ul>
-
-                <h3>Kritik ak Defi</h3>
-                <p>CPT la konfwonte kritik:</p>
-                <ul>
-                    <li>Mank tranzipare nan desizyon</li>
-                    <li>Konfli enterè ant manm</li>
-                    <li>Aksizasyon koripsyon</li>
-                    <li>Pa represante mas popilè a</li>
-                    <li>Retad nan òganize eleksyon</li>
-                </ul>
-
-                <h2>Defi Pati Politik ann Ayiti</h2>
-
-                <h3>Fèblès Òganizasyonèl</h3>
-                <p>Pati Ayisyen souvan manke:</p>
-                <ul>
-                    <li><strong>Estrikti solid:</strong> Pa gen biwo lokal, manm enrejistre, sistèm administratif</li>
-                    <li><strong>Pwogram klè:</strong> Anpil pati pa gen platfòm politik byen defini</li>
-                    <li><strong>Demokrati entèn:</strong> Desizyon pran pa yon ti gwoup oswa yon sèl lidè</li>
-                    <li><strong>Resous limite:</strong> Pa gen lajan pou fonksyone oswa kanpay</li>
-                </ul>
-
-                <h3>Personalizasyon</h3>
-                <p>Anpil pati baze sou yon sèl pèsonalite:</p>
-                <ul>
-                    <li>Lè lidè a mouri oswa kite, pati a disparèt</li>
-                    <li>Sipòtè swiv moun, pa ideoloji</li>
-                    <li>Pa gen renouvèlman jenerasyon</li>
-                    <li>Pati yo vin kòm "machin elektoral" pou yon kandida</li>
-                </ul>
-
-                <h3>Elit ak Klas Sosyal</h3>
-                <p>Pati politik Ayisyen souvan dominé pa elit:</p>
-                <ul>
-                    <li>Lidè soti nan klas mwayen oswa rich</li>
-                    <li>Pwogram pa reflete enterè mas pòv yo</li>
-                    <li>Lang politik la (franse) ekstrè majorite</li>
-                    <li>Patisipasyon pèp òdinè limite</li>
-                </ul>
-
-                <h3>Afiliasyon ak Gang</h3>
-                <p>Kèk pati politik akize gen lyen ak gang kriminèl:</p>
-                <ul>
-                    <li>Itilize gang pou entimide opozisyon</li>
-                    <li>Finanse kanpay ak lajan ilegal</li>
-                    <li>Bay pwoteksyon a lidè gang</li>
-                    <li>Kreye klima vyolans pou kontwole eleksyon</li>
-                </ul>
-
-                <h3>Mank Ideoloji Klè</h3>
-                <p>Diferans ideolojik ant pati yo pa toujou klè:</p>
-                <ul>
-                    <li>Anpil pati di bagay sanble</li>
-                    <li>Pa gen debat ideolojik reyèl</li>
-                    <li>Alians politik baze sou enterè, pa prensip</li>
-                    <li>Votè pa konprann ki diferans ant pati yo</li>
-                </ul>
-
-                <h3>Koripsyon</h3>
-                <p>Koripsyon touche pati politik:</p>
-                <ul>
-                    <li>Achte vòt ak distribiye benefis</li>
-                    <li>Detounman lajan piblik lè yo nan pouvwa</li>
-                    <li>Nepotis ak kliyantelis</li>
-                    <li>Fwòd elektoral</li>
-                </ul>
-
-                <h2>Finans Pati Politik</h2>
-
-                <h3>Sous Finansman</h3>
-                <p>Pati politik Ayisyen jwenn lajan de:</p>
-                <ul>
-                    <li><strong>Kotizasyon manm:</strong> (trè ba, anpil manm pa peye)</li>
-                    <li><strong>Donasyon prive:</strong> Rich moun oswa konpayi</li>
-                    <li><strong>Dyaspora:</strong> Ayisyen aletranje</li>
-                    <li><strong>Sipò etranje:</strong> (kontrovèsyal, pa toujou legal)</li>
-                    <li><strong>Lajan ilegal:</strong> (trafik, koripsyon – ilegal)</li>
-                </ul>
-
-                <h3>Pwoblèm Transpare</h3>
-                <ul>
-                    <li>Pa gen lwa ki egzije pati pibliye kont yo</li>
-                    <li>Pèsonn pa konnen ki moun ap finanse ki pati</li>
-                    <li>Risk koripsyon ak konfli enterè</li>
-                    <li>Pati rich gen plis chans genyen</li>
-                </ul>
-
-                <h3>Finansman Piblik</h3>
-                <p>Kèk peyi bay lajan piblik pou pati politik pou redui koripsyon. Ayiti pa gen sa. Avantaj finansman piblik:</p>
-                <ul>
-                    <li>Redui depandans sou lajan prive</li>
-                    <li>Pèmèt pati pòv konpetisyone</li>
-                    <li>Plis transpare</li>
-                    <li>Mwens koripsyon</li>
-                </ul>
-
-                <h2>Eleksyon ak Pati Politik</h2>
-
-                <h3>Sitiyasyon Aktyèl</h3>
-                <p>Jounen jodi a (desanm 2025):</p>
-                <ul>
-                    <li>Pa gen eleksyon depi eleksyon lejislatif 2016</li>
-                    <li>Eleksyon ki te plan pou novanm 2025 ak janvye 2026 te repouse</li>
-                    <li>CEP deklare li enposib pou òganize eleksyon avan fevriye 2026</li>
-                    <li>Rezon: ensèkirite gang, mank finansman, mank enfrasti elektoral</li>
-                </ul>
-
-                <h3>Enskripsyon Pati</h3>
-                <p>Pou patisipe nan eleksyon, pati yo dwe:</p>
-                <ul>
-                    <li>Enrejistre ak CEP</li>
-                    <li>Satisfè kondisyon legal (manm minimòm, estrikti, dokiman)</li>
-                    <li>Soumèt lis kandida yo nan delè</li>
-                    <li>Respekte règleman kanpay</li>
-                </ul>
-
-                <h3>Kanpay Elektoral</h3>
-                <p>Pandan kanpay, pati yo:</p>
-                <ul>
-                    <li>Prezante kandida ak pwogram yo</li>
-                    <li>Òganize rali ak manifestasyon</li>
-                    <li>Distribiye materyèl (afich, flye, t-shirt)</li>
-                    <li>Itilize medya (radyo, televizyon, sosyal)</li>
-                </ul>
-
-                <h3>Pwoblèm Kanpay</h3>
-                <ul>
-                    <li>Achte vòt ak distribiye lajan/manje</li>
-                    <li>Entimidason ak vyolans</li>
-                    <li>Fwòd elektoral</li>
-                    <li>Inegalite resous ant pati rich ak pòv</li>
-                </ul>
-
-                <h2>Kijan Chwazi yon Pati Politik?</h2>
-
-                <h3>1. Konprann Ideoloji Ou</h3>
-                <p>Anvan chwazi yon pati, reflesi sou sa ou kwè:</p>
-                <ul>
-                    <li>Ki wòl gouvènman ta dwe jwe nan ekonomi?</li>
-                    <li>Ki sa ou panse sou inegalite ak redistribisyon?</li>
-                    <li>Ki priyorite ou pou peyi a? (sekirite, edikasyon, sante, enviwònman)</li>
-                    <li>Ki sa ou kwè sou liberté endividyèl vs byen kolektif?</li>
-                </ul>
-
-                <h3>2. Etidye Pati yo</h3>
-                <ul>
-                    <li>Li pwogram ak platfòm pati yo</li>
-                    <li>Gade istwa yo – sa yo te fè lè yo te nan pouvwa?</li>
-                    <li>Konnen lidè yo ak reputasyon yo</li>
-                    <li>Chèche konnen ki moun ap finanse yo</li>
-                </ul>
-
-                <h3>3. Patisipe Avan Angaje</h3>
-                <ul>
-                    <li>Ale nan reyinyon pati a pou wè kijan yo fonksyone</li>
-                    <li>Pale ak manm pou konprann kilti òganizasyon an</li>
-                    <li>Gade si pati a demokratik – èske manm gen vwa?</li>
-                    <li>Verifye si aksyon yo matche ak pawòl yo</li>
-                </ul>
-
-                <h3>4. Evalye Efikasite</h3>
-                <ul>
-                    <li>Èske pati a gen chans genyen eleksyon?</li>
-                    <li>Èske li gen baz mas oswa sèlman yon gwoup elit?</li>
-                    <li>Èske li gen òganizasyon solid oswa li frajil?</li>
-                    <li>Èske li representatif pou moun tankou ou?</li>
-                </ul>
-
-                <h3>5. Pa Pè Kritike</h3>
-                <ul>
-                    <li>Ou pa oblije dakò ak tout bagay pati a di</li>
-                    <li>Bon sitwayen kritike pati yo menm si yo manm</li>
-                    <li>Mande transpare ak responsabilite</li>
-                    <li>Si pati a pa respekte prensip li, ou ka kite l</li>
-                </ul>
-
-                <h2>Altènatif a Pati Politik Tradisyonèl</h2>
-
-                <h3>Mouvman Sosyal</h3>
-                <p>Plizyè mouvman an Ayiti mobilize sitwayen san fòme pati politik:</p>
-                <ul>
-                    <li>Mouvman PetroChallenge kont koripsyon</li>
-                    <li>Mouvman peyizan pou souverènte alimantè</li>
-                    <li>Mouvman fanm pou egalite jand</li>
-                    <li>Mouvman jèn pou chanjman</li>
-                </ul>
-
-                <h3>Sosyete Sivil</h3>
-                <p>Òganizasyon sosyete sivil travay sou kesyon politik san patisipe nan eleksyon:</p>
-                <ul>
-                    <li>Defann dwa moun</li>
-                    <li>Monitè gouvènman</li>
-                    <li>Pwomote transpare</li>
-                    <li>Edike sitwayen</li>
-                </ul>
-
-                <h3>Kandida Endepandan</h3>
-                <p>Kèk moun kandida san pati politik. Avantaj ak dezavantaj:</p>
-                <ul>
-                    <li><strong>+</strong> Lib de kontwòl pati</li>
-                    <li><strong>+</strong> Ka prezante pwogram pèsonèl</li>
-                    <li><strong>-</strong> Difisil pou finansman ak òganizasyon</li>
-                    <li><strong>-</strong> Mwens chans genyen</li>
-                </ul>
-
-                <h2>Refòm Nesesè pou Pati Politik</h2>
-
-                <h3>Transpare Finansye</h3>
-                <ul>
-                    <li>Lwa ki egzije pati pibliye kont yo</li>
-                    <li>Limite sou donasyon pou evite koripsyon</li>
-                    <li>Entèdiksyon finansman ilegal</li>
-                    <li>Sanksyon pou vyolasyon</li>
-                </ul>
-
-                <h3>Demokrasi Entèn</h3>
-                <ul>
-                    <li>Eleksyon primè pou chwazi kandida</li>
-                    <li>Patisipasyon manm nan desizyon</li>
-                    <li>Limit tan lidè nan pouvwa</li>
-                    <li>Reprezantasyon fanm ak jèn</li>
-                </ul>
-
-                <h3>Finansman Piblik</h3>
-                <ul>
-                    <li>Leta bay kèk lajan pou pati respekte kritè</li>
-                    <li>Redui depandans sou donasyon prive</li>
-                    <li>Pèmèt pati pòv konpetisyone</li>
-                </ul>
-
-                <h3>Edikasyon Politik</h3>
-                <ul>
-                    <li>Lekòl ak inivèsite ansègne sou pati politik</li>
-                    <li>Medya enfòme piblik la sou platfòm pati yo</li>
-                    <li>Debat piblik ant pati yo</li>
-                </ul>
-
-                <h2>Konklizyon</h2>
-                <p>Pati politik se mekanism fondamantal demokrasi pou reprezantasyon sitwayen ak jesyon pouvwa. Men ann Ayiti, sistèm pati politik konfwonte gwo defi: fèblès òganizasyonèl, koripsyon, personalizasyon, ak dekoneksyon ak mas popilè.</p>
-
-                <p>Pou demokrasi fonksyone, Ayiti bezwen pati politik ki:</p>
-                <ul>
-                    <li>Gen ideoloji klè ak pwogram reyalis</li>
-                    <li>Demokratik nan fonksyonman yo</li>
-                    <li>Transparent nan finans yo</li>
-                    <li>Reprezante enterè mas popilè, pa sèlman elit</li>
-                    <li>Respekte règ demokratik ak konsekans eleksyon</li>
-                </ul>
-
-                <p><strong>Sitwayen yo gen responsabilite tou. Nou dwe enfòme tèt nou sou pati yo, patisipe nan debat demokratik, ak vote pou kandida ki pral sèvi enterè pèp la, pa sèlman pòch yo.</strong></p>
-
-                <h2>Referans</h2>
-                <ul>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Konstitisyon Ayiti 1987 - Dwa Pati Politik (Constitute Project)</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/List_of_political_parties_in_Haiti" target="_blank">Lis Pati Politik ann Ayiti (Wikipedia)</a></li>
-                    <li><a href="https://www.cep-ht.org" target="_blank">Konsèy Elektoral Pwovizwa (CEP)</a></li>
-                    <li><a href="https://www.ijdh.org/our-work/democracy-in-haiti/" target="_blank">Demokrasi ak Pati Politik ann Ayiti (IJDH)</a></li>
-                    <li><a href="https://freedomhouse.org/country/haiti/freedom-world/2025" target="_blank">Freedom in the World 2025: Haiti (Freedom House)</a></li>
-                </ul>
-            ' data-en='
-                <h2>What is a Political Party?</h2>
-                <p>A political party is an organized group of people who seek political power through elections. Parties have ideology, programs, and leaders representing a vision for how the country should be run.</p>
-
-                <p>In a democracy, political parties play important roles:</p>
-                <ul>
-                    <li><strong>Representation:</strong> Give voice to different groups in society</li>
-                    <li><strong>Mobilization:</strong> Encourage citizens to participate in politics</li>
-                    <li><strong>Recruitment:</strong> Identify and prepare political leaders</li>
-                    <li><strong>Education:</strong> Inform public on political issues</li>
-                    <li><strong>Governance:</strong> Organize to implement political programs</li>
-                </ul>
-
-                <h2>History of Political Parties in Haiti</h2>
-
-                <h3>1804-1915: Military Period</h3>
-                <p>After independence, Haitian politics was dominated by military and local elites. There were no modern political parties – rather factions grouped around caudillo leaders.</p>
-
-                <h3>1915-1934: American Occupation</h3>
-                <p>During occupation, traditional political parties were shut down. Some resistance movements formed but lacked capacity to organize properly.</p>
-
-                <h3>1946: First Modern Parties</h3>
-                <p>After occupation, a series of modern political parties formed, especially in middle class and intellectuals. But they remained fragile and disorganized.</p>
-
-                <h3>1957-1986: Duvalier Dictatorship</h3>
-                <p>François "Papa Doc" Duvalier and his son Jean-Claude "Baby Doc" created a one-party system. All opposition was banned or crushed. There was no space for independent political parties.</p>
-
-                <h3>1986-Today: Democratic Renewal</h3>
-                <p>After Duvalier's fall in 1986, Haiti saw proliferation of political parties:</p>
-                <ul>
-                    <li>1987: Constitution guarantees right to create political parties</li>
-                    <li>1990: First democratic elections – Aristide wins</li>
-                    <li>1990-2025: Hundreds of parties created, but many weak or exist on paper only</li>
-                </ul>
-
-                <h2>Haitian Political Parties Today</h2>
-
-                <h3>Total Number</h3>
-                <p>In October 2025, the Provisional Electoral Council (CEP) regularized <strong>over 220 political parties</strong>. This is a very high number – among the highest in the world for a country with Haiti's population.</p>
-
-                <h3>Proliferation Problem</h3>
-                <p>Party proliferation creates problems:</p>
-                <ul>
-                    <li>Difficult for voters to understand differences between parties</li>
-                    <li>Many parties lack clear programs or mass base</li>
-                    <li>Fragility – parties appear and disappear quickly</li>
-                    <li>Personalization – parties based on one leader, not ideology</li>
-                </ul>
-
-                <h2>Important Political Parties in Haiti</h2>
-
-                <h3>Fanmi Lavalas</h3>
-                <p><strong>Founded:</strong> 1996</p>
-                <p><strong>Leader:</strong> Jean-Bertrand Aristide (president 1991, 1994-1996, 2001-2004)</p>
-                <p><strong>Ideology:</strong> Populist, centered on poor people, social justice</p>
-                <p><strong>Base:</strong> Popular masses, peasants, urban poor</p>
-                <p><strong>History:</strong> Aristide was democratically elected president in 1990 but overthrown by coup 7 months later. He returned 1994 with U.S. support. Second term (2001-2004) ended with another coup.</p>
-
-                <h3>OPL (Organization of People in Struggle)</h3>
-                <p><strong>Founded:</strong> 1991 (as KONAKOM), changed name 1995</p>
-                <p><strong>Leaders:</strong> Sauveur Pierre Étienne, Edmund Leblansisi Fils</p>
-                <p><strong>Ideology:</strong> Center-left, democratic, reformist</p>
-                <p><strong>Base:</strong> Middle class, professionals, intellectuals</p>
-                <p><strong>History:</strong> Once allied with Aristide, but they separated in 1996. OPL became one of the main opposition parties.</p>
-
-                <h3>Pitit Dessalines</h3>
-                <p><strong>Founded:</strong> 2015</p>
-                <p><strong>Leader:</strong> Jean-Charles Moïse (presidential candidate 2015-2016)</p>
-                <p><strong>Ideology:</strong> Nationalist, populist</p>
-                <p><strong>Base:</strong> Nationalist supporters, some rural communities</p>
-                <p><strong>History:</strong> Created as opposition to presidents Martelly/Moïse. Name refers to Jean-Jacques Dessalines, Haiti's founder.</p>
-
-                <h3>Nou La (We Won't Sleep)</h3>
-                <p><strong>Founded:</strong> 2010s</p>
-                <p><strong>Ideology:</strong> Varied – some members center-left, others more conservative</p>
-                <p><strong>Base:</strong> Alliance of multiple groups and individuals</p>
-                <p><strong>History:</strong> Created after 2010 earthquake as citizen movement, later became political party.</p>
-
-                <h3>EDE/RED (Development Effort / Rally for Rule of Law)</h3>
-                <p><strong>Ideology:</strong> Emphasis on economic development, rule of law</p>
-                <p><strong>Base:</strong> Some rural communities and youth</p>
-
-                <h2>Transitional Presidential Council (CPT)</h2>
-
-                <h3>Creation and Composition</h3>
-                <p>In March 2024, after assassination of President Jovenel Moïse (2021) and period of political crisis, Haiti established a Transitional Presidential Council (CPT):</p>
-                <ul>
-                    <li><strong>9 total members:</strong> 7 voting members + 2 non-voting observers</li>
-                    <li><strong>Representation:</strong> Members chosen by different political parties and civil society sectors</li>
-                    <li><strong>Mission:</strong> Lead country during transition until elections can be organized</li>
-                </ul>
-
-                <h3>Parties Represented in CPT</h3>
-                <p>CPT was created by political agreement involving over 35 political parties. Members represent:</p>
-                <ul>
-                    <li>Fanmi Lavalas</li>
-                    <li>EDE/RED</li>
-                    <li>Montana Accord (civil society and party coalition)</li>
-                    <li>Religious sector (observer)</li>
-                    <li>Other parties and groups</li>
-                </ul>
-
-                <h3>Criticism and Challenges</h3>
-                <p>CPT faces criticism:</p>
-                <ul>
-                    <li>Lack of transparency in decisions</li>
-                    <li>Conflicts of interest among members</li>
-                    <li>Corruption accusations</li>
-                    <li>Doesn't represent popular masses</li>
-                    <li>Delays in organizing elections</li>
-                </ul>
-
-                <h2>Political Party Challenges in Haiti</h2>
-
-                <h3>Organizational Weakness</h3>
-                <p>Haitian parties often lack:</p>
-                <ul>
-                    <li><strong>Solid structure:</strong> No local offices, registered members, administrative systems</li>
-                    <li><strong>Clear programs:</strong> Many parties lack well-defined political platforms</li>
-                    <li><strong>Internal democracy:</strong> Decisions made by small group or single leader</li>
-                    <li><strong>Limited resources:</strong> No money to function or campaign</li>
-                </ul>
-
-                <h3>Personalization</h3>
-                <p>Many parties based on single personality:</p>
-                <ul>
-                    <li>When leader dies or leaves, party disappears</li>
-                    <li>Supporters follow person, not ideology</li>
-                    <li>No generational renewal</li>
-                    <li>Parties become "electoral machines" for one candidate</li>
-                </ul>
-
-                <h3>Elite and Social Class</h3>
-                <p>Haitian political parties often dominated by elites:</p>
-                <ul>
-                    <li>Leaders come from middle or wealthy class</li>
-                    <li>Programs don't reflect interests of poor masses</li>
-                    <li>Political language (French) excludes majority</li>
-                    <li>Ordinary people's participation limited</li>
-                </ul>
-
-                <h3>Gang Affiliation</h3>
-                <p>Some political parties accused of having links with criminal gangs:</p>
-                <ul>
-                    <li>Use gangs to intimidate opposition</li>
-                    <li>Finance campaigns with illegal money</li>
-                    <li>Provide protection to gang leaders</li>
-                    <li>Create climate of violence to control elections</li>
-                </ul>
-
-                <h3>Lack of Clear Ideology</h3>
-                <p>Ideological differences between parties not always clear:</p>
-                <ul>
-                    <li>Many parties say similar things</li>
-                    <li>No real ideological debate</li>
-                    <li>Political alliances based on interests, not principles</li>
-                    <li>Voters don't understand differences between parties</li>
-                </ul>
-
-                <h3>Corruption</h3>
-                <p>Corruption affects political parties:</p>
-                <ul>
-                    <li>Vote buying and benefit distribution</li>
-                    <li>Embezzlement of public money when in power</li>
-                    <li>Nepotism and clientelism</li>
-                    <li>Electoral fraud</li>
-                </ul>
-
-                <h2>Political Party Financing</h2>
-
-                <h3>Funding Sources</h3>
-                <p>Haitian political parties get money from:</p>
-                <ul>
-                    <li><strong>Member dues:</strong> (very low, many members don't pay)</li>
-                    <li><strong>Private donations:</strong> Wealthy people or companies</li>
-                    <li><strong>Diaspora:</strong> Haitians abroad</li>
-                    <li><strong>Foreign support:</strong> (controversial, not always legal)</li>
-                    <li><strong>Illegal money:</strong> (trafficking, corruption – illegal)</li>
-                </ul>
-
-                <h3>Transparency Problem</h3>
-                <ul>
-                    <li>No law requiring parties to publish accounts</li>
-                    <li>No one knows who is financing which party</li>
-                    <li>Risk of corruption and conflicts of interest</li>
-                    <li>Rich parties have more chance to win</li>
-                </ul>
-
-                <h3>Public Financing</h3>
-                <p>Some countries provide public money for political parties to reduce corruption. Haiti doesn't have this. Advantages of public financing:</p>
-                <ul>
-                    <li>Reduce dependence on private money</li>
-                    <li>Allow poor parties to compete</li>
-                    <li>More transparency</li>
-                    <li>Less corruption</li>
-                </ul>
-
-                <h2>Elections and Political Parties</h2>
-
-                <h3>Current Situation</h3>
-                <p>Today (December 2025):</p>
-                <ul>
-                    <li>No elections since 2016 legislative elections</li>
-                    <li>Elections planned for November 2025 and January 2026 postponed</li>
-                    <li>CEP declared impossible to organize elections before February 2026</li>
-                    <li>Reasons: gang insecurity, lack of funding, lack of electoral infrastructure</li>
-                </ul>
-
-                <h3>Party Registration</h3>
-                <p>To participate in elections, parties must:</p>
-                <ul>
-                    <li>Register with CEP</li>
-                    <li>Meet legal conditions (minimum members, structure, documents)</li>
-                    <li>Submit candidate lists by deadline</li>
-                    <li>Respect campaign regulations</li>
-                </ul>
-
-                <h3>Electoral Campaign</h3>
-                <p>During campaign, parties:</p>
-                <ul>
-                    <li>Present candidates and programs</li>
-                    <li>Organize rallies and demonstrations</li>
-                    <li>Distribute materials (posters, flyers, t-shirts)</li>
-                    <li>Use media (radio, TV, social)</li>
-                </ul>
-
-                <h3>Campaign Problems</h3>
-                <ul>
-                    <li>Vote buying and distributing money/food</li>
-                    <li>Intimidation and violence</li>
-                    <li>Electoral fraud</li>
-                    <li>Resource inequality between rich and poor parties</li>
-                </ul>
-
-                <h2>How to Choose a Political Party?</h2>
-
-                <h3>1. Understand Your Ideology</h3>
-                <p>Before choosing a party, reflect on what you believe:</p>
-                <ul>
-                    <li>What role should government play in economy?</li>
-                    <li>What do you think about inequality and redistribution?</li>
-                    <li>What are your priorities for country? (security, education, health, environment)</li>
-                    <li>What do you believe about individual liberty vs collective good?</li>
-                </ul>
-
-                <h3>2. Study the Parties</h3>
-                <ul>
-                    <li>Read party programs and platforms</li>
-                    <li>Look at their history – what did they do when in power?</li>
-                    <li>Know their leaders and their reputation</li>
-                    <li>Find out who is financing them</li>
-                </ul>
-
-                <h3>3. Participate Before Committing</h3>
-                <ul>
-                    <li>Go to party meetings to see how they function</li>
-                    <li>Talk to members to understand organization culture</li>
-                    <li>See if party is democratic – do members have voice?</li>
-                    <li>Verify if actions match words</li>
-                </ul>
-
-                <h3>4. Evaluate Effectiveness</h3>
-                <ul>
-                    <li>Does party have chance to win elections?</li>
-                    <li>Does it have mass base or just elite group?</li>
-                    <li>Does it have solid organization or is it fragile?</li>
-                    <li>Is it representative for people like you?</li>
-                </ul>
-
-                <h3>5. Don't Fear Criticism</h3>
-                <ul>
-                    <li>You don't have to agree with everything party says</li>
-                    <li>Good citizens criticize parties even if they're members</li>
-                    <li>Demand transparency and accountability</li>
-                    <li>If party doesn't respect its principles, you can leave it</li>
-                </ul>
-
-                <h2>Alternatives to Traditional Political Parties</h2>
-
-                <h3>Social Movements</h3>
-                <p>Several movements in Haiti mobilize citizens without forming political party:</p>
-                <ul>
-                    <li>PetroChallenge movement against corruption</li>
-                    <li>Peasant movement for food sovereignty</li>
-                    <li>Women's movement for gender equality</li>
-                    <li>Youth movement for change</li>
-                </ul>
-
-                <h3>Civil Society</h3>
-                <p>Civil society organizations work on political issues without participating in elections:</p>
-                <ul>
-                    <li>Defend human rights</li>
-                    <li>Monitor government</li>
-                    <li>Promote transparency</li>
-                    <li>Educate citizens</li>
-                </ul>
-
-                <h3>Independent Candidates</h3>
-                <p>Some people run without political party. Advantages and disadvantages:</p>
-                <ul>
-                    <li><strong>+</strong> Free from party control</li>
-                    <li><strong>+</strong> Can present personal program</li>
-                    <li><strong>-</strong> Difficult for funding and organization</li>
-                    <li><strong>-</strong> Less chance to win</li>
-                </ul>
-
-                <h2>Necessary Reforms for Political Parties</h2>
-
-                <h3>Financial Transparency</h3>
-                <ul>
-                    <li>Law requiring parties to publish accounts</li>
-                    <li>Limits on donations to avoid corruption</li>
-                    <li>Ban on illegal financing</li>
-                    <li>Sanctions for violations</li>
-                </ul>
-
-                <h3>Internal Democracy</h3>
-                <ul>
-                    <li>Primary elections to choose candidates</li>
-                    <li>Member participation in decisions</li>
-                    <li>Time limits for leaders in power</li>
-                    <li>Women and youth representation</li>
-                </ul>
-
-                <h3>Public Financing</h3>
-                <ul>
-                    <li>State provides some money for parties meeting criteria</li>
-                    <li>Reduce dependence on private donations</li>
-                    <li>Allow poor parties to compete</li>
-                </ul>
-
-                <h3>Political Education</h3>
-                <ul>
-                    <li>Schools and universities teach about political parties</li>
-                    <li>Media informs public on party platforms</li>
-                    <li>Public debates between parties</li>
-                </ul>
-
-                <h2>Conclusion</h2>
-                <p>Political parties are fundamental mechanisms of democracy for citizen representation and power management. But in Haiti, the party political system faces major challenges: organizational weakness, corruption, personalization, and disconnection from popular masses.</p>
-
-                <p>For democracy to function, Haiti needs political parties that:</p>
-                <ul>
-                    <li>Have clear ideology and realistic programs</li>
-                    <li>Are democratic in their functioning</li>
-                    <li>Are transparent in their finances</li>
-                    <li>Represent interests of popular masses, not just elites</li>
-                    <li>Respect democratic rules and election consequences</li>
-                </ul>
-
-                <p><strong>Citizens have responsibilities too. We must inform ourselves about parties, participate in democratic debate, and vote for candidates who will serve people's interests, not just their pockets.</strong></p>
-
-                <h2>References</h2>
-                <ul>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Haiti Constitution 1987 - Political Party Rights (Constitute Project)</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/List_of_political_parties_in_Haiti" target="_blank">List of Political Parties in Haiti (Wikipedia)</a></li>
-                    <li><a href="https://www.cep-ht.org" target="_blank">Provisional Electoral Council (CEP)</a></li>
-                    <li><a href="https://www.ijdh.org/our-work/democracy-in-haiti/" target="_blank">Democracy and Political Parties in Haiti (IJDH)</a></li>
-                    <li><a href="https://freedomhouse.org/country/haiti/freedom-world/2025" target="_blank">Freedom in the World 2025: Haiti (Freedom House)</a></li>
-                </ul>
-            '>
+            <p class="legal-date" data-ht="Konprann wòl ak defi pati politik ann Ayiti" data-en="Understand the role and challenges of political parties in Haiti">Konprann wòl ak defi pati politik ann Ayiti</p>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText" data-ht="Pwogresyon: 0%" data-en="Progress: 0%">Pwogresyon: 0%</div>
+            </div>
+
+            <div class="legal-content">
+                <!-- Section 1 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Ki Sa yon Pati Politik Ye?" data-en="What is a Political Party?">Ki Sa yon Pati Politik Ye?</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Yon pati politik se yon gwoup moun ki òganize pou pran pouvwa politik atravè eleksyon. Pati yo gen ideoloji, pwogram, ak lidè ki reprezante yon vizyon pou kijan peyi a ta dwe dirije." data-en="A political party is an organized group of people who seek political power through elections. Parties have ideology, programs, and leaders representing a vision for how the country should be run.">Yon pati politik se yon gwoup moun ki òganize pou pran pouvwa politik atravè eleksyon. Pati yo gen ideoloji, pwogram, ak lidè ki reprezante yon vizyon pou kijan peyi a ta dwe dirije.</p>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Reprezantasyon" data-en="Representation">Reprezantasyon</h3>
+                                    <p data-ht="Bay vwa a diferan gwoup nan sosyete a" data-en="Give voice to different groups in society">Bay vwa a diferan gwoup nan sosyete a</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Mobilizasyon" data-en="Mobilization">Mobilizasyon</h3>
+                                    <p data-ht="Ankouraje sitwayen patisipe nan politik" data-en="Encourage citizens to participate in politics">Ankouraje sitwayen patisipe nan politik</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Rekritman" data-en="Recruitment">Rekritman</h3>
+                                    <p data-ht="Idantifye ak prepare lidè politik" data-en="Identify and prepare political leaders">Idantifye ak prepare lidè politik</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Edikasyon" data-en="Education">Edikasyon</h3>
+                                    <p data-ht="Enfòme piblik la sou kesyon politik" data-en="Inform public on political issues">Enfòme piblik la sou kesyon politik</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Gouvènans" data-en="Governance">Gouvènans</h3>
+                                    <p data-ht="Organize pou aplike pwogram politik" data-en="Organize to implement political programs">Organize pou aplike pwogram politik</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Jounen jodi a, Ayiti gen plis pase 220 pati politik anrejistre. Se yon kantite trè wo – pami pi wo nan mond lan pou yon peyi ak popilasyon Ayiti." data-en="Today, Haiti has over 220 registered political parties. This is a very high number – among the highest in the world for a country with Haiti's population.">Jounen jodi a, Ayiti gen plis pase 220 pati politik anrejistre. Se yon kantite trè wo – pami pi wo nan mond lan pou yon peyi ak popilasyon Ayiti.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Pati Politik Enpòtan ann Ayiti" data-en="Important Political Parties in Haiti">Pati Politik Enpòtan ann Ayiti</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3>Fanmi Lavalas</h3>
+                                    <p data-ht="Fondasyon: 1996 | Lidè: Jean-Bertrand Aristide | Ideoloji: Popilis, santre sou pèp pòv yo, jistis sosyal" data-en="Founded: 1996 | Leader: Jean-Bertrand Aristide | Ideology: Populist, centered on poor people, social justice">Fondasyon: 1996 | Lidè: Jean-Bertrand Aristide | Ideoloji: Popilis, santre sou pèp pòv yo, jistis sosyal</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>OPL</h3>
+                                    <p data-ht="Òganizasyon Pèp an Lit | Fondasyon: 1991 | Ideoloji: Santre-gòch, demokratik, refòmis" data-en="Organization of People in Struggle | Founded: 1991 | Ideology: Center-left, democratic, reformist">Òganizasyon Pèp an Lit | Fondasyon: 1991 | Ideoloji: Santre-gòch, demokratik, refòmis</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>Pitit Dessalines</h3>
+                                    <p data-ht="Fondasyon: 2015 | Lidè: Jean-Charles Moïse | Ideoloji: Nasyonalis, popilis | Non an refere a Jean-Jacques Dessalines" data-en="Founded: 2015 | Leader: Jean-Charles Moïse | Ideology: Nationalist, populist | Name refers to Jean-Jacques Dessalines">Fondasyon: 2015 | Lidè: Jean-Charles Moïse | Ideoloji: Nasyonalis, popilis | Non an refere a Jean-Jacques Dessalines</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>EDE/RED</h3>
+                                    <p data-ht="Effort de Développement | Ideoloji: Aksante sou devlopman ekonomik, leta dwa | Baz: Kèk kominote riral ak jèn" data-en="Development Effort | Ideology: Emphasis on economic development, rule of law | Base: Some rural communities and youth">Effort de Développement | Ideoloji: Aksante sou devlopman ekonomik, leta dwa | Baz: Kèk kominote riral ak jèn</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Pwopagasyon pati yo kreye pwoblèm: difisil pou votè yo konprann diferans, anpil pati pa gen pwogram klè, pati yo baze sou yon lidè pa ideoloji." data-en="Party proliferation creates problems: difficult for voters to understand differences, many parties lack clear programs, parties based on one leader not ideology.">Pwopagasyon pati yo kreye pwoblèm: difisil pou votè yo konprann diferans, anpil pati pa gen pwogram klè, pati yo baze sou yon lidè pa ideoloji.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 1 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 1" data-en="Knowledge Check 1">Tès Konesans 1</h3>
+                    <p data-ht="Ki youn nan wòl prensipal pati politik nan demokrasi?" data-en="What is one of the main roles of political parties in democracy?">Ki youn nan wòl prensipal pati politik nan demokrasi?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Fè lajan pou lidè yo" data-en="Make money for their leaders">Fè lajan pou lidè yo</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Bay vwa a diferan gwoup nan sosyete a" data-en="Give voice to different groups in society">Bay vwa a diferan gwoup nan sosyete a</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Kontwole medya yo" data-en="Control the media">Kontwole medya yo</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Anpeche sitwayen vote" data-en="Prevent citizens from voting">Anpeche sitwayen vote</div>
+                    </div>
+                </div>
+
+                <!-- Section 3 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Konsèy Prezidansyèl Tranzisyonèl (CPT)" data-en="Transitional Presidential Council (CPT)">Konsèy Prezidansyèl Tranzisyonèl (CPT)</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="Kreyasyon ak Konpozisyon" data-en="Creation and Composition">Kreyasyon ak Konpozisyon</h3>
+                                <p data-ht="Nan mas 2024, apre asasinasyon Prezidan Jovenel Moïse (2021) ak peryòd kriz politik, Ayiti te etabli CPT:" data-en="In March 2024, after assassination of President Jovenel Moïse (2021) and period of political crisis, Haiti established CPT:">Nan mas 2024, apre asasinasyon Prezidan Jovenel Moïse (2021) ak peryòd kriz politik, Ayiti te etabli CPT:</p>
+                                <ul>
+                                    <li data-ht="9 manm total: 7 manm votyan + 2 obsèvatè" data-en="9 total members: 7 voting members + 2 observers">9 manm total: 7 manm votyan + 2 obsèvatè</li>
+                                    <li data-ht="Manm chwazi pa diferan pati politik ak sosyete sivil" data-en="Members chosen by different political parties and civil society">Manm chwazi pa diferan pati politik ak sosyete sivil</li>
+                                    <li data-ht="Misyon: Dirije peyi a pandan tranzisyon" data-en="Mission: Lead country during transition">Misyon: Dirije peyi a pandan tranzisyon</li>
+                                </ul>
+                            </div>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Pati Reprezante" data-en="Parties Represented">Pati Reprezante</h3>
+                                    <ul>
+                                        <li>Fanmi Lavalas</li>
+                                        <li>EDE/RED</li>
+                                        <li data-ht="Montana Accord (koalisyon)" data-en="Montana Accord (coalition)">Montana Accord (koalisyon)</li>
+                                        <li data-ht="Sektè relijye (obsèvatè)" data-en="Religious sector (observer)">Sektè relijye (obsèvatè)</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Kritik ak Defi" data-en="Criticism and Challenges">Kritik ak Defi</h3>
+                                    <ul>
+                                        <li data-ht="Mank tranzipare nan desizyon" data-en="Lack of transparency in decisions">Mank tranzipare nan desizyon</li>
+                                        <li data-ht="Konfli enterè ant manm" data-en="Conflicts of interest among members">Konfli enterè ant manm</li>
+                                        <li data-ht="Aksizasyon koripsyon" data-en="Corruption accusations">Aksizasyon koripsyon</li>
+                                        <li data-ht="Retad nan òganize eleksyon" data-en="Delays in organizing elections">Retad nan òganize eleksyon</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Defi Pati Politik ann Ayiti" data-en="Political Party Challenges in Haiti">Defi Pati Politik ann Ayiti</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Fèblès Òganizasyonèl" data-en="Organizational Weakness">Fèblès Òganizasyonèl</h3>
+                                    <ul>
+                                        <li data-ht="Pa gen estrikti solid" data-en="No solid structure">Pa gen estrikti solid</li>
+                                        <li data-ht="Pwogram pa klè" data-en="Programs not clear">Pwogram pa klè</li>
+                                        <li data-ht="Mank demokrasi entèn" data-en="Lack internal democracy">Mank demokrasi entèn</li>
+                                        <li data-ht="Resous limite" data-en="Limited resources">Resous limite</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Personalizasyon" data-en="Personalization">Personalizasyon</h3>
+                                    <ul>
+                                        <li data-ht="Pati baze sou yon lidè" data-en="Parties based on one leader">Pati baze sou yon lidè</li>
+                                        <li data-ht="Lè lidè a kite, pati a disparèt" data-en="When leader leaves, party disappears">Lè lidè a kite, pati a disparèt</li>
+                                        <li data-ht="Sipòtè swiv moun, pa ideoloji" data-en="Supporters follow person, not ideology">Sipòtè swiv moun, pa ideoloji</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Elit ak Klas Sosyal" data-en="Elite and Social Class">Elit ak Klas Sosyal</h3>
+                                    <ul>
+                                        <li data-ht="Lidè soti nan klas rich" data-en="Leaders from wealthy class">Lidè soti nan klas rich</li>
+                                        <li data-ht="Pwogram pa reflete enterè mas pòv" data-en="Programs don't reflect poor masses' interests">Pwogram pa reflete enterè mas pòv</li>
+                                        <li data-ht="Lang franse ekstrè majorite" data-en="French language excludes majority">Lang franse ekstrè majorite</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Afiliasyon ak Gang" data-en="Gang Affiliation">Afiliasyon ak Gang</h3>
+                                    <ul>
+                                        <li data-ht="Itilize gang pou entimide opozisyon" data-en="Use gangs to intimidate opposition">Itilize gang pou entimide opozisyon</li>
+                                        <li data-ht="Finanse kanpay ak lajan ilegal" data-en="Finance campaigns with illegal money">Finanse kanpay ak lajan ilegal</li>
+                                        <li data-ht="Bay pwoteksyon a lidè gang" data-en="Provide protection to gang leaders">Bay pwoteksyon a lidè gang</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Koripsyon" data-en="Corruption">Koripsyon</h3>
+                                    <ul>
+                                        <li data-ht="Achte vòt ak distribiye benefis" data-en="Vote buying and benefit distribution">Achte vòt ak distribiye benefis</li>
+                                        <li data-ht="Detounman lajan piblik" data-en="Embezzlement of public money">Detounman lajan piblik</li>
+                                        <li data-ht="Nepotis ak kliyantelis" data-en="Nepotism and clientelism">Nepotis ak kliyantelis</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Mank Transpare Finansye" data-en="Lack of Financial Transparency">Mank Transpare Finansye</h3>
+                                    <ul>
+                                        <li data-ht="Pa gen lwa ki egzije pati pibliye kont" data-en="No law requiring parties to publish accounts">Pa gen lwa ki egzije pati pibliye kont</li>
+                                        <li data-ht="Pèsonn pa konnen ki moun ap finanse ki pati" data-en="No one knows who is financing which party">Pèsonn pa konnen ki moun ap finanse ki pati</li>
+                                        <li data-ht="Pati rich gen plis chans genyen" data-en="Rich parties have more chance to win">Pati rich gen plis chans genyen</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Sistèm pati politik ann Ayiti konfwonte gwo defi ki anpeche demokrasi fonksyone kòrèkteman. Refòm nesesè pou kreye pati ki vrèman reprezante pèp la." data-en="Haiti's political party system faces major challenges that prevent democracy from functioning properly. Reforms needed to create parties that truly represent the people.">Sistèm pati politik ann Ayiti konfwonte gwo defi ki anpeche demokrasi fonksyone kòrèkteman. Refòm nesesè pou kreye pati ki vrèman reprezante pèp la.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 2 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 2" data-en="Knowledge Check 2">Tès Konesans 2</h3>
+                    <p data-ht="Ki pwoblèm majè pati politik ann Ayiti?" data-en="What is a major problem of political parties in Haiti?">Ki pwoblèm majè pati politik ann Ayiti?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Twòp transpare" data-en="Too much transparency">Twòp transpare</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Pati baze sou yon lidè pito pase ideoloji" data-en="Parties based on one leader rather than ideology">Pati baze sou yon lidè pito pase ideoloji</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Twòp demokrasi entèn" data-en="Too much internal democracy">Twòp demokrasi entèn</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Pa gen ase pati" data-en="Not enough parties">Pa gen ase pati</div>
+                    </div>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Kijan Chwazi yon Pati Politik?" data-en="How to Choose a Political Party?">Kijan Chwazi yon Pati Politik?</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="1. Konprann Ideoloji Ou" data-en="1. Understand Your Ideology">1. Konprann Ideoloji Ou</h3>
+                                    <ul>
+                                        <li data-ht="Ki wòl gouvènman ta dwe jwe nan ekonomi?" data-en="What role should government play in economy?">Ki wòl gouvènman ta dwe jwe nan ekonomi?</li>
+                                        <li data-ht="Ki priyorite ou pou peyi a?" data-en="What are your priorities for country?">Ki priyorite ou pou peyi a?</li>
+                                        <li data-ht="Ki sa ou panse sou inegalite?" data-en="What do you think about inequality?">Ki sa ou panse sou inegalite?</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="2. Etidye Pati yo" data-en="2. Study the Parties">2. Etidye Pati yo</h3>
+                                    <ul>
+                                        <li data-ht="Li pwogram ak platfòm pati yo" data-en="Read party programs and platforms">Li pwogram ak platfòm pati yo</li>
+                                        <li data-ht="Gade istwa yo – sa yo te fè nan pouvwa?" data-en="Look at their history – what did they do in power?">Gade istwa yo – sa yo te fè nan pouvwa?</li>
+                                        <li data-ht="Chèche konnen ki moun ap finanse yo" data-en="Find out who is financing them">Chèche konnen ki moun ap finanse yo</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="3. Patisipe Avan Angaje" data-en="3. Participate Before Committing">3. Patisipe Avan Angaje</h3>
+                                    <ul>
+                                        <li data-ht="Ale nan reyinyon pou wè kijan yo fonksyone" data-en="Go to meetings to see how they function">Ale nan reyinyon pou wè kijan yo fonksyone</li>
+                                        <li data-ht="Verifye si aksyon yo matche ak pawòl yo" data-en="Verify if actions match words">Verifye si aksyon yo matche ak pawòl yo</li>
+                                        <li data-ht="Gade si pati a demokratik" data-en="See if party is democratic">Gade si pati a demokratik</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="4. Evalye Efikasite" data-en="4. Evaluate Effectiveness">4. Evalye Efikasite</h3>
+                                    <ul>
+                                        <li data-ht="Èske pati a gen chans genyen eleksyon?" data-en="Does party have chance to win elections?">Èske pati a gen chans genyen eleksyon?</li>
+                                        <li data-ht="Èske li gen baz mas oswa sèlman elit?" data-en="Does it have mass base or just elite?">Èske li gen baz mas oswa sèlman elit?</li>
+                                        <li data-ht="Èske li reprezentatif pou ou?" data-en="Is it representative for you?">Èske li reprezentatif pou ou?</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="5. Pa Pè Kritike" data-en="5. Don't Fear Criticism">5. Pa Pè Kritike</h3>
+                                    <ul>
+                                        <li data-ht="Ou pa oblije dakò ak tout bagay" data-en="You don't have to agree with everything">Ou pa oblije dakò ak tout bagay</li>
+                                        <li data-ht="Mande transpare ak responsabilite" data-en="Demand transparency and accountability">Mande transpare ak responsabilite</li>
+                                        <li data-ht="Si pati a pa respekte prensip li, ou ka kite l" data-en="If party doesn't respect its principles, you can leave">Si pati a pa respekte prensip li, ou ka kite l</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 6 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Refòm Nesesè pou Pati Politik" data-en="Necessary Reforms for Political Parties">Refòm Nesesè pou Pati Politik</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Transpare Finansye" data-en="Financial Transparency">Transpare Finansye</h3>
+                                    <ul>
+                                        <li data-ht="Lwa ki egzije pati pibliye kont yo" data-en="Law requiring parties to publish accounts">Lwa ki egzije pati pibliye kont yo</li>
+                                        <li data-ht="Limite sou donasyon pou evite koripsyon" data-en="Limits on donations to avoid corruption">Limite sou donasyon pou evite koripsyon</li>
+                                        <li data-ht="Entèdiksyon finansman ilegal" data-en="Ban on illegal financing">Entèdiksyon finansman ilegal</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Demokrasi Entèn" data-en="Internal Democracy">Demokrasi Entèn</h3>
+                                    <ul>
+                                        <li data-ht="Eleksyon primè pou chwazi kandida" data-en="Primary elections to choose candidates">Eleksyon primè pou chwazi kandida</li>
+                                        <li data-ht="Patisipasyon manm nan desizyon" data-en="Member participation in decisions">Patisipasyon manm nan desizyon</li>
+                                        <li data-ht="Reprezantasyon fanm ak jèn" data-en="Women and youth representation">Reprezantasyon fanm ak jèn</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Finansman Piblik" data-en="Public Financing">Finansman Piblik</h3>
+                                    <ul>
+                                        <li data-ht="Leta bay kèk lajan pou pati" data-en="State provides some money for parties">Leta bay kèk lajan pou pati</li>
+                                        <li data-ht="Redui depandans sou donasyon prive" data-en="Reduce dependence on private donations">Redui depandans sou donasyon prive</li>
+                                        <li data-ht="Pèmèt pati pòv konpetisyone" data-en="Allow poor parties to compete">Pèmèt pati pòv konpetisyone</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Edikasyon Politik" data-en="Political Education">Edikasyon Politik</h3>
+                                    <ul>
+                                        <li data-ht="Lekòl ansègne sou pati politik" data-en="Schools teach about political parties">Lekòl ansègne sou pati politik</li>
+                                        <li data-ht="Medya enfòme piblik la" data-en="Media informs public">Medya enfòme piblik la</li>
+                                        <li data-ht="Debat piblik ant pati yo" data-en="Public debates between parties">Debat piblik ant pati yo</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Pou demokrasi fonksyone, Ayiti bezwen pati politik ki gen ideoloji klè, ki demokratik nan fonksyonman yo, ki transparent nan finans yo, ak ki reprezante mas popilè a, pa sèlman elit." data-en="For democracy to function, Haiti needs political parties that have clear ideology, are democratic in their functioning, are transparent in their finances, and represent popular masses, not just elites.">Pou demokrasi fonksyone, Ayiti bezwen pati politik ki gen ideoloji klè, ki demokratik nan fonksyonman yo, ki transparent nan finans yo, ak ki reprezante mas popilè a, pa sèlman elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 3 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 3" data-en="Knowledge Check 3">Tès Konesans 3</h3>
+                    <p data-ht="Ki sa ki pi enpòtan lè w ap chwazi yon pati politik?" data-en="What's most important when choosing a political party?">Ki sa ki pi enpòtan lè w ap chwazi yon pati politik?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Chwazi pati ki pi rich" data-en="Choose the richest party">Chwazi pati ki pi rich</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Etidye pwogram yo pou wè ki pati reprezante vizyon ou" data-en="Study programs to see which party represents your vision">Etidye pwogram yo pou wè ki pati reprezante vizyon ou</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Swiv pati fanmi ou" data-en="Follow your family's party">Swiv pati fanmi ou</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Vote pou lidè ki pi bèl" data-en="Vote for the most handsome leader">Vote pou lidè ki pi bèl</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box" style="margin-top: 2rem;">
+                    <p data-ht="Sitwayen yo gen responsabilite tou. Nou dwe enfòme tèt nou sou pati yo, patisipe nan debat demokratik, ak vote pou kandida ki pral sèvi enterè pèp la, pa sèlman pòch yo." data-en="Citizens have responsibilities too. We must inform ourselves about parties, participate in democratic debate, and vote for candidates who will serve people's interests, not just their pockets.">Sitwayen yo gen responsabilite tou. Nou dwe enfòme tèt nou sou pati yo, patisipe nan debat demokratik, ak vote pou kandida ki pral sèvi enterè pèp la, pa sèlman pòch yo.</p>
+                </div>
+
+                <div class="nav-buttons">
+                    <a href="community-organizing.html" class="nav-button" data-ht="← Retounen: Òganizasyon Kominotè" data-en="← Back: Community Organizing">← Retounen: Òganizasyon Kominotè</a>
+                    <a href="electoral-process.html" class="nav-button" data-ht="Swiv: Pwosesis Elektoral →" data-en="Next: Electoral Process →">Swiv: Pwosesis Elektoral →</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
@@ -769,5 +588,57 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            const isActive = header.classList.contains('active');
+
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+
+            updateProgress();
+        }
+
+        function checkQuiz(option, isCorrect) {
+            const options = option.parentElement.children;
+            for (let opt of options) {
+                opt.style.pointerEvents = 'none';
+            }
+
+            if (isCorrect) {
+                option.classList.add('correct');
+            } else {
+                option.classList.add('incorrect');
+                for (let opt of options) {
+                    if (opt.onclick.toString().includes('true')) {
+                        opt.classList.add('correct');
+                    }
+                }
+            }
+
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const totalSections = 6;
+            const totalQuizzes = 3;
+
+            const openedSections = document.querySelectorAll('.accordion-header.active').length;
+            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
+
+            const progress = Math.min(100, Math.round((openedSections / totalSections) * 70 + (answeredQuizzes / totalQuizzes) * 30));
+
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            const lang = document.documentElement.lang;
+            const progressText = lang === 'ht' ? 'Pwogresyon: ' + progress + '%' : 'Progress: ' + progress + '%';
+            document.getElementById('progressText').textContent = progressText;
+
+            document.getElementById('progressText').setAttribute('data-ht', 'Pwogresyon: ' + progress + '%');
+            document.getElementById('progressText').setAttribute('data-en', 'Progress: ' + progress + '%');
+        }
+
+        window.addEventListener('load', updateProgress);
+    </script>
 </body>
 </html>

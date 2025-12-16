@@ -9,949 +9,591 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .progress-container {
+            position: sticky;
+            top: 70px;
+            background: white;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--gray-300);
+            z-index: 100;
+            margin-bottom: 2rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--black);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            text-align: center;
+        }
+
+        .accordion {
+            margin-bottom: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+        }
+
+        .accordion-header {
+            padding: 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s ease;
+            user-select: none;
+        }
+
+        .accordion-header:hover {
+            background: var(--gray-100);
+        }
+
+        .accordion-header.active {
+            background: var(--gray-100);
+            border-bottom: 1px solid var(--gray-300);
+        }
+
+        .accordion-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--black);
+        }
+
+        .accordion-icon {
+            font-size: 1.5rem;
+            color: var(--gray-600);
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .accordion-body {
+            padding: 1.5rem 1.25rem;
+        }
+
+        .accordion-content.active {
+            max-height: 5000px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .info-card {
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            background: white;
+            transition: all 0.2s ease;
+        }
+
+        .info-card:hover {
+            border-color: var(--black);
+            transform: translateY(-2px);
+        }
+
+        .info-card h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--black);
+        }
+
+        .info-card p, .info-card ul {
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            color: var(--gray-700);
+        }
+
+        .highlight-box {
+            background: var(--gray-100);
+            border-left: 4px solid var(--black);
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--gray-800);
+        }
+
+        .quiz {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .quiz h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--black);
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .quiz-option {
+            padding: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--black);
+        }
+
+        .quiz-option.correct {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .quiz-option.incorrect {
+            background: #f8d7da;
+            border-color: #dc3545;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--gray-300);
+        }
+
+        .nav-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--black);
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s ease;
+        }
+
+        .nav-button:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
                 <a href="index.html"><img src="logo.png" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
             <div class="nav-links">
+                <a href="education.html">Edikasyon</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
-                <a href="index.html#research">Rechèch</a>
                 <a href="index.html#contact">Kontak</a>
                 <a href="#" class="lang-switch" onclick="toggleLanguage()">EN</a>
             </div>
         </div>
     </nav>
 
-    <!-- Electoral Process Content -->
     <section class="legal-page">
         <div class="container">
             <h1 class="page-title" data-ht="Pwosesis Elektoral" data-en="Electoral Process">Pwosesis Elektoral</h1>
-
-            <p class="legal-date" data-ht="Dènye mizajou: 16 desanm 2025" data-en="Last Updated: December 16, 2025">Dènye mizajou: 16 desanm 2025</p>
-
-            <div class="legal-content" data-ht='
-                <h2>Ki Sa Pwosesis Elektoral Ye?</h2>
-                <p>Pwosesis elektoral se tout etap ak pwosedi yon peyi swiv pou òganize eleksyon lib, jis, ak transparan. Li enkli enskripsyon votè, kanpay elektoral, jou vòt, konte vòt, ak piblikasyon rezilta.</p>
-
-                <p>Yon bon pwosesis elektoral dwe gen:</p>
-                <ul>
-                    <li><strong>Endepandans:</strong> Òganize pa enstitisyon ki pa kont gouvènman</li>
-                    <li><strong>Transpare:</strong> Tout etap klè ak vizib pou piblik la</li>
-                    <li><strong>Aksesibilite:</strong> Tout sitwayen kalifye ka patisipe</li>
-                    <li><strong>Entegrite:</strong> Rezilta reflete reyèlman vòt pèp la</li>
-                    <li><strong>Akseptasyon:</strong> Tout pati aksepte rezilta legal yo</li>
-                </ul>
-
-                <h2>Konsèy Elektoral Pwovizwa (CEP)</h2>
-
-                <h3>Wòl ak Responsabilite</h3>
-                <p>CEP se enstitisyon ki jere tout eleksyon ann Ayiti. Selon Konstitisyon 1987 (Atik 191-201), CEP responsab pou:</p>
-                <ul>
-                    <li>Òganize tout eleksyon nasyonal ak lokal</li>
-                    <li>Enskri sitwayen sou lis elektoral</li>
-                    <li>Aksepte oswa rejte kandida pati politik</li>
-                    <li>Etabli sant vòt ak biwo vòt</li>
-                    <li>Sivilye pwosesis vòt la</li>
-                    <li>Konte vòt yo ak pibliye rezilta</li>
-                    <li>Rezoud diferan elektoral</li>
-                </ul>
-
-                <h3>Konpozisyon CEP</h3>
-                <p>CEP gen 9 manm:</p>
-                <ul>
-                    <li>Chwazi pa diferan sektè sosyete a (relijye, pwofesyonèl, inivèsite, agrikilti, jounalis, dwa moun, sendika, ak Egzekitif)</li>
-                    <li>Manda 3 lane (ka renouvle)</li>
-                    <li>Dwe endepandan – pa ranpli lòt fonksyon piblik oswa prive</li>
-                    <li>Travay kolektif – desizyon pa majorite</li>
-                </ul>
-
-                <h3>Defi ak Kritik</h3>
-                <p>CEP konfwonte gwo pwoblèm:</p>
-                <ul>
-                    <li><strong>Mank Endepandans:</strong> Manm yo souvan chwazi pa konsiderasyon politik</li>
-                    <li><strong>Resous Limite:</strong> Mank lajan pou fonksyone kòrèkteman</li>
-                    <li><strong>Mank Konfyans:</strong> Pèp la pa fè CEP konfyans akoz sispisyon fwòd</li>
-                    <li><strong>Ensèkirite:</strong> Gang yo anpeche òganize eleksyon nan kèk zòn</li>
-                    <li><strong>Enfrasti Limite:</strong> Pa gen ekipman modèn pou jesyon elektoral</li>
-                </ul>
-
-                <h2>Tip Eleksyon ann Ayiti</h2>
-
-                <h3>Eleksyon Prezidansyèl</h3>
-                <p><strong>Frekans:</strong> Chak 5 lane</p>
-                <p><strong>Manda:</strong> Prezidan sèvi pou 5 lane</p>
-                <p><strong>Sistèm:</strong> De tou</p>
-                <ul>
-                    <li><strong>Premye Tou:</strong> Tout kandida konpetisyone. Si yon kandida jwenn 50% + 1 vòt, li genyen dirèkteman</li>
-                    <li><strong>Dezyèm Tou:</strong> Si pèsonn pa jwenn majorite absolit, de kandida ki gen plis vòt ale nan dezyèm tou. Kandida ki gen plis vòt genyen</li>
-                </ul>
-                <p><strong>Kondisyon pou kandida:</strong></p>
-                <ul>
-                    <li>Gen omwen 35 lane</li>
-                    <li>Se Ayisyen natif natal (fèt Ayisyen, pa natiralize)</li>
-                    <li>Pa janm pran lòt sitwayente</li>
-                    <li>Pwopryetè ann Ayiti</li>
-                    <li>Rezidan ann Ayiti pou omwen 5 lane konsekitif anvan eleksyon</li>
-                </ul>
-
-                <h3>Eleksyon Lejislatif</h3>
-                <p><strong>Sena (Chanm Wòt):</strong></p>
-                <ul>
-                    <li>30 senatè total (3 pa depatman)</li>
-                    <li>Manda 6 lane</li>
-                    <li>1/3 renouvle chak 2 lane</li>
-                    <li>Sistèm: Yon tou – kandida ki gen plis vòt genyen</li>
-                    <li>Kondisyon: 25 lane minimòm, Ayisyen, alfabetize</li>
-                </ul>
-
-                <p><strong>Chanm Depite (Chanm Anba):</strong></p>
-                <ul>
-                    <li>119 depite total</li>
-                    <li>Manda 4 lane</li>
-                    <li>Tout renouvle an menm tan</li>
-                    <li>Sistèm: Yon tou – kandida ki gen plis vòt genyen</li>
-                    <li>Kondisyon: 25 lane minimòm, Ayisyen, alfabetize</li>
-                </ul>
-
-                <h3>Eleksyon Lokal</h3>
-                <p><strong>Konsèy Minisipal (Mè ak Konsèy):</strong></p>
-                <ul>
-                    <li>Manda 4 lane</li>
-                    <li>Mè ak asistan dirije komin</li>
-                    <li>Konsèy minisipal vote sou pwojè lokal</li>
-                </ul>
-
-                <p><strong>ASEC/KASEC (Otorite Seksyon Kominotè):</strong></p>
-                <ul>
-                    <li>Reprezantan kominote riral</li>
-                    <li>Jere kèk sèvis lokal</li>
-                </ul>
-
-                <p><strong>Konsèy Depatmantal:</strong></p>
-                <ul>
-                    <li>Reprezante depatman yo</li>
-                    <li>Travay sou devlopman rejyonal</li>
-                </ul>
-
-                <h2>Pwosesis Enskripsyon Votè</h2>
-
-                <h3>Ki Moun Ki Ka Enskri?</h3>
-                <p>Pou enskri pou vote, ou dwe:</p>
-                <ul>
-                    <li>Gen omwen 18 lane</li>
-                    <li>Se sitwayen Ayisyen</li>
-                    <li>Pa nan prizon pou krim grav (pèdi dwa sivil)</li>
-                    <li>Pa entèdi pa tribinal</li>
-                </ul>
-
-                <h3>Dokiman Nesesè</h3>
-                <p>Pou enrejistre, ou bezwen youn nan dokiman sa yo:</p>
-                <ul>
-                    <li><strong>Sètifika Nesans:</strong> Pwouve laj ak sitwayente</li>
-                    <li><strong>Batistè:</strong> Aksepte si pa gen sètifika nesans</li>
-                    <li><strong>Kat Idantifikasyon Nasyonal (CIN):</strong> Kat idantite ofisyèl</li>
-                    <li><strong>Kat Idantifikasyon Fiskal (NIF):</strong> Nimewo taks nasyonal</li>
-                    <li><strong>Lisans Kondui:</strong> Si ou gen youn</li>
-                    <li><strong>Paspo:</strong> Si ou gen youn</li>
-                </ul>
-
-                <h3>Kote ak Kijan Enskri?</h3>
-                <ul>
-                    <li>Biwo CEP lokal yo</li>
-                    <li>Sant enskripsyon espesyal pandan peryòd enrejistreman</li>
-                    <li>Ou dwe enskri nan kominote kote ou abite</li>
-                    <li>Apre enskripsyon, ou resevwa kat votè oswa non ou ajoute sou lis elektoral</li>
-                </ul>
-
-                <h3>Pwoblèm Enskripsyon</h3>
-                <ul>
-                    <li>Anpil Ayisyen pa gen dokiman idantite</li>
-                    <li>Biwo enskripsyon twò lwen nan zòn riral</li>
-                    <li>Pwosesis konplike ak byuokratik</li>
-                    <li>Gang kontwole kèk zòn kote moun pa ka ale enskri</li>
-                    <li>Lis elektoral pa aktyalize – moun ki mouri oswa ale toujou sou lis</li>
-                </ul>
-
-                <h2>Pwosesis Kanpay Elektoral</h2>
-
-                <h3>Peryòd Kanpay</h3>
-                <p>Kanpay elektoral kòmanse plizyè semèn anvan jou eleksyon. CEP etabli règ espesifik pou chak eleksyon:</p>
-                <ul>
-                    <li>Dat kòmansman ak fen kanpay</li>
-                    <li>Règ sou finans kanpay (limite depans, sous lajan)</li>
-                    <li>Règ sou pwopagann (kote kole afich, itilize medya)</li>
-                    <li>Entèdiksyon (achte vòt, vyolans, dezenfòmasyon)</li>
-                </ul>
-
-                <h3>Aktivite Kanpay</h3>
-                <p>Pandan kanpay, pati politik ak kandida:</p>
-                <ul>
-                    <li>Òganize miting ak rali</li>
-                    <li>Distribiye materyèl kanpay (afich, flye, t-shirt)</li>
-                    <li>Itilize medya (radyo, televizyon, rezo sosyal)</li>
-                    <li>Fè deba piblik</li>
-                    <li>Vizite kominote pòt-pòt</li>
-                </ul>
-
-                <h3>Pwoblèm Kanpay ann Ayiti</h3>
-                <ul>
-                    <li><strong>Achte Vòt:</strong> Distribiye lajan, manje, tol pou vòt</li>
-                    <li><strong>Vyolans:</strong> Gang atake rali opozisyon</li>
-                    <li><strong>Dezenfòmasyon:</strong> Pwopagann fo sou medya sosyal</li>
-                    <li><strong>Inegalite Resous:</strong> Pati rich gen plis mwayen pou kanpay</li>
-                    <li><strong>Mank Aksè:</strong> Zòn gang kontwole, kandidat pa ka kanpay</li>
-                </ul>
-
-                <h2>Jou Eleksyon: Pwosesis Vòt</h2>
-
-                <h3>Preparasyon Anvan Vòt</h3>
-                <p>CEP prepare:</p>
-                <ul>
-                    <li>Etabli sant vòt (lekòl, legliz, sant kominotè)</li>
-                    <li>Rekrite ak fòme obsèvatè ak anplwaye elektoral</li>
-                    <li>Distribiye materyèl (bilten, bwat vòt, lank)</li>
-                    <li>Pibliye lis sant vòt ak lis elektoral</li>
-                </ul>
-
-                <h3>Pwosesis Vòt (Jou Eleksyon)</h3>
-                <p><strong>Ouvèti Sant Vòt:</strong></p>
-                <ul>
-                    <li>Sant yo louvri 6è maten (ka varye)</li>
-                    <li>Obsèvatè ak reprezantan pati verifye materyèl</li>
-                    <li>Bwat vòt louvri devan tout moun pou montre yo vid</li>
-                </ul>
-
-                <p><strong>Pandan Vòt:</strong></p>
-                <ol>
-                    <li>Votè rive ak dokiman idantite</li>
-                    <li>Obsèvatè verifye non votè sou lis elektoral</li>
-                    <li>Votè resevwa bilten vòt</li>
-                    <li>Votè ale nan izolwa pou make bilten an prive</li>
-                    <li>Votè pliye bilten epi mete l nan bwat vòt</li>
-                    <li>Votè siye rejis la oswa mete anp dwèt</li>
-                    <li>Dwèt votè make ak lank pou anpeche vote de fwa</li>
-                </ol>
-
-                <p><strong>Fèmti Sant Vòt:</strong></p>
-                <ul>
-                    <li>Sant yo fèmen 4è apremidi (ka varye)</li>
-                    <li>Moun ki deja nan fil ka vote menm si tan an pase</li>
-                    <li>Bwat yo sele devan obsèvatè</li>
-                </ul>
-
-                <h3>Sekirite Jou Vòt</h3>
-                <p>Mezi sekirite pou pwoteje entegrite vòt:</p>
-                <ul>
-                    <li>Polis oswa fòs sekirite prezante (si posib)</li>
-                    <li>Obsèvatè nasyonal ak entènasyonal sivilye</li>
-                    <li>Reprezantan pati politik nan chak sant</li>
-                    <li>Medya monitè pwosesis la</li>
-                </ul>
-
-                <h2>Konte Vòt ak Pibliye Rezilta</h2>
-
-                <h3>Konte nan Sant Vòt</h3>
-                <p>Apre fèmti sant yo:</p>
-                <ul>
-                    <li>Obsèvatè louvri bwat yo devan tout moun</li>
-                    <li>Konte bilten youn pa youn avèk transparans</li>
-                    <li>Ekri rezilta sou fèy pwosè-vèbal</li>
-                    <li>Tout obsèvatè ak reprezantan siye pwosè-vèbal la</li>
-                    <li>Afiche rezilta nan sant vòt la pou piblik la wè</li>
-                </ul>
-
-                <h3>Transmisyon Rezilta</h3>
-                <ul>
-                    <li>Pwosè-vèbal voye bay CEP santr</li>
-                    <li>CEP kolekte rezilta tout sant vòt yo</li>
-                    <li>Verifye konsistans ant dokiman yo</li>
-                    <li>Idantifye iregilarite oswa pwoblèm</li>
-                </ul>
-
-                <h3>Pibliye Rezilta</h3>
-                <ul>
-                    <li>CEP pibliye rezilta pwovizwa apre konte</li>
-                    <li>Peryòd reklamasyon (kandida ka pwoteste)</li>
-                    <li>CEP rezoud reklamasyon ak diferan</li>
-                    <li>Pibliye rezilta final ofisyèl</li>
-                </ul>
-
-                <h3>Pwoblèm Konte ak Rezilta</h3>
-                <ul>
-                    <li>Konte lant oswa pa transparan</li>
-                    <li>Pwosè-vèbal disparèt oswa manipile</li>
-                    <li>Diferans ant konte lokal ak konte CEP</li>
-                    <li>Retad nan pibliye rezilta kreye sispisyon</li>
-                    <li>Mank transpare total sou konte</li>
-                </ul>
-
-                <h2>Obsèvasyon Elektoral</h2>
-
-                <h3>Ki Moun Ki Obsève?</h3>
-                <p>Plizyè aktè sivilye eleksyon:</p>
-                <ul>
-                    <li><strong>Obsèvatè Nasyonal:</strong> Sitwayen Ayisyen, souvan òganizasyon sosyete sivil</li>
-                    <li><strong>Obsèvatè Entènasyonal:</strong> Misyon OEA, UE, Carter Center, lòt</li>
-                    <li><strong>Reprezantan Pati:</strong> Chak pati ka gen reprezantan nan sant vòt</li>
-                    <li><strong>Jounalis:</strong> Medya lokal ak entènasyonal</li>
-                </ul>
-
-                <h3>Wòl Obsèvatè</h3>
-                <ul>
-                    <li>Monitè tout etap pwosesis elektoral</li>
-                    <li>Verifye respè règleman</li>
-                    <li>Rapòte iregilarite oswa fwòd</li>
-                    <li>Pibliye rapò sou kalite eleksyon</li>
-                    <li>Bay rekòmandasyon pou amelyorasyon</li>
-                </ul>
-
-                <h3>Limit Obsèvasyon ann Ayiti</h3>
-                <ul>
-                    <li>Ensèkirite anpeche aksè nan kèk zòn</li>
-                    <li>Obsèvatè anba menas gang oswa pati</li>
-                    <li>Mank resous pou kouvri tout peyi a</li>
-                    <li>Rekòmandasyon yo souvan pa swivi</li>
-                </ul>
-
-                <h2>Diferan ak Reklamasyon Elektoral</h2>
-
-                <h3>Tip Reklamasyon</h3>
-                <p>Kandida ka pwoteste pou:</p>
-                <ul>
-                    <li>Fwòd elektoral (achte vòt, manipilasyon konte)</li>
-                    <li>Vyolans oswa entimidason</li>
-                    <li>Iregilarite pwosedirèl</li>
-                    <li>Vyolasyon règ kanpay</li>
-                </ul>
-
-                <h3>Pwosedi Reklamasyon</h3>
-                <ul>
-                    <li>Kandida soumèt reklamasyon bay CEP nan delè legal</li>
-                    <li>CEP egzamine prèv yo</li>
-                    <li>CEP rann desizyon (aksepte oswa rejte)</li>
-                    <li>Si pa satisfè, kandida ka ale nan Tribinal Elektoral (si egziste)</li>
-                    <li>Dènye repo: Kou Siperyè Kont ak Kontansye Administratif</li>
-                </ul>
-
-                <h3>Pwoblèm Rezolisyon Diferan</h3>
-                <ul>
-                    <li>CEP souvan jij ak pati – konfli enterè</li>
-                    <li>Tribinal Elektoral pa fonksyone souvan</li>
-                    <li>Pwosesis lant ak opak</li>
-                    <li>Desizyon politik pito pase legal</li>
-                </ul>
-
-                <h2>Sitiyasyon Elektoral Ayiti 2025</h2>
-
-                <h3>Dènye Eleksyon</h3>
-                <ul>
-                    <li><strong>2016:</strong> Dènye eleksyon lejislatif ki te reyalize</li>
-                    <li><strong>2021:</strong> Asasinasyon Prezidan Jovenel Moïse</li>
-                    <li><strong>2024:</strong> Etablisman Konsèy Prezidansyèl Tranzisyonèl (CPT)</li>
-                    <li><strong>Kounye a:</strong> Pa gen prezidan eli, palman, ni ofisyèl lokal</li>
-                </ul>
-
-                <h3>Eleksyon Planifye 2025-2026</h3>
-                <p>Orijinalman, eleksyon te planifye pou:</p>
-                <ul>
-                    <li>15 novanm 2025: Premye tou</li>
-                    <li>Janvye 2026: Dezyèm tou</li>
-                </ul>
-
-                <p><strong>Men nan oktòb 2025:</strong> CEP te deklare li enposib pou òganize eleksyon avan <strong>fevriye 2026</strong> pi bonè.</p>
-
-                <h3>Rezon Retad</h3>
-                <ul>
-                    <li><strong>Ensèkirite:</strong> Gang kontwole gwo pati peyi a, espesyalman Pòtoprens</li>
-                    <li><strong>Mank Finansman:</strong> Pa gen lajan pou achte materyèl ak peye anplwaye</li>
-                    <li><strong>Enfrasti Elektoral:</strong> Sant vòt detwi, pa gen ekipman modèn</li>
-                    <li><strong>Lis Elektoral:</strong> Bezwen aktyalize lis votè yo</li>
-                    <li><strong>Kriz Politik:</strong> Desako ant aktè politik sou kondisyon eleksyon</li>
-                </ul>
-
-                <h3>Preparasyon Aktyèl</h3>
-                <p>Malgre defi yo, CEP ap travay sou:</p>
-                <ul>
-                    <li>Enskripsyon 220+ pati politik regularize</li>
-                    <li>Rekritman anplwaye elektoral</li>
-                    <li>Preparasyon lis elektoral</li>
-                    <li>Chèche finansman entènasyonal</li>
-                </ul>
-
-                <h2>Refòm Nesesè pou Pwosesis Elektoral</h2>
-
-                <h3>1. Ranfòse Endepandans CEP</h3>
-                <ul>
-                    <li>Chanje fason chwazi manm pou plis endepandans</li>
-                    <li>Finansman otomatik pou CEP pa depann de gouvènman</li>
-                    <li>Pouvwa legal pou sanksyone vyolasyon</li>
-                    <li>Pwoteksyon manm CEP kont presyon politik</li>
-                </ul>
-
-                <h3>2. Modènize Sistèm Elektoral</h3>
-                <ul>
-                    <li>Enwodiksyon teknoloji modèn (vòt elektronik, transmisyon rapid rezilta)</li>
-                    <li>Baz done elektoral dijital ak kont byometrik</li>
-                    <li>Amelyore transpare ak vitès konte</li>
-                    <li>Sistèm pou verifye otantisite rezilta</li>
-                </ul>
-
-                <h3>3. Ranfòse Transpare</h3>
-                <ul>
-                    <li>Pibliye tout done elektoral online</li>
-                    <li>Pèmèt obsèvasyon endepandan nan tout etap</li>
-                    <li>Striming video pwosesis konte</li>
-                    <li>Rapò detaye sou chak eleksyon</li>
-                </ul>
-
-                <h3>4. Amelyore Aksesibilite</h3>
-                <ul>
-                    <li>Plis sant enskripsyon nan zòn riral</li>
-                    <li>Siplifye pwosesis enrejistreman</li>
-                    <li>Aksepte plis fòm idantifikasyon</li>
-                    <li>Sèvis mobil pou zòn izole</li>
-                </ul>
-
-                <h3>5. Konbat Fwòd ak Vyolans</h3>
-                <ul>
-                    <li>Lwa pi difisil kont achte vòt ak fwòd</li>
-                    <li>Aplikasyon rapid sanksyon pou vyolasyon</li>
-                    <li>Pwoteksyon pou votè, kandida, ak obsèvatè</li>
-                    <li>Kolaborasyon ak jistis pou poukwiv kriminèl elektoral</li>
-                </ul>
-
-                <h3>6. Edikasyon Elektoral</h3>
-                <ul>
-                    <li>Kanpay enfòmasyon sou dwa votè</li>
-                    <li>Edike sitwayen sou pwosesis elektoral</li>
-                    <li>Fòmasyon pou manm biwo vòt ak obsèvatè</li>
-                    <li>Konbat dezenfòmasyon</li>
-                </ul>
-
-                <h2>Wòl Sitwayen nan Pwosesis Elektoral</h2>
-
-                <h3>Anvan Eleksyon</h3>
-                <ul>
-                    <li>Enskri pou vote si ou pa ankò</li>
-                    <li>Enfòme tèt ou sou kandida ak pwogram yo</li>
-                    <li>Patisipe nan debat ak diskisyon</li>
-                    <li>Sipòte edikasyon elektoral nan kominote ou</li>
-                </ul>
-
-                <h3>Pandan Kanpay</h3>
-                <ul>
-                    <li>Swiv nouvèl politik ak verifye enfòmasyon</li>
-                    <li>Patisipe nan rali ak evènman politik</li>
-                    <li>Poze kesyon kandida yo sou pozisyon yo</li>
-                    <li>Rapòte achte vòt oswa entimidason</li>
-                </ul>
-
-                <h3>Jou Eleksyon</h3>
-                <ul>
-                    <li>Vote! Se dwa ak devwa ou</li>
-                    <li>Rive bonè ak dokiman ou</li>
-                    <li>Respekte règleman sant vòt</li>
-                    <li>Rapòte iregilarite si ou wè yo</li>
-                </ul>
-
-                <h3>Apre Eleksyon</h3>
-                <ul>
-                    <li>Swiv konte vòt ak pibliye rezilta</li>
-                    <li>Mande transpare si gen kesyon</li>
-                    <li>Aksepte rezilta legal yo</li>
-                    <li>Kontinye sivilye lidè eli yo</li>
-                </ul>
-
-                <h2>Konklizyon</h2>
-                <p>Pwosesis elektoral se espindòsal demokrasi. Se atravè eleksyon lib, jis, ak transparan sitwayen chwazi lidè yo ak direksyon peyi a. Men ann Ayiti, pwosesis elektoral konfwonte defi enormès: ensèkirite, koripsyon, mank resous, ak mank konfyans piblik.</p>
-
-                <p>Pou demokrasi fonksyone, Ayiti bezwen:</p>
-                <ul>
-                    <li>Yon CEP endepandan ak gen kapasite</li>
-                    <li>Pwosesis transparan ki pèp la ka fè konfyans</li>
-                    <li>Sekirite pou tout sitwayen ka vote san pè</li>
-                    <li>Finansman adekwa pou òganize eleksyon kalite</li>
-                    <li>Volonte politik pou respekte rezilta</li>
-                </ul>
-
-                <p><strong>Men pi enpòtan, demokrasi bezwen sitwayen angaje. Enskri. Vote. Sivilye. Mande responsabilite. Eleksyon se pa sèlman responsabilite CEP – se responsabilite nou tout.</strong></p>
-
-                <h2>Referans</h2>
-                <ul>
-                    <li><a href="https://www.cep-ht.org" target="_blank">Konsèy Elektoral Pwovizwa (CEP)</a></li>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Konstitisyon Ayiti 1987 - Atik sou Eleksyon (Constitute Project)</a></li>
-                    <li><a href="https://pdba.georgetown.edu/Electoral/Haiti/haiti.html" target="_blank">Sistèm Elektoral Ayiti (Georgetown University)</a></li>
-                    <li><a href="https://www.ifes.org/haiti" target="_blank">Electoral System Haiti (IFES)</a></li>
-                    <li><a href="https://aceproject.org/regions-en/countries-and-territories/HT/default" target="_blank">Electoral Process Haiti (ACE Project)</a></li>
-                    <li><a href="https://www.cartercenter.org/countries/haiti.html" target="_blank">Haiti Elections (Carter Center)</a></li>
-                </ul>
-            ' data-en='
-                <h2>What is the Electoral Process?</h2>
-                <p>The electoral process is all the steps and procedures a country follows to organize free, fair, and transparent elections. It includes voter registration, electoral campaigns, voting day, vote counting, and publication of results.</p>
-
-                <p>A good electoral process must have:</p>
-                <ul>
-                    <li><strong>Independence:</strong> Organized by institutions not controlled by government</li>
-                    <li><strong>Transparency:</strong> All steps clear and visible to public</li>
-                    <li><strong>Accessibility:</strong> All qualified citizens can participate</li>
-                    <li><strong>Integrity:</strong> Results truly reflect people's vote</li>
-                    <li><strong>Acceptance:</strong> All parties accept legal results</li>
-                </ul>
-
-                <h2>Provisional Electoral Council (CEP)</h2>
-
-                <h3>Role and Responsibilities</h3>
-                <p>CEP is the institution that manages all elections in Haiti. According to the 1987 Constitution (Articles 191-201), CEP is responsible for:</p>
-                <ul>
-                    <li>Organizing all national and local elections</li>
-                    <li>Registering citizens on electoral lists</li>
-                    <li>Accepting or rejecting political party candidates</li>
-                    <li>Establishing polling centers and polling stations</li>
-                    <li>Monitoring the voting process</li>
-                    <li>Counting votes and publishing results</li>
-                    <li>Resolving electoral disputes</li>
-                </ul>
-
-                <h3>CEP Composition</h3>
-                <p>CEP has 9 members:</p>
-                <ul>
-                    <li>Chosen by different sectors of society (religious, professional, university, agriculture, journalists, human rights, unions, and Executive)</li>
-                    <li>3-year term (renewable)</li>
-                    <li>Must be independent – not holding other public or private function</li>
-                    <li>Work collectively – decisions by majority</li>
-                </ul>
-
-                <h3>Challenges and Criticism</h3>
-                <p>CEP faces major problems:</p>
-                <ul>
-                    <li><strong>Lack of Independence:</strong> Members often chosen by political considerations</li>
-                    <li><strong>Limited Resources:</strong> Lack of money to function properly</li>
-                    <li><strong>Lack of Trust:</strong> People don't trust CEP due to fraud suspicions</li>
-                    <li><strong>Insecurity:</strong> Gangs prevent organizing elections in some areas</li>
-                    <li><strong>Limited Infrastructure:</strong> No modern equipment for electoral management</li>
-                </ul>
-
-                <h2>Types of Elections in Haiti</h2>
-
-                <h3>Presidential Election</h3>
-                <p><strong>Frequency:</strong> Every 5 years</p>
-                <p><strong>Term:</strong> President serves for 5 years</p>
-                <p><strong>System:</strong> Two rounds</p>
-                <ul>
-                    <li><strong>First Round:</strong> All candidates compete. If one candidate gets 50% + 1 votes, they win directly</li>
-                    <li><strong>Second Round:</strong> If no one gets absolute majority, top two candidates go to second round. Candidate with most votes wins</li>
-                </ul>
-                <p><strong>Candidate conditions:</strong></p>
-                <ul>
-                    <li>At least 35 years old</li>
-                    <li>Native-born Haitian (born Haitian, not naturalized)</li>
-                    <li>Never taken other citizenship</li>
-                    <li>Property owner in Haiti</li>
-                    <li>Resident in Haiti for at least 5 consecutive years before election</li>
-                </ul>
-
-                <h3>Legislative Elections</h3>
-                <p><strong>Senate (Upper Chamber):</strong></p>
-                <ul>
-                    <li>30 total senators (3 per department)</li>
-                    <li>6-year term</li>
-                    <li>1/3 renewed every 2 years</li>
-                    <li>System: One round – candidate with most votes wins</li>
-                    <li>Conditions: 25 years minimum, Haitian, literate</li>
-                </ul>
-
-                <p><strong>Chamber of Deputies (Lower Chamber):</strong></p>
-                <ul>
-                    <li>119 total deputies</li>
-                    <li>4-year term</li>
-                    <li>All renewed at same time</li>
-                    <li>System: One round – candidate with most votes wins</li>
-                    <li>Conditions: 25 years minimum, Haitian, literate</li>
-                </ul>
-
-                <h3>Local Elections</h3>
-                <p><strong>Municipal Council (Mayor and Council):</strong></p>
-                <ul>
-                    <li>4-year term</li>
-                    <li>Mayor and assistant lead commune</li>
-                    <li>Municipal council votes on local projects</li>
-                </ul>
-
-                <p><strong>ASEC/KASEC (Community Section Authorities):</strong></p>
-                <ul>
-                    <li>Rural community representatives</li>
-                    <li>Manage some local services</li>
-                </ul>
-
-                <p><strong>Departmental Council:</strong></p>
-                <ul>
-                    <li>Represent departments</li>
-                    <li>Work on regional development</li>
-                </ul>
-
-                <h2>Voter Registration Process</h2>
-
-                <h3>Who Can Register?</h3>
-                <p>To register to vote, you must:</p>
-                <ul>
-                    <li>Be at least 18 years old</li>
-                    <li>Be a Haitian citizen</li>
-                    <li>Not in prison for serious crime (loss of civil rights)</li>
-                    <li>Not banned by court</li>
-                </ul>
-
-                <h3>Necessary Documents</h3>
-                <p>To register, you need one of these documents:</p>
-                <ul>
-                    <li><strong>Birth Certificate:</strong> Prove age and citizenship</li>
-                    <li><strong>Baptism Certificate:</strong> Accepted if no birth certificate</li>
-                    <li><strong>National ID Card (CIN):</strong> Official identity card</li>
-                    <li><strong>Tax ID Card (NIF):</strong> National tax number</li>
-                    <li><strong>Driver's License:</strong> If you have one</li>
-                    <li><strong>Passport:</strong> If you have one</li>
-                </ul>
-
-                <h3>Where and How to Register?</h3>
-                <ul>
-                    <li>Local CEP offices</li>
-                    <li>Special registration centers during registration period</li>
-                    <li>You must register in community where you live</li>
-                    <li>After registration, you receive voter card or your name added to electoral list</li>
-                </ul>
-
-                <h3>Registration Problems</h3>
-                <ul>
-                    <li>Many Haitians don't have identity documents</li>
-                    <li>Registration offices too far in rural areas</li>
-                    <li>Complicated and bureaucratic process</li>
-                    <li>Gangs control some areas where people can't go register</li>
-                    <li>Electoral lists not updated – dead or gone people still on lists</li>
-                </ul>
-
-                <h2>Electoral Campaign Process</h2>
-
-                <h3>Campaign Period</h3>
-                <p>Electoral campaign starts several weeks before election day. CEP establishes specific rules for each election:</p>
-                <ul>
-                    <li>Start and end dates of campaign</li>
-                    <li>Rules on campaign finance (spending limits, money sources)</li>
-                    <li>Rules on propaganda (where to post signs, media use)</li>
-                    <li>Prohibitions (vote buying, violence, disinformation)</li>
-                </ul>
-
-                <h3>Campaign Activities</h3>
-                <p>During campaign, political parties and candidates:</p>
-                <ul>
-                    <li>Organize meetings and rallies</li>
-                    <li>Distribute campaign materials (posters, flyers, t-shirts)</li>
-                    <li>Use media (radio, TV, social networks)</li>
-                    <li>Hold public debates</li>
-                    <li>Visit communities door-to-door</li>
-                </ul>
-
-                <h3>Campaign Problems in Haiti</h3>
-                <ul>
-                    <li><strong>Vote Buying:</strong> Distributing money, food, roofing for votes</li>
-                    <li><strong>Violence:</strong> Gangs attack opposition rallies</li>
-                    <li><strong>Disinformation:</strong> False propaganda on social media</li>
-                    <li><strong>Resource Inequality:</strong> Rich parties have more means to campaign</li>
-                    <li><strong>Lack of Access:</strong> Gang-controlled areas, candidates can't campaign</li>
-                </ul>
-
-                <h2>Election Day: Voting Process</h2>
-
-                <h3>Pre-Voting Preparation</h3>
-                <p>CEP prepares:</p>
-                <ul>
-                    <li>Establish polling centers (schools, churches, community centers)</li>
-                    <li>Recruit and train observers and electoral staff</li>
-                    <li>Distribute materials (ballots, ballot boxes, ink)</li>
-                    <li>Publish list of polling centers and electoral lists</li>
-                </ul>
-
-                <h3>Voting Process (Election Day)</h3>
-                <p><strong>Opening Polling Centers:</strong></p>
-                <ul>
-                    <li>Centers open at 6am (may vary)</li>
-                    <li>Observers and party representatives verify materials</li>
-                    <li>Ballot boxes opened in front of everyone to show they're empty</li>
-                </ul>
-
-                <p><strong>During Voting:</strong></p>
-                <ol>
-                    <li>Voter arrives with identity document</li>
-                    <li>Observer verifies voter name on electoral list</li>
-                    <li>Voter receives ballot</li>
-                    <li>Voter goes to booth to mark ballot privately</li>
-                    <li>Voter folds ballot and puts it in ballot box</li>
-                    <li>Voter signs register or puts fingerprint</li>
-                    <li>Voter's finger marked with ink to prevent voting twice</li>
-                </ol>
-
-                <p><strong>Closing Polling Centers:</strong></p>
-                <ul>
-                    <li>Centers close at 4pm (may vary)</li>
-                    <li>People already in line can vote even if time passed</li>
-                    <li>Boxes sealed in front of observers</li>
-                </ul>
-
-                <h3>Voting Day Security</h3>
-                <p>Security measures to protect voting integrity:</p>
-                <ul>
-                    <li>Police or security forces present (if possible)</li>
-                    <li>National and international observers monitor</li>
-                    <li>Political party representatives at each center</li>
-                    <li>Media monitors process</li>
-                </ul>
-
-                <h2>Vote Counting and Publishing Results</h2>
-
-                <h3>Counting at Polling Centers</h3>
-                <p>After centers close:</p>
-                <ul>
-                    <li>Observers open boxes in front of everyone</li>
-                    <li>Count ballots one by one with transparency</li>
-                    <li>Write results on minutes sheet</li>
-                    <li>All observers and representatives sign minutes</li>
-                    <li>Post results at polling center for public to see</li>
-                </ul>
-
-                <h3>Transmitting Results</h3>
-                <ul>
-                    <li>Minutes sent to central CEP</li>
-                    <li>CEP collects results from all polling centers</li>
-                    <li>Verify consistency between documents</li>
-                    <li>Identify irregularities or problems</li>
-                </ul>
-
-                <h3>Publishing Results</h3>
-                <ul>
-                    <li>CEP publishes provisional results after counting</li>
-                    <li>Complaint period (candidates can protest)</li>
-                    <li>CEP resolves complaints and disputes</li>
-                    <li>Publish official final results</li>
-                </ul>
-
-                <h3>Counting and Results Problems</h3>
-                <ul>
-                    <li>Slow or non-transparent counting</li>
-                    <li>Minutes disappear or manipulated</li>
-                    <li>Differences between local count and CEP count</li>
-                    <li>Delays in publishing results create suspicion</li>
-                    <li>Lack of total transparency on counting</li>
-                </ul>
-
-                <h2>Electoral Observation</h2>
-
-                <h3>Who Observes?</h3>
-                <p>Several actors monitor elections:</p>
-                <ul>
-                    <li><strong>National Observers:</strong> Haitian citizens, often civil society organizations</li>
-                    <li><strong>International Observers:</strong> OAS missions, EU, Carter Center, others</li>
-                    <li><strong>Party Representatives:</strong> Each party can have representatives at polling centers</li>
-                    <li><strong>Journalists:</strong> Local and international media</li>
-                </ul>
-
-                <h3>Observer Role</h3>
-                <ul>
-                    <li>Monitor all stages of electoral process</li>
-                    <li>Verify respect of regulations</li>
-                    <li>Report irregularities or fraud</li>
-                    <li>Publish reports on election quality</li>
-                    <li>Give recommendations for improvement</li>
-                </ul>
-
-                <h3>Observation Limits in Haiti</h3>
-                <ul>
-                    <li>Insecurity prevents access to some areas</li>
-                    <li>Observers under threat from gangs or parties</li>
-                    <li>Lack of resources to cover whole country</li>
-                    <li>Recommendations often not followed</li>
-                </ul>
-
-                <h2>Electoral Disputes and Complaints</h2>
-
-                <h3>Types of Complaints</h3>
-                <p>Candidates can protest for:</p>
-                <ul>
-                    <li>Electoral fraud (vote buying, count manipulation)</li>
-                    <li>Violence or intimidation</li>
-                    <li>Procedural irregularities</li>
-                    <li>Campaign rule violations</li>
-                </ul>
-
-                <h3>Complaint Procedure</h3>
-                <ul>
-                    <li>Candidate submits complaint to CEP within legal deadline</li>
-                    <li>CEP examines evidence</li>
-                    <li>CEP renders decision (accept or reject)</li>
-                    <li>If not satisfied, candidate can go to Electoral Tribunal (if exists)</li>
-                    <li>Last resort: Superior Court of Accounts and Administrative Litigation</li>
-                </ul>
-
-                <h3>Dispute Resolution Problems</h3>
-                <ul>
-                    <li>CEP often judge and party – conflict of interest</li>
-                    <li>Electoral Tribunal often doesn't function</li>
-                    <li>Slow and opaque process</li>
-                    <li>Political rather than legal decisions</li>
-                </ul>
-
-                <h2>Haiti Electoral Situation 2025</h2>
-
-                <h3>Last Elections</h3>
-                <ul>
-                    <li><strong>2016:</strong> Last legislative elections held</li>
-                    <li><strong>2021:</strong> Assassination of President Jovenel Moïse</li>
-                    <li><strong>2024:</strong> Establishment of Transitional Presidential Council (CPT)</li>
-                    <li><strong>Currently:</strong> No elected president, parliament, or local officials</li>
-                </ul>
-
-                <h3>Planned Elections 2025-2026</h3>
-                <p>Originally, elections were planned for:</p>
-                <ul>
-                    <li>November 15, 2025: First round</li>
-                    <li>January 2026: Second round</li>
-                </ul>
-
-                <p><strong>But in October 2025:</strong> CEP declared it impossible to organize elections before <strong>February 2026</strong> at earliest.</p>
-
-                <h3>Delay Reasons</h3>
-                <ul>
-                    <li><strong>Insecurity:</strong> Gangs control large part of country, especially Port-au-Prince</li>
-                    <li><strong>Lack of Funding:</strong> No money to buy materials and pay staff</li>
-                    <li><strong>Electoral Infrastructure:</strong> Polling centers destroyed, no modern equipment</li>
-                    <li><strong>Electoral Lists:</strong> Need to update voter lists</li>
-                    <li><strong>Political Crisis:</strong> Disagreement among political actors on election conditions</li>
-                </ul>
-
-                <h3>Current Preparations</h3>
-                <p>Despite challenges, CEP is working on:</p>
-                <ul>
-                    <li>Registration of 220+ regularized political parties</li>
-                    <li>Recruiting electoral staff</li>
-                    <li>Preparing electoral lists</li>
-                    <li>Seeking international funding</li>
-                </ul>
-
-                <h2>Necessary Reforms for Electoral Process</h2>
-
-                <h3>1. Strengthen CEP Independence</h3>
-                <ul>
-                    <li>Change how members chosen for more independence</li>
-                    <li>Automatic funding so CEP doesn't depend on government</li>
-                    <li>Legal power to sanction violations</li>
-                    <li>Protection of CEP members against political pressure</li>
-                </ul>
-
-                <h3>2. Modernize Electoral System</h3>
-                <ul>
-                    <li>Introduce modern technology (electronic voting, rapid results transmission)</li>
-                    <li>Digital electoral database with biometric accounts</li>
-                    <li>Improve transparency and counting speed</li>
-                    <li>System to verify result authenticity</li>
-                </ul>
-
-                <h3>3. Strengthen Transparency</h3>
-                <ul>
-                    <li>Publish all electoral data online</li>
-                    <li>Allow independent observation at all stages</li>
-                    <li>Video streaming of counting process</li>
-                    <li>Detailed reports on each election</li>
-                </ul>
-
-                <h3>4. Improve Accessibility</h3>
-                <ul>
-                    <li>More registration centers in rural areas</li>
-                    <li>Simplify registration process</li>
-                    <li>Accept more forms of identification</li>
-                    <li>Mobile services for isolated areas</li>
-                </ul>
-
-                <h3>5. Combat Fraud and Violence</h3>
-                <ul>
-                    <li>Tougher laws against vote buying and fraud</li>
-                    <li>Rapid application of sanctions for violations</li>
-                    <li>Protection for voters, candidates, and observers</li>
-                    <li>Collaboration with justice to prosecute electoral criminals</li>
-                </ul>
-
-                <h3>6. Electoral Education</h3>
-                <ul>
-                    <li>Information campaigns on voter rights</li>
-                    <li>Educate citizens on electoral process</li>
-                    <li>Training for polling station members and observers</li>
-                    <li>Combat disinformation</li>
-                </ul>
-
-                <h2>Citizen Role in Electoral Process</h2>
-
-                <h3>Before Elections</h3>
-                <ul>
-                    <li>Register to vote if you haven't already</li>
-                    <li>Inform yourself on candidates and their programs</li>
-                    <li>Participate in debates and discussions</li>
-                    <li>Support electoral education in your community</li>
-                </ul>
-
-                <h3>During Campaign</h3>
-                <ul>
-                    <li>Follow political news and verify information</li>
-                    <li>Participate in rallies and political events</li>
-                    <li>Ask candidates questions on their positions</li>
-                    <li>Report vote buying or intimidation</li>
-                </ul>
-
-                <h3>Election Day</h3>
-                <ul>
-                    <li>Vote! It's your right and duty</li>
-                    <li>Arrive early with your documents</li>
-                    <li>Respect polling center rules</li>
-                    <li>Report irregularities if you see them</li>
-                </ul>
-
-                <h3>After Elections</h3>
-                <ul>
-                    <li>Follow vote counting and results publication</li>
-                    <li>Demand transparency if there are questions</li>
-                    <li>Accept legal results</li>
-                    <li>Continue monitoring elected leaders</li>
-                </ul>
-
-                <h2>Conclusion</h2>
-                <p>The electoral process is the backbone of democracy. It's through free, fair, and transparent elections that citizens choose their leaders and country's direction. But in Haiti, the electoral process faces enormous challenges: insecurity, corruption, lack of resources, and lack of public trust.</p>
-
-                <p>For democracy to function, Haiti needs:</p>
-                <ul>
-                    <li>An independent and capable CEP</li>
-                    <li>Transparent process that people can trust</li>
-                    <li>Security so all citizens can vote without fear</li>
-                    <li>Adequate funding to organize quality elections</li>
-                    <li>Political will to respect results</li>
-                </ul>
-
-                <p><strong>But most importantly, democracy needs engaged citizens. Register. Vote. Monitor. Demand accountability. Elections are not just CEP's responsibility – they're all of ours.</strong></p>
-
-                <h2>References</h2>
-                <ul>
-                    <li><a href="https://www.cep-ht.org" target="_blank">Provisional Electoral Council (CEP)</a></li>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Haiti Constitution 1987 - Articles on Elections (Constitute Project)</a></li>
-                    <li><a href="https://pdba.georgetown.edu/Electoral/Haiti/haiti.html" target="_blank">Haiti Electoral System (Georgetown University)</a></li>
-                    <li><a href="https://www.ifes.org/haiti" target="_blank">Electoral System Haiti (IFES)</a></li>
-                    <li><a href="https://aceproject.org/regions-en/countries-and-territories/HT/default" target="_blank">Electoral Process Haiti (ACE Project)</a></li>
-                    <li><a href="https://www.cartercenter.org/countries/haiti.html" target="_blank">Haiti Elections (Carter Center)</a></li>
-                </ul>
-            '>
+            <p class="legal-date" data-ht="Aprann kijan eleksyon dwe òganize ann Ayiti" data-en="Learn how elections should be organized in Haiti">Aprann kijan eleksyon dwe òganize ann Ayiti</p>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText" data-ht="Pwogresyon: 0%" data-en="Progress: 0%">Pwogresyon: 0%</div>
+            </div>
+
+            <div class="legal-content">
+                <!-- Section 1 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Ki Sa Pwosesis Elektoral Ye?" data-en="What is the Electoral Process?">Ki Sa Pwosesis Elektoral Ye?</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Pwosesis elektoral se tout etap ak pwosedi yon peyi swiv pou òganize eleksyon lib, jis, ak transparan. Li enkli enskripsyon votè, kanpay elektoral, jou vòt, konte vòt, ak piblikasyon rezilta." data-en="The electoral process is all the steps and procedures a country follows to organize free, fair, and transparent elections. It includes voter registration, electoral campaigns, voting day, vote counting, and publication of results.">Pwosesis elektoral se tout etap ak pwosedi yon peyi swiv pou òganize eleksyon lib, jis, ak transparan. Li enkli enskripsyon votè, kanpay elektoral, jou vòt, konte vòt, ak piblikasyon rezilta.</p>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Endepandans" data-en="Independence">Endepandans</h3>
+                                    <p data-ht="Òganize pa enstitisyon ki pa kont gouvènman" data-en="Organized by institutions not controlled by government">Òganize pa enstitisyon ki pa kont gouvènman</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Transpare" data-en="Transparency">Transpare</h3>
+                                    <p data-ht="Tout etap klè ak vizib pou piblik la" data-en="All steps clear and visible to public">Tout etap klè ak vizib pou piblik la</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Aksesibilite" data-en="Accessibility">Aksesibilite</h3>
+                                    <p data-ht="Tout sitwayen kalifye ka patisipe" data-en="All qualified citizens can participate">Tout sitwayen kalifye ka patisipe</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Entegrite" data-en="Integrity">Entegrite</h3>
+                                    <p data-ht="Rezilta reflete reyèlman vòt pèp la" data-en="Results truly reflect people's vote">Rezilta reflete reyèlman vòt pèp la</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Akseptasyon" data-en="Acceptance">Akseptasyon</h3>
+                                    <p data-ht="Tout pati aksepte rezilta legal yo" data-en="All parties accept legal results">Tout pati aksepte rezilta legal yo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Konsèy Elektoral Pwovizwa (CEP)" data-en="Provisional Electoral Council (CEP)">Konsèy Elektoral Pwovizwa (CEP)</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="Wòl ak Responsabilite" data-en="Role and Responsibilities">Wòl ak Responsabilite</h3>
+                                <p data-ht="CEP se enstitisyon ki jere tout eleksyon ann Ayiti. Selon Konstitisyon 1987, CEP responsab pou:" data-en="CEP is the institution that manages all elections in Haiti. According to the 1987 Constitution, CEP is responsible for:">CEP se enstitisyon ki jere tout eleksyon ann Ayiti. Selon Konstitisyon 1987, CEP responsab pou:</p>
+                                <ul>
+                                    <li data-ht="Òganize tout eleksyon nasyonal ak lokal" data-en="Organizing all national and local elections">Òganize tout eleksyon nasyonal ak lokal</li>
+                                    <li data-ht="Enskri sitwayen sou lis elektoral" data-en="Registering citizens on electoral lists">Enskri sitwayen sou lis elektoral</li>
+                                    <li data-ht="Etabli sant vòt ak biwo vòt" data-en="Establishing polling centers and stations">Etabli sant vòt ak biwo vòt</li>
+                                    <li data-ht="Konte vòt yo ak pibliye rezilta" data-en="Counting votes and publishing results">Konte vòt yo ak pibliye rezilta</li>
+                                </ul>
+                            </div>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Konpozisyon CEP" data-en="CEP Composition">Konpozisyon CEP</h3>
+                                    <ul>
+                                        <li data-ht="9 manm total" data-en="9 total members">9 manm total</li>
+                                        <li data-ht="Chwazi pa diferan sektè" data-en="Chosen by different sectors">Chwazi pa diferan sektè</li>
+                                        <li data-ht="Manda 3 lane (ka renouvle)" data-en="3-year term (renewable)">Manda 3 lane (ka renouvle)</li>
+                                        <li data-ht="Dwe endepandan" data-en="Must be independent">Dwe endepandan</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Defi CEP" data-en="CEP Challenges">Defi CEP</h3>
+                                    <ul>
+                                        <li data-ht="Mank endepandans reyèl" data-en="Lack of real independence">Mank endepandans reyèl</li>
+                                        <li data-ht="Resous limite" data-en="Limited resources">Resous limite</li>
+                                        <li data-ht="Mank konfyans piblik" data-en="Lack of public trust">Mank konfyans piblik</li>
+                                        <li data-ht="Ensèkirite gang" data-en="Gang insecurity">Ensèkirite gang</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 1 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 1" data-en="Knowledge Check 1">Tès Konesans 1</h3>
+                    <p data-ht="Ki enstitisyon ki responsab pou òganize eleksyon ann Ayiti?" data-en="Which institution is responsible for organizing elections in Haiti?">Ki enstitisyon ki responsab pou òganize eleksyon ann Ayiti?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Palman an" data-en="The Parliament">Palman an</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Konsèy Elektoral Pwovizwa (CEP)" data-en="Provisional Electoral Council (CEP)">Konsèy Elektoral Pwovizwa (CEP)</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Prezidan an" data-en="The President">Prezidan an</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Lame a" data-en="The Army">Lame a</div>
+                    </div>
+                </div>
+
+                <!-- Section 3 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Tip Eleksyon ann Ayiti" data-en="Types of Elections in Haiti">Tip Eleksyon ann Ayiti</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</h3>
+                                    <ul>
+                                        <li data-ht="Chak 5 lane" data-en="Every 5 years">Chak 5 lane</li>
+                                        <li data-ht="De tou: 50%+1 pou genyen dirèk" data-en="Two rounds: 50%+1 to win direct">De tou: 50%+1 pou genyen dirèk</li>
+                                        <li data-ht="Kandida dwe gen 35 lane minimòm" data-en="Candidate must be 35 years minimum">Kandida dwe gen 35 lane minimòm</li>
+                                        <li data-ht="Dwe se Ayisyen natif natal" data-en="Must be native-born Haitian">Dwe se Ayisyen natif natal</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Eleksyon Lejislatif" data-en="Legislative Elections">Eleksyon Lejislatif</h3>
+                                    <ul>
+                                        <li data-ht="Sena: 30 senatè, manda 6 lane" data-en="Senate: 30 senators, 6-year term">Sena: 30 senatè, manda 6 lane</li>
+                                        <li data-ht="Depite: 119 depite, manda 4 lane" data-en="Deputies: 119 deputies, 4-year term">Depite: 119 depite, manda 4 lane</li>
+                                        <li data-ht="Kandida dwe gen 25 lane minimòm" data-en="Candidate must be 25 years minimum">Kandida dwe gen 25 lane minimòm</li>
+                                        <li data-ht="Kandida ki gen plis vòt genyen" data-en="Candidate with most votes wins">Kandida ki gen plis vòt genyen</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Eleksyon Lokal" data-en="Local Elections">Eleksyon Lokal</h3>
+                                    <ul>
+                                        <li data-ht="Mè ak konsèy minisipal" data-en="Mayors and municipal councils">Mè ak konsèy minisipal</li>
+                                        <li data-ht="ASEC/KASEC (kominote riral)" data-en="ASEC/KASEC (rural communities)">ASEC/KASEC (kominote riral)</li>
+                                        <li data-ht="Konsèy depatmantal" data-en="Departmental councils">Konsèy depatmantal</li>
+                                        <li data-ht="Manda 4 lane" data-en="4-year term">Manda 4 lane</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Dènye eleksyon ann Ayiti te fèt an 2016. Kounye a (desanm 2025), pa gen prezidan eli, palman, ni ofisyèl lokal. Eleksyon planifye pou fevriye 2026 pi bonè." data-en="Last elections in Haiti were held in 2016. Currently (December 2025), no elected president, parliament, or local officials. Elections planned for February 2026 at earliest.">Dènye eleksyon ann Ayiti te fèt an 2016. Kounye a (desanm 2025), pa gen prezidan eli, palman, ni ofisyèl lokal. Eleksyon planifye pou fevriye 2026 pi bonè.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Pwosesis Enskripsyon ak Vòt" data-en="Registration and Voting Process">Pwosesis Enskripsyon ak Vòt</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Ki Moun Ki Ka Enskri?" data-en="Who Can Register?">Ki Moun Ki Ka Enskri?</h3>
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <p data-ht="Pou enskri pou vote, ou dwe:" data-en="To register to vote, you must:">Pou enskri pou vote, ou dwe:</p>
+                                <ul>
+                                    <li data-ht="Gen omwen 18 lane" data-en="Be at least 18 years old">Gen omwen 18 lane</li>
+                                    <li data-ht="Se sitwayen Ayisyen" data-en="Be a Haitian citizen">Se sitwayen Ayisyen</li>
+                                    <li data-ht="Pa nan prizon pou krim grav" data-en="Not in prison for serious crime">Pa nan prizon pou krim grav</li>
+                                    <li data-ht="Gen dokiman idantite (sètifika nesans, CIN, NIF)" data-en="Have identity documents (birth certificate, CIN, NIF)">Gen dokiman idantite (sètifika nesans, CIN, NIF)</li>
+                                </ul>
+                            </div>
+
+                            <h3 data-ht="Jou Eleksyon: Kijan Vote" data-en="Election Day: How to Vote">Jou Eleksyon: Kijan Vote</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="1. Rive ak Dokiman" data-en="1. Arrive with Documents">1. Rive ak Dokiman</h3>
+                                    <p data-ht="Pote kat votè ou oswa dokiman idantite. Sant yo louvri 6è maten, fèmen 4è apremidi." data-en="Bring your voter card or identity document. Centers open 6am, close 4pm.">Pote kat votè ou oswa dokiman idantite. Sant yo louvri 6è maten, fèmen 4è apremidi.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="2. Verifye Lis" data-en="2. Verify List">2. Verifye Lis</h3>
+                                    <p data-ht="Obsèvatè verifye non ou sou lis elektoral. Ou resevwa bilten vòt." data-en="Observer verifies your name on electoral list. You receive ballot.">Obsèvatè verifye non ou sou lis elektoral. Ou resevwa bilten vòt.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="3. Vote an Prive" data-en="3. Vote in Private">3. Vote an Prive</h3>
+                                    <p data-ht="Ale nan izolwa pou make bilten an prive. Pliye bilten epi mete l nan bwat vòt." data-en="Go to booth to mark ballot privately. Fold ballot and put it in ballot box.">Ale nan izolwa pou make bilten an prive. Pliye bilten epi mete l nan bwat vòt.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="4. Lank sou Dwèt" data-en="4. Ink on Finger">4. Lank sou Dwèt</h3>
+                                    <p data-ht="Dwèt ou make ak lank pou anpeche vote de fwa. Ou siye rejis la oswa mete anp dwèt." data-en="Your finger marked with ink to prevent voting twice. You sign register or put fingerprint.">Dwèt ou make ak lank pou anpeche vote de fwa. Ou siye rejis la oswa mete anp dwèt.</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Pwoblèm: Anpil Ayisyen pa gen dokiman idantite. Biwo enskripsyon twò lwen nan zòn riral. Gang kontwole kèk zòn kote moun pa ka ale enskri." data-en="Problems: Many Haitians don't have identity documents. Registration offices too far in rural areas. Gangs control some areas where people can't go register.">Pwoblèm: Anpil Ayisyen pa gen dokiman idantite. Biwo enskripsyon twò lwen nan zòn riral. Gang kontwole kèk zòn kote moun pa ka ale enskri.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 2 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 2" data-en="Knowledge Check 2">Tès Konesans 2</h3>
+                    <p data-ht="Ki laj minimòm pou enskri pou vote ann Ayiti?" data-en="What is the minimum age to register to vote in Haiti?">Ki laj minimòm pou enskri pou vote ann Ayiti?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="16 lane" data-en="16 years">16 lane</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="18 lane" data-en="18 years">18 lane</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="21 lane" data-en="21 years">21 lane</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="25 lane" data-en="25 years">25 lane</div>
+                    </div>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Konte Vòt ak Obsèvasyon" data-en="Vote Counting and Observation">Konte Vòt ak Obsèvasyon</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Kijan Vòt yo Konte" data-en="How Votes are Counted">Kijan Vòt yo Konte</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Nan Sant Vòt" data-en="At Polling Center">Nan Sant Vòt</h3>
+                                    <ul>
+                                        <li data-ht="Obsèvatè louvri bwat devan tout moun" data-en="Observers open boxes in front of everyone">Obsèvatè louvri bwat devan tout moun</li>
+                                        <li data-ht="Konte bilten youn pa youn" data-en="Count ballots one by one">Konte bilten youn pa youn</li>
+                                        <li data-ht="Ekri rezilta sou pwosè-vèbal" data-en="Write results on minutes">Ekri rezilta sou pwosè-vèbal</li>
+                                        <li data-ht="Afiche rezilta pou piblik la wè" data-en="Post results for public to see">Afiche rezilta pou piblik la wè</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Transmisyon ak Pibliye" data-en="Transmission and Publishing">Transmisyon ak Pibliye</h3>
+                                    <ul>
+                                        <li data-ht="Voye pwosè-vèbal bay CEP santr" data-en="Send minutes to central CEP">Voye pwosè-vèbal bay CEP santr</li>
+                                        <li data-ht="CEP kolekte rezilta tout sant" data-en="CEP collects results from all centers">CEP kolekte rezilta tout sant</li>
+                                        <li data-ht="Pibliye rezilta pwovizwa" data-en="Publish provisional results">Pibliye rezilta pwovizwa</li>
+                                        <li data-ht="Rezoud reklamasyon, pibliye rezilta final" data-en="Resolve complaints, publish final results">Rezoud reklamasyon, pibliye rezilta final</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h3 style="margin-top: 2rem;" data-ht="Ki Moun Ki Obsève?" data-en="Who Observes?">Ki Moun Ki Obsève?</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Obsèvatè Nasyonal" data-en="National Observers">Obsèvatè Nasyonal</h3>
+                                    <p data-ht="Sitwayen Ayisyen, souvan òganizasyon sosyete sivil ki monitè pwosesis la" data-en="Haitian citizens, often civil society organizations monitoring process">Sitwayen Ayisyen, souvan òganizasyon sosyete sivil ki monitè pwosesis la</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Obsèvatè Entènasyonal" data-en="International Observers">Obsèvatè Entènasyonal</h3>
+                                    <p data-ht="Misyon OEA, UE, Carter Center, k ap verifye respè règleman" data-en="OAS missions, EU, Carter Center, verifying respect of regulations">Misyon OEA, UE, Carter Center, k ap verifye respè règleman</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Reprezantan Pati" data-en="Party Representatives">Reprezantan Pati</h3>
+                                    <p data-ht="Chak pati ka gen reprezantan nan sant vòt pou sivilye" data-en="Each party can have representatives at polling centers to monitor">Chak pati ka gen reprezantan nan sant vòt pou sivilye</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Pwoblèm: Konte lant, pwosè-vèbal disparèt, diferans ant konte lokal ak CEP, retad nan pibliye rezilta kreye sispisyon." data-en="Problems: Slow counting, minutes disappear, differences between local count and CEP, delays in publishing results create suspicion.">Pwoblèm: Konte lant, pwosè-vèbal disparèt, diferans ant konte lokal ak CEP, retad nan pibliye rezilta kreye sispisyon.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 6 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Wòl Sitwayen ak Refòm Nesesè" data-en="Citizen Role and Necessary Reforms">Wòl Sitwayen ak Refòm Nesesè</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Responsabilite Sitwayen" data-en="Citizen Responsibilities">Responsabilite Sitwayen</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Anvan Eleksyon" data-en="Before Elections">Anvan Eleksyon</h3>
+                                    <ul>
+                                        <li data-ht="Enskri pou vote" data-en="Register to vote">Enskri pou vote</li>
+                                        <li data-ht="Enfòme tèt ou sou kandida" data-en="Inform yourself on candidates">Enfòme tèt ou sou kandida</li>
+                                        <li data-ht="Patisipe nan debat" data-en="Participate in debates">Patisipe nan debat</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Jou Eleksyon" data-en="Election Day">Jou Eleksyon</h3>
+                                    <ul>
+                                        <li data-ht="Vote! Se dwa ak devwa ou" data-en="Vote! It's your right and duty">Vote! Se dwa ak devwa ou</li>
+                                        <li data-ht="Rive bonè ak dokiman ou" data-en="Arrive early with your documents">Rive bonè ak dokiman ou</li>
+                                        <li data-ht="Rapòte iregilarite" data-en="Report irregularities">Rapòte iregilarite</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Apre Eleksyon" data-en="After Elections">Apre Eleksyon</h3>
+                                    <ul>
+                                        <li data-ht="Swiv konte vòt" data-en="Follow vote counting">Swiv konte vòt</li>
+                                        <li data-ht="Mande transpare" data-en="Demand transparency">Mande transpare</li>
+                                        <li data-ht="Kontinye sivilye lidè eli yo" data-en="Continue monitoring elected leaders">Kontinye sivilye lidè eli yo</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h3 style="margin-top: 2rem;" data-ht="Refòm Nesesè" data-en="Necessary Reforms">Refòm Nesesè</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Ranfòse Endepandans CEP" data-en="Strengthen CEP Independence">Ranfòse Endepandans CEP</h3>
+                                    <ul>
+                                        <li data-ht="Chanje fason chwazi manm" data-en="Change how members chosen">Chanje fason chwazi manm</li>
+                                        <li data-ht="Finansman otomatik" data-en="Automatic funding">Finansman otomatik</li>
+                                        <li data-ht="Pouvwa legal pou sanksyone" data-en="Legal power to sanction">Pouvwa legal pou sanksyone</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Modènize Sistèm" data-en="Modernize System">Modènize Sistèm</h3>
+                                    <ul>
+                                        <li data-ht="Teknoloji modèn (vòt elektronik)" data-en="Modern technology (electronic voting)">Teknoloji modèn (vòt elektronik)</li>
+                                        <li data-ht="Baz done dijital byometrik" data-en="Biometric digital database">Baz done dijital byometrik</li>
+                                        <li data-ht="Transmisyon rapid rezilta" data-en="Rapid results transmission">Transmisyon rapid rezilta</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Amelyore Aksesibilite" data-en="Improve Accessibility">Amelyore Aksesibilite</h3>
+                                    <ul>
+                                        <li data-ht="Plis sant nan zòn riral" data-en="More centers in rural areas">Plis sant nan zòn riral</li>
+                                        <li data-ht="Siplifye enrejistreman" data-en="Simplify registration">Siplifye enrejistraman</li>
+                                        <li data-ht="Sèvis mobil pou zòn izole" data-en="Mobile services for isolated areas">Sèvis mobil pou zòn izole</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Konbat Fwòd" data-en="Combat Fraud">Konbat Fwòd</h3>
+                                    <ul>
+                                        <li data-ht="Lwa pi difisil kont achte vòt" data-en="Tougher laws against vote buying">Lwa pi difisil kont achte vòt</li>
+                                        <li data-ht="Sanksyon rapid pou vyolasyon" data-en="Rapid sanctions for violations">Sanksyon rapid pou vyolasyon</li>
+                                        <li data-ht="Pwoteksyon pou votè" data-en="Protection for voters">Pwoteksyon pou votè</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Pou demokrasi fonksyone, Ayiti bezwen yon CEP endepandan, pwosesis transparan, sekirite pou vote san pè, finansman adekwa, ak volonte politik pou respekte rezilta." data-en="For democracy to function, Haiti needs an independent CEP, transparent process, security to vote without fear, adequate funding, and political will to respect results.">Pou demokrasi fonksyone, Ayiti bezwen yon CEP endepandan, pwosesis transparan, sekirite pou vote san pè, finansman adekwa, ak volonte politik pou respekte rezilta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 3 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 3" data-en="Knowledge Check 3">Tès Konesans 3</h3>
+                    <p data-ht="Ki sa ki pi enpòtan pou eleksyon fonksyone kòrèkteman?" data-en="What's most important for elections to function properly?">Ki sa ki pi enpòtan pou eleksyon fonksyone kòrèkteman?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Anpil pati politik" data-en="Many political parties">Anpil pati politik</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Transpare, endepandans, ak patisipasyon sitwayen" data-en="Transparency, independence, and citizen participation">Transpare, endepandans, ak patisipasyon sitwayen</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Lajan entènasyonal" data-en="International money">Lajan entènasyonal</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Kanpay long ak chè" data-en="Long and expensive campaigns">Kanpay long ak chè</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box" style="margin-top: 2rem;">
+                    <p data-ht="Demokrasi bezwen sitwayen angaje. Enskri. Vote. Sivilye. Mande responsabilite. Eleksyon se pa sèlman responsabilite CEP – se responsabilite nou tout. Vote ou se vwa ou." data-en="Democracy needs engaged citizens. Register. Vote. Monitor. Demand accountability. Elections are not just CEP's responsibility – they're all of ours. Your vote is your voice.">Demokrasi bezwen sitwayen angaje. Enskri. Vote. Sivilye. Mande responsabilite. Eleksyon se pa sèlman responsabilite CEP – se responsabilite nou tout. Vote ou se vwa ou.</p>
+                </div>
+
+                <div class="nav-buttons">
+                    <a href="political-parties.html" class="nav-button" data-ht="← Retounen: Pati Politik" data-en="← Back: Political Parties">← Retounen: Pati Politik</a>
+                    <a href="education.html" class="nav-button" data-ht="Tounen nan Edikasyon →" data-en="Back to Education →">Tounen nan Edikasyon →</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
@@ -961,5 +603,57 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            const isActive = header.classList.contains('active');
+
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+
+            updateProgress();
+        }
+
+        function checkQuiz(option, isCorrect) {
+            const options = option.parentElement.children;
+            for (let opt of options) {
+                opt.style.pointerEvents = 'none';
+            }
+
+            if (isCorrect) {
+                option.classList.add('correct');
+            } else {
+                option.classList.add('incorrect');
+                for (let opt of options) {
+                    if (opt.onclick.toString().includes('true')) {
+                        opt.classList.add('correct');
+                    }
+                }
+            }
+
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const totalSections = 6;
+            const totalQuizzes = 3;
+
+            const openedSections = document.querySelectorAll('.accordion-header.active').length;
+            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
+
+            const progress = Math.min(100, Math.round((openedSections / totalSections) * 70 + (answeredQuizzes / totalQuizzes) * 30));
+
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            const lang = document.documentElement.lang;
+            const progressText = lang === 'ht' ? 'Pwogresyon: ' + progress + '%' : 'Progress: ' + progress + '%';
+            document.getElementById('progressText').textContent = progressText;
+
+            document.getElementById('progressText').setAttribute('data-ht', 'Pwogresyon: ' + progress + '%');
+            document.getElementById('progressText').setAttribute('data-en', 'Progress: ' + progress + '%');
+        }
+
+        window.addEventListener('load', updateProgress);
+    </script>
 </body>
 </html>

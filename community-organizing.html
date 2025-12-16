@@ -9,797 +9,572 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .progress-container {
+            position: sticky;
+            top: 70px;
+            background: white;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--gray-300);
+            z-index: 100;
+            margin-bottom: 2rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--black);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            text-align: center;
+        }
+
+        .accordion {
+            margin-bottom: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+        }
+
+        .accordion-header {
+            padding: 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s ease;
+            user-select: none;
+        }
+
+        .accordion-header:hover {
+            background: var(--gray-100);
+        }
+
+        .accordion-header.active {
+            background: var(--gray-100);
+            border-bottom: 1px solid var(--gray-300);
+        }
+
+        .accordion-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--black);
+        }
+
+        .accordion-icon {
+            font-size: 1.5rem;
+            color: var(--gray-600);
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .accordion-body {
+            padding: 1.5rem 1.25rem;
+        }
+
+        .accordion-content.active {
+            max-height: 5000px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .info-card {
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            background: white;
+            transition: all 0.2s ease;
+        }
+
+        .info-card:hover {
+            border-color: var(--black);
+            transform: translateY(-2px);
+        }
+
+        .info-card h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--black);
+        }
+
+        .info-card p, .info-card ul {
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            color: var(--gray-700);
+        }
+
+        .highlight-box {
+            background: var(--gray-100);
+            border-left: 4px solid var(--black);
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--gray-800);
+        }
+
+        .quiz {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .quiz h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--black);
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .quiz-option {
+            padding: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--black);
+        }
+
+        .quiz-option.correct {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .quiz-option.incorrect {
+            background: #f8d7da;
+            border-color: #dc3545;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--gray-300);
+        }
+
+        .nav-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--black);
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s ease;
+        }
+
+        .nav-button:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
                 <a href="index.html"><img src="logo.png" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
             <div class="nav-links">
+                <a href="education.html">Edikasyon</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
-                <a href="index.html#research">Rechèch</a>
                 <a href="index.html#contact">Kontak</a>
                 <a href="#" class="lang-switch" onclick="toggleLanguage()">EN</a>
             </div>
         </div>
     </nav>
 
-    <!-- Community Organizing Content -->
     <section class="legal-page">
         <div class="container">
             <h1 class="page-title" data-ht="Òganizasyon Kominotè" data-en="Community Organizing">Òganizasyon Kominotè</h1>
-
-            <p class="legal-date" data-ht="Dènye mizajou: 16 desanm 2025" data-en="Last Updated: December 16, 2025">Dènye mizajou: 16 desanm 2025</p>
-
-            <div class="legal-content" data-ht='
-                <h2>Ki Sa Òganizasyon Kominotè Ye?</h2>
-                <p>Òganizasyon kominotè se pwosesis kote moun vin ansanb pou idantifye pwoblèm yo genyen an komen, epi travay ansanb pou jwenn solisyon. Se yon zouti pisan pou chanjman sosyal ki baze sou pouvwa kolektif, pa sou pouvwa endividyèl.</p>
-
-                <p>Prensip kle òganizasyon kominotè:</p>
-                <ul>
-                    <li><strong>Pouvwa nan Nimewo:</strong> Ansanb, nou pi fò pase sèl</li>
-                    <li><strong>Lidèchip Lokal:</strong> Solisyon soti nan kominote a menm</li>
-                    <li><strong>Aksyon Kolektif:</strong> Travay ansanb pou objektif komen</li>
-                    <li><strong>Responsabilizasyon:</strong> Moun vin kontan yo gen kapasite pou chanje sitiyasyon yo</li>
-                    <li><strong>Demokrasi Patisipatif:</strong> Tout moun gen vwa nan desizyon</li>
-                </ul>
-
-                <h2>Tradisyon Òganizasyon ann Ayiti</h2>
-
-                <h3>Konbit</h3>
-                <p>Konbit se yon tradisyon travay kolektif ki gen rasin nan istwa Ayiti. Se lè vwazen yo rasanble pou travay tè, bati kay, oswa fè pwojè ansanb. Konbit baze sou solidarite ak resipwosite.</p>
-                <ul>
-                    <li>Chak moun kontribye ak travay oswa konpetans yo</li>
-                    <li>Travay fini pi vit ak pi byen</li>
-                    <li>Ranfòse lyen sosyal nan kominote a</li>
-                    <li>Tout moun benefisye – pa sèlman youn</li>
-                </ul>
-
-                <h3>Gwoupman</h3>
-                <p>Gwoupman se òganizasyon lokal ki rasanble moun ki gen menm enterè:</p>
-                <ul>
-                    <li>Gwoupman fanm pou kòmès oswa agrikilti</li>
-                    <li>Gwoupman jèn pou espò oswa edikasyon</li>
-                    <li>Gwoupman peyizan pou defann tè yo</li>
-                    <li>Gwoupman atizan pou vann pwodui yo</li>
-                </ul>
-
-                <h3>Lakou ak Sosyete</h3>
-                <p>Tradisyonèlman, lakou (espas kote fanmi ak vwazen viv ansanb) te jwe wòl enpòtan nan òganizasyon sosyal. Sosyete sekrè ak relijye te tou sèvi kòm espas mobilizasyon.</p>
-
-                <h2>Etap Òganizasyon Kominotè</h2>
-
-                <h3>1. Idantifye Pwoblèm</h3>
-                <p>Premye etap se konprann ki pwoblèm kominote a ap konfwonte:</p>
-                <ul>
-                    <li>Pale ak vwazen yo, koute preokipasyon yo</li>
-                    <li>Fè sondaj oswa rankont kominotè</li>
-                    <li>Obsève sa k ap pase nan katye a</li>
-                    <li>Chwazi yon pwoblèm espesifik pou kòmanse</li>
-                </ul>
-
-                <h3>2. Rasanble Moun</h3>
-                <p>Apre ou idantifye pwoblèm nan, ou bezwen mobilize moun:</p>
-                <ul>
-                    <li><strong>Kay-pa-kay:</strong> Ale vizite chak kay pou pale ak moun</li>
-                    <li><strong>Reyinyon piblik:</strong> Rele yon asanble kominotè</li>
-                    <li><strong>Itilize rezwo ki egziste:</strong> Legliz, lekòl, klib espò</li>
-                    <li><strong>Medya sosyal:</strong> Kreye gwoup WhatsApp, Facebook, oswa Signal</li>
-                </ul>
-
-                <h3>3. Bati Lidèchip</h3>
-                <p>Kominote a bezwen lidè ki soti nan mitan yo:</p>
-                <ul>
-                    <li>Idantifye moun ki respekte epi ki angaje</li>
-                    <li>Bay fòmasyon sou òganizasyon ak negosyasyon</li>
-                    <li>Ankouraje lidèchip pataje (pa sèlman yon moun)</li>
-                    <li>Asire lidè yo reprezante divèsite kominote a</li>
-                </ul>
-
-                <h3>4. Devlope Estrateji</h3>
-                <p>Ansanb, kominote a deside kijan yo pral travay:</p>
-                <ul>
-                    <li>Ki objektif nou vle reyalize?</li>
-                    <li>Ki resous nou genyen?</li>
-                    <li>Ki alye nou ka jwenn?</li>
-                    <li>Ki aksyon nou pral pran?</li>
-                </ul>
-
-                <h3>5. Pran Aksyon</h3>
-                <p>Kominote a mobilize pou chanjman:</p>
-                <ul>
-                    <li><strong>Aksyon dirèk:</strong> Netwaye kanal, bati pon, plante pye bwa</li>
-                    <li><strong>Petisyon:</strong> Kolekte siyati pou mande gouvènman aji</li>
-                    <li><strong>Manifestasyon:</strong> Òganize mach oswa sit-in pasifik</li>
-                    <li><strong>Negosyasyon:</strong> Rankontre avèk loritè yo</li>
-                </ul>
-
-                <h3>6. Evalye ak Ajiste</h3>
-                <p>Apre aksyon, kominote a gade sa ki mache ak sa ki pa mache:</p>
-                <ul>
-                    <li>Èske nou reyalize objektif nou?</li>
-                    <li>Ki leson nou aprann?</li>
-                    <li>Ki sa nou ka amelyore?</li>
-                    <li>Ki etap kap suiv?</li>
-                </ul>
-
-                <h2>Estrateji Òganizasyon Kominotè</h2>
-
-                <h3>Mobilizasyon Pòt-Pòt (Door-to-Door)</h3>
-                <p>Ale kay pa kay pou pale ak moun dirèkteman:</p>
-                <ul>
-                    <li>Kreye relasyon pèsonèl ak moun nan kominote a</li>
-                    <li>Koute preokipasyon endividyèl</li>
-                    <li>Envite moun nan reyinyon</li>
-                    <li>Idantifye lidè potansyèl</li>
-                </ul>
-
-                <h3>Asanble Kominotè</h3>
-                <p>Òganize reyinyon kote tout moun ka patisipe:</p>
-                <ul>
-                    <li>Chwazi yon kote aksesib pou tout moun</li>
-                    <li>Anonse reyinyon an advance</li>
-                    <li>Kreye yon espas kote tout moun santi yo ka pale</li>
-                    <li>Pran desizyon pa konsansis oswa vote</li>
-                </ul>
-
-                <h3>Kanpay Enfòmasyon</h3>
-                <p>Edike kominote a sou kesyon enpòtan:</p>
-                <ul>
-                    <li>Distribiye flye oswa afich</li>
-                    <li>Itilize radyo kominotè</li>
-                    <li>Kreye kontni sou medya sosyal</li>
-                    <li>Òganize prezantasyon ak diskisyon</li>
-                </ul>
-
-                <h3>Aksyon Dirèk</h3>
-                <p>Pran aksyon konkrè pou rezoud pwoblèm:</p>
-                <ul>
-                    <li>Kominote a fè travay yo menm yo ka fè</li>
-                    <li>Montre kapasite ak angajman kominotè a</li>
-                    <li>Kreye rezilta vizib epi rapid</li>
-                    <li>Bati konfyans ak momentum</li>
-                </ul>
-
-                <h3>Plede ak Negosyasyon</h3>
-                <p>Travay avèk loritè yo pou jwenn chanjman:</p>
-                <ul>
-                    <li>Prepare dosye solid avèk done ak demand klè</li>
-                    <li>Kreye presyon piblik si nesesè</li>
-                    <li>Negosye pou solisyon ki benefisye tout moun</li>
-                    <li>Swiv pou asire angajman yo respekte</li>
-                </ul>
-
-                <h2>Egzanp Òganizasyon Kominotè ann Ayiti</h2>
-
-                <h3>OPODNE: Òganizasyon Nòdès</h3>
-                <p>OPODNE (Organisation Paysanne pour le Développement du Nord-Est) travay ak 56 kominote nan depatman Nòdès:</p>
-                <ul>
-                    <li>Defann dwa peyizan sou tè yo</li>
-                    <li>Pwomote agrikilti dirab ak agroecology</li>
-                    <li>Reziste kont pwojè ki deplase peyizan</li>
-                    <li>Ranfòse kapasite òganizasyon lokal</li>
-                </ul>
-
-                <h3>MPNKP: Mouvman Peyizan Nasyonal</h3>
-                <p>MPNKP travay nan 10 depatman sou plizyè pwojè:</p>
-                <ul>
-                    <li><strong>Repopilasyon kochon:</strong> Bay peyizan kochon pou devlope cheptel</li>
-                    <li><strong>Agroecology:</strong> Fòmasyon sou agrikilti san chimik</li>
-                    <li><strong>Semans lokal:</strong> Pwoteje ak distribiye semans tradisyonèl</li>
-                    <li><strong>Defans tè:</strong> Lit kont akapa tè peyizan</li>
-                </ul>
-
-                <h3>Tèt Kole Ti Peyizan: Souverènte Alimantè</h3>
-                <p>Rezwo Tèt Kole mobilize peyizan pou defann dwa yo:</p>
-                <ul>
-                    <li>Lit pou souverènte alimantè (dwa peyizan chwazi sa yo plante)</li>
-                    <li>Rezistans kont OGM ak semans monopolize</li>
-                    <li>Defans mache lokal kont pwodui enpòte</li>
-                    <li>Pwomote konsomasyon pwodui lokal</li>
-                </ul>
-
-                <h3>Mouvman PetroChallenge 2018</h3>
-                <p>Mouvman PetroChallenge se youn nan pi gwo mobilizasyon kont koripsyon:</p>
-                <ul>
-                    <li>Milyon moun nan lari mande kont sou $4 milya PetroCaribe</li>
-                    <li>Òganize pa gwoup jèn, militanw, ak sosyete sivil</li>
-                    <li>Itilize hashtag #KotKòbPetwoKaribea pou mobilize</li>
-                    <li>Malgre pèsekisyon, mouvman nan kontinye mande jistis</li>
-                </ul>
-
-                <h3>Komite Katye pou Sekirite</h3>
-                <p>Nan kèk katye, moun òganize pou pwoteje tèt yo:</p>
-                <ul>
-                    <li>Kreye sistèm veye kominotè</li>
-                    <li>Netwaye lari pou elimine kachèt kriminèl</li>
-                    <li>Kolabore ak polis lokal (kote sa posib)</li>
-                    <li>Sipò viktim vyolans</li>
-                </ul>
-
-                <h2>Defi Òganizasyon Kominotè ann Ayiti</h2>
-
-                <h3>Ensèkirite ak Gang</h3>
-                <p>Vyolans gang yo limite kapasite moun pou òganize:</p>
-                <ul>
-                    <li>Lidè kominotè anba menas oswa fòse ale</li>
-                    <li>Difisil pou rasanble moun an sekirite</li>
-                    <li>Zòn kote gang kontwole, òganizasyon enposib</li>
-                    <li>Pè anpeche moun angaje</li>
-                </ul>
-
-                <h3>Povrete ak Sivi</h3>
-                <p>Lè moun ap lite pou sivi, difisil pou yo angaje:</p>
-                <ul>
-                    <li>Moun pa gen tan paske yo okipe chache lavi</li>
-                    <li>Pa gen resous pou sipòte òganizasyon</li>
-                    <li>Bezwen imedya pi enpòtan pase objektif long-term</li>
-                </ul>
-
-                <h3>Repression Politik</h3>
-                <p>Loritè yo souvan pa renmen òganizasyon kominotè:</p>
-                <ul>
-                    <li>Entimide lidè ki kritike gouvènman</li>
-                    <li>Arestasyon abizif pou dekouraje mobilizasyon</li>
-                    <li>Itilize fòs pou kraze manifestasyon</li>
-                    <li>Achte lidè pou divize mouvman</li>
-                </ul>
-
-                <h3>Divizyon Entèn</h3>
-                <p>Kominote yo pa toujou ini:</p>
-                <ul>
-                    <li>Diferans politik kreye tensyon</li>
-                    <li>Kompetisyon pou resous limite</li>
-                    <li>Mank konfyans ant gwoup diferan</li>
-                    <li>Lidè ki chèche pouvwa pèsonèl pito pase byen komen</li>
-                </ul>
-
-                <h3>Mank Sipò Estriktirel</h3>
-                <p>Òganizasyon kominotè manke sipò enstitisyonèl:</p>
-                <ul>
-                    <li>Pa gen lwa ki pwoteje dwa òganizasyon</li>
-                    <li>Gouvènman pa sipòte inisyativ lokal</li>
-                    <li>Difisil pou jwenn finansman</li>
-                    <li>Mank espas piblik pou reyinyon</li>
-                </ul>
-
-                <h2>Kijan Kòmanse Òganize nan Kominote Ou</h2>
-
-                <h3>Etap 1: Koute ak Aprann</h3>
-                <ul>
-                    <li>Pale ak vwazen ou pou konprann preokipasyon yo</li>
-                    <li>Identifye pwoblèm ki afekte anpil moun</li>
-                    <li>Chèche konnen ki resous ki deja egziste</li>
-                    <li>Aprann istwa òganizasyon nan zòn nan</li>
-                </ul>
-
-                <h3>Etap 2: Kòmanse Ti</h3>
-                <ul>
-                    <li>Pa eseye rezoud tout pwoblèm ansanm</li>
-                    <li>Chwazi yon pwoblèm espesifik ou ka reyalize</li>
-                    <li>Kòmanse ak yon ti gwoup moun angaje</li>
-                    <li>Kreye yon viktwa rapid pou bati momentum</li>
-                </ul>
-
-                <h3>Etap 3: Bati Relasyon</h3>
-                <ul>
-                    <li>Pase tan ak moun, pa sèlman nan reyinyon</li>
-                    <li>Kreye konfyans atravè aksyon konsistan</li>
-                    <li>Respekte opinyon tout moun</li>
-                    <li>Chèche pwennkom, pa diferans</li>
-                </ul>
-
-                <h3>Etap 4: Devlope Kapasite</h3>
-                <ul>
-                    <li>Aprann sou òganizasyon, negosyasyon, plede</li>
-                    <li>Pataje konpetans ant manm gwoup la</li>
-                    <li>Envite ekspè pou fòmasyon</li>
-                    <li>Aprann de lòt mouvman ki reyisi</li>
-                </ul>
-
-                <h3>Etap 5: Pran Aksyon ak Persiste</h3>
-                <ul>
-                    <li>Pase de pale a fè</li>
-                    <li>Pa dekouraje si premye aksyon pa reyisi</li>
-                    <li>Aprann de echèk yo ak ajiste</li>
-                    <li>Selebre viktwa yo, menm ti yo</li>
-                </ul>
-
-                <h2>Zouti pou Òganizasyon Kominotè</h2>
-
-                <h3>Medya Sosyal</h3>
-                <ul>
-                    <li><strong>WhatsApp/Signal:</strong> Gwoup diskisyon ak mobilizasyon rapid</li>
-                    <li><strong>Facebook:</strong> Paj kominotè ak evènman</li>
-                    <li><strong>Twitter/X:</strong> Pataje enfòmasyon ak kreye atansyon</li>
-                    <li><strong>YouTube:</strong> Videyo edikasyon ak dokimantè</li>
-                </ul>
-
-                <h3>Radyo Kominotè</h3>
-                <ul>
-                    <li>Rive jwenn moun ki pa sou entènèt</li>
-                    <li>Diskite pwoblèm lokal nan lang moun pale</li>
-                    <li>Kreye platfòm pou vwa kominotè a</li>
-                </ul>
-
-                <h3>Reyinyon ak Fòm</h3>
-                <ul>
-                    <li>Espas pou diskisyon demokratik</li>
-                    <li>Kreye konsansis sou objektif</li>
-                    <li>Ranfòse lyen ant manm</li>
-                </ul>
-
-                <h3>Petisyon ak Sondaj</h3>
-                <ul>
-                    <li>Kolekte siyati pou montre sipò</li>
-                    <li>Dokimante pwoblèm ak demand</li>
-                    <li>Kreye presyon sou loritè</li>
-                </ul>
-
-                <h3>Manifestasyon ak Mach</h3>
-                <ul>
-                    <li>Vizibilite piblik pou demand</li>
-                    <li>Montre fòs ak inite</li>
-                    <li>Kreye presyon politik</li>
-                </ul>
-
-                <h2>Pwoteje Òganizasyon Ou</h2>
-
-                <h3>Sekirite Fizik</h3>
-                <ul>
-                    <li>Toujou rankontre nan kote piblik ak an sekirite</li>
-                    <li>Avèti fanmi ou kote w ale</li>
-                    <li>Si gen menas, chanje kote reyinyon</li>
-                    <li>Travay nan gwoup, pa sèl</li>
-                </ul>
-
-                <h3>Sekirite Dijital</h3>
-                <ul>
-                    <li>Itilize aplikasyon sikire tankou Signal</li>
-                    <li>Pa pataje enfòmasyon sansib sou WhatsApp nòmal</li>
-                    <li>Pwoteje telefòn ou ak modpas solid</li>
-                    <li>Fè atansyon a espyon nan gwoup ou</li>
-                </ul>
-
-                <h3>Sekirite Legal</h3>
-                <ul>
-                    <li>Konnen dwa ou pou manifeste ak òganize</li>
-                    <li>Kenbe dosye sou tout aksyon yo</li>
-                    <li>Gen kontak avoka oswa òganizasyon dwa moun</li>
-                    <li>Rapòte entimidason bay òganizasyon nasyonal</li>
-                </ul>
-
-                <h3>Pwoteksyon kont Divizyon</h3>
-                <ul>
-                    <li>Etabli prensip ak objektif klè depi kòmansman</li>
-                    <li>Kreye pwosesis pou rezoud konfli</li>
-                    <li>Transpare nan jesyon lajan ak desizyon</li>
-                    <li>Pa kite yon moun sèl pran tout desizyon</li>
-                </ul>
-
-                <h2>Koneksyon ant Òganizasyon Lokal ak Nasyonal</h2>
-
-                <h3>Rezwo ak Federasyon</h3>
-                <p>Òganizasyon lokal pi fò lè yo konekte:</p>
-                <ul>
-                    <li>Pataje enfòmasyon ak estrateji</li>
-                    <li>Sipòte lòt mouvman nan lòt rejyon</li>
-                    <li>Kreye presyon nasyonal pou demand lokal</li>
-                    <li>Aprann de siksè ak echèk lòt moun</li>
-                </ul>
-
-                <h3>Alye ak Òganizasyon Nasyonal</h3>
-                <ul>
-                    <li>ONG dwa moun ka bay sipò legal</li>
-                    <li>Sendika ka bay eksperiz òganizasyon</li>
-                    <li>Legliz ak gwoup relijye ka ofri espas ak pwoteksyon</li>
-                    <li>Medya ka bay vizibilite</li>
-                </ul>
-
-                <h2>Konklizyon</h2>
-                <p>Òganizasyon kominotè se zouti pi pisan pèp Ayisyen an genyen pou chanje sitiyasyon yo. Istwa nou plen ak egzanp mobilizasyon ki te reyisi – soti nan revolisyon 1804 jiska mouvman PetroChallenge.</p>
-
-                <p>Chanjman pa vin de anwo. Li vin de anba, lè moun òdinè rasanble pou defann enterè yo. Konbit, gwoupman, ak tradisyon solidarite nou yo montre nou deja konnen kijan òganize.</p>
-
-                <p><strong>Kominote ou gen pouvwa. Men pouvwa sa a sèlman egziste lè nou ini, òganize, ak aji ansanm. Kòmanse kote ou ye. Rasanble vwazen ou. Idantifye pwoblèm. Pran aksyon. Chanjman kòmanse avèk ou.</strong></p>
-
-                <h2>Referans</h2>
-                <ul>
-                    <li><a href="https://www.opodne.org" target="_blank">OPODNE - Organisation Paysanne pour le Développement du Nord-Est</a></li>
-                    <li><a href="https://www.hpnhaiti.org" target="_blank">Haiti Peasant Network Organizations</a></li>
-                    <li><a href="https://www.ijdh.org/our-work/activism/" target="_blank">Community Organizing in Haiti (IJDH)</a></li>
-                    <li><a href="https://foodfirst.org/tag/haiti/" target="_blank">Food Sovereignty Movement Haiti (Food First)</a></li>
-                    <li><a href="https://www.amnesty.org/en/latest/news/2019/02/haiti-petrocaribe-protests/" target="_blank">PetroCaribe Protests (Amnesty International)</a></li>
-                </ul>
-            ' data-en='
-                <h2>What is Community Organizing?</h2>
-                <p>Community organizing is the process where people come together to identify common problems and work together to find solutions. It is a powerful tool for social change based on collective power, not individual power.</p>
-
-                <p>Key principles of community organizing:</p>
-                <ul>
-                    <li><strong>Power in Numbers:</strong> Together, we are stronger than alone</li>
-                    <li><strong>Local Leadership:</strong> Solutions come from the community itself</li>
-                    <li><strong>Collective Action:</strong> Working together for common objectives</li>
-                    <li><strong>Empowerment:</strong> People become confident they have capacity to change their situation</li>
-                    <li><strong>Participatory Democracy:</strong> Everyone has voice in decisions</li>
-                </ul>
-
-                <h2>Organizing Traditions in Haiti</h2>
-
-                <h3>Konbit</h3>
-                <p>Konbit is a tradition of collective work rooted in Haitian history. It's when neighbors gather to work land, build houses, or do projects together. Konbit is based on solidarity and reciprocity.</p>
-                <ul>
-                    <li>Everyone contributes their work or skills</li>
-                    <li>Work finishes faster and better</li>
-                    <li>Strengthens social bonds in the community</li>
-                    <li>Everyone benefits – not just one</li>
-                </ul>
-
-                <h3>Gwoupman</h3>
-                <p>Gwoupman are local organizations that gather people with same interests:</p>
-                <ul>
-                    <li>Women's groups for commerce or agriculture</li>
-                    <li>Youth groups for sports or education</li>
-                    <li>Peasant groups to defend their land</li>
-                    <li>Artisan groups to sell their products</li>
-                </ul>
-
-                <h3>Lakou and Societies</h3>
-                <p>Traditionally, lakou (space where families and neighbors live together) played important role in social organization. Secret and religious societies also served as mobilization spaces.</p>
-
-                <h2>Steps of Community Organizing</h2>
-
-                <h3>1. Identify Problems</h3>
-                <p>First step is understanding what problems the community is facing:</p>
-                <ul>
-                    <li>Talk to neighbors, listen to their concerns</li>
-                    <li>Conduct surveys or community meetings</li>
-                    <li>Observe what's happening in the neighborhood</li>
-                    <li>Choose a specific problem to start</li>
-                </ul>
-
-                <h3>2. Gather People</h3>
-                <p>After identifying problem, you need to mobilize people:</p>
-                <ul>
-                    <li><strong>Door-to-door:</strong> Visit each house to talk with people</li>
-                    <li><strong>Public meetings:</strong> Call a community assembly</li>
-                    <li><strong>Use existing networks:</strong> Churches, schools, sports clubs</li>
-                    <li><strong>Social media:</strong> Create WhatsApp, Facebook, or Signal groups</li>
-                </ul>
-
-                <h3>3. Build Leadership</h3>
-                <p>Community needs leaders from within:</p>
-                <ul>
-                    <li>Identify people who are respected and engaged</li>
-                    <li>Provide training on organizing and negotiation</li>
-                    <li>Encourage shared leadership (not just one person)</li>
-                    <li>Ensure leaders represent community diversity</li>
-                </ul>
-
-                <h3>4. Develop Strategy</h3>
-                <p>Together, community decides how to work:</p>
-                <ul>
-                    <li>What objectives do we want to achieve?</li>
-                    <li>What resources do we have?</li>
-                    <li>What allies can we find?</li>
-                    <li>What actions will we take?</li>
-                </ul>
-
-                <h3>5. Take Action</h3>
-                <p>Community mobilizes for change:</p>
-                <ul>
-                    <li><strong>Direct action:</strong> Clean canals, build bridges, plant trees</li>
-                    <li><strong>Petitions:</strong> Collect signatures to demand government act</li>
-                    <li><strong>Demonstrations:</strong> Organize peaceful marches or sit-ins</li>
-                    <li><strong>Negotiation:</strong> Meet with authorities</li>
-                </ul>
-
-                <h3>6. Evaluate and Adjust</h3>
-                <p>After action, community looks at what worked and what didn't:</p>
-                <ul>
-                    <li>Did we achieve our objective?</li>
-                    <li>What lessons did we learn?</li>
-                    <li>What can we improve?</li>
-                    <li>What are next steps?</li>
-                </ul>
-
-                <h2>Community Organizing Strategies</h2>
-
-                <h3>Door-to-Door Mobilization</h3>
-                <p>Going house by house to talk with people directly:</p>
-                <ul>
-                    <li>Create personal relationships with people in community</li>
-                    <li>Listen to individual concerns</li>
-                    <li>Invite people to meetings</li>
-                    <li>Identify potential leaders</li>
-                </ul>
-
-                <h3>Community Assemblies</h3>
-                <p>Organize meetings where everyone can participate:</p>
-                <ul>
-                    <li>Choose accessible location for everyone</li>
-                    <li>Announce meeting in advance</li>
-                    <li>Create space where everyone feels they can speak</li>
-                    <li>Make decisions by consensus or vote</li>
-                </ul>
-
-                <h3>Information Campaigns</h3>
-                <p>Educate community on important issues:</p>
-                <ul>
-                    <li>Distribute flyers or posters</li>
-                    <li>Use community radio</li>
-                    <li>Create social media content</li>
-                    <li>Organize presentations and discussions</li>
-                </ul>
-
-                <h3>Direct Action</h3>
-                <p>Take concrete action to solve problems:</p>
-                <ul>
-                    <li>Community does work they can do themselves</li>
-                    <li>Show community capacity and commitment</li>
-                    <li>Create visible and rapid results</li>
-                    <li>Build confidence and momentum</li>
-                </ul>
-
-                <h3>Advocacy and Negotiation</h3>
-                <p>Work with authorities to get change:</p>
-                <ul>
-                    <li>Prepare solid case with data and clear demands</li>
-                    <li>Create public pressure if necessary</li>
-                    <li>Negotiate for solutions that benefit everyone</li>
-                    <li>Follow up to ensure commitments are respected</li>
-                </ul>
-
-                <h2>Examples of Community Organizing in Haiti</h2>
-
-                <h3>OPODNE: Northeast Organization</h3>
-                <p>OPODNE works with 56 communities in Northeast department:</p>
-                <ul>
-                    <li>Defend peasant rights to their land</li>
-                    <li>Promote sustainable agriculture and agroecology</li>
-                    <li>Resist projects that displace peasants</li>
-                    <li>Strengthen local organizational capacity</li>
-                </ul>
-
-                <h3>MPNKP: National Peasant Movement</h3>
-                <p>MPNKP works in 10 departments on multiple projects:</p>
-                <ul>
-                    <li><strong>Pig repopulation:</strong> Give peasants pigs to develop livestock</li>
-                    <li><strong>Agroecology:</strong> Training on agriculture without chemicals</li>
-                    <li><strong>Local seeds:</strong> Protect and distribute traditional seeds</li>
-                    <li><strong>Land defense:</strong> Fight against peasant land grabbing</li>
-                </ul>
-
-                <h3>Tèt Kole Ti Peyizan: Food Sovereignty</h3>
-                <p>Tèt Kole network mobilizes peasants to defend their rights:</p>
-                <ul>
-                    <li>Fight for food sovereignty (peasants' right to choose what they plant)</li>
-                    <li>Resistance against GMOs and monopolized seeds</li>
-                    <li>Defense of local markets against imported products</li>
-                    <li>Promote consumption of local products</li>
-                </ul>
-
-                <h3>PetroChallenge Movement 2018</h3>
-                <p>PetroChallenge movement is one of the largest mobilizations against corruption:</p>
-                <ul>
-                    <li>Millions in streets demanding account of $4 billion PetroCaribe</li>
-                    <li>Organized by youth groups, activists, and civil society</li>
-                    <li>Used hashtag #KotKòbPetwoKaribea to mobilize</li>
-                    <li>Despite persecution, movement continues demanding justice</li>
-                </ul>
-
-                <h3>Neighborhood Committees for Security</h3>
-                <p>In some neighborhoods, people organize to protect themselves:</p>
-                <ul>
-                    <li>Create community watch systems</li>
-                    <li>Clean streets to eliminate criminal hiding spots</li>
-                    <li>Collaborate with local police (where possible)</li>
-                    <li>Support violence victims</li>
-                </ul>
-
-                <h2>Community Organizing Challenges in Haiti</h2>
-
-                <h3>Insecurity and Gangs</h3>
-                <p>Gang violence limits people's capacity to organize:</p>
-                <ul>
-                    <li>Community leaders under threat or forced to leave</li>
-                    <li>Difficult to gather people safely</li>
-                    <li>In gang-controlled areas, organization impossible</li>
-                    <li>Fear prevents people from engaging</li>
-                </ul>
-
-                <h3>Poverty and Survival</h3>
-                <p>When people are struggling to survive, difficult to engage:</p>
-                <ul>
-                    <li>People don't have time because they're busy finding livelihood</li>
-                    <li>No resources to support organization</li>
-                    <li>Immediate needs more important than long-term objectives</li>
-                </ul>
-
-                <h3>Political Repression</h3>
-                <p>Authorities often don't like community organizing:</p>
-                <ul>
-                    <li>Intimidate leaders who criticize government</li>
-                    <li>Abusive arrests to discourage mobilization</li>
-                    <li>Use force to crush demonstrations</li>
-                    <li>Buy leaders to divide movement</li>
-                </ul>
-
-                <h3>Internal Divisions</h3>
-                <p>Communities not always united:</p>
-                <ul>
-                    <li>Political differences create tension</li>
-                    <li>Competition for limited resources</li>
-                    <li>Lack of trust between different groups</li>
-                    <li>Leaders seeking personal power rather than common good</li>
-                </ul>
-
-                <h3>Lack of Structural Support</h3>
-                <p>Community organizations lack institutional support:</p>
-                <ul>
-                    <li>No laws protecting organizational rights</li>
-                    <li>Government doesn't support local initiatives</li>
-                    <li>Difficult to find funding</li>
-                    <li>Lack of public spaces for meetings</li>
-                </ul>
-
-                <h2>How to Start Organizing in Your Community</h2>
-
-                <h3>Step 1: Listen and Learn</h3>
-                <ul>
-                    <li>Talk to neighbors to understand their concerns</li>
-                    <li>Identify problems affecting many people</li>
-                    <li>Search to know what resources already exist</li>
-                    <li>Learn history of organizing in the area</li>
-                </ul>
-
-                <h3>Step 2: Start Small</h3>
-                <ul>
-                    <li>Don't try to solve all problems together</li>
-                    <li>Choose a specific problem you can achieve</li>
-                    <li>Start with a small group of engaged people</li>
-                    <li>Create a quick victory to build momentum</li>
-                </ul>
-
-                <h3>Step 3: Build Relationships</h3>
-                <ul>
-                    <li>Spend time with people, not just in meetings</li>
-                    <li>Create trust through consistent actions</li>
-                    <li>Respect everyone's opinions</li>
-                    <li>Look for common ground, not differences</li>
-                </ul>
-
-                <h3>Step 4: Develop Capacity</h3>
-                <ul>
-                    <li>Learn about organizing, negotiation, advocacy</li>
-                    <li>Share skills among group members</li>
-                    <li>Invite experts for training</li>
-                    <li>Learn from other successful movements</li>
-                </ul>
-
-                <h3>Step 5: Take Action and Persist</h3>
-                <ul>
-                    <li>Move from talking to doing</li>
-                    <li>Don't be discouraged if first action doesn't succeed</li>
-                    <li>Learn from failures and adjust</li>
-                    <li>Celebrate victories, even small ones</li>
-                </ul>
-
-                <h2>Tools for Community Organizing</h2>
-
-                <h3>Social Media</h3>
-                <ul>
-                    <li><strong>WhatsApp/Signal:</strong> Discussion groups and rapid mobilization</li>
-                    <li><strong>Facebook:</strong> Community page and events</li>
-                    <li><strong>Twitter/X:</strong> Share information and create attention</li>
-                    <li><strong>YouTube:</strong> Educational videos and documentaries</li>
-                </ul>
-
-                <h3>Community Radio</h3>
-                <ul>
-                    <li>Reach people not on internet</li>
-                    <li>Discuss local problems in language people speak</li>
-                    <li>Create platform for community voice</li>
-                </ul>
-
-                <h3>Meetings and Forums</h3>
-                <ul>
-                    <li>Space for democratic discussion</li>
-                    <li>Create consensus on objectives</li>
-                    <li>Strengthen bonds between members</li>
-                </ul>
-
-                <h3>Petitions and Surveys</h3>
-                <ul>
-                    <li>Collect signatures to show support</li>
-                    <li>Document problems and demands</li>
-                    <li>Create pressure on authorities</li>
-                </ul>
-
-                <h3>Demonstrations and Marches</h3>
-                <ul>
-                    <li>Public visibility for demands</li>
-                    <li>Show strength and unity</li>
-                    <li>Create political pressure</li>
-                </ul>
-
-                <h2>Protect Your Organization</h2>
-
-                <h3>Physical Security</h3>
-                <ul>
-                    <li>Always meet in public and safe places</li>
-                    <li>Alert family where you're going</li>
-                    <li>If threatened, change meeting location</li>
-                    <li>Work in groups, not alone</li>
-                </ul>
-
-                <h3>Digital Security</h3>
-                <ul>
-                    <li>Use secure apps like Signal</li>
-                    <li>Don't share sensitive information on regular WhatsApp</li>
-                    <li>Protect phone with strong password</li>
-                    <li>Be careful of spies in your group</li>
-                </ul>
-
-                <h3>Legal Security</h3>
-                <ul>
-                    <li>Know your rights to protest and organize</li>
-                    <li>Keep records of all actions</li>
-                    <li>Have contact with lawyer or human rights organization</li>
-                    <li>Report intimidation to national organizations</li>
-                </ul>
-
-                <h3>Protection Against Division</h3>
-                <ul>
-                    <li>Establish clear principles and objectives from start</li>
-                    <li>Create processes to resolve conflicts</li>
-                    <li>Transparency in money management and decisions</li>
-                    <li>Don't let one person make all decisions</li>
-                </ul>
-
-                <h2>Connection Between Local and National Organizations</h2>
-
-                <h3>Networks and Federations</h3>
-                <p>Local organizations stronger when connected:</p>
-                <ul>
-                    <li>Share information and strategies</li>
-                    <li>Support other movements in other regions</li>
-                    <li>Create national pressure for local demands</li>
-                    <li>Learn from others' successes and failures</li>
-                </ul>
-
-                <h3>Allies with National Organizations</h3>
-                <ul>
-                    <li>Human rights NGOs can provide legal support</li>
-                    <li>Unions can provide organizing expertise</li>
-                    <li>Churches and religious groups can offer space and protection</li>
-                    <li>Media can provide visibility</li>
-                </ul>
-
-                <h2>Conclusion</h2>
-                <p>Community organizing is the most powerful tool the Haitian people have to change their situation. Our history is full of examples of successful mobilization – from the 1804 revolution to the PetroChallenge movement.</p>
-
-                <p>Change doesn't come from above. It comes from below, when ordinary people gather to defend their interests. Konbit, gwoupman, and our solidarity traditions show we already know how to organize.</p>
-
-                <p><strong>Your community has power. But this power only exists when we unite, organize, and act together. Start where you are. Gather your neighbors. Identify problems. Take action. Change starts with you.</strong></p>
-
-                <h2>References</h2>
-                <ul>
-                    <li><a href="https://www.opodne.org" target="_blank">OPODNE - Peasant Organization for Northeast Development</a></li>
-                    <li><a href="https://www.hpnhaiti.org" target="_blank">Haiti Peasant Network Organizations</a></li>
-                    <li><a href="https://www.ijdh.org/our-work/activism/" target="_blank">Community Organizing in Haiti (IJDH)</a></li>
-                    <li><a href="https://foodfirst.org/tag/haiti/" target="_blank">Food Sovereignty Movement Haiti (Food First)</a></li>
-                    <li><a href="https://www.amnesty.org/en/latest/news/2019/02/haiti-petrocaribe-protests/" target="_blank">PetroCaribe Protests (Amnesty International)</a></li>
-                </ul>
-            '>
+            <p class="legal-date" data-ht="Aprann kijan mobilize kominote ou pou chanjman" data-en="Learn how to mobilize your community for change">Aprann kijan mobilize kominote ou pou chanjman</p>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText" data-ht="Pwogresyon: 0%" data-en="Progress: 0%">Pwogresyon: 0%</div>
+            </div>
+
+            <div class="legal-content">
+                <!-- Section 1 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Ki Sa Òganizasyon Kominotè Ye?" data-en="What is Community Organizing?">Ki Sa Òganizasyon Kominotè Ye?</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Òganizasyon kominotè se pwosesis kote moun vin ansanb pou idantifye pwoblèm yo genyen an komen, epi travay ansanb pou jwenn solisyon. Se yon zouti pisan pou chanjman sosyal ki baze sou pouvwa kolektif, pa sou pouvwa endividyèl." data-en="Community organizing is the process where people come together to identify common problems and work together to find solutions. It is a powerful tool for social change based on collective power, not individual power.">Òganizasyon kominotè se pwosesis kote moun vin ansanb pou idantifye pwoblèm yo genyen an komen, epi travay ansanb pou jwenn solisyon. Se yon zouti pisan pou chanjman sosyal ki baze sou pouvwa kolektif, pa sou pouvwa endividyèl.</p>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Pouvwa nan Nimewo" data-en="Power in Numbers">Pouvwa nan Nimewo</h3>
+                                    <p data-ht="Ansanb, nou pi fò pase sèl" data-en="Together, we are stronger than alone">Ansanb, nou pi fò pase sèl</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Lidèchip Lokal" data-en="Local Leadership">Lidèchip Lokal</h3>
+                                    <p data-ht="Solisyon soti nan kominote a menm" data-en="Solutions come from the community itself">Solisyon soti nan kominote a menm</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Aksyon Kolektif" data-en="Collective Action">Aksyon Kolektif</h3>
+                                    <p data-ht="Travay ansanb pou objektif komen" data-en="Working together for common objectives">Travay ansanb pou objektif komen</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Responsabilizasyon" data-en="Empowerment">Responsabilizasyon</h3>
+                                    <p data-ht="Moun vin kontan yo gen kapasite pou chanje sitiyasyon yo" data-en="People become confident they have capacity to change their situation">Moun vin kontan yo gen kapasite pou chanje sitiyasyon yo</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Demokrasi Patisipatif" data-en="Participatory Democracy">Demokrasi Patisipatif</h3>
+                                    <p data-ht="Tout moun gen vwa nan desizyon" data-en="Everyone has voice in decisions">Tout moun gen vwa nan desizyon</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Tradisyon Òganizasyon ann Ayiti" data-en="Organizing Traditions in Haiti">Tradisyon Òganizasyon ann Ayiti</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="Konbit" data-en="Konbit">Konbit</h3>
+                                <p data-ht="Konbit se yon tradisyon travay kolektif ki gen rasin nan istwa Ayiti. Se lè vwazen yo rasanble pou travay tè, bati kay, oswa fè pwojè ansanb. Konbit baze sou solidarite ak resipwosite." data-en="Konbit is a tradition of collective work rooted in Haitian history. It's when neighbors gather to work land, build houses, or do projects together. Konbit is based on solidarity and reciprocity.">Konbit se yon tradisyon travay kolektif ki gen rasin nan istwa Ayiti. Se lè vwazen yo rasanble pou travay tè, bati kay, oswa fè pwojè ansanb. Konbit baze sou solidarite ak resipwosite.</p>
+                                <ul>
+                                    <li data-ht="Chak moun kontribye ak travay oswa konpetans yo" data-en="Everyone contributes their work or skills">Chak moun kontribye ak travay oswa konpetans yo</li>
+                                    <li data-ht="Travay fini pi vit ak pi byen" data-en="Work finishes faster and better">Travay fini pi vit ak pi byen</li>
+                                    <li data-ht="Ranfòse lyen sosyal nan kominote a" data-en="Strengthens social bonds in the community">Ranfòse lyen sosyal nan kominote a</li>
+                                    <li data-ht="Tout moun benefisye – pa sèlman youn" data-en="Everyone benefits – not just one">Tout moun benefisye – pa sèlman youn</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="Gwoupman" data-en="Gwoupman">Gwoupman</h3>
+                                <p data-ht="Gwoupman se òganizasyon lokal ki rasanble moun ki gen menm enterè:" data-en="Gwoupman are local organizations that gather people with same interests:">Gwoupman se òganizasyon lokal ki rasanble moun ki gen menm enterè:</p>
+                                <ul>
+                                    <li data-ht="Gwoupman fanm pou kòmès oswa agrikilti" data-en="Women's groups for commerce or agriculture">Gwoupman fanm pou kòmès oswa agrikilti</li>
+                                    <li data-ht="Gwoupman jèn pou espò oswa edikasyon" data-en="Youth groups for sports or education">Gwoupman jèn pou espò oswa edikasyon</li>
+                                    <li data-ht="Gwoupman peyizan pou defann tè yo" data-en="Peasant groups to defend their land">Gwoupman peyizan pou defann tè yo</li>
+                                    <li data-ht="Gwoupman atizan pou vann pwodui yo" data-en="Artisan groups to sell their products">Gwoupman atizan pou vann pwodui yo</li>
+                                </ul>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Istwa Ayiti plen ak tradisyon solidarite ak travay kolektif. Konbit ak gwoupman montre nou deja konnen kijan òganize pou rezoud pwoblèm ansanb." data-en="Haiti's history is full of traditions of solidarity and collective work. Konbit and gwoupman show we already know how to organize to solve problems together.">Istwa Ayiti plen ak tradisyon solidarite ak travay kolektif. Konbit ak gwoupman montre nou deja konnen kijan òganize pou rezoud pwoblèm ansanb.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 1 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 1" data-en="Knowledge Check 1">Tès Konesans 1</h3>
+                    <p data-ht="Ki prensip kle òganizasyon kominotè?" data-en="What is a key principle of community organizing?">Ki prensip kle òganizasyon kominotè?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Youn sèl lidè pran tout desizyon" data-en="One leader makes all decisions">Youn sèl lidè pran tout desizyon</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Pouvwa kolektif pi fò pase pouvwa endividyèl" data-en="Collective power stronger than individual power">Pouvwa kolektif pi fò pase pouvwa endividyèl</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Tann gouvènman rezoud pwoblèm" data-en="Wait for government to solve problems">Tann gouvènman rezoud pwoblèm</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Travay sèl nan kwen ou" data-en="Work alone in your corner">Travay sèl nan kwen ou</div>
+                    </div>
+                </div>
+
+                <!-- Section 3 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Etap Òganizasyon Kominotè" data-en="Steps of Community Organizing">Etap Òganizasyon Kominotè</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="1. Idantifye Pwoblèm" data-en="1. Identify Problems">1. Idantifye Pwoblèm</h3>
+                                    <ul>
+                                        <li data-ht="Pale ak vwazen yo, koute preokipasyon yo" data-en="Talk to neighbors, listen to their concerns">Pale ak vwazen yo, koute preokipasyon yo</li>
+                                        <li data-ht="Fè sondaj oswa rankont kominotè" data-en="Conduct surveys or community meetings">Fè sondaj oswa rankont kominotè</li>
+                                        <li data-ht="Chwazi yon pwoblèm espesifik pou kòmanse" data-en="Choose a specific problem to start">Chwazi yon pwoblèm espesifik pou kòmanse</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="2. Rasanble Moun" data-en="2. Gather People">2. Rasanble Moun</h3>
+                                    <ul>
+                                        <li data-ht="Kay-pa-kay: Ale vizite chak kay" data-en="Door-to-door: Visit each house">Kay-pa-kay: Ale vizite chak kay</li>
+                                        <li data-ht="Rele yon asanble kominotè" data-en="Call a community assembly">Rele yon asanble kominotè</li>
+                                        <li data-ht="Itilize rezwo ki egziste" data-en="Use existing networks">Itilize rezwo ki egziste</li>
+                                        <li data-ht="Kreye gwoup medya sosyal" data-en="Create social media groups">Kreye gwoup medya sosyal</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="3. Bati Lidèchip" data-en="3. Build Leadership">3. Bati Lidèchip</h3>
+                                    <ul>
+                                        <li data-ht="Idantifye moun ki respekte epi ki angaje" data-en="Identify people who are respected and engaged">Idantifye moun ki respekte epi ki angaje</li>
+                                        <li data-ht="Bay fòmasyon sou òganizasyon" data-en="Provide training on organizing">Bay fòmasyon sou òganizasyon</li>
+                                        <li data-ht="Ankouraje lidèchip pataje" data-en="Encourage shared leadership">Ankouraje lidèchip pataje</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="4. Devlope Estrateji" data-en="4. Develop Strategy">4. Devlope Estrateji</h3>
+                                    <ul>
+                                        <li data-ht="Ki objektif nou vle reyalize?" data-en="What objectives do we want to achieve?">Ki objektif nou vle reyalize?</li>
+                                        <li data-ht="Ki resous nou genyen?" data-en="What resources do we have?">Ki resous nou genyen?</li>
+                                        <li data-ht="Ki aksyon nou pral pran?" data-en="What actions will we take?">Ki aksyon nou pral pran?</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="5. Pran Aksyon" data-en="5. Take Action">5. Pran Aksyon</h3>
+                                    <ul>
+                                        <li data-ht="Aksyon dirèk: Netwaye kanal, bati pon" data-en="Direct action: Clean canals, build bridges">Aksyon dirèk: Netwaye kanal, bati pon</li>
+                                        <li data-ht="Petisyon: Kolekte siyati" data-en="Petitions: Collect signatures">Petisyon: Kolekte siyati</li>
+                                        <li data-ht="Manifestasyon: Mach pasifik" data-en="Demonstrations: Peaceful marches">Manifestasyon: Mach pasifik</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="6. Evalye ak Ajiste" data-en="6. Evaluate and Adjust">6. Evalye ak Ajiste</h3>
+                                    <ul>
+                                        <li data-ht="Èske nou reyalize objektif nou?" data-en="Did we achieve our objective?">Èske nou reyalize objektif nou?</li>
+                                        <li data-ht="Ki leson nou aprann?" data-en="What lessons did we learn?">Ki leson nou aprann?</li>
+                                        <li data-ht="Ki etap kap suiv?" data-en="What are next steps?">Ki etap kap suiv?</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Egzanp Òganizasyon Kominotè ann Ayiti" data-en="Examples of Community Organizing in Haiti">Egzanp Òganizasyon Kominotè ann Ayiti</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3>OPODNE</h3>
+                                    <p data-ht="Travay ak 56 kominote nan Nòdès pou defann dwa peyizan, pwomote agrikilti dirab, ak reziste kont pwojè ki deplase peyizan" data-en="Works with 56 communities in Northeast to defend peasant rights, promote sustainable agriculture, and resist projects that displace peasants">Travay ak 56 kominote nan Nòdès pou defann dwa peyizan, pwomote agrikilti dirab, ak reziste kont pwojè ki deplase peyizan</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>MPNKP</h3>
+                                    <p data-ht="Travay nan 10 depatman sou repopilasyon kochon, agroecology, semans lokal, ak defans tè" data-en="Works in 10 departments on pig repopulation, agroecology, local seeds, and land defense">Travay nan 10 depatman sou repopilasyon kochon, agroecology, semans lokal, ak defans tè</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Tèt Kole Ti Peyizan" data-en="Tèt Kole Ti Peyizan">Tèt Kole Ti Peyizan</h3>
+                                    <p data-ht="Mobilize peyizan pou souverènte alimantè, rezistans kont OGM, ak defans mache lokal" data-en="Mobilizes peasants for food sovereignty, resistance against GMOs, and defense of local markets">Mobilize peyizan pou souverènte alimantè, rezistans kont OGM, ak defans mache lokal</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Mouvman PetroChallenge" data-en="PetroChallenge Movement">Mouvman PetroChallenge</h3>
+                                    <p data-ht="Mobilizasyon mas kont koripsyon, mande kont sou $4 milya PetroCaribe, itilize #KotKòbPetwoKaribea" data-en="Mass mobilization against corruption, demanding account of $4 billion PetroCaribe, using #KotKòbPetwoKaribea">Mobilizasyon mas kont koripsyon, mande kont sou $4 milya PetroCaribe, itilize #KotKòbPetwoKaribea</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Peyizan, jèn, ak kominote ann Ayiti montre fòs òganizasyon kominotè. Malgre difikilte, yo kontinye mobilize pou defann dwa yo ak chanje sistèm ki eksplwate yo." data-en="Peasants, youth, and communities in Haiti demonstrate the power of community organizing. Despite difficulties, they continue mobilizing to defend their rights and change systems that exploit them.">Peyizan, jèn, ak kominote ann Ayiti montre fòs òganizasyon kominotè. Malgre difikilte, yo kontinye mobilize pou defann dwa yo ak chanje sistèm ki eksplwate yo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 2 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 2" data-en="Knowledge Check 2">Tès Konesans 2</h3>
+                    <p data-ht="Ki premye etap nan òganize kominote ou?" data-en="What is the first step in organizing your community?">Ki premye etap nan òganize kominote ou?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Ale nan Washington mande lajan" data-en="Go to Washington to ask for money">Ale nan Washington mande lajan</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Koute vwazen yo pou idantifye pwoblèm komen" data-en="Listen to neighbors to identify common problems">Koute vwazen yo pou idantifye pwoblèm komen</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Kòmanse yon pati politik" data-en="Start a political party">Kòmanse yon pati politik</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Achte yon kamyon" data-en="Buy a truck">Achte yon kamyon</div>
+                    </div>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Defi ak Zouti pou Òganizasyon" data-en="Challenges and Tools for Organizing">Defi ak Zouti pou Òganizasyon</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Defi Majè" data-en="Major Challenges">Defi Majè</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Ensèkirite ak Gang" data-en="Insecurity and Gangs">Ensèkirite ak Gang</h3>
+                                    <p data-ht="Gang limite kapasite moun pou rasanble. Lidè kominotè anba menas. Zòn kote òganizasyon enposib." data-en="Gangs limit people's capacity to gather. Community leaders under threat. Areas where organizing impossible.">Gang limite kapasite moun pou rasanble. Lidè kominotè anba menas. Zòn kote òganizasyon enposib.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Povrete ak Sivi" data-en="Poverty and Survival">Povrete ak Sivi</h3>
+                                    <p data-ht="Moun pa gen tan paske yo okipe chache lavi. Bezwen imedya pi enpòtan pase objektif long-term." data-en="People don't have time because they're busy finding livelihood. Immediate needs more important than long-term objectives.">Moun pa gen tan paske yo okipe chache lavi. Bezwen imedya pi enpòtan pase objektif long-term.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Repression Politik" data-en="Political Repression">Repression Politik</h3>
+                                    <p data-ht="Gouvènman entimide lidè ki kritike. Arestasyon abizif. Achte lidè pou divize mouvman." data-en="Government intimidates leaders who criticize. Abusive arrests. Buying leaders to divide movement.">Gouvènman entimide lidè ki kritike. Arestasyon abizif. Achte lidè pou divize mouvman.</p>
+                                </div>
+                            </div>
+
+                            <h3 style="margin-top: 2rem;" data-ht="Zouti Òganizasyon" data-en="Organizing Tools">Zouti Òganizasyon</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Medya Sosyal" data-en="Social Media">Medya Sosyal</h3>
+                                    <ul>
+                                        <li>WhatsApp/Signal: Gwoup diskisyon</li>
+                                        <li>Facebook: Paj kominotè</li>
+                                        <li data-ht="YouTube: Videyo edikasyon" data-en="YouTube: Educational videos">YouTube: Videyo edikasyon</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Radyo Kominotè" data-en="Community Radio">Radyo Kominotè</h3>
+                                    <ul>
+                                        <li data-ht="Rive jwenn moun ki pa sou entènèt" data-en="Reach people not on internet">Rive jwenn moun ki pa sou entènèt</li>
+                                        <li data-ht="Diskite pwoblèm lokal" data-en="Discuss local problems">Diskite pwoblèm lokal</li>
+                                        <li data-ht="Kreye platfòm pou vwa kominotè" data-en="Create platform for community voice">Kreye platfòm pou vwa kominotè</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Petisyon ak Manifestasyon" data-en="Petitions and Demonstrations">Petisyon ak Manifestasyon</h3>
+                                    <ul>
+                                        <li data-ht="Kolekte siyati pou montre sipò" data-en="Collect signatures to show support">Kolekte siyati pou montre sipò</li>
+                                        <li data-ht="Vizibilite piblik pou demand" data-en="Public visibility for demands">Vizibilite piblik pou demand</li>
+                                        <li data-ht="Kreye presyon politik" data-en="Create political pressure">Kreye presyon politik</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 6 -->
+                <div class="accordion">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h2 class="accordion-title" data-ht="Kijan Kòmanse Òganize Kounye A" data-en="How to Start Organizing Now">Kijan Kòmanse Òganize Kounye A</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Koute ak Aprann" data-en="Listen and Learn">Koute ak Aprann</h3>
+                                    <ul>
+                                        <li data-ht="Pale ak vwazen ou" data-en="Talk to your neighbors">Pale ak vwazen ou</li>
+                                        <li data-ht="Identifye pwoblèm ki afekte anpil moun" data-en="Identify problems affecting many people">Identifye pwoblèm ki afekte anpil moun</li>
+                                        <li data-ht="Aprann istwa òganizasyon nan zòn nan" data-en="Learn history of organizing in the area">Aprann istwa òganizasyon nan zòn nan</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Kòmanse Ti" data-en="Start Small">Kòmanse Ti</h3>
+                                    <ul>
+                                        <li data-ht="Chwazi yon pwoblèm espesifik ou ka reyalize" data-en="Choose a specific problem you can achieve">Chwazi yon pwoblèm espesifik ou ka reyalize</li>
+                                        <li data-ht="Kòmanse ak yon ti gwoup moun angaje" data-en="Start with a small group of engaged people">Kòmanse ak yon ti gwoup moun angaje</li>
+                                        <li data-ht="Kreye yon viktwa rapid" data-en="Create a quick victory">Kreye yon viktwa rapid</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Bati Relasyon" data-en="Build Relationships">Bati Relasyon</h3>
+                                    <ul>
+                                        <li data-ht="Pase tan ak moun, pa sèlman nan reyinyon" data-en="Spend time with people, not just in meetings">Pase tan ak moun, pa sèlman nan reyinyon</li>
+                                        <li data-ht="Kreye konfyans atravè aksyon konsistan" data-en="Create trust through consistent actions">Kreye konfyans atravè aksyon konsistan</li>
+                                        <li data-ht="Respekte opinyon tout moun" data-en="Respect everyone's opinions">Respekte opinyon tout moun</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Pwoteje Tèt Ou" data-en="Protect Yourself">Pwoteje Tèt Ou</h3>
+                                    <ul>
+                                        <li data-ht="Rankontre nan kote piblik ak an sekirite" data-en="Meet in public and safe places">Rankontre nan kote piblik ak an sekirite</li>
+                                        <li data-ht="Itilize aplikasyon sikire tankou Signal" data-en="Use secure apps like Signal">Itilize aplikasyon sikire tankou Signal</li>
+                                        <li data-ht="Travay nan gwoup, pa sèl" data-en="Work in groups, not alone">Travay nan gwoup, pa sèl</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Pran Aksyon ak Persiste" data-en="Take Action and Persist">Pran Aksyon ak Persiste</h3>
+                                    <ul>
+                                        <li data-ht="Pase de pale a fè" data-en="Move from talking to doing">Pase de pale a fè</li>
+                                        <li data-ht="Pa dekouraje si premye aksyon pa reyisi" data-en="Don't be discouraged if first action doesn't succeed">Pa dekouraje si premye aksyon pa reyisi</li>
+                                        <li data-ht="Selebre viktwa yo, menm ti yo" data-en="Celebrate victories, even small ones">Selebre viktwa yo, menm ti yo</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Chanjman pa vin de anwo. Li vin de anba, lè moun òdinè rasanble pou defann enterè yo. Kominote ou gen pouvwa. Men pouvwa sa a sèlman egziste lè nou ini, òganize, ak aji ansanb." data-en="Change doesn't come from above. It comes from below, when ordinary people gather to defend their interests. Your community has power. But this power only exists when we unite, organize, and act together.">Chanjman pa vin de anwo. Li vin de anba, lè moun òdinè rasanble pou defann enterè yo. Kominote ou gen pouvwa. Men pouvwa sa a sèlman egziste lè nou ini, òganize, ak aji ansanb.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 3 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 3" data-en="Knowledge Check 3">Tès Konesans 3</h3>
+                    <p data-ht="Kijan ou dwe kòmanse òganize nan kominote ou?" data-en="How should you start organizing in your community?">Kijan ou dwe kòmanse òganize nan kominote ou?</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Eseye rezoud tout pwoblèm ansanm" data-en="Try to solve all problems together">Eseye rezoud tout pwoblèm ansanm</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, true)" data-ht="Kòmanse ti ak yon pwoblèm espesifik" data-en="Start small with a specific problem">Kòmanse ti ak yon pwoblèm espesifik</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Tann yon ONG entènasyonal vin ede" data-en="Wait for an international NGO to come help">Tann yon ONG entènasyonal vin ede</div>
+                        <div class="quiz-option" onclick="checkQuiz(this, false)" data-ht="Travay sèl san mande lòt moun opinyon yo" data-en="Work alone without asking others' opinions">Travay sèl san mande lòt moun opinyon yo</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box" style="margin-top: 2rem;">
+                    <p data-ht="Kominote ou se fòs ou. Kòmanse kote ou ye. Rasanble vwazen ou. Idantifye pwoblèm. Pran aksyon. Chanjman kòmanse avèk ou." data-en="Your community is your strength. Start where you are. Gather your neighbors. Identify problems. Take action. Change starts with you.">Kominote ou se fòs ou. Kòmanse kote ou ye. Rasanble vwazen ou. Idantifye pwoblèm. Pran aksyon. Chanjman kòmanse avèk ou.</p>
+                </div>
+
+                <div class="nav-buttons">
+                    <a href="civil-society.html" class="nav-button" data-ht="← Retounen: Sosyete Sivil" data-en="← Back: Civil Society">← Retounen: Sosyete Sivil</a>
+                    <a href="political-parties.html" class="nav-button" data-ht="Swiv: Pati Politik →" data-en="Next: Political Parties →">Swiv: Pati Politik →</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
@@ -809,5 +584,57 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            const isActive = header.classList.contains('active');
+
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+
+            updateProgress();
+        }
+
+        function checkQuiz(option, isCorrect) {
+            const options = option.parentElement.children;
+            for (let opt of options) {
+                opt.style.pointerEvents = 'none';
+            }
+
+            if (isCorrect) {
+                option.classList.add('correct');
+            } else {
+                option.classList.add('incorrect');
+                for (let opt of options) {
+                    if (opt.onclick.toString().includes('true')) {
+                        opt.classList.add('correct');
+                    }
+                }
+            }
+
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const totalSections = 6;
+            const totalQuizzes = 3;
+
+            const openedSections = document.querySelectorAll('.accordion-header.active').length;
+            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
+
+            const progress = Math.min(100, Math.round((openedSections / totalSections) * 70 + (answeredQuizzes / totalQuizzes) * 30));
+
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            const lang = document.documentElement.lang;
+            const progressText = lang === 'ht' ? 'Pwogresyon: ' + progress + '%' : 'Progress: ' + progress + '%';
+            document.getElementById('progressText').textContent = progressText;
+
+            document.getElementById('progressText').setAttribute('data-ht', 'Pwogresyon: ' + progress + '%');
+            document.getElementById('progressText').setAttribute('data-en', 'Progress: ' + progress + '%');
+        }
+
+        window.addEventListener('load', updateProgress);
+    </script>
 </body>
 </html>
