@@ -36,7 +36,7 @@
 
         .progress-fill {
             height: 100%;
-            background: linear-gradient(90deg, #003399, #D21034);
+            background: #333;
             width: 0%;
             transition: width 0.3s ease;
         }
@@ -52,10 +52,11 @@
         .learning-hero {
             text-align: center;
             padding: 3rem 0;
-            background: linear-gradient(135deg, #003399 0%, #0055cc 100%);
-            color: white;
+            background: #f8f9fa;
+            color: #212529;
             border-radius: 12px;
             margin-bottom: 3rem;
+            border: 1px solid #dee2e6;
         }
 
         .learning-hero h1 {
@@ -115,14 +116,14 @@
         }
 
         .accordion-header.active {
-            background: #e3f2fd;
-            color: #003399;
+            background: #f8f9fa;
+            color: #212529;
         }
 
         .accordion-icon {
             font-size: 1.5rem;
             transition: transform 0.3s ease;
-            color: #003399;
+            color: #212529;
         }
 
         .accordion-header.active .accordion-icon {
@@ -169,7 +170,7 @@
             padding: 2rem;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
             transition: all 0.3s ease;
-            border-top: 4px solid #003399;
+            border-top: 4px solid #212529;
         }
 
         .principle-card:hover {
@@ -183,8 +184,9 @@
         }
 
         .principle-card h3 {
-            color: #003399;
+            color: #212529;
             margin-bottom: 1rem;
+            font-weight: 700;
         }
 
         /* Timeline Styles */
@@ -200,7 +202,7 @@
             transform: translateX(-50%);
             width: 4px;
             height: 100%;
-            background: linear-gradient(to bottom, #003399, #D21034);
+            background: #dee2e6;
         }
 
         @media (max-width: 768px) {
@@ -231,7 +233,7 @@
             width: 24px;
             height: 24px;
             background: white;
-            border: 4px solid #003399;
+            border: 4px solid #212529;
             border-radius: 50%;
             position: absolute;
             left: 50%;
@@ -267,7 +269,7 @@
         .timeline-content .year {
             font-size: 1.5rem;
             font-weight: 700;
-            color: #003399;
+            color: #212529;
             margin-bottom: 0.5rem;
         }
 
@@ -282,7 +284,7 @@
             border-radius: 12px;
             padding: 2rem;
             margin: 2rem 0;
-            border-left: 6px solid #003399;
+            border-left: 6px solid #212529;
         }
 
         .quiz-header {
@@ -298,7 +300,8 @@
 
         .quiz-header h3 {
             margin: 0;
-            color: #003399;
+            color: #212529;
+            font-weight: 700;
         }
 
         .quiz-question {
@@ -326,13 +329,13 @@
         }
 
         .quiz-option:hover {
-            border-color: #003399;
-            background: #e3f2fd;
+            border-color: #212529;
+            background: #f8f9fa;
         }
 
         .quiz-option.selected {
-            border-color: #003399;
-            background: #e3f2fd;
+            border-color: #212529;
+            background: #f8f9fa;
         }
 
         .quiz-option.correct {
@@ -369,7 +372,7 @@
         }
 
         .quiz-submit {
-            background: #003399;
+            background: #212529;
             color: white;
             border: none;
             padding: 0.75rem 2rem;
@@ -381,7 +384,7 @@
         }
 
         .quiz-submit:hover {
-            background: #0055cc;
+            background: #000;
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
@@ -422,15 +425,15 @@
         }
 
         .branch.executive {
-            border-top: 4px solid #D21034;
+            border-top: 4px solid #212529;
         }
 
         .branch.legislative {
-            border-top: 4px solid #003399;
+            border-top: 4px solid #495057;
         }
 
         .branch.judicial {
-            border-top: 4px solid #ffc107;
+            border-top: 4px solid #6c757d;
         }
 
         .branch .icon {
@@ -445,23 +448,24 @@
 
         /* Reflection Box */
         .reflection-box {
-            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
-            border-left: 6px solid #ffc107;
+            background: #f8f9fa;
+            border-left: 6px solid #212529;
             border-radius: 12px;
             padding: 2rem;
             margin: 2rem 0;
         }
 
         .reflection-box h3 {
-            color: #856404;
+            color: #212529;
             margin-bottom: 1rem;
+            font-weight: 700;
         }
 
         .reflection-box textarea {
             width: 100%;
             padding: 1rem;
             border-radius: 8px;
-            border: 2px solid #ffc107;
+            border: 2px solid #dee2e6;
             font-family: inherit;
             font-size: 1rem;
             resize: vertical;
@@ -487,7 +491,7 @@
             border-radius: 12px;
             padding: 1.5rem;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            border-left: 4px solid #28a745;
+            border-left: 4px solid #212529;
             transition: all 0.3s ease;
         }
 
@@ -505,11 +509,12 @@
         .completion-badge {
             text-align: center;
             padding: 3rem;
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
-            color: white;
+            background: #f8f9fa;
+            color: #212529;
             border-radius: 12px;
             margin: 3rem 0;
             display: none;
+            border: 2px solid #212529;
         }
 
         .completion-badge.show {
@@ -542,12 +547,12 @@
         }
 
         .nav-button.primary {
-            background: #003399;
+            background: #212529;
             color: white;
         }
 
         .nav-button.primary:hover {
-            background: #0055cc;
+            background: #000;
             transform: translateY(-2px);
         }
 
@@ -615,40 +620,39 @@
 
                                 <p>Nan yon demokrasi, sitwayen yo gen dwa pou:</p>
                                 <ul>
-                                    <li>✓ Vote pou chwazi reprezantan yo</li>
-                                    <li>✓ Pale lib san pè</li>
-                                    <li>✓ Òganize nan gwoup ak asosyasyon</li>
-                                    <li>✓ Mande gouvènman an rann kont</li>
-                                    <li>✓ Patisipe nan desizyon politik</li>
+                                    <li> Vote pou chwazi reprezantan yo</li>
+                                    <li> Pale lib san pè</li>
+                                    <li> Òganize nan gwoup ak asosyasyon</li>
+                                    <li> Mande gouvènman an rann kont</li>
+                                    <li> Patisipe nan desizyon politik</li>
                                 </ul>
                             ' data-en='
                                 <p>Democracy is a system of government where the people have the power to choose their leaders and make political decisions. The word comes from Greek: <strong>"demos"</strong> (people) and <strong>"kratos"</strong> (power) – meaning "power of the people."</p>
 
                                 <p>In a democracy, citizens have the right to:</p>
                                 <ul>
-                                    <li>✓ Vote to choose their representatives</li>
-                                    <li>✓ Speak freely without fear</li>
-                                    <li>✓ Organize into groups and associations</li>
-                                    <li>✓ Hold government accountable</li>
-                                    <li>✓ Participate in political decisions</li>
+                                    <li> Vote to choose their representatives</li>
+                                    <li> Speak freely without fear</li>
+                                    <li> Organize into groups and associations</li>
+                                    <li> Hold government accountable</li>
+                                    <li> Participate in political decisions</li>
                                 </ul>
                             '>
                                 <p>Demokrasi se yon sistèm gouvènman kote pèp la gen pouvwa pou chwazi lidè yo epi desizyon politik. Mo a soti nan lang grèk: <strong>"demos"</strong> (pèp) ak <strong>"kratos"</strong> (pouvwa) – ki vle di "pouvwa pèp la."</p>
 
                                 <p>Nan yon demokrasi, sitwayen yo gen dwa pou:</p>
                                 <ul>
-                                    <li>✓ Vote pou chwazi reprezantan yo</li>
-                                    <li>✓ Pale lib san pè</li>
-                                    <li>✓ Òganize nan gwoup ak asosyasyon</li>
-                                    <li>✓ Mande gouvènman an rann kont</li>
-                                    <li>✓ Patisipe nan desizyon politik</li>
+                                    <li> Vote pou chwazi reprezantan yo</li>
+                                    <li> Pale lib san pè</li>
+                                    <li> Òganize nan gwoup ak asosyasyon</li>
+                                    <li> Mande gouvènman an rann kont</li>
+                                    <li> Patisipe nan desizyon politik</li>
                                 </ul>
                             </div>
 
                             <!-- Quick Quiz 1 -->
                             <div class="quiz-container">
                                 <div class="quiz-header">
-                                    <span class="icon">🤔</span>
                                     <h3 data-ht="Tcheke Konpreyansyon Ou" data-en="Check Your Understanding">Tcheke Konpreyansyon Ou</h3>
                                 </div>
                                 <div class="quiz-question">
@@ -770,31 +774,26 @@
                             <!-- Principle Cards -->
                             <div class="card-grid">
                                 <div class="principle-card">
-                                    <div class="icon">👥</div>
                                     <h3 data-ht="1. Souverènte Pèp la" data-en="1. Popular Sovereignty">1. Souverènte Pèp la</h3>
                                     <p data-ht="Nan yon demokrasi, pouvwa soti nan pèp la, pa nan wa, diktate, oswa elit yo. Gouvènman an egziste pou sèvi sitwayen yo." data-en="In a democracy, power comes from the people, not from kings, dictators, or elites. Government exists to serve citizens.">Nan yon demokrasi, pouvwa soti nan pèp la, pa nan wa, diktate, oswa elit yo. Gouvènman an egziste pou sèvi sitwayen yo.</p>
                                 </div>
 
                                 <div class="principle-card">
-                                    <div class="icon">⚖️</div>
                                     <h3 data-ht="2. Egalite Devan Lalwa" data-en="2. Equality Before the Law">2. Egalite Devan Lalwa</h3>
                                     <p data-ht="Tout sitwayen yo egal e yo dwe trete menm jan pa lwa a, san diskriminasyon." data-en="All citizens are equal and must be treated the same way by law, without discrimination.">Tout sitwayen yo egal e yo dwe trete menm jan pa lwa a, san diskriminasyon.</p>
                                 </div>
 
                                 <div class="principle-card">
-                                    <div class="icon">🗳️</div>
                                     <h3 data-ht="3. Majorite ak Pwoteksyon Minorite" data-en="3. Majority Rule with Minority Protection">3. Majorite ak Pwoteksyon Minorite</h3>
                                     <p data-ht="Majorite a desidé, men dwa minorite yo dwe pwoteje. Demokrasi pa vle di tiranite majorite." data-en="The majority decides, but minority rights must be protected. Democracy does not mean tyranny of the majority.">Majorite a desidé, men dwa minorite yo dwe pwoteje. Demokrasi pa vle di tiranite majorite.</p>
                                 </div>
 
                                 <div class="principle-card">
-                                    <div class="icon">🔍</div>
                                     <h3 data-ht="4. Transparans ak Responsabilite" data-en="4. Transparency and Accountability">4. Transparans ak Responsabilite</h3>
                                     <p data-ht="Gouvènman an dwe opere nan limyè, epi lidè yo dwe rann kont bay pèp la." data-en="Government must operate in the light, and leaders must be accountable to the people.">Gouvènman an dwe opere nan limyè, epi lidè yo dwe rann kont bay pèp la.</p>
                                 </div>
 
                                 <div class="principle-card">
-                                    <div class="icon">🙋</div>
                                     <h3 data-ht="5. Patisipasyon Sitwayen" data-en="5. Citizen Participation">5. Patisipasyon Sitwayen</h3>
                                     <p data-ht="Demokrasi mande plis pase sèlman vote. Li mande sitwayen aje yo angaje ak enfòme sou kesyon politik." data-en="Democracy requires more than just voting. It requires active, engaged, and informed citizens on political issues.">Demokrasi mande plis pase sèlman vote. Li mande sitwayen aje yo angaje ak enfòme sou kesyon politik.</p>
                                 </div>
@@ -803,7 +802,6 @@
                             <!-- Quiz 2 -->
                             <div class="quiz-container">
                                 <div class="quiz-header">
-                                    <span class="icon">🎯</span>
                                     <h3 data-ht="Tès Prensip" data-en="Principles Test">Tès Prensip</h3>
                                 </div>
                                 <div class="quiz-question">
@@ -854,17 +852,14 @@
                                 <h3 style="text-align: center;" data-ht="Twa Branch Gouvènman" data-en="Three Branches of Government">Twa Branch Gouvènman</h3>
                                 <div class="branches">
                                     <div class="branch executive">
-                                        <div class="icon">👔</div>
                                         <h4 data-ht="Pouvwa Egzekitif" data-en="Executive Power">Pouvwa Egzekitif</h4>
                                         <p data-ht="Prezidan ak Premye Minis egzekite lwa yo" data-en="President and Prime Minister execute laws">Prezidan ak Premye Minis egzekite lwa yo</p>
                                     </div>
                                     <div class="branch legislative">
-                                        <div class="icon">🏛️</div>
                                         <h4 data-ht="Pouvwa Lejislatif" data-en="Legislative Power">Pouvwa Lejislatif</h4>
                                         <p data-ht="Sena ak Chanm Depite kreye lwa yo" data-en="Senate and Chamber of Deputies create laws">Sena ak Chanm Depite kreye lwa yo</p>
                                     </div>
                                     <div class="branch judicial">
-                                        <div class="icon">⚖️</div>
                                         <h4 data-ht="Pouvwa Jidisyè" data-en="Judicial Power">Pouvwa Jidisyè</h4>
                                         <p data-ht="Tribinal yo entèprete lwa yo" data-en="Courts interpret laws">Tribinal yo entèprete lwa yo</p>
                                     </div>
@@ -915,11 +910,11 @@
                                 <h3>Defi Aktiyèl</h3>
                                 <p>Demokrasi ann Ayiti ap fè fas ak plizyè defi:</p>
                                 <ul>
-                                    <li>🔴 <strong>Ensèkirite ak Gang:</strong> Gwoup ame souvan afilye ak aktè politik</li>
-                                    <li>🔴 <strong>Kriz Politik:</strong> Pa gen Palman ki fonksyone depi 2020</li>
-                                    <li>🔴 <strong>Konfyans Piblik:</strong> Sèlman 37% Ayisyen panse peyi a se yon demokrasi</li>
-                                    <li>🔴 <strong>Kesyon Lang:</strong> Sèlman 2-5% popilasyon an pale lang politik la (Franse)</li>
-                                    <li>🔴 <strong>Koripsyon:</strong> Konfyans nan enstitisyon politik yo ba anpil</li>
+                                    <li><strong>Ensèkirite ak Gang:</strong> Gwoup ame souvan afilye ak aktè politik</li>
+                                    <li><strong>Kriz Politik:</strong> Pa gen Palman ki fonksyone depi 2020</li>
+                                    <li><strong>Konfyans Piblik:</strong> Sèlman 37% Ayisyen panse peyi a se yon demokrasi</li>
+                                    <li><strong>Kesyon Lang:</strong> Sèlman 2-5% popilasyon an pale lang politik la (Franse)</li>
+                                    <li><strong>Koripsyon:</strong> Konfyans nan enstitisyon politik yo ba anpil</li>
                                 </ul>
 
                                 <h3 style="margin-top: 2rem;">Kijan Ou Ka Kontribye</h3>
@@ -928,11 +923,11 @@
                                 <h3>Current Challenges</h3>
                                 <p>Democracy in Haiti faces several challenges:</p>
                                 <ul>
-                                    <li>🔴 <strong>Insecurity and Gangs:</strong> Armed groups often affiliated with political actors</li>
-                                    <li>🔴 <strong>Political Crisis:</strong> No functioning Parliament since 2020</li>
-                                    <li>🔴 <strong>Public Trust:</strong> Only 37% of Haitians think the country is a democracy</li>
-                                    <li>🔴 <strong>Language Issue:</strong> Only 2-5% of population speaks the language of politics (French)</li>
-                                    <li>🔴 <strong>Corruption:</strong> Trust in political institutions is very low</li>
+                                    <li><strong>Insecurity and Gangs:</strong> Armed groups often affiliated with political actors</li>
+                                    <li><strong>Political Crisis:</strong> No functioning Parliament since 2020</li>
+                                    <li><strong>Public Trust:</strong> Only 37% of Haitians think the country is a democracy</li>
+                                    <li><strong>Language Issue:</strong> Only 2-5% of population speaks the language of politics (French)</li>
+                                    <li><strong>Corruption:</strong> Trust in political institutions is very low</li>
                                 </ul>
 
                                 <h3 style="margin-top: 2rem;">How You Can Contribute</h3>
@@ -941,11 +936,11 @@
                                 <h3>Defi Aktiyèl</h3>
                                 <p>Demokrasi ann Ayiti ap fè fas ak plizyè defi:</p>
                                 <ul>
-                                    <li>🔴 <strong>Ensèkirite ak Gang:</strong> Gwoup ame souvan afilye ak aktè politik</li>
-                                    <li>🔴 <strong>Kriz Politik:</strong> Pa gen Palman ki fonksyone depi 2020</li>
-                                    <li>🔴 <strong>Konfyans Piblik:</strong> Sèlman 37% Ayisyen panse peyi a se yon demokrasi</li>
-                                    <li>🔴 <strong>Kesyon Lang:</strong> Sèlman 2-5% popilasyon an pale lang politik la (Franse)</li>
-                                    <li>🔴 <strong>Koripsyon:</strong> Konfyans nan enstitisyon politik yo ba anpil</li>
+                                    <li><strong>Ensèkirite ak Gang:</strong> Gwoup ame souvan afilye ak aktè politik</li>
+                                    <li><strong>Kriz Politik:</strong> Pa gen Palman ki fonksyone depi 2020</li>
+                                    <li><strong>Konfyans Piblik:</strong> Sèlman 37% Ayisyen panse peyi a se yon demokrasi</li>
+                                    <li><strong>Kesyon Lang:</strong> Sèlman 2-5% popilasyon an pale lang politik la (Franse)</li>
+                                    <li><strong>Koripsyon:</strong> Konfyans nan enstitisyon politik yo ba anpil</li>
                                 </ul>
 
                                 <h3 style="margin-top: 2rem;">Kijan Ou Ka Kontribye</h3>
@@ -955,32 +950,26 @@
                             <!-- Action Cards -->
                             <div class="action-cards">
                                 <div class="action-card">
-                                    <div class="icon">📚</div>
                                     <h4 data-ht="Rete Enfòme" data-en="Stay Informed">Rete Enfòme</h4>
                                     <p data-ht="Li nouvèl, swiv kesyon politik, konprann dwa ou yo" data-en="Read news, follow political issues, understand your rights">Li nouvèl, swiv kesyon politik, konprann dwa ou yo</p>
                                 </div>
                                 <div class="action-card">
-                                    <div class="icon">🗳️</div>
                                     <h4 data-ht="Vote" data-en="Vote">Vote</h4>
                                     <p data-ht="Patisipe nan eleksyon, chwazi reprezantan ou yo" data-en="Participate in elections, choose your representatives">Patisipe nan eleksyon, chwazi reprezantan ou yo</p>
                                 </div>
                                 <div class="action-card">
-                                    <div class="icon">💬</div>
                                     <h4 data-ht="Patisipe" data-en="Participate">Patisipe</h4>
                                     <p data-ht="Antre nan debat, bay opinyon ou, angaje ak kominote ou" data-en="Join debates, share your opinion, engage with your community">Antre nan debat, bay opinyon ou, angaje ak kominote ou</p>
                                 </div>
                                 <div class="action-card">
-                                    <div class="icon">👁️</div>
                                     <h4 data-ht="Kontwole" data-en="Hold Accountable">Kontwole</h4>
                                     <p data-ht="Mande lidè yo rann kont, rapòte koripsyon, defann dwa ou" data-en="Hold leaders accountable, report corruption, defend your rights">Mande lidè yo rann kont, rapòte koripsyon, defann dwa ou</p>
                                 </div>
                                 <div class="action-card">
-                                    <div class="icon">🤝</div>
                                     <h4 data-ht="Òganize" data-en="Organize">Òganize</h4>
                                     <p data-ht="Rantre nan gwoup kominotè, kreye chanjman lokal" data-en="Join community groups, create local change">Rantre nan gwoup kominotè, kreye chanjman lokal</p>
                                 </div>
                                 <div class="action-card">
-                                    <div class="icon">📢</div>
                                     <h4 data-ht="Pale" data-en="Speak Out">Pale</h4>
                                     <p data-ht="Itilize vwa ou, defann jistis, edike lòt moun" data-en="Use your voice, advocate for justice, educate others">Itilize vwa ou, defann jistis, edike lòt moun</p>
                                 </div>
@@ -988,7 +977,7 @@
 
                             <!-- Reflection Box -->
                             <div class="reflection-box">
-                                <h3 data-ht="💭 Refleksyon Pèsonèl" data-en="💭 Personal Reflection">💭 Refleksyon Pèsonèl</h3>
+                                <h3 data-ht="Refleksyon Pèsonèl" data-en="Personal Reflection">Refleksyon Pèsonèl</h3>
                                 <p data-ht="Kijan ou panse ou ka kontribye nan ranfòse demokrasi ann Ayiti? Ki aksyon ou ka pran nan kominote ou?" data-en="How do you think you can contribute to strengthening democracy in Haiti? What action can you take in your community?">Kijan ou panse ou ka kontribye nan ranfòse demokrasi ann Ayiti? Ki aksyon ou ka pran nan kominote ou?</p>
                                 <textarea placeholder="Ekri refleksyon ou isit... / Write your reflection here..."></textarea>
                             </div>
@@ -1020,7 +1009,6 @@
 
             <!-- Completion Badge -->
             <div class="completion-badge" id="completionBadge">
-                <div class="icon">🏆</div>
                 <h2 data-ht="Félisitasyon!" data-en="Congratulations!">Félisitasyon!</h2>
                 <p data-ht="Ou fini aprann sou Demokrasi ann Ayiti!" data-en="You've completed learning about Democracy in Haiti!">Ou fini aprann sou Demokrasi ann Ayiti!</p>
             </div>
@@ -1096,7 +1084,7 @@
             if (selectedOption.value === correctAnswer) {
                 feedback.className = 'quiz-feedback show correct';
                 const lang = document.querySelector('html').lang;
-                feedback.textContent = lang === 'ht' ? '✓ Kòrèk! Bon travay!' : '✓ Correct! Great job!';
+                feedback.textContent = lang === 'ht' ? ' Kòrèk! Bon travay!' : ' Correct! Great job!';
             } else {
                 feedback.className = 'quiz-feedback show incorrect';
                 const lang = document.querySelector('html').lang;
