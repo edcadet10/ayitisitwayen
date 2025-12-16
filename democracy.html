@@ -9,6 +9,558 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Interactive Learning Styles */
+        .learning-page {
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+            padding: 2rem 0;
+        }
+
+        .progress-bar-container {
+            position: sticky;
+            top: 0;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+            z-index: 100;
+            margin-bottom: 2rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #003399, #D21034);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+
+        /* Hero Section */
+        .learning-hero {
+            text-align: center;
+            padding: 3rem 0;
+            background: linear-gradient(135deg, #003399 0%, #0055cc 100%);
+            color: white;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+        }
+
+        .learning-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 900;
+        }
+
+        .learning-hero .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+        }
+
+        .learning-hero .question {
+            font-size: 1.25rem;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        /* Accordion Styles */
+        .accordion {
+            margin-bottom: 1rem;
+        }
+
+        .accordion-item {
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .accordion-item:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        .accordion-header {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #212529;
+            transition: background 0.3s ease;
+        }
+
+        .accordion-header:hover {
+            background: #f8f9fa;
+        }
+
+        .accordion-header.active {
+            background: #e3f2fd;
+            color: #003399;
+        }
+
+        .accordion-icon {
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+            color: #003399;
+        }
+
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .accordion-content.active {
+            max-height: 5000px;
+        }
+
+        .accordion-body {
+            padding: 0 1.5rem 1.5rem 1.5rem;
+        }
+
+        /* Card Grid for Principles */
+        .card-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        @media (min-width: 640px) {
+            .card-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .card-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .principle-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            border-top: 4px solid #003399;
+        }
+
+        .principle-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+        }
+
+        .principle-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .principle-card h3 {
+            color: #003399;
+            margin-bottom: 1rem;
+        }
+
+        /* Timeline Styles */
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #003399, #D21034);
+        }
+
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 30px;
+            }
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        @media (max-width: 768px) {
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                flex-direction: row;
+                padding-left: 60px;
+            }
+        }
+
+        .timeline-marker {
+            width: 24px;
+            height: 24px;
+            background: white;
+            border: 4px solid #003399;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+        }
+
+        @media (max-width: 768px) {
+            .timeline-marker {
+                left: 30px;
+            }
+        }
+
+        .timeline-content {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            width: 45%;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+        }
+
+        @media (max-width: 768px) {
+            .timeline-content {
+                width: 100%;
+            }
+        }
+
+        .timeline-content .year {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #003399;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-content h4 {
+            margin-bottom: 0.5rem;
+            color: #212529;
+        }
+
+        /* Quiz Styles */
+        .quiz-container {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-left: 6px solid #003399;
+        }
+
+        .quiz-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .quiz-header .icon {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+
+        .quiz-header h3 {
+            margin: 0;
+            color: #003399;
+        }
+
+        .quiz-question {
+            margin-bottom: 2rem;
+        }
+
+        .quiz-question h4 {
+            margin-bottom: 1rem;
+            color: #212529;
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .quiz-option {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 2px solid #dee2e6;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .quiz-option:hover {
+            border-color: #003399;
+            background: #e3f2fd;
+        }
+
+        .quiz-option.selected {
+            border-color: #003399;
+            background: #e3f2fd;
+        }
+
+        .quiz-option.correct {
+            border-color: #28a745;
+            background: #d4edda;
+        }
+
+        .quiz-option.incorrect {
+            border-color: #dc3545;
+            background: #f8d7da;
+        }
+
+        .quiz-feedback {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .quiz-feedback.show {
+            display: block;
+        }
+
+        .quiz-feedback.correct {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .quiz-feedback.incorrect {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .quiz-submit {
+            background: #003399;
+            color: white;
+            border: none;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .quiz-submit:hover {
+            background: #0055cc;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Government Structure Diagram */
+        .gov-structure {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .branches {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        @media (min-width: 768px) {
+            .branches {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .branch {
+            text-align: center;
+            padding: 2rem;
+            border-radius: 12px;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+        }
+
+        .branch:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+        }
+
+        .branch.executive {
+            border-top: 4px solid #D21034;
+        }
+
+        .branch.legislative {
+            border-top: 4px solid #003399;
+        }
+
+        .branch.judicial {
+            border-top: 4px solid #ffc107;
+        }
+
+        .branch .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .branch h4 {
+            color: #212529;
+            margin-bottom: 1rem;
+        }
+
+        /* Reflection Box */
+        .reflection-box {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            border-left: 6px solid #ffc107;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .reflection-box h3 {
+            color: #856404;
+            margin-bottom: 1rem;
+        }
+
+        .reflection-box textarea {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 2px solid #ffc107;
+            font-family: inherit;
+            font-size: 1rem;
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        /* Action Cards */
+        .action-cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        @media (min-width: 768px) {
+            .action-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .action-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-left: 4px solid #28a745;
+            transition: all 0.3s ease;
+        }
+
+        .action-card:hover {
+            transform: translateX(4px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        .action-card .icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Completion Badge */
+        .completion-badge {
+            text-align: center;
+            padding: 3rem;
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            border-radius: 12px;
+            margin: 3rem 0;
+            display: none;
+        }
+
+        .completion-badge.show {
+            display: block;
+        }
+
+        .completion-badge .icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .completion-badge h2 {
+            margin-bottom: 1rem;
+        }
+
+        /* Navigation Buttons */
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            gap: 1rem;
+        }
+
+        .nav-button {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .nav-button.primary {
+            background: #003399;
+            color: white;
+        }
+
+        .nav-button.primary:hover {
+            background: #0055cc;
+            transform: translateY(-2px);
+        }
+
+        .nav-button.secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .nav-button.secondary:hover {
+            background: #5a6268;
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -18,421 +570,465 @@
                 <a href="index.html"><img src="logo.png" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
             <div class="nav-links">
+                <a href="education.html">Edikasyon</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
-                <a href="index.html#research">Rechèch</a>
                 <a href="index.html#contact">Kontak</a>
                 <a href="#" class="lang-switch" onclick="toggleLanguage()">EN</a>
             </div>
         </div>
     </nav>
 
-    <!-- Democracy Content -->
-    <section class="legal-page">
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
         <div class="container">
-            <h1 class="page-title" data-ht="Demokrasi" data-en="Democracy">Demokrasi</h1>
-
-            <p class="legal-date" data-ht="Dènye mizajou: 15 desanm 2025" data-en="Last Updated: December 15, 2025">Dènye mizajou: 15 desanm 2025</p>
-
-            <div class="legal-content" data-ht='
-                <h2>Ki Sa Demokrasi Ye?</h2>
-                <p>Demokrasi se yon sistèm gouvènman kote pèp la gen pouvwa pou chwazi lidè yo epi desizyon politik. Mo a soti nan lang grèk: "demos" (pèp) ak "kratos" (pouvwa) – ki vle di "pouvwa pèp la."</p>
-
-                <p>Nan yon demokrasi, sitwayen yo gen dwa pou:</p>
-                <ul>
-                    <li>Vote pou chwazi reprezantan yo</li>
-                    <li>Pale lib san pè</li>
-                    <li>Òganize nan gwoup ak asosyasyon</li>
-                    <li>Mande gouvènman an rann kont</li>
-                    <li>Patisipe nan desizyon politik</li>
-                </ul>
-
-                <h2>Demokrasi nan Konstitisyon Ayiti 1987</h2>
-                <p>Konstitisyon 1987 la se yon rejeksyon klarifye Ayisyen yo te fè kont diktati Duvalier. Li pwomote valè demokratik ak etabli prensip fondamantal yo:</p>
-
-                <h3>Pliralite Ideolojik</h3>
-                <p>Atik 31 garanti libète panse ak kwayans. Atik 31.1 deklare: "Libète konsyans se garantee. Se atribisyon Leta a pou asire yo an ekzèsis lib pou tout relijyon ak lèt." Sa vle di tout moun gen dwa genyen opinyon politik pa yo san pè.</p>
-
-                <h3>Rotasyon Politik</h3>
-                <p>Konstitisyon an entèdi yon prezidan sèvi de manda consecutive. Atik 134.2 deklare: "Prezidan an pa kapab eli pou yon lòt manda konsekitif. Li pa kapab okipe pozisyon sa a ankò si pa fin pase senk (5) ane apre li fin kite pouvwa a." Sa prevni konsantrasyon pouvwa nan men yon sèl moun.</p>
-
-                <h3>Separasyon Pouvwa</h3>
-                <p>Konstitisyon an divize pouvwa ant twa branch:</p>
-                <ul>
-                    <li><strong>Pouvwa Egzekitif:</strong> Prezidan an ak Premye Minis la egzekite lwa yo</li>
-                    <li><strong>Pouvwa Lejislatif:</strong> Sena a ak Chanm Depite yo kreye lwa yo</li>
-                    <li><strong>Pouvwa Jidisyè:</strong> Tribinal yo entèprete lwa yo</li>
-                </ul>
-
-                <p>Separasyon sa a fè chak branch kontwole lòt yo epi anpeche abizay pouvwa.</p>
-
-                <h3>Dwa ak Libète</h2>
-                <p>Konstitisyon 1987 la garanti anpil dwa demokratik:</p>
-                <ul>
-                    <li><strong>Egalite:</strong> Atik 18 deklare "tout Ayisyen egal devan lalwa"</li>
-                    <li><strong>Dwa pou lavi:</strong> Atik 19 pwoteje dwa chak moun pou lavi epi aboli lapenn lanmò</li>
-                    <li><strong>Libète ekspresyon:</strong> Atik 28 garanti libète lapawòl, laprès, ak ansanble</li>
-                    <li><strong>Patisipasyon Politik:</strong> Atik 52 bay tout sitwayen dwa pou vote ak kandida</li>
-                </ul>
-
-                <h2>Istwa Demokrasi ann Ayiti</h2>
-
-                <h3>1804: Premye Repiblik Nwa Lib</h3>
-                <p>Ayiti te vin pi premye nasyon nwa lib nan mond lan nan lane 1804 apre yo te genyen revolisyon kont esklavaj ak derote Napoleon. Se te yon viktwa istorik pou libète ak egalite.</p>
-
-                <h3>1957-1986: Diktati Duvalier</h3>
-                <p>Pandan 29 lane, François "Papa Doc" Duvalier epi pitit gason l Jean-Claude "Baby Doc" Duvalier te dirije Ayiti ak men difè. Yo te kraze tout opozisyon, viole dwa moun, epi derape richès peyi a. Peryòd sa a te konnen kòm youn nan plis move moman nan istwa Ayiti.</p>
-
-                <h3>1986: Mobilizasyon pou Demokrasi</h3>
-                <p>Nan lane 1986, pèp Ayisyen an te mobilize pou mete fen nan diktati Duvalier ki te sipòte pa Etazini. Annapre, yo òganize premye eleksyon demokratik peyi a.</p>
-
-                <h3>1987: Nouvo Konstitisyon</h3>
-                <p>Konstitisyon 1987 la te senbolize rejeksyon pèp la kont diktati epi pwomote valè demokratik. Li te etabli dwa fondamantal ak balans pouvwa.</p>
-
-                <h3>1990: Prezidan Aristide</h3>
-                <p>Jean-Bertrand Aristide te vin premye prezidan demokratikman eli ann Ayiti. Li te genyen sipò pèp pòv yo men opozisyon elit yo. De manda l yo te fini anvan tan akoz koudeta.</p>
-
-                <h3>Defi Demokratik Jounen Jodi a</h3>
-                <p>Sèlman 37% Ayisyen yo panse peyi a se yon demokrasi. Pandan senk dènye ane yo, Ayiti te sibi bès nan prèske tout mezi reprezantasyon, akoz Lejislati a pa egziste ankò.</p>
-
-                <p>Jounen jodi a, Ayiti pa gen prezidan, palman, ni okenn ofisyèl eli. Konsèy Prezidansyèl Tranzisyonèl (CPT) dirije peyi a depi mas 2024. CPT la te kreye pa yon akò politik ki te enplike plis pase 35 pati politik.</p>
-
-                <h2>Lang ak Demokrasi</h2>
-                <p>Youn nan pi gwo pwoblèm demokratik ann Ayiti se yon kesyon lang. Byenke Konstitisyon 1987 la deklare Kreyòl ak Franse se lang ofisyèl peyi a, Franse se toujou lang prensipal nan lekòl ak nan politik.</p>
-
-                <p>Sèlman 2-5% popilasyon an pale lang politik la (Franse). Sa vle di majorite moun ki pale Kreyòl yo pa ka patisipe vrèman nan politik. Malgre Konstitisyon an adopte Kreyòl kòm dezyèm lang ofisyèl nan 1987, tout ak, lwa, dekrè, lòd, ak desizyon tribinal yo toujou pibliye sèlman an Franse.</p>
-
-                <p>Pou gen yon demokrasi veritab ann Ayiti, fòk tout sitwayen yo ka konprann ak patisipe nan pwosesis politik la nan lang yo pale.</p>
-
-                <h2>Prensip Demokratik Kle</h2>
-
-                <h3>1. Souverènte Pèp la</h3>
-                <p>Nan yon demokrasi, pouvwa soti nan pèp la, pa nan wa, diktate, oswa elit yo. Gouvènman an egziste pou sèvi sitwayen yo.</p>
-
-                <h3>2. Egalite Devan Lalwa</h3>
-                <p>Tout sitwayen yo egal e yo dwe trete menm jan pa lwa a, san diskriminasyon.</p>
-
-                <h3>3. Majorite ak Pwoteksyon Minorite</h3>
-                <p>Majorite a desidé, men dwa minorite yo dwe pwoteje. Demokrasi pa vle di tiranite majorite.</p>
-
-                <h3>4. Transpare ak Responsabilite</h3>
-                <p>Gouvènman an dwe opere nan limyè, epi lidè yo dwe rann kont bay pèp la.</p>
-
-                <h3>5. Patisipasyon Sitwayen</h3>
-                <p>Demokrasi mande plis pase sèlman vote. Li mande sitwayen aje yo angaje ak enfòme sou kesyon politik.</p>
-
-                <h2>Defi Demokrasi ann Ayiti</h2>
-
-                <h3>Ensèkirite ak Gang</h3>
-                <p>Gwoup ame yo souvan afilye ak aktè politik. Pandan lontan, aktè politik yo te anplwaye gang kriminèl pou fè pwoblèm pou opozisyon yo, sa ki vin limite konpetisyon demokratik.</p>
-
-                <h3>Kriz Politik</h3>
-                <p>Depi 2020, Ayiti pa gen Palman ki fonksyone. Eleksyon ki te plan pou 2025 te repouse paske gang yo kreye vyolans ak mank finansman.</p>
-
-                <h3>Konfyans Piblik</h3>
-                <p>Konfyans nan enstitisyon politik yo ba anpil. Pèp la wè koripsyon, ensèkirite, ak mank sèvis debaz kòm prèv ke demokrasi pa travay pou yo.</p>
-
-                <h2>Kijan Ranfòse Demokrasi ann Ayiti</h2>
-
-                <h3>Angajman Sitwayen</h3>
-                <p>Chak sitwayen gen yon wòl pou jwe:</p>
-                <ul>
-                    <li>Rete enfòme sou kesyon politik</li>
-                    <li>Patisipe nan debat demokratik</li>
-                    <li>Vote nan eleksyon yo</li>
-                    <li>Mande lidè yo rann kont</li>
-                    <li>Òganize nan kominote ou</li>
-                </ul>
-
-                <h3>Edikasyon Sivik</h3>
-                <p>Sitwayen yo bezwen konprann dwa yo, responsabilite yo, ak kijan sistèm demokratik la fonksyone. Edikasyon sivik se kle pou yon demokrasi ki solid.</p>
-
-                <h3>Sosyete Sivil</h3>
-                <p>Òganizasyon kominotè, asosyasyon, ak gwoup sitwayen jwe yon wòl enpòtan nan kontwole gouvènman an ak mobilize pèp la.</p>
-
-                <h3>Libète Laprès</h3>
-                <p>Medya endepandan yo enpòtan pou enfòme pèp la, ekspoze koripsyon, ak pwomote debat demokratik.</p>
-
-                <h2>Konklizyon</h2>
-                <p>Demokrasi ann Ayiti se yon pwojè k ap kontinye ki mande angajman tout sitwayen yo. Malgre defi yo, pèp Ayisyen an gen yon istwa rich nan lit pou libète, jistis, ak egalite.</p>
-
-                <p>Demokrasi pa sèlman sistèm vote – se yon fason viv ansanm kote chak moun gen vwa, dwa yo respekte, ak opòtinite pou patisipe nan desizyon ki afekte lavi yo.</p>
-
-                <h2>Referans</h2>
-                <ul>
-                    <li><a href="https://pdba.georgetown.edu/Constitutions/Haiti/haiti1987.html" target="_blank">Konstitisyon Ayiti 1987 (Georgetown University)</a></li>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Konstitisyon Ayiti ak amendman (Constitute Project)</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Politics_of_Haiti" target="_blank">Politik ann Ayiti (Wikipedia)</a></li>
-                    <li><a href="https://www.ijdh.org/our-work/democracy-in-haiti/democracy-and-governance/" target="_blank">Demokrasi ak Gouvènans ann Ayiti (Institute for Justice & Democracy in Haiti)</a></li>
-                    <li><a href="https://www.idea.int/democracytracker/country/haiti" target="_blank">Eta Global Demokrasi: Ayiti (International IDEA)</a></li>
-                    <li><a href="https://freedomhouse.org/country/haiti/freedom-world/2025" target="_blank">Libète nan mond lan 2025: Ayiti (Freedom House)</a></li>
-                </ul>
-            ' data-en='
-                <h2>What is Democracy?</h2>
-                <p>Democracy is a system of government where the people have the power to choose their leaders and political decisions. The word comes from Greek: "demos" (people) and "kratos" (power) – meaning "power of the people."</p>
-
-                <p>In a democracy, citizens have the right to:</p>
-                <ul>
-                    <li>Vote to choose their representatives</li>
-                    <li>Speak freely without fear</li>
-                    <li>Organize into groups and associations</li>
-                    <li>Hold government accountable</li>
-                    <li>Participate in political decisions</li>
-                </ul>
-
-                <h2>Democracy in Haiti's 1987 Constitution</h2>
-                <p>The 1987 Constitution symbolized Haitians' rejection of the Duvalier dictatorship and promoted democratic values. It established fundamental principles:</p>
-
-                <h3>Ideological Plurality</h3>
-                <p>Article 31 guarantees freedom of thought and belief. Article 31.1 states: "Freedom of conscience is guaranteed. The State is bound to ensure the free exercise of all religions and cults." This means everyone has the right to hold their own political opinions without fear.</p>
-
-                <h3>Political Rotation</h3>
-                <p>The Constitution prohibits a president from serving two consecutive terms. Article 134.2 states: "The President may not be elected for a consecutive term. He may not hold this position again unless after a full interval of five (5) years." This prevents concentration of power in one person's hands.</p>
-
-                <h3>Separation of Powers</h3>
-                <p>The Constitution divides power among three branches:</p>
-                <ul>
-                    <li><strong>Executive Power:</strong> The President and Prime Minister execute laws</li>
-                    <li><strong>Legislative Power:</strong> The Senate and Chamber of Deputies create laws</li>
-                    <li><strong>Judicial Power:</strong> Courts interpret laws</li>
-                </ul>
-
-                <p>This separation allows each branch to check the others and prevent abuse of power.</p>
-
-                <h3>Rights and Freedoms</h3>
-                <p>The 1987 Constitution guarantees many democratic rights:</p>
-                <ul>
-                    <li><strong>Equality:</strong> Article 18 declares "all Haitians are equal before the law"</li>
-                    <li><strong>Right to life:</strong> Article 19 protects everyone's right to life and abolishes the death penalty</li>
-                    <li><strong>Freedom of expression:</strong> Article 28 guarantees freedom of speech, press, and assembly</li>
-                    <li><strong>Political Participation:</strong> Article 52 gives all citizens the right to vote and run for office</li>
-                </ul>
-
-                <h2>History of Democracy in Haiti</h2>
-
-                <h3>1804: First Free Black Republic</h3>
-                <p>Haiti became the world's first free Black republic in 1804 after successfully revolting against slavery and defeating Napoleon. This was a historic victory for freedom and equality.</p>
-
-                <h3>1957-1986: Duvalier Dictatorship</h3>
-                <p>For 29 years, François "Papa Doc" Duvalier and his son Jean-Claude "Baby Doc" Duvalier ruled Haiti with an iron fist. They crushed all opposition, violated human rights, and plundered the country's wealth. This period is known as one of the darkest in Haitian history.</p>
-
-                <h3>1986: Mobilization for Democracy</h3>
-                <p>In 1986, Haitians mobilized to end the brutal U.S.-supported Duvalier dictatorship. Shortly thereafter, they organized the country's first democratic elections.</p>
-
-                <h3>1987: New Constitution</h3>
-                <p>The 1987 Constitution symbolized the people's rejection of dictatorship and promoted democratic values. It established fundamental rights and checks on power.</p>
-
-                <h3>1990: President Aristide</h3>
-                <p>Jean-Bertrand Aristide became Haiti's first democratically elected president. He was backed by the poor but opposed by elites. Both of his terms ended prematurely due to coups.</p>
-
-                <h3>Democratic Challenges Today</h3>
-                <p>Only 37% of Haitians think the country is a democracy. Over the last five years, Haiti has experienced significant declines in almost all measures of representation, given that the legislature has ceased to exist.</p>
-
-                <p>Today, Haiti has no president, parliament, or any elected officials. The Transitional Presidential Council (CPT) has governed the country since March 2024. The CPT was created through a political agreement involving over 35 political parties.</p>
-
-                <h2>Language and Democracy</h2>
-                <p>One of the biggest democratic challenges in Haiti is a language issue. Although the 1987 Constitution declares both Creole and French as official languages, French remains the main language in schools and politics.</p>
-
-                <p>Only 2-5% of the population speaks the language of politics (French). This means the majority of Creole speakers cannot truly participate in politics. Despite the Constitution adopting Creole as the second official language in 1987, all acts, laws, decrees, orders, and court decisions are still published solely in French.</p>
-
-                <p>For true democracy in Haiti, all citizens must be able to understand and participate in the political process in their own language.</p>
-
-                <h2>Key Democratic Principles</h2>
-
-                <h3>1. Popular Sovereignty</h3>
-                <p>In a democracy, power comes from the people, not from kings, dictators, or elites. Government exists to serve citizens.</p>
-
-                <h3>2. Equality Before the Law</h3>
-                <p>All citizens are equal and must be treated the same way by law, without discrimination.</p>
-
-                <h3>3. Majority Rule with Minority Protection</h3>
-                <p>The majority decides, but minority rights must be protected. Democracy does not mean tyranny of the majority.</p>
-
-                <h3>4. Transparency and Accountability</h3>
-                <p>Government must operate in the light, and leaders must be accountable to the people.</p>
-
-                <h3>5. Citizen Participation</h3>
-                <p>Democracy requires more than just voting. It requires active, engaged, and informed citizens on political issues.</p>
-
-                <h2>Democracy Challenges in Haiti</h2>
-
-                <h3>Insecurity and Gangs</h3>
-                <p>Armed groups are often affiliated with political actors. Political actors have long employed criminal gangs to impede their opponents, further restricting democratic competition.</p>
-
-                <h3>Political Crisis</h3>
-                <p>Since 2020, Haiti has had no functioning Parliament. Elections planned for 2025 have been postponed due to gang violence and lack of funding.</p>
-
-                <h3>Public Trust</h3>
-                <p>Trust in political institutions is very low. People see corruption, insecurity, and lack of basic services as proof that democracy isn't working for them.</p>
-
-                <h2>How to Strengthen Democracy in Haiti</h2>
-
-                <h3>Citizen Engagement</h3>
-                <p>Every citizen has a role to play:</p>
-                <ul>
-                    <li>Stay informed about political issues</li>
-                    <li>Participate in democratic debate</li>
-                    <li>Vote in elections</li>
-                    <li>Hold leaders accountable</li>
-                    <li>Organize in your community</li>
-                </ul>
-
-                <h3>Civic Education</h3>
-                <p>Citizens need to understand their rights, responsibilities, and how the democratic system works. Civic education is key to a strong democracy.</p>
-
-                <h3>Civil Society</h3>
-                <p>Community organizations, associations, and citizen groups play an important role in checking government and mobilizing the people.</p>
-
-                <h3>Press Freedom</h3>
-                <p>Independent media is essential for informing the public, exposing corruption, and promoting democratic debate.</p>
-
-                <h2>Conclusion</h2>
-                <p>Democracy in Haiti is an ongoing project that requires the engagement of all citizens. Despite challenges, the Haitian people have a rich history of struggle for freedom, justice, and equality.</p>
-
-                <p>Democracy is not just a voting system – it's a way of living together where everyone has a voice, rights are respected, and there are opportunities to participate in decisions that affect their lives.</p>
-
-                <h2>References</h2>
-                <ul>
-                    <li><a href="https://pdba.georgetown.edu/Constitutions/Haiti/haiti1987.html" target="_blank">Haiti Constitution 1987 (Georgetown University)</a></li>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Haiti Constitution with amendments (Constitute Project)</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Politics_of_Haiti" target="_blank">Politics of Haiti (Wikipedia)</a></li>
-                    <li><a href="https://www.ijdh.org/our-work/democracy-in-haiti/democracy-and-governance/" target="_blank">Democracy and Governance in Haiti (Institute for Justice & Democracy in Haiti)</a></li>
-                    <li><a href="https://www.idea.int/democracytracker/country/haiti" target="_blank">Global State of Democracy: Haiti (International IDEA)</a></li>
-                    <li><a href="https://freedomhouse.org/country/haiti/freedom-world/2025" target="_blank">Freedom in the World 2025: Haiti (Freedom House)</a></li>
-                </ul>
-            '>
-                <h2>Ki Sa Demokrasi Ye?</h2>
-                <p>Demokrasi se yon sistèm gouvènman kote pèp la gen pouvwa pou chwazi lidè yo epi desizyon politik. Mo a soti nan lang grèk: "demos" (pèp) ak "kratos" (pouvwa) – ki vle di "pouvwa pèp la."</p>
-
-                <p>Nan yon demokrasi, sitwayen yo gen dwa pou:</p>
-                <ul>
-                    <li>Vote pou chwazi reprezantan yo</li>
-                    <li>Pale lib san pè</li>
-                    <li>Òganize nan gwoup ak asosyasyon</li>
-                    <li>Mande gouvènman an rann kont</li>
-                    <li>Patisipe nan desizyon politik</li>
-                </ul>
-
-                <h2>Demokrasi nan Konstitisyon Ayiti 1987</h2>
-                <p>Konstitisyon 1987 la se yon rejeksyon klarifye Ayisyen yo te fè kont diktati Duvalier. Li pwomote valè demokratik ak etabli prensip fondamantal yo:</p>
-
-                <h3>Pliralite Ideolojik</h3>
-                <p>Atik 31 garanti libète panse ak kwayans. Atik 31.1 deklare: "Libète konsyans se garantee. Se atribisyon Leta a pou asire yo an ekzèsis lib pou tout relijyon ak lèt." Sa vle di tout moun gen dwa genyen opinyon politik pa yo san pè.</p>
-
-                <h3>Rotasyon Politik</h3>
-                <p>Konstitisyon an entèdi yon prezidan sèvi de manda consecutive. Atik 134.2 deklare: "Prezidan an pa kapab eli pou yon lòt manda konsekitif. Li pa kapab okipe pozisyon sa a ankò si pa fin pase senk (5) ane apre li fin kite pouvwa a." Sa prevni konsantrasyon pouvwa nan men yon sèl moun.</p>
-
-                <h3>Separasyon Pouvwa</h3>
-                <p>Konstitisyon an divize pouvwa ant twa branch:</p>
-                <ul>
-                    <li><strong>Pouvwa Egzekitif:</strong> Prezidan an ak Premye Minis la egzekite lwa yo</li>
-                    <li><strong>Pouvwa Lejislatif:</strong> Sena a ak Chanm Depite yo kreye lwa yo</li>
-                    <li><strong>Pouvwa Jidisyè:</strong> Tribinal yo entèprete lwa yo</li>
-                </ul>
-
-                <p>Separasyon sa a fè chak branch kontwole lòt yo epi anpeche abizay pouvwa.</p>
-
-                <h3>Dwa ak Libète</h3>
-                <p>Konstitisyon 1987 la garanti anpil dwa demokratik:</p>
-                <ul>
-                    <li><strong>Egalite:</strong> Atik 18 deklare "tout Ayisyen egal devan lalwa"</li>
-                    <li><strong>Dwa pou lavi:</strong> Atik 19 pwoteje dwa chak moun pou lavi epi aboli lapenn lanmò</li>
-                    <li><strong>Libète ekspresyon:</strong> Atik 28 garanti libète lapawòl, laprès, ak ansanble</li>
-                    <li><strong>Patisipasyon Politik:</strong> Atik 52 bay tout sitwayen dwa pou vote ak kandida</li>
-                </ul>
-
-                <h2>Istwa Demokrasi ann Ayiti</h2>
-
-                <h3>1804: Premye Repiblik Nwa Lib</h3>
-                <p>Ayiti te vin pi premye nasyon nwa lib nan mond lan nan lane 1804 apre yo te genyen revolisyon kont esklavaj ak derote Napoleon. Se te yon viktwa istorik pou libète ak egalite.</p>
-
-                <h3>1957-1986: Diktati Duvalier</h3>
-                <p>Pandan 29 lane, François "Papa Doc" Duvalier epi pitit gason l Jean-Claude "Baby Doc" Duvalier te dirije Ayiti ak men difè. Yo te kraze tout opozisyon, viole dwa moun, epi derape richès peyi a. Peryòd sa a te konnen kòm youn nan plis move moman nan istwa Ayiti.</p>
-
-                <h3>1986: Mobilizasyon pou Demokrasi</h3>
-                <p>Nan lane 1986, pèp Ayisyen an te mobilize pou mete fen nan diktati Duvalier ki te sipòte pa Etazini. Annapre, yo òganize premye eleksyon demokratik peyi a.</p>
-
-                <h3>1987: Nouvo Konstitisyon</h3>
-                <p>Konstitisyon 1987 la te senbolize rejeksyon pèp la kont diktati epi pwomote valè demokratik. Li te etabli dwa fondamantal ak balans pouvwa.</p>
-
-                <h3>1990: Prezidan Aristide</h3>
-                <p>Jean-Bertrand Aristide te vin premye prezidan demokratikman eli ann Ayiti. Li te genyen sipò pèp pòv yo men opozisyon elit yo. De manda l yo te fini anvan tan akoz koudeta.</p>
-
-                <h3>Defi Demokratik Jounen Jodi a</h3>
-                <p>Sèlman 37% Ayisyen yo panse peyi a se yon demokrasi. Pandan senk dènye ane yo, Ayiti te sibi bès nan prèske tout mezi reprezantasyon, akoz Lejislati a pa egziste ankò.</p>
-
-                <p>Jounen jodi a, Ayiti pa gen prezidan, palman, ni okenn ofisyèl eli. Konsèy Prezidansyèl Tranzisyonèl (CPT) dirije peyi a depi mas 2024. CPT la te kreye pa yon akò politik ki te enplike plis pase 35 pati politik.</p>
-
-                <h2>Lang ak Demokrasi</h2>
-                <p>Youn nan pi gwo pwoblèm demokratik ann Ayiti se yon kesyon lang. Byenke Konstitisyon 1987 la deklare Kreyòl ak Franse se lang ofisyèl peyi a, Franse se toujou lang prensipal nan lekòl ak nan politik.</p>
-
-                <p>Sèlman 2-5% popilasyon an pale lang politik la (Franse). Sa vle di majorite moun ki pale Kreyòl yo pa ka patisipe vrèman nan politik. Malgre Konstitisyon an adopte Kreyòl kòm dezyèm lang ofisyèl nan 1987, tout ak, lwa, dekrè, lòd, ak desizyon tribinal yo toujou pibliye sèlman an Franse.</p>
-
-                <p>Pou gen yon demokrasi veritab ann Ayiti, fòk tout sitwayen yo ka konprann ak patisipe nan pwosesis politik la nan lang yo pale.</p>
-
-                <h2>Prensip Demokratik Kle</h2>
-
-                <h3>1. Souverènte Pèp la</h3>
-                <p>Nan yon demokrasi, pouvwa soti nan pèp la, pa nan wa, diktate, oswa elit yo. Gouvènman an egziste pou sèvi sitwayen yo.</p>
-
-                <h3>2. Egalite Devan Lalwa</h3>
-                <p>Tout sitwayen yo egal e yo dwe trete menm jan pa lwa a, san diskriminasyon.</p>
-
-                <h3>3. Majorite ak Pwoteksyon Minorite</h3>
-                <p>Majorite a desidé, men dwa minorite yo dwe pwoteje. Demokrasi pa vle di tiranite majorite.</p>
-
-                <h3>4. Transparans ak Responsabilite</h3>
-                <p>Gouvènman an dwe opere nan limyè, epi lidè yo dwe rann kont bay pèp la.</p>
-
-                <h3>5. Patisipasyon Sitwayen</h3>
-                <p>Demokrasi mande plis pase sèlman vote. Li mande sitwayen aje yo angaje ak enfòme sou kesyon politik.</p>
-
-                <h2>Defi Demokrasi ann Ayiti</h2>
-
-                <h3>Ensèkirite ak Gang</h3>
-                <p>Gwoup ame yo souvan afilye ak aktè politik. Pandan lontan, aktè politik yo te anplwaye gang kriminèl pou fè pwoblèm pou opozisyon yo, sa ki vin limite konpetisyon demokratik.</p>
-
-                <h3>Kriz Politik</h3>
-                <p>Depi 2020, Ayiti pa gen Palman ki fonksyone. Eleksyon ki te plan pou 2025 te repouse paske gang yo kreye vyolans ak mank finansman.</p>
-
-                <h3>Konfyans Piblik</h3>
-                <p>Konfyans nan enstitisyon politik yo ba anpil. Pèp la wè koripsyon, ensèkirite, ak mank sèvis debaz kòm prèv ke demokrasi pa travay pou yo.</p>
-
-                <h2>Kijan Ranfòse Demokrasi ann Ayiti</h2>
-
-                <h3>Angajman Sitwayen</h3>
-                <p>Chak sitwayen gen yon wòl pou jwe:</p>
-                <ul>
-                    <li>Rete enfòme sou kesyon politik</li>
-                    <li>Patisipe nan debat demokratik</li>
-                    <li>Vote nan eleksyon yo</li>
-                    <li>Mande lidè yo rann kont</li>
-                    <li>Òganize nan kominote ou</li>
-                </ul>
-
-                <h3>Edikasyon Sivik</h3>
-                <p>Sitwayen yo bezwen konprann dwa yo, responsabilite yo, ak kijan sistèm demokratik la fonksyone. Edikasyon sivik se kle pou yon demokrasi ki solid.</p>
-
-                <h3>Sosyete Sivil</h3>
-                <p>Òganizasyon kominotè, asosyasyon, ak gwoup sitwayen jwe yon wòl enpòtan nan kontwole gouvènman an ak mobilize pèp la.</p>
-
-                <h3>Libète Laprès</h3>
-                <p>Medya endepandan yo enpòtan pou enfòme pèp la, ekspoze koripsyon, ak pwomote debat demokratik.</p>
-
-                <h2>Konklizyon</h2>
-                <p>Demokrasi ann Ayiti se yon pwojè k ap kontinye ki mande angajman tout sitwayen yo. Malgre defi yo, pèp Ayisyen an gen yon istwa rich nan lit pou libète, jistis, ak egalite.</p>
-
-                <p>Demokrasi pa sèlman sistèm vote – se yon fason viv ansanm kote chak moun gen vwa, dwa yo respekte, ak opòtinite pou patisipe nan desizyon ki afekte lavi yo.</p>
-
-                <h2>Referans</h2>
-                <ul>
-                    <li><a href="https://pdba.georgetown.edu/Constitutions/Haiti/haiti1987.html" target="_blank">Konstitisyon Ayiti 1987 (Georgetown University)</a></li>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Konstitisyon Ayiti ak amendman (Constitute Project)</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Politics_of_Haiti" target="_blank">Politik ann Ayiti (Wikipedia)</a></li>
-                    <li><a href="https://www.ijdh.org/our-work/democracy-in-haiti/democracy-and-governance/" target="_blank">Demokrasi ak Gouvènans ann Ayiti (Institute for Justice & Democracy in Haiti)</a></li>
-                    <li><a href="https://www.idea.int/democracytracker/country/haiti" target="_blank">Eta Global Demokrasi: Ayiti (International IDEA)</a></li>
-                    <li><a href="https://freedomhouse.org/country/haiti/freedom-world/2025" target="_blank">Libète nan mond lan 2025: Ayiti (Freedom House)</a></li>
-                </ul>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-text" id="progressText" data-ht="Pwogrè: 0%" data-en="Progress: 0%">Pwogrè: 0%</div>
+        </div>
+    </div>
+
+    <!-- Learning Content -->
+    <section class="learning-page">
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="learning-hero">
+                <h1 data-ht="Demokrasi" data-en="Democracy">Demokrasi</h1>
+                <p class="subtitle" data-ht="Konprann Pouvwa Pèp la" data-en="Understanding the Power of the People">Konprann Pouvwa Pèp la</p>
+                <p class="question" data-ht="Ki sa demokrasi vle di pou ou?" data-en="What does democracy mean to you?">Ki sa demokrasi vle di pou ou?</p>
+            </div>
+
+            <!-- Accordion Sections -->
+            <div class="accordion">
+
+                <!-- Section 1: What is Democracy -->
+                <div class="accordion-item" data-section="1">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="1. Ki Sa Demokrasi Ye?" data-en="1. What is Democracy?">1. Ki Sa Demokrasi Ye?</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div data-ht='
+                                <p>Demokrasi se yon sistèm gouvènman kote pèp la gen pouvwa pou chwazi lidè yo epi desizyon politik. Mo a soti nan lang grèk: <strong>"demos"</strong> (pèp) ak <strong>"kratos"</strong> (pouvwa) – ki vle di "pouvwa pèp la."</p>
+
+                                <p>Nan yon demokrasi, sitwayen yo gen dwa pou:</p>
+                                <ul>
+                                    <li>✓ Vote pou chwazi reprezantan yo</li>
+                                    <li>✓ Pale lib san pè</li>
+                                    <li>✓ Òganize nan gwoup ak asosyasyon</li>
+                                    <li>✓ Mande gouvènman an rann kont</li>
+                                    <li>✓ Patisipe nan desizyon politik</li>
+                                </ul>
+                            ' data-en='
+                                <p>Democracy is a system of government where the people have the power to choose their leaders and make political decisions. The word comes from Greek: <strong>"demos"</strong> (people) and <strong>"kratos"</strong> (power) – meaning "power of the people."</p>
+
+                                <p>In a democracy, citizens have the right to:</p>
+                                <ul>
+                                    <li>✓ Vote to choose their representatives</li>
+                                    <li>✓ Speak freely without fear</li>
+                                    <li>✓ Organize into groups and associations</li>
+                                    <li>✓ Hold government accountable</li>
+                                    <li>✓ Participate in political decisions</li>
+                                </ul>
+                            '>
+                                <p>Demokrasi se yon sistèm gouvènman kote pèp la gen pouvwa pou chwazi lidè yo epi desizyon politik. Mo a soti nan lang grèk: <strong>"demos"</strong> (pèp) ak <strong>"kratos"</strong> (pouvwa) – ki vle di "pouvwa pèp la."</p>
+
+                                <p>Nan yon demokrasi, sitwayen yo gen dwa pou:</p>
+                                <ul>
+                                    <li>✓ Vote pou chwazi reprezantan yo</li>
+                                    <li>✓ Pale lib san pè</li>
+                                    <li>✓ Òganize nan gwoup ak asosyasyon</li>
+                                    <li>✓ Mande gouvènman an rann kont</li>
+                                    <li>✓ Patisipe nan desizyon politik</li>
+                                </ul>
+                            </div>
+
+                            <!-- Quick Quiz 1 -->
+                            <div class="quiz-container">
+                                <div class="quiz-header">
+                                    <span class="icon">🤔</span>
+                                    <h3 data-ht="Tcheke Konpreyansyon Ou" data-en="Check Your Understanding">Tcheke Konpreyansyon Ou</h3>
+                                </div>
+                                <div class="quiz-question">
+                                    <h4 data-ht='Ki mo ki vle di "demokrasi"?' data-en='What does the word "democracy" mean?'>Ki mo ki vle di "demokrasi"?</h4>
+                                    <div class="quiz-options">
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q1" value="a" data-ht="Pouvwa wa a" data-en="Power of the king">
+                                            <span data-ht="Pouvwa wa a" data-en="Power of the king">Pouvwa wa a</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q1" value="b" data-ht="Pouvwa pèp la" data-en="Power of the people">
+                                            <span data-ht="Pouvwa pèp la" data-en="Power of the people">Pouvwa pèp la</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q1" value="c" data-ht="Pouvwa militè a" data-en="Power of the military">
+                                            <span data-ht="Pouvwa militè a" data-en="Power of the military">Pouvwa militè a</span>
+                                        </label>
+                                    </div>
+                                    <div class="quiz-feedback"></div>
+                                </div>
+                                <button class="quiz-submit" onclick="checkQuiz('q1', 'b', this)" data-ht="Verifye" data-en="Check Answer">Verifye</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Haiti's Democratic Journey -->
+                <div class="accordion-item" data-section="2">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="2. Istwa Demokrasi ann Ayiti" data-en="2. Haiti's Democratic Journey">2. Istwa Demokrasi ann Ayiti</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div data-ht='
+                                <p>Istwa demokrasi ann Ayiti se yon istwa longè, ak viktwa, eprèv, ak espwa. Men moman kle yo:</p>
+                            ' data-en='
+                                <p>The history of democracy in Haiti is a long journey, with victories, trials, and hope. Here are the key moments:</p>
+                            '>
+                                <p>Istwa demokrasi ann Ayiti se yon istwa longè, ak viktwa, eprèv, ak espwa. Men moman kle yo:</p>
+                            </div>
+
+                            <!-- Interactive Timeline -->
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <div class="year">1804</div>
+                                        <h4 data-ht="Premye Repiblik Nwa Lib" data-en="First Free Black Republic">Premye Repiblik Nwa Lib</h4>
+                                        <p data-ht="Ayiti te vin pi premye nasyon nwa lib nan mond lan apre yo te genyen revolisyon kont esklavaj ak derote Napoleon. Se te yon viktwa istorik pou libète ak egalite." data-en="Haiti became the world's first free Black republic after successfully revolting against slavery and defeating Napoleon. This was a historic victory for freedom and equality.">Ayiti te vin pi premye nasyon nwa lib nan mond lan apre yo te genyen revolisyon kont esklavaj ak derote Napoleon. Se te yon viktwa istorik pou libète ak egalite.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <div class="year">1957-1986</div>
+                                        <h4 data-ht="Diktati Duvalier" data-en="Duvalier Dictatorship">Diktati Duvalier</h4>
+                                        <p data-ht='Pandan 29 lane, François "Papa Doc" Duvalier epi pitit gason l Jean-Claude "Baby Doc" Duvalier te dirije Ayiti ak men difè. Yo te kraze tout opozisyon, viole dwa moun, epi derape richès peyi a.' data-en='For 29 years, François "Papa Doc" Duvalier and his son Jean-Claude "Baby Doc" Duvalier ruled Haiti with an iron fist. They crushed all opposition, violated human rights, and plundered the country\'s wealth.'>Pandan 29 lane, François "Papa Doc" Duvalier epi pitit gason l Jean-Claude "Baby Doc" Duvalier te dirije Ayiti ak men difè. Yo te kraze tout opozisyon, viole dwa moun, epi derape richès peyi a.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <div class="year">1986</div>
+                                        <h4 data-ht="Mobilizasyon pou Demokrasi" data-en="Mobilization for Democracy">Mobilizasyon pou Demokrasi</h4>
+                                        <p data-ht="Nan lane 1986, pèp Ayisyen an te mobilize pou mete fen nan diktati Duvalier. Annapre, yo òganize premye eleksyon demokratik peyi a." data-en="In 1986, Haitians mobilized to end the Duvalier dictatorship. Shortly thereafter, they organized the country's first democratic elections.">Nan lane 1986, pèp Ayisyen an te mobilize pou mete fen nan diktati Duvalier. Annapre, yo òganize premye eleksyon demokratik peyi a.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <div class="year">1987</div>
+                                        <h4 data-ht="Nouvo Konstitisyon" data-en="New Constitution">Nouvo Konstitisyon</h4>
+                                        <p data-ht="Konstitisyon 1987 la te senbolize rejeksyon pèp la kont diktati epi pwomote valè demokratik. Li te etabli dwa fondamantal ak balans pouvwa." data-en="The 1987 Constitution symbolized the people's rejection of dictatorship and promoted democratic values. It established fundamental rights and checks on power.">Konstitisyon 1987 la te senbolize rejeksyon pèp la kont diktati epi pwomote valè demokratik. Li te etabli dwa fondamantal ak balans pouvwa.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <div class="year">1990</div>
+                                        <h4 data-ht="Prezidan Aristide" data-en="President Aristide">Prezidan Aristide</h4>
+                                        <p data-ht="Jean-Bertrand Aristide te vin premye prezidan demokratikman eli ann Ayiti. Li te genyen sipò pèp pòv yo men opozisyon elit yo." data-en="Jean-Bertrand Aristide became Haiti's first democratically elected president. He was backed by the poor but opposed by elites.">Jean-Bertrand Aristide te vin premye prezidan demokratikman eli ann Ayiti. Li te genyen sipò pèp pòv yo men opozisyon elit yo.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <div class="year">2024-Jodi a</div>
+                                        <h4 data-ht="Defi Demokratik" data-en="Democratic Challenges">Defi Demokratik</h4>
+                                        <p data-ht="Ayiti pa gen prezidan, palman, ni okenn ofisyèl eli. Konsèy Prezidansyèl Tranzisyonèl (CPT) dirije peyi a depi mas 2024." data-en="Haiti has no president, parliament, or any elected officials. The Transitional Presidential Council (CPT) has governed since March 2024.">Ayiti pa gen prezidan, palman, ni okenn ofisyèl eli. Konsèy Prezidansyèl Tranzisyonèl (CPT) dirije peyi a depi mas 2024.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 3: Key Democratic Principles -->
+                <div class="accordion-item" data-section="3">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="3. Prensip Demokratik Kle" data-en="3. Key Democratic Principles">3. Prensip Demokratik Kle</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div data-ht='
+                                <p>Gen senk prensip fondamantal ki fè demokrasi fonksyone. Chak youn nan yo enpòtan pou pwoteje dwa nou yo epi asire yon gouvènman jis:</p>
+                            ' data-en='
+                                <p>There are five fundamental principles that make democracy work. Each one is important for protecting our rights and ensuring fair government:</p>
+                            '>
+                                <p>Gen senk prensip fondamantal ki fè demokrasi fonksyone. Chak youn nan yo enpòtan pou pwoteje dwa nou yo epi asire yon gouvènman jis:</p>
+                            </div>
+
+                            <!-- Principle Cards -->
+                            <div class="card-grid">
+                                <div class="principle-card">
+                                    <div class="icon">👥</div>
+                                    <h3 data-ht="1. Souverènte Pèp la" data-en="1. Popular Sovereignty">1. Souverènte Pèp la</h3>
+                                    <p data-ht="Nan yon demokrasi, pouvwa soti nan pèp la, pa nan wa, diktate, oswa elit yo. Gouvènman an egziste pou sèvi sitwayen yo." data-en="In a democracy, power comes from the people, not from kings, dictators, or elites. Government exists to serve citizens.">Nan yon demokrasi, pouvwa soti nan pèp la, pa nan wa, diktate, oswa elit yo. Gouvènman an egziste pou sèvi sitwayen yo.</p>
+                                </div>
+
+                                <div class="principle-card">
+                                    <div class="icon">⚖️</div>
+                                    <h3 data-ht="2. Egalite Devan Lalwa" data-en="2. Equality Before the Law">2. Egalite Devan Lalwa</h3>
+                                    <p data-ht="Tout sitwayen yo egal e yo dwe trete menm jan pa lwa a, san diskriminasyon." data-en="All citizens are equal and must be treated the same way by law, without discrimination.">Tout sitwayen yo egal e yo dwe trete menm jan pa lwa a, san diskriminasyon.</p>
+                                </div>
+
+                                <div class="principle-card">
+                                    <div class="icon">🗳️</div>
+                                    <h3 data-ht="3. Majorite ak Pwoteksyon Minorite" data-en="3. Majority Rule with Minority Protection">3. Majorite ak Pwoteksyon Minorite</h3>
+                                    <p data-ht="Majorite a desidé, men dwa minorite yo dwe pwoteje. Demokrasi pa vle di tiranite majorite." data-en="The majority decides, but minority rights must be protected. Democracy does not mean tyranny of the majority.">Majorite a desidé, men dwa minorite yo dwe pwoteje. Demokrasi pa vle di tiranite majorite.</p>
+                                </div>
+
+                                <div class="principle-card">
+                                    <div class="icon">🔍</div>
+                                    <h3 data-ht="4. Transparans ak Responsabilite" data-en="4. Transparency and Accountability">4. Transparans ak Responsabilite</h3>
+                                    <p data-ht="Gouvènman an dwe opere nan limyè, epi lidè yo dwe rann kont bay pèp la." data-en="Government must operate in the light, and leaders must be accountable to the people.">Gouvènman an dwe opere nan limyè, epi lidè yo dwe rann kont bay pèp la.</p>
+                                </div>
+
+                                <div class="principle-card">
+                                    <div class="icon">🙋</div>
+                                    <h3 data-ht="5. Patisipasyon Sitwayen" data-en="5. Citizen Participation">5. Patisipasyon Sitwayen</h3>
+                                    <p data-ht="Demokrasi mande plis pase sèlman vote. Li mande sitwayen aje yo angaje ak enfòme sou kesyon politik." data-en="Democracy requires more than just voting. It requires active, engaged, and informed citizens on political issues.">Demokrasi mande plis pase sèlman vote. Li mande sitwayen aje yo angaje ak enfòme sou kesyon politik.</p>
+                                </div>
+                            </div>
+
+                            <!-- Quiz 2 -->
+                            <div class="quiz-container">
+                                <div class="quiz-header">
+                                    <span class="icon">🎯</span>
+                                    <h3 data-ht="Tès Prensip" data-en="Principles Test">Tès Prensip</h3>
+                                </div>
+                                <div class="quiz-question">
+                                    <h4 data-ht="Ki prensip ki di ke gouvènman an dwe opere nan limyè?" data-en="Which principle says that government must operate in the light?">Ki prensip ki di ke gouvènman an dwe opere nan limyè?</h4>
+                                    <div class="quiz-options">
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q2" value="a" data-ht="Souverènte Pèp la" data-en="Popular Sovereignty">
+                                            <span data-ht="Souverènte Pèp la" data-en="Popular Sovereignty">Souverènte Pèp la</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q2" value="b" data-ht="Transparans ak Responsabilite" data-en="Transparency and Accountability">
+                                            <span data-ht="Transparans ak Responsabilite" data-en="Transparency and Accountability">Transparans ak Responsabilite</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q2" value="c" data-ht="Egalite Devan Lalwa" data-en="Equality Before the Law">
+                                            <span data-ht="Egalite Devan Lalwa" data-en="Equality Before the Law">Egalite Devan Lalwa</span>
+                                        </label>
+                                    </div>
+                                    <div class="quiz-feedback"></div>
+                                </div>
+                                <button class="quiz-submit" onclick="checkQuiz('q2', 'b', this)" data-ht="Verifye" data-en="Check Answer">Verifye</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4: How Democracy Works in Haiti -->
+                <div class="accordion-item" data-section="4">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="4. Kijan Demokrasi Fonksyone ann Ayiti" data-en="4. How Democracy Works in Haiti">4. Kijan Demokrasi Fonksyone ann Ayiti</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div data-ht='
+                                <h3>Konstitisyon 1987 ak Separasyon Pouvwa</h3>
+                                <p>Konstitisyon Ayiti divize gouvènman an nan twa branch pou anpeche nenpòt moun gen twòp pouvwa:</p>
+                            ' data-en='
+                                <h3>The 1987 Constitution and Separation of Powers</h3>
+                                <p>Haiti\'s Constitution divides government into three branches to prevent any one person from having too much power:</p>
+                            '>
+                                <h3>Konstitisyon 1987 ak Separasyon Pouvwa</h3>
+                                <p>Konstitisyon Ayiti divize gouvènman an nan twa branch pou anpeche nenpòt moun gen twòp pouvwa:</p>
+                            </div>
+
+                            <!-- Government Structure -->
+                            <div class="gov-structure">
+                                <h3 style="text-align: center;" data-ht="Twa Branch Gouvènman" data-en="Three Branches of Government">Twa Branch Gouvènman</h3>
+                                <div class="branches">
+                                    <div class="branch executive">
+                                        <div class="icon">👔</div>
+                                        <h4 data-ht="Pouvwa Egzekitif" data-en="Executive Power">Pouvwa Egzekitif</h4>
+                                        <p data-ht="Prezidan ak Premye Minis egzekite lwa yo" data-en="President and Prime Minister execute laws">Prezidan ak Premye Minis egzekite lwa yo</p>
+                                    </div>
+                                    <div class="branch legislative">
+                                        <div class="icon">🏛️</div>
+                                        <h4 data-ht="Pouvwa Lejislatif" data-en="Legislative Power">Pouvwa Lejislatif</h4>
+                                        <p data-ht="Sena ak Chanm Depite kreye lwa yo" data-en="Senate and Chamber of Deputies create laws">Sena ak Chanm Depite kreye lwa yo</p>
+                                    </div>
+                                    <div class="branch judicial">
+                                        <div class="icon">⚖️</div>
+                                        <h4 data-ht="Pouvwa Jidisyè" data-en="Judicial Power">Pouvwa Jidisyè</h4>
+                                        <p data-ht="Tribinal yo entèprete lwa yo" data-en="Courts interpret laws">Tribinal yo entèprete lwa yo</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="margin-top: 2rem;" data-ht='
+                                <h3>Dwa Demokratik nan Konstitisyon 1987</h3>
+                                <ul>
+                                    <li><strong>Egalite:</strong> Atik 18 - "tout Ayisyen egal devan lalwa"</li>
+                                    <li><strong>Dwa pou lavi:</strong> Atik 19 - Pwoteje lavi epi aboli lapenn lanmò</li>
+                                    <li><strong>Libète ekspresyon:</strong> Atik 28 - Libète lapawòl, laprès, ak ansanble</li>
+                                    <li><strong>Patisipasyon Politik:</strong> Atik 52 - Dwa pou vote ak kandida</li>
+                                    <li><strong>Rotasyon Politik:</strong> Atik 134.2 - Entèdi de manda consecutive</li>
+                                </ul>
+                            ' data-en='
+                                <h3>Democratic Rights in the 1987 Constitution</h3>
+                                <ul>
+                                    <li><strong>Equality:</strong> Article 18 - "all Haitians are equal before the law"</li>
+                                    <li><strong>Right to life:</strong> Article 19 - Protects life and abolishes death penalty</li>
+                                    <li><strong>Freedom of expression:</strong> Article 28 - Freedom of speech, press, and assembly</li>
+                                    <li><strong>Political Participation:</strong> Article 52 - Right to vote and run for office</li>
+                                    <li><strong>Political Rotation:</strong> Article 134.2 - Prohibits two consecutive terms</li>
+                                </ul>
+                            '>
+                                <h3>Dwa Demokratik nan Konstitisyon 1987</h3>
+                                <ul>
+                                    <li><strong>Egalite:</strong> Atik 18 - "tout Ayisyen egal devan lalwa"</li>
+                                    <li><strong>Dwa pou lavi:</strong> Atik 19 - Pwoteje lavi epi aboli lapenn lanmò</li>
+                                    <li><strong>Libète ekspresyon:</strong> Atik 28 - Libète lapawòl, laprès, ak ansanble</li>
+                                    <li><strong>Patisipasyon Politik:</strong> Atik 52 - Dwa pou vote ak kandida</li>
+                                    <li><strong>Rotasyon Politik:</strong> Atik 134.2 - Entèdi de manda consecutive</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 5: Challenges and How to Strengthen Democracy -->
+                <div class="accordion-item" data-section="5">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="5. Defi ak Kijan Ranfòse Demokrasi" data-en="5. Challenges and How to Strengthen Democracy">5. Defi ak Kijan Ranfòse Demokrasi</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div data-ht='
+                                <h3>Defi Aktiyèl</h3>
+                                <p>Demokrasi ann Ayiti ap fè fas ak plizyè defi:</p>
+                                <ul>
+                                    <li>🔴 <strong>Ensèkirite ak Gang:</strong> Gwoup ame souvan afilye ak aktè politik</li>
+                                    <li>🔴 <strong>Kriz Politik:</strong> Pa gen Palman ki fonksyone depi 2020</li>
+                                    <li>🔴 <strong>Konfyans Piblik:</strong> Sèlman 37% Ayisyen panse peyi a se yon demokrasi</li>
+                                    <li>🔴 <strong>Kesyon Lang:</strong> Sèlman 2-5% popilasyon an pale lang politik la (Franse)</li>
+                                    <li>🔴 <strong>Koripsyon:</strong> Konfyans nan enstitisyon politik yo ba anpil</li>
+                                </ul>
+
+                                <h3 style="margin-top: 2rem;">Kijan Ou Ka Kontribye</h3>
+                                <p>Chak sitwayen gen yon wòl pou jwe nan ranfòse demokrasi:</p>
+                            ' data-en='
+                                <h3>Current Challenges</h3>
+                                <p>Democracy in Haiti faces several challenges:</p>
+                                <ul>
+                                    <li>🔴 <strong>Insecurity and Gangs:</strong> Armed groups often affiliated with political actors</li>
+                                    <li>🔴 <strong>Political Crisis:</strong> No functioning Parliament since 2020</li>
+                                    <li>🔴 <strong>Public Trust:</strong> Only 37% of Haitians think the country is a democracy</li>
+                                    <li>🔴 <strong>Language Issue:</strong> Only 2-5% of population speaks the language of politics (French)</li>
+                                    <li>🔴 <strong>Corruption:</strong> Trust in political institutions is very low</li>
+                                </ul>
+
+                                <h3 style="margin-top: 2rem;">How You Can Contribute</h3>
+                                <p>Every citizen has a role to play in strengthening democracy:</p>
+                            '>
+                                <h3>Defi Aktiyèl</h3>
+                                <p>Demokrasi ann Ayiti ap fè fas ak plizyè defi:</p>
+                                <ul>
+                                    <li>🔴 <strong>Ensèkirite ak Gang:</strong> Gwoup ame souvan afilye ak aktè politik</li>
+                                    <li>🔴 <strong>Kriz Politik:</strong> Pa gen Palman ki fonksyone depi 2020</li>
+                                    <li>🔴 <strong>Konfyans Piblik:</strong> Sèlman 37% Ayisyen panse peyi a se yon demokrasi</li>
+                                    <li>🔴 <strong>Kesyon Lang:</strong> Sèlman 2-5% popilasyon an pale lang politik la (Franse)</li>
+                                    <li>🔴 <strong>Koripsyon:</strong> Konfyans nan enstitisyon politik yo ba anpil</li>
+                                </ul>
+
+                                <h3 style="margin-top: 2rem;">Kijan Ou Ka Kontribye</h3>
+                                <p>Chak sitwayen gen yon wòl pou jwe nan ranfòse demokrasi:</p>
+                            </div>
+
+                            <!-- Action Cards -->
+                            <div class="action-cards">
+                                <div class="action-card">
+                                    <div class="icon">📚</div>
+                                    <h4 data-ht="Rete Enfòme" data-en="Stay Informed">Rete Enfòme</h4>
+                                    <p data-ht="Li nouvèl, swiv kesyon politik, konprann dwa ou yo" data-en="Read news, follow political issues, understand your rights">Li nouvèl, swiv kesyon politik, konprann dwa ou yo</p>
+                                </div>
+                                <div class="action-card">
+                                    <div class="icon">🗳️</div>
+                                    <h4 data-ht="Vote" data-en="Vote">Vote</h4>
+                                    <p data-ht="Patisipe nan eleksyon, chwazi reprezantan ou yo" data-en="Participate in elections, choose your representatives">Patisipe nan eleksyon, chwazi reprezantan ou yo</p>
+                                </div>
+                                <div class="action-card">
+                                    <div class="icon">💬</div>
+                                    <h4 data-ht="Patisipe" data-en="Participate">Patisipe</h4>
+                                    <p data-ht="Antre nan debat, bay opinyon ou, angaje ak kominote ou" data-en="Join debates, share your opinion, engage with your community">Antre nan debat, bay opinyon ou, angaje ak kominote ou</p>
+                                </div>
+                                <div class="action-card">
+                                    <div class="icon">👁️</div>
+                                    <h4 data-ht="Kontwole" data-en="Hold Accountable">Kontwole</h4>
+                                    <p data-ht="Mande lidè yo rann kont, rapòte koripsyon, defann dwa ou" data-en="Hold leaders accountable, report corruption, defend your rights">Mande lidè yo rann kont, rapòte koripsyon, defann dwa ou</p>
+                                </div>
+                                <div class="action-card">
+                                    <div class="icon">🤝</div>
+                                    <h4 data-ht="Òganize" data-en="Organize">Òganize</h4>
+                                    <p data-ht="Rantre nan gwoup kominotè, kreye chanjman lokal" data-en="Join community groups, create local change">Rantre nan gwoup kominotè, kreye chanjman lokal</p>
+                                </div>
+                                <div class="action-card">
+                                    <div class="icon">📢</div>
+                                    <h4 data-ht="Pale" data-en="Speak Out">Pale</h4>
+                                    <p data-ht="Itilize vwa ou, defann jistis, edike lòt moun" data-en="Use your voice, advocate for justice, educate others">Itilize vwa ou, defann jistis, edike lòt moun</p>
+                                </div>
+                            </div>
+
+                            <!-- Reflection Box -->
+                            <div class="reflection-box">
+                                <h3 data-ht="💭 Refleksyon Pèsonèl" data-en="💭 Personal Reflection">💭 Refleksyon Pèsonèl</h3>
+                                <p data-ht="Kijan ou panse ou ka kontribye nan ranfòse demokrasi ann Ayiti? Ki aksyon ou ka pran nan kominote ou?" data-en="How do you think you can contribute to strengthening democracy in Haiti? What action can you take in your community?">Kijan ou panse ou ka kontribye nan ranfòse demokrasi ann Ayiti? Ki aksyon ou ka pran nan kominote ou?</p>
+                                <textarea placeholder="Ekri refleksyon ou isit... / Write your reflection here..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 6: References -->
+                <div class="accordion-item" data-section="6">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="6. Referans" data-en="6. References">6. Referans</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <ul style="line-height: 2;">
+                                <li><a href="https://pdba.georgetown.edu/Constitutions/Haiti/haiti1987.html" target="_blank">Konstitisyon Ayiti 1987 (Georgetown University)</a></li>
+                                <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Konstitisyon Ayiti ak amendman (Constitute Project)</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Politics_of_Haiti" target="_blank">Politik ann Ayiti (Wikipedia)</a></li>
+                                <li><a href="https://www.ijdh.org/our-work/democracy-in-haiti/democracy-and-governance/" target="_blank">Demokrasi ak Gouvènans ann Ayiti (Institute for Justice & Democracy in Haiti)</a></li>
+                                <li><a href="https://www.idea.int/democracytracker/country/haiti" target="_blank">Eta Global Demokrasi: Ayiti (International IDEA)</a></li>
+                                <li><a href="https://freedomhouse.org/country/haiti/freedom-world/2025" target="_blank">Libète nan mond lan 2025: Ayiti (Freedom House)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Completion Badge -->
+            <div class="completion-badge" id="completionBadge">
+                <div class="icon">🏆</div>
+                <h2 data-ht="Félisitasyon!" data-en="Congratulations!">Félisitasyon!</h2>
+                <p data-ht="Ou fini aprann sou Demokrasi ann Ayiti!" data-en="You've completed learning about Democracy in Haiti!">Ou fini aprann sou Demokrasi ann Ayiti!</p>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="nav-buttons">
+                <a href="education.html" class="nav-button secondary" data-ht="← Retounen nan Edikasyon" data-en="← Back to Education">← Retounen nan Edikasyon</a>
+                <a href="citizenship.html" class="nav-button primary" data-ht="Pwochèn: Sitwayen →" data-en="Next: Citizenship →">Pwochèn: Sitwayen →</a>
             </div>
         </div>
     </section>
@@ -447,5 +1043,98 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Accordion Toggle
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            const allHeaders = document.querySelectorAll('.accordion-header');
+            const allContents = document.querySelectorAll('.accordion-content');
+
+            // Close all other accordions
+            allHeaders.forEach(h => {
+                if (h !== header) {
+                    h.classList.remove('active');
+                }
+            });
+            allContents.forEach(c => {
+                if (c !== content) {
+                    c.classList.remove('active');
+                }
+            });
+
+            // Toggle current accordion
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+
+            // Update progress
+            updateProgress();
+        }
+
+        // Quiz Check
+        function checkQuiz(questionName, correctAnswer, button) {
+            const selectedOption = document.querySelector(`input[name="${questionName}"]:checked`);
+            if (!selectedOption) {
+                alert('Tanpri chwazi yon repons / Please select an answer');
+                return;
+            }
+
+            const feedback = button.previousElementSibling;
+            const allOptions = document.querySelectorAll(`input[name="${questionName}"]`);
+
+            // Disable all options after answer
+            allOptions.forEach(opt => {
+                opt.disabled = true;
+                const label = opt.closest('.quiz-option');
+                if (opt.value === correctAnswer) {
+                    label.classList.add('correct');
+                } else if (opt.checked && opt.value !== correctAnswer) {
+                    label.classList.add('incorrect');
+                }
+            });
+
+            // Show feedback
+            if (selectedOption.value === correctAnswer) {
+                feedback.className = 'quiz-feedback show correct';
+                const lang = document.querySelector('html').lang;
+                feedback.textContent = lang === 'ht' ? '✓ Kòrèk! Bon travay!' : '✓ Correct! Great job!';
+            } else {
+                feedback.className = 'quiz-feedback show incorrect';
+                const lang = document.querySelector('html').lang;
+                feedback.textContent = lang === 'ht' ? '✗ Pa kòrèk. Eseye ankò!' : '✗ Incorrect. Try again!';
+            }
+
+            button.disabled = true;
+            updateProgress();
+        }
+
+        // Progress Tracker
+        function updateProgress() {
+            const totalSections = 6;
+            const openedSections = document.querySelectorAll('.accordion-header.active').length;
+            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
+
+            // Calculate progress: opened sections + bonus for quizzes
+            const progress = ((openedSections * 15) + (answeredQuizzes * 5));
+            const progressFill = document.getElementById('progressFill');
+            const progressText = document.getElementById('progressText');
+            const lang = document.querySelector('html').lang;
+
+            progressFill.style.width = progress + '%';
+            progressText.textContent = lang === 'ht' ? `Pwogrè: ${progress}%` : `Progress: ${progress}%`;
+
+            // Show completion badge if 100%
+            if (progress >= 100) {
+                document.getElementById('completionBadge').classList.add('show');
+            }
+        }
+
+        // Auto-open first section on load
+        window.addEventListener('load', () => {
+            const firstHeader = document.querySelector('.accordion-header');
+            if (firstHeader) {
+                toggleAccordion(firstHeader);
+            }
+        });
+    </script>
 </body>
 </html>
