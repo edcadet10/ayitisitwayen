@@ -9,6 +9,402 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Progress Bar */
+        .progress-bar-container {
+            position: sticky;
+            top: 0;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+            z-index: 100;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #212529;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+
+        /* Learning Hero */
+        .learning-hero {
+            text-align: center;
+            padding: 4rem 0 3rem;
+        }
+
+        .learning-hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            color: #212529;
+        }
+
+        .learning-hero .subtitle {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 1rem;
+        }
+
+        .learning-hero .question {
+            font-size: 1.125rem;
+            color: #6c757d;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Accordion */
+        .accordion {
+            margin: 2rem 0;
+        }
+
+        .accordion-item {
+            border: 1px solid #dee2e6;
+            margin-bottom: 1rem;
+        }
+
+        .accordion-header {
+            width: 100%;
+            padding: 1.5rem;
+            background: white;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #212529;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s ease;
+        }
+
+        .accordion-header:hover {
+            background: #f8f9fa;
+        }
+
+        .accordion-header.active {
+            background: #212529;
+            color: white;
+        }
+
+        .accordion-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .accordion-content.active {
+            max-height: 15000px;
+        }
+
+        .accordion-body {
+            padding: 2rem;
+            background: white;
+        }
+
+        /* Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        @media (min-width: 768px) {
+            .card-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .card-grid.three-col {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .info-card {
+            border: 1px solid #dee2e6;
+            padding: 1.5rem;
+            transition: all 0.2s ease;
+        }
+
+        .info-card:hover {
+            border-color: #212529;
+            transform: translateY(-2px);
+        }
+
+        .info-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #212529;
+        }
+
+        .info-card ul {
+            list-style: disc;
+            padding-left: 1.5rem;
+            margin: 0;
+        }
+
+        .info-card li {
+            padding: 0.25rem 0;
+            color: #495057;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: #212529;
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .highlight-box h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .highlight-box p {
+            font-size: 1rem;
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        /* Article Quote */
+        .article-quote {
+            border-left: 4px solid #212529;
+            padding-left: 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: #495057;
+        }
+
+        /* Quiz */
+        .quiz-container {
+            background: #f8f9fa;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+
+        .quiz-header {
+            margin-bottom: 1.5rem;
+        }
+
+        .quiz-header h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .quiz-question {
+            margin-bottom: 1.5rem;
+        }
+
+        .quiz-question h4 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #212529;
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .quiz-option {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            background: white;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quiz-option:hover {
+            border-color: #212529;
+        }
+
+        .quiz-option input[type="radio"] {
+            margin-right: 0.75rem;
+        }
+
+        .quiz-option.correct {
+            border-color: #28a745;
+            background: #d4edda;
+        }
+
+        .quiz-option.incorrect {
+            border-color: #dc3545;
+            background: #f8d7da;
+        }
+
+        .quiz-submit {
+            padding: 0.75rem 2rem;
+            background: #212529;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        .quiz-submit:hover {
+            opacity: 0.8;
+        }
+
+        .quiz-feedback {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            font-weight: 500;
+            display: none;
+        }
+
+        .quiz-feedback.show {
+            display: block;
+        }
+
+        .quiz-feedback.correct {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .quiz-feedback.incorrect {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        /* Challenge Cards */
+        .challenge-card {
+            background: white;
+            border: 1px solid #dee2e6;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .challenge-card h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: #212529;
+        }
+
+        .challenge-card p {
+            color: #495057;
+            margin: 0.5rem 0;
+        }
+
+        .challenge-card ul {
+            margin: 0.5rem 0 0 1.5rem;
+        }
+
+        .challenge-card li {
+            margin-bottom: 0.5rem;
+            color: #495057;
+        }
+
+        /* Action Steps */
+        .action-step {
+            padding: 1.5rem;
+            border-left: 4px solid #212529;
+            margin-bottom: 1.5rem;
+            background: #f8f9fa;
+        }
+
+        .action-step h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: #212529;
+        }
+
+        .action-step ul {
+            margin: 0.5rem 0 0 1.5rem;
+        }
+
+        .action-step li {
+            margin-bottom: 0.5rem;
+            color: #495057;
+        }
+
+        /* Completion Badge */
+        .completion-badge {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+            background: #212529;
+            color: white;
+            border-radius: 12px;
+            margin: 2rem 0;
+        }
+
+        .completion-badge.show {
+            display: block;
+        }
+
+        .completion-badge h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Navigation Links */
+        .nav-section {
+            display: flex;
+            justify-content: space-between;
+            margin: 3rem 0;
+            padding-top: 2rem;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .nav-link {
+            padding: 1rem 2rem;
+            background: white;
+            color: #212529;
+            border: 2px solid #212529;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background: #212529;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -18,780 +414,585 @@
                 <a href="index.html"><img src="logo.png" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
             <div class="nav-links">
+                <a href="education.html">Edikasyon</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
-                <a href="index.html#research">Rechèch</a>
                 <a href="index.html#contact">Kontak</a>
                 <a href="#" class="lang-switch" onclick="toggleLanguage()">EN</a>
             </div>
         </div>
     </nav>
 
-    <!-- Rights Content -->
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
+        <div class="container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-text" id="progressText" data-ht="Pwogrè: 0%" data-en="Progress: 0%">Pwogrè: 0%</div>
+        </div>
+    </div>
+
+    <!-- Learning Content -->
     <section class="legal-page">
         <div class="container">
-            <h1 class="page-title" data-ht="Dwa ann Ayiti" data-en="Rights in Haiti">Dwa ann Ayiti</h1>
-
-            <p class="legal-date" data-ht="Dènye mizajou: 16 desanm 2025" data-en="Last Updated: December 16, 2025">Dènye mizajou: 16 desanm 2025</p>
-
-            <div class="legal-content" data-ht='
-                <h2>Ki Sa Dwa Moun Ye?</h2>
-                <p>Dwa moun se dwa fondamantal tout moun genyen senpleman paske yo se moun. Dwa sa yo pa depann de:</p>
-                <ul>
-                    <li>Ki kote ou fèt</li>
-                    <li>Ki koulè ou ye</li>
-                    <li>Ki relijyon ou genyen</li>
-                    <li>Ki sèks ou ye</li>
-                    <li>Ki nasyonalite ou genyen</li>
-                    <li>Ki klas sosyal ou soti</li>
-                </ul>
-
-                <p>Dwa moun se <strong>inivèsèl</strong> (pou tout moun), <strong>inalyenab</strong> (pèsonn pa ka pran yo), epi <strong>endivizib</strong> (yo tout enpòtan menm jan).</p>
-
-                <h2>Dwa ann Ayiti: Konstitisyon 1987</h2>
-
-                <p>Konstitisyon Ayiti 1987 dedye Tit III konplètman pou "Dwa Sitwayen yo." Se youn nan pati pi enpòtan konstitisyon an. Li garanti dwa sivil, politik, ekonomik, sosyal, ak kiltirèl.</p>
-
-                <h3>Atik 18: Egalite Devan Lalwa</h3>
-                <blockquote>"Tout Ayisyen egal devan lalwa. Yo rkonèt dwa egzèsis dwa yo san diskriminasyon."</blockquote>
-
-                <p>Sa vle di:</p>
-                <ul>
-                    <li>Tout moun gen menm dwa legal</li>
-                    <li>Lalwa dwe trete tout moun menm jan</li>
-                    <li>Diskriminasyon ilegal</li>
-                    <li>Pèsonn pa anwo lwa a</li>
-                </ul>
-
-                <h3>Atik 19: Dwa pou Lavi</h3>
-                <blockquote>"Leta obligé garanti dwa pou lavi pou tout sitwayen san okenn ekepsyon."</blockquote>
-
-                <p>Dwa pou lavi se dwa pi fondamantal. San lavi, ou pa ka jwi lòt dwa. Leta gen responsabilite pou:</p>
-                <ul>
-                    <li>Pwoteje lavi sitwayen</li>
-                    <li>Bay sekirite</li>
-                    <li>Prevni mèt ak asyasina</li>
-                    <li>Pini moun ki vyole dwa pou lavi</li>
-                </ul>
-
-                <h3>Atik 20: Lapenn Lanmò Aboli</h3>
-                <blockquote>"Lapenn lanmò aboli nan tout ka."</blockquote>
-
-                <p>Ayiti se youn nan premye peyi nan mond lan ki aboli lapenn lanmò konplètman. Sa konfime respè pou dwa pou lavi – menm moun ki fè gwo krim merite viv.</p>
-
-                <h2>Kategori Dwa</h2>
-
-                <h3>1. Dwa Sivil</h3>
-                <p>Dwa sivil pwoteje libète endividyèl ak sekirite pèsonèl.</p>
-
-                <p><strong>Atik 24: Libète Pèsonèl</strong></p>
-                <blockquote>"Libète endividyèl garanti epi pwoteje pa Leta."</blockquote>
-                <ul>
-                    <li>Pèsonn pa ka arete ou san prèv</li>
-                    <li>Si yo arete ou, ou gen dwa konnen poukisa</li>
-                    <li>Ou gen dwa jwenn yon avoka</li>
-                    <li>Ou pa kapab rete nan prizon san jijman</li>
-                </ul>
-
-                <p><strong>Atik 27: Vi Prive</strong></p>
-                <blockquote>"Dòmisil moun sakre. Li pa ka vjole anba okenn pretèks."</blockquote>
-                <ul>
-                    <li>Lapolis pa ka fouye lakay ou san manda tribinal</li>
-                    <li>Vi prive ou pwoteje</li>
-                    <li>Korespondans ou (lèt, telefòn, imèl) pa ka entèsepte ilegalman</li>
-                </ul>
-
-                <p><strong>Atik 28: Libète Ekspresyon</strong></p>
-                <blockquote>"Tout Ayisyen gen dwa pou eksprimen lide yo libilman nan tout domèn pa tout mwayen yo chwazi."</blockquote>
-                <ul>
-                    <li>Ou ka pale sou sa ou panse</li>
-                    <li>Ou ka ekri, pibliye, difize lide ou</li>
-                    <li>Laprès lib – pa gen sansou</li>
-                    <li>Ou ka kritike gouvènman san pè</li>
-                </ul>
-
-                <p><strong>Atik 28.1: Libète Ansanble</strong></p>
-                <blockquote>"Libète pou reyini ak libète pou asosye rkonèt."</blockquote>
-                <ul>
-                    <li>Ou ka òganize manifestasyon pezib</li>
-                    <li>Ou ka kreye oswa jwenn òganizasyon</li>
-                    <li>Ou ka sanble pou manifeste opinyon ou</li>
-                </ul>
-
-                <p><strong>Atik 30: Libète Relijyon</strong></p>
-                <blockquote>"Tout relijyon ak tout lèt lib devan lalwa."</blockquote>
-                <ul>
-                    <li>Ou ka chwazi relijyon ou oswa pa gen okenn</li>
-                    <li>Pèsonn pa ka fòse ou nan yon relijyon</li>
-                    <li>Ou ka pratike kwayans ou an pè</li>
-                    <li>Leta respekte tout relijyon egalman</li>
-                </ul>
-
-                <p><strong>Atik 41: Libète Deplase</strong></p>
-                <blockquote>"Tout Ayisyen gen dwa pou tabli rezidans li nan nenpòt pwen tèritwa nasyonal epi vwayaje nan peyi a."</blockquote>
-                <ul>
-                    <li>Ou ka vwayaje lib nan peyi a</li>
-                    <li>Ou ka viv kote ou vle</li>
-                    <li>Ou gen dwa kite peyi a epi tounen</li>
-                </ul>
-
-                <h3>2. Dwa Politik</h3>
-                <p>Dwa politik pèmèt ou patisipe nan gouvènans peyi a.</p>
-
-                <p><strong>Atik 52: Dwa pou Vote</strong></p>
-                <blockquote>"Tout sitwayen ki gen dizuit (18) lane akonpli epi ki jwi dwa sivil ak politik yo gen dwa pou vote."</blockquote>
-                <ul>
-                    <li>Vote pou chwazi lidè ou</li>
-                    <li>Kandida pou pozisyon elektif</li>
-                    <li>Patisipe nan refèrandòm</li>
-                </ul>
-
-                <p><strong>Atik 31.2: Libète Politik</strong></p>
-                <ul>
-                    <li>Dwa pou kwè nan nenpòt ideoloji politik</li>
-                    <li>Dwa pou fòme oswa jwenn pati politik</li>
-                    <li>Dwa pou kanpay pou kandida ou</li>
-                    <li>Dwa pou opozisyon pezib</li>
-                </ul>
-
-                <h3>3. Dwa Ekonomik</h3>
-                <p>Dwa ekonomik konsène travay, pwopriyete, ak aktivite ekonomik.</p>
-
-                <p><strong>Atik 35: Dwa pou Travay</strong></p>
-                <blockquote>"Leta rkonèt dwa tout sitwayen genyen nan yon travay."</blockquote>
-                <ul>
-                    <li>Dwa pou travay san diskriminasyon</li>
-                    <li>Dwa pou salè jis</li>
-                    <li>Dwa pou kondisyon travay ki an sekirite</li>
-                    <li>Dwa pou fòme sendika</li>
-                </ul>
-
-                <p><strong>Atik 35.1: Salè Minimòm</strong></p>
-                <blockquote>"Leta etabli salè minimòm selon kò lavi a epi selon kondisyon travay yo."</blockquote>
-                <ul>
-                    <li>Travayè gen dwa pou yon salè ki pèmèt yo viv</li>
-                    <li>Anplwayè pa ka peye mwens pase minimòm legal</li>
-                </ul>
-
-                <p><strong>Atik 36: Dwa pou Pwopriyete</strong></p>
-                <blockquote>"Dwa pou pwopriyete prive rkonèt. Li egzèse nan limit lalwa."</blockquote>
-                <ul>
-                    <li>Ou gen dwa posede byen</li>
-                    <li>Pèsonn pa ka pran pwopriyete ou san konpansasyon</li>
-                    <li>Sèlman Ayisyen ka genyen tè ann Ayiti</li>
-                </ul>
-
-                <h3>4. Dwa Sosyal</h3>
-                <p>Dwa sosyal konsène edikasyon, sante, ak byennèt sosyal.</p>
-
-                <p><strong>Atik 32: Dwa pou Edikasyon</strong></p>
-                <blockquote>"Leta garanti dwa edikasyon. Li veye sou edikasyon fizik, entèlèktyèl, moral, pwofesyonèl, sosyal ak sivik popilasyon an."</blockquote>
-                <ul>
-                    <li>Tout timoun gen dwa pou ale lekòl</li>
-                    <li>Edikasyon debaz dwe gratis ak obligatwa</li>
-                    <li>Leta dwe kreye lekòl piblik</li>
-                </ul>
-
-                <p><strong>Atik 32.1: Lekòl Gratis</strong></p>
-                <blockquote>"Premye degre eskolarite obligatwa anba pen sanksyon."</blockquote>
-
-                <p><strong>Atik 19: Dwa pou Sante</strong></p>
-                <blockquote>"Leta gen obligasyon pou garanti dwa pou sante pou tout sitwayen."</blockquote>
-                <ul>
-                    <li>Aksè a swen lasante debaz</li>
-                    <li>Lopital ak klinik piblik</li>
-                    <li>Pwoteksyon kont epidemi</li>
-                </ul>
-
-                <p><strong>Atik 22: Dwa pou Sekirite Sosyal</strong></p>
-                <ul>
-                    <li>Asistans pou moun ki nan bezwen</li>
-                    <li>Pwoteksyon pou timoun, granmoun, ak moun andikape</li>
-                    <li>Asirans sosyal pou travayè</li>
-                </ul>
-
-                <h3>5. Dwa Kiltirèl</h3>
-                <p>Dwa kiltirèl pwoteje patrimwàn ak idantite kiltirèl.</p>
-
-                <p><strong>Atik 5: Lang Ofisyèl</strong></p>
-                <blockquote>"Kreyòl ak Franse se lang ofisyèl Repiblik la."</blockquote>
-                <ul>
-                    <li>Dwa pou pale lang ou</li>
-                    <li>Dwa pou resevwa edikasyon nan Kreyòl</li>
-                    <li>Dwa pou jwenn enfòmasyon ofisyèl nan Kreyòl</li>
-                </ul>
-
-                <p><strong>Atik 215: Pwoteksyon Patrimwàn</strong></p>
-                <ul>
-                    <li>Dwa pou patisipe nan lavi kiltirèl</li>
-                    <li>Dwa pou pratike tradisyon ou</li>
-                    <li>Pwoteksyon sit istorik ak atistik</li>
-                </ul>
-
-                <h2>Defi ak Vyolasyon Dwa ann Ayiti</h2>
-
-                <h3>Ensèkirite ak Vyolans Gang</h3>
-                <p>Jounen jodi a, gang ame kontwole gwo pati tèritwa Ayiti, espesyalman nan Pòtoprens. Sa kreye vyolasyon dwa grav:</p>
-                <ul>
-                    <li><strong>Dwa pou lavi vyole:</strong> Plis pase 5,000 moun touye chak ane pa vyolans gang</li>
-                    <li><strong>Libète deplase limite:</strong> Moun pa ka vwayaje lib akoz blokaj ak ensèkirite</li>
-                    <li><strong>Dwa pou pwopriyete vyole:</strong> Gang fòse moun kite kay yo, piye byen yo</li>
-                    <li><strong>Dwa pou edikasyon vyole:</strong> Plis pase 900 lekòl fèmen akoz ensèkirite</li>
-                </ul>
-
-                <h3>Vyolans sou Fanm</h3>
-                <p>Vyòl ak vyolans seksyèl tounen zam lagè pou gang yo:</p>
-                <ul>
-                    <li>Milye ka vyòl chak ane</li>
-                    <li>Fanm ka pa ale travay oswa lekòl akoz pè</li>
-                    <li>Jistis pa disponib pou viktim yo</li>
-                    <li>Enpinite generalize</li>
-                </ul>
-
-                <h3>Sistèm Jistis Fèb</h3>
-                <p>Dwa legal pa respekte paske sistèm jistis la pa fonksyone:</p>
-                <ul>
-                    <li><strong>Detansyon ilegal:</strong> 75% prizonye pa gen jijman – yo rete lane nan prizon san kondanasyon</li>
-                    <li><strong>Aksè a jistis limite:</strong> Moun pòv pa ka peye avoka</li>
-                    <li><strong>Tribinal koronpi:</strong> Jij ak majistra souvan koronpi</li>
-                    <li><strong>Enpinite:</strong> Kriminèl pa pini, viktim pa jwenn jistis</li>
-                </ul>
-
-                <h3>Dwa Ekonomik Neglije</h3>
-                <ul>
-                    <li><strong>Edikasyon:</strong> 50% timoun pa ale lekòl</li>
-                    <li><strong>Sante:</strong> Lopital pa fonksyone, medikaman pa disponib</li>
-                    <li><strong>Travay:</strong> Chomaj osnon 60%, salè minimòm pa aplike</li>
-                    <li><strong>Lojman:</strong> Milyon moun viv nan kay prejil, san aksè a dlo potab</li>
-                </ul>
-
-                <h3>Diskriminasyon</h3>
-                <p>Malgre Atik 18 garanti egalite, diskriminasyon egziste:</p>
-                <ul>
-                    <li><strong>Diskriminasyon klas:</strong> Elit rich jwi dwa, pèp pòv sibi</li>
-                    <li><strong>Diskriminasyon sèks:</strong> Fanm peye mwens, gen mwens opòtinite</li>
-                    <li><strong>Diskriminasyon lang:</strong> Moun ki pale sèlman Kreyòl eksklui nan politik ak jistis</li>
-                    <li><strong>Diskriminasyon kont timoun lari:</strong> Restavèk, timoun san abri vyole chak jou</li>
-                </ul>
-
-                <h2>Mekanis Pwoteksyon Dwa</h2>
-
-                <h3>Enstitisyon Nasyonal</h3>
-
-                <p><strong>Ofis Pwoteksyon Sitwayen (OPC):</strong></p>
-                <ul>
-                    <li>Kreye pou resevwa plent sou vyolasyon dwa</li>
-                    <li>Ka fè ankèt ak rekòmandasyon</li>
-                    <li>Men, manke finansman ak pouvwa reyèl</li>
-                </ul>
-
-                <p><strong>Tribinal yo:</strong></p>
-                <ul>
-                    <li>Gen responsabilite pou pwoteje dwa</li>
-                    <li>Men, koronpi ak enflianse pa politik</li>
-                </ul>
-
-                <p><strong>Lapolis Nasyonal (PNH):</strong></p>
-                <ul>
-                    <li>Dwe pwoteje sitwayen</li>
-                    <li>Men, souvan akize vyolasyon dwa tou</li>
-                </ul>
-
-                <h3>Sosyete Sivil</h3>
-                <p>Òganizasyon lokal ak entènasyonal travay pou defann dwa:</p>
-                <ul>
-                    <li><strong>RNDDH</strong> (Rezo Nasyonal Defans Dwa Moun ann Ayiti)</li>
-                    <li><strong>FONHDILAC</strong> (Fondasyon Ayisyen pou Defans Libète)</li>
-                    <li><strong>IJDH</strong> (Institute for Justice & Democracy in Haiti)</li>
-                    <li><strong>BAI</strong> (Biwo Avoka Entènasyonal)</li>
-                    <li>Plizyè lòt gwoup kominotè ak relijye</li>
-                </ul>
-
-                <h3>Entènasyonal</h3>
-                <ul>
-                    <li><strong>UN Human Rights:</strong> Misyon Nasyonzini ann Ayiti</li>
-                    <li><strong>OAS:</strong> Komisyon Entèamerikèn Dwa Moun</li>
-                    <li><strong>Amnesty International</strong></li>
-                    <li><strong>Human Rights Watch</strong></li>
-                </ul>
-
-                <h2>Ki Sa Ou Ka Fè Pou Defann Dwa Ou?</h2>
-
-                <h3>1. Konnen Dwa Ou</h3>
-                <ul>
-                    <li>Li Konstitisyon an, espesyalman Tit III</li>
-                    <li>Aprann ki dwa ou genyen</li>
-                    <li>Konprann ki limit gouvènman genyen</li>
-                </ul>
-
-                <h3>2. Dokimante Vyolasyon</h3>
-                <ul>
-                    <li>Si dwa ou vyole, ekri tout detay</li>
-                    <li>Pran foto si posib</li>
-                    <li>Jwenn temwen</li>
-                    <li>Kenbe prèv</li>
-                </ul>
-
-                <h3>3. Rapòte</h3>
-                <ul>
-                    <li>Plede ka a nan Ofis Pwoteksyon Sitwayen</li>
-                    <li>Kontakte òganizasyon dwa moun</li>
-                    <li>Enfòme medya si apwopriye</li>
-                </ul>
-
-                <h3>4. Òganize</h3>
-                <ul>
-                    <li>Jwenn gwoup kominotè ki defann dwa</li>
-                    <li>Kreye kolektif pou defann dwa nan katye ou</li>
-                    <li>Itilize fòs kolektif pou mande jistis</li>
-                </ul>
-
-                <h3>5. Egzije Chanjman</h3>
-                <ul>
-                    <li>Vote pou kandida ki respekte dwa moun</li>
-                    <li>Patisipe nan manifestasyon pezib</li>
-                    <li>Mande lidè yo rann kont</li>
-                    <li>Sipòte refòm jistis ak sekirite</li>
-                </ul>
-
-                <h2>Dwa Timoun ann Ayiti</h2>
-
-                <p>Timoun gen dwa espesyal ki pwoteje yo:</p>
-
-                <p><strong>Atik 260: Pwoteksyon Timoun</strong></p>
-                <ul>
-                    <li>Dwa pou non, nasyonalite, edikasyon gratis</li>
-                    <li>Pwoteksyon kont esplwatasyon</li>
-                    <li>Pwoteksyon kont maltrètans</li>
-                    <li>Aksè a swen lasante</li>
-                </ul>
-
-                <p><strong>Pwoblèm Reyèl:</strong></p>
-                <ul>
-                    <li>300,000 timoun nan sistèm restavèk (esklavaj domestik)</li>
-                    <li>Milye timoun pa gen sètifika nesans</li>
-                    <li>Abiz seksyèl kont timoun gen gwo nivo</li>
-                    <li>Timoun rekrite pa gang ame</li>
-                </ul>
-
-                <h2>Dwa Fanm ann Ayiti</h2>
-
-                <p><strong>Atik 17: Egalite Sèks</strong></p>
-                <blockquote>"Fanm ak gason gen menm dwa epi menm obligasyon nan tout domèn."</blockquote>
-
-                <p><strong>Dwa Legal:</strong></p>
-                <ul>
-                    <li>Dwa pou vote (depi 1950)</li>
-                    <li>Dwa pou travay san diskriminasyon</li>
-                    <li>Dwa pou pwopriyete</li>
-                    <li>Dwa pou kandida pou nenpòt pozisyon</li>
-                </ul>
-
-                <p><strong>Defi Reyèl:</strong></p>
-                <ul>
-                    <li>Vyòl sistematik kòm zam lagè</li>
-                    <li>Vyolans domestik gen gwo nivo</li>
-                    <li>Reprezantasyon politik ba (mwens pase 5% palman)</li>
-                    <li>Ekati salè ant fanm ak gason</li>
-                </ul>
-
-                <h2>Konklizyon</h2>
-
-                <p>Dwa ann Ayiti garanti sou papye nan Konstitisyon 1987, men aplikasyon yo limite. Ensèkirite, koripsyon, ak sistèm jistis fèb kreye yon sitiasyon kote dwa vyole chak jou.</p>
-
-                <p>Men espwa egziste. Sosyete sivil aktif, jounalis kourajye, ak sitwayen òdine kontinye lite pou dwa yo. Chak fwa yon moun leve vwa kont enjistis, chak fwa yon kominote òganize pou defann dwa yo, chak fwa nou mande responsabilite – nou avan pi pre yon Ayiti kote dwa tout moun respekte.</p>
-
-                <p><strong>"Dwa se pa kado – se batay. Nou dwe lite chak jou pou kenbe yo ak avanse yo."</strong></p>
-
-                <h2>Referans</h2>
-                <ul>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Konstitisyon Ayiti 1987 (Constitute Project)</a></li>
-                    <li><a href="http://hum.umn.edu/humanrts/research/haiti-constitution2.html" target="_blank">Dwa Moun nan Konstitisyon Ayiti (University of Minnesota)</a></li>
-                    <li><a href="https://www.ohchr.org/en/countries/haiti" target="_blank">UN Human Rights: Haiti (Office of the High Commissioner)</a></li>
-                    <li><a href="https://www.amnesty.org/en/location/americas/central-america-and-the-caribbean/haiti/" target="_blank">Amnesty International: Haiti</a></li>
-                    <li><a href="https://www.hrw.org/americas/haiti" target="_blank">Human Rights Watch: Haiti</a></li>
-                    <li><a href="https://www.ijdh.org/" target="_blank">Institute for Justice & Democracy in Haiti</a></li>
-                </ul>
-            ' data-en='
-                <h2>What are Human Rights?</h2>
-                <p>Human rights are fundamental rights all people have simply because they are human. These rights do not depend on:</p>
-                <ul>
-                    <li>Where you were born</li>
-                    <li>What color you are</li>
-                    <li>What religion you have</li>
-                    <li>What sex you are</li>
-                    <li>What nationality you have</li>
-                    <li>What social class you come from</li>
-                </ul>
-
-                <p>Human rights are <strong>universal</strong> (for everyone), <strong>inalienable</strong> (no one can take them), and <strong>indivisible</strong> (they are all equally important).</p>
-
-                <h2>Rights in Haiti: 1987 Constitution</h2>
-
-                <p>Haiti's 1987 Constitution dedicates Title III entirely to "Citizens' Rights." This is one of the most important parts of the constitution. It guarantees civil, political, economic, social, and cultural rights.</p>
-
-                <h3>Article 18: Equality Before the Law</h3>
-                <blockquote>"All Haitians are equal before the law. The exercise of their rights is recognized without discrimination."</blockquote>
-
-                <p>This means:</p>
-                <ul>
-                    <li>Everyone has the same legal rights</li>
-                    <li>Law must treat everyone the same</li>
-                    <li>Discrimination is illegal</li>
-                    <li>No one is above the law</li>
-                </ul>
-
-                <h3>Article 19: Right to Life</h3>
-                <blockquote>"The State is obliged to guarantee the right to life for all citizens without exception."</blockquote>
-
-                <p>The right to life is the most fundamental right. Without life, you cannot enjoy other rights. The State has a responsibility to:</p>
-                <ul>
-                    <li>Protect citizens' lives</li>
-                    <li>Provide security</li>
-                    <li>Prevent murder and assassination</li>
-                    <li>Punish those who violate the right to life</li>
-                </ul>
-
-                <h3>Article 20: Death Penalty Abolished</h3>
-                <blockquote>"The death penalty is abolished in all cases."</blockquote>
-
-                <p>Haiti is one of the first countries in the world to completely abolish the death penalty. This confirms respect for the right to life – even people who commit serious crimes deserve to live.</p>
-
-                <h2>Categories of Rights</h2>
-
-                <h3>1. Civil Rights</h3>
-                <p>Civil rights protect individual freedom and personal security.</p>
-
-                <p><strong>Article 24: Personal Freedom</strong></p>
-                <blockquote>"Individual freedom is guaranteed and protected by the State."</blockquote>
-                <ul>
-                    <li>No one can arrest you without evidence</li>
-                    <li>If they arrest you, you have the right to know why</li>
-                    <li>You have the right to get a lawyer</li>
-                    <li>You cannot stay in prison without trial</li>
-                </ul>
-
-                <p><strong>Article 27: Privacy</strong></p>
-                <blockquote>"The domicile is sacred. It cannot be violated under any pretext."</blockquote>
-                <ul>
-                    <li>Police cannot search your home without court warrant</li>
-                    <li>Your privacy is protected</li>
-                    <li>Your correspondence (letters, phone, email) cannot be illegally intercepted</li>
-                </ul>
-
-                <p><strong>Article 28: Freedom of Expression</strong></p>
-                <blockquote>"All Haitians have the right to express their ideas freely in all areas by all means they choose."</blockquote>
-                <ul>
-                    <li>You can speak your mind</li>
-                    <li>You can write, publish, disseminate your ideas</li>
-                    <li>Press is free – no censorship</li>
-                    <li>You can criticize government without fear</li>
-                </ul>
-
-                <p><strong>Article 28.1: Freedom of Assembly</strong></p>
-                <blockquote>"Freedom to meet and freedom to associate are recognized."</blockquote>
-                <ul>
-                    <li>You can organize peaceful demonstrations</li>
-                    <li>You can create or join organizations</li>
-                    <li>You can gather to express your opinion</li>
-                </ul>
-
-                <p><strong>Article 30: Freedom of Religion</strong></p>
-                <blockquote>"All religions and all cults are free before the law."</blockquote>
-                <ul>
-                    <li>You can choose your religion or have none</li>
-                    <li>No one can force you into a religion</li>
-                    <li>You can practice your belief in peace</li>
-                    <li>State respects all religions equally</li>
-                </ul>
-
-                <p><strong>Article 41: Freedom of Movement</strong></p>
-                <blockquote>"All Haitians have the right to establish their residence at any point in the national territory and to travel within the country."</blockquote>
-                <ul>
-                    <li>You can travel freely in the country</li>
-                    <li>You can live where you want</li>
-                    <li>You have the right to leave the country and return</li>
-                </ul>
-
-                <h3>2. Political Rights</h3>
-                <p>Political rights allow you to participate in governing the country.</p>
-
-                <p><strong>Article 52: Right to Vote</strong></p>
-                <blockquote>"All citizens who are eighteen (18) years of age and who enjoy civil and political rights have the right to vote."</blockquote>
-                <ul>
-                    <li>Vote to choose your leaders</li>
-                    <li>Run for elective office</li>
-                    <li>Participate in referendums</li>
-                </ul>
-
-                <p><strong>Article 31.2: Political Freedom</strong></p>
-                <ul>
-                    <li>Right to believe in any political ideology</li>
-                    <li>Right to form or join political parties</li>
-                    <li>Right to campaign for your candidate</li>
-                    <li>Right to peaceful opposition</li>
-                </ul>
-
-                <h3>3. Economic Rights</h3>
-                <p>Economic rights concern work, property, and economic activity.</p>
-
-                <p><strong>Article 35: Right to Work</strong></p>
-                <blockquote>"The State recognizes the right of all citizens to work."</blockquote>
-                <ul>
-                    <li>Right to work without discrimination</li>
-                    <li>Right to fair wages</li>
-                    <li>Right to safe working conditions</li>
-                    <li>Right to form unions</li>
-                </ul>
-
-                <p><strong>Article 35.1: Minimum Wage</strong></p>
-                <blockquote>"The State establishes minimum wage according to cost of living and working conditions."</blockquote>
-                <ul>
-                    <li>Workers have right to a wage that allows them to live</li>
-                    <li>Employers cannot pay less than legal minimum</li>
-                </ul>
-
-                <p><strong>Article 36: Right to Property</strong></p>
-                <blockquote>"The right to private property is recognized. It is exercised within the limits of law."</blockquote>
-                <ul>
-                    <li>You have the right to own property</li>
-                    <li>No one can take your property without compensation</li>
-                    <li>Only Haitians can own land in Haiti</li>
-                </ul>
-
-                <h3>4. Social Rights</h3>
-                <p>Social rights concern education, health, and social welfare.</p>
-
-                <p><strong>Article 32: Right to Education</strong></p>
-                <blockquote>"The State guarantees the right to education. It oversees the physical, intellectual, moral, professional, social, and civic education of the population."</blockquote>
-                <ul>
-                    <li>All children have the right to go to school</li>
-                    <li>Basic education must be free and mandatory</li>
-                    <li>State must create public schools</li>
-                </ul>
-
-                <p><strong>Article 32.1: Free School</strong></p>
-                <blockquote>"The first degree of schooling is mandatory under penalty of sanctions."</blockquote>
-
-                <p><strong>Article 19: Right to Health</strong></p>
-                <blockquote>"The State has an obligation to guarantee the right to health for all citizens."</blockquote>
-                <ul>
-                    <li>Access to basic healthcare</li>
-                    <li>Public hospitals and clinics</li>
-                    <li>Protection against epidemics</li>
-                </ul>
-
-                <p><strong>Article 22: Right to Social Security</strong></p>
-                <ul>
-                    <li>Assistance for those in need</li>
-                    <li>Protection for children, elderly, and disabled</li>
-                    <li>Social insurance for workers</li>
-                </ul>
-
-                <h3>5. Cultural Rights</h3>
-                <p>Cultural rights protect heritage and cultural identity.</p>
-
-                <p><strong>Article 5: Official Languages</strong></p>
-                <blockquote>"Creole and French are the official languages of the Republic."</blockquote>
-                <ul>
-                    <li>Right to speak your language</li>
-                    <li>Right to receive education in Creole</li>
-                    <li>Right to get official information in Creole</li>
-                </ul>
-
-                <p><strong>Article 215: Heritage Protection</strong></p>
-                <ul>
-                    <li>Right to participate in cultural life</li>
-                    <li>Right to practice your traditions</li>
-                    <li>Protection of historic and artistic sites</li>
-                </ul>
-
-                <h2>Challenges and Rights Violations in Haiti</h2>
-
-                <h3>Insecurity and Gang Violence</h3>
-                <p>Today, armed gangs control large parts of Haiti's territory, especially in Port-au-Prince. This creates serious rights violations:</p>
-                <ul>
-                    <li><strong>Right to life violated:</strong> Over 5,000 people killed each year by gang violence</li>
-                    <li><strong>Freedom of movement limited:</strong> People cannot travel freely due to blockades and insecurity</li>
-                    <li><strong>Right to property violated:</strong> Gangs force people to leave their homes, loot their property</li>
-                    <li><strong>Right to education violated:</strong> Over 900 schools closed due to insecurity</li>
-                </ul>
-
-                <h3>Violence Against Women</h3>
-                <p>Rape and sexual violence have become weapons of war for gangs:</p>
-                <ul>
-                    <li>Thousands of rape cases each year</li>
-                    <li>Women cannot go to work or school due to fear</li>
-                    <li>Justice not available for victims</li>
-                    <li>Generalized impunity</li>
-                </ul>
-
-                <h3>Weak Justice System</h3>
-                <p>Legal rights are not respected because the justice system doesn't function:</p>
-                <ul>
-                    <li><strong>Illegal detention:</strong> 75% of prisoners have no trial – they stay years in prison without conviction</li>
-                    <li><strong>Limited access to justice:</strong> Poor people cannot afford lawyers</li>
-                    <li><strong>Corrupt courts:</strong> Judges and magistrates often corrupt</li>
-                    <li><strong>Impunity:</strong> Criminals not punished, victims don't get justice</li>
-                </ul>
-
-                <h3>Economic Rights Neglected</h3>
-                <ul>
-                    <li><strong>Education:</strong> 50% of children don't go to school</li>
-                    <li><strong>Health:</strong> Hospitals don't function, medications not available</li>
-                    <li><strong>Work:</strong> Unemployment around 60%, minimum wage not enforced</li>
-                    <li><strong>Housing:</strong> Millions live in precarious houses, without access to drinking water</li>
-                </ul>
-
-                <h3>Discrimination</h3>
-                <p>Despite Article 18 guaranteeing equality, discrimination exists:</p>
-                <ul>
-                    <li><strong>Class discrimination:</strong> Rich elite enjoy rights, poor people suffer</li>
-                    <li><strong>Sex discrimination:</strong> Women paid less, have fewer opportunities</li>
-                    <li><strong>Language discrimination:</strong> People who speak only Creole excluded from politics and justice</li>
-                    <li><strong>Discrimination against street children:</strong> Restavèk, homeless children violated every day</li>
-                </ul>
-
-                <h2>Rights Protection Mechanisms</h2>
-
-                <h3>National Institutions</h3>
-
-                <p><strong>Office of Citizen Protection (OPC):</strong></p>
-                <ul>
-                    <li>Created to receive complaints about rights violations</li>
-                    <li>Can conduct investigations and recommendations</li>
-                    <li>But lacks funding and real power</li>
-                </ul>
-
-                <p><strong>Courts:</strong></p>
-                <ul>
-                    <li>Have responsibility to protect rights</li>
-                    <li>But corrupt and influenced by politics</li>
-                </ul>
-
-                <p><strong>National Police (PNH):</strong></p>
-                <ul>
-                    <li>Should protect citizens</li>
-                    <li>But often accused of rights violations too</li>
-                </ul>
-
-                <h3>Civil Society</h3>
-                <p>Local and international organizations work to defend rights:</p>
-                <ul>
-                    <li><strong>RNDDH</strong> (National Network for Defense of Human Rights in Haiti)</li>
-                    <li><strong>FONHDILAC</strong> (Haitian Foundation for Defense of Freedom)</li>
-                    <li><strong>IJDH</strong> (Institute for Justice & Democracy in Haiti)</li>
-                    <li><strong>BAI</strong> (Bureau des Avocats Internationaux)</li>
-                    <li>Many other community and religious groups</li>
-                </ul>
-
-                <h3>International</h3>
-                <ul>
-                    <li><strong>UN Human Rights:</strong> United Nations Mission in Haiti</li>
-                    <li><strong>OAS:</strong> Inter-American Commission on Human Rights</li>
-                    <li><strong>Amnesty International</strong></li>
-                    <li><strong>Human Rights Watch</strong></li>
-                </ul>
-
-                <h2>What Can You Do to Defend Your Rights?</h2>
-
-                <h3>1. Know Your Rights</h3>
-                <ul>
-                    <li>Read the Constitution, especially Title III</li>
-                    <li>Learn what rights you have</li>
-                    <li>Understand what limits government has</li>
-                </ul>
-
-                <h3>2. Document Violations</h3>
-                <ul>
-                    <li>If your rights are violated, write all details</li>
-                    <li>Take photos if possible</li>
-                    <li>Get witnesses</li>
-                    <li>Keep evidence</li>
-                </ul>
-
-                <h3>3. Report</h3>
-                <ul>
-                    <li>File case at Office of Citizen Protection</li>
-                    <li>Contact human rights organizations</li>
-                    <li>Inform media if appropriate</li>
-                </ul>
-
-                <h3>4. Organize</h3>
-                <ul>
-                    <li>Join community groups that defend rights</li>
-                    <li>Create collectives to defend rights in your neighborhood</li>
-                    <li>Use collective strength to demand justice</li>
-                </ul>
-
-                <h3>5. Demand Change</h3>
-                <ul>
-                    <li>Vote for candidates who respect human rights</li>
-                    <li>Participate in peaceful demonstrations</li>
-                    <li>Hold leaders accountable</li>
-                    <li>Support justice and security reform</li>
-                </ul>
-
-                <h2>Children's Rights in Haiti</h2>
-
-                <p>Children have special rights that protect them:</p>
-
-                <p><strong>Article 260: Child Protection</strong></p>
-                <ul>
-                    <li>Right to name, nationality, free education</li>
-                    <li>Protection against exploitation</li>
-                    <li>Protection against mistreatment</li>
-                    <li>Access to healthcare</li>
-                </ul>
-
-                <p><strong>Real Problems:</strong></p>
-                <ul>
-                    <li>300,000 children in restavèk system (domestic slavery)</li>
-                    <li>Thousands of children have no birth certificate</li>
-                    <li>Sexual abuse against children at high levels</li>
-                    <li>Children recruited by armed gangs</li>
-                </ul>
-
-                <h2>Women's Rights in Haiti</h2>
-
-                <p><strong>Article 17: Sex Equality</strong></p>
-                <blockquote>"Women and men have the same rights and the same obligations in all areas."</blockquote>
-
-                <p><strong>Legal Rights:</strong></p>
-                <ul>
-                    <li>Right to vote (since 1950)</li>
-                    <li>Right to work without discrimination</li>
-                    <li>Right to property</li>
-                    <li>Right to run for any position</li>
-                </ul>
-
-                <p><strong>Real Challenges:</strong></p>
-                <ul>
-                    <li>Systematic rape as weapon of war</li>
-                    <li>Domestic violence at high levels</li>
-                    <li>Low political representation (less than 5% of parliament)</li>
-                    <li>Wage gap between women and men</li>
-                </ul>
-
-                <h2>Conclusion</h2>
-
-                <p>Rights in Haiti are guaranteed on paper in the 1987 Constitution, but their implementation is limited. Insecurity, corruption, and a weak justice system create a situation where rights are violated every day.</p>
-
-                <p>But hope exists. Active civil society, courageous journalists, and ordinary citizens continue to fight for their rights. Each time someone raises their voice against injustice, each time a community organizes to defend their rights, each time we demand accountability – we are closer to a Haiti where everyone's rights are respected.</p>
-
-                <p><strong>"Rights are not a gift – they are a struggle. We must fight every day to keep them and advance them."</strong></p>
-
-                <h2>References</h2>
-                <ul>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Haiti Constitution 1987 (Constitute Project)</a></li>
-                    <li><a href="http://hum.umn.edu/humanrts/research/haiti-constitution2.html" target="_blank">Human Rights in Haiti Constitution (University of Minnesota)</a></li>
-                    <li><a href="https://www.ohchr.org/en/countries/haiti" target="_blank">UN Human Rights: Haiti (Office of the High Commissioner)</a></li>
-                    <li><a href="https://www.amnesty.org/en/location/americas/central-america-and-the-caribbean/haiti/" target="_blank">Amnesty International: Haiti</a></li>
-                    <li><a href="https://www.hrw.org/americas/haiti" target="_blank">Human Rights Watch: Haiti</a></li>
-                    <li><a href="https://www.ijdh.org/" target="_blank">Institute for Justice & Democracy in Haiti</a></li>
-                </ul>
-            '>
-                [Full Haitian Creole version matching data-ht attribute]
+            <!-- Hero Section -->
+            <div class="learning-hero">
+                <h1 data-ht="Dwa ann Ayiti" data-en="Rights in Haiti">Dwa ann Ayiti</h1>
+                <p class="subtitle" data-ht="Dwa Ou Se Pouvwa Ou" data-en="Your Rights Are Your Power">Dwa Ou Se Pouvwa Ou</p>
+                <p class="question" data-ht="Èske ou konnen ki dwa ou genyen kòm sitwayen?" data-en="Do you know what rights you have as a citizen?">Èske ou konnen ki dwa ou genyen kòm sitwayen?</p>
+            </div>
+
+            <!-- Accordion Sections -->
+            <div class="accordion">
+                <!-- Section 1: What are Human Rights? -->
+                <div class="accordion-item" data-section="1">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="1. Ki Sa Dwa Moun Ye?" data-en="1. What are Human Rights?">1. Ki Sa Dwa Moun Ye?</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Dwa moun se dwa fondamantal tout moun genyen senpleman paske yo se moun. Dwa sa yo pa depann de:" data-en="Human rights are fundamental rights all people have simply because they are human. These rights do not depend on:">Dwa moun se dwa fondamantal tout moun genyen senpleman paske yo se moun. Dwa sa yo pa depann de:</p>
+
+                            <ul>
+                                <li data-ht="Ki kote ou fèt" data-en="Where you were born">Ki kote ou fèt</li>
+                                <li data-ht="Ki koulè ou ye" data-en="What color you are">Ki koulè ou ye</li>
+                                <li data-ht="Ki relijyon ou genyen" data-en="What religion you have">Ki relijyon ou genyen</li>
+                                <li data-ht="Ki sèks ou ye" data-en="What sex you are">Ki sèks ou ye</li>
+                                <li data-ht="Ki nasyonalite ou genyen" data-en="What nationality you have">Ki nasyonalite ou genyen</li>
+                                <li data-ht="Ki klas sosyal ou soti" data-en="What social class you come from">Ki klas sosyal ou soti</li>
+                            </ul>
+
+                            <div class="highlight-box">
+                                <h3 data-ht="Twa Prensip Fondamantal" data-en="Three Fundamental Principles">Twa Prensip Fondamantal</h3>
+                                <p data-ht="Dwa moun se inivèsèl (pou tout moun), inalyenab (pèsonn pa ka pran yo), epi endivizib (yo tout enpòtan menm jan)." data-en="Human rights are universal (for everyone), inalienable (no one can take them), and indivisible (they are all equally important).">Dwa moun se <strong>inivèsèl</strong> (pou tout moun), <strong>inalyenab</strong> (pèsonn pa ka pran yo), epi <strong>endivizib</strong> (yo tout enpòtan menm jan).</p>
+                            </div>
+
+                            <!-- Quiz 1 -->
+                            <div class="quiz-container">
+                                <div class="quiz-header">
+                                    <h3 data-ht="Verifye Konpreyansyon Ou" data-en="Check Your Understanding">Verifye Konpreyansyon Ou</h3>
+                                </div>
+                                <div class="quiz-question">
+                                    <h4 data-ht="Dwa moun depann de ki bagay?" data-en="What do human rights depend on?">Dwa moun depann de ki bagay?</h4>
+                                    <div class="quiz-options">
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q1" value="a">
+                                            <span data-ht="Koulè po ou ak kote ou fèt" data-en="Your skin color and where you were born">Koulè po ou ak kote ou fèt</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q1" value="b">
+                                            <span data-ht="Anyen - yo pou tout moun senpleman paske yo se moun" data-en="Nothing - they are for everyone simply because they are human">Anyen - yo pou tout moun senpleman paske yo se moun</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q1" value="c">
+                                            <span data-ht="Klas sosyal ou ak richès ou" data-en="Your social class and wealth">Klas sosyal ou ak richès ou</span>
+                                        </label>
+                                    </div>
+                                    <div class="quiz-feedback"></div>
+                                </div>
+                                <button class="quiz-submit" onclick="checkQuiz('q1', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Five Categories of Rights -->
+                <div class="accordion-item" data-section="2">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="2. Senk Kategori Dwa" data-en="2. Five Categories of Rights">2. Senk Kategori Dwa</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Konstitisyon Ayiti 1987 garanti dwa nan senk kategori prensipal:" data-en="Haiti's 1987 Constitution guarantees rights in five main categories:">Konstitisyon Ayiti 1987 garanti dwa nan senk kategori prensipal:</p>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="1. Dwa Sivil" data-en="1. Civil Rights">1. Dwa Sivil</h3>
+                                    <p data-ht="Pwoteje libète endividyèl" data-en="Protect individual freedom">Pwoteje libète endividyèl</p>
+                                    <ul>
+                                        <li data-ht="Libète pèsonèl" data-en="Personal freedom">Libète pèsonèl</li>
+                                        <li data-ht="Vi prive" data-en="Privacy">Vi prive</li>
+                                        <li data-ht="Libète ekspresyon" data-en="Freedom of expression">Libète ekspresyon</li>
+                                        <li data-ht="Libète ansanble" data-en="Freedom of assembly">Libète ansanble</li>
+                                        <li data-ht="Libète relijyon" data-en="Freedom of religion">Libète relijyon</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="2. Dwa Politik" data-en="2. Political Rights">2. Dwa Politik</h3>
+                                    <p data-ht="Pèmèt patisipasyon nan gouvènans" data-en="Enable participation in governance">Pèmèt patisipasyon nan gouvènans</p>
+                                    <ul>
+                                        <li data-ht="Dwa pou vote" data-en="Right to vote">Dwa pou vote</li>
+                                        <li data-ht="Dwa pou kandida" data-en="Right to run for office">Dwa pou kandida</li>
+                                        <li data-ht="Libète politik" data-en="Political freedom">Libète politik</li>
+                                        <li data-ht="Fòme pati politik" data-en="Form political parties">Fòme pati politik</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="3. Dwa Ekonomik" data-en="3. Economic Rights">3. Dwa Ekonomik</h3>
+                                    <p data-ht="Konsène travay ak pwopriyete" data-en="Concern work and property">Konsène travay ak pwopriyete</p>
+                                    <ul>
+                                        <li data-ht="Dwa pou travay" data-en="Right to work">Dwa pou travay</li>
+                                        <li data-ht="Salè minimòm" data-en="Minimum wage">Salè minimòm</li>
+                                        <li data-ht="Dwa pou pwopriyete" data-en="Right to property">Dwa pou pwopriyete</li>
+                                        <li data-ht="Fòme sendika" data-en="Form unions">Fòme sendika</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="4. Dwa Sosyal" data-en="4. Social Rights">4. Dwa Sosyal</h3>
+                                    <p data-ht="Konsène edikasyon ak sante" data-en="Concern education and health">Konsène edikasyon ak sante</p>
+                                    <ul>
+                                        <li data-ht="Dwa pou edikasyon" data-en="Right to education">Dwa pou edikasyon</li>
+                                        <li data-ht="Dwa pou sante" data-en="Right to health">Dwa pou sante</li>
+                                        <li data-ht="Sekirite sosyal" data-en="Social security">Sekirite sosyal</li>
+                                        <li data-ht="Lojman" data-en="Housing">Lojman</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="5. Dwa Kiltirèl" data-en="5. Cultural Rights">5. Dwa Kiltirèl</h3>
+                                    <p data-ht="Pwoteje idantite kiltirèl" data-en="Protect cultural identity">Pwoteje idantite kiltirèl</p>
+                                    <ul>
+                                        <li data-ht="Pale lang ou (Kreyòl)" data-en="Speak your language (Creole)">Pale lang ou (Kreyòl)</li>
+                                        <li data-ht="Pratike tradisyon" data-en="Practice traditions">Pratike tradisyon</li>
+                                        <li data-ht="Aksè kiltirèl" data-en="Cultural access">Aksè kiltirèl</li>
+                                        <li data-ht="Pwoteje patrimwàn" data-en="Protect heritage">Pwoteje patrimwàn</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 3: Civil Rights -->
+                <div class="accordion-item" data-section="3">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="3. Dwa Sivil: Libète Ou" data-en="3. Civil Rights: Your Freedom">3. Dwa Sivil: Libète Ou</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="article-quote">
+                                <strong data-ht="Atik 24 - Libète Pèsonèl:" data-en="Article 24 - Personal Freedom:">Atik 24 - Libète Pèsonèl:</strong><br>
+                                <span data-ht="'Libète endividyèl garanti epi pwoteje pa Leta.'" data-en="'Individual freedom is guaranteed and protected by the State.'">"Libète endividyèl garanti epi pwoteje pa Leta."</span>
+                            </div>
+                            <ul>
+                                <li data-ht="Pèsonn pa ka arete ou san prèv" data-en="No one can arrest you without evidence">Pèsonn pa ka arete ou san prèv</li>
+                                <li data-ht="Si yo arete ou, ou gen dwa konnen poukisa" data-en="If arrested, you have the right to know why">Si yo arete ou, ou gen dwa konnen poukisa</li>
+                                <li data-ht="Ou gen dwa jwenn yon avoka" data-en="You have the right to get a lawyer">Ou gen dwa jwenn yon avoka</li>
+                                <li data-ht="Ou pa kapab rete nan prizon san jijman" data-en="You cannot stay in prison without trial">Ou pa kapab rete nan prizon san jijman</li>
+                            </ul>
+
+                            <div class="article-quote">
+                                <strong data-ht="Atik 27 - Vi Prive:" data-en="Article 27 - Privacy:">Atik 27 - Vi Prive:</strong><br>
+                                <span data-ht="'Dòmisil moun sakre. Li pa ka vjole anba okenn pretèks.'" data-en="'The domicile is sacred. It cannot be violated under any pretext.'">"Dòmisil moun sakre. Li pa ka vjole anba okenn pretèks."</span>
+                            </div>
+                            <ul>
+                                <li data-ht="Lapolis pa ka fouye lakay ou san manda tribinal" data-en="Police cannot search your home without court warrant">Lapolis pa ka fouye lakay ou san manda tribinal</li>
+                                <li data-ht="Vi prive ou pwoteje" data-en="Your privacy is protected">Vi prive ou pwoteje</li>
+                                <li data-ht="Korespondans ou pa ka entèsepte ilegalman" data-en="Your correspondence cannot be illegally intercepted">Korespondans ou pa ka entèsepte ilegalman</li>
+                            </ul>
+
+                            <div class="article-quote">
+                                <strong data-ht="Atik 28 - Libète Ekspresyon:" data-en="Article 28 - Freedom of Expression:">Atik 28 - Libète Ekspresyon:</strong><br>
+                                <span data-ht="'Tout Ayisyen gen dwa pou eksprimen lide yo libilman nan tout domèn pa tout mwayen yo chwazi.'" data-en="'All Haitians have the right to express their ideas freely in all areas by all means they choose.'">"Tout Ayisyen gen dwa pou eksprimen lide yo libilman nan tout domèn pa tout mwayen yo chwazi."</span>
+                            </div>
+
+                            <div class="highlight-box">
+                                <h3 data-ht="Sa Vle Di:" data-en="This Means:">Sa Vle Di:</h3>
+                                <p data-ht="Ou ka pale sou sa ou panse, ekri lide ou, kritike gouvènman san pè. Laprès lib - pa gen sansou." data-en="You can speak your mind, write your ideas, criticize government without fear. Press is free - no censorship.">Ou ka pale sou sa ou panse, ekri lide ou, kritike gouvènman san pè. Laprès lib - pa gen sansou.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4: Political & Economic Rights -->
+                <div class="accordion-item" data-section="4">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="4. Dwa Politik ak Ekonomik" data-en="4. Political & Economic Rights">4. Dwa Politik ak Ekonomik</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Dwa Politik" data-en="Political Rights">Dwa Politik</h3>
+                            <div class="article-quote">
+                                <strong data-ht="Atik 52 - Dwa pou Vote:" data-en="Article 52 - Right to Vote:">Atik 52 - Dwa pou Vote:</strong><br>
+                                <span data-ht="'Tout sitwayen ki gen dizuit (18) lane akonpli epi ki jwi dwa sivil ak politik yo gen dwa pou vote.'" data-en="'All citizens who are eighteen (18) years of age and who enjoy civil and political rights have the right to vote.'">"Tout sitwayen ki gen dizuit (18) lane akonpli epi ki jwi dwa sivil ak politik yo gen dwa pou vote."</span>
+                            </div>
+                            <ul>
+                                <li data-ht="Vote pou chwazi lidè ou" data-en="Vote to choose your leaders">Vote pou chwazi lidè ou</li>
+                                <li data-ht="Kandida pou pozisyon elektif" data-en="Run for elective office">Kandida pou pozisyon elektif</li>
+                                <li data-ht="Patisipe nan refèrandòm" data-en="Participate in referendums">Patisipe nan refèrandòm</li>
+                                <li data-ht="Fòme oswa jwenn pati politik" data-en="Form or join political parties">Fòme oswa jwenn pati politik</li>
+                            </ul>
+
+                            <h3 data-ht="Dwa Ekonomik" data-en="Economic Rights">Dwa Ekonomik</h3>
+                            <div class="article-quote">
+                                <strong data-ht="Atik 35 - Dwa pou Travay:" data-en="Article 35 - Right to Work:">Atik 35 - Dwa pou Travay:</strong><br>
+                                <span data-ht="'Leta rkonèt dwa tout sitwayen genyen nan yon travay.'" data-en="'The State recognizes the right of all citizens to work.'">"Leta rkonèt dwa tout sitwayen genyen nan yon travay."</span>
+                            </div>
+                            <ul>
+                                <li data-ht="Dwa pou travay san diskriminasyon" data-en="Right to work without discrimination">Dwa pou travay san diskriminasyon</li>
+                                <li data-ht="Dwa pou salè jis" data-en="Right to fair wages">Dwa pou salè jis</li>
+                                <li data-ht="Dwa pou kondisyon travay ki an sekirite" data-en="Right to safe working conditions">Dwa pou kondisyon travay ki an sekirite</li>
+                                <li data-ht="Dwa pou fòme sendika" data-en="Right to form unions">Dwa pou fòme sendika</li>
+                            </ul>
+
+                            <div class="article-quote">
+                                <strong data-ht="Atik 36 - Dwa pou Pwopriyete:" data-en="Article 36 - Right to Property:">Atik 36 - Dwa pou Pwopriyete:</strong><br>
+                                <span data-ht="'Sèlman Ayisyen ak sosyete ayisyen kapab posede pwopriyete ann Ayiti.'" data-en="'Only Haitians and Haitian companies can own property in Haiti.'">"Sèlman Ayisyen ak sosyete ayisyen kapab posede pwopriyete ann Ayiti."</span>
+                            </div>
+
+                            <!-- Quiz 2 -->
+                            <div class="quiz-container">
+                                <div class="quiz-header">
+                                    <h3 data-ht="Verifye Konpreyansyon Ou" data-en="Check Your Understanding">Verifye Konpreyansyon Ou</h3>
+                                </div>
+                                <div class="quiz-question">
+                                    <h4 data-ht="Kilès ki ka achte tè ann Ayiti?" data-en="Who can buy land in Haiti?">Kilès ki ka achte tè ann Ayiti?</h4>
+                                    <div class="quiz-options">
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q2" value="a">
+                                            <span data-ht="Nenpòt moun ki genyen lajan" data-en="Anyone who has money">Nenpòt moun ki genyen lajan</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q2" value="b">
+                                            <span data-ht="Sèlman Ayisyen ak sosyete ayisyen" data-en="Only Haitians and Haitian companies">Sèlman Ayisyen ak sosyete ayisyen</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q2" value="c">
+                                            <span data-ht="Etranje ak Ayisyen" data-en="Foreigners and Haitians">Etranje ak Ayisyen</span>
+                                        </label>
+                                    </div>
+                                    <div class="quiz-feedback"></div>
+                                </div>
+                                <button class="quiz-submit" onclick="checkQuiz('q2', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 5: Social & Cultural Rights -->
+                <div class="accordion-item" data-section="5">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="5. Dwa Sosyal ak Kiltirèl" data-en="5. Social & Cultural Rights">5. Dwa Sosyal ak Kiltirèl</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Dwa Sosyal" data-en="Social Rights">Dwa Sosyal</h3>
+                            <div class="article-quote">
+                                <strong data-ht="Atik 32 - Dwa pou Edikasyon:" data-en="Article 32 - Right to Education:">Atik 32 - Dwa pou Edikasyon:</strong><br>
+                                <span data-ht="'Leta garanti dwa edikasyon. Li veye sou edikasyon fizik, entèlèktyèl, moral, pwofesyonèl, sosyal ak sivik popilasyon an.'" data-en="'The State guarantees the right to education. It oversees the physical, intellectual, moral, professional, social, and civic education of the population.'">"Leta garanti dwa edikasyon. Li veye sou edikasyon fizik, entèlèktyèl, moral, pwofesyonèl, sosyal ak sivik popilasyon an."</span>
+                            </div>
+                            <ul>
+                                <li data-ht="Tout timoun gen dwa pou ale lekòl" data-en="All children have the right to go to school">Tout timoun gen dwa pou ale lekòl</li>
+                                <li data-ht="Edikasyon debaz dwe gratis ak obligatwa" data-en="Basic education must be free and mandatory">Edikasyon debaz dwe gratis ak obligatwa</li>
+                                <li data-ht="Leta dwe kreye lekòl piblik" data-en="State must create public schools">Leta dwe kreye lekòl piblik</li>
+                            </ul>
+
+                            <div class="article-quote">
+                                <strong data-ht="Atik 19 - Dwa pou Sante:" data-en="Article 19 - Right to Health:">Atik 19 - Dwa pou Sante:</strong><br>
+                                <span data-ht="'Leta gen obligasyon pou garanti dwa pou sante pou tout sitwayen.'" data-en="'The State has an obligation to guarantee the right to health for all citizens.'">"Leta gen obligasyon pou garanti dwa pou sante pou tout sitwayen."</span>
+                            </div>
+
+                            <h3 data-ht="Dwa Kiltirèl" data-en="Cultural Rights">Dwa Kiltirèl</h3>
+                            <div class="article-quote">
+                                <strong data-ht="Atik 5 - Lang Ofisyèl:" data-en="Article 5 - Official Languages:">Atik 5 - Lang Ofisyèl:</strong><br>
+                                <span data-ht="'Kreyòl ak Franse se lang ofisyèl Repiblik la.'" data-en="'Creole and French are the official languages of the Republic.'">"Kreyòl ak Franse se lang ofisyèl Repiblik la."</span>
+                            </div>
+
+                            <div class="highlight-box">
+                                <h3 data-ht="Viktwa Istorik" data-en="Historic Victory">Viktwa Istorik</h3>
+                                <p data-ht="Pou premye fwa nan istwa Ayiti, Kreyòl - lang majorite pèp la pale - rkonèt kòm lang ofisyèl egalego ak Franse." data-en="For the first time in Haiti's history, Creole - the language the majority speaks - is recognized as an official language equal to French.">Pou premye fwa nan istwa Ayiti, Kreyòl - lang majorite pèp la pale - rkonèt kòm lang ofisyèl egalego ak Franse.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 6: Rights Violations -->
+                <div class="accordion-item" data-section="6">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="6. Vyolasyon Dwa ann Ayiti" data-en="6. Rights Violations in Haiti">6. Vyolasyon Dwa ann Ayiti</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Dwa garanti sou papye, men aplikasyon yo limite. Jounen jodi a, Ayiti nan yon kriz dwa moun:" data-en="Rights are guaranteed on paper, but their implementation is limited. Today, Haiti is in a human rights crisis:">Dwa garanti sou papye, men aplikasyon yo limite. Jounen jodi a, Ayiti nan yon kriz dwa moun:</p>
+
+                            <div class="challenge-card">
+                                <h4 data-ht="Ensèkirite ak Vyolans Gang" data-en="Insecurity and Gang Violence">Ensèkirite ak Vyolans Gang</h4>
+                                <p data-ht="Gang ame kontwole gwo pati tèritwa Ayiti, espesyalman nan Pòtoprens:" data-en="Armed gangs control large parts of Haiti, especially in Port-au-Prince:">Gang ame kontwole gwo pati tèritwa Ayiti, espesyalman nan Pòtoprens:</p>
+                                <ul>
+                                    <li data-ht="Plis pase 5,000 moun touye chak ane pa vyolans gang" data-en="Over 5,000 people killed each year by gang violence">Plis pase 5,000 moun touye chak ane pa vyolans gang</li>
+                                    <li data-ht="Moun pa ka vwayaje lib akoz blokaj" data-en="People cannot travel freely due to blockades">Moun pa ka vwayaje lib akoz blokaj</li>
+                                    <li data-ht="Gang fòse moun kite kay yo" data-en="Gangs force people to leave their homes">Gang fòse moun kite kay yo</li>
+                                    <li data-ht="Plis pase 900 lekòl fèmen akoz ensèkirite" data-en="Over 900 schools closed due to insecurity">Plis pase 900 lekòl fèmen akoz ensèkirite</li>
+                                </ul>
+                            </div>
+
+                            <div class="challenge-card">
+                                <h4 data-ht="Vyolans sou Fanm" data-en="Violence Against Women">Vyolans sou Fanm</h4>
+                                <p data-ht="Vyòl ak vyolans seksyèl tounen zam lagè:" data-en="Rape and sexual violence have become weapons of war:">Vyòl ak vyolans seksyèl tounen zam lagè:</p>
+                                <ul>
+                                    <li data-ht="Milye ka vyòl chak ane" data-en="Thousands of rape cases each year">Milye ka vyòl chak ane</li>
+                                    <li data-ht="Fanm ka pa ale travay oswa lekòl akoz pè" data-en="Women cannot go to work or school due to fear">Fanm ka pa ale travay oswa lekòl akoz pè</li>
+                                    <li data-ht="Jistis pa disponib pou viktim yo" data-en="Justice not available for victims">Jistis pa disponib pou viktim yo</li>
+                                    <li data-ht="Enpinite generalize" data-en="Generalized impunity">Enpinite generalize</li>
+                                </ul>
+                            </div>
+
+                            <div class="challenge-card">
+                                <h4 data-ht="Sistèm Jistis Fèb" data-en="Weak Justice System">Sistèm Jistis Fèb</h4>
+                                <ul>
+                                    <li data-ht="75% prizonye pa gen jijman - yo rete lane nan prizon san kondanasyon" data-en="75% of prisoners have no trial - they stay years without conviction">75% prizonye pa gen jijman - yo rete lane nan prizon san kondanasyon</li>
+                                    <li data-ht="Moun pòv pa ka peye avoka" data-en="Poor people cannot afford lawyers">Moun pòv pa ka peye avoka</li>
+                                    <li data-ht="Tribinal koronpi" data-en="Corrupt courts">Tribinal koronpi</li>
+                                    <li data-ht="Kriminèl pa pini, viktim pa jwenn jistis" data-en="Criminals not punished, victims don't get justice">Kriminèl pa pini, viktim pa jwenn jistis</li>
+                                </ul>
+                            </div>
+
+                            <div class="challenge-card">
+                                <h4 data-ht="Dwa Ekonomik Neglije" data-en="Economic Rights Neglected">Dwa Ekonomik Neglije</h4>
+                                <ul>
+                                    <li data-ht="50% timoun pa ale lekòl" data-en="50% of children don't go to school">50% timoun pa ale lekòl</li>
+                                    <li data-ht="Lopital pa fonksyone, medikaman pa disponib" data-en="Hospitals don't function, medications not available">Lopital pa fonksyone, medikaman pa disponib</li>
+                                    <li data-ht="Chomaj osnon 60%" data-en="Unemployment around 60%">Chomaj osnon 60%</li>
+                                    <li data-ht="Milyon moun viv nan kay prejil" data-en="Millions live in precarious houses">Milyon moun viv nan kay prejil</li>
+                                </ul>
+                            </div>
+
+                            <!-- Quiz 3 -->
+                            <div class="quiz-container">
+                                <div class="quiz-header">
+                                    <h3 data-ht="Verifye Konpreyansyon Ou" data-en="Check Your Understanding">Verifye Konpreyansyon Ou</h3>
+                                </div>
+                                <div class="quiz-question">
+                                    <h4 data-ht="Poukisa anpil moun pa jwenn jistis ann Ayiti?" data-en="Why don't many people get justice in Haiti?">Poukisa anpil moun pa jwenn jistis ann Ayiti?</h4>
+                                    <div class="quiz-options">
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q3" value="a">
+                                            <span data-ht="Sistèm jistis la fonksyone byen" data-en="The justice system works well">Sistèm jistis la fonksyone byen</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q3" value="b">
+                                            <span data-ht="Sistèm jistis la fèb, koronpi, ak 75% prizonye pa gen jijman" data-en="The justice system is weak, corrupt, and 75% of prisoners have no trial">Sistèm jistis la fèb, koronpi, ak 75% prizonye pa gen jijman</span>
+                                        </label>
+                                        <label class="quiz-option">
+                                            <input type="radio" name="q3" value="c">
+                                            <span data-ht="Tout moun gen aksè a avoka gratis" data-en="Everyone has access to free lawyers">Tout moun gen aksè a avoka gratis</span>
+                                        </label>
+                                    </div>
+                                    <div class="quiz-feedback"></div>
+                                </div>
+                                <button class="quiz-submit" onclick="checkQuiz('q3', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 7: Protection Mechanisms -->
+                <div class="accordion-item" data-section="7">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="7. Mekanis Pwoteksyon Dwa" data-en="7. Rights Protection Mechanisms">7. Mekanis Pwoteksyon Dwa</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Enstitisyon Nasyonal" data-en="National Institutions">Enstitisyon Nasyonal</h3>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Ofis Pwoteksyon Sitwayen (OPC)" data-en="Office of Citizen Protection (OPC)">Ofis Pwoteksyon Sitwayen (OPC)</h3>
+                                    <ul>
+                                        <li data-ht="Resevwa plent sou vyolasyon dwa" data-en="Receive complaints about rights violations">Resevwa plent sou vyolasyon dwa</li>
+                                        <li data-ht="Fè ankèt ak rekòmandasyon" data-en="Conduct investigations and recommendations">Fè ankèt ak rekòmandasyon</li>
+                                        <li data-ht="Men, manke finansman ak pouvwa" data-en="But lacks funding and power">Men, manke finansman ak pouvwa</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Tribinal yo" data-en="Courts">Tribinal yo</h3>
+                                    <ul>
+                                        <li data-ht="Gen responsabilite pou pwoteje dwa" data-en="Have responsibility to protect rights">Gen responsabilite pou pwoteje dwa</li>
+                                        <li data-ht="Men, koronpi ak enflianse pa politik" data-en="But corrupt and politically influenced">Men, koronpi ak enflianse pa politik</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h3 data-ht="Sosyete Sivil" data-en="Civil Society">Sosyete Sivil</h3>
+                            <p data-ht="Òganizasyon ki travay pou defann dwa:" data-en="Organizations working to defend rights:">Òganizasyon ki travay pou defann dwa:</p>
+                            <ul>
+                                <li><strong>RNDDH</strong> - <span data-ht="Rezo Nasyonal Defans Dwa Moun ann Ayiti" data-en="National Network for Defense of Human Rights in Haiti">Rezo Nasyonal Defans Dwa Moun ann Ayiti</span></li>
+                                <li><strong>FONHDILAC</strong> - <span data-ht="Fondasyon Ayisyen pou Defans Libète" data-en="Haitian Foundation for Defense of Freedom">Fondasyon Ayisyen pou Defans Libète</span></li>
+                                <li><strong>IJDH</strong> - Institute for Justice & Democracy in Haiti</li>
+                                <li><strong>BAI</strong> - Bureau des Avocats Internationaux</li>
+                            </ul>
+
+                            <h3 data-ht="Entènasyonal" data-en="International">Entènasyonal</h3>
+                            <ul>
+                                <li>UN Human Rights</li>
+                                <li><span data-ht="Komisyon Entèamerikèn Dwa Moun (OAS)" data-en="Inter-American Commission on Human Rights (OAS)">Komisyon Entèamerikèn Dwa Moun (OAS)</span></li>
+                                <li>Amnesty International</li>
+                                <li>Human Rights Watch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 8: How to Defend Your Rights -->
+                <div class="accordion-item" data-section="8">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="8. Kijan Defann Dwa Ou" data-en="8. How to Defend Your Rights">8. Kijan Defann Dwa Ou</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Senk aksyon ou ka pran pou defann dwa ou:" data-en="Five actions you can take to defend your rights:">Senk aksyon ou ka pran pou defann dwa ou:</p>
+
+                            <div class="action-step">
+                                <h4 data-ht="1. Konnen Dwa Ou" data-en="1. Know Your Rights">1. Konnen Dwa Ou</h4>
+                                <ul>
+                                    <li data-ht="Li Konstitisyon an, espesyalman Tit III" data-en="Read the Constitution, especially Title III">Li Konstitisyon an, espesyalman Tit III</li>
+                                    <li data-ht="Aprann ki dwa ou genyen" data-en="Learn what rights you have">Aprann ki dwa ou genyen</li>
+                                    <li data-ht="Konprann ki limit gouvènman genyen" data-en="Understand what limits government has">Konprann ki limit gouvènman genyen</li>
+                                </ul>
+                            </div>
+
+                            <div class="action-step">
+                                <h4 data-ht="2. Dokimante Vyolasyon" data-en="2. Document Violations">2. Dokimante Vyolasyon</h4>
+                                <ul>
+                                    <li data-ht="Si dwa ou vyole, ekri tout detay" data-en="If your rights are violated, write all details">Si dwa ou vyole, ekri tout detay</li>
+                                    <li data-ht="Pran foto si posib" data-en="Take photos if possible">Pran foto si posib</li>
+                                    <li data-ht="Jwenn temwen" data-en="Get witnesses">Jwenn temwen</li>
+                                    <li data-ht="Kenbe prèv" data-en="Keep evidence">Kenbe prèv</li>
+                                </ul>
+                            </div>
+
+                            <div class="action-step">
+                                <h4 data-ht="3. Rapòte" data-en="3. Report">3. Rapòte</h4>
+                                <ul>
+                                    <li data-ht="Plede ka a nan Ofis Pwoteksyon Sitwayen" data-en="File case at Office of Citizen Protection">Plede ka a nan Ofis Pwoteksyon Sitwayen</li>
+                                    <li data-ht="Kontakte òganizasyon dwa moun" data-en="Contact human rights organizations">Kontakte òganizasyon dwa moun</li>
+                                    <li data-ht="Enfòme medya si apwopriye" data-en="Inform media if appropriate">Enfòme medya si apwopriye</li>
+                                </ul>
+                            </div>
+
+                            <div class="action-step">
+                                <h4 data-ht="4. Òganize" data-en="4. Organize">4. Òganize</h4>
+                                <ul>
+                                    <li data-ht="Jwenn gwoup kominotè ki defann dwa" data-en="Join community groups that defend rights">Jwenn gwoup kominotè ki defann dwa</li>
+                                    <li data-ht="Kreye kolektif pou defann dwa nan katye ou" data-en="Create collectives to defend rights in your neighborhood">Kreye kolektif pou defann dwa nan katye ou</li>
+                                    <li data-ht="Itilize fòs kolektif pou mande jistis" data-en="Use collective strength to demand justice">Itilize fòs kolektif pou mande jistis</li>
+                                </ul>
+                            </div>
+
+                            <div class="action-step">
+                                <h4 data-ht="5. Egzije Chanjman" data-en="5. Demand Change">5. Egzije Chanjman</h4>
+                                <ul>
+                                    <li data-ht="Vote pou kandida ki respekte dwa moun" data-en="Vote for candidates who respect human rights">Vote pou kandida ki respekte dwa moun</li>
+                                    <li data-ht="Patisipe nan manifestasyon pezib" data-en="Participate in peaceful demonstrations">Patisipe nan manifestasyon pezib</li>
+                                    <li data-ht="Mande lidè yo rann kont" data-en="Hold leaders accountable">Mande lidè yo rann kont</li>
+                                    <li data-ht="Sipòte refòm jistis ak sekirite" data-en="Support justice and security reform">Sipòte refòm jistis ak sekirite</li>
+                                </ul>
+                            </div>
+
+                            <div class="highlight-box">
+                                <h3 data-ht="Sonje" data-en="Remember">Sonje</h3>
+                                <p data-ht="Dwa se pa kado - se batay. Nou dwe lite chak jou pou kenbe yo ak avanse yo." data-en="Rights are not a gift - they are a struggle. We must fight every day to keep them and advance them.">Dwa se pa kado - se batay. Nou dwe lite chak jou pou kenbe yo ak avanse yo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 9: Special Rights: Children & Women -->
+                <div class="accordion-item" data-section="9">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="9. Dwa Espesyal: Timoun ak Fanm" data-en="9. Special Rights: Children & Women">9. Dwa Espesyal: Timoun ak Fanm</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Dwa Timoun" data-en="Children's Rights">Dwa Timoun</h3>
+                            <div class="article-quote">
+                                <strong data-ht="Atik 260 - Pwoteksyon Timoun:" data-en="Article 260 - Child Protection:">Atik 260 - Pwoteksyon Timoun:</strong>
+                                <ul>
+                                    <li data-ht="Dwa pou non, nasyonalite, edikasyon gratis" data-en="Right to name, nationality, free education">Dwa pou non, nasyonalite, edikasyon gratis</li>
+                                    <li data-ht="Pwoteksyon kont esplwatasyon" data-en="Protection against exploitation">Pwoteksyon kont esplwatasyon</li>
+                                    <li data-ht="Pwoteksyon kont maltrètans" data-en="Protection against mistreatment">Pwoteksyon kont maltrètans</li>
+                                    <li data-ht="Aksè a swen lasante" data-en="Access to healthcare">Aksè a swen lasante</li>
+                                </ul>
+                            </div>
+
+                            <p data-ht="Pwoblèm Reyèl:" data-en="Real Problems:"><strong data-ht="Pwoblèm Reyèl:" data-en="Real Problems:">Pwoblèm Reyèl:</strong></p>
+                            <ul>
+                                <li data-ht="300,000 timoun nan sistèm restavèk (esklavaj domestik)" data-en="300,000 children in restavèk system (domestic slavery)">300,000 timoun nan sistèm restavèk (esklavaj domestik)</li>
+                                <li data-ht="Milye timoun pa gen sètifika nesans" data-en="Thousands of children have no birth certificate">Milye timoun pa gen sètifika nesans</li>
+                                <li data-ht="Abiz seksyèl kont timoun gen gwo nivo" data-en="Sexual abuse against children at high levels">Abiz seksyèl kont timoun gen gwo nivo</li>
+                                <li data-ht="Timoun rekrite pa gang ame" data-en="Children recruited by armed gangs">Timoun rekrite pa gang ame</li>
+                            </ul>
+
+                            <h3 data-ht="Dwa Fanm" data-en="Women's Rights">Dwa Fanm</h3>
+                            <div class="article-quote">
+                                <strong data-ht="Atik 17 - Egalite Sèks:" data-en="Article 17 - Sex Equality:">Atik 17 - Egalite Sèks:</strong><br>
+                                <span data-ht="'Fanm ak gason gen menm dwa epi menm obligasyon nan tout domèn.'" data-en="'Women and men have the same rights and the same obligations in all areas.'">"Fanm ak gason gen menm dwa epi menm obligasyon nan tout domèn."</span>
+                            </div>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Dwa Legal" data-en="Legal Rights">Dwa Legal</h3>
+                                    <ul>
+                                        <li data-ht="Dwa pou vote (depi 1950)" data-en="Right to vote (since 1950)">Dwa pou vote (depi 1950)</li>
+                                        <li data-ht="Dwa pou travay san diskriminasyon" data-en="Right to work without discrimination">Dwa pou travay san diskriminasyon</li>
+                                        <li data-ht="Dwa pou pwopriyete" data-en="Right to property">Dwa pou pwopriyete</li>
+                                        <li data-ht="Dwa pou kandida" data-en="Right to run for office">Dwa pou kandida</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Defi Reyèl" data-en="Real Challenges">Defi Reyèl</h3>
+                                    <ul>
+                                        <li data-ht="Vyòl sistematik kòm zam lagè" data-en="Systematic rape as weapon of war">Vyòl sistematik kòm zam lagè</li>
+                                        <li data-ht="Vyolans domestik gen gwo nivo" data-en="Domestic violence at high levels">Vyolans domestik gen gwo nivo</li>
+                                        <li data-ht="Mwens pase 5% palman" data-en="Less than 5% of parliament">Mwens pase 5% palman</li>
+                                        <li data-ht="Ekati salè" data-en="Wage gap">Ekati salè</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 10: References -->
+                <div class="accordion-item" data-section="10">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span data-ht="10. Referans" data-en="10. References">10. Referans</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank" data-ht="Konstitisyon Ayiti 1987 (Constitute Project)" data-en="Haiti Constitution 1987 (Constitute Project)">Konstitisyon Ayiti 1987 (Constitute Project)</a></li>
+                                <li><a href="http://hum.umn.edu/humanrts/research/haiti-constitution2.html" target="_blank" data-ht="Dwa Moun nan Konstitisyon Ayiti (University of Minnesota)" data-en="Human Rights in Haiti Constitution (University of Minnesota)">Dwa Moun nan Konstitisyon Ayiti (University of Minnesota)</a></li>
+                                <li><a href="https://www.ohchr.org/en/countries/haiti" target="_blank">UN Human Rights: Haiti</a></li>
+                                <li><a href="https://www.amnesty.org/en/location/americas/central-america-and-the-caribbean/haiti/" target="_blank">Amnesty International: Haiti</a></li>
+                                <li><a href="https://www.hrw.org/americas/haiti" target="_blank">Human Rights Watch: Haiti</a></li>
+                                <li><a href="https://www.ijdh.org/" target="_blank">Institute for Justice & Democracy in Haiti</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Completion Badge -->
+            <div class="completion-badge" id="completionBadge">
+                <h3 data-ht="Felisitasyon!" data-en="Congratulations!">Felisitasyon!</h3>
+                <p data-ht="Ou fini aprann sou dwa ou. Kounye a defann yo!" data-en="You've completed learning about your rights. Now defend them!">Ou fini aprann sou dwa ou. Kounye a defann yo!</p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="nav-section">
+                <a href="constitution.html" class="nav-link" data-ht="← Konstitisyon" data-en="← Constitution">← Konstitisyon</a>
+                <a href="corruption.html" class="nav-link" data-ht="Koripsyon →" data-en="Corruption →">Koripsyon →</a>
             </div>
         </div>
     </section>
@@ -806,5 +1007,86 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Accordion functionality
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            const isActive = header.classList.contains('active');
+
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+
+            updateProgress();
+        }
+
+        // Quiz functionality
+        function checkQuiz(questionName, correctAnswer, button) {
+            const selectedOption = document.querySelector(`input[name="${questionName}"]:checked`);
+
+            if (!selectedOption) {
+                alert('Tanpri chwazi yon repons / Please select an answer');
+                return;
+            }
+
+            const options = document.querySelectorAll(`input[name="${questionName}"]`);
+            const feedback = button.previousElementSibling;
+            const lang = document.documentElement.lang;
+
+            // Disable all options
+            options.forEach(option => {
+                option.disabled = true;
+                const label = option.closest('.quiz-option');
+                if (option.value === correctAnswer) {
+                    label.classList.add('correct');
+                } else if (option.checked) {
+                    label.classList.add('incorrect');
+                }
+            });
+
+            // Show feedback
+            feedback.classList.add('show');
+            if (selectedOption.value === correctAnswer) {
+                feedback.classList.add('correct');
+                feedback.textContent = lang === 'ht' ? 'Kòrèk! Bon travay!' : 'Correct! Great job!';
+            } else {
+                feedback.classList.add('incorrect');
+                feedback.textContent = lang === 'ht' ? 'Pa kòrèk. Eseye ankò.' : 'Incorrect. Try again.';
+            }
+
+            // Disable button
+            button.disabled = true;
+            button.style.opacity = '0.5';
+
+            updateProgress();
+        }
+
+        // Progress tracking
+        function updateProgress() {
+            const totalSections = 10;
+            const openedSections = document.querySelectorAll('.accordion-header.active').length;
+            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
+
+            // Calculate progress: 10% per section opened + 3% per quiz answered
+            const progress = Math.min(100, (openedSections * 10) + (answeredQuizzes * 3));
+
+            const progressFill = document.getElementById('progressFill');
+            const progressText = document.getElementById('progressText');
+            const completionBadge = document.getElementById('completionBadge');
+            const lang = document.documentElement.lang;
+
+            progressFill.style.width = progress + '%';
+            progressText.textContent = lang === 'ht' ? `Pwogrè: ${progress}%` : `Progress: ${progress}%`;
+
+            // Show completion badge at 100%
+            if (progress === 100) {
+                completionBadge.classList.add('show');
+            }
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateProgress();
+        });
+    </script>
 </body>
 </html>
