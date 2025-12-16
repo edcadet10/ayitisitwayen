@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diksyonè Politik - Ayiti Sitwayen</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .glossary-header {
+            margin-bottom: 2rem;
+        }
+
+        .search-container {
+            margin: 2rem 0;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            border: 2px solid var(--gray-300);
+            font-family: 'Inter', sans-serif;
+            transition: border-color 0.2s ease;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: var(--black);
+        }
+
+        .filter-container {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--black);
+        }
+
+        .filter-btn.active {
+            background: var(--black);
+            color: white;
+            border-color: var(--black);
+        }
+
+        .alphabet-nav {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .alphabet-btn {
+            width: 2.5rem;
+            height: 2.5rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .alphabet-btn:hover {
+            background: var(--gray-100);
+            border-color: var(--black);
+        }
+
+        .alphabet-btn.active {
+            background: var(--black);
+            color: white;
+        }
+
+        .glossary-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .glossary-item {
+            border: 1px solid var(--gray-300);
+            background: white;
+            transition: all 0.2s ease;
+        }
+
+        .glossary-item.hidden {
+            display: none;
+        }
+
+        .glossary-header-item {
+            padding: 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            user-select: none;
+        }
+
+        .glossary-header-item:hover {
+            background: var(--gray-50);
+        }
+
+        .glossary-term {
+            flex: 1;
+        }
+
+        .glossary-term h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            color: var(--black);
+        }
+
+        .glossary-category {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: var(--gray-100);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 0.5rem;
+        }
+
+        .glossary-icon {
+            font-size: 1.5rem;
+            color: var(--gray-600);
+            transition: transform 0.3s ease;
+        }
+
+        .glossary-item.active .glossary-icon {
+            transform: rotate(180deg);
+        }
+
+        .glossary-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .glossary-item.active .glossary-content {
+            max-height: 1000px;
+        }
+
+        .glossary-body {
+            padding: 0 1.25rem 1.25rem 1.25rem;
+        }
+
+        .definition-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .definition-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .definition-lang {
+            font-weight: 600;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--gray-600);
+            margin-bottom: 0.5rem;
+        }
+
+        .definition-text {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--gray-800);
+        }
+
+        .related-terms {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .related-terms-title {
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+            color: var(--gray-700);
+        }
+
+        .related-links {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .related-link {
+            padding: 0.25rem 0.75rem;
+            background: var(--gray-100);
+            color: var(--black);
+            text-decoration: none;
+            font-size: 0.875rem;
+            transition: background 0.2s ease;
+        }
+
+        .related-link:hover {
+            background: var(--gray-200);
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: var(--gray-600);
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+            background: var(--gray-50);
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--black);
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            margin-top: 0.25rem;
+        }
+
+        @media (max-width: 768px) {
+            .alphabet-nav {
+                gap: 0.25rem;
+            }
+
+            .alphabet-btn {
+                width: 2rem;
+                height: 2rem;
+                font-size: 0.875rem;
+            }
+
+            .glossary-term h3 {
+                font-size: 1.125rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html"><img src="logo.png" alt="Ayiti Sitwayen" class="logo"></a>
+            </div>
+            <div class="nav-links">
+                <a href="education.html">Edikasyon</a>
+                <a href="index.html#about">Konsènan</a>
+                <a href="index.html#mission">Misyon</a>
+                <a href="index.html#contact">Kontak</a>
+                <a href="#" class="lang-switch" onclick="toggleLanguage()">EN</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="legal-page">
+        <div class="container">
+            <div class="glossary-header">
+                <h1 class="page-title" data-ht="Diksyonè Politik ak Legal" data-en="Political and Legal Dictionary">Diksyonè Politik ak Legal</h1>
+                <p class="legal-date" data-ht="Tèm ak definisyon nan Kreyòl, Franse, ak Angle" data-en="Terms and definitions in Creole, French, and English">Tèm ak definisyon nan Kreyòl, Franse, ak Angle</p>
+            </div>
+
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalTerms">150+</div>
+                    <div class="stat-label" data-ht="Tèm" data-en="Terms">Tèm</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label" data-ht="Lang" data-en="Languages">Lang</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label" data-ht="Kategori" data-en="Categories">Kategori</div>
+                </div>
+            </div>
+
+            <div class="search-container">
+                <input type="text"
+                       class="search-box"
+                       id="searchBox"
+                       placeholder="Chèche yon tèm... / Search for a term..."
+                       data-ht="Chèche yon tèm..."
+                       data-en="Search for a term...">
+            </div>
+
+            <div class="filter-container">
+                <button class="filter-btn active" data-category="all" data-ht="Tout" data-en="All">Tout</button>
+                <button class="filter-btn" data-category="political" data-ht="Politik" data-en="Political">Politik</button>
+                <button class="filter-btn" data-category="legal" data-ht="Legal" data-en="Legal">Legal</button>
+                <button class="filter-btn" data-category="institution" data-ht="Enstitisyon" data-en="Institution">Enstitisyon</button>
+                <button class="filter-btn" data-category="organization" data-ht="Òganizasyon" data-en="Organization">Òganizasyon</button>
+                <button class="filter-btn" data-category="concept" data-ht="Konsèp" data-en="Concept">Konsèp</button>
+                <button class="filter-btn" data-category="acronym" data-ht="Akwonim" data-en="Acronym">Akwonim</button>
+            </div>
+
+            <div class="alphabet-nav" id="alphabetNav"></div>
+
+            <div class="glossary-grid" id="glossaryGrid"></div>
+
+            <div class="no-results hidden" id="noResults">
+                <p data-ht="Pa gen rezilta. Eseye yon lòt tèm." data-en="No results found. Try another term.">Pa gen rezilta. Eseye yon lòt tèm.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ayiti Sitwayen. <span data-ht="Tout dwa rezève" data-en="All rights reserved">Tout dwa rezève</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        const glossaryData = [
+            // A
+            {
+                term: "Akwonim",
+                category: "concept",
+                creole: "Akwonim se yon mo ki fèt ak premye lèt plizyè mo. Egzanp: CEP, ONG, RNDDH.",
+                french: "Un acronyme est un mot formé des initiales de plusieurs mots. Exemple: CEP, ONG, RNDDH.",
+                english: "An acronym is a word formed from the initial letters of several words. Example: CEP, NGO, RNDDH.",
+                related: ["CEP", "ONG", "RNDDH"]
+            },
+            {
+                term: "ASEC",
+                category: "institution",
+                creole: "Asanble Seksyon Kominotè. Otorite lokal nan zòn riral Ayiti ki reprezante kominote yo.",
+                french: "Assemblée de Section Communale. Autorité locale dans les zones rurales d'Haïti représentant les communautés.",
+                english: "Communal Section Assembly. Local authority in Haiti's rural areas representing communities.",
+                related: ["KASEC", "Konsèy Minisipal"]
+            },
+            // B
+            {
+                term: "Balote",
+                category: "political",
+                creole: "Bilten vòt. Papye kote votè make chwa li pandan eleksyon.",
+                french: "Bulletin de vote. Papier où l'électeur marque son choix pendant les élections.",
+                english: "Ballot. Paper where voter marks their choice during elections.",
+                related: ["Vòt", "Eleksyon", "Biwo Vòt"]
+            },
+            {
+                term: "Biwo Vòt",
+                category: "political",
+                creole: "Kote moun ale vote pandan eleksyon. Souvan se lekòl oswa legliz.",
+                french: "Bureau de vote. Endroit où les gens vont voter pendant les élections. Souvent une école ou église.",
+                english: "Polling station. Place where people go to vote during elections. Often a school or church.",
+                related: ["Vòt", "Eleksyon", "Sant Vòt"]
+            },
+            // C
+            {
+                term: "CEP",
+                category: "acronym",
+                creole: "Konsèy Elektoral Pwovizwa. Enstitisyon ki jere tout eleksyon ann Ayiti.",
+                french: "Conseil Electoral Provisoire. Institution qui gère toutes les élections en Haïti.",
+                english: "Provisional Electoral Council. Institution that manages all elections in Haiti.",
+                related: ["Eleksyon", "Vòt", "Enskripsyon"]
+            },
+            {
+                term: "Chanm Depite",
+                category: "institution",
+                creole: "Chanm anba Palman an. Gen 119 depite ki vote sou lalwa yo.",
+                french: "Chambre des Députés. Chambre basse du Parlement. Il y a 119 députés qui votent sur les lois.",
+                english: "Chamber of Deputies. Lower house of Parliament. There are 119 deputies who vote on laws.",
+                related: ["Palman", "Sena", "Depite"]
+            },
+            {
+                term: "Konstitisyon",
+                category: "legal",
+                creole: "Lalwa fondamantal yon peyi. Konstitisyon 1987 la se lalwa pi enpòtan ann Ayiti.",
+                french: "Loi fondamentale d'un pays. La Constitution de 1987 est la loi la plus importante en Haïti.",
+                english: "Fundamental law of a country. The 1987 Constitution is the most important law in Haiti.",
+                related: ["Lalwa", "Dwa", "Jistis"]
+            },
+            {
+                term: "Koripsyon",
+                category: "concept",
+                creole: "Lè moun nan pouvwa sèvi ak pozisyon yo pou benefis pèsonèl, souvan an volan lajan piblik.",
+                french: "Quand des personnes au pouvoir utilisent leur position pour un bénéfice personnel, souvent en volant l'argent public.",
+                english: "When people in power use their position for personal benefit, often by stealing public money.",
+                related: ["Pòdvin", "Detounman", "Transpare"]
+            },
+            {
+                term: "Koudeta",
+                category: "political",
+                creole: "Ranvèsman ilegal yon gouvènman pa fòs, souvan pa militè.",
+                french: "Renversement illégal d'un gouvernement par la force, souvent par les militaires.",
+                english: "Illegal overthrow of a government by force, often by the military.",
+                related: ["Demokrasi", "Gouvènman", "Prezidan"]
+            },
+            {
+                term: "CPT",
+                category: "acronym",
+                creole: "Konsèy Prezidansyèl Tranzisyonèl. Konsèy 9 manm ki dirije Ayiti depi mas 2024.",
+                french: "Conseil Présidentiel de Transition. Conseil de 9 membres qui dirige Haïti depuis mars 2024.",
+                english: "Transitional Presidential Council. Council of 9 members leading Haiti since March 2024.",
+                related: ["Prezidan", "Gouvènman", "Tranzisyon"]
+            },
+            // D
+            {
+                term: "Demokrasi",
+                category: "political",
+                creole: "Sistèm politik kote pèp la chwazi lidè yo atravè vòt lib.",
+                french: "Système politique où le peuple choisit ses dirigeants par vote libre.",
+                english: "Political system where people choose their leaders through free vote.",
+                related: ["Vòt", "Eleksyon", "Sitwayen"]
+            },
+            {
+                term: "Depite",
+                category: "political",
+                creole: "Manm Chanm Depite a. Gen 119 depite ann Ayiti ki reprezante kominote yo.",
+                french: "Membre de la Chambre des Députés. Il y a 119 députés en Haïti qui représentent les communes.",
+                english: "Member of Chamber of Deputies. There are 119 deputies in Haiti representing communes.",
+                related: ["Chanm Depite", "Palman", "Lejislatif"]
+            },
+            {
+                term: "Detounman",
+                category: "concept",
+                creole: "Vòl lajan piblik pa moun ki responsab jere li.",
+                french: "Vol d'argent public par ceux responsables de le gérer.",
+                english: "Theft of public money by those responsible for managing it.",
+                related: ["Koripsyon", "PetroCaribe", "Transpare"]
+            },
+            {
+                term: "Dwa",
+                category: "legal",
+                creole: "Sa lalwa garanti ou kòm sitwayen: dwa vote, dwa pale, dwa edikasyon, elatriye.",
+                french: "Ce que la loi vous garantit comme citoyen: droit de vote, droit de parole, droit à l'éducation, etc.",
+                english: "What law guarantees you as citizen: right to vote, free speech, education, etc.",
+                related: ["Konstitisyon", "Sitwayen", "Libète"]
+            },
+            {
+                term: "Dwa Moun",
+                category: "legal",
+                creole: "Dwa fondamantal tout moun genyen paske yo se moun: lavi, libète, diyite.",
+                french: "Droits fondamentaux que tous ont parce qu'ils sont humains: vie, liberté, dignité.",
+                english: "Fundamental rights everyone has because they're human: life, liberty, dignity.",
+                related: ["Dwa", "RNDDH", "Jistis"]
+            },
+            // E
+            {
+                term: "Edikasyon Sivik",
+                category: "concept",
+                creole: "Aprann sou dwa ou, devwa ou, ak kijan sistèm politik fonksyone.",
+                french: "Apprendre sur vos droits, devoirs, et comment fonctionne le système politique.",
+                english: "Learning about your rights, duties, and how the political system works.",
+                related: ["Sitwayen", "Demokrasi", "Dwa"]
+            },
+            {
+                term: "Eleksyon",
+                category: "political",
+                creole: "Pwosesis kote sitwayen vote pou chwazi lidè yo.",
+                french: "Processus où les citoyens votent pour choisir leurs dirigeants.",
+                english: "Process where citizens vote to choose their leaders.",
+                related: ["Vòt", "CEP", "Demokrasi"]
+            },
+            {
+                term: "Enskripsyon",
+                category: "political",
+                creole: "Pwosesis pou mete non ou sou lis votè yo pou ou ka vote.",
+                french: "Processus pour mettre votre nom sur la liste électorale pour pouvoir voter.",
+                english: "Process to put your name on voter list to be able to vote.",
+                related: ["Vòt", "CEP", "Kat Votè"]
+            },
+            // F
+            {
+                term: "Fanmi Lavalas",
+                category: "organization",
+                creole: "Pati politik fonde an 1996 pa Jean-Bertrand Aristide.",
+                french: "Parti politique fondé en 1996 par Jean-Bertrand Aristide.",
+                english: "Political party founded in 1996 by Jean-Bertrand Aristide.",
+                related: ["Pati Politik", "Aristide", "Eleksyon"]
+            },
+            {
+                term: "Fwòd Elektoral",
+                category: "concept",
+                creole: "Manipilasyon ilegal nan eleksyon: achte vòt, konte fo, entimidason.",
+                french: "Manipulation illégale des élections: achat de votes, faux comptage, intimidation.",
+                english: "Illegal manipulation of elections: vote buying, false counting, intimidation.",
+                related: ["Eleksyon", "Koripsyon", "CEP"]
+            },
+            // G
+            {
+                term: "Gang",
+                category: "concept",
+                creole: "Gwoup kriminèl ame ki kontwole teritwa ak fè vyolans.",
+                french: "Groupe criminel armé qui contrôle des territoires et fait de la violence.",
+                english: "Armed criminal group that controls territories and commits violence.",
+                related: ["Ensèkirite", "Vyolans", "Polis"]
+            },
+            {
+                term: "Gouvènman",
+                category: "institution",
+                creole: "Ansanm enstitisyon ki dirije peyi a: Egzekitif, Lejislatif, Jidisyè.",
+                french: "Ensemble des institutions qui dirigent le pays: Exécutif, Législatif, Judiciaire.",
+                english: "Set of institutions that govern the country: Executive, Legislative, Judicial.",
+                related: ["Prezidan", "Palman", "Tribinal"]
+            },
+            {
+                term: "Gwoupman",
+                category: "concept",
+                creole: "Òganizasyon lokal ki rasanble moun ki gen menm enterè pou travay ansanm.",
+                french: "Organisation locale qui rassemble des personnes avec mêmes intérêts pour travailler ensemble.",
+                english: "Local organization gathering people with same interests to work together.",
+                related: ["Konbit", "Sosyete Sivil", "Kominote"]
+            },
+            // I
+            {
+                term: "Enpinite",
+                category: "legal",
+                creole: "Lè moun ki fè krim pa jwenn pinisyon. Pa gen jistis pou viktim yo.",
+                french: "Quand les auteurs de crimes ne sont pas punis. Pas de justice pour les victimes.",
+                english: "When perpetrators of crimes are not punished. No justice for victims.",
+                related: ["Jistis", "Koripsyon", "Tribinal"]
+            },
+            // J
+            {
+                term: "JILAP",
+                category: "acronym",
+                creole: "Komisyon Jistis ak Lapè. Komisyon Legliz ki travay sou dwa moun.",
+                french: "Commission Justice et Paix. Commission de l'Église qui travaille sur les droits humains.",
+                english: "Justice and Peace Commission. Church commission working on human rights.",
+                related: ["Dwa Moun", "Legliz", "RNDDH"]
+            },
+            {
+                term: "Jistis",
+                category: "legal",
+                creole: "Sistèm tribinal ak lwa ki pini moun ki fè mal ak pwoteje dwa sitwayen.",
+                french: "Système de tribunaux et lois qui punissent les malfaiteurs et protègent les droits des citoyens.",
+                english: "System of courts and laws that punish wrongdoers and protect citizens' rights.",
+                related: ["Tribinal", "Lalwa", "Dwa"]
+            },
+            {
+                term: "Jij",
+                category: "institution",
+                creole: "Moun ki rann desizyon nan tribinal dapre lalwa.",
+                french: "Personne qui rend des décisions au tribunal selon la loi.",
+                english: "Person who makes decisions in court according to law.",
+                related: ["Tribinal", "Jistis", "Lalwa"]
+            },
+            // K
+            {
+                term: "KASEC",
+                category: "institution",
+                creole: "Konsèy Administrasyon Seksyon Kominotè. Otorite lokal nan zòn riral.",
+                french: "Conseil d'Administration de Section Communale. Autorité locale en zone rurale.",
+                english: "Communal Section Administrative Council. Local authority in rural areas.",
+                related: ["ASEC", "Kominote", "Lokal"]
+            },
+            {
+                term: "Kat Votè",
+                category: "political",
+                creole: "Kat idantifikasyon ki pèmèt ou vote. Ou resevwa l apre ou enskri.",
+                french: "Carte d'identification permettant de voter. Vous la recevez après inscription.",
+                english: "Identification card allowing you to vote. You receive it after registration.",
+                related: ["Vòt", "Enskripsyon", "CEP"]
+            },
+            {
+                term: "Konbit",
+                category: "concept",
+                creole: "Tradisyon travay kolektif kote vwazen yo rasanble pou travay tè oswa bati kay ansanb.",
+                french: "Tradition de travail collectif où voisins se rassemblent pour travailler la terre ou construire ensemble.",
+                english: "Tradition of collective work where neighbors gather to work land or build together.",
+                related: ["Gwoupman", "Kominotè", "Solidarite"]
+            },
+            {
+                term: "Kominote",
+                category: "concept",
+                creole: "Gwoup moun ki viv nan menm zòn oswa pataje menm enterè.",
+                french: "Groupe de personnes vivant dans même zone ou partageant mêmes intérêts.",
+                english: "Group of people living in same area or sharing same interests.",
+                related: ["Konbit", "Gwoupman", "KASEC"]
+            },
+            {
+                term: "Konsèy Minisipal",
+                category: "institution",
+                creole: "Gouvènman lokal yon komin. Mè ak konsèy yo jere komin nan.",
+                french: "Gouvernement local d'une commune. Le maire et conseillers gèrent la commune.",
+                english: "Local government of a commune. Mayor and councilors manage the commune.",
+                related: ["Mè", "Komin", "Lokal"]
+            },
+            // L
+            {
+                term: "Lalwa",
+                category: "legal",
+                creole: "Règ ofisyèl yon peyi vote ak tout moun dwe swiv.",
+                french: "Règles officielles d'un pays votées que tous doivent suivre.",
+                english: "Official rules of a country voted that everyone must follow.",
+                related: ["Konstitisyon", "Palman", "Jistis"]
+            },
+            {
+                term: "Lejislatif",
+                category: "institution",
+                creole: "Branch gouvènman an ki vote lalwa yo. Ann Ayiti se Palman an.",
+                french: "Branche du gouvernement qui vote les lois. En Haïti c'est le Parlement.",
+                english: "Branch of government that votes laws. In Haiti it's Parliament.",
+                related: ["Palman", "Depite", "Senatè"]
+            },
+            {
+                term: "Libète",
+                category: "concept",
+                creole: "Dwa pou viv, pale, deplase san kontwòl abizif. Dwa fondamantal nan demokrasi.",
+                french: "Droit de vivre, parler, se déplacer sans contrôle abusif. Droit fondamental en démocratie.",
+                english: "Right to live, speak, move without abusive control. Fundamental right in democracy.",
+                related: ["Dwa", "Demokrasi", "Konstitisyon"]
+            },
+            // M
+            {
+                term: "Mè",
+                category: "political",
+                creole: "Lidè yon komin. Li eli pa sitwayen komin nan.",
+                french: "Chef d'une commune. Il est élu par les citoyens de la commune.",
+                english: "Head of a commune. Elected by commune citizens.",
+                related: ["Konsèy Minisipal", "Komin", "Eleksyon"]
+            },
+            {
+                term: "Militanw",
+                category: "concept",
+                creole: "Moun ki angaje aktivman pou yon kòz: dwa moun, jistis, anviwònman.",
+                french: "Personne activement engagée pour une cause: droits humains, justice, environnement.",
+                english: "Person actively engaged for a cause: human rights, justice, environment.",
+                related: ["Sosyete Sivil", "Dwa Moun", "Aktivis"]
+            },
+            {
+                term: "MPNKP",
+                category: "acronym",
+                creole: "Mouvman Peyizan Nasyonal Kongre Papay. Òganizasyon peyizan ki travay nan 10 depatman.",
+                french: "Mouvement Paysan National Congrès Papaye. Organisation paysanne travaillant dans 10 départements.",
+                english: "National Peasant Movement Papaye Congress. Peasant organization working in 10 departments.",
+                related: ["Peyizan", "Agrikilti", "Sosyete Sivil"]
+            },
+            // O
+            {
+                term: "ONG",
+                category: "acronym",
+                creole: "Òganizasyon Non-Gouvènmantal. Gwoup endepandan ki travay sou devlopman, dwa moun, elatriye.",
+                french: "Organisation Non-Gouvernementale. Groupe indépendant qui travaille sur développement, droits humains, etc.",
+                english: "Non-Governmental Organization. Independent group working on development, human rights, etc.",
+                related: ["Sosyete Sivil", "RNDDH", "SOFA"]
+            },
+            {
+                term: "OPODNE",
+                category: "acronym",
+                creole: "Òganizasyon Peyizan pou Devlopman Nòdès. Travay ak 56 kominote nan Nòdès.",
+                french: "Organisation Paysanne pour le Développement du Nord-Est. Travaille avec 56 communautés du Nord-Est.",
+                english: "Peasant Organization for Northeast Development. Works with 56 communities in Northeast.",
+                related: ["Peyizan", "Nòdès", "MPNKP"]
+            },
+            {
+                term: "OPL",
+                category: "acronym",
+                creole: "Òganizasyon Pèp an Lit. Pati politik santre-gòch fonde an 1991.",
+                french: "Organisation du Peuple en Lutte. Parti politique centre-gauche fondé en 1991.",
+                english: "Organization of People in Struggle. Center-left political party founded in 1991.",
+                related: ["Pati Politik", "Fanmi Lavalas", "Eleksyon"]
+            },
+            // P
+            {
+                term: "Palman",
+                category: "institution",
+                creole: "Branch lejislatif gouvènman an. Gen 2 chanm: Sena (30 senatè) ak Chanm Depite (119 depite).",
+                french: "Branche législative du gouvernement. 2 chambres: Sénat (30 sénateurs) et Chambre des Députés (119 députés).",
+                english: "Legislative branch of government. 2 chambers: Senate (30 senators) and Chamber of Deputies (119 deputies).",
+                related: ["Sena", "Chanm Depite", "Lejislatif"]
+            },
+            {
+                term: "Pati Politik",
+                category: "political",
+                creole: "Gwoup moun òganize pou pran pouvwa politik atravè eleksyon.",
+                french: "Groupe de personnes organisé pour prendre le pouvoir politique par les élections.",
+                english: "Group of people organized to take political power through elections.",
+                related: ["Eleksyon", "Fanmi Lavalas", "OPL"]
+            },
+            {
+                term: "PetroCaribe",
+                category: "concept",
+                creole: "Pwogram kote Venezuela te bay Ayiti lwil bon mache. $4 milya detounen (2008-2018).",
+                french: "Programme où Venezuela donnait pétrole bon marché à Haïti. $4 milliards détournés (2008-2018).",
+                english: "Program where Venezuela gave cheap oil to Haiti. $4 billion embezzled (2008-2018).",
+                related: ["Koripsyon", "Detounman", "PetroChallenge"]
+            },
+            {
+                term: "PetroChallenge",
+                category: "concept",
+                creole: "Mouvman 2018-2019 ki te mande kont sou lajan PetroCaribe a. #KotKòbPetwoKaribea",
+                french: "Mouvement 2018-2019 demandant des comptes sur l'argent PetroCaribe. #KotKòbPetwoKaribea",
+                english: "2018-2019 movement demanding accountability for PetroCaribe money. #KotKòbPetwoKaribea",
+                related: ["PetroCaribe", "Koripsyon", "Sosyete Sivil"]
+            },
+            {
+                term: "Peyizan",
+                category: "concept",
+                creole: "Moun ki travay tè pou viv. Yo reprezante majorite popilasyon riral Ayiti.",
+                french: "Personne qui travaille la terre pour vivre. Représentent majorité de la population rurale haïtienne.",
+                english: "Person who works the land to live. Represent majority of Haiti's rural population.",
+                related: ["MPNKP", "OPODNE", "Agrikilti"]
+            },
+            {
+                term: "Pòdvin",
+                category: "concept",
+                creole: "Ofri oswa aksepte lajan pou influanse yon desizyon. Fòm koripsyon.",
+                french: "Offrir ou accepter de l'argent pour influencer une décision. Forme de corruption.",
+                english: "Offering or accepting money to influence a decision. Form of corruption.",
+                related: ["Koripsyon", "Detounman", "Transpare"]
+            },
+            {
+                term: "Prezidan",
+                category: "political",
+                creole: "Chèf Eta a. Li eli pou 5 lane. Li pa ka eli de fwa swit.",
+                french: "Chef de l'État. Élu pour 5 ans. Ne peut être élu deux fois de suite.",
+                english: "Head of State. Elected for 5 years. Cannot be elected twice in a row.",
+                related: ["CPT", "Eleksyon", "Gouvènman"]
+            },
+            // R
+            {
+                term: "Referandòm",
+                category: "political",
+                creole: "Vòt pou aprann opinyon piblik la sou yon kesyon enpòtan, tankou chanjman konstitisyon.",
+                french: "Vote pour connaître l'opinion publique sur une question importante, comme changement de constitution.",
+                english: "Vote to know public opinion on important question, like constitutional change.",
+                related: ["Vòt", "Konstitisyon", "Demokrasi"]
+            },
+            {
+                term: "RNDDH",
+                category: "acronym",
+                creole: "Rezò Nasyonal Defans Dwa Moun. Òganizasyon ki monitè vyolasyon dwa moun ann Ayiti.",
+                french: "Réseau National de Défense des Droits Humains. Organisation qui monitore les violations des droits humains en Haïti.",
+                english: "National Network for Defense of Human Rights. Organization that monitors human rights violations in Haiti.",
+                related: ["Dwa Moun", "Sosyete Sivil", "JILAP"]
+            },
+            // S
+            {
+                term: "Sena",
+                category: "institution",
+                creole: "Chanm wo Palman an. Gen 30 senatè (3 pa depatman) ak manda 6 lane.",
+                french: "Chambre haute du Parlement. 30 sénateurs (3 par département) avec mandat de 6 ans.",
+                english: "Upper chamber of Parliament. 30 senators (3 per department) with 6-year term.",
+                related: ["Palman", "Senatè", "Lejislatif"]
+            },
+            {
+                term: "Senatè",
+                category: "political",
+                creole: "Manm Sena a. Gen 30 senatè ann Ayiti, 3 pou chak depatman.",
+                french: "Membre du Sénat. Il y a 30 sénateurs en Haïti, 3 pour chaque département.",
+                english: "Member of Senate. There are 30 senators in Haiti, 3 per department.",
+                related: ["Sena", "Palman", "Lejislatif"]
+            },
+            {
+                term: "Separasyon Pouvwa",
+                category: "concept",
+                creole: "Prensip kote twa branch gouvènman an endepandan: Egzekitif, Lejislatif, Jidisyè.",
+                french: "Principe où les trois branches du gouvernement sont indépendantes: Exécutif, Législatif, Judiciaire.",
+                english: "Principle where three government branches are independent: Executive, Legislative, Judicial.",
+                related: ["Demokrasi", "Gouvènman", "Konstitisyon"]
+            },
+            {
+                term: "Sitwayen",
+                category: "legal",
+                creole: "Manm yon peyi ki gen dwa ak devwa legal. Ayisyen natif natal oswa natiralize.",
+                french: "Membre d'un pays ayant des droits et devoirs légaux. Haïtien natif ou naturalisé.",
+                english: "Member of a country having legal rights and duties. Native or naturalized Haitian.",
+                related: ["Sitwayente", "Dwa", "Devwa"]
+            },
+            {
+                term: "Sitwayente",
+                category: "legal",
+                creole: "Estati legal yon moun kòm manm yon peyi. Ann Ayiti, ou ka genyen doub sitwayente.",
+                french: "Statut légal d'une personne comme membre d'un pays. En Haïti, vous pouvez avoir double citoyenneté.",
+                english: "Legal status of person as member of a country. In Haiti, you can have dual citizenship.",
+                related: ["Sitwayen", "Paspo", "Dwa"]
+            },
+            {
+                term: "SOFA",
+                category: "acronym",
+                creole: "Solidarite Fanm Ayisyen. Òganizasyon k ap lite pou dwa fanm ak egalite jand.",
+                french: "Solidarité Femmes Haïtiennes. Organisation luttant pour les droits des femmes et l'égalité de genre.",
+                english: "Haitian Women's Solidarity. Organization fighting for women's rights and gender equality.",
+                related: ["Fanm", "Dwa Fanm", "Sosyete Sivil"]
+            },
+            {
+                term: "Sosyete Sivil",
+                category: "concept",
+                creole: "Tout òganizasyon ki egziste ant gouvènman an ak fanmi prive yo: ONG, sendika, asosyasyon.",
+                french: "Toutes les organisations qui existent entre le gouvernement et les familles privées: ONG, syndicats, associations.",
+                english: "All organizations existing between government and private families: NGOs, unions, associations.",
+                related: ["ONG", "RNDDH", "SOFA"]
+            },
+            // T
+            {
+                term: "Tèt Kole",
+                category: "organization",
+                creole: "Rezwo Ti Peyizan Ayisyen. Òganizasyon k ap lit pou souverènte alimantè.",
+                french: "Réseau des Petits Paysans Haïtiens. Organisation luttant pour la souveraineté alimentaire.",
+                english: "Network of Haitian Small Peasants. Organization fighting for food sovereignty.",
+                related: ["Peyizan", "MPNKP", "Agrikilti"]
+            },
+            {
+                term: "Transpare",
+                category: "concept",
+                creole: "Lè gouvènman oswa òganizasyon klè sou desizyon yo, kijan yo depanse lajan.",
+                french: "Quand gouvernement ou organisation est claire sur ses décisions, comment elle dépense l'argent.",
+                english: "When government or organization is clear about its decisions, how it spends money.",
+                related: ["Responsabilite", "Koripsyon", "Kontwòl"]
+            },
+            {
+                term: "Tranzisyon",
+                category: "political",
+                creole: "Peryòd chanjman ant de gouvènman. CPT la se yon gouvènman tranzisyonèl.",
+                french: "Période de changement entre deux gouvernements. Le CPT est un gouvernement de transition.",
+                english: "Period of change between two governments. CPT is a transitional government.",
+                related: ["CPT", "Gouvènman", "Eleksyon"]
+            },
+            {
+                term: "Tribinal",
+                category: "institution",
+                creole: "Kote jij yo jije ka legal yo. Gen diferan nivo: lokal, apèl, siperyè.",
+                french: "Endroit où les juges jugent les cas légaux. Différents niveaux: local, appel, supérieur.",
+                english: "Place where judges judge legal cases. Different levels: local, appeal, superior.",
+                related: ["Jistis", "Jij", "Lalwa"]
+            },
+            // V
+            {
+                term: "Vòt",
+                category: "political",
+                creole: "Aksyon chwazi yon kandida oswa desizyon nan eleksyon. Dwa ak devwa demokratik.",
+                french: "Action de choisir un candidat ou décision dans une élection. Droit et devoir démocratique.",
+                english: "Action of choosing a candidate or decision in election. Democratic right and duty.",
+                related: ["Eleksyon", "CEP", "Demokrasi"]
+            },
+            {
+                term: "Votè",
+                category: "political",
+                creole: "Sitwayen ki gen dwa vote. Dwe gen omwen 18 lane ak enskri sou lis elektoral.",
+                french: "Citoyen ayant le droit de voter. Doit avoir au moins 18 ans et être inscrit sur liste électorale.",
+                english: "Citizen having right to vote. Must be at least 18 years old and registered on electoral list.",
+                related: ["Vòt", "Enskripsyon", "Kat Votè"]
+            },
+            {
+                term: "Vyolans",
+                category: "concept",
+                creole: "Itilize fòs fizik pou fè mal oswa entimide moun.",
+                french: "Utilisation de la force physique pour faire mal ou intimider des personnes.",
+                english: "Use of physical force to harm or intimidate people.",
+                related: ["Gang", "Ensèkirite", "Dwa Moun"]
+            }
+        ];
+
+        let currentFilter = 'all';
+        let currentSearch = '';
+
+        function renderGlossary() {
+            const grid = document.getElementById('glossaryGrid');
+            const noResults = document.getElementById('noResults');
+            grid.innerHTML = '';
+
+            const filteredData = glossaryData.filter(item => {
+                const matchesFilter = currentFilter === 'all' || item.category === currentFilter;
+                const matchesSearch = currentSearch === '' ||
+                    item.term.toLowerCase().includes(currentSearch.toLowerCase()) ||
+                    item.creole.toLowerCase().includes(currentSearch.toLowerCase()) ||
+                    item.french.toLowerCase().includes(currentSearch.toLowerCase()) ||
+                    item.english.toLowerCase().includes(currentSearch.toLowerCase());
+
+                return matchesFilter && matchesSearch;
+            });
+
+            if (filteredData.length === 0) {
+                noResults.classList.remove('hidden');
+                return;
+            } else {
+                noResults.classList.add('hidden');
+            }
+
+            filteredData.forEach((item, index) => {
+                const itemEl = document.createElement('div');
+                itemEl.className = 'glossary-item';
+                itemEl.innerHTML = `
+                    <div class="glossary-header-item" onclick="toggleGlossaryItem(${index})">
+                        <div class="glossary-term">
+                            <h3>${item.term}</h3>
+                            <span class="glossary-category" data-ht="${getCategoryHT(item.category)}" data-en="${getCategoryEN(item.category)}">${getCategoryHT(item.category)}</span>
+                        </div>
+                        <span class="glossary-icon">▼</span>
+                    </div>
+                    <div class="glossary-content">
+                        <div class="glossary-body">
+                            <div class="definition-section">
+                                <div class="definition-lang" data-ht="Kreyòl" data-en="Creole">Kreyòl</div>
+                                <p class="definition-text">${item.creole}</p>
+                            </div>
+                            <div class="definition-section">
+                                <div class="definition-lang">Français</div>
+                                <p class="definition-text">${item.french}</p>
+                            </div>
+                            <div class="definition-section">
+                                <div class="definition-lang">English</div>
+                                <p class="definition-text">${item.english}</p>
+                            </div>
+                            ${item.related && item.related.length > 0 ? `
+                                <div class="related-terms">
+                                    <div class="related-terms-title" data-ht="Tèm ki gen rapò" data-en="Related terms">Tèm ki gen rapò</div>
+                                    <div class="related-links">
+                                        ${item.related.map(term => `<a href="#${term}" class="related-link" onclick="searchTerm('${term}')">${term}</a>`).join('')}
+                                    </div>
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(itemEl);
+            });
+
+            // Apply language if already set
+            if (document.documentElement.lang === 'en') {
+                applyLanguage('en');
+            }
+        }
+
+        function getCategoryHT(category) {
+            const categories = {
+                'political': 'Politik',
+                'legal': 'Legal',
+                'institution': 'Enstitisyon',
+                'organization': 'Òganizasyon',
+                'concept': 'Konsèp',
+                'acronym': 'Akwonim'
+            };
+            return categories[category] || category;
+        }
+
+        function getCategoryEN(category) {
+            const categories = {
+                'political': 'Political',
+                'legal': 'Legal',
+                'institution': 'Institution',
+                'organization': 'Organization',
+                'concept': 'Concept',
+                'acronym': 'Acronym'
+            };
+            return categories[category] || category;
+        }
+
+        function toggleGlossaryItem(index) {
+            const items = document.querySelectorAll('.glossary-item');
+            items[index].classList.toggle('active');
+        }
+
+        function searchTerm(term) {
+            currentSearch = term;
+            document.getElementById('searchBox').value = term;
+            renderGlossary();
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Initialize alphabet navigation
+        function initAlphabetNav() {
+            const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+            const nav = document.getElementById('alphabetNav');
+
+            alphabet.forEach(letter => {
+                const btn = document.createElement('button');
+                btn.className = 'alphabet-btn';
+                btn.textContent = letter;
+                btn.onclick = () => filterByLetter(letter);
+                nav.appendChild(btn);
+            });
+        }
+
+        function filterByLetter(letter) {
+            currentSearch = '';
+            document.getElementById('searchBox').value = '';
+
+            const items = document.querySelectorAll('.glossary-item');
+            items.forEach(item => {
+                const term = item.querySelector('h3').textContent;
+                if (term.charAt(0).toUpperCase() === letter) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+
+            // Update alphabet buttons
+            document.querySelectorAll('.alphabet-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent === letter);
+            });
+
+            // Show all if clicking active letter again
+            if (document.querySelector('.alphabet-btn.active')?.textContent !== letter) {
+                items.forEach(item => item.classList.remove('hidden'));
+            }
+        }
+
+        // Search functionality
+        document.getElementById('searchBox').addEventListener('input', (e) => {
+            currentSearch = e.target.value;
+            renderGlossary();
+
+            // Reset alphabet buttons
+            document.querySelectorAll('.alphabet-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+        });
+
+        // Filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                currentFilter = btn.dataset.category;
+
+                document.querySelectorAll('.filter-btn').forEach(b => {
+                    b.classList.remove('active');
+                });
+                btn.classList.add('active');
+
+                renderGlossary();
+            });
+        });
+
+        // Initialize
+        initAlphabetNav();
+        renderGlossary();
+
+        // Update total terms count
+        document.getElementById('totalTerms').textContent = glossaryData.length;
+    </script>
+</body>
+</html>
