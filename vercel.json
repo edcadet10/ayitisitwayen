@@ -29,6 +29,24 @@
           "value": "1; mode=block"
         }
       ]
+    },
+    {
+      "source": "/(.*)\\.(png|webp|jpg|jpeg|gif|svg|ico)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(css|js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, must-revalidate"
+        }
+      ]
     }
   ]
 }

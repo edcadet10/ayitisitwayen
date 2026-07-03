@@ -83,8 +83,8 @@ body {
 
 .lang-switch {
     padding: 0.4rem 0.9rem;
-    background-color: var(--black);
-    color: var(--white);
+    background-color: #111111;
+    color: #ffffff;
     border-radius: 4px;
     font-size: 0.75rem;
     letter-spacing: 0.05em;
@@ -669,6 +669,70 @@ section {
     section {
         padding: 4rem 0;
     }
+}
+
+/* Stats kicker (hero goals framing) */
+.stats-kicker {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gray-600);
+    margin-bottom: 1.5rem;
+}
+
+/* Education grid (homepage) */
+.education-home {
+    padding: 6rem 0;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.education-card {
+    border: 1px solid var(--gray-300);
+    padding: 2rem;
+    transition: all 0.2s ease;
+}
+
+.education-card:hover {
+    border-color: var(--black);
+    transform: translateY(-2px);
+}
+
+.education-card h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+.education-card p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--gray-600);
+    margin-bottom: 1.5rem;
+}
+
+.education-card a {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--black);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--black);
+    transition: opacity 0.2s ease;
+}
+
+.education-card a:hover {
+    opacity: 0.6;
 }
 
 /* Smooth Scrolling */
