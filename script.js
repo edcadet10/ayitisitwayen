@@ -18,6 +18,9 @@ const EN_TITLES = {
     'electoral-process.html': 'Electoral Process - Ayiti Sitwayen',
     'glossary.html': 'Political Dictionary - Ayiti Sitwayen',
     'election-history.html': 'Haiti Election History - Ayiti Sitwayen',
+    'presidents.html': "Haiti's Heads of State (1804-2026) - Ayiti Sitwayen",
+    'prime-ministers.html': "Haiti's Prime Ministers (1988-2026) - Ayiti Sitwayen",
+    'parliament.html': "Haiti's Parliament - Ayiti Sitwayen",
     'privacy.html': 'Privacy Policy - Ayiti Sitwayen',
     'terms.html': 'Terms & Conditions - Ayiti Sitwayen'
 };
