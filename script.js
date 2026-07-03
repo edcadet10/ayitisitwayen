@@ -78,11 +78,18 @@ if (contactForm && !contactForm.action.includes('formspree')) {
     });
 }
 
-// Mobile Menu Toggle (if needed in the future)
+// Mobile Menu Toggle
 function toggleMobileMenu() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 }
+
+// Close mobile menu after tapping a nav link
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.remove('active');
+    });
+});
 
 // Add active state to current nav link
 window.addEventListener('scroll', () => {
