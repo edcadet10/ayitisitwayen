@@ -108,11 +108,11 @@ Value: cname.vercel-dns.com
 2. **Create Form**
    - Click "New Form"
    - Name it "Ayiti Sitwayen Contact"
-   - Copy your form endpoint: `https://formspree.io/f/YOUR_FORM_ID`
+   - Copy your form endpoint: `https://formspree.io/f/{your-form-id}`
 
 3. **Update index.html**
    - Find line 318 in `index.html`
-   - Replace `YOUR_FORM_ID` with your actual form ID
+   - Replace `{your-form-id}` with your actual form ID
 
 4. **Test**
    - Submit a test message from your live site
@@ -157,7 +157,7 @@ After your site is live, check these:
 - [ ] Mobile responsive (test on phone)
 - [ ] All social media links updated (currently placeholder)
 - [ ] Team member info added (currently placeholder)
-- [ ] Formspree form ID updated (currently `YOUR_FORM_ID`)
+- [ ] Formspree form ID updated (currently `{your-form-id}`)
 
 ---
 

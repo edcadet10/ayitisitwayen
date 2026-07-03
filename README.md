@@ -86,10 +86,10 @@ Edit the Team section in `index.html`:
 1. Sign up at [Formspree.io](https://formspree.io)
 2. Create a new form
 3. Copy your form endpoint URL
-4. Replace `YOUR_FORM_ID` in `index.html` line 318:
+4. Replace `{your-form-id}` in `index.html` line 318:
 
 ```html
-<form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<form class="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
 ```
 
 ### Add Social Media Links

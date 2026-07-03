@@ -66,15 +66,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Form Submission Handler (if not using Formspree)
+// Form Submission Handler (mailto fallback until a Formspree form ID is configured)
 const contactForm = document.querySelector('.contact-form');
 if (contactForm && !contactForm.action.includes('formspree')) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        alert(currentLang === 'ht' ?
-            'Mèsi! Nou pral reponn ou rapid.' :
-            'Thank you! We will respond shortly.');
-        contactForm.reset();
+        const name = contactForm.elements['name'].value;
+        const email = contactForm.elements['email'].value;
+        const message = contactForm.elements['message'].value;
+        const subject = encodeURIComponent('Mesaj sou ayitisitwayen.org - ' + name);
+        const body = encodeURIComponent(message + '\n\n— ' + name + ' <' + email + '>');
+        window.location.href = 'mailto:contact@ayitisitwayen.org?subject=' + subject + '&body=' + body;
     });
 }
 
