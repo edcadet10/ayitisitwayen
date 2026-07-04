@@ -26,6 +26,7 @@ const EN_TITLES = {
     'local-government.html': 'Local Government - Ayiti Sitwayen',
     'judiciary.html': 'The Justice System - Ayiti Sitwayen',
     'diaspora.html': 'The Diaspora and the Elections - Ayiti Sitwayen',
+    'research.html': 'Research Note #1: Civic Attitudes by Group - Ayiti Sitwayen',
     'privacy.html': 'Privacy Policy - Ayiti Sitwayen',
     'terms.html': 'Terms & Conditions - Ayiti Sitwayen'
 };
