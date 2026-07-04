@@ -28,6 +28,7 @@ const EN_TITLES = {
     'diaspora.html': 'The Diaspora and the Elections - Ayiti Sitwayen',
     'research.html': 'Research - Ayiti Sitwayen',
     'research-note-1.html': 'Research Note #1: Civic Attitudes by Group - Ayiti Sitwayen',
+    'research-note-2.html': 'Research Note #2: 20 Years of Civic Attitudes (2006-2023) - Ayiti Sitwayen',
     'privacy.html': 'Privacy Policy - Ayiti Sitwayen',
     'terms.html': 'Terms & Conditions - Ayiti Sitwayen'
 };
