@@ -422,14 +422,14 @@
             <div class="nav-brand">
                 <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
-            <button class="nav-toggle" onclick="toggleMobileMenu()" aria-label="Meni">☰</button>
+            <button class="nav-toggle" aria-label="Meni">☰</button>
             <div class="nav-links">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
                 <a href="index.html#contact">Kontak</a>
-                <button class="lang-switch" onclick="toggleLanguage()">EN</button>
+                <button class="lang-switch">EN</button>
             </div>
         </div>
     </nav>
@@ -458,7 +458,7 @@
             <div class="accordion">
                 <!-- Section 1: What is a Constitution? -->
                 <div class="accordion-item" data-section="1">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="1. Ki Sa Yon Konstitisyon Ye?" data-en="1. What is a Constitution?">1. Ki Sa Yon Konstitisyon Ye?</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -502,7 +502,7 @@
                                     </div>
                                     <div class="quiz-feedback"></div>
                                 </div>
-                                <button class="quiz-submit" onclick="checkQuiz('q1', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                                <button class="quiz-submit" data-quiz="q1" data-answer="b" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
                             </div>
                         </div>
                     </div>
@@ -510,7 +510,7 @@
 
                 <!-- Section 2: History -->
                 <div class="accordion-item" data-section="2">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="2. Istwa Konstitisyon Ayisyen" data-en="2. History of Haitian Constitutions">2. Istwa Konstitisyon Ayisyen</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -553,7 +553,7 @@
 
                 <!-- Section 3: Structure -->
                 <div class="accordion-item" data-section="3">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="3. Estrikti Konstitisyon 1987" data-en="3. Structure of the 1987 Constitution">3. Estrikti Konstitisyon 1987</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -604,7 +604,7 @@
 
                 <!-- Section 4: Key Principles -->
                 <div class="accordion-item" data-section="4">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="4. Prensip Kle Konstitisyon 1987" data-en="4. Key Principles of the 1987 Constitution">4. Prensip Kle Konstitisyon 1987</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -685,7 +685,7 @@
                                     </div>
                                     <div class="quiz-feedback"></div>
                                 </div>
-                                <button class="quiz-submit" onclick="checkQuiz('q2', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                                <button class="quiz-submit" data-quiz="q2" data-answer="b" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
                             </div>
                         </div>
                     </div>
@@ -693,7 +693,7 @@
 
                 <!-- Section 5: Fundamental Rights -->
                 <div class="accordion-item" data-section="5">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="5. Dwa ak Libète Fondamantal" data-en="5. Fundamental Rights and Freedoms">5. Dwa ak Libète Fondamantal</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -743,7 +743,7 @@
 
                 <!-- Section 6: 2011-2012 Amendments -->
                 <div class="accordion-item" data-section="6">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="6. Amendman 2011-2012" data-en="6. 2011-2012 Amendments">6. Amendman 2011-2012</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -774,7 +774,7 @@
 
                 <!-- Section 7: Constitutional Challenges -->
                 <div class="accordion-item" data-section="7">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="7. Defi Konstitisyonèl ann Ayiti" data-en="7. Constitutional Challenges in Haiti">7. Defi Konstitisyonèl ann Ayiti</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -832,7 +832,7 @@
                                     </div>
                                     <div class="quiz-feedback"></div>
                                 </div>
-                                <button class="quiz-submit" onclick="checkQuiz('q3', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                                <button class="quiz-submit" data-quiz="q3" data-answer="b" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
                             </div>
                         </div>
                     </div>
@@ -840,7 +840,7 @@
 
                 <!-- Section 8: How to Change the Constitution -->
                 <div class="accordion-item" data-section="8">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="8. Kijan Chanje Konstitisyon an?" data-en="8. How to Change the Constitution?">8. Kijan Chanje Konstitisyon an?</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -900,7 +900,7 @@
 
                 <!-- Section 9: Why Important & Our Responsibilities -->
                 <div class="accordion-item" data-section="9">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="9. Poukisa Konstitisyon Enpòtan ak Responsabilite Nou" data-en="9. Why Important & Our Responsibilities">9. Poukisa Konstitisyon Enpòtan ak Responsabilite Nou</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -959,7 +959,7 @@
 
                 <!-- Section 10: References -->
                 <div class="accordion-item" data-section="10">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="10. Referans" data-en="10. References">10. Referans</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -1001,87 +1001,7 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        // Accordion functionality
-        function toggleAccordion(header) {
-            const content = header.nextElementSibling;
-            const isActive = header.classList.contains('active');
-
-            header.classList.toggle('active');
-            content.classList.toggle('active');
-
-            updateProgress();
-        }
-
-        // Quiz functionality
-        function checkQuiz(questionName, correctAnswer, button) {
-            const selectedOption = document.querySelector(`input[name="${questionName}"]:checked`);
-
-            if (!selectedOption) {
-                alert('Tanpri chwazi yon repons / Please select an answer');
-                return;
-            }
-
-            const options = document.querySelectorAll(`input[name="${questionName}"]`);
-            const feedback = button.previousElementSibling;
-            const lang = document.documentElement.lang;
-
-            // Disable all options
-            options.forEach(option => {
-                option.disabled = true;
-                const label = option.closest('.quiz-option');
-                if (option.value === correctAnswer) {
-                    label.classList.add('correct');
-                } else if (option.checked) {
-                    label.classList.add('incorrect');
-                }
-            });
-
-            // Show feedback
-            feedback.classList.add('show');
-            if (selectedOption.value === correctAnswer) {
-                feedback.classList.add('correct');
-                feedback.textContent = lang === 'ht' ? 'Kòrèk! Bon travay!' : 'Correct! Great job!';
-            } else {
-                feedback.classList.add('incorrect');
-                feedback.textContent = lang === 'ht' ? 'Pa kòrèk. Eseye ankò.' : 'Incorrect. Try again.';
-            }
-
-            // Disable button
-            button.disabled = true;
-            button.style.opacity = '0.5';
-
-            updateProgress();
-        }
-
-        // Progress tracking
-        function updateProgress() {
-            const totalSections = 10;
-            const openedSections = document.querySelectorAll('.accordion-header.active').length;
-            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
-
-            // Calculate progress: 10% per section opened + 3% per quiz answered
-            const progress = Math.min(100, (openedSections * 10) + (answeredQuizzes * 3));
-
-            const progressFill = document.getElementById('progressFill');
-            const progressText = document.getElementById('progressText');
-            const completionBadge = document.getElementById('completionBadge');
-            const lang = document.documentElement.lang;
-
-            progressFill.style.width = progress + '%';
-            progressText.textContent = lang === 'ht' ? `Pwogrè: ${progress}%` : `Progress: ${progress}%`;
-
-            // Show completion badge at 100%
-            if (progress === 100) {
-                completionBadge.classList.add('show');
-            }
-        }
-
-        // Initialize on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            updateProgress();
-        });
-    </script>
+    <script src="constitution.js"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

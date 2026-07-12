@@ -402,14 +402,14 @@
             <div class="nav-brand">
                 <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
-            <button class="nav-toggle" onclick="toggleMobileMenu()" aria-label="Meni">☰</button>
+            <button class="nav-toggle" aria-label="Meni">☰</button>
             <div class="nav-links">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
                 <a href="index.html#contact">Kontak</a>
-                <button class="lang-switch" onclick="toggleLanguage()">EN</button>
+                <button class="lang-switch">EN</button>
             </div>
         </div>
     </nav>
@@ -439,7 +439,7 @@
 
                 <!-- Section 1: Why Voting Matters -->
                 <div class="accordion-item" data-section="1">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="1. Poukisa Vòt Enpòtan?" data-en="1. Why is Voting Important?">1. Poukisa Vòt Enpòtan?</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -551,7 +551,7 @@
                                     </div>
                                     <div class="quiz-feedback"></div>
                                 </div>
-                                <button class="quiz-submit" onclick="checkQuiz('q1', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                                <button class="quiz-submit" data-quiz="q1" data-answer="b" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
                             </div>
                         </div>
                     </div>
@@ -559,7 +559,7 @@
 
                 <!-- Section 2: Who Can Vote -->
                 <div class="accordion-item" data-section="2">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="2. Ki Moun Ki Ka Vote?" data-en="2. Who Can Vote?">2. Ki Moun Ki Ka Vote?</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -689,7 +689,7 @@
                                     </div>
                                     <div class="quiz-feedback"></div>
                                 </div>
-                                <button class="quiz-submit" onclick="checkQuiz('q2', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                                <button class="quiz-submit" data-quiz="q2" data-answer="b" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
                             </div>
                         </div>
                     </div>
@@ -697,7 +697,7 @@
 
                 <!-- Section 3: Types of Elections -->
                 <div class="accordion-item" data-section="3">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="3. Ti Kalite Eleksyon" data-en="3. Types of Elections">3. Ti Kalite Eleksyon</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -752,7 +752,7 @@
 
                 <!-- Section 4: How to Vote -->
                 <div class="accordion-item" data-section="4">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="4. Pwosesis Vòt: Jou Eleksyon" data-en="4. Voting Process: Election Day">4. Pwosesis Vòt: Jou Eleksyon</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -816,7 +816,7 @@
                                     </div>
                                     <div class="quiz-feedback"></div>
                                 </div>
-                                <button class="quiz-submit" onclick="checkQuiz('q3', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                                <button class="quiz-submit" data-quiz="q3" data-answer="b" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
                             </div>
                         </div>
                     </div>
@@ -824,7 +824,7 @@
 
                 <!-- Section 5: Electoral System & CEP -->
                 <div class="accordion-item" data-section="5">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="5. Sistèm Elektoral & CEP" data-en="5. Electoral System & CEP">5. Sistèm Elektoral & CEP</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -951,7 +951,7 @@
 
                 <!-- Section 6: Electoral Challenges -->
                 <div class="accordion-item" data-section="6">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="6. Defi Elektoral ann Ayiti" data-en="6. Electoral Challenges in Haiti">6. Defi Elektoral ann Ayiti</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -987,7 +987,7 @@
 
                 <!-- Section 7: Electoral Fraud -->
                 <div class="accordion-item" data-section="7">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="7. Fwòd Elektoral" data-en="7. Electoral Fraud">7. Fwòd Elektoral</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -1087,7 +1087,7 @@
 
                 <!-- Section 8: Preparing to Vote -->
                 <div class="accordion-item" data-section="8">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="8. Prepare pou Vote" data-en="8. Preparing to Vote">8. Prepare pou Vote</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -1325,7 +1325,7 @@
 
                 <!-- Section 9: References -->
                 <div class="accordion-item" data-section="9">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="9. Referans" data-en="9. References">9. Referans</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -1369,99 +1369,7 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        // Accordion Toggle
-        function toggleAccordion(header) {
-            const content = header.nextElementSibling;
-            const allHeaders = document.querySelectorAll('.accordion-header');
-            const allContents = document.querySelectorAll('.accordion-content');
-
-            // Close all other accordions
-            allHeaders.forEach(h => {
-                if (h !== header) {
-                    h.classList.remove('active');
-                }
-            });
-            allContents.forEach(c => {
-                if (c !== content) {
-                    c.classList.remove('active');
-                }
-            });
-
-            // Toggle current accordion
-            header.classList.toggle('active');
-            content.classList.toggle('active');
-
-            // Update progress
-            updateProgress();
-        }
-
-        // Quiz Check
-        function checkQuiz(questionName, correctAnswer, button) {
-            const selectedOption = document.querySelector(`input[name="${questionName}"]:checked`);
-            if (!selectedOption) {
-                alert('Tanpri chwazi yon repons / Please select an answer');
-                return;
-            }
-
-            const feedback = button.previousElementSibling;
-            const allOptions = document.querySelectorAll(`input[name="${questionName}"]`);
-
-            // Disable all options after answer
-            allOptions.forEach(opt => {
-                opt.disabled = true;
-                const label = opt.closest('.quiz-option');
-                if (opt.value === correctAnswer) {
-                    label.classList.add('correct');
-                } else if (opt.checked && opt.value !== correctAnswer) {
-                    label.classList.add('incorrect');
-                }
-            });
-
-            // Show feedback
-            if (selectedOption.value === correctAnswer) {
-                feedback.className = 'quiz-feedback show correct';
-                const lang = document.querySelector('html').lang;
-                feedback.textContent = lang === 'ht' ? 'Kòrèk! Bon travay!' : 'Correct! Great job!';
-            } else {
-                feedback.className = 'quiz-feedback show incorrect';
-                const lang = document.querySelector('html').lang;
-                feedback.textContent = lang === 'ht' ? 'Pa kòrèk. Eseye ankò!' : 'Incorrect. Try again!';
-            }
-
-            button.disabled = true;
-            updateProgress();
-        }
-
-        // Progress Tracker
-        function updateProgress() {
-            const totalSections = 9;
-            const openedSections = document.querySelectorAll('.accordion-header.active').length;
-            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
-
-            // Calculate progress: opened sections + bonus for quizzes
-            const progress = Math.min(100, (openedSections * 11) + (answeredQuizzes * 3));
-            const progressFill = document.getElementById('progressFill');
-            const progressText = document.getElementById('progressText');
-            const lang = document.querySelector('html').lang;
-
-            progressFill.style.width = progress + '%';
-            progressText.textContent = lang === 'ht' ? `Pwogrè: ${progress}%` : `Progress: ${progress}%`;
-
-            // Show completion badge if 100%
-            if (progress >= 100) {
-                document.getElementById('completionBadge').classList.add('show');
-            }
-        }
-
-        // Auto-open first section on load
-        window.addEventListener('load', () => {
-            const firstHeader = document.querySelector('.accordion-header');
-            if (firstHeader) {
-                toggleAccordion(firstHeader);
-            }
-        });
-    </script>
+    <script src="voting.js"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

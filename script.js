@@ -170,3 +170,11 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+// Wire nav controls without inline handlers (CSP-safe; replaces onclick attributes)
+document.addEventListener('DOMContentLoaded', function () {
+    const navToggle = document.querySelector('.nav-toggle');
+    if (navToggle) navToggle.addEventListener('click', toggleMobileMenu);
+    const langSwitch = document.querySelector('.lang-switch');
+    if (langSwitch) langSwitch.addEventListener('click', toggleLanguage);
+});

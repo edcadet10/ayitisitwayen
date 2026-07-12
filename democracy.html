@@ -583,14 +583,14 @@
             <div class="nav-brand">
                 <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
             </div>
-            <button class="nav-toggle" onclick="toggleMobileMenu()" aria-label="Meni">☰</button>
+            <button class="nav-toggle" aria-label="Meni">☰</button>
             <div class="nav-links">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
                 <a href="index.html#mission">Misyon</a>
                 <a href="index.html#contact">Kontak</a>
-                <button class="lang-switch" onclick="toggleLanguage()">EN</button>
+                <button class="lang-switch">EN</button>
             </div>
         </div>
     </nav>
@@ -620,7 +620,7 @@
 
                 <!-- Section 1: What is Democracy -->
                 <div class="accordion-item" data-section="1">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="1. Kisa Demokrasi Ye?" data-en="1. What is Democracy?">1. Kisa Demokrasi Ye?</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -684,7 +684,7 @@
                                     </div>
                                     <div class="quiz-feedback"></div>
                                 </div>
-                                <button class="quiz-submit" onclick="checkQuiz('q1', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                                <button class="quiz-submit" data-quiz="q1" data-answer="b" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
                             </div>
                         </div>
                     </div>
@@ -692,7 +692,7 @@
 
                 <!-- Section 2: Haiti's Democratic Journey -->
                 <div class="accordion-item" data-section="2">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="2. Istwa Demokrasi ann Ayiti" data-en="2. Haiti's Democratic Journey">2. Istwa Demokrasi ann Ayiti</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -768,7 +768,7 @@
 
                 <!-- Section 3: Key Democratic Principles -->
                 <div class="accordion-item" data-section="3">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="3. Prensip Demokratik Kle" data-en="3. Key Democratic Principles">3. Prensip Demokratik Kle</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -833,7 +833,7 @@
                                     </div>
                                     <div class="quiz-feedback"></div>
                                 </div>
-                                <button class="quiz-submit" onclick="checkQuiz('q2', 'b', this)" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
+                                <button class="quiz-submit" data-quiz="q2" data-answer="b" data-ht="Verifye Repons" data-en="Check Answer">Verifye Repons</button>
                             </div>
                         </div>
                     </div>
@@ -841,7 +841,7 @@
 
                 <!-- Section 4: How Democracy Works in Haiti -->
                 <div class="accordion-item" data-section="4">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="4. Kijan Demokrasi Fonksyone ann Ayiti" data-en="4. How Democracy Works in Haiti">4. Kijan Demokrasi Fonksyone ann Ayiti</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -919,7 +919,7 @@
 
                 <!-- Section 5: Challenges and How to Strengthen Democracy -->
                 <div class="accordion-item" data-section="5">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="5. Defi ak Kijan Ranfòse Demokrasi" data-en="5. Challenges and How to Strengthen Democracy">5. Defi ak Kijan Ranfòse Demokrasi</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -1006,7 +1006,7 @@
 
                 <!-- Section 6: References -->
                 <div class="accordion-item" data-section="6">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <button class="accordion-header">
                         <span data-ht="6. Referans" data-en="6. References">6. Referans</span>
                         <span class="accordion-icon">▼</span>
                     </button>
@@ -1050,99 +1050,7 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        // Accordion Toggle
-        function toggleAccordion(header) {
-            const content = header.nextElementSibling;
-            const allHeaders = document.querySelectorAll('.accordion-header');
-            const allContents = document.querySelectorAll('.accordion-content');
-
-            // Close all other accordions
-            allHeaders.forEach(h => {
-                if (h !== header) {
-                    h.classList.remove('active');
-                }
-            });
-            allContents.forEach(c => {
-                if (c !== content) {
-                    c.classList.remove('active');
-                }
-            });
-
-            // Toggle current accordion
-            header.classList.toggle('active');
-            content.classList.toggle('active');
-
-            // Update progress
-            updateProgress();
-        }
-
-        // Quiz Check
-        function checkQuiz(questionName, correctAnswer, button) {
-            const selectedOption = document.querySelector(`input[name="${questionName}"]:checked`);
-            if (!selectedOption) {
-                alert('Tanpri chwazi yon repons / Please select an answer');
-                return;
-            }
-
-            const feedback = button.previousElementSibling;
-            const allOptions = document.querySelectorAll(`input[name="${questionName}"]`);
-
-            // Disable all options after answer
-            allOptions.forEach(opt => {
-                opt.disabled = true;
-                const label = opt.closest('.quiz-option');
-                if (opt.value === correctAnswer) {
-                    label.classList.add('correct');
-                } else if (opt.checked && opt.value !== correctAnswer) {
-                    label.classList.add('incorrect');
-                }
-            });
-
-            // Show feedback
-            if (selectedOption.value === correctAnswer) {
-                feedback.className = 'quiz-feedback show correct';
-                const lang = document.querySelector('html').lang;
-                feedback.textContent = lang === 'ht' ? ' Kòrèk! Bon travay!' : ' Correct! Great job!';
-            } else {
-                feedback.className = 'quiz-feedback show incorrect';
-                const lang = document.querySelector('html').lang;
-                feedback.textContent = lang === 'ht' ? '✗ Pa kòrèk. Eseye ankò!' : '✗ Incorrect. Try again!';
-            }
-
-            button.disabled = true;
-            updateProgress();
-        }
-
-        // Progress Tracker
-        function updateProgress() {
-            const totalSections = 6;
-            const openedSections = document.querySelectorAll('.accordion-header.active').length;
-            const answeredQuizzes = document.querySelectorAll('.quiz-option.correct').length;
-
-            // Calculate progress: opened sections + bonus for quizzes
-            const progress = ((openedSections * 15) + (answeredQuizzes * 5));
-            const progressFill = document.getElementById('progressFill');
-            const progressText = document.getElementById('progressText');
-            const lang = document.querySelector('html').lang;
-
-            progressFill.style.width = progress + '%';
-            progressText.textContent = lang === 'ht' ? `Pwogrè: ${progress}%` : `Progress: ${progress}%`;
-
-            // Show completion badge if 100%
-            if (progress >= 100) {
-                document.getElementById('completionBadge').classList.add('show');
-            }
-        }
-
-        // Auto-open first section on load
-        window.addEventListener('load', () => {
-            const firstHeader = document.querySelector('.accordion-header');
-            if (firstHeader) {
-                toggleAccordion(firstHeader);
-            }
-        });
-    </script>
+    <script src="democracy.js"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
