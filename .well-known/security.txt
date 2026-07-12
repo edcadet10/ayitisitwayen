@@ -1,0 +1,7 @@
+# Security policy for ayitisitwayen.org
+# https://www.rfc-editor.org/rfc/rfc9116
+
+Contact: https://www.ayitisitwayen.org/#contact
+Expires: 2027-07-12T00:00:00.000Z
+Preferred-Languages: ht, fr, en
+Canonical: https://www.ayitisitwayen.org/.well-known/security.txt
