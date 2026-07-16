@@ -1,0 +1,636 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Organizing in Haiti: Konbit &amp; Collective Action | Ayiti Sitwayen</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&amp;display=swap" rel="stylesheet">
+    <meta name="description" content="How Haitians organize communities for change: konbit traditions, gwoupman, collective action strategies, and local leadership.">
+    <meta property="og:title" content="Community Organizing in Haiti: Konbit &amp; Collective Action | Ayiti Sitwayen">
+    <meta property="og:description" content="How Haitians organize communities for change: konbit traditions, gwoupman, collective action strategies, and local leadership.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.ayitisitwayen.org/en/community-organizing.html">
+    <meta property="og:image" content="https://www.ayitisitwayen.org/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Community Organizing in Haiti: Konbit & Collective Action | Ayiti Sitwayen","description":"How Haitians organize communities for change: konbit traditions, gwoupman, collective action strategies, and local leadership.","inLanguage":"en","url":"https://www.ayitisitwayen.org/en/community-organizing.html","image":"https://www.ayitisitwayen.org/logo.png","dateModified":"2026-07-03","author":{"@type":"Organization","name":"Ayiti Sitwayen"},"publisher":{"@type":"Organization","name":"Ayiti Sitwayen","logo":{"@type":"ImageObject","url":"https://www.ayitisitwayen.org/logo.png"}}}</script>
+    <link rel="canonical" href="https://www.ayitisitwayen.org/en/community-organizing.html">
+    <link rel="alternate" hreflang="ht" href="https://www.ayitisitwayen.org/community-organizing.html">
+    <link rel="alternate" hreflang="en" href="https://www.ayitisitwayen.org/en/community-organizing.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.ayitisitwayen.org/community-organizing.html">
+    <link rel="stylesheet" href="/styles.css?v=3">
+    <style>
+        .progress-container {
+            position: sticky;
+            top: 70px;
+            background: white;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--gray-300);
+            z-index: 100;
+            margin-bottom: 2rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--black);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            text-align: center;
+        }
+
+        .accordion {
+            margin-bottom: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+        }
+
+        .accordion-header {
+            padding: 1.25rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s ease;
+            user-select: none;
+        }
+
+        .accordion-header:hover {
+            background: var(--gray-100);
+        }
+
+        .accordion-header.active {
+            background: var(--gray-100);
+            border-bottom: 1px solid var(--gray-300);
+        }
+
+        .accordion-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--black);
+        }
+
+        .accordion-icon {
+            font-size: 1.5rem;
+            color: var(--gray-600);
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-header.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .accordion-body {
+            padding: 1.5rem 1.25rem;
+        }
+
+        .accordion-content.active {
+            max-height: 5000px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .info-card {
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            background: white;
+            transition: all 0.2s ease;
+        }
+
+        .info-card:hover {
+            border-color: var(--black);
+            transform: translateY(-2px);
+        }
+
+        .info-card h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--black);
+        }
+
+        .info-card p, .info-card ul {
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            color: var(--gray-700);
+        }
+
+        .highlight-box {
+            background: var(--gray-100);
+            border-left: 4px solid var(--black);
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--gray-800);
+        }
+
+        .quiz {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .quiz h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--black);
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .quiz-option {
+            padding: 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--black);
+        }
+
+        .quiz-option.correct {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .quiz-option.incorrect {
+            background: #f8d7da;
+            border-color: #dc3545;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--gray-300);
+        }
+
+        .nav-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--black);
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s ease;
+        }
+
+        .nav-button:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/theme.css?v=2">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ayitisitwayen.org/en/"},{"@type":"ListItem","position":2,"name":"Education","item":"https://www.ayitisitwayen.org/en/education.html"},{"@type":"ListItem","position":3,"name":"Community Organizing","item":"https://www.ayitisitwayen.org/en/community-organizing.html"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Skip to main content</a>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="/en/"><img src="/logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
+            </div>
+            <button class="nav-toggle" aria-label="Navigation menu" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="/en/education.html" data-ht="Edikasyon" data-en="Education">Education</a>
+                <a href="/en/research.html" data-ht="Rechèch" data-en="Research">Research</a>
+                <a href="/en/#about" data-ht="Konsènan" data-en="About">About</a>
+                <a href="/en/#mission" data-ht="Misyon" data-en="Mission">Mission</a>
+                <a href="/en/#contact" data-ht="Kontak" data-en="Contact">Contact</a>
+                <button class="lang-switch" lang="ht" aria-label="Tounen an Kreyòl">HT</button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="kontni">
+
+    <section class="legal-page">
+        <div class="container">
+            <nav class="breadcrumb" aria-label="You are here" data-ht-aria="Kote ou ye" data-en-aria="You are here"><a href="/en/" data-ht="Akèy" data-en="Home">Home</a><span class="crumb-sep" aria-hidden="true">›</span><a href="/en/education.html" data-ht="Edikasyon" data-en="Education">Education</a><span class="crumb-sep" aria-hidden="true">›</span><span aria-current="page" data-ht="Òganizasyon Kominotè" data-en="Community Organizing">Community Organizing</span></nav>
+            <h1 class="page-title" data-ht="Òganizasyon Kominotè" data-en="Community Organizing">Community Organizing</h1>
+            <p class="legal-date" data-ht="Aprann kijan mobilize kominote ou pou chanjman" data-en="Learn how to mobilize your community for change">Learn how to mobilize your community for change</p>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText" data-ht="Pwogresyon: 0%" data-en="Progress: 0%">Progress: 0%</div>
+            </div>
+
+            <div class="legal-content">
+                <!-- Section 1 -->
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2 class="accordion-title" data-ht="Ki Sa Òganizasyon Kominotè Ye?" data-en="What is Community Organizing?">What is Community Organizing?</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p data-ht="Òganizasyon kominotè se pwosesis kote moun vin ansanm pou idantifye pwoblèm yo genyen an komen, epi travay ansanm pou jwenn solisyon. Se yon zouti pisan pou chanjman sosyal ki baze sou pouvwa kolektif, pa sou pouvwa endividyèl." data-en="Community organizing is the process where people come together to identify common problems and work together to find solutions. It is a powerful tool for social change based on collective power, not individual power.">Community organizing is the process where people come together to identify common problems and work together to find solutions. It is a powerful tool for social change based on collective power, not individual power.</p>
+
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Pouvwa nan Nimewo" data-en="Power in Numbers">Power in Numbers</h3>
+                                    <p data-ht="Ansanm, nou pi fò pase sèl" data-en="Together, we are stronger than alone">Together, we are stronger than alone</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Lidèchip Lokal" data-en="Local Leadership">Local Leadership</h3>
+                                    <p data-ht="Solisyon soti nan kominote a menm" data-en="Solutions come from the community itself">Solutions come from the community itself</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Aksyon Kolektif" data-en="Collective Action">Collective Action</h3>
+                                    <p data-ht="Travay ansanm pou objektif komen" data-en="Working together for common objectives">Working together for common objectives</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Responsabilizasyon" data-en="Empowerment">Empowerment</h3>
+                                    <p data-ht="Moun vin gen konfyans yo gen kapasite pou chanje sitiyasyon yo" data-en="People become confident they have capacity to change their situation">People become confident they have capacity to change their situation</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Demokrasi Patisipatif" data-en="Participatory Democracy">Participatory Democracy</h3>
+                                    <p data-ht="Tout moun gen vwa nan desizyon" data-en="Everyone has voice in decisions">Everyone has voice in decisions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2 -->
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2 class="accordion-title" data-ht="Tradisyon Òganizasyon ann Ayiti" data-en="Organizing Traditions in Haiti">Organizing Traditions in Haiti</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="Konbit" data-en="Konbit">Konbit</h3>
+                                <p data-ht="Konbit se yon tradisyon travay kolektif ki gen rasin nan istwa Ayiti. Se lè vwazen yo rasanble pou travay tè, bati kay, oswa fè pwojè ansanm. Konbit baze sou solidarite ak resipwosite." data-en="Konbit is a tradition of collective work rooted in Haitian history. It's when neighbors gather to work land, build houses, or do projects together. Konbit is based on solidarity and reciprocity.">Konbit is a tradition of collective work rooted in Haitian history. It's when neighbors gather to work land, build houses, or do projects together. Konbit is based on solidarity and reciprocity.</p>
+                                <ul>
+                                    <li data-ht="Chak moun kontribye ak travay oswa konpetans yo" data-en="Everyone contributes their work or skills">Everyone contributes their work or skills</li>
+                                    <li data-ht="Travay fini pi vit ak pi byen" data-en="Work finishes faster and better">Work finishes faster and better</li>
+                                    <li data-ht="Ranfòse lyen sosyal nan kominote a" data-en="Strengthens social bonds in the community">Strengthens social bonds in the community</li>
+                                    <li data-ht="Tout moun benefisye – pa sèlman youn" data-en="Everyone benefits – not just one">Everyone benefits – not just one</li>
+                                </ul>
+                            </div>
+
+                            <div class="info-card" style="margin-bottom: 1.5rem;">
+                                <h3 data-ht="Gwoupman" data-en="Gwoupman">Gwoupman</h3>
+                                <p data-ht="Gwoupman se òganizasyon lokal ki rasanble moun ki gen menm enterè:" data-en="Gwoupman are local organizations that gather people with same interests:">Gwoupman are local organizations that gather people with same interests:</p>
+                                <ul>
+                                    <li data-ht="Gwoupman fanm pou kòmès oswa agrikilti" data-en="Women's groups for commerce or agriculture">Women's groups for commerce or agriculture</li>
+                                    <li data-ht="Gwoupman jèn pou espò oswa edikasyon" data-en="Youth groups for sports or education">Youth groups for sports or education</li>
+                                    <li data-ht="Gwoupman peyizan pou defann tè yo" data-en="Peasant groups to defend their land">Peasant groups to defend their land</li>
+                                    <li data-ht="Gwoupman atizan pou vann pwodui yo" data-en="Artisan groups to sell their products">Artisan groups to sell their products</li>
+                                </ul>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Istwa Ayiti plen ak tradisyon solidarite ak travay kolektif. Konbit ak gwoupman montre nou deja konnen kijan òganize pou rezoud pwoblèm ansanm." data-en="Haiti's history is full of traditions of solidarity and collective work. Konbit and gwoupman show we already know how to organize to solve problems together.">Haiti's history is full of traditions of solidarity and collective work. Konbit and gwoupman show we already know how to organize to solve problems together.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 1 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 1" data-en="Knowledge Check 1">Knowledge Check 1</h3>
+                    <p data-ht="Ki prensip kle òganizasyon kominotè?" data-en="What is a key principle of community organizing?">What is a key principle of community organizing?</p>
+                    <div class="quiz-options">
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Youn sèl lidè pran tout desizyon" data-en="One leader makes all decisions">One leader makes all decisions</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Pouvwa kolektif pi fò pase pouvwa endividyèl" data-en="Collective power stronger than individual power">Collective power stronger than individual power</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Tann gouvènman rezoud pwoblèm" data-en="Wait for government to solve problems">Wait for government to solve problems</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Travay sèl nan kwen ou" data-en="Work alone in your corner">Work alone in your corner</button>
+                    </div>
+                </div>
+
+                <!-- Section 3 -->
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2 class="accordion-title" data-ht="Etap Òganizasyon Kominotè" data-en="Steps of Community Organizing">Steps of Community Organizing</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="1. Idantifye Pwoblèm" data-en="1. Identify Problems">1. Identify Problems</h3>
+                                    <ul>
+                                        <li data-ht="Pale ak vwazen yo, koute preokipasyon yo" data-en="Talk to neighbors, listen to their concerns">Talk to neighbors, listen to their concerns</li>
+                                        <li data-ht="Fè sondaj oswa rankont kominotè" data-en="Conduct surveys or community meetings">Conduct surveys or community meetings</li>
+                                        <li data-ht="Chwazi yon pwoblèm espesifik pou kòmanse" data-en="Choose a specific problem to start">Choose a specific problem to start</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="2. Rasanble Moun" data-en="2. Gather People">2. Gather People</h3>
+                                    <ul>
+                                        <li data-ht="Kay-pa-kay: Ale vizite chak kay" data-en="Door-to-door: Visit each house">Door-to-door: Visit each house</li>
+                                        <li data-ht="Rele yon asanble kominotè" data-en="Call a community assembly">Call a community assembly</li>
+                                        <li data-ht="Itilize rezo ki egziste" data-en="Use existing networks">Use existing networks</li>
+                                        <li data-ht="Kreye gwoup medya sosyal" data-en="Create social media groups">Create social media groups</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="3. Bati Lidèchip" data-en="3. Build Leadership">3. Build Leadership</h3>
+                                    <ul>
+                                        <li data-ht="Idantifye moun ki respekte epi ki angaje" data-en="Identify people who are respected and engaged">Identify people who are respected and engaged</li>
+                                        <li data-ht="Bay fòmasyon sou òganizasyon" data-en="Provide training on organizing">Provide training on organizing</li>
+                                        <li data-ht="Ankouraje lidèchip pataje" data-en="Encourage shared leadership">Encourage shared leadership</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="4. Devlope Estrateji" data-en="4. Develop Strategy">4. Develop Strategy</h3>
+                                    <ul>
+                                        <li data-ht="Ki objektif nou vle reyalize?" data-en="What objectives do we want to achieve?">What objectives do we want to achieve?</li>
+                                        <li data-ht="Ki resous nou genyen?" data-en="What resources do we have?">What resources do we have?</li>
+                                        <li data-ht="Ki aksyon nou pral pran?" data-en="What actions will we take?">What actions will we take?</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="5. Pran Aksyon" data-en="5. Take Action">5. Take Action</h3>
+                                    <ul>
+                                        <li data-ht="Aksyon dirèk: Netwaye kanal, bati pon" data-en="Direct action: Clean canals, build bridges">Direct action: Clean canals, build bridges</li>
+                                        <li data-ht="Petisyon: Kolekte siyati" data-en="Petitions: Collect signatures">Petitions: Collect signatures</li>
+                                        <li data-ht="Manifestasyon: Mach pasifik" data-en="Demonstrations: Peaceful marches">Demonstrations: Peaceful marches</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="6. Evalye ak Ajiste" data-en="6. Evaluate and Adjust">6. Evaluate and Adjust</h3>
+                                    <ul>
+                                        <li data-ht="Èske nou reyalize objektif nou?" data-en="Did we achieve our objective?">Did we achieve our objective?</li>
+                                        <li data-ht="Ki leson nou aprann?" data-en="What lessons did we learn?">What lessons did we learn?</li>
+                                        <li data-ht="Ki etap kap suiv?" data-en="What are next steps?">What are next steps?</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2 class="accordion-title" data-ht="Egzanp Òganizasyon Kominotè ann Ayiti" data-en="Examples of Community Organizing in Haiti">Examples of Community Organizing in Haiti</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3>OPODNE</h3>
+                                    <p data-ht="Travay ak 56 kominote nan Nòdès pou defann dwa peyizan, pwomote agrikilti dirab, ak reziste kont pwojè ki deplase peyizan" data-en="Works with 56 communities in Northeast to defend peasant rights, promote sustainable agriculture, and resist projects that displace peasants">Works with 56 communities in Northeast to defend peasant rights, promote sustainable agriculture, and resist projects that displace peasants</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3>MPNKP</h3>
+                                    <p data-ht="Travay nan 10 depatman sou repopilasyon kochon, agroecology, semans lokal, ak defans tè. Li soti nan MPP (Mouvman Peyizan Papay), Chavannes Jean-Baptiste te fonde an 1973." data-en="Works in 10 departments on pig repopulation, agroecology, local seeds, and land defense. It grew out of the MPP (Mouvman Peyizan Papay), founded in 1973 by Chavannes Jean-Baptiste.">Works in 10 departments on pig repopulation, agroecology, local seeds, and land defense. It grew out of the MPP (Mouvman Peyizan Papay), founded in 1973 by Chavannes Jean-Baptiste.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Tèt Kole Ti Peyizan" data-en="Tèt Kole Ti Peyizan">Tèt Kole Ti Peyizan</h3>
+                                    <p data-ht="Mobilize peyizan pou souverènte alimantè, rezistans kont OGM, ak defans mache lokal" data-en="Mobilizes peasants for food sovereignty, resistance against GMOs, and defense of local markets">Mobilizes peasants for food sovereignty, resistance against GMOs, and defense of local markets</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Mouvman PetroChallenge" data-en="PetroChallenge Movement">PetroChallenge Movement</h3>
+                                    <p data-ht="Mobilizasyon mas kont koripsyon, mande kont sou anviwon $2 milya odit yo dokimante kòm detounen nan pwogram PetroCaribe $4.3 milya a, itilize #KotKòbPetwoKaribea" data-en="Mass mobilization against corruption, demanding accountability for the roughly $2 billion audits documented as embezzled from the $4.3 billion PetroCaribe program, using #KotKòbPetwoKaribea">Mass mobilization against corruption, demanding accountability for the roughly $2 billion audits documented as embezzled from the $4.3 billion PetroCaribe program, using #KotKòbPetwoKaribea</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Peyizan, jèn, ak kominote ann Ayiti montre fòs òganizasyon kominotè. Malgre difikilte, yo kontinye mobilize pou defann dwa yo ak chanje sistèm ki eksplwate yo." data-en="Peasants, youth, and communities in Haiti demonstrate the power of community organizing. Despite difficulties, they continue mobilizing to defend their rights and change systems that exploit them.">Peasants, youth, and communities in Haiti demonstrate the power of community organizing. Despite difficulties, they continue mobilizing to defend their rights and change systems that exploit them.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 2 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 2" data-en="Knowledge Check 2">Knowledge Check 2</h3>
+                    <p data-ht="Ki premye etap nan òganize kominote ou?" data-en="What is the first step in organizing your community?">What is the first step in organizing your community?</p>
+                    <div class="quiz-options">
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Ale nan Washington mande lajan" data-en="Go to Washington to ask for money">Go to Washington to ask for money</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Koute vwazen yo pou idantifye pwoblèm komen" data-en="Listen to neighbors to identify common problems">Listen to neighbors to identify common problems</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Kòmanse yon pati politik" data-en="Start a political party">Start a political party</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Achte yon kamyon" data-en="Buy a truck">Buy a truck</button>
+                    </div>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2 class="accordion-title" data-ht="Defi ak Zouti pou Òganizasyon" data-en="Challenges and Tools for Organizing">Challenges and Tools for Organizing</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <h3 data-ht="Defi Majè" data-en="Major Challenges">Major Challenges</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Ensèkirite ak Gang" data-en="Insecurity and Gangs">Insecurity and Gangs</h3>
+                                    <p data-ht="Gang limite kapasite moun pou rasanble. Lidè kominotè anba menas. Zòn kote òganizasyon enposib." data-en="Gangs limit people's capacity to gather. Community leaders under threat. Areas where organizing impossible.">Gangs limit people's capacity to gather. Community leaders under threat. Areas where organizing impossible.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Povrete ak Sivi" data-en="Poverty and Survival">Poverty and Survival</h3>
+                                    <p data-ht="Moun pa gen tan paske yo okipe chache lavi. Bezwen imedya pi enpòtan pase objektif long-term." data-en="People don't have time because they're busy finding livelihood. Immediate needs more important than long-term objectives.">People don't have time because they're busy finding livelihood. Immediate needs more important than long-term objectives.</p>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Represyon Politik" data-en="Political Repression">Political Repression</h3>
+                                    <p data-ht="Gouvènman entimide lidè ki kritike. Arestasyon abizif. Achte lidè pou divize mouvman." data-en="Government intimidates leaders who criticize. Abusive arrests. Buying leaders to divide movement.">Government intimidates leaders who criticize. Abusive arrests. Buying leaders to divide movement.</p>
+                                </div>
+                            </div>
+
+                            <h3 style="margin-top: 2rem;" data-ht="Zouti Òganizasyon" data-en="Organizing Tools">Organizing Tools</h3>
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Medya Sosyal" data-en="Social Media">Social Media</h3>
+                                    <ul>
+                                        <li>WhatsApp/Signal: Gwoup diskisyon</li>
+                                        <li>Facebook: Paj kominotè</li>
+                                        <li data-ht="YouTube: Videyo edikasyon" data-en="YouTube: Educational videos">YouTube: Educational videos</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Radyo Kominotè" data-en="Community Radio">Community Radio</h3>
+                                    <ul>
+                                        <li data-ht="Rive jwenn moun ki pa sou entènèt" data-en="Reach people not on internet">Reach people not on internet</li>
+                                        <li data-ht="Diskite pwoblèm lokal" data-en="Discuss local problems">Discuss local problems</li>
+                                        <li data-ht="Kreye platfòm pou vwa kominotè" data-en="Create platform for community voice">Create platform for community voice</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Petisyon ak Manifestasyon" data-en="Petitions and Demonstrations">Petitions and Demonstrations</h3>
+                                    <ul>
+                                        <li data-ht="Kolekte siyati pou montre sipò" data-en="Collect signatures to show support">Collect signatures to show support</li>
+                                        <li data-ht="Vizibilite piblik pou demand" data-en="Public visibility for demands">Public visibility for demands</li>
+                                        <li data-ht="Kreye presyon politik" data-en="Create political pressure">Create political pressure</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 6 -->
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2 class="accordion-title" data-ht="Kijan Kòmanse Òganize Kounye A" data-en="How to Start Organizing Now">How to Start Organizing Now</h2>
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <div class="card-grid">
+                                <div class="info-card">
+                                    <h3 data-ht="Koute ak Aprann" data-en="Listen and Learn">Listen and Learn</h3>
+                                    <ul>
+                                        <li data-ht="Pale ak vwazen ou" data-en="Talk to your neighbors">Talk to your neighbors</li>
+                                        <li data-ht="Identifye pwoblèm ki afekte anpil moun" data-en="Identify problems affecting many people">Identify problems affecting many people</li>
+                                        <li data-ht="Aprann istwa òganizasyon nan zòn nan" data-en="Learn history of organizing in the area">Learn history of organizing in the area</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Kòmanse Ti" data-en="Start Small">Start Small</h3>
+                                    <ul>
+                                        <li data-ht="Chwazi yon pwoblèm espesifik ou ka reyalize" data-en="Choose a specific problem you can achieve">Choose a specific problem you can achieve</li>
+                                        <li data-ht="Kòmanse ak yon ti gwoup moun angaje" data-en="Start with a small group of engaged people">Start with a small group of engaged people</li>
+                                        <li data-ht="Kreye yon viktwa rapid" data-en="Create a quick victory">Create a quick victory</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Bati Relasyon" data-en="Build Relationships">Build Relationships</h3>
+                                    <ul>
+                                        <li data-ht="Pase tan ak moun, pa sèlman nan reyinyon" data-en="Spend time with people, not just in meetings">Spend time with people, not just in meetings</li>
+                                        <li data-ht="Kreye konfyans atravè aksyon konsistan" data-en="Create trust through consistent actions">Create trust through consistent actions</li>
+                                        <li data-ht="Respekte opinyon tout moun" data-en="Respect everyone's opinions">Respect everyone's opinions</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Pwoteje Tèt Ou" data-en="Protect Yourself">Protect Yourself</h3>
+                                    <ul>
+                                        <li data-ht="Rankontre nan kote piblik ak an sekirite" data-en="Meet in public and safe places">Meet in public and safe places</li>
+                                        <li data-ht="Itilize aplikasyon sikire tankou Signal" data-en="Use secure apps like Signal">Use secure apps like Signal</li>
+                                        <li data-ht="Travay nan gwoup, pa sèl" data-en="Work in groups, not alone">Work in groups, not alone</li>
+                                    </ul>
+                                </div>
+                                <div class="info-card">
+                                    <h3 data-ht="Pran Aksyon ak Persiste" data-en="Take Action and Persist">Take Action and Persist</h3>
+                                    <ul>
+                                        <li data-ht="Pase de pale a fè" data-en="Move from talking to doing">Move from talking to doing</li>
+                                        <li data-ht="Pa dekouraje si premye aksyon pa reyisi" data-en="Don't be discouraged if first action doesn't succeed">Don't be discouraged if first action doesn't succeed</li>
+                                        <li data-ht="Selebre viktwa yo, menm ti yo" data-en="Celebrate victories, even small ones">Celebrate victories, even small ones</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <p data-ht="Chanjman pa vin de anwo. Li vin de anba, lè moun òdinè rasanble pou defann enterè yo. Kominote ou gen pouvwa. Men pouvwa sa a sèlman egziste lè nou ini, òganize, ak aji ansanm." data-en="Change doesn't come from above. It comes from below, when ordinary people gather to defend their interests. Your community has power. But this power only exists when we unite, organize, and act together.">Change doesn't come from above. It comes from below, when ordinary people gather to defend their interests. Your community has power. But this power only exists when we unite, organize, and act together.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz 3 -->
+                <div class="quiz">
+                    <h3 data-ht="Tès Konesans 3" data-en="Knowledge Check 3">Knowledge Check 3</h3>
+                    <p data-ht="Kijan ou dwe kòmanse òganize nan kominote ou?" data-en="How should you start organizing in your community?">How should you start organizing in your community?</p>
+                    <div class="quiz-options">
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Eseye rezoud tout pwoblèm ansanm" data-en="Try to solve all problems together">Try to solve all problems together</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Kòmanse ti ak yon pwoblèm espesifik" data-en="Start small with a specific problem">Start small with a specific problem</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Tann yon ONG entènasyonal vin ede" data-en="Wait for an international NGO to come help">Wait for an international NGO to come help</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Travay sèl san mande lòt moun opinyon yo" data-en="Work alone without asking others' opinions">Work alone without asking others' opinions</button>
+                    </div>
+                </div>
+
+                <div class="highlight-box" style="margin-top: 2rem;">
+                    <p data-ht="Kominote ou se fòs ou. Kòmanse kote ou ye. Rasanble vwazen ou. Idantifye pwoblèm. Pran aksyon. Chanjman kòmanse avèk ou." data-en="Your community is your strength. Start where you are. Gather your neighbors. Identify problems. Take action. Change starts with you.">Your community is your strength. Start where you are. Gather your neighbors. Identify problems. Take action. Change starts with you.</p>
+                </div>
+
+                <div class="nav-buttons">
+                    <a href="/en/civil-society.html" class="nav-button" data-ht="← Retounen: Sosyete Sivil" data-en="← Back: Civil Society">← Back: Civil Society</a>
+                    <a href="/en/political-parties.html" class="nav-button" data-ht="Swiv: Pati Politik →" data-en="Next: Political Parties →">Next: Political Parties →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Ayiti Sitwayen</h4>
+                    <p data-ht="Edikasyon sivik pou eleksyon 2026 yo — endepandan, san pati." data-en="Civic education for Haiti's 2026 elections — independent and non-partisan.">Civic education for Haiti's 2026 elections — independent and non-partisan.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-ht="Aprann" data-en="Learn">Learn</h4>
+                    <ul>
+                        <li><a href="/en/education.html" data-ht="Edikasyon Sivik" data-en="Civic Education">Civic Education</a></li>
+                        <li><a href="/en/voting-day.html" data-ht="Gid Jou Vòt la" data-en="Election Day Guide">Election Day Guide</a></li>
+                        <li><a href="/en/glossary.html" data-ht="Diksyonè Politik" data-en="Political Dictionary">Political Dictionary</a></li>
+                        <li><a href="/en/election-history.html" data-ht="Istwa Eleksyon" data-en="Election History">Election History</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-ht="Plis" data-en="More">More</h4>
+                    <ul>
+                        <li><a href="/en/research.html" data-ht="Rechèch" data-en="Research">Research</a></li>
+                        <li><a href="/en/#contact" data-ht="Kontak" data-en="Contact">Contact</a></li>
+                        <li><a href="/en/privacy.html" data-ht="Konfidansyalite" data-en="Privacy">Privacy</a></li>
+                        <li><a href="/en/terms.html" data-ht="Kondisyon" data-en="Terms">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Ayiti Sitwayen. <span data-ht="Tout dwa rezève" data-en="All rights reserved">All rights reserved</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js?v=4"></script>
+    <script src="/community-organizing.js?v=2"></script>
+    <script defer="" src="/_vercel/insights/script.js"></script>
+
+
+</body></html>

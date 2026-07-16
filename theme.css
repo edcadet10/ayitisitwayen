@@ -802,6 +802,41 @@ p {
     border: 1px solid var(--gray-200);
 }
 
+/* --------------------------------------------------------------------------
+   Breadcrumbs (with BreadcrumbList structured data)
+   -------------------------------------------------------------------------- */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    color: var(--gray-500);
+    margin: 1.25rem 0 1.75rem 0;
+}
+
+.breadcrumb a {
+    color: var(--gray-600);
+    text-decoration: none;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    transition: color var(--dur-1) var(--ease), border-color var(--dur-1) var(--ease);
+}
+
+.breadcrumb a:hover {
+    color: var(--black);
+    border-bottom-color: var(--black);
+}
+
+.breadcrumb [aria-current="page"] {
+    color: var(--black);
+    font-weight: 500;
+}
+
+.crumb-sep {
+    color: var(--gray-400);
+}
+
 /* ==========================================================================
    Print: civic guides are meant to be printed and shared.
    ========================================================================== */
@@ -816,6 +851,7 @@ p {
     .filter-container,
     .alphabet-nav,
     .search-container,
+    .breadcrumb,
     .cta-button {
         display: none !important;
     }

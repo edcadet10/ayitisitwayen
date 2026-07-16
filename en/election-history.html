@@ -1,0 +1,1493 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haiti Election History (1918–2026): Every Vote &amp; Crisis | Ayiti Sitwayen</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&amp;display=swap" rel="stylesheet">
+    <meta name="description" content="Complete history of Haitian elections and referendums from 1918 to 2026 — results, turnout, fraud, cancellations, and lessons.">
+    <meta property="og:title" content="Haiti Election History (1918–2026): Every Vote &amp; Crisis | Ayiti Sitwayen">
+    <meta property="og:description" content="Complete history of Haitian elections and referendums from 1918 to 2026 — results, turnout, fraud, cancellations, and lessons.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.ayitisitwayen.org/en/election-history.html">
+    <meta property="og:image" content="https://www.ayitisitwayen.org/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Haiti Election History (1918–2026): Every Vote & Crisis | Ayiti Sitwayen","description":"Complete history of Haitian elections and referendums from 1918 to 2026 — results, turnout, fraud, cancellations, and lessons.","inLanguage":"en","url":"https://www.ayitisitwayen.org/en/election-history.html","image":"https://www.ayitisitwayen.org/logo.png","dateModified":"2026-07-03","author":{"@type":"Organization","name":"Ayiti Sitwayen"},"publisher":{"@type":"Organization","name":"Ayiti Sitwayen","logo":{"@type":"ImageObject","url":"https://www.ayitisitwayen.org/logo.png"}}}</script>
+    <link rel="canonical" href="https://www.ayitisitwayen.org/en/election-history.html">
+    <link rel="alternate" hreflang="ht" href="https://www.ayitisitwayen.org/election-history.html">
+    <link rel="alternate" hreflang="en" href="https://www.ayitisitwayen.org/en/election-history.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.ayitisitwayen.org/election-history.html">
+    <link rel="stylesheet" href="/styles.css?v=3">
+    <style>
+        .timeline-container {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline-line {
+            position: absolute;
+            left: 2rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--gray-300);
+        }
+
+        .filter-bar {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            padding: 1rem;
+            background: var(--gray-50);
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--black);
+        }
+
+        .filter-btn.active {
+            background: var(--black);
+            color: white;
+            border-color: var(--black);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .stat-box {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-300);
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .election-card {
+            position: relative;
+            margin-left: 4rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            transition: all 0.2s ease;
+        }
+
+        .election-card.hidden {
+            display: none;
+        }
+
+        .election-card::before {
+            content: '';
+            position: absolute;
+            left: -2.5rem;
+            top: 1.5rem;
+            width: 1rem;
+            height: 1rem;
+            background: var(--black);
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px var(--gray-300);
+        }
+
+        .election-card.cancelled::before {
+            background: #dc3545;
+        }
+
+        .election-card.fraudulent::before {
+            background: #ffc107;
+        }
+
+        .election-header {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            user-select: none;
+        }
+
+        .election-header:hover {
+            background: var(--gray-50);
+        }
+
+        .election-info {
+            flex: 1;
+        }
+
+        .election-date {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 0.5rem;
+        }
+
+        .election-type {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: var(--gray-100);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.75rem;
+        }
+
+        .election-winner {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-bottom: 0.5rem;
+        }
+
+        .election-summary {
+            font-size: 0.9375rem;
+            color: var(--gray-600);
+            line-height: 1.5;
+        }
+
+        .expand-icon {
+            font-size: 1.5rem;
+            color: var(--gray-600);
+            transition: transform 0.3s ease;
+        }
+
+        .election-card.active .expand-icon {
+            transform: rotate(180deg);
+        }
+
+        .election-details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .election-card.active .election-details {
+            max-height: 3000px;
+        }
+
+        .election-body {
+            padding: 0 1.5rem 1.5rem 1.5rem;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .detail-item {
+            background: var(--gray-50);
+            padding: 1rem;
+        }
+
+        .detail-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--gray-600);
+            margin-bottom: 0.5rem;
+        }
+
+        .detail-value {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--black);
+        }
+
+        .results-table {
+            width: 100%;
+            margin: 1.5rem 0;
+            border-collapse: collapse;
+        }
+
+        .results-table th {
+            text-align: left;
+            padding: 0.75rem;
+            background: var(--gray-100);
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 2px solid var(--gray-300);
+        }
+
+        .results-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .results-table tr.winner td {
+            font-weight: 600;
+            background: var(--gray-50);
+        }
+
+        .controversy-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .controversy-box h4 {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            color: #856404;
+        }
+
+        .controversy-box p, .controversy-box ul {
+            font-size: 0.9375rem;
+            color: #856404;
+        }
+
+        .violence-box {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .violence-box h4 {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            color: #721c24;
+        }
+
+        .violence-box p, .violence-box ul {
+            font-size: 0.9375rem;
+            color: #721c24;
+        }
+
+        .sources {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .sources h4 {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            color: var(--gray-600);
+        }
+
+        .sources ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sources li {
+            margin-bottom: 0.5rem;
+        }
+
+        .sources a {
+            color: var(--black);
+            text-decoration: underline;
+            font-size: 0.875rem;
+        }
+
+        .sources a:hover {
+            opacity: 0.7;
+        }
+
+        .period-separator {
+            margin: 3rem 0;
+            padding: 1rem;
+            background: var(--black);
+            color: white;
+            text-align: center;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .timeline-line {
+                left: 1rem;
+            }
+
+            .election-card {
+                margin-left: 2.5rem;
+            }
+
+            .election-card::before {
+                left: -1.75rem;
+            }
+
+            .detail-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/theme.css?v=2">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ayitisitwayen.org/en/"},{"@type":"ListItem","position":2,"name":"Education","item":"https://www.ayitisitwayen.org/en/education.html"},{"@type":"ListItem","position":3,"name":"Election History","item":"https://www.ayitisitwayen.org/en/election-history.html"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Skip to main content</a>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="/en/"><img src="/logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
+            </div>
+            <button class="nav-toggle" aria-label="Navigation menu" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="/en/education.html" data-ht="Edikasyon" data-en="Education">Education</a>
+                <a href="/en/research.html" data-ht="Rechèch" data-en="Research">Research</a>
+                <a href="/en/#about" data-ht="Konsènan" data-en="About">About</a>
+                <a href="/en/#mission" data-ht="Misyon" data-en="Mission">Mission</a>
+                <a href="/en/#contact" data-ht="Kontak" data-en="Contact">Contact</a>
+                <button class="lang-switch" lang="ht" aria-label="Tounen an Kreyòl">HT</button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="kontni">
+
+    <section class="legal-page">
+        <div class="container">
+            <nav class="breadcrumb" aria-label="You are here" data-ht-aria="Kote ou ye" data-en-aria="You are here"><a href="/en/" data-ht="Akèy" data-en="Home">Home</a><span class="crumb-sep" aria-hidden="true">›</span><a href="/en/education.html" data-ht="Edikasyon" data-en="Education">Education</a><span class="crumb-sep" aria-hidden="true">›</span><span aria-current="page" data-ht="Istwa Eleksyon" data-en="Election History">Election History</span></nav>
+            <h1 class="page-title" data-ht="Istwa Eleksyon ann Ayiti (1918-2026)" data-en="Haiti Election History (1918-2026)">Haiti Election History (1918-2026)</h1>
+            <p class="legal-date" data-ht="Baz done konplè sou eleksyon ak referandòm Ayiti yo, soti nan okipasyon ameriken an rive nan eleksyon 30 out 2026 yo" data-en="Complete database of Haitian elections and referendums, from the American occupation to the August 30, 2026 elections">Complete database of Haitian elections and referendums, from the American occupation to the August 30, 2026 elections</p>
+
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number">9</div>
+                    <div class="stat-label" data-ht="Eleksyon Prezidansyèl (depi 1987)" data-en="Presidential Elections (since 1987)">Presidential Elections (since 1987)</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label" data-ht="Eleksyon Anile (1987, 2015, dezyèm tou janvye 2016)" data-en="Cancelled Elections (1987, 2015, Jan. 2016 runoff)">Cancelled Elections (1987, 2015, Jan. 2016 runoff)</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">~10</div>
+                    <div class="stat-label" data-ht="Ane San Eleksyon" data-en="Years Without Elections">Years Without Elections</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label" data-ht="Eleksyon Depi 2016" data-en="Elections Since 2016">Elections Since 2016</div>
+                </div>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all" data-ht="Tout" data-en="All">All</button>
+                <button class="filter-btn" data-filter="presidential" data-ht="Prezidansyèl" data-en="Presidential">Presidential</button>
+                <button class="filter-btn" data-filter="legislative" data-ht="Lejislatif" data-en="Legislative">Legislative</button>
+                <button class="filter-btn" data-filter="local" data-ht="Lokal" data-en="Local">Local</button>
+                <button class="filter-btn" data-filter="fraudulent" data-ht="Fwòd Rapòte" data-en="Fraud Reported">Fraud Reported</button>
+                <button class="filter-btn" data-filter="cancelled" data-ht="Anile" data-en="Cancelled">Cancelled</button>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+
+                <div class="period-separator" data-ht="1918-1986: Anvan Demokrasi a" data-en="1918-1986: Before Democracy">1918-1986: Before Democracy</div>
+
+                <!-- 1918 Plebiscite -->
+                <div class="election-card fraudulent" data-type="referendum fraudulent">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">12 Jen 1918</div>
+                            <span class="election-type" data-ht="Referandòm Konstitisyonèl" data-en="Constitutional Referendum">Constitutional Referendum</span>
+                            <div class="election-winner" data-ht="Konstitisyon Okipasyon an Apwouve" data-en="Occupation Constitution Approved">Occupation Constitution Approved</div>
+                            <p class="election-summary" data-ht="Yon plebisit anba okipasyon ameriken — premye gwo vòt nasyonal nan istwa modèn Ayiti" data-en="A plebiscite under American occupation — the first major national vote in modern Haitian history">A plebiscite under American occupation — the first major national vote in modern Haitian history</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Rezilta" data-en="Results">Results</div>
+                                    <div class="detail-value" data-ht="98,225 pou / 768 kont" data-en="98,225 for / 768 against">98,225 for / 768 against</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value" data-ht="Mwens pase 5% popilasyon an" data-en="Less than 5% of the population">Less than 5% of the population</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Kontèks" data-en="Context">Context</div>
+                                    <div class="detail-value" data-ht="Okipasyon Ameriken (1915-1934)" data-en="American Occupation (1915-1934)">American Occupation (1915-1934)</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="Etazini te okipe Ayiti depi 1915. An jen 1917, Lyetnan-Kolonèl Smedley Butler te antre nan Palman an pou li yon lòd disolisyon Prezidan Dartiguenave te siyen anba presyon. Apre sa, otorite ameriken yo te òganize yon plebisit 12 jen 1918 pou fè apwouve yon nouvo konstitisyon — yon dokiman Franklin D. Roosevelt, ki te asistan sekretè Marin ameriken an lè sa a, te vante tèt li kòm otè li. Konstitisyon sa a te retire entèdiksyon istorik ki te anpeche etranje posede tè ann Ayiti depi endepandans 1804 la — youn nan objektif prensipal okipasyon an." data-en="The United States had occupied Haiti since 1915. In June 1917, Lieutenant-Colonel Smedley Butler entered Parliament to read a dissolution order that President Dartiguenave had been pressured to sign. American authorities then organized a plebiscite on June 12, 1918 to approve a new constitution — a document Franklin D. Roosevelt, then Assistant Secretary of the U.S. Navy, boasted of having written. That constitution removed the historic ban that had prevented foreigners from owning land in Haiti since independence in 1804 — one of the occupation's main objectives.">The United States had occupied Haiti since 1915. In June 1917, Lieutenant-Colonel Smedley Butler entered Parliament to read a dissolution order that President Dartiguenave had been pressured to sign. American authorities then organized a plebiscite on June 12, 1918 to approve a new constitution — a document Franklin D. Roosevelt, then Assistant Secretary of the U.S. Navy, boasted of having written. That constitution removed the historic ban that had prevented foreigners from owning land in Haiti since independence in 1804 — one of the occupation's main objectives.</p>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Poukisa Vòt sa a Pa t Demokratik" data-en="Why This Vote Was Not Democratic">Why This Vote Was Not Democratic</h4>
+                                <ul>
+                                    <li data-ht="Vòt la te fèt anba okipasyon militè etranje" data-en="The vote took place under foreign military occupation">The vote took place under foreign military occupation</li>
+                                    <li data-ht="Mwens pase 5% popilasyon an te patisipe" data-en="Less than 5% of the population participated">Less than 5% of the population participated</li>
+                                    <li data-ht="Depatman Deta ameriken te konnen pifò elektè yo pa t ka li sa yo t ap vote a" data-en="The U.S. State Department knew most voters could not read what they were voting on">The U.S. State Department knew most voters could not read what they were voting on</li>
+                                    <li data-ht="Rezilta 99% — yon modèl vòt-teyat ki t ap repete pita nan istwa a" data-en="A 99% result — a model of theater-voting that would repeat later in history">A 99% result — a model of theater-voting that would repeat later in history</li>
+                                </ul>
+                            </div>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/1918_Haitian_constitutional_referendum" target="_blank" rel="noopener">1918 Haitian constitutional referendum - Wikipedia</a></li>
+                                    <li><a href="https://www.everycrsreport.com/reports/94-459.html" target="_blank" rel="noopener">The U.S. Occupation of Haiti, 1915-1934 - CRS Report</a></li>
+                                    <li><a href="https://www.loc.gov/item/30000674/" target="_blank" rel="noopener">Constitution de 1918 de la République d'Haiti - Library of Congress</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1950 Election -->
+                <div class="election-card" data-type="presidential">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">8 Oktòb 1950</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner">Paul Magloire</div>
+                            <p class="election-summary" data-ht="Premye eleksyon prezidansyèl dirèk nan istwa Ayiti — men ak yon sèl kandida" data-en="Haiti's first direct presidential election — but with a single candidate">Haiti's first direct presidential election — but with a single candidate</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Kandida" data-en="Candidates">Candidates</div>
+                                    <div class="detail-value" data-ht="Magloire (sèl kandida)" data-en="Magloire (sole candidate)">Magloire (sole candidate)</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sistèm" data-en="System">System</div>
+                                    <div class="detail-value" data-ht="Premye vòt dirèk pou prezidan" data-en="First direct vote for president">First direct vote for president</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sèmante" data-en="Inaugurated">Inaugurated</div>
+                                    <div class="detail-value" data-ht="6 Desanm 1950" data-en="December 6, 1950">December 6, 1950</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="Anvan 1950, se Chanm Depite yo ki te konn chwazi prezidan an — pèp la pa t janm vote dirèkteman pou chèf deta li. Apre koudeta 1950 la ki te ranvèse Prezidan Dumarsais Estimé, jeneral Paul Magloire te òganize yon eleksyon kote, pou premye fwa nan istwa a, tout gason 21 an oswa plis te gen dwa vote dirèkteman pou prezidan. Men demokrasi a te rete yon fasad: Magloire te sèl kandida a, epi li te genyen san okenn konpetisyon. Li te dirije jiska 1956, lè manifestasyon ak grèv te fòse li ale." data-en="Before 1950, the Chamber of Deputies chose the president — the people had never voted directly for their head of state. After the 1950 coup that overthrew President Dumarsais Estimé, General Paul Magloire organized an election in which, for the first time in history, all men 21 or older had the right to vote directly for president. But democracy remained a facade: Magloire was the only candidate and won without any competition. He ruled until 1956, when protests and strikes forced him out.">Before 1950, the Chamber of Deputies chose the president — the people had never voted directly for their head of state. After the 1950 coup that overthrew President Dumarsais Estimé, General Paul Magloire organized an election in which, for the first time in history, all men 21 or older had the right to vote directly for president. But democracy remained a facade: Magloire was the only candidate and won without any competition. He ruled until 1956, when protests and strikes forced him out.</p>
+
+                            <div class="violence-box">
+                                <h4 data-ht="Dwa Vòt Fanm" data-en="Women's Suffrage">Women's Suffrage</h4>
+                                <p data-ht="Se nan menm epòk sa a fanm ayisyen yo te jwenn dwa vòt la. Konstitisyon 1950 la te louvri pòt la, gras a plis pase 15 lane batay òganizasyon tankou Ligue Féminine d'Action Sociale (fonde 1934). Fanm yo te vote pou premye fwa nan eleksyon minisipal 1955 yo, epi Konstitisyon 1957 la (atik 16) te konfime dwa vòt inivèsèl pou fanm ak gason. Se te yon gwo etap nan istwa sitwayènte ann Ayiti — menm si diktati ki t ap vini an ta pral vide vòt tout moun nan sans li." data-en="It was in this era that Haitian women won the right to vote. The 1950 Constitution opened the door, thanks to more than 15 years of struggle by organizations like the Ligue Féminine d'Action Sociale (founded 1934). Women voted for the first time in the 1955 municipal elections, and the 1957 Constitution (article 16) confirmed universal suffrage for women and men. It was a major step in the history of Haitian citizenship — even if the coming dictatorship would soon empty everyone's vote of its meaning.">It was in this era that Haitian women won the right to vote. The 1950 Constitution opened the door, thanks to more than 15 years of struggle by organizations like the Ligue Féminine d'Action Sociale (founded 1934). Women voted for the first time in the 1955 municipal elections, and the 1957 Constitution (article 16) confirmed universal suffrage for women and men. It was a major step in the history of Haitian citizenship — even if the coming dictatorship would soon empty everyone's vote of its meaning.</p>
+                            </div>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/1950_Haitian_general_election" target="_blank" rel="noopener">1950 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://www.globalsecurity.org/military/world/haiti/history-15.htm" target="_blank" rel="noopener">Haiti 1950-1957: Paul Magloire - GlobalSecurity</a></li>
+                                    <li><a href="https://data.ipu.org/parliament/HT/HT-LC01/elections/historical-data-on-women/" target="_blank" rel="noopener">Haiti: Historical data on women - IPU Parline</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1957 Election -->
+                <div class="election-card" data-type="presidential">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">22 Septanm 1957</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner">François Duvalier</div>
+                            <p class="election-summary" data-ht="Eleksyon ki te mennen 29 lane diktati Duvalier — dènye vòt prezidansyèl anvan 1988" data-en="The election that led to 29 years of Duvalier dictatorship — the last presidential vote before 1988">The election that led to 29 years of Duvalier dictatorship — the last presidential vote before 1988</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Rezilta" data-en="Results">Results</div>
+                                    <div class="detail-value" data-ht="Duvalier 679,884 (~69%)" data-en="Duvalier 679,884 (~69%)">Duvalier 679,884 (~69%)</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Opozan Prensipal" data-en="Main Opponent">Main Opponent</div>
+                                    <div class="detail-value" data-ht="Louis Déjoie 266,993" data-en="Louis Déjoie 266,993">Louis Déjoie 266,993</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Kontèks" data-en="Context">Context</div>
+                                    <div class="detail-value" data-ht="Jent militè Kébreau, lwa masyal" data-en="Kébreau military junta, martial law">Kébreau military junta, martial law</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="François Duvalier, yon doktè yo te rele Papa Dòk, te fè kanpay kòm defansè mas nwa a kont elit milat la — yon mesaj nwaris ki te mache ak fristrasyon reyèl pèp la. Eleksyon 22 septanm 1957 la te fèt anba yon jent militè jeneral Antonio Kébreau, ki te enpoze lwa masyal jou vòt la. Duvalier te genyen ak anviwon 69% kont endistriyèl Louis Déjoie, ki te imedyatman konteste rezilta yo — li te denonse fwòd, boure bwat vòt, ak entimidasyon pa patizan Duvalier yo ak inite lame yo." data-en="François Duvalier, a doctor known as Papa Doc, campaigned as the defender of the Black masses against the mulatto elite — a noiriste message that resonated with the people's real frustrations. The September 22, 1957 election took place under a military junta led by General Antonio Kébreau, who imposed martial law on voting day. Duvalier won with about 69% against industrialist Louis Déjoie, who immediately contested the results — denouncing fraud, ballot stuffing, and intimidation by Duvalier partisans and army units.">François Duvalier, a doctor known as Papa Doc, campaigned as the defender of the Black masses against the mulatto elite — a noiriste message that resonated with the people's real frustrations. The September 22, 1957 election took place under a military junta led by General Antonio Kébreau, who imposed martial law on voting day. Duvalier won with about 69% against industrialist Louis Déjoie, who immediately contested the results — denouncing fraud, ballot stuffing, and intimidation by Duvalier partisans and army units.</p>
+
+                            <p data-ht="Eleksyon 1957 la te enpòtan tou paske se te premye eleksyon prezidansyèl kote fanm yo te vote nan tout peyi a. Men ironi istwa a di: premye fwa tout pèp la te ka vote, se yon diktati li te resevwa an retou — yon leson sou kijan vòt san enstitisyon solid pa ase pou pwoteje demokrasi." data-en="The 1957 election also mattered because it was the first presidential election in which women voted nationwide. But history's irony is harsh: the first time the whole people could vote, what they received in return was a dictatorship — a lesson in how voting without solid institutions is not enough to protect democracy.">The 1957 election also mattered because it was the first presidential election in which women voted nationwide. But history's irony is harsh: the first time the whole people could vote, what they received in return was a dictatorship — a lesson in how voting without solid institutions is not enough to protect democracy.</p>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Sa k Te Vini Apre" data-en="What Came After">What Came After</h4>
+                                <ul>
+                                    <li data-ht="1959: Kreyasyon Tonton Makout yo, milis pèsonèl rejim nan" data-en="1959: Creation of the Tonton Macoutes, the regime's personal militia">1959: Creation of the Tonton Macoutes, the regime's personal militia</li>
+                                    <li data-ht="Opozisyon an kraze, laprès bâyonnen, dè dizèn milye moun mouri oswa egzile" data-en="Opposition crushed, press muzzled, tens of thousands killed or exiled">Opposition crushed, press muzzled, tens of thousands killed or exiled</li>
+                                    <li data-ht="Ayiti pa t ap wè yon lòt eleksyon prezidansyèl miltipatit pandan plis pase 30 lane" data-en="Haiti would not see another multi-party presidential election for more than 30 years">Haiti would not see another multi-party presidential election for more than 30 years</li>
+                                </ul>
+                            </div>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/1957_Haitian_general_election" target="_blank" rel="noopener">1957 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://history.state.gov/historicaldocuments/frus1955-57v06/d359" target="_blank" rel="noopener">Foreign Relations of the United States 1955-57 - Office of the Historian</a></li>
+                                    <li><a href="https://www.britannica.com/biography/Francois-Duvalier" target="_blank" rel="noopener">François Duvalier - Britannica</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Duvalier Referendums -->
+                <div class="election-card fraudulent" data-type="referendum fraudulent">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">1961 / 1964 / 1971</div>
+                            <span class="election-type" data-ht="Referandòm Fwodile" data-en="Fraudulent Referendums">Fraudulent Referendums</span>
+                            <div class="election-winner" data-ht="Referandòm-Teyat Diktati a — 99.9% pou" data-en="The Dictatorship's Theater Referendums — 99.9% yes">The Dictatorship's Theater Referendums — 99.9% yes</div>
+                            <p class="election-summary" data-ht="Twa vòt san sans ki te fè Duvalier Prezidan Avi epi bay pitit li pouvwa a" data-en="Three meaningless votes that made Duvalier President for Life and handed power to his son">Three meaningless votes that made Duvalier President for Life and handed power to his son</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label">1961</div>
+                                    <div class="detail-value" data-ht="Reeleksyon: 1,320,748 pou, 0 kont" data-en="Re-election: 1,320,748 for, 0 against">Re-election: 1,320,748 for, 0 against</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label">1964</div>
+                                    <div class="detail-value" data-ht="Prezidan Avi: 99.9% pou" data-en="President for Life: 99.9% yes">President for Life: 99.9% yes</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label">1971</div>
+                                    <div class="detail-value" data-ht="Siksesyon: 2,391,916 pou, 0 kont" data-en="Succession: 2,391,916 for, 0 against">Succession: 2,391,916 for, 0 against</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="An 1961, Duvalier te fè yon vòt reeleksyon kote rezilta ofisyèl la te bay 1,320,748 pou li ak zewo vòt kont — de lane anvan manda li te fini. 14 jen 1964, yon referandòm te fè li Prezidan Avi: bilten yo te deja enprime ak repons wi a make davans. Answit, 30 janvye 1971, yon dènye referandòm te bese laj minimòm pou prezidan soti nan 40 rive nan 20 lane, pou pèmèt Jean-Claude Duvalier, ki te gen 19 an, eritye pouvwa a lè papa li mouri nan avril 1971. Rezilta ofisyèl la: 2,391,916 wi, zewo non." data-en="In 1961, Duvalier held a re-election vote in which the official result gave him 1,320,748 votes and zero against — two years before his term ended. On June 14, 1964, a referendum made him President for Life: ballots came pre-printed with the yes answer already marked. Then on January 30, 1971, a final referendum lowered the minimum presidential age from 40 to 20 so that 19-year-old Jean-Claude Duvalier could inherit power when his father died in April 1971. The official result: 2,391,916 yes, zero no.">In 1961, Duvalier held a re-election vote in which the official result gave him 1,320,748 votes and zero against — two years before his term ended. On June 14, 1964, a referendum made him President for Life: ballots came pre-printed with the yes answer already marked. Then on January 30, 1971, a final referendum lowered the minimum presidential age from 40 to 20 so that 19-year-old Jean-Claude Duvalier could inherit power when his father died in April 1971. The official result: 2,391,916 yes, zero no.</p>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Leson pou Jodi a" data-en="Lesson for Today">Lesson for Today</h4>
+                                <ul>
+                                    <li data-ht="Yon rezilta 99-100% se yon siy fwòd, se pa yon siy sipò popilè" data-en="A 99-100% result is a sign of fraud, not popular support">A 99-100% result is a sign of fraud, not popular support</li>
+                                    <li data-ht="Diktati ka sèvi ak zouti demokratik yo pou lejitimize pouvwa san limit" data-en="Dictatorships can use democratic tools to legitimize unlimited power">Dictatorships can use democratic tools to legitimize unlimited power</li>
+                                    <li data-ht="Se youn nan rezon Konstitisyon 1987 la entèdi referandòm pou chanje konstitisyon an (Atik 284-3)" data-en="This is one reason the 1987 Constitution forbids amending it by referendum (Article 284-3)">This is one reason the 1987 Constitution forbids amending it by referendum (Article 284-3)</li>
+                                </ul>
+                            </div>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Duvalier" target="_blank" rel="noopener">François Duvalier - Wikipedia</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/1971_Haitian_constitutional_referendum" target="_blank" rel="noopener">1971 Haitian constitutional referendum - Wikipedia</a></li>
+                                    <li><a href="https://www.britannica.com/biography/Jean-Claude-Duvalier" target="_blank" rel="noopener">Jean-Claude Duvalier - Britannica</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1986 CNG Transition -->
+                <div class="election-card" data-type="transition">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">7 Fevriye 1986</div>
+                            <span class="election-type" data-ht="Tranzisyon (san eleksyon)" data-en="Transition (no election)">Transition (no election)</span>
+                            <div class="election-winner" data-ht="Chit Duvalier — Konsèy Nasyonal Gouvènman (CNG)" data-en="Fall of Duvalier — National Council of Government (CNG)">Fall of Duvalier — National Council of Government (CNG)</div>
+                            <p class="election-summary" data-ht="Jean-Claude Duvalier kouri kite peyi a; militè yo pran kontwòl tranzisyon an" data-en="Jean-Claude Duvalier flees the country; the military takes control of the transition">Jean-Claude Duvalier flees the country; the military takes control of the transition</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Duvalier Ale" data-en="Duvalier Departs">Duvalier Departs</div>
+                                    <div class="detail-value" data-ht="7 Fevriye 1986" data-en="February 7, 1986">February 7, 1986</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Lidè CNG" data-en="CNG Leader">CNG Leader</div>
+                                    <div class="detail-value" data-ht="Jeneral Henri Namphy" data-en="General Henri Namphy">General Henri Namphy</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Dire" data-en="Duration">Duration</div>
+                                    <div class="detail-value">1986-1988</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="Apre plizyè mwa manifestasyon popilè ki te kòmanse Gonayiv, Jean-Claude Duvalier te kouri kite Ayiti 7 fevriye 1986 nan yon avyon ameriken. Anvan li te ale, li te mete sou pye yon Konsèy Nasyonal Gouvènman (CNG) ak jeneral Henri Namphy nan tèt li. CNG a te kraze Tonton Makout yo ofisyèlman 15 fevriye epi remete drapo ble-e-wouj la 17 fevriye — men li te kenbe kontwòl militè sou tout tranzisyon an. Dat 7 fevriye a te vin tounen yon senbòl: se jou sa a Konstitisyon 1987 la chwazi pou prezidan yo pran ak kite pouvwa a. Men se anba menm CNG sa a masak Ruelle Vaillant la te rive, jou eleksyon novanm 1987 la." data-en="After months of popular protests that began in Gonaïves, Jean-Claude Duvalier fled Haiti on February 7, 1986 aboard an American plane. Before leaving, he installed a National Council of Government (CNG) headed by General Henri Namphy. The CNG officially disbanded the Tonton Macoutes on February 15 and restored the blue-and-red flag on February 17 — but it kept military control over the entire transition. The date of February 7 became a symbol: it is the day the 1987 Constitution chose for presidents to take and leave office. Yet it was under this same CNG that the Ruelle Vaillant massacre happened on election day in November 1987.">After months of popular protests that began in Gonaïves, Jean-Claude Duvalier fled Haiti on February 7, 1986 aboard an American plane. Before leaving, he installed a National Council of Government (CNG) headed by General Henri Namphy. The CNG officially disbanded the Tonton Macoutes on February 15 and restored the blue-and-red flag on February 17 — but it kept military control over the entire transition. The date of February 7 became a symbol: it is the day the 1987 Constitution chose for presidents to take and leave office. Yet it was under this same CNG that the Ruelle Vaillant massacre happened on election day in November 1987.</p>
+
+                            <p data-ht="Peryòd 1986-1990 la te yon tan chaos: apre eleksyon fwodile janvye 1988 la, jeneral Namphy te ranvèse Prezidan Leslie Manigat nan yon koudeta jen 1988, answit jeneral Prosper Avril te ranvèse Namphy septanm 1988. Avril li menm te oblije demisyone mas 1990 apre gwo manifestasyon. Se konsa jij Ertha Pascal-Trouillot te vin prezidan pwovizwa — premye fanm nan pòs sa a — ak yon sèl misyon: òganize eleksyon lib desanm 1990 yo. Kat lane, kat chèf deta, yon sèl eleksyon kredib." data-en="The 1986-1990 period was a time of chaos: after the fraudulent January 1988 election, General Namphy overthrew President Leslie Manigat in a June 1988 coup, then General Prosper Avril overthrew Namphy in September 1988. Avril himself was forced to resign in March 1990 after major protests. That is how Judge Ertha Pascal-Trouillot became provisional president — the first woman in that office — with a single mission: to organize the free elections of December 1990. Four years, four heads of state, one credible election.">The 1986-1990 period was a time of chaos: after the fraudulent January 1988 election, General Namphy overthrew President Leslie Manigat in a June 1988 coup, then General Prosper Avril overthrew Namphy in September 1988. Avril himself was forced to resign in March 1990 after major protests. That is how Judge Ertha Pascal-Trouillot became provisional president — the first woman in that office — with a single mission: to organize the free elections of December 1990. Four years, four heads of state, one credible election.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/National_Council_of_Government_(Haiti)" target="_blank" rel="noopener">National Council of Government (Haiti) - Wikipedia</a></li>
+                                    <li><a href="https://www.washingtonpost.com/archive/politics/1986/02/08/duvalierists-predominate-on-new-haitian-council/ed1be77b-42bb-43e7-8ac5-5c22ea852fee/" target="_blank" rel="noopener">Duvalierists Predominate on New Haitian Council - Washington Post (1986)</a></li>
+                                    <li><a href="https://nvdatabase.swarthmore.edu/content/haitians-overthrow-regime-1984-1986" target="_blank" rel="noopener">Haitians overthrow regime, 1984-1986 - Swarthmore Global Nonviolent Action Database</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="period-separator" data-ht="1986-1990: Tranzisyon Difisil" data-en="1986-1990: Difficult Transition">1986-1990: Difficult Transition</div>
+
+                <!-- 1987 Constitutional Referendum -->
+                <div class="election-card" data-type="referendum">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">29 Mas 1987</div>
+                            <span class="election-type" data-ht="Referandòm Konstitisyonèl" data-en="Constitutional Referendum">Constitutional Referendum</span>
+                            <div class="election-winner" data-ht="Konstitisyon 1987 la Apwouve — 99.8% pou" data-en="1987 Constitution Approved — 99.8% yes">1987 Constitution Approved — 99.8% yes</div>
+                            <p class="election-summary" data-ht="Pèp la apwouve Konstitisyon 1987 la ak yon patisipasyon ki depase tout prediksyon" data-en="The people approve the 1987 Constitution with turnout that exceeded all predictions">The people approve the 1987 Constitution with turnout that exceeded all predictions</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Vòt Pou" data-en="Votes For">Votes For</div>
+                                    <div class="detail-value" data-ht="1,268,980 (99.8%)" data-en="1,268,980 (99.8%)">1,268,980 (99.8%)</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value" data-ht="45.4% elektè yo" data-en="45.4% of voters">45.4% of voters</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Kontèks" data-en="Context">Context</div>
+                                    <div class="detail-value" data-ht="Yon lane apre chit Duvalier" data-en="One year after the fall of Duvalier">One year after the fall of Duvalier</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="Kontrèman ak referandòm-teyat Duvalier yo, vòt 29 mas 1987 la te yon vre moman espwa. 1,271,334 moun — 45.4% nan 2.8 milyon elektè yo — te vote, pi plis pase 10% obsèvatè yo te prevwa a, epi yo te apwouve konstitisyon ki toujou an vigè jodi a. Konstitisyon sa a te kreye KEP la (Konsèy Elektoral Pwovizwa) pou òganize eleksyon endepandan, li te separe pouvwa yo, epi li te entèdi referandòm pou chanje konstitisyon an — yon repons dirèk a referandòm fwodile Duvalier yo. Anpil moun te vote wi kòm yon fason pou di non a diktati a pou tout tan." data-en="Unlike the Duvalier theater-referendums, the March 29, 1987 vote was a genuine moment of hope. 1,271,334 people — 45.4% of the 2.8 million eligible voters — cast ballots, far more than the 10% observers had predicted, and approved the constitution still in force today. That constitution created the KEP (Provisional Electoral Council) to organize independent elections, separated the branches of power, and banned referendums to amend the constitution — a direct response to the fraudulent Duvalier referendums. Many voted yes as a way of saying no to dictatorship forever.">Unlike the Duvalier theater-referendums, the March 29, 1987 vote was a genuine moment of hope. 1,271,334 people — 45.4% of the 2.8 million eligible voters — cast ballots, far more than the 10% observers had predicted, and approved the constitution still in force today. That constitution created the KEP (Provisional Electoral Council) to organize independent elections, separated the branches of power, and banned referendums to amend the constitution — a direct response to the fraudulent Duvalier referendums. Many voted yes as a way of saying no to dictatorship forever.</p>
+
+                            <p data-ht="Konstitisyon 1987 la te pote pwomès ki te san parèy nan istwa peyi a: yon prezidan ki pa ka fè de manda youn dèyè lòt, yon Premye Minis ki reskonsab devan Palman an, desantralizasyon ak kolektivite teritoryal yo, rekonesans kreyòl la kòm lang ofisyèl, ak yon lame ki soumèt devan pouvwa sivil la. Prèske 40 lane apre, anpil nan pwomès sa yo poko reyalize — men dokiman sa a rete baz legal tout eleksyon, e se anba li eleksyon 30 out 2026 yo pral fèt." data-en="The 1987 Constitution carried promises unprecedented in the country's history: a president barred from consecutive terms, a Prime Minister accountable to Parliament, decentralization through territorial collectivities, recognition of Creole as an official language, and an army subordinate to civilian power. Nearly 40 years later, many of those promises remain unfulfilled — but the document is still the legal foundation of every election, and it is under this Constitution that the August 30, 2026 elections will be held.">The 1987 Constitution carried promises unprecedented in the country's history: a president barred from consecutive terms, a Prime Minister accountable to Parliament, decentralization through territorial collectivities, recognition of Creole as an official language, and an army subordinate to civilian power. Nearly 40 years later, many of those promises remain unfulfilled — but the document is still the legal foundation of every election, and it is under this Constitution that the August 30, 2026 elections will be held.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/1987_Haitian_constitutional_referendum" target="_blank" rel="noopener">1987 Haitian constitutional referendum - Wikipedia</a></li>
+                                    <li><a href="https://www.washingtonpost.com/archive/politics/1987/03/31/constitution-approved-by-haitian-voters/dd57d7e3-9461-484e-88de-eb88199b1324/" target="_blank" rel="noopener">Constitution Approved by Haitian Voters - Washington Post (1987)</a></li>
+                                    <li><a href="https://www.cidh.org/annualrep/86.87eng/chap.4c.htm" target="_blank" rel="noopener">IACHR Annual Report 1986-1987: Haiti</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1987 Election -->
+                <div class="election-card cancelled" data-type="presidential cancelled">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">29 Novanm 1987</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner" data-ht="ANILE – Masak Ruelle Vaillant" data-en="CANCELLED – Ruelle Vaillant Massacre">CANCELLED – Ruelle Vaillant Massacre</div>
+                            <p class="election-summary" data-ht="Premye eleksyon apre chit Duvalier anile apre masak elektè" data-en="First election after Duvalier fall cancelled after voter massacre">First election after Duvalier fall cancelled after voter massacre</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="violence-box">
+                                <h4 data-ht="Vyolans" data-en="Violence">Violence</h4>
+                                <ul data-ht="<li>Biwo vòt louvri 6è maten</li><li>7:30 maten: Gwoup 50-60 sòlda an sivil ak macoutes atake elektè</li><li>Lekòl Nasyonal Argentine Bellegarde, Ruelle Vaillant, Pòtoprens</li><li>34 mò (ofisyèl) oswa 200+ mò (pa ofisyèl)</li><li>75 moun blese</li><li>Sòlda sèvi ak zam otomatik epi manchèt</li><li>Eleksyon anile apre 3 è</li></ul>" data-en="<li>Polls opened 6am</li><li>7:30am: Group of 50-60 soldiers in civilian clothes and macoutes attack voters</li><li>École Nationale Argentine Bellegarde, Ruelle Vaillant, Port-au-Prince</li><li>34 dead (official) or 200+ dead (unofficial)</li><li>75 wounded</li><li>Soldiers used automatic weapons then machetes</li><li>Election cancelled after 3 hours</li>"><li>Polls opened 6am</li><li>7:30am: Group of 50-60 soldiers in civilian clothes and macoutes attack voters</li><li>École Nationale Argentine Bellegarde, Ruelle Vaillant, Port-au-Prince</li><li>34 dead (official) or 200+ dead (unofficial)</li><li>75 wounded</li><li>Soldiers used automatic weapons then machetes</li><li>Election cancelled after 3 hours</li></ul>
+                            </div>
+
+                            <p data-ht="Jeneral Henri Namphy te nan tèt Konsèy Nasyonal Gouvènman an. Militè a pa t vle pèdi kontwòl sou pwosesis elektoral la. Se te premye fwa depi chit diktati Duvalier an 1986 yo t ap òganize eleksyon demokratik." data-en="General Henri Namphy headed the National Council of Government. The military didn't want to lose control of the electoral process. This was the first attempt to organize democratic elections since Duvalier dictatorship fell in 1986.">General Henri Namphy headed the National Council of Government. The military didn't want to lose control of the electoral process. This was the first attempt to organize democratic elections since Duvalier dictatorship fell in 1986.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/Haitian_general_election,_1987" target="_blank" rel="noopener">1987 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/massacres-perpetrated-20th-century-haiti.html" target="_blank" rel="noopener">Massacres in 20th Century Haiti - Sciences Po</a></li>
+                                    <li><a href="http://radiohaitilives.com/tag/ruelle-vaillant-massacre/" target="_blank" rel="noopener">Ruelle Vaillant Massacre Archives - Radio Haiti</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1988 Election -->
+                <div class="election-card fraudulent" data-type="presidential fraudulent">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">17 Janvye 1988</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner">Leslie Manigat</div>
+                            <p class="election-summary" data-ht="Eleksyon fwodile, Manigat ranvèse pa koudeta apre 4 mwa" data-en="Fraudulent election, Manigat overthrown by coup after 4 months">Fraudulent election, Manigat overthrown by coup after 4 months</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value" data-ht="4-10% (estimasyon obsèvatè)" data-en="4-10% (observer estimates)">4-10% (observer estimates)</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sèmante" data-en="Inaugurated">Inaugurated</div>
+                                    <div class="detail-value" data-ht="Fevriye 1988" data-en="February 1988">February 1988</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Fen" data-en="End">End</div>
+                                    <div class="detail-value" data-ht="Jen 1988 (Koudeta)" data-en="June 1988 (Coup)">June 1988 (Coup)</div>
+                                </div>
+                            </div>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Fwòd ak Kontrovès" data-en="Fraud and Controversy">Fraud and Controversy</h4>
+                                <ul>
+                                    <li data-ht="Patisipasyon ekstrèmman ba (4-10% dapre estimasyon obsèvatè yo)" data-en="Extremely low turnout (4-10% per observer estimates)">Extremely low turnout (4-10% per observer estimates)</li>
+                                    <li data-ht="Eleksyon lajman konsidere fwodile" data-en="Election widely considered fraudulent">Election widely considered fraudulent</li>
+                                    <li data-ht="Militè kontwole pwosesis la" data-en="Military controlled the process">Military controlled the process</li>
+                                    <li data-ht="Pati majè ak lidè demokratik te boykote" data-en="Major parties and democratic leaders boycotted">Major parties and democratic leaders boycotted</li>
+                                </ul>
+                            </div>
+
+                            <p data-ht="Leslie Manigat sèlman rete 4 mwa nan pouvwa. Jeneral Henri Namphy ranvèse li nan yon koudeta jen 1988. Sa montre pwisan militè a te genyen sou politik Ayisyen nan epòk sa a." data-en="Leslie Manigat only stayed in power for 4 months. General Henri Namphy overthrew him in a coup in June 1988. This shows the power the military had over Haitian politics at that time.">Leslie Manigat only stayed in power for 4 months. General Henri Namphy overthrew him in a coup in June 1988. This shows the power the military had over Haitian politics at that time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="period-separator" data-ht="1990-2000: Premye Peryòd Demokratik" data-en="1990-2000: First Democratic Period">1990-2000: First Democratic Period</div>
+
+                <!-- 1990 Election -->
+                <div class="election-card" data-type="presidential">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">16 Desanm 1990</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner">Jean-Bertrand Aristide</div>
+                            <p class="election-summary" data-ht="Premye eleksyon demokratik kont nan istwa Ayiti" data-en="First credible democratic election in Haitian history">First credible democratic election in Haitian history</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value">50-60%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Rezilta" data-en="Results">Results</div>
+                                    <div class="detail-value">Aristide 67%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sèmante" data-en="Inaugurated">Inaugurated</div>
+                                    <div class="detail-value" data-ht="7 Fevriye 1991" data-en="February 7, 1991">February 7, 1991</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="Se te yon viktwa landslide pou Jean-Bertrand Aristide, yon prèt Katolik ki te defann pèp pòv yo. Obsèvatè entènasyonal te konsidere eleksyon an lib ak jis. Se te premye eleksyon demokratik reyèl ann Ayiti." data-en="It was a landslide victory for Jean-Bertrand Aristide, a Catholic priest who advocated for the poor. International observers considered the election free and fair. It was Haiti's first real democratic election.">It was a landslide victory for Jean-Bertrand Aristide, a Catholic priest who advocated for the poor. International observers considered the election free and fair. It was Haiti's first real democratic election.</p>
+
+                            <p data-ht="Se Ertha Pascal-Trouillot, premye fanm prezidan pwovizwa nan istwa Ayiti (mas 1990 - fevriye 1991), ki te òganize eleksyon sa a. Malgre yon tantativ koudeta Roger Lafontant an janvye 1991, li te remèt pouvwa a bay Aristide 7 fevriye 1991 — youn nan raman transfè pasifik bay yon prezidan eli nan istwa modèn peyi a." data-en="It was Ertha Pascal-Trouillot, the first woman provisional president in Haitian history (March 1990 - February 1991), who organized this election. Despite a coup attempt by Roger Lafontant in January 1991, she handed power to Aristide on February 7, 1991 — one of the rare peaceful transfers to an elected president in the country's modern history.">It was Ertha Pascal-Trouillot, the first woman provisional president in Haitian history (March 1990 - February 1991), who organized this election. Despite a coup attempt by Roger Lafontant in January 1991, she handed power to Aristide on February 7, 1991 — one of the rare peaceful transfers to an elected president in the country's modern history.</p>
+
+                            <div class="violence-box">
+                                <h4 data-ht="Koudeta 1991" data-en="1991 Coup">1991 Coup</h4>
+                                <p data-ht="Prèske 8 mwa apre sèmante li, 30 septanm 1991, militè ranvèse Aristide nan yon koudeta. Li te egzile jiska 1994 lè Etazini ede l retounen." data-en="Nearly 8 months after his inauguration, on September 30, 1991, the military overthrew Aristide in a coup. He was exiled until 1994 when the U.S. helped him return.">Nearly 8 months after his inauguration, on September 30, 1991, the military overthrew Aristide in a coup. He was exiled until 1994 when the U.S. helped him return.</p>
+                            </div>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://www.cartercenter.org/documents/electionreports/democracy/finalreporthaiti1990.pdf" target="_blank" rel="noopener">The 1990 General Elections in Haiti - Carter Center</a></li>
+                                    <li><a href="https://aceproject.org/ero-en/regions/americas/HT/haiti-final-report-observing-the-general-elections/view" target="_blank" rel="noopener">Haiti Final Report 1990 - ACE Project</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Ertha_Pascal-Trouillot" target="_blank" rel="noopener">Ertha Pascal-Trouillot - Wikipedia</a></li>
+                                    <li><a href="https://www.everycrsreport.com/reports/93-931.html" target="_blank" rel="noopener">Haiti: Background to the 1991 Overthrow - CRS Report</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1995 Election -->
+                <div class="election-card" data-type="presidential">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">17 Desanm 1995</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner">René Préval</div>
+                            <p class="election-summary" data-ht="Premye tranzisyon pezib ant de prezidan sivil ann Ayiti" data-en="First peaceful transition between two civilian presidents in Haiti">First peaceful transition between two civilian presidents in Haiti</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value">27.8%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Rezilta" data-en="Results">Results</div>
+                                    <div class="detail-value">Préval 88%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sèmante" data-en="Inaugurated">Inaugurated</div>
+                                    <div class="detail-value" data-ht="7 Fevriye 1996" data-en="February 7, 1996">February 7, 1996</div>
+                                </div>
+                            </div>
+
+                            <table class="results-table">
+                                <thead>
+                                    <tr>
+                                        <th data-ht="Kandida" data-en="Candidate">Candidate</th>
+                                        <th data-ht="Pati" data-en="Party">Party</th>
+                                        <th data-ht="Vòt" data-en="Votes">Votes</th>
+                                        <th>%</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="winner">
+                                        <td>René Préval</td>
+                                        <td>Platfòm Politik Lavalas</td>
+                                        <td>817,764</td>
+                                        <td>87.9%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p data-ht="Malgre patisipasyon ba (sèlman 28% votè), se te yon moman istorik: premye fwa nan istwa Ayiti (192 lane) yon prezidan sivil te bay pouvwa a yon lòt prezidan sivil nan lapè. Préval te kandida Aristide ak sipò li." data-en="Despite low turnout (only 28% of voters), it was a historic moment: the first time in Haiti's history (192 years) that one civilian president peacefully transferred power to another civilian president. Préval was Aristide's candidate with his backing.">Despite low turnout (only 28% of voters), it was a historic moment: the first time in Haiti's history (192 years) that one civilian president peacefully transferred power to another civilian president. Préval was Aristide's candidate with his backing.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/1995_Haitian_general_election" target="_blank" rel="noopener">1995 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://clintonwhitehouse6.archives.gov/1996/03/1996-03-21-fact-sheet-on-haiti.html" target="_blank" rel="noopener">Clinton White House Fact Sheet on Haiti 1996</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1997 Legislative -->
+                <div class="election-card cancelled" data-type="legislative cancelled">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">6 Avril 1997</div>
+                            <span class="election-type" data-ht="Eleksyon Lejislatif" data-en="Legislative Election">Legislative Election</span>
+                            <div class="election-winner" data-ht="ANILE — Patisipasyon 5-15%" data-en="ANNULLED — Turnout 5-15%">ANNULLED — Turnout 5-15%</div>
+                            <p class="election-summary" data-ht="Eleksyon lejislatif ki echwe nèt — yo te anile yo apre boykòt ak akizasyon fwòd" data-en="Legislative elections that failed completely — annulled after boycotts and fraud allegations">Legislative elections that failed completely — annulled after boycotts and fraud allegations</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value" data-ht="5-15% elektè yo" data-en="5-15% of voters">5-15% of voters</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Pou Ki Syèj" data-en="Seats Contested">Seats Contested</div>
+                                    <div class="detail-value" data-ht="1/3 Sena + 2 depite" data-en="1/3 of Senate + 2 deputies">1/3 of Senate + 2 deputies</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Konsekans" data-en="Consequence">Consequence</div>
+                                    <div class="detail-value" data-ht="PM Rosny Smarth demisyone" data-en="PM Rosny Smarth resigned">PM Rosny Smarth resigned</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="6 avril 1997, Ayiti te eseye òganize eleksyon pou yon tyè Sena a. Prèske tout pati politik yo te boykote vòt la, epi patisipasyon an te tonbe ant 5% ak 15% sèlman. Apre akizasyon fwòd nan premye tou a, KEP la te ranvwaye dezyèm tou a san dat. Premye Minis Rosny Smarth te demisyone an jen 1997 paske KEP la pa t korije iregilarite yo, epi peyi a te pase prèske dezan san yon gouvènman konplè — Palman an te bloke chak kandida Prezidan Préval te pwopoze pou ranplase li. An 1999, Préval te siyen yon nouvo lwa elektoral ki te anile eleksyon avril 1997 yo nèt. Kriz sa a te montre kijan yon eleksyon rate ka paralize tout Leta a pandan plizyè lane." data-en="On April 6, 1997, Haiti attempted elections for one-third of the Senate. Nearly all political parties boycotted the vote, and turnout fell to just 5-15%. After fraud allegations in the first round, the CEP postponed the runoff indefinitely. Prime Minister Rosny Smarth resigned in June 1997 because the CEP had failed to correct the irregularities, and the country spent nearly two years without a full government — Parliament blocked every candidate President Préval proposed as his replacement. In 1999, Préval signed a new electoral law that annulled the April 1997 elections entirely. This crisis showed how one failed election can paralyze the entire State for years.">On April 6, 1997, Haiti attempted elections for one-third of the Senate. Nearly all political parties boycotted the vote, and turnout fell to just 5-15%. After fraud allegations in the first round, the CEP postponed the runoff indefinitely. Prime Minister Rosny Smarth resigned in June 1997 because the CEP had failed to correct the irregularities, and the country spent nearly two years without a full government — Parliament blocked every candidate President Préval proposed as his replacement. In 1999, Préval signed a new electoral law that annulled the April 1997 elections entirely. This crisis showed how one failed election can paralyze the entire State for years.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/1997_Haitian_parliamentary_election" target="_blank" rel="noopener">1997 Haitian parliamentary election - Wikipedia</a></li>
+                                    <li><a href="http://pdba.georgetown.edu/Elecdata/Haiti/97legis.html" target="_blank" rel="noopener">Haiti: 1997 Legislative Election Results - Georgetown PDBA</a></li>
+                                    <li><a href="https://www.everycrsreport.com/reports/IB96019.html" target="_blank" rel="noopener">Haiti: Issues for Congress - CRS Report</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2000 Legislative -->
+                <div class="election-card fraudulent" data-type="legislative fraudulent">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">21 Me / 9 Jiyè 2000</div>
+                            <span class="election-type" data-ht="Eleksyon Lejislatif" data-en="Legislative Election">Legislative Election</span>
+                            <div class="election-winner">Fanmi Lavalas (Dominasyon)</div>
+                            <p class="election-summary" data-ht="Kontrovès sou konte vòt, Etazini koupe èd ekonomik" data-en="Vote counting controversy, U.S. cut economic aid">Vote counting controversy, U.S. cut economic aid</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sena" data-en="Senate">Senate</div>
+                                    <div class="detail-value">18/19 Fanmi Lavalas</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Chanm Depite" data-en="Chamber of Deputies">Chamber of Deputies</div>
+                                    <div class="detail-value">72/83 Fanmi Lavalas</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value">60%+</div>
+                                </div>
+                            </div>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Kontrovès Konte Vòt" data-en="Vote Counting Controversy">Vote Counting Controversy</h4>
+                                <ul>
+                                    <li data-ht="Konsèy Elektoral itilize sèlman 4 kandida wo a pou kalkile 50%+1" data-en="Electoral Council used only top 4 candidates to calculate 50%+1">Electoral Council used only top 4 candidates to calculate 50%+1</li>
+                                    <li data-ht="OAS te di 10 syèj senatè ta dwe ale nan dezyèm tou" data-en="OAS said 10 senate seats should have gone to runoff">OAS said 10 senate seats should have gone to runoff</li>
+                                    <li data-ht="Metòd kontaj la: KEP la te konte sèlman vòt 4 premye kandida yo — li te inyore anviwon 1.1 milyon vòt — sa ki te fè kandida Lavalas yo depase 50% san dezyèm tou" data-en="The counting method: the CEP counted only votes for the top four candidates — ignoring some 1.1 million ballots — pushing Lavalas candidates past 50% without a runoff">The counting method: the CEP counted only votes for the top four candidates — ignoring some 1.1 million ballots — pushing Lavalas candidates past 50% without a runoff</li>
+                                    <li data-ht="Prezidan KEP la, Léon Manus, te refize sètifye rezilta yo; apre menas li te resevwa, li te oblije kouri kite peyi a" data-en="CEP President Léon Manus refused to certify the results; after receiving threats, he was forced to flee the country">CEP President Léon Manus refused to certify the results; after receiving threats, he was forced to flee the country</li>
+                                    <li data-ht="Opozisyon ak OAS te objekte" data-en="Opposition and OAS objected">Opposition and OAS objected</li>
+                                    <li data-ht="Etazini ak EU koupe èd ekonomik" data-en="U.S. and EU cut economic aid">U.S. and EU cut economic aid</li>
+                                    <li data-ht="Anbago jiska 2005" data-en="Embargo until 2005">Embargo until 2005</li>
+                                </ul>
+                            </div>
+
+                            <p data-ht="Malgre kontrovès la, pifò kòmantatè dakò Fanmi Lavalas ta gen tan genyen dezyèm tou a kanmenm. Men move entèpretasyon lalwa a kreye yon kriz politik major ak anbago ekonomik ki te fè anpil dega pou peyi a." data-en="Despite the controversy, most commentators agree Fanmi Lavalas would likely have won the runoff anyway. But the misinterpretation of the law created a major political crisis and economic embargo that did significant damage to the country.">Despite the controversy, most commentators agree Fanmi Lavalas would likely have won the runoff anyway. But the misinterpretation of the law created a major political crisis and economic embargo that did significant damage to the country.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/2000_Haitian_parliamentary_election" target="_blank" rel="noopener">2000 Haitian parliamentary election - Wikipedia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2000 Presidential -->
+                <div class="election-card fraudulent" data-type="presidential fraudulent">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">26 Novanm 2000</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner">Jean-Bertrand Aristide</div>
+                            <p class="election-summary" data-ht="Viktwa landslide men opozisyon te boykote" data-en="Landslide victory but opposition boycotted">Landslide victory but opposition boycotted</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Rezilta" data-en="Results">Results</div>
+                                    <div class="detail-value">Aristide ~90%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sèmante" data-en="Inaugurated">Inaugurated</div>
+                                    <div class="detail-value" data-ht="7 Fevriye 2001" data-en="February 7, 2001">February 7, 2001</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Fen" data-en="End">End</div>
+                                    <div class="detail-value" data-ht="29 Fevriye 2004 (Egzil)" data-en="February 29, 2004 (Exile)">February 29, 2004 (Exile)</div>
+                                </div>
+                            </div>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Kontrovès" data-en="Controversy">Controversy</h4>
+                                <ul>
+                                    <li data-ht="Opozisyon te òganize nan 'Convergence Démocratique' te boykote" data-en="Opposition organized in 'Convergence Démocratique' boycotted">Opposition organized in 'Convergence Démocratique' boycotted</li>
+                                    <li data-ht="Eleksyon soti nan kriz elektoral lejislatif Me 2000" data-en="Election came out of May 2000 legislative electoral crisis">Election came out of May 2000 legislative electoral crisis</li>
+                                    <li data-ht="Patisipasyon ba akoz boykòt" data-en="Low participation due to boycott">Low participation due to boycott</li>
+                                </ul>
+                            </div>
+
+                            <p data-ht="Aristide te retounen prezidan nan yon eleksyon ki pa te gen konpetisyon reyèl. 7 nan 8 senatè ki te nan kont te demisyone apre, epi Aristide te pwopoze eleksyon pou pozisyon yo. Men tansyon politik te kontinye monte jiska 2004 lè li te fòse egzile ankò." data-en="Aristide returned to presidency in an election without real competition. 7 of 8 disputed senators resigned after, and Aristide proposed elections for their positions. But political tensions continued rising until 2004 when he was forced into exile again.">Aristide returned to presidency in an election without real competition. 7 of 8 disputed senators resigned after, and Aristide proposed elections for their positions. But political tensions continued rising until 2004 when he was forced into exile again.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide" target="_blank" rel="noopener">Jean-Bertrand Aristide - Wikipedia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="period-separator" data-ht="2006-2016: Nouvo Eseya Demokratik" data-en="2006-2016: New Democratic Attempt">2006-2016: New Democratic Attempt</div>
+
+                <!-- 2006 Election -->
+                <div class="election-card" data-type="presidential">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">7 Fevriye 2006</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner">René Préval (Dezyèm Manda)</div>
+                            <p class="election-summary" data-ht="Patisipasyon 60%, viktwa apre kontrovès sou vòt vid" data-en="60% turnout, victory after controversy over blank votes">60% turnout, victory after controversy over blank votes</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value">~60%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Rezilta Final" data-en="Final Result">Final Result</div>
+                                    <div class="detail-value">Préval 51.15%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sèmante" data-en="Inaugurated">Inaugurated</div>
+                                    <div class="detail-value" data-ht="14 Me 2006" data-en="May 14, 2006">May 14, 2006</div>
+                                </div>
+                            </div>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Kontrovès Vòt Vid" data-en="Blank Vote Controversy">Blank Vote Controversy</h4>
+                                <ul>
+                                    <li data-ht="Orijinalman Préval te gen 48.8%, mwens pase 50% ki nesesè" data-en="Originally Préval had 48.8%, less than needed 50%">Originally Préval had 48.8%, less than needed 50%</li>
+                                    <li data-ht="Balòt make ak sak vòt jwenn nan fatra" data-en="Marked ballots and voting bags found in trash">Marked ballots and voting bags found in trash</li>
+                                    <li data-ht="Sipòtè Préval manifestasyon, pale de fwòd" data-en="Préval supporters protested, spoke of fraud">Préval supporters protested, spoke of fraud</li>
+                                    <li data-ht="Apre ekskli vòt vid yo, Préval deklare genyen ak 51.15%" data-en="After excluding blank votes, Préval declared winner with 51.15%">After excluding blank votes, Préval declared winner with 51.15%</li>
+                                </ul>
+                            </div>
+
+                            <p data-ht="Se te retou Préval nan pouvwa apre senk lane. Malgre tansyon inisyal sou konte a, obsèvatè entènasyonal te asepte rezilta final la. Préval te sèvi dezyèm manda li konplè jiska 2011." data-en="It was Préval's return to power after five years. Despite initial tensions over the count, international observers accepted the final results. Préval served his complete second term until 2011.">It was Préval's return to power after five years. Despite initial tensions over the count, international observers accepted the final results. Préval served his complete second term until 2011.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/Haitian_general_election,_2006" target="_blank" rel="noopener">2006 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://edition.cnn.com/2006/WORLD/americas/02/16/haiti/index.html" target="_blank" rel="noopener">Preval declared winner - CNN 2006</a></li>
+                                    <li><a href="https://pdba.georgetown.edu/Elecdata/Haiti/06pres.html" target="_blank" rel="noopener">Haiti 2006 Presidential - Georgetown University</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2009 Senate -->
+                <div class="election-card" data-type="legislative">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">19 Avril / 21 Jen 2009</div>
+                            <span class="election-type" data-ht="Eleksyon Sena Pasyèl" data-en="Partial Senate Election">Partial Senate Election</span>
+                            <div class="election-winner" data-ht="Patisipasyon ~11%" data-en="Turnout ~11%">Turnout ~11%</div>
+                            <p class="election-summary" data-ht="Eleksyon pou yon tyè Sena a — Fanmi Lavalas ekskli, pèp la rete lakay" data-en="Election for one-third of the Senate — Fanmi Lavalas excluded, the people stayed home">Election for one-third of the Senate — Fanmi Lavalas excluded, the people stayed home</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value" data-ht="~11% (premye tou)" data-en="~11% (first round)">~11% (first round)</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Pou Ki Syèj" data-en="Seats Contested">Seats Contested</div>
+                                    <div class="detail-value" data-ht="12 syèj Sena" data-en="12 Senate seats">12 Senate seats</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Kandida Ekskli" data-en="Candidates Excluded">Candidates Excluded</div>
+                                    <div class="detail-value" data-ht="40, ladan yo tout 17 kandida Fanmi Lavalas" data-en="40, including all 17 Fanmi Lavalas candidates">40, including all 17 Fanmi Lavalas candidates</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="19 avril 2009, Ayiti te vote pou yon tyè Sena a. Men KEP la te ekskli 40 kandida, ladan yo tout 17 kandida Fanmi Lavalas — pati ki te gen plis sipò popilè nan peyi a — pou rezon pwosedi yo te konteste anpil. Lavalas te reponn ak yon kanpay boykòt yo te rele Operasyon Pòt Fèmen 2, epi patisipasyon an te tonbe a anviwon 11% sèlman. Eksklizyon pati politik ak patisipasyon ki ba anpil — se de pwoblèm ki t ap repete nan eleksyon 2010 ak 2015 yo, epi ki te kontinye febli lejitimite Palman an jiska li te disparèt nèt an 2020." data-en="On April 19, 2009, Haiti voted for one-third of the Senate. But the CEP excluded 40 candidates, including all 17 from Fanmi Lavalas — the party with the most popular support in the country — on heavily contested procedural grounds. Lavalas responded with a boycott campaign called Operation Closed Door 2, and turnout fell to only about 11%. Party exclusion and very low participation — two problems that would repeat in the 2010 and 2015 elections, and that kept weakening Parliament's legitimacy until it disappeared entirely in 2020.">On April 19, 2009, Haiti voted for one-third of the Senate. But the CEP excluded 40 candidates, including all 17 from Fanmi Lavalas — the party with the most popular support in the country — on heavily contested procedural grounds. Lavalas responded with a boycott campaign called Operation Closed Door 2, and turnout fell to only about 11%. Party exclusion and very low participation — two problems that would repeat in the 2010 and 2015 elections, and that kept weakening Parliament's legitimacy until it disappeared entirely in 2020.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/2009_Haitian_Senate_election" target="_blank" rel="noopener">2009 Haitian Senate election - Wikipedia</a></li>
+                                    <li><a href="http://archive.ipu.org/parline-e/reports/arc/2138_09.htm" target="_blank" rel="noopener">Haiti Sénat: Elections in 2009 - IPU PARLINE</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2010-2011 Election -->
+                <div class="election-card fraudulent" data-type="presidential fraudulent">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">28 Novanm 2010 / 20 Mas 2011</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner">Michel Martelly ("Sweet Micky")</div>
+                            <p class="election-summary" data-ht="Kontrovès major, OEA (OAS) entèvni, patisipasyon ~22-23% dezyèm tou" data-en="Major controversy, OEA (OAS) intervention, ~22-23% turnout second round">Major controversy, OEA (OAS) intervention, ~22-23% turnout second round</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Dezyèm Tou" data-en="Runoff">Runoff</div>
+                                    <div class="detail-value">Martelly 67.6%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon Dezyèm Tou" data-en="Runoff Turnout">Runoff Turnout</div>
+                                    <div class="detail-value">~22-23%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sèmante" data-en="Inaugurated">Inaugurated</div>
+                                    <div class="detail-value" data-ht="14 Me 2011" data-en="May 14, 2011">May 14, 2011</div>
+                                </div>
+                            </div>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Kontrovès Premye Tou" data-en="First Round Controversy">First Round Controversy</h4>
+                                <ul>
+                                    <li data-ht="Rezilta inisyal: Manigat (31.4%), Célestin (22.5%), Martelly (21.8%)" data-en="Initial results: Manigat (31.4%), Célestin (22.5%), Martelly (21.8%)">Initial results: Manigat (31.4%), Célestin (22.5%), Martelly (21.8%)</li>
+                                    <li data-ht="Sipòtè Martelly te fè manifestasyon vyolan" data-en="Martelly supporters rioted violently">Martelly supporters rioted violently</li>
+                                    <li data-ht="OAS te konklui te gen fwòd nan konte vòt" data-en="OAS concluded there was fraud in vote counting">OAS concluded there was fraud in vote counting</li>
+                                    <li data-ht="Konsèy Elektoral retire Célestin, mete Martelly nan dezyèm tou" data-en="Electoral Council removed Célestin, put Martelly in runoff">Electoral Council removed Célestin, put Martelly in runoff</li>
+                                    <li data-ht="Kèk analiz di rapò OAS te estatistikman fo" data-en="Some analyses say OAS report was statistically flawed">Some analyses say OAS report was statistically flawed</li>
+                                </ul>
+                            </div>
+
+                            <p data-ht="Eleksyon sa a te rive apre tranbleman tè terib 12 janvye 2010. Malgre viktwa Martelly, patisipasyon te tèlman ba li te resevwa vòt mwens pase 17% elektora a nan dezyèm tou. Kontrovès sou entèvansyon OAS kontinye jiska jounen jodi a." data-en="This election came after the terrible January 12, 2010 earthquake. Despite Martelly's victory, turnout was so low he received votes from less than 17% of the electorate in the runoff. Controversy over OAS intervention continues to this day.">This election came after the terrible January 12, 2010 earthquake. Despite Martelly's victory, turnout was so low he received votes from less than 17% of the electorate in the runoff. Controversy over OAS intervention continues to this day.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/2010–11_Haitian_general_election" target="_blank" rel="noopener">2010-11 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://www.npr.org/2010/12/15/132051764/haiti-on-edge-amid-disputed-election-results" target="_blank" rel="noopener">Haiti On Edge Amid Disputed Results - NPR</a></li>
+                                    <li><a href="https://www.oas.org/en/media_center/press_release.asp?sCodigo=E-509/11" target="_blank" rel="noopener">OAS Expert Mission Verification Report 2011</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2015 Election Cancelled -->
+                <div class="election-card cancelled" data-type="presidential cancelled">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">25 Oktòb 2015</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl (Premye Tou)" data-en="Presidential Election (First Round)">Presidential Election (First Round)</span>
+                            <div class="election-winner" data-ht="ANILE – Alegasyon Fwod" data-en="CANCELLED – Fraud Allegations">CANCELLED – Fraud Allegations</div>
+                            <p class="election-summary" data-ht="Dezyèm tou anile, eleksyon konplè rejete jen 2016" data-en="Runoff cancelled, entire election annulled June 2016">Runoff cancelled, entire election annulled June 2016</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Rezilta Ofisyèl" data-en="Official Results">Official Results</div>
+                                    <div class="detail-value">Moïse 32.8%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Exit Poll (Konteste, Pa Verifye)" data-en="Exit Poll (Disputed, Unverified)">Exit Poll (Disputed, Unverified)</div>
+                                    <div class="detail-value">Moïse 6%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Dezyèm Tou" data-en="Runoff">Runoff</div>
+                                    <div class="detail-value" data-ht="Anile" data-en="Cancelled">Cancelled</div>
+                                </div>
+                            </div>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Alegasyon Fwòd" data-en="Fraud Allegations">Fraud Allegations</h4>
+                                <ul>
+                                    <li data-ht="Yon exit poll konteste Haiti Sentinel (yon sous patizan, ki pa verifye) te di Moïse te resevwa 6%, pa 32.8%" data-en="A disputed Haiti Sentinel exit poll (a partisan, unverified source) claimed Moïse received 6%, not 32.8%">A disputed Haiti Sentinel exit poll (a partisan, unverified source) claimed Moïse received 6%, not 32.8%</li>
+                                    <li data-ht="Milye moun pran lari nan manifestasyon vyolan" data-en="Thousands took to streets in violent protests">Thousands took to streets in violent protests</li>
+                                    <li data-ht="Dezyèm tou ki te planifye pou desanm 2015 te anile" data-en="Runoff planned for December 2015 was cancelled">Runoff planned for December 2015 was cancelled</li>
+                                    <li data-ht="Manda Prezidan Martelly te fini 7 fevriye 2016 san yon siksesè eli" data-en="President Martelly's term ended February 7, 2016 with no elected successor">President Martelly's term ended February 7, 2016 with no elected successor</li>
+                                    <li data-ht="Komisyon Verifikasyon kreye pa Privert odit 13,000 balòt" data-en="Verification Commission created by Privert audited 13,000 ballots">Verification Commission created by Privert audited 13,000 ballots</li>
+                                    <li data-ht="Me 2016: Komisyon deklare eleksyon te malonèt, rekòmande eleksyon konplè refè" data-en="May 2016: Commission declared elections dishonest, recommended complete rerun">May 2016: Commission declared elections dishonest, recommended complete rerun</li>
+                                    <li data-ht="Jen 2016: Eleksyon 2015 la rejete konplètman" data-en="June 2016: 2015 election completely annulled">June 2016: 2015 election completely annulled</li>
+                                </ul>
+                            </div>
+
+                            <p data-ht="Se te yon kriz elektoral major. Diferans ant rezilta ofisyèl yo ak yon exit poll konteste, ki pa t verifye, te ogmante sispisyon fwòd masif. Apre mwa manifestasyon ak yon komisyon verifikasyon, eleksyon an te rejete konplètman epi yo te òganize nouvo eleksyon an 2016." data-en="This was a major electoral crisis. The difference between official results and a disputed, unverified exit poll fueled suspicions of massive fraud. After months of protests and a verification commission, the election was completely annulled and a new election was organized in 2016.">This was a major electoral crisis. The difference between official results and a disputed, unverified exit poll fueled suspicions of massive fraud. After months of protests and a verification commission, the election was completely annulled and a new election was organized in 2016.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://en.wikipedia.org/wiki/2015_Haitian_presidential_election" target="_blank" rel="noopener">2015 Haitian presidential election - Wikipedia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2016 Election -->
+                <div class="election-card" data-type="presidential">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">20 Novanm 2016</div>
+                            <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Presidential Election</span>
+                            <div class="election-winner">Jovenel Moïse</div>
+                            <p class="election-summary" data-ht="Dènye eleksyon ann Ayiti, patisipasyon 21%" data-en="Haiti's last election, 21% turnout">Haiti's last election, 21% turnout</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Patisipasyon" data-en="Turnout">Turnout</div>
+                                    <div class="detail-value">~21%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Rezilta" data-en="Results">Results</div>
+                                    <div class="detail-value">Moïse 55.60%</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sèmante" data-en="Inaugurated">Inaugurated</div>
+                                    <div class="detail-value" data-ht="7 Fevriye 2017" data-en="February 7, 2017">February 7, 2017</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Asasine" data-en="Assassinated">Assassinated</div>
+                                    <div class="detail-value" data-ht="7 Jiyè 2021" data-en="July 7, 2021">July 7, 2021</div>
+                                </div>
+                            </div>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Iregilarite" data-en="Irregularities">Irregularities</h4>
+                                <ul>
+                                    <li data-ht="Tribinal elektoral jwenn 'kèk iregilarite' men pa ase pou chanje rezilta" data-en="Electoral tribunal found 'some irregularities' but not enough to change outcome">Electoral tribunal found 'some irregularities' but not enough to change outcome</li>
+                                    <li data-ht="Etazini retire finansman pou tou oktòb 2016" data-en="U.S. withdrew funding for October 2016 round">U.S. withdrew funding for October 2016 round</li>
+                                    <li data-ht="Patisipasyon ekstrèmman ba (21%)" data-en="Extremely low turnout (21%)">Extremely low turnout (21%)</li>
+                                </ul>
+                            </div>
+
+                            <p data-ht="Jovenel Moïse te sèmante 7 fevriye 2017. Manda li te make pa kriz politik kontinye, gouvènman pa dekrè (Palman te egzpire 2020), ak eskaladasyon vyolans gang. Li te asasine 7 jiyè 2021 nan rezidans prive li pa yon gwoup mèsenè. Se te dènye eleksyon ann Ayiti jiska kounye a." data-en="Jovenel Moïse was inaugurated February 7, 2017. His term was marked by continued political crisis, rule by decree (Parliament expired 2020), and escalating gang violence. He was assassinated July 7, 2021 at his private residence by a group of mercenaries. This was Haiti's last election to date.">Jovenel Moïse was inaugurated February 7, 2017. His term was marked by continued political crisis, rule by decree (Parliament expired 2020), and escalating gang violence. He was assassinated July 7, 2021 at his private residence by a group of mercenaries. This was Haiti's last election to date.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://www.aljazeera.com/news/2017/4/11/haiti-jovenel-moise-confirmed-as-new-president" target="_blank" rel="noopener">Haiti: Jovenel Moise confirmed - Al Jazeera</a></li>
+                                    <li><a href="https://www.ifes.org/news/haitis-2016-presidential-election-another-step-toward-democracy" target="_blank" rel="noopener">Haiti's 2016 Presidential Election - IFES</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2016 Legislative -->
+                <div class="election-card" data-type="legislative">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">Novanm 2016 / Janvye 2017</div>
+                            <span class="election-type" data-ht="Eleksyon Lejislatif" data-en="Legislative Elections">Legislative Elections</span>
+                            <div class="election-winner">PHTK ak Alye (Majorite)</div>
+                            <p class="election-summary" data-ht="Dènye eleksyon pou Palman, ki egzpire 2020" data-en="Last elections for Parliament, which expired 2020">Last elections for Parliament, which expired 2020</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Sena" data-en="Senate">Senate</div>
+                                    <div class="detail-value">~20/30 PHTK/Alye</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Chanm Depite" data-en="Chamber of Deputies">Chamber of Deputies</div>
+                                    <div class="detail-value">60+/119 PHTK/Alye</div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-label" data-ht="Egzpirasyon" data-en="Expiration">Expiration</div>
+                                    <div class="detail-value" data-ht="Janvye 2020" data-en="January 2020">January 2020</div>
+                                </div>
+                            </div>
+
+                            <p data-ht="PHTK (Haitian Tèt Kale Party), pati Prezidan Martelly ak Moïse, ansanm ak alye yo (KID, AAA, Bouclier, Consortium) te genyen majorite nan de chanm yo. Eleksyon ki te sipoze pase an 2019 pou renouvle 1/3 Sena a pa t janm rive. Palman te egzpire janvye 2020, kite Prezidan Moïse gouvène pa dekrè san lejislatif." data-en="PHTK (Haitian Tèt Kale Party), party of Presidents Martelly and Moïse, together with allies (KID, AAA, Bouclier, Consortium) won majorities in both chambers. Elections supposed to happen in 2019 to renew 1/3 of Senate never occurred. Parliament expired January 2020, leaving President Moïse to rule by decree without legislature.">PHTK (Haitian Tèt Kale Party), party of Presidents Martelly and Moïse, together with allies (KID, AAA, Bouclier, Consortium) won majorities in both chambers. Elections supposed to happen in 2019 to renew 1/3 of Senate never occurred. Parliament expired January 2020, leaving President Moïse to rule by decree without legislature.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://data.ipu.org/parliament/HT/HT-UC01/election/HT-UC01-E20161120/" target="_blank" rel="noopener">Haiti Senate 2016 - IPU Parline</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/2015–16_Haitian_parliamentary_election" target="_blank" rel="noopener">2015-16 Haitian parliamentary election - Wikipedia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="period-separator" data-ht="2017-2026: Kriz Elektoral" data-en="2017-2026: Electoral Crisis">2017-2026: Electoral Crisis</div>
+
+                <!-- No Elections Since 2016 -->
+                <div class="election-card cancelled" data-type="presidential cancelled">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">2017-2026</div>
+                            <span class="election-type" data-ht="Pa Gen Eleksyon" data-en="No Elections">No Elections</span>
+                            <div class="election-winner" data-ht="PRÈSKE 10 LANE SAN ELEKSYON" data-en="NEARLY 10 YEARS WITHOUT ELECTIONS">NEARLY 10 YEARS WITHOUT ELECTIONS</div>
+                            <p class="election-summary" data-ht="Ayiti pa gen okenn ofisyèl eli: pa gen Prezidan, Palman, ni Mè" data-en="Haiti has no elected officials: no President, Parliament, or Mayors">Haiti has no elected officials: no President, Parliament, or Mayors</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <div class="violence-box">
+                                <h4 data-ht="Evènman Kle" data-en="Key Events">Key Events</h4>
+                                <ul>
+                                    <li data-ht="Oktòb 2019: Eleksyon lejislatif yo pa t fèt akoz blokaj politik" data-en="October 2019: Legislative elections not held due to political gridlock">October 2019: Legislative elections not held due to political gridlock</li>
+                                    <li data-ht="13 Janvye 2020: Manda Chanm Depite a ak 2/3 Sena a ekspire — Moïse gouvène pa dekrè" data-en="January 13, 2020: The Chamber of Deputies and two-thirds of the Senate expire — Moïse rules by decree">January 13, 2020: The Chamber of Deputies and two-thirds of the Senate expire — Moïse rules by decree</li>
+                                    <li data-ht="7 Jiyè 2021: Asasinasyon Prezidan Jovenel Moïse" data-en="July 7, 2021: Assassination of President Jovenel Moïse">July 7, 2021: Assassination of President Jovenel Moïse</li>
+                                    <li data-ht="2021-2024: Ariel Henry vin Premye Minis san lejitimite eli" data-en="2021-2024: Ariel Henry becomes Prime Minister without elected legitimacy">2021-2024: Ariel Henry becomes Prime Minister without elected legitimacy</li>
+                                    <li data-ht="Mas 2024: Kreye Konsèy Prezidansyèl Tranzisyonèl (CPT), 9 manm" data-en="March 2024: Creation of Transitional Presidential Council (CPT), 9 members">March 2024: Creation of Transitional Presidential Council (CPT), 9 members</li>
+                                    <li data-ht="2021-2025: Vyolans gang eskale, 80%+ Pòtoprens kontwole pa gang" data-en="2021-2025: Gang violence escalates, 80%+ Port-au-Prince controlled by gangs">2021-2025: Gang violence escalates, 80%+ Port-au-Prince controlled by gangs</li>
+                                    <li data-ht="Oktòb 2025: Pwojè referandòm konstitisyonèl la abandone — eleksyon yo ap fèt anba Konstitisyon 1987 la" data-en="October 2025: The constitutional referendum project abandoned — elections will be held under the 1987 Constitution">October 2025: The constitutional referendum project abandoned — elections will be held under the 1987 Constitution</li>
+                                    <li data-ht="7 Fevriye 2026: CPT a kraze; Premye Minis Fils-Aimé sèl egzekitif" data-en="February 7, 2026: The CPT dissolves; Prime Minister Fils-Aimé sole executive">February 7, 2026: The CPT dissolves; Prime Minister Fils-Aimé sole executive</li>
+                                </ul>
+                            </div>
+
+                            <div class="controversy-box">
+                                <h4 data-ht="Rezon Pa Gen Eleksyon" data-en="Reasons for No Elections">Reasons for No Elections</h4>
+                                <ul>
+                                    <li data-ht="Ensèkirite: Gang kontwole gwo pati peyi a" data-en="Insecurity: Gangs control large part of country">Insecurity: Gangs control large part of country</li>
+                                    <li data-ht="Mank finansman: Pa gen lajan pou achte materyèl ak peye anplwaye" data-en="Lack of funding: No money to buy materials and pay staff">Lack of funding: No money to buy materials and pay staff</li>
+                                    <li data-ht="CEP pa fonksyone kòrèkteman" data-en="CEP not functioning properly">CEP not functioning properly</li>
+                                    <li data-ht="Enfrasti elektoral detwi" data-en="Electoral infrastructure destroyed">Electoral infrastructure destroyed</li>
+                                    <li data-ht="Lis elektoral pa aktyalize" data-en="Electoral lists not updated">Electoral lists not updated</li>
+                                    <li data-ht="Kriz politik ak mank akò ant aktè politik yo" data-en="Political crisis and lack of agreement among political actors">Political crisis and lack of agreement among political actors</li>
+                                </ul>
+                            </div>
+
+                            <p data-ht="Depi 2016, Ayiti pa janm òganize okenn eleksyon, e peyi a pa gen okenn ofisyèl eli nan okenn nivo gouvènman an. CPT la, ki te kreye mas 2024, te fini misyon li 7 fevriye 2026. Jounen jodi a, se Premye Minis enterimè Alix Didier Fils-Aimé ki sèl chèf egzekitif la, anba akò yo rele 'Pak Nasyonal' la." data-en="Since 2016, Haiti has not organized any election, and the country has no elected officials at any level of government. The CPT, created in March 2024, was dissolved on February 7, 2026. Today, acting Prime Minister Alix Didier Fils-Aimé is the sole executive, under the agreement known as the 'National Pact'.">Since 2016, Haiti has not organized any election, and the country has no elected officials at any level of government. The CPT, created in March 2024, was dissolved on February 7, 2026. Today, acting Prime Minister Alix Didier Fils-Aimé is the sole executive, under the agreement known as the 'National Pact'.</p>
+
+                            <p data-ht="Kalandriye final CEP a fikse premye tou eleksyon yo pou 30 out 2026, ak dezyèm tou a ansanm ak eleksyon minisipal yo pou 6 desanm 2026. Men, enskripsyon elektè yo ak kandida yo, ki te planifye pou avril-jen 2026, te ranvwaye an avril 2026 apre gouvènman an te sispann pwosesis la nan yon dezakò sou dekrè elektoral la ak bidjè CEP a — pa gen nouvo dat ankò. CEP a te apwouve 282 pati ak kowalisyon sou 320 ki te enskri (mas 2026). Men, vòt la toujou depann de sekirite ak finansman." data-en="The CEP's final calendar sets the first round of elections for August 30, 2026, with the runoff and municipal elections on December 6, 2026. However, voter and candidate registration, planned for April-June 2026, was postponed in April 2026 after the government paused the process in a dispute over the electoral decree and the CEP's budget — no new dates yet. The CEP approved 282 of the 320 parties and coalitions that registered (March 2026). However, the vote still depends on security and financing.">The CEP's final calendar sets the first round of elections for August 30, 2026, with the runoff and municipal elections on December 6, 2026. However, voter and candidate registration, planned for April-June 2026, was postponed in April 2026 after the government paused the process in a dispute over the electoral decree and the CEP's budget — no new dates yet. The CEP approved 282 of the 320 parties and coalitions that registered (March 2026). However, the vote still depends on security and financing.</p>
+
+                            <p data-ht="De bagay enpòtan pou chak elektè konnen. Premyèman: pwojè nouvo konstitisyon an, ki te dwe pase nan yon referandòm, te abandone ofisyèlman an oktòb 2025 — kidonk eleksyon 2026 yo ap fèt anba Konstitisyon 1987 la, epi se KEP la (Konsèy Elektoral Pwovizwa) k ap òganize yo. Dezyèmman: pou vote 30 out 2026, chak sitwayen dwe genyen kat idantite byometrik CINU a, ke ONI (Office National d'Identification) bay gratis nan biwo li yo — ansyen kat CIN yo pa valab ankò depi oktòb 2020, epi ni paspò ni NIF pa ka sèvi pou vote." data-en="Two important things every voter should know. First: the new-constitution project, which was to pass through a referendum, was officially abandoned in October 2025 — so the 2026 elections will be held under the 1987 Constitution, organized by the KEP (Provisional Electoral Council). Second: to vote on August 30, 2026, every citizen must hold the CINU biometric identity card, issued free by ONI (Office National d'Identification) at its offices — old CIN cards have not been valid since October 2020, and neither passports nor NIF cards can be used to vote.">Two important things every voter should know. First: the new-constitution project, which was to pass through a referendum, was officially abandoned in October 2025 — so the 2026 elections will be held under the 1987 Constitution, organized by the KEP (Provisional Electoral Council). Second: to vote on August 30, 2026, every citizen must hold the CINU biometric identity card, issued free by ONI (Office National d'Identification) at its offices — old CIN cards have not been valid since October 2020, and neither passports nor NIF cards can be used to vote.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://www.aljazeera.com/news/2020/1/13/political-vacuum-in-haiti-could-let-president-rule-by-decree" target="_blank" rel="noopener">Political vacuum in Haiti could let president rule by decree - Al Jazeera (2020)</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Ariel_Henry" target="_blank" rel="noopener">Ariel Henry - Wikipedia</a></li>
+                                    <li><a href="https://haitiantimes.com/2025/10/13/haiti-constitutional-referendum/" target="_blank" rel="noopener">Haiti abandons constitutional referendum - The Haitian Times (2025)</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/2026_Haitian_general_election" target="_blank" rel="noopener">2026 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://haitiantimes.com/2026/01/06/haiti-cep-maintains-elections-august-30-2026/" target="_blank" rel="noopener">CEP revises calendar, keeps Aug. 30 vote date - The Haitian Times (2026)</a></li>
+                                    <li><a href="https://oni.gouv.ht/la-carte-didentification-nationale/" target="_blank" rel="noopener">La Carte d'Identification Nationale (CINU) - ONI</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class="period-separator" data-ht="Patisipasyon nan Eleksyon (1987-2016)" data-en="Voter Turnout (1987-2016)">Voter Turnout (1987-2016)</div>
+                <div style="padding: 1rem 0 2rem 0;">
+                    <svg viewBox="0 0 640 240" role="img" aria-label="Patisipasyon nan eleksyon Ayiti 1987-2016" style="width:100%; max-width:640px; display:block; margin:0 auto;">
+                        <line x1="40" y1="200" x2="620" y2="200" stroke="#999" stroke-width="1"></line>
+                        <line x1="40" y1="200" x2="40" y2="20" stroke="#999" stroke-width="1"></line>
+                        <text x="8" y="205" font-size="10" fill="#666">0%</text>
+                        <text x="8" y="115" font-size="10" fill="#666">35%</text>
+                        <text x="8" y="28" font-size="10" fill="#666">70%</text>
+                        <rect x="55" y="84" width="40" height="116" fill="#1e40af"></rect><text x="75" y="215" font-size="10" text-anchor="middle" fill="#333">1987</text><text x="75" y="78" font-size="10" text-anchor="middle" fill="#333">45%</text>
+                        <rect x="120" y="182" width="40" height="18" fill="#b91c1c"></rect><text x="140" y="215" font-size="10" text-anchor="middle" fill="#333">1988</text><text x="140" y="176" font-size="10" text-anchor="middle" fill="#333">4-10%</text>
+                        <rect x="185" y="59" width="40" height="141" fill="#1e40af"></rect><text x="205" y="215" font-size="10" text-anchor="middle" fill="#333">1990</text><text x="205" y="53" font-size="10" text-anchor="middle" fill="#333">50-60%</text>
+                        <rect x="250" y="129" width="40" height="71" fill="#1e40af"></rect><text x="270" y="215" font-size="10" text-anchor="middle" fill="#333">1995</text><text x="270" y="123" font-size="10" text-anchor="middle" fill="#333">28%</text>
+                        <rect x="315" y="46" width="40" height="154" fill="#1e40af"></rect><text x="335" y="215" font-size="10" text-anchor="middle" fill="#333">2006</text><text x="335" y="40" font-size="10" text-anchor="middle" fill="#333">60%</text>
+                        <rect x="380" y="172" width="40" height="28" fill="#b91c1c"></rect><text x="400" y="215" font-size="10" text-anchor="middle" fill="#333">2009</text><text x="400" y="166" font-size="10" text-anchor="middle" fill="#333">~11%</text>
+                        <rect x="445" y="142" width="40" height="58" fill="#1e40af"></rect><text x="465" y="215" font-size="10" text-anchor="middle" fill="#333">2010-11</text><text x="465" y="136" font-size="10" text-anchor="middle" fill="#333">~22%</text>
+                        <rect x="510" y="146" width="40" height="54" fill="#1e40af"></rect><text x="530" y="215" font-size="10" text-anchor="middle" fill="#333">2015</text><text x="530" y="140" font-size="10" text-anchor="middle" fill="#333">26%</text>
+                        <rect x="575" y="146" width="40" height="54" fill="#b91c1c"></rect><text x="595" y="215" font-size="10" text-anchor="middle" fill="#333">2016</text><text x="595" y="140" font-size="10" text-anchor="middle" fill="#333">21%</text>
+                    </svg>
+                    <p style="text-align:center; font-size:0.8rem; color: var(--gray-600); margin-top:0.75rem;" data-ht="Pousantaj elektè ki te vote nan gwo vòt nasyonal yo, dapre chif ki nan paj sa a. Wouj = eleksyon ki te gen boykòt oswa gwo kontestasyon." data-en="Share of voters who voted in major national votes, per the figures on this page. Red = elections with boycotts or major disputes.">Share of voters who voted in major national votes, per the figures on this page. Red = elections with boycotts or major disputes.</p>
+                </div>
+                <!-- Lessons of Electoral History -->
+                <div class="election-card" data-type="analysis">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
+                        <div class="election-info">
+                            <div class="election-date">1918-2026</div>
+                            <span class="election-type" data-ht="Analiz" data-en="Analysis">Analysis</span>
+                            <div class="election-winner" data-ht="Leson Istwa Elektoral la" data-en="Lessons of Electoral History">Lessons of Electoral History</div>
+                            <p class="election-summary" data-ht="Sa plis pase 100 lane eleksyon montre nou — epi sa sa vle di pou 30 out 2026" data-en="What more than 100 years of elections show us — and what it means for August 30, 2026">What more than 100 years of elections show us — and what it means for August 30, 2026</p>
+                        </div>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="election-details">
+                        <div class="election-body">
+                            <p data-ht="Lè nou gade tout istwa a ansanm, kèk modèl parèt klè. Premye modèl la: vòt san chwa pa demokrasi. Plebisit 1918 la, eleksyon yon-sèl-kandida 1950 la, ak referandòm Duvalier yo tout te bay rezilta 99% — men okenn nan yo pa t reprezante volonte pèp la. Dezyèm modèl la: se patisipasyon ki bay lejitimite. Gwo moman demokratik yo — referandòm mas 1987 la (45.4%), eleksyon desanm 1990 la, ak eleksyon 2006 la (~60%) — se moman pèp la te deplase an mas. Okontrè, eleksyon ki fèt ak 5-11% patisipasyon (1988, 1997, 2009) te pwodui enstitisyon fèb ki pa t ka reziste kriz." data-en="Looking at the whole history together, clear patterns emerge. First pattern: a vote without choice is not democracy. The 1918 plebiscite, the single-candidate election of 1950, and the Duvalier referendums all produced 99% results — but none represented the people's will. Second pattern: participation is what confers legitimacy. The great democratic moments — the March 1987 referendum (45.4%), the December 1990 election, and the 2006 election (~60%) — were moments when the people turned out en masse. By contrast, elections held with 5-11% turnout (1988, 1997, 2009) produced weak institutions that could not withstand crises.">Looking at the whole history together, clear patterns emerge. First pattern: a vote without choice is not democracy. The 1918 plebiscite, the single-candidate election of 1950, and the Duvalier referendums all produced 99% results — but none represented the people's will. Second pattern: participation is what confers legitimacy. The great democratic moments — the March 1987 referendum (45.4%), the December 1990 election, and the 2006 election (~60%) — were moments when the people turned out en masse. By contrast, elections held with 5-11% turnout (1988, 1997, 2009) produced weak institutions that could not withstand crises.</p>
+
+                            <p data-ht="Twazyèm modèl la: eksklizyon touye konfyans. Chak fwa yo te ekskli yon gwo pati politik — Lavalas an 2009 ak 2015, oswa lè yo te manipile kontaj la an 2000 — patisipasyon an te tonbe nan eleksyon ki vin apre yo, epi kriz politik te swiv. Katriyèm modèl la: entèvansyon etranje kite mak li. Soti nan konstitisyon okipasyon 1918 la rive nan wòl OEA a an 2000 ak 2010-2011, aktè entènasyonal yo te fòme rezilta eleksyon ayisyen yo plizyè fwa — pafwa pou pi bon, pafwa pou pi mal. Pou 30 out 2026, leson yo senp: chak vòt konte, chak sitwayen ki gen CINU li dwe patisipe, epi se sèl yon patisipasyon masiv ki ka bay pwochen gouvènman an fòs pou rebati enstitisyon yo apre prèske 10 lane san eleksyon." data-en="Third pattern: exclusion kills trust. Every time a major political party was excluded — Lavalas in 2009 and 2015, or when the count was manipulated in 2000 — turnout fell in the elections that followed, and political crisis ensued. Fourth pattern: foreign intervention leaves its mark. From the 1918 occupation constitution to the OEA's role in 2000 and 2010-2011, international actors have shaped Haitian electoral outcomes repeatedly — sometimes for better, sometimes for worse. For August 30, 2026, the lessons are simple: every vote counts, every citizen holding a CINU should participate, and only massive participation can give the next government the strength to rebuild institutions after nearly 10 years without elections.">Third pattern: exclusion kills trust. Every time a major political party was excluded — Lavalas in 2009 and 2015, or when the count was manipulated in 2000 — turnout fell in the elections that followed, and political crisis ensued. Fourth pattern: foreign intervention leaves its mark. From the 1918 occupation constitution to the OEA's role in 2000 and 2010-2011, international actors have shaped Haitian electoral outcomes repeatedly — sometimes for better, sometimes for worse. For August 30, 2026, the lessons are simple: every vote counts, every citizen holding a CINU should participate, and only massive participation can give the next government the strength to rebuild institutions after nearly 10 years without elections.</p>
+
+                            <div class="sources">
+                                <h4 data-ht="Sous" data-en="Sources">Sources</h4>
+                                <ul>
+                                    <li><a href="https://www.usip.org/publications/2024/06/how-break-cycle-weak-elections-haiti" target="_blank" rel="noopener">How to Break the Cycle of Weak Elections in Haiti - USIP</a></li>
+                                    <li><a href="https://pdba.georgetown.edu/Elecdata/Haiti/haiti.html" target="_blank" rel="noopener">Haiti: Electoral Results Database - Georgetown PDBA</a></li>
+                                    <li><a href="https://www.electionguide.org/countries/id/94/" target="_blank" rel="noopener">Haiti Country Profile - IFES Election Guide</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Ayiti Sitwayen</h4>
+                    <p data-ht="Edikasyon sivik pou eleksyon 2026 yo — endepandan, san pati." data-en="Civic education for Haiti's 2026 elections — independent and non-partisan.">Civic education for Haiti's 2026 elections — independent and non-partisan.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-ht="Aprann" data-en="Learn">Learn</h4>
+                    <ul>
+                        <li><a href="/en/education.html" data-ht="Edikasyon Sivik" data-en="Civic Education">Civic Education</a></li>
+                        <li><a href="/en/voting-day.html" data-ht="Gid Jou Vòt la" data-en="Election Day Guide">Election Day Guide</a></li>
+                        <li><a href="/en/glossary.html" data-ht="Diksyonè Politik" data-en="Political Dictionary">Political Dictionary</a></li>
+                        <li><a href="/en/election-history.html" data-ht="Istwa Eleksyon" data-en="Election History">Election History</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-ht="Plis" data-en="More">More</h4>
+                    <ul>
+                        <li><a href="/en/research.html" data-ht="Rechèch" data-en="Research">Research</a></li>
+                        <li><a href="/en/#contact" data-ht="Kontak" data-en="Contact">Contact</a></li>
+                        <li><a href="/en/privacy.html" data-ht="Konfidansyalite" data-en="Privacy">Privacy</a></li>
+                        <li><a href="/en/terms.html" data-ht="Kondisyon" data-en="Terms">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Ayiti Sitwayen. <span data-ht="Tout dwa rezève" data-en="All rights reserved">All rights reserved</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js?v=4"></script>
+    <script src="/election-history.js"></script>
+    <script defer="" src="/_vercel/insights/script.js"></script>
+
+
+</body></html>

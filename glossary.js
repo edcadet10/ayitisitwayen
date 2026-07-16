@@ -787,6 +787,12 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
     });
 });
 
-initAlphabetNav();
-renderGlossary();
+// The grid and alphabet ship pre-rendered in the HTML (crawlable without JS);
+// only build them here if the static markup is absent.
+if (document.getElementById('alphabetNav').children.length === 0) {
+    initAlphabetNav();
+}
+if (document.getElementById('glossaryGrid').children.length === 0) {
+    renderGlossary();
+}
 document.getElementById('totalTerms').textContent = glossaryData.length;

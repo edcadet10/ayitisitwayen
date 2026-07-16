@@ -35,7 +35,16 @@ const EN_TITLES = {
 
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
+// The language this document was authored in (ht pages vs /en/ pages)
+const DOC_LANG = document.documentElement.lang === 'en' ? 'en' : 'ht';
+
 let currentLang = localStorage.getItem('lang') === 'en' ? 'en' : 'ht';
+
+// Real URL of this page in the other language (from the hreflang cluster)
+function alternateUrl(lang) {
+    const link = document.querySelector(`link[rel="alternate"][hreflang="${lang}"]`);
+    return link ? link.href : null;
+}
 
 function pageFile() {
     const file = window.location.pathname.split('/').pop();
@@ -81,14 +90,30 @@ function applyLanguage(lang) {
 }
 
 function toggleLanguage() {
-    applyLanguage(currentLang === 'ht' ? 'en' : 'ht');
+    const target = DOC_LANG === 'ht' ? 'en' : 'ht';
+    localStorage.setItem('lang', target);
+    const url = alternateUrl(target);
+    if (url) {
+        // Each language lives at its own crawlable URL
+        window.location.href = url;
+        return;
+    }
+    applyLanguage(target);
 }
 
-// Apply the stored language choice immediately (this script sits at the end
-// of <body>, so the DOM is parsed) — avoids a flash of the wrong language.
-if (currentLang !== 'ht') {
-    applyLanguage(currentLang);
-}
+// Honor an explicit stored language choice by moving to that language's URL.
+// Fresh visitors (no stored choice) always stay on the page they landed on.
+(function () {
+    const stored = localStorage.getItem('lang');
+    if (!stored || stored === DOC_LANG) return;
+    const url = alternateUrl(stored);
+    if (url && url !== window.location.href) {
+        window.location.replace(url);
+    } else if (!url && stored === 'en' && DOC_LANG === 'ht') {
+        // Legacy fallback for any page without an English URL
+        applyLanguage('en');
+    }
+})();
 
 // Smooth Scrolling for Anchor Links (guard: bare "#" is not a valid selector)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -222,8 +247,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const langSwitch = document.querySelector('.lang-switch');
     if (langSwitch) {
         if (!langSwitch.getAttribute('aria-label')) {
-            langSwitch.setAttribute('aria-label', currentLang === 'ht' ? 'Switch to English' : 'Tounen an Kreyòl');
-            langSwitch.setAttribute('lang', currentLang === 'ht' ? 'en' : 'ht');
+            langSwitch.setAttribute('aria-label', DOC_LANG === 'ht' ? 'Switch to English' : 'Tounen an Kreyòl');
+            langSwitch.setAttribute('lang', DOC_LANG === 'ht' ? 'en' : 'ht');
         }
         langSwitch.addEventListener('click', toggleLanguage);
     }
