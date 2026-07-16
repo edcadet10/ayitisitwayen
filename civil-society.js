@@ -41,10 +41,10 @@
             document.getElementById('progressFill').style.width = progress + '%';
 
             const lang = document.documentElement.lang;
-            const progressText = lang === 'ht' ? 'Pwogresyon: ' + progress + '%' : 'Progress: ' + progress + '%';
+            const progressText = lang === 'ht' ? 'Pwogrè: ' + progress + '%' : 'Progress: ' + progress + '%';
             document.getElementById('progressText').textContent = progressText;
 
-            document.getElementById('progressText').setAttribute('data-ht', 'Pwogresyon: ' + progress + '%');
+            document.getElementById('progressText').setAttribute('data-ht', 'Pwogrè: ' + progress + '%');
             document.getElementById('progressText').setAttribute('data-en', 'Progress: ' + progress + '%');
         }
 

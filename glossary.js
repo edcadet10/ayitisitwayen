@@ -72,15 +72,15 @@ const glossaryData = [
     {
         term: "Koripsyon",
         category: "concept",
-        creole: "Lè moun nan pouvwa sèvi ak pozisyon yo pou benefis pèsonèl, souvan nan vòlè lajan piblik.",
+        creole: "Lè moun nan pouvwa sèvi ak pozisyon yo pou benefis pèsonèl, souvan lè yo vòlè lajan piblik.",
         french: "Quand des personnes au pouvoir utilisent leur position pour un bénéfice personnel, souvent en volant l'argent public.",
         english: "When people in power use their position for personal benefit, often by stealing public money.",
-        related: ["Pòdvin", "Detounman", "Transpare"]
+        related: ["Pòdvin", "Detounman", "Transparans"]
     },
     {
         term: "Koudeta",
         category: "political",
-        creole: "Ranvèsman ilegal yon gouvènman pa fòs, souvan pa militè.",
+        creole: "Lè yo ranvèse yon gouvènman ilegalman ak fòs — souvan se militè ki fè l.",
         french: "Renversement illégal d'un gouvernement par la force, souvent par les militaires.",
         english: "Illegal overthrow of a government by force, often by the military.",
         related: ["Demokrasi", "Gouvènman", "Prezidan"]
@@ -97,7 +97,7 @@ const glossaryData = [
     {
         term: "Demokrasi",
         category: "political",
-        creole: "Sistèm politik kote pèp la chwazi lidè yo atravè vòt lib.",
+        creole: "Sistèm politik kote pèp la chwazi lidè yo nan vòt lib.",
         french: "Système politique où le peuple choisit ses dirigeants par vote libre.",
         english: "Political system where people choose their leaders through free vote.",
         related: ["Vòt", "Eleksyon", "Sitwayen"]
@@ -113,10 +113,10 @@ const glossaryData = [
     {
         term: "Detounman",
         category: "concept",
-        creole: "Vòl lajan piblik pa moun ki responsab jere li.",
+        creole: "Lè moun ki responsab jere lajan piblik vòlè l.",
         french: "Vol d'argent public par ceux responsables de le gérer.",
         english: "Theft of public money by those responsible for managing it.",
-        related: ["Koripsyon", "PetroCaribe", "Transpare"]
+        related: ["Koripsyon", "PetroCaribe", "Transparans"]
     },
     {
         term: "Dwa",
@@ -138,7 +138,7 @@ const glossaryData = [
     {
         term: "Edikasyon Sivik",
         category: "concept",
-        creole: "Aprann sou dwa ou, devwa ou, ak kijan sistèm politik fonksyone.",
+        creole: "Aprann sou dwa ou, devwa ou, ak kijan sistèm politik la fonksyone.",
         french: "Apprendre sur vos droits, devoirs, et comment fonctionne le système politique.",
         english: "Learning about your rights, duties, and how the political system works.",
         related: ["Sitwayen", "Demokrasi", "Dwa"]
@@ -163,7 +163,7 @@ const glossaryData = [
     {
         term: "Fanmi Lavalas",
         category: "organization",
-        creole: "Pati politik fonde an 1996 pa Jean-Bertrand Aristide.",
+        creole: "Pati politik Jean-Bertrand Aristide te fonde an 1996.",
         french: "Parti politique fondé en 1996 par Jean-Bertrand Aristide.",
         english: "Political party founded in 1996 by Jean-Bertrand Aristide.",
         related: ["Pati Politik", "Aristide", "Eleksyon"]
@@ -171,7 +171,7 @@ const glossaryData = [
     {
         term: "Fwòd Elektoral",
         category: "concept",
-        creole: "Manipilasyon ilegal nan eleksyon: achte vòt, konte fo, entimidason.",
+        creole: "Manipilasyon ilegal nan eleksyon: achte vòt, konte fo, entimidasyon.",
         french: "Manipulation illégale des élections: achat de votes, faux comptage, intimidation.",
         english: "Illegal manipulation of elections: vote buying, false counting, intimidation.",
         related: ["Eleksyon", "Koripsyon", "CEP"]
@@ -180,10 +180,10 @@ const glossaryData = [
     {
         term: "Gang",
         category: "concept",
-        creole: "Gwoup kriminèl ame ki kontwole teritwa ak fè vyolans.",
+        creole: "Gwoup kriminèl ame ki kontwole teritwa epi ki fè vyolans.",
         french: "Groupe criminel armé qui contrôle des territoires et fait de la violence.",
         english: "Armed criminal group that controls territories and commits violence.",
-        related: ["Ensèkirite", "Vyolans", "Polis"]
+        related: ["Ensekirite", "Vyolans", "Polis"]
     },
     {
         term: "Gouvènman",
@@ -222,7 +222,7 @@ const glossaryData = [
     {
         term: "Jistis",
         category: "legal",
-        creole: "Sistèm tribinal ak lwa ki pini moun ki fè mal ak pwoteje dwa sitwayen.",
+        creole: "Sistèm tribinal ak lwa ki pini moun ki fè mal epi pwoteje dwa sitwayen yo.",
         french: "Système de tribunaux et lois qui punissent les malfaiteurs et protègent les droits des citoyens.",
         english: "System of courts and laws that punish wrongdoers and protect citizens' rights.",
         related: ["Tribinal", "Lalwa", "Dwa"]
@@ -247,7 +247,7 @@ const glossaryData = [
     {
         term: "Kat Votè",
         category: "political",
-        creole: "Kat idantifikasyon ki pèmèt ou vote. Ou resevwa l apre ou enskri.",
+        creole: "Kat idantifikasyon ki te konn sèvi pou vote. Jodi a se CINU a ki sèl dokiman valab pou vote.",
         french: "Carte d'identification permettant de voter. Vous la recevez après inscription.",
         english: "Identification card allowing you to vote. You receive it after registration.",
         related: ["Vòt", "Enskripsyon", "CEP"]
@@ -288,7 +288,7 @@ const glossaryData = [
     {
         term: "Lalwa",
         category: "legal",
-        creole: "Règ ofisyèl yon peyi vote ak tout moun dwe swiv.",
+        creole: "Règ ofisyèl yon peyi vote; tout moun dwe swiv yo.",
         french: "Règles officielles d'un pays votées que tous doivent suivre.",
         english: "Official rules of a country voted that everyone must follow.",
         related: ["Konstitisyon", "Palman", "Jistis"]
@@ -313,7 +313,7 @@ const glossaryData = [
     {
         term: "Mè",
         category: "political",
-        creole: "Lidè yon komin. Li eli pa sitwayen komin nan. Manda dènye mè eli yo te fini an 2020; depi lè a se komisyon minisipal nome ki jere komin yo.",
+        creole: "Lidè yon komin. Se sitwayen komin nan ki eli l. Manda dènye mè eli yo te fini an 2020; depi lè a se komisyon minisipal nonmen ki jere komin yo.",
         french: "Chef d'une commune. Il est élu par les citoyens de la commune. Le mandat des derniers maires élus a expiré en 2020 ; depuis, des commissions municipales nommées gèrent les communes.",
         english: "Head of a commune. Elected by commune citizens. The terms of the last elected mayors expired in 2020; since then, appointed municipal commissions have run the communes.",
         related: ["Konsèy Minisipal", "Komin", "Eleksyon"]
@@ -367,7 +367,7 @@ const glossaryData = [
     },
     {
         term: "CTV",
-        creole: "Sant Tabilasyon Vòt yo — sant kote KEP a rasanble ak konte tout pwosè vèbal yo pou pibliye rezilta yo.",
+        creole: "Sant Tabilasyon Vòt yo — sant kote CEP a rasanble epi konte tout pwosè vèbal yo pou pibliye rezilta yo.",
         french: "Centre de Tabulation des Votes: centre où le CEP rassemble et compile tous les procès-verbaux pour publier les résultats.",
         english: "Vote Tabulation Center — where the CEP gathers and compiles all tally sheets to publish results.",
         related: ["Pwosè Vèbal", "KEP"]
@@ -443,7 +443,7 @@ const glossaryData = [
     {
         term: "Pati Politik",
         category: "political",
-        creole: "Gwoup moun òganize pou pran pouvwa politik atravè eleksyon.",
+        creole: "Gwoup moun ki òganize pou pran pouvwa politik nan eleksyon.",
         french: "Groupe de personnes organisé pour prendre le pouvoir politique par les élections.",
         english: "Group of people organized to take political power through elections.",
         related: ["Eleksyon", "Fanmi Lavalas", "OPL"]
@@ -451,7 +451,7 @@ const glossaryData = [
     {
         term: "PetroCaribe",
         category: "concept",
-        creole: "Pwogram kote Venezuela te bay Ayiti lwil bon mache (2008-2018). Pwogram nan te vo anviwon $4.3 milya; anviwon $2 milya detounen oswa mal jere, dapre odit CSCCA yo ak rapò Sena yo.",
+        creole: "Pwogram kote Venezuela te bay Ayiti lwil bon mache (2008-2018). Pwogram nan te vo anviwon $4.3 milya; anviwon $2 milya te detounen oswa mal jere, dapre odit CSCCA yo ak rapò Sena yo.",
         french: "Programme où Venezuela donnait pétrole bon marché à Haïti (2008-2018). Le programme représentait environ 4,3 milliards de dollars ; environ 2 milliards ont été détournés ou mal gérés, selon les audits de la CSCCA et les rapports du Sénat.",
         english: "Program where Venezuela gave cheap oil to Haiti (2008-2018). The program was worth about $4.3 billion; roughly $2 billion was embezzled or mismanaged, according to CSCCA audits and Senate reports.",
         related: ["Koripsyon", "Detounman", "PetroChallenge"]
@@ -475,15 +475,15 @@ const glossaryData = [
     {
         term: "Pòdvin",
         category: "concept",
-        creole: "Ofri oswa aksepte lajan pou enfliyanse yon desizyon. Fòm koripsyon.",
+        creole: "Ofri oswa aksepte lajan pou enfliyanse yon desizyon. Se yon fòm koripsyon.",
         french: "Offrir ou accepter de l'argent pour influencer une décision. Forme de corruption.",
         english: "Offering or accepting money to influence a decision. Form of corruption.",
-        related: ["Koripsyon", "Detounman", "Transpare"]
+        related: ["Koripsyon", "Detounman", "Transparans"]
     },
     {
         term: "Prezidan",
         category: "political",
-        creole: "Chèf Eta a. Li eli pou 5 lane. Li pa ka eli de fwa swit. Ayiti pa gen prezidan depi jiyè 2021.",
+        creole: "Chèf Eta a. Li eli pou 5 lane. Li pa ka fè de manda youn dèyè lòt. Ayiti pa gen prezidan depi jiyè 2021.",
         french: "Chef de l'État. Élu pour 5 ans. Ne peut être élu deux fois de suite. Haïti n'a plus de président depuis juillet 2021.",
         english: "Head of State. Elected for 5 years. Cannot be elected twice in a row. Haiti has had no president since July 2021.",
         related: ["CPT", "Eleksyon", "Gouvènman"]
@@ -492,7 +492,7 @@ const glossaryData = [
     {
         term: "Referandòm",
         category: "political",
-        creole: "Vòt kote pèp la reponn wi oswa non sou yon gwo kesyon nasyonal, tankou yon gwo desizyon politik piblik. Men atansyon: atik 284-3 Konstitisyon 1987 la entèdi chanje Konstitisyon an pa referandòm.",
+        creole: "Vòt kote pèp la reponn wi oswa non sou yon gwo kesyon nasyonal, tankou yon gwo desizyon politik piblik. Men atansyon: Atik 284-3 Konstitisyon 1987 la entèdi chanje Konstitisyon an nan referandòm.",
         french: "Vote où le peuple répond oui ou non à une grande question nationale, comme une décision majeure de politique publique. Attention : l'article 284-3 de la Constitution de 1987 interdit toute modification de la Constitution par référendum.",
         english: "Vote where the people answer yes or no on a major national question, such as a major public policy decision. Note: Article 284-3 of the 1987 Constitution forbids amending the Constitution by referendum.",
         related: ["Vòt", "Konstitisyon", "Demokrasi"]
@@ -500,7 +500,7 @@ const glossaryData = [
     {
         term: "RNDDH",
         category: "acronym",
-        creole: "Rezo Nasyonal Defans Dwa Moun. Òganizasyon ki monitè vyolasyon dwa moun ann Ayiti.",
+        creole: "Rezo Nasyonal Defans Dwa Moun. Òganizasyon ki siveye vyolasyon dwa moun ann Ayiti.",
         french: "Réseau National de Défense des Droits Humains. Organisation qui monitore les violations des droits humains en Haïti.",
         english: "National Network for Defense of Human Rights. Organization that monitors human rights violations in Haiti.",
         related: ["Dwa Moun", "Sosyete Sivil", "JILAP"]
@@ -536,20 +536,20 @@ const glossaryData = [
         creole: "Manm yon peyi ki gen dwa ak devwa legal. Ayisyen natif natal oswa natiralize.",
         french: "Membre d'un pays ayant des droits et devoirs légaux. Haïtien natif ou naturalisé.",
         english: "Member of a country having legal rights and duties. Native or naturalized Haitian.",
-        related: ["Sitwayente", "Dwa", "Devwa"]
+        related: ["Sitwayènte", "Dwa", "Devwa"]
     },
     {
-        term: "Sitwayente",
+        term: "Sitwayènte",
         category: "legal",
-        creole: "Estati legal yon moun kòm manm yon peyi. Ann Ayiti, ou ka genyen doub sitwayente.",
+        creole: "Estati legal yon moun kòm manm yon peyi. Ann Ayiti, ou ka genyen doub sitwayènte.",
         french: "Statut légal d'une personne comme membre d'un pays. En Haïti, vous pouvez avoir double citoyenneté.",
         english: "Legal status of person as member of a country. In Haiti, you can have dual citizenship.",
-        related: ["Sitwayen", "Paspo", "Dwa"]
+        related: ["Sitwayen", "Paspò", "Dwa"]
     },
     {
         term: "SOFA",
         category: "acronym",
-        creole: "Solidarite Fanm Ayisyen. Òganizasyon k ap lite pou dwa fanm ak egalite jand.",
+        creole: "Solidarite Fanm Ayisyen. Òganizasyon k ap lite pou dwa fanm ak egalite ant fanm ak gason.",
         french: "Solidarité Femmes Haïtiennes. Organisation luttant pour les droits des femmes et l'égalité de genre.",
         english: "Haitian Women's Solidarity. Organization fighting for women's rights and gender equality.",
         related: ["Fanm", "Dwa Fanm", "Sosyete Sivil"]
@@ -557,7 +557,7 @@ const glossaryData = [
     {
         term: "Sosyete Sivil",
         category: "concept",
-        creole: "Tout òganizasyon ki egziste ant gouvènman an ak fanmi prive yo: ONG, sendika, asosyasyon.",
+        creole: "Tout òganizasyon ki egziste ant gouvènman an ak lavi prive fanmi yo: ONG, sendika, asosyasyon.",
         french: "Toutes les organisations qui existent entre le gouvernement et les familles privées: ONG, syndicats, associations.",
         english: "All organizations existing between government and private families: NGOs, unions, associations.",
         related: ["ONG", "RNDDH", "SOFA"]
@@ -566,18 +566,18 @@ const glossaryData = [
     {
         term: "Tèt Kole",
         category: "organization",
-        creole: "Rezo Ti Peyizan Ayisyen. Òganizasyon k ap lit pou souverènte alimantè.",
+        creole: "Rezo Ti Peyizan Ayisyen. Òganizasyon k ap lite pou souverènte alimantè.",
         french: "Réseau des Petits Paysans Haïtiens. Organisation luttant pour la souveraineté alimentaire.",
         english: "Network of Haitian Small Peasants. Organization fighting for food sovereignty.",
         related: ["Peyizan", "MPNKP", "Agrikilti"]
     },
     {
-        term: "Transpare",
+        term: "Transparans",
         category: "concept",
-        creole: "Lè gouvènman oswa òganizasyon klè sou desizyon yo, kijan yo depanse lajan.",
+        creole: "Lè gouvènman oswa yon òganizasyon klè sou desizyon li yo ak sou kijan li depanse lajan.",
         french: "Quand gouvernement ou organisation est claire sur ses décisions, comment elle dépense l'argent.",
         english: "When government or organization is clear about its decisions, how it spends money.",
-        related: ["Responsabilite", "Koripsyon", "Kontwòl"]
+        related: ["Responsablite", "Koripsyon", "Kontwòl"]
     },
     {
         term: "Tranzisyon",
@@ -602,13 +602,13 @@ const glossaryData = [
         creole: "Inite Lit Kont Koripsyon (Unité de Lutte Contre la Corruption). Enstitisyon leta ki fè ankèt sou koripsyon nan administrasyon piblik la.",
         french: "Unité de Lutte Contre la Corruption. Institution de l'État qui enquête sur la corruption dans l'administration publique.",
         english: "Anti-Corruption Unit. State institution that investigates corruption in the public administration.",
-        related: ["Koripsyon", "Detounman", "Transpare"]
+        related: ["Koripsyon", "Detounman", "Transparans"]
     },
     // V
     {
         term: "Viv Ansanm",
         category: "concept",
-        creole: "Kowalisyon gang ame nan Pòtoprens ki te fòme ant fevriye ak septanm 2024, anba direksyon Jimmy 'Barbecue' Chérizier. Se yon alyans kriminèl ame ki kontwole gwo pati nan kapital la.",
+        creole: "Kowalisyon gang ame nan Pòtoprens ki te fòme ant fevriye ak septanm 2024, anba direksyon Jimmy 'Barbecue' Chérizier. Se yon alyans kriminèl ame ki kontwole yon gwo pòsyon nan kapital la.",
         french: "Coalition de gangs armés de Port-au-Prince formée entre février et septembre 2024, dirigée par Jimmy « Barbecue » Chérizier. Alliance criminelle armée qui contrôle une grande partie de la capitale.",
         english: "Coalition of armed gangs in Port-au-Prince formed between February and September 2024, led by Jimmy 'Barbecue' Chérizier. An armed criminal alliance controlling much of the capital.",
         related: ["Gang", "Vyolans", "MSS"]
@@ -624,7 +624,7 @@ const glossaryData = [
     {
         term: "Votè",
         category: "political",
-        creole: "Sitwayen ki gen dwa vote. Dwe gen omwen 18 lane ak enskri sou lis elektoral.",
+        creole: "Sitwayen ki gen dwa vote. Li dwe gen omwen 18 lane epi enskri sou lis elektoral la.",
         french: "Citoyen ayant le droit de voter. Doit avoir au moins 18 ans et être inscrit sur liste électorale.",
         english: "Citizen having right to vote. Must be at least 18 years old and registered on electoral list.",
         related: ["Vòt", "Enskripsyon", "Kat Votè"]
@@ -635,7 +635,7 @@ const glossaryData = [
         creole: "Itilize fòs fizik pou fè mal oswa entimide moun.",
         french: "Utilisation de la force physique pour faire mal ou intimider des personnes.",
         english: "Use of physical force to harm or intimidate people.",
-        related: ["Gang", "Ensèkirite", "Dwa Moun"]
+        related: ["Gang", "Ensekirite", "Dwa Moun"]
     }
 ];
 
