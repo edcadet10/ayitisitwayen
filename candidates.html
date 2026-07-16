@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Kandida eleksyon 2026 yo ann Ayiti: kote pwosesis la ye, kondisyon pou vin prezidan, ak kijan pou evalye kandida yo lè lis ofisyèl la soti.">
     <meta property="og:title" content="Kandida Eleksyon 2026 yo - Ayiti Sitwayen">
     <meta property="og:description" content="Kandida eleksyon 2026 yo ann Ayiti: kote pwosesis la ye, kondisyon pou vin prezidan, ak kijan pou evalye kandida yo lè lis ofisyèl la soti.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Kandida Eleksyon 2026 yo - Ayiti Sitwayen", "description": "Eta ofisyèl lis kandida pou eleksyon 30 out 2026 yo an Ayiti: kote pwosesis la ye, kijan pou evalye yon kandida, ak sa pou ou veye.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/candidates.html", "image": "https://www.ayitisitwayen.org/logo.png", "dateModified": "2026-07-03", "author": {"@type": "Organization", "name": "Ayiti Sitwayen"}, "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/candidates.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         .ref-section { margin-bottom: 3rem; }
         .ref-section h2 { font-size: 1.6rem; font-weight: 500; margin: 2.5rem 0 1rem 0; }
@@ -29,19 +29,22 @@
         .sources ul { list-style: none; padding: 0; margin: 0; }
         .sources li { font-size: 0.8rem; margin-bottom: 0.3rem; }
         .sources a { color: var(--gray-600); }
-        .note-box { border: 1px solid var(--gray-300), ; border: 1px solid var(--gray-300); padding: 1.25rem 1.5rem; margin: 1.5rem 0; font-size: 0.9rem; line-height: 1.7; }
+        .note-box { border: 1px solid var(--gray-300); padding: 1.25rem 1.5rem; margin: 1.5rem 0; font-size: 0.9rem; line-height: 1.7; }
         .step-box { border: 1px solid var(--gray-300); padding: 1.25rem 1.5rem; margin: 1rem 0; }
         .step-box h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -51,6 +54,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <section class="legal-page">
         <div class="container">
@@ -70,16 +75,18 @@
             <div class="sources">
                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                 <ul>
-                    <li><a href="https://en.wikipedia.org/wiki/2026_Haitian_general_election" target="_blank">2026 Haitian general election - Wikipedia</a></li>
-                    <li><a href="https://haitiantimes.com/2026/04/09/haiti-delays-voter-and-candidate-registration-amplifying-doubts-about-long-stalled-electoral-process/" target="_blank">Haiti delays voter and candidate registration - The Haitian Times (Apr 2026)</a></li>
-                    <li><a href="https://news.un.org/en/story/2026/03/1167143" target="_blank">UN News: some 300 groups register for elections (Mar 2026)</a></li>
-                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Haiti 1987 Constitution, Art. 135 - Constitute Project</a></li>
-                    <li><a href="https://cephaiti.ht/" target="_blank">CEP Ayiti (sit ofisyèl)</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/2026_Haitian_general_election" target="_blank" rel="noopener">2026 Haitian general election - Wikipedia</a></li>
+                    <li><a href="https://haitiantimes.com/2026/04/09/haiti-delays-voter-and-candidate-registration-amplifying-doubts-about-long-stalled-electoral-process/" target="_blank" rel="noopener">Haiti delays voter and candidate registration - The Haitian Times (Apr 2026)</a></li>
+                    <li><a href="https://news.un.org/en/story/2026/03/1167143" target="_blank" rel="noopener">UN News: some 300 groups register for elections (Mar 2026)</a></li>
+                    <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank" rel="noopener">Haiti 1987 Constitution, Art. 135 - Constitute Project</a></li>
+                    <li><a href="https://cephaiti.ht/" target="_blank" rel="noopener">CEP Ayiti (sit ofisyèl)</a></li>
                 </ul>
             </div>
             </div>
         </div>
     </section>
+    </main>
+
 
     <footer class="footer">
         <div class="container">
@@ -89,6 +96,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=3"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

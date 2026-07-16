@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Istwa eleksyon an Ayiti depi 1918 rive 2026: prezidansyèl, lejislatif ak lokal, ansanm ak kontwovès, vyolans ak kriz elektoral yo.">
     <meta property="og:title" content="Istwa Eleksyon Ayiti - Ayiti Sitwayen">
     <meta property="og:description" content="Istwa eleksyon an Ayiti depi 1918 rive 2026: prezidansyèl, lejislatif ak lokal, ansanm ak kontwovès, vyolans ak kriz elektoral yo.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Istwa Eleksyon Ayiti - Ayiti Sitwayen", "description": "Istwa eleksyon an Ayiti depi 1918 rive 2026: prezidansyèl, lejislatif ak lokal, ansanm ak kontwovès, vyolans ak kriz elektoral yo.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/election-history.html", "image": "https://www.ayitisitwayen.org/logo.png", "dateModified": "2026-07-03", "author": {"@type": "Organization", "name": "Ayiti Sitwayen"}, "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/election-history.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         .timeline-container {
             position: relative;
@@ -350,15 +350,18 @@
             }
         }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -368,6 +371,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <section class="legal-page">
         <div class="container">
@@ -409,7 +414,7 @@
 
                 <!-- 1918 Plebiscite -->
                 <div class="election-card fraudulent" data-type="referendum fraudulent">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">12 Jen 1918</div>
                             <span class="election-type" data-ht="Referandòm Konstitisyonèl" data-en="Constitutional Referendum">Referandòm Konstitisyonèl</span>
@@ -450,9 +455,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/1918_Haitian_constitutional_referendum" target="_blank">1918 Haitian constitutional referendum - Wikipedia</a></li>
-                                    <li><a href="https://www.everycrsreport.com/reports/94-459.html" target="_blank">The U.S. Occupation of Haiti, 1915-1934 - CRS Report</a></li>
-                                    <li><a href="https://www.loc.gov/item/30000674/" target="_blank">Constitution de 1918 de la République d'Haiti - Library of Congress</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/1918_Haitian_constitutional_referendum" target="_blank" rel="noopener">1918 Haitian constitutional referendum - Wikipedia</a></li>
+                                    <li><a href="https://www.everycrsreport.com/reports/94-459.html" target="_blank" rel="noopener">The U.S. Occupation of Haiti, 1915-1934 - CRS Report</a></li>
+                                    <li><a href="https://www.loc.gov/item/30000674/" target="_blank" rel="noopener">Constitution de 1918 de la République d'Haiti - Library of Congress</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -461,7 +466,7 @@
 
                 <!-- 1950 Election -->
                 <div class="election-card" data-type="presidential">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">8 Oktòb 1950</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -497,9 +502,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/1950_Haitian_general_election" target="_blank">1950 Haitian general election - Wikipedia</a></li>
-                                    <li><a href="https://www.globalsecurity.org/military/world/haiti/history-15.htm" target="_blank">Haiti 1950-1957: Paul Magloire - GlobalSecurity</a></li>
-                                    <li><a href="https://data.ipu.org/parliament/HT/HT-LC01/elections/historical-data-on-women/" target="_blank">Haiti: Historical data on women - IPU Parline</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/1950_Haitian_general_election" target="_blank" rel="noopener">1950 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://www.globalsecurity.org/military/world/haiti/history-15.htm" target="_blank" rel="noopener">Haiti 1950-1957: Paul Magloire - GlobalSecurity</a></li>
+                                    <li><a href="https://data.ipu.org/parliament/HT/HT-LC01/elections/historical-data-on-women/" target="_blank" rel="noopener">Haiti: Historical data on women - IPU Parline</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -508,7 +513,7 @@
 
                 <!-- 1957 Election -->
                 <div class="election-card" data-type="presidential">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">22 Septanm 1957</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -550,9 +555,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/1957_Haitian_general_election" target="_blank">1957 Haitian general election - Wikipedia</a></li>
-                                    <li><a href="https://history.state.gov/historicaldocuments/frus1955-57v06/d359" target="_blank">Foreign Relations of the United States 1955-57 - Office of the Historian</a></li>
-                                    <li><a href="https://www.britannica.com/biography/Francois-Duvalier" target="_blank">François Duvalier - Britannica</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/1957_Haitian_general_election" target="_blank" rel="noopener">1957 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://history.state.gov/historicaldocuments/frus1955-57v06/d359" target="_blank" rel="noopener">Foreign Relations of the United States 1955-57 - Office of the Historian</a></li>
+                                    <li><a href="https://www.britannica.com/biography/Francois-Duvalier" target="_blank" rel="noopener">François Duvalier - Britannica</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -561,7 +566,7 @@
 
                 <!-- Duvalier Referendums -->
                 <div class="election-card fraudulent" data-type="referendum fraudulent">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">1961 / 1964 / 1971</div>
                             <span class="election-type" data-ht="Referandòm Fwodile" data-en="Fraudulent Referendums">Referandòm Fwodile</span>
@@ -601,9 +606,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Duvalier" target="_blank">François Duvalier - Wikipedia</a></li>
-                                    <li><a href="https://en.wikipedia.org/wiki/1971_Haitian_constitutional_referendum" target="_blank">1971 Haitian constitutional referendum - Wikipedia</a></li>
-                                    <li><a href="https://www.britannica.com/biography/Jean-Claude-Duvalier" target="_blank">Jean-Claude Duvalier - Britannica</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Duvalier" target="_blank" rel="noopener">François Duvalier - Wikipedia</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/1971_Haitian_constitutional_referendum" target="_blank" rel="noopener">1971 Haitian constitutional referendum - Wikipedia</a></li>
+                                    <li><a href="https://www.britannica.com/biography/Jean-Claude-Duvalier" target="_blank" rel="noopener">Jean-Claude Duvalier - Britannica</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -612,7 +617,7 @@
 
                 <!-- 1986 CNG Transition -->
                 <div class="election-card" data-type="transition">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">7 Fevriye 1986</div>
                             <span class="election-type" data-ht="Tranzisyon (san eleksyon)" data-en="Transition (no election)">Tranzisyon (san eleksyon)</span>
@@ -645,9 +650,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/National_Council_of_Government_(Haiti)" target="_blank">National Council of Government (Haiti) - Wikipedia</a></li>
-                                    <li><a href="https://www.washingtonpost.com/archive/politics/1986/02/08/duvalierists-predominate-on-new-haitian-council/ed1be77b-42bb-43e7-8ac5-5c22ea852fee/" target="_blank">Duvalierists Predominate on New Haitian Council - Washington Post (1986)</a></li>
-                                    <li><a href="https://nvdatabase.swarthmore.edu/content/haitians-overthrow-regime-1984-1986" target="_blank">Haitians overthrow regime, 1984-1986 - Swarthmore Global Nonviolent Action Database</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/National_Council_of_Government_(Haiti)" target="_blank" rel="noopener">National Council of Government (Haiti) - Wikipedia</a></li>
+                                    <li><a href="https://www.washingtonpost.com/archive/politics/1986/02/08/duvalierists-predominate-on-new-haitian-council/ed1be77b-42bb-43e7-8ac5-5c22ea852fee/" target="_blank" rel="noopener">Duvalierists Predominate on New Haitian Council - Washington Post (1986)</a></li>
+                                    <li><a href="https://nvdatabase.swarthmore.edu/content/haitians-overthrow-regime-1984-1986" target="_blank" rel="noopener">Haitians overthrow regime, 1984-1986 - Swarthmore Global Nonviolent Action Database</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -658,7 +663,7 @@
 
                 <!-- 1987 Constitutional Referendum -->
                 <div class="election-card" data-type="referendum">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">29 Mas 1987</div>
                             <span class="election-type" data-ht="Referandòm Konstitisyonèl" data-en="Constitutional Referendum">Referandòm Konstitisyonèl</span>
@@ -691,9 +696,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/1987_Haitian_constitutional_referendum" target="_blank">1987 Haitian constitutional referendum - Wikipedia</a></li>
-                                    <li><a href="https://www.washingtonpost.com/archive/politics/1987/03/31/constitution-approved-by-haitian-voters/dd57d7e3-9461-484e-88de-eb88199b1324/" target="_blank">Constitution Approved by Haitian Voters - Washington Post (1987)</a></li>
-                                    <li><a href="https://www.cidh.org/annualrep/86.87eng/chap.4c.htm" target="_blank">IACHR Annual Report 1986-1987: Haiti</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/1987_Haitian_constitutional_referendum" target="_blank" rel="noopener">1987 Haitian constitutional referendum - Wikipedia</a></li>
+                                    <li><a href="https://www.washingtonpost.com/archive/politics/1987/03/31/constitution-approved-by-haitian-voters/dd57d7e3-9461-484e-88de-eb88199b1324/" target="_blank" rel="noopener">Constitution Approved by Haitian Voters - Washington Post (1987)</a></li>
+                                    <li><a href="https://www.cidh.org/annualrep/86.87eng/chap.4c.htm" target="_blank" rel="noopener">IACHR Annual Report 1986-1987: Haiti</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -702,7 +707,7 @@
 
                 <!-- 1987 Election -->
                 <div class="election-card cancelled" data-type="presidential cancelled">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">29 Novanm 1987</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -731,9 +736,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/Haitian_general_election,_1987" target="_blank">1987 Haitian general election - Wikipedia</a></li>
-                                    <li><a href="https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/massacres-perpetrated-20th-century-haiti.html" target="_blank">Massacres in 20th Century Haiti - Sciences Po</a></li>
-                                    <li><a href="http://radiohaitilives.com/tag/ruelle-vaillant-massacre/" target="_blank">Ruelle Vaillant Massacre Archives - Radio Haiti</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Haitian_general_election,_1987" target="_blank" rel="noopener">1987 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/massacres-perpetrated-20th-century-haiti.html" target="_blank" rel="noopener">Massacres in 20th Century Haiti - Sciences Po</a></li>
+                                    <li><a href="http://radiohaitilives.com/tag/ruelle-vaillant-massacre/" target="_blank" rel="noopener">Ruelle Vaillant Massacre Archives - Radio Haiti</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -742,7 +747,7 @@
 
                 <!-- 1988 Election -->
                 <div class="election-card fraudulent" data-type="presidential fraudulent">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">17 Janvye 1988</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -787,7 +792,7 @@
 
                 <!-- 1990 Election -->
                 <div class="election-card" data-type="presidential">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">16 Desanm 1990</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -825,10 +830,10 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://www.cartercenter.org/documents/electionreports/democracy/finalreporthaiti1990.pdf" target="_blank">The 1990 General Elections in Haiti - Carter Center</a></li>
-                                    <li><a href="https://aceproject.org/ero-en/regions/americas/HT/haiti-final-report-observing-the-general-elections/view" target="_blank">Haiti Final Report 1990 - ACE Project</a></li>
-                                    <li><a href="https://en.wikipedia.org/wiki/Ertha_Pascal-Trouillot" target="_blank">Ertha Pascal-Trouillot - Wikipedia</a></li>
-                                    <li><a href="https://www.everycrsreport.com/reports/93-931.html" target="_blank">Haiti: Background to the 1991 Overthrow - CRS Report</a></li>
+                                    <li><a href="https://www.cartercenter.org/documents/electionreports/democracy/finalreporthaiti1990.pdf" target="_blank" rel="noopener">The 1990 General Elections in Haiti - Carter Center</a></li>
+                                    <li><a href="https://aceproject.org/ero-en/regions/americas/HT/haiti-final-report-observing-the-general-elections/view" target="_blank" rel="noopener">Haiti Final Report 1990 - ACE Project</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Ertha_Pascal-Trouillot" target="_blank" rel="noopener">Ertha Pascal-Trouillot - Wikipedia</a></li>
+                                    <li><a href="https://www.everycrsreport.com/reports/93-931.html" target="_blank" rel="noopener">Haiti: Background to the 1991 Overthrow - CRS Report</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -837,7 +842,7 @@
 
                 <!-- 1995 Election -->
                 <div class="election-card" data-type="presidential">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">17 Desanm 1995</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -887,8 +892,8 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/1995_Haitian_general_election" target="_blank">1995 Haitian general election - Wikipedia</a></li>
-                                    <li><a href="https://clintonwhitehouse6.archives.gov/1996/03/1996-03-21-fact-sheet-on-haiti.html" target="_blank">Clinton White House Fact Sheet on Haiti 1996</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/1995_Haitian_general_election" target="_blank" rel="noopener">1995 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://clintonwhitehouse6.archives.gov/1996/03/1996-03-21-fact-sheet-on-haiti.html" target="_blank" rel="noopener">Clinton White House Fact Sheet on Haiti 1996</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -897,7 +902,7 @@
 
                 <!-- 1997 Legislative -->
                 <div class="election-card cancelled" data-type="legislative cancelled">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">6 Avril 1997</div>
                             <span class="election-type" data-ht="Eleksyon Lejislatif" data-en="Legislative Election">Eleksyon Lejislatif</span>
@@ -928,9 +933,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/1997_Haitian_parliamentary_election" target="_blank">1997 Haitian parliamentary election - Wikipedia</a></li>
-                                    <li><a href="http://pdba.georgetown.edu/Elecdata/Haiti/97legis.html" target="_blank">Haiti: 1997 Legislative Election Results - Georgetown PDBA</a></li>
-                                    <li><a href="https://www.everycrsreport.com/reports/IB96019.html" target="_blank">Haiti: Issues for Congress - CRS Report</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/1997_Haitian_parliamentary_election" target="_blank" rel="noopener">1997 Haitian parliamentary election - Wikipedia</a></li>
+                                    <li><a href="http://pdba.georgetown.edu/Elecdata/Haiti/97legis.html" target="_blank" rel="noopener">Haiti: 1997 Legislative Election Results - Georgetown PDBA</a></li>
+                                    <li><a href="https://www.everycrsreport.com/reports/IB96019.html" target="_blank" rel="noopener">Haiti: Issues for Congress - CRS Report</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -939,7 +944,7 @@
 
                 <!-- 2000 Legislative -->
                 <div class="election-card fraudulent" data-type="legislative fraudulent">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">21 Me / 9 Jiyè 2000</div>
                             <span class="election-type" data-ht="Eleksyon Lejislatif" data-en="Legislative Election">Eleksyon Lejislatif</span>
@@ -983,7 +988,7 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/2000_Haitian_parliamentary_election" target="_blank">2000 Haitian parliamentary election - Wikipedia</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/2000_Haitian_parliamentary_election" target="_blank" rel="noopener">2000 Haitian parliamentary election - Wikipedia</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -992,7 +997,7 @@
 
                 <!-- 2000 Presidential -->
                 <div class="election-card fraudulent" data-type="presidential fraudulent">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">26 Novanm 2000</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -1032,7 +1037,7 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide" target="_blank">Jean-Bertrand Aristide - Wikipedia</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide" target="_blank" rel="noopener">Jean-Bertrand Aristide - Wikipedia</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1043,7 +1048,7 @@
 
                 <!-- 2006 Election -->
                 <div class="election-card" data-type="presidential">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">7 Fevriye 2006</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -1084,9 +1089,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/Haitian_general_election,_2006" target="_blank">2006 Haitian general election - Wikipedia</a></li>
-                                    <li><a href="https://edition.cnn.com/2006/WORLD/americas/02/16/haiti/index.html" target="_blank">Preval declared winner - CNN 2006</a></li>
-                                    <li><a href="https://pdba.georgetown.edu/Elecdata/Haiti/06pres.html" target="_blank">Haiti 2006 Presidential - Georgetown University</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Haitian_general_election,_2006" target="_blank" rel="noopener">2006 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://edition.cnn.com/2006/WORLD/americas/02/16/haiti/index.html" target="_blank" rel="noopener">Preval declared winner - CNN 2006</a></li>
+                                    <li><a href="https://pdba.georgetown.edu/Elecdata/Haiti/06pres.html" target="_blank" rel="noopener">Haiti 2006 Presidential - Georgetown University</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1095,7 +1100,7 @@
 
                 <!-- 2009 Senate -->
                 <div class="election-card" data-type="legislative">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">19 Avril / 21 Jen 2009</div>
                             <span class="election-type" data-ht="Eleksyon Sena Pasyèl" data-en="Partial Senate Election">Eleksyon Sena Pasyèl</span>
@@ -1126,8 +1131,8 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/2009_Haitian_Senate_election" target="_blank">2009 Haitian Senate election - Wikipedia</a></li>
-                                    <li><a href="http://archive.ipu.org/parline-e/reports/arc/2138_09.htm" target="_blank">Haiti Sénat: Elections in 2009 - IPU PARLINE</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/2009_Haitian_Senate_election" target="_blank" rel="noopener">2009 Haitian Senate election - Wikipedia</a></li>
+                                    <li><a href="http://archive.ipu.org/parline-e/reports/arc/2138_09.htm" target="_blank" rel="noopener">Haiti Sénat: Elections in 2009 - IPU PARLINE</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1136,7 +1141,7 @@
 
                 <!-- 2010-2011 Election -->
                 <div class="election-card fraudulent" data-type="presidential fraudulent">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">28 Novanm 2010 / 20 Mas 2011</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -1178,9 +1183,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/2010–11_Haitian_general_election" target="_blank">2010-11 Haitian general election - Wikipedia</a></li>
-                                    <li><a href="https://www.npr.org/2010/12/15/132051764/haiti-on-edge-amid-disputed-election-results" target="_blank">Haiti On Edge Amid Disputed Results - NPR</a></li>
-                                    <li><a href="https://www.oas.org/en/media_center/press_release.asp?sCodigo=E-509/11" target="_blank">OAS Expert Mission Verification Report 2011</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/2010–11_Haitian_general_election" target="_blank" rel="noopener">2010-11 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://www.npr.org/2010/12/15/132051764/haiti-on-edge-amid-disputed-election-results" target="_blank" rel="noopener">Haiti On Edge Amid Disputed Results - NPR</a></li>
+                                    <li><a href="https://www.oas.org/en/media_center/press_release.asp?sCodigo=E-509/11" target="_blank" rel="noopener">OAS Expert Mission Verification Report 2011</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1189,7 +1194,7 @@
 
                 <!-- 2015 Election Cancelled -->
                 <div class="election-card cancelled" data-type="presidential cancelled">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">25 Oktòb 2015</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl (Premye Tou)" data-en="Presidential Election (First Round)">Eleksyon Prezidansyèl (Premye Tou)</span>
@@ -1233,7 +1238,7 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://en.wikipedia.org/wiki/2015_Haitian_presidential_election" target="_blank">2015 Haitian presidential election - Wikipedia</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/2015_Haitian_presidential_election" target="_blank" rel="noopener">2015 Haitian presidential election - Wikipedia</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1242,7 +1247,7 @@
 
                 <!-- 2016 Election -->
                 <div class="election-card" data-type="presidential">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">20 Novanm 2016</div>
                             <span class="election-type" data-ht="Eleksyon Prezidansyèl" data-en="Presidential Election">Eleksyon Prezidansyèl</span>
@@ -1286,8 +1291,8 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://www.aljazeera.com/news/2017/4/11/haiti-jovenel-moise-confirmed-as-new-president" target="_blank">Haiti: Jovenel Moise confirmed - Al Jazeera</a></li>
-                                    <li><a href="https://www.ifes.org/news/haitis-2016-presidential-election-another-step-toward-democracy" target="_blank">Haiti's 2016 Presidential Election - IFES</a></li>
+                                    <li><a href="https://www.aljazeera.com/news/2017/4/11/haiti-jovenel-moise-confirmed-as-new-president" target="_blank" rel="noopener">Haiti: Jovenel Moise confirmed - Al Jazeera</a></li>
+                                    <li><a href="https://www.ifes.org/news/haitis-2016-presidential-election-another-step-toward-democracy" target="_blank" rel="noopener">Haiti's 2016 Presidential Election - IFES</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1296,7 +1301,7 @@
 
                 <!-- 2016 Legislative -->
                 <div class="election-card" data-type="legislative">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">Novanm 2016 / Janvye 2017</div>
                             <span class="election-type" data-ht="Eleksyon Lejislatif" data-en="Legislative Elections">Eleksyon Lejislatif</span>
@@ -1327,8 +1332,8 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://data.ipu.org/parliament/HT/HT-UC01/election/HT-UC01-E20161120/" target="_blank">Haiti Senate 2016 - IPU Parline</a></li>
-                                    <li><a href="https://en.wikipedia.org/wiki/2015–16_Haitian_parliamentary_election" target="_blank">2015-16 Haitian parliamentary election - Wikipedia</a></li>
+                                    <li><a href="https://data.ipu.org/parliament/HT/HT-UC01/election/HT-UC01-E20161120/" target="_blank" rel="noopener">Haiti Senate 2016 - IPU Parline</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/2015–16_Haitian_parliamentary_election" target="_blank" rel="noopener">2015-16 Haitian parliamentary election - Wikipedia</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1339,7 +1344,7 @@
 
                 <!-- No Elections Since 2016 -->
                 <div class="election-card cancelled" data-type="presidential cancelled">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">2017-2026</div>
                             <span class="election-type" data-ht="Pa Gen Eleksyon" data-en="No Elections">Pa Gen Eleksyon</span>
@@ -1385,12 +1390,12 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://www.aljazeera.com/news/2020/1/13/political-vacuum-in-haiti-could-let-president-rule-by-decree" target="_blank">Political vacuum in Haiti could let president rule by decree - Al Jazeera (2020)</a></li>
-                                    <li><a href="https://en.wikipedia.org/wiki/Ariel_Henry" target="_blank">Ariel Henry - Wikipedia</a></li>
-                                    <li><a href="https://haitiantimes.com/2025/10/13/haiti-constitutional-referendum/" target="_blank">Haiti abandons constitutional referendum - The Haitian Times (2025)</a></li>
-                                    <li><a href="https://en.wikipedia.org/wiki/2026_Haitian_general_election" target="_blank">2026 Haitian general election - Wikipedia</a></li>
-                                    <li><a href="https://haitiantimes.com/2026/01/06/haiti-cep-maintains-elections-august-30-2026/" target="_blank">CEP revises calendar, keeps Aug. 30 vote date - The Haitian Times (2026)</a></li>
-                                    <li><a href="https://oni.gouv.ht/la-carte-didentification-nationale/" target="_blank">La Carte d'Identification Nationale (CINU) - ONI</a></li>
+                                    <li><a href="https://www.aljazeera.com/news/2020/1/13/political-vacuum-in-haiti-could-let-president-rule-by-decree" target="_blank" rel="noopener">Political vacuum in Haiti could let president rule by decree - Al Jazeera (2020)</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Ariel_Henry" target="_blank" rel="noopener">Ariel Henry - Wikipedia</a></li>
+                                    <li><a href="https://haitiantimes.com/2025/10/13/haiti-constitutional-referendum/" target="_blank" rel="noopener">Haiti abandons constitutional referendum - The Haitian Times (2025)</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/2026_Haitian_general_election" target="_blank" rel="noopener">2026 Haitian general election - Wikipedia</a></li>
+                                    <li><a href="https://haitiantimes.com/2026/01/06/haiti-cep-maintains-elections-august-30-2026/" target="_blank" rel="noopener">CEP revises calendar, keeps Aug. 30 vote date - The Haitian Times (2026)</a></li>
+                                    <li><a href="https://oni.gouv.ht/la-carte-didentification-nationale/" target="_blank" rel="noopener">La Carte d'Identification Nationale (CINU) - ONI</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1419,7 +1424,7 @@
                 </div>
                 <!-- Lessons of Electoral History -->
                 <div class="election-card" data-type="analysis">
-                    <div class="election-header" onclick="toggleElection(this)">
+                    <div class="election-header" role="button" tabindex="0" aria-expanded="false">
                         <div class="election-info">
                             <div class="election-date">1918-2026</div>
                             <span class="election-type" data-ht="Analiz" data-en="Analysis">Analiz</span>
@@ -1437,9 +1442,9 @@
                             <div class="sources">
                                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                                 <ul>
-                                    <li><a href="https://www.usip.org/publications/2024/06/how-break-cycle-weak-elections-haiti" target="_blank">How to Break the Cycle of Weak Elections in Haiti - USIP</a></li>
-                                    <li><a href="https://pdba.georgetown.edu/Elecdata/Haiti/haiti.html" target="_blank">Haiti: Electoral Results Database - Georgetown PDBA</a></li>
-                                    <li><a href="https://www.electionguide.org/countries/id/94/" target="_blank">Haiti Country Profile - IFES Election Guide</a></li>
+                                    <li><a href="https://www.usip.org/publications/2024/06/how-break-cycle-weak-elections-haiti" target="_blank" rel="noopener">How to Break the Cycle of Weak Elections in Haiti - USIP</a></li>
+                                    <li><a href="https://pdba.georgetown.edu/Elecdata/Haiti/haiti.html" target="_blank" rel="noopener">Haiti: Electoral Results Database - Georgetown PDBA</a></li>
+                                    <li><a href="https://www.electionguide.org/countries/id/94/" target="_blank" rel="noopener">Haiti Country Profile - IFES Election Guide</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1450,6 +1455,8 @@
             </div>
         </div>
     </section>
+    </main>
+
 
     <footer class="footer">
         <div class="container">
@@ -1459,36 +1466,8 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script>
-        let currentFilter = 'all';
-
-        function toggleElection(header) {
-            const card = header.parentElement;
-            card.classList.toggle('active');
-        }
-
-        // Filter functionality
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                currentFilter = btn.dataset.filter;
-
-                // Update active button
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-
-                // Filter cards
-                document.querySelectorAll('.election-card').forEach(card => {
-                    const types = card.dataset.type.split(' ');
-                    if (currentFilter === 'all' || types.includes(currentFilter)) {
-                        card.classList.remove('hidden');
-                    } else {
-                        card.classList.add('hidden');
-                    }
-                });
-            });
-        });
-    </script>
+    <script src="script.js?v=3"></script>
+    <script src="election-history.js"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

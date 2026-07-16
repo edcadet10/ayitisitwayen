@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Ki pati politik ki egziste an Ayiti e kijan yo fonksyone? Aprann sou sistèm pati yo, gwo pati yo, ak wòl yo nan demokrasi peyi a.">
     <meta property="og:title" content="Pati Politik - Ayiti Sitwayen">
     <meta property="og:description" content="Ki pati politik ki egziste an Ayiti e kijan yo fonksyone? Aprann sou sistèm pati yo, gwo pati yo, ak wòl yo nan demokrasi peyi a.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Pati Politik - Ayiti Sitwayen", "description": "Ki pati politik ki egziste an Ayiti e kijan yo fonksyone? Aprann sou sistèm pati yo, gwo pati yo, ak wòl yo nan demokrasi peyi a.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/political-parties.html", "image": "https://www.ayitisitwayen.org/logo.png", "dateModified": "2026-07-03", "author": {"@type": "Organization", "name": "Ayiti Sitwayen"}, "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/political-parties.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         .progress-container {
             position: sticky;
@@ -223,15 +223,18 @@
             }
         }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -241,6 +244,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <section class="legal-page">
         <div class="container">
@@ -338,10 +343,10 @@
                     <h3 data-ht="Tès Konesans 1" data-en="Knowledge Check 1">Tès Konesans 1</h3>
                     <p data-ht="Ki youn nan wòl prensipal pati politik nan demokrasi?" data-en="What is one of the main roles of political parties in democracy?">Ki youn nan wòl prensipal pati politik nan demokrasi?</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" data-correct="false" data-ht="Fè lajan pou lidè yo" data-en="Make money for their leaders">Fè lajan pou lidè yo</div>
-                        <div class="quiz-option" data-correct="true" data-ht="Bay vwa a diferan gwoup nan sosyete a" data-en="Give voice to different groups in society">Bay vwa a diferan gwoup nan sosyete a</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Kontwole medya yo" data-en="Control the media">Kontwole medya yo</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Anpeche sitwayen vote" data-en="Prevent citizens from voting">Anpeche sitwayen vote</div>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Fè lajan pou lidè yo" data-en="Make money for their leaders">Fè lajan pou lidè yo</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Bay vwa a diferan gwoup nan sosyete a" data-en="Give voice to different groups in society">Bay vwa a diferan gwoup nan sosyete a</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Kontwole medya yo" data-en="Control the media">Kontwole medya yo</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Anpeche sitwayen vote" data-en="Prevent citizens from voting">Anpeche sitwayen vote</button>
                     </div>
                 </div>
 
@@ -464,10 +469,10 @@
                     <h3 data-ht="Tès Konesans 2" data-en="Knowledge Check 2">Tès Konesans 2</h3>
                     <p data-ht="Ki pwoblèm majè pati politik ann Ayiti?" data-en="What is a major problem of political parties in Haiti?">Ki pwoblèm majè pati politik ann Ayiti?</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" data-correct="false" data-ht="Twòp transpare" data-en="Too much transparency">Twòp transpare</div>
-                        <div class="quiz-option" data-correct="true" data-ht="Pati baze sou yon lidè pito pase ideoloji" data-en="Parties based on one leader rather than ideology">Pati baze sou yon lidè pito pase ideoloji</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Twòp demokrasi entèn" data-en="Too much internal democracy">Twòp demokrasi entèn</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Pa gen ase pati" data-en="Not enough parties">Pa gen ase pati</div>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Twòp transpare" data-en="Too much transparency">Twòp transpare</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Pati baze sou yon lidè pito pase ideoloji" data-en="Parties based on one leader rather than ideology">Pati baze sou yon lidè pito pase ideoloji</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Twòp demokrasi entèn" data-en="Too much internal democracy">Twòp demokrasi entèn</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Pa gen ase pati" data-en="Not enough parties">Pa gen ase pati</button>
                     </div>
                 </div>
 
@@ -580,10 +585,10 @@
                     <h3 data-ht="Tès Konesans 3" data-en="Knowledge Check 3">Tès Konesans 3</h3>
                     <p data-ht="Ki sa ki pi enpòtan lè w ap chwazi yon pati politik?" data-en="What's most important when choosing a political party?">Ki sa ki pi enpòtan lè w ap chwazi yon pati politik?</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" data-correct="false" data-ht="Chwazi pati ki pi rich" data-en="Choose the richest party">Chwazi pati ki pi rich</div>
-                        <div class="quiz-option" data-correct="true" data-ht="Etidye pwogram yo pou wè ki pati reprezante vizyon ou" data-en="Study programs to see which party represents your vision">Etidye pwogram yo pou wè ki pati reprezante vizyon ou</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Swiv pati fanmi ou" data-en="Follow your family's party">Swiv pati fanmi ou</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Vote pou lidè ki pi bèl" data-en="Vote for the most handsome leader">Vote pou lidè ki pi bèl</div>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Chwazi pati ki pi rich" data-en="Choose the richest party">Chwazi pati ki pi rich</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Etidye pwogram yo pou wè ki pati reprezante vizyon ou" data-en="Study programs to see which party represents your vision">Etidye pwogram yo pou wè ki pati reprezante vizyon ou</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Swiv pati fanmi ou" data-en="Follow your family's party">Swiv pati fanmi ou</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Vote pou lidè ki pi bèl" data-en="Vote for the most handsome leader">Vote pou lidè ki pi bèl</button>
                     </div>
                 </div>
 
@@ -598,6 +603,8 @@
             </div>
         </div>
     </section>
+    </main>
+
 
     <footer class="footer">
         <div class="container">
@@ -607,8 +614,8 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script src="political-parties.js"></script>
+    <script src="script.js?v=3"></script>
+    <script src="political-parties.js?v=2"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

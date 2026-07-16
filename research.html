@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Rechèch sou demokrasi ann Ayiti: nòt rechèch nou yo, kesyon n ap etidye yo, metòd nou, ak kijan ou ka kolabore — ouvè e an Kreyòl.">
     <meta property="og:title" content="Rechèch - Ayiti Sitwayen">
     <meta property="og:description" content="Rechèch sou demokrasi ann Ayiti: nòt rechèch nou yo, kesyon n ap etidye yo, metòd nou, ak kijan ou ka kolabore — ouvè e an Kreyòl.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Rechèch - Ayiti Sitwayen", "description": "Rechèch sou demokrasi ann Ayiti: nòt rechèch nou yo, kesyon n ap etidye yo, metòd nou, ak kijan ou ka kolabore — ouvè e an Kreyòl.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/research.html", "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/research.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         .education-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem; }
         .education-card { border: 1px solid var(--gray-300); padding: 2rem; transition: all 0.2s ease; }
@@ -31,15 +31,18 @@
         .ref-section p { line-height: 1.7; margin-bottom: 1rem; }
         .note-date { font-size: 0.8rem; color: var(--gray-600); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -49,6 +52,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <section class="legal-page">
         <div class="container">
@@ -95,6 +100,8 @@
             </div>
         </div>
     </section>
+    </main>
+
 
     <footer class="footer">
         <div class="container">
@@ -104,6 +111,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=3"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

@@ -21,22 +21,25 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
 
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "Ayiti Sitwayen", "url": "https://www.ayitisitwayen.org/", "description": "Ayiti Sitwayen ap ranfòse angajman sivik an Ayiti atravè rezo sosyal, edikasyon sivik an Kreyòl, ak òganizasyon kominotè pou jèn Ayisyen.", "inLanguage": "ht"}, {"@type": "Organization", "name": "Ayiti Sitwayen", "url": "https://www.ayitisitwayen.org/", "logo": "https://www.ayitisitwayen.org/logo.png", "email": "contact@ayitisitwayen.org"}]}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <img src="logo.webp" alt="Ayiti Sitwayen" class="logo">
+                <img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200">
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="#about">Konsènan</a>
                 <a href="#mission">Misyon</a>
                 <a href="education.html">Edikasyon</a>
@@ -46,6 +49,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <!-- Hero Section -->
     <section class="hero">
@@ -135,8 +140,8 @@
                 </div>
 
                 <div class="about-image">
-                    <div class="image-placeholder" style="display:flex; align-items:center; justify-content:center; padding:2rem;">
-                        <img src="logo.webp" alt="Ayiti Sitwayen" style="max-width:260px; width:100%; height:auto;">
+                    <div class="about-media">
+                        <img src="logo.webp" alt="Ayiti Sitwayen" width="300" height="200">
                     </div>
                 </div>
             </div>
@@ -415,7 +420,7 @@
         <div class="container">
             <h2 class="section-title" data-ht="Ekip Nou" data-en="Our Team">Ekip Nou</h2>
 
-            <p style="text-align: center; font-size: 1.125rem; color: var(--gray-600); margin-bottom: 3rem; max-width: 720px; margin-left: auto; margin-right: auto; line-height: 1.7;" data-ht="Ayiti Sitwayen se yon inisyativ sitwayen endepandan ki pa afilye ak okenn pati politik. Nou konbine rechèch ak edikasyon sivik pou ankouraje patisipasyon demokratik. Ou vle kontribye kòm volontè, tradiktè, oswa chèchè? Ekri nou nan contact@ayitisitwayen.org." data-en="Ayiti Sitwayen is an independent citizen initiative not affiliated with any political party. We combine research and civic education to encourage democratic participation. Want to contribute as a volunteer, translator, or researcher? Write to us at contact@ayitisitwayen.org.">
+            <p class="team-intro" data-ht="Ayiti Sitwayen se yon inisyativ sitwayen endepandan ki pa afilye ak okenn pati politik. Nou konbine rechèch ak edikasyon sivik pou ankouraje patisipasyon demokratik. Ou vle kontribye kòm volontè, tradiktè, oswa chèchè? Ekri nou nan contact@ayitisitwayen.org." data-en="Ayiti Sitwayen is an independent citizen initiative not affiliated with any political party. We combine research and civic education to encourage democratic participation. Want to contribute as a volunteer, translator, or researcher? Write to us at contact@ayitisitwayen.org.">
                 Ayiti Sitwayen se yon inisyativ sitwayen endepandan ki pa afilye ak okenn pati politik. Nou konbine rechèch ak edikasyon sivik pou ankouraje patisipasyon demokratik. Ou vle kontribye kòm volontè, tradiktè, oswa chèchè? Ekri nou nan contact@ayitisitwayen.org.
             </p>
         </div>
@@ -450,9 +455,18 @@
                     <h3 data-ht="Voye yon Mesaj" data-en="Send a Message">Voye yon Mesaj</h3>
                     <form class="contact-form" action="https://formspree.io/f/mlgyagyp" method="POST">
                         <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
-                        <input type="text" name="name" placeholder="Non ou / Your Name" required>
-                        <input type="email" name="email" placeholder="Imèl ou / Your Email" required>
-                        <textarea name="message" rows="5" placeholder="Mesaj ou / Your Message" required></textarea>
+                        <div class="form-field">
+                            <label for="kontak-non" data-ht="Non ou" data-en="Your name">Non ou</label>
+                            <input id="kontak-non" type="text" name="name" autocomplete="name" placeholder="Jan Batis" data-ht="Jan Batis" data-en="Jan Batis" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="kontak-imel" data-ht="Imèl ou" data-en="Your email">Imèl ou</label>
+                            <input id="kontak-imel" type="email" name="email" autocomplete="email" spellcheck="false" placeholder="non@egzanp.com" data-ht="non@egzanp.com" data-en="name@example.com" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="kontak-mesaj" data-ht="Mesaj ou" data-en="Your message">Mesaj ou</label>
+                            <textarea id="kontak-mesaj" name="message" rows="5" data-ht="Ekri mesaj ou la a…" data-en="Write your message here…" placeholder="Ekri mesaj ou la a…" required></textarea>
+                        </div>
                         <button type="submit" class="submit-button" data-ht="Voye" data-en="Send">Voye</button>
                     </form>
                 </div>
@@ -461,6 +475,8 @@
     </section>
 
     <!-- Footer -->
+    </main>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -496,7 +512,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=3"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

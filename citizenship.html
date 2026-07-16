@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Kisa yon sitwayen ye? Aprann sou dwa ak responsabilite ou, sitwayènte ayisyen, doub nasyonalite, ak kijan pou ou vin yon sitwayen aktif.">
     <meta property="og:title" content="Sitwayen - Ayiti Sitwayen">
     <meta property="og:description" content="Kisa yon sitwayen ye? Aprann sou dwa ak responsabilite ou, sitwayènte ayisyen, doub nasyonalite, ak kijan pou ou vin yon sitwayen aktif.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Sitwayen - Ayiti Sitwayen", "description": "Kisa yon sitwayen ye? Aprann sou dwa ak responsabilite ou, sitwayènte ayisyen, doub nasyonalite, ak kijan pou ou vin yon sitwayen aktif.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/citizenship.html", "image": "https://www.ayitisitwayen.org/logo.png", "dateModified": "2026-07-03", "author": {"@type": "Organization", "name": "Ayiti Sitwayen"}, "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/citizenship.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         /* Interactive Learning Styles */
         .learning-page {
@@ -393,16 +393,19 @@
             margin-bottom: 1rem;
         }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -412,6 +415,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <!-- Progress Bar -->
     <div class="progress-bar-container">
@@ -1092,10 +1097,10 @@
                     <div class="accordion-content">
                         <div class="accordion-body">
                             <ul style="line-height: 2;">
-                                <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank">Konstitisyon Ayiti 1987 ak amendman (Constitute Project)</a></li>
-                                <li><a href="https://pdba.georgetown.edu/Constitutions/Haiti/haiti1987.html" target="_blank">Konstitisyon Ayiti tèks konplè (Georgetown University)</a></li>
-                                <li><a href="http://hum.umn.edu/humanrts/research/haiti-constitution2.html" target="_blank">Dwa Moun ann Ayiti (University of Minnesota)</a></li>
-                                <li><a href="https://www.wipo.int/wipolex/en/text/226381" target="_blank">Amendman Konstitisyonèl 2011/2012 (WIPO)</a></li>
+                                <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank" rel="noopener">Konstitisyon Ayiti 1987 ak amendman (Constitute Project)</a></li>
+                                <li><a href="https://pdba.georgetown.edu/Constitutions/Haiti/haiti1987.html" target="_blank" rel="noopener">Konstitisyon Ayiti tèks konplè (Georgetown University)</a></li>
+                                <li><a href="http://hum.umn.edu/humanrts/research/haiti-constitution2.html" target="_blank" rel="noopener">Dwa Moun ann Ayiti (University of Minnesota)</a></li>
+                                <li><a href="https://www.wipo.int/wipolex/en/text/226381" target="_blank" rel="noopener">Amendman Konstitisyonèl 2011/2012 (WIPO)</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1119,6 +1124,8 @@
     </section>
 
     <!-- Footer -->
+    </main>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
@@ -1127,8 +1134,8 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script src="citizenship.js"></script>
+    <script src="script.js?v=3"></script>
+    <script src="citizenship.js?v=2"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

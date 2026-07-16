@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Dwa sitwayen ayisyen yo: dwa sivil, politik, ekonomik ak sosyal eksplike an Kreyòl, ak kijan pou defann dwa ou ak dwa lòt moun.">
     <meta property="og:title" content="Dwa - Ayiti Sitwayen">
     <meta property="og:description" content="Dwa sitwayen ayisyen yo: dwa sivil, politik, ekonomik ak sosyal eksplike an Kreyòl, ak kijan pou defann dwa ou ak dwa lòt moun.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Dwa - Ayiti Sitwayen", "description": "Ki dwa ou genyen kòm Ayisyen? Dwa sivil, politik, ekonomik ak sosyal eksplike an Kreyòl, ak kijan pou defann dwa ou ak dwa lòt moun.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/rights.html", "image": "https://www.ayitisitwayen.org/logo.png", "dateModified": "2026-07-03", "author": {"@type": "Organization", "name": "Ayiti Sitwayen"}, "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/rights.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         /* Progress Bar */
         .progress-bar-container {
@@ -414,16 +414,19 @@
             color: white;
         }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -433,6 +436,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <!-- Progress Bar -->
     <div class="progress-bar-container">
@@ -983,12 +988,12 @@
                     <div class="accordion-content">
                         <div class="accordion-body">
                             <ul>
-                                <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank" data-ht="Konstitisyon Ayiti 1987 (Constitute Project)" data-en="Haiti Constitution 1987 (Constitute Project)">Konstitisyon Ayiti 1987 (Constitute Project)</a></li>
-                                <li><a href="http://hum.umn.edu/humanrts/research/haiti-constitution2.html" target="_blank" data-ht="Dwa Moun nan Konstitisyon Ayiti (University of Minnesota)" data-en="Human Rights in Haiti Constitution (University of Minnesota)">Dwa Moun nan Konstitisyon Ayiti (University of Minnesota)</a></li>
-                                <li><a href="https://www.ohchr.org/en/countries/haiti" target="_blank">UN Human Rights: Haiti</a></li>
-                                <li><a href="https://www.amnesty.org/en/location/americas/central-america-and-the-caribbean/haiti/" target="_blank">Amnesty International: Haiti</a></li>
-                                <li><a href="https://www.hrw.org/americas/haiti" target="_blank">Human Rights Watch: Haiti</a></li>
-                                <li><a href="https://www.ijdh.org/" target="_blank">Institute for Justice & Democracy in Haiti</a></li>
+                                <li><a href="https://www.constituteproject.org/constitution/Haiti_2012" target="_blank" rel="noopener" data-ht="Konstitisyon Ayiti 1987 (Constitute Project)" data-en="Haiti Constitution 1987 (Constitute Project)">Konstitisyon Ayiti 1987 (Constitute Project)</a></li>
+                                <li><a href="http://hum.umn.edu/humanrts/research/haiti-constitution2.html" target="_blank" rel="noopener" data-ht="Dwa Moun nan Konstitisyon Ayiti (University of Minnesota)" data-en="Human Rights in Haiti Constitution (University of Minnesota)">Dwa Moun nan Konstitisyon Ayiti (University of Minnesota)</a></li>
+                                <li><a href="https://www.ohchr.org/en/countries/haiti" target="_blank" rel="noopener">UN Human Rights: Haiti</a></li>
+                                <li><a href="https://www.amnesty.org/en/location/americas/central-america-and-the-caribbean/haiti/" target="_blank" rel="noopener">Amnesty International: Haiti</a></li>
+                                <li><a href="https://www.hrw.org/americas/haiti" target="_blank" rel="noopener">Human Rights Watch: Haiti</a></li>
+                                <li><a href="https://www.ijdh.org/" target="_blank" rel="noopener">Institute for Justice & Democracy in Haiti</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1010,6 +1015,8 @@
     </section>
 
     <!-- Footer -->
+    </main>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
@@ -1018,8 +1025,8 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script src="rights.js"></script>
+    <script src="script.js?v=3"></script>
+    <script src="rights.js?v=2"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

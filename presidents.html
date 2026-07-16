@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Lis konplè tout chèf deta ak prezidan Ayiti yo depi Dessalines an 1804 rive jodi a: anperè, wa, gouvènman pwovizwa, ak kijan yo chak kite pouvwa a.">
     <meta property="og:title" content="Chèf Deta Ayiti yo (1804-2026) - Ayiti Sitwayen">
     <meta property="og:description" content="Lis konplè tout chèf deta ak prezidan Ayiti yo depi Dessalines an 1804 rive jodi a: anperè, wa, gouvènman pwovizwa, ak kijan yo chak kite pouvwa a.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Chèf Deta Ayiti yo (1804-2026) - Ayiti Sitwayen", "description": "Lis konplè tout chèf deta ak prezidan Ayiti yo depi Dessalines an 1804 rive jodi a: anperè, wa, gouvènman pwovizwa, ak kijan yo chak kite pouvwa a.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/presidents.html", "image": "https://www.ayitisitwayen.org/logo.png", "dateModified": "2026-07-03", "author": {"@type": "Organization", "name": "Ayiti Sitwayen"}, "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/presidents.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         .ref-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0 2rem 0; font-size: 0.875rem; }
         .ref-table th { text-align: left; padding: 0.6rem 0.75rem; border-bottom: 2px solid var(--black); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.75rem; }
@@ -34,16 +34,19 @@
         .note-box { border: 1px solid var(--gray-300); padding: 1.25rem 1.5rem; margin: 1.5rem 0; font-size: 0.9rem; line-height: 1.7; }
         @media (max-width: 768px) { .ref-table { display: block; overflow-x: auto; } }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -53,6 +56,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <section class="legal-page">
         <div class="container">
@@ -614,9 +619,9 @@
             <div class="sources">
                 <h4 data-ht="Sous" data-en="Sources">Sous</h4>
                 <ul>
-                    <li><a href="https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Haiti" target="_blank">List of heads of state of Haiti - Wikipedia</a></li>
-                    <li><a href="https://www.worldstatesmen.org/Haiti.htm" target="_blank">Haiti - World Statesmen (rulers list)</a></li>
-                    <li><a href="https://www.britannica.com/place/Haiti" target="_blank">Haiti country profile - Britannica</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Haiti" target="_blank" rel="noopener">List of heads of state of Haiti - Wikipedia</a></li>
+                    <li><a href="https://www.worldstatesmen.org/Haiti.htm" target="_blank" rel="noopener">Haiti - World Statesmen (rulers list)</a></li>
+                    <li><a href="https://www.britannica.com/place/Haiti" target="_blank" rel="noopener">Haiti country profile - Britannica</a></li>
                 </ul>
             </div>
             </div>
@@ -624,6 +629,8 @@
     </section>
 
     <!-- Footer -->
+    </main>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
@@ -632,6 +639,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=3"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

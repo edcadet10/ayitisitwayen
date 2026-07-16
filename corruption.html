@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Koripsyon ann Ayiti: kisa li ye, kijan li afekte lavi ou, fòm li pran yo, enpak li sou peyi a, ak kijan sitwayen ka konbat li.">
     <meta property="og:title" content="Koripsyon - Ayiti Sitwayen">
     <meta property="og:description" content="Koripsyon ann Ayiti: kisa li ye, kijan li afekte lavi ou, fòm li pran yo, enpak li sou peyi a, ak kijan sitwayen ka konbat li.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Koripsyon - Ayiti Sitwayen", "description": "Kisa koripsyon ye e kijan li afekte lavi ou an Ayiti? Aprann sou fòm koripsyon yo, enpak yo sou peyi a, ak kijan sitwayen ka konbat li.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/corruption.html", "image": "https://www.ayitisitwayen.org/logo.png", "dateModified": "2026-07-03", "author": {"@type": "Organization", "name": "Ayiti Sitwayen"}, "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/corruption.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         /* Progress Bar */
         .progress-bar-container {
@@ -391,16 +391,19 @@
             color: white;
         }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -410,6 +413,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <!-- Progress Bar -->
     <div class="progress-bar-container">
@@ -737,11 +742,11 @@
                     <div class="accordion-content">
                         <div class="accordion-body">
                             <ul>
-                                <li><a href="https://www.transparency.org/en/cpi/2025" target="_blank">Corruption Perceptions Index 2025 (Transparency International)</a></li>
-                                <li><a href="https://www.ulcc.gouv.ht" target="_blank" data-ht="Unité de Lutte Contre la Corruption (ULCC)" data-en="Anti-Corruption Unit (ULCC)">Unité de Lutte Contre la Corruption (ULCC)</a></li>
-                                <li><a href="https://www.ijdh.org/issues/accountability/petrocaribe/" target="_blank">PetroCaribe Scandal Investigation (IJDH)</a></li>
-                                <li><a href="https://rnddh.org" target="_blank">RNDDH - Réseau National de Défense des Droits Humains</a></li>
-                                <li><a href="https://www.unodc.org/unodc/en/corruption/index.html" target="_blank">UN Office on Drugs and Crime - Corruption</a></li>
+                                <li><a href="https://www.transparency.org/en/cpi/2025" target="_blank" rel="noopener">Corruption Perceptions Index 2025 (Transparency International)</a></li>
+                                <li><a href="https://www.ulcc.gouv.ht" target="_blank" rel="noopener" data-ht="Unité de Lutte Contre la Corruption (ULCC)" data-en="Anti-Corruption Unit (ULCC)">Unité de Lutte Contre la Corruption (ULCC)</a></li>
+                                <li><a href="https://www.ijdh.org/issues/accountability/petrocaribe/" target="_blank" rel="noopener">PetroCaribe Scandal Investigation (IJDH)</a></li>
+                                <li><a href="https://rnddh.org" target="_blank" rel="noopener">RNDDH - Réseau National de Défense des Droits Humains</a></li>
+                                <li><a href="https://www.unodc.org/unodc/en/corruption/index.html" target="_blank" rel="noopener">UN Office on Drugs and Crime - Corruption</a></li>
                             </ul>
                         </div>
                     </div>
@@ -763,6 +768,8 @@
     </section>
 
     <!-- Footer -->
+    </main>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
@@ -771,8 +778,8 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script src="corruption.js"></script>
+    <script src="script.js?v=3"></script>
+    <script src="corruption.js?v=2"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

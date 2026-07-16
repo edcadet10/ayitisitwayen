@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Kijan eleksyon fonksyone an Ayiti? KEP, enskripsyon elektè, jou vòt, kontaj ak rezilta: tout pwosesis elektoral la eksplike an Kreyòl.">
     <meta property="og:title" content="Pwosesis Elektoral - Ayiti Sitwayen">
     <meta property="og:description" content="Kijan eleksyon fonksyone an Ayiti? KEP, enskripsyon elektè, jou vòt, kontaj ak rezilta: tout pwosesis elektoral la eksplike an Kreyòl.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Pwosesis Elektoral - Ayiti Sitwayen", "description": "Kijan eleksyon fonksyone an Ayiti? KEP, enskripsyon elektè, jou vòt, kontaj ak rezilta: tout pwosesis elektoral la eksplike an Kreyòl.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/electoral-process.html", "image": "https://www.ayitisitwayen.org/logo.png", "dateModified": "2026-07-03", "author": {"@type": "Organization", "name": "Ayiti Sitwayen"}, "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/electoral-process.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         .progress-container {
             position: sticky;
@@ -223,15 +223,18 @@
             }
         }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -241,6 +244,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <section class="legal-page">
         <div class="container">
@@ -340,10 +345,10 @@
                     <h3 data-ht="Tès Konesans 1" data-en="Knowledge Check 1">Tès Konesans 1</h3>
                     <p data-ht="Ki enstitisyon ki responsab pou òganize eleksyon ann Ayiti?" data-en="Which institution is responsible for organizing elections in Haiti?">Ki enstitisyon ki responsab pou òganize eleksyon ann Ayiti?</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" data-correct="false" data-ht="Palman an" data-en="The Parliament">Palman an</div>
-                        <div class="quiz-option" data-correct="true" data-ht="Konsèy Elektoral Pwovizwa (CEP)" data-en="Provisional Electoral Council (CEP)">Konsèy Elektoral Pwovizwa (CEP)</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Prezidan an" data-en="The President">Prezidan an</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Lame a" data-en="The Army">Lame a</div>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Palman an" data-en="The Parliament">Palman an</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Konsèy Elektoral Pwovizwa (CEP)" data-en="Provisional Electoral Council (CEP)">Konsèy Elektoral Pwovizwa (CEP)</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Prezidan an" data-en="The President">Prezidan an</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Lame a" data-en="The Army">Lame a</button>
                     </div>
                 </div>
 
@@ -444,10 +449,10 @@
                     <h3 data-ht="Tès Konesans 2" data-en="Knowledge Check 2">Tès Konesans 2</h3>
                     <p data-ht="Ki laj minimòm pou enskri pou vote ann Ayiti?" data-en="What is the minimum age to register to vote in Haiti?">Ki laj minimòm pou enskri pou vote ann Ayiti?</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" data-correct="false" data-ht="16 lane" data-en="16 years">16 lane</div>
-                        <div class="quiz-option" data-correct="true" data-ht="18 lane" data-en="18 years">18 lane</div>
-                        <div class="quiz-option" data-correct="false" data-ht="21 lane" data-en="21 years">21 lane</div>
-                        <div class="quiz-option" data-correct="false" data-ht="25 lane" data-en="25 years">25 lane</div>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="16 lane" data-en="16 years">16 lane</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="18 lane" data-en="18 years">18 lane</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="21 lane" data-en="21 years">21 lane</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="25 lane" data-en="25 years">25 lane</button>
                     </div>
                 </div>
 
@@ -588,10 +593,10 @@
                     <h3 data-ht="Tès Konesans 3" data-en="Knowledge Check 3">Tès Konesans 3</h3>
                     <p data-ht="Ki sa ki pi enpòtan pou eleksyon fonksyone kòrèkteman?" data-en="What's most important for elections to function properly?">Ki sa ki pi enpòtan pou eleksyon fonksyone kòrèkteman?</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" data-correct="false" data-ht="Anpil pati politik" data-en="Many political parties">Anpil pati politik</div>
-                        <div class="quiz-option" data-correct="true" data-ht="Transpare, endepandans, ak patisipasyon sitwayen" data-en="Transparency, independence, and citizen participation">Transpare, endepandans, ak patisipasyon sitwayen</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Lajan entènasyonal" data-en="International money">Lajan entènasyonal</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Kanpay long ak chè" data-en="Long and expensive campaigns">Kanpay long ak chè</div>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Anpil pati politik" data-en="Many political parties">Anpil pati politik</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Transpare, endepandans, ak patisipasyon sitwayen" data-en="Transparency, independence, and citizen participation">Transpare, endepandans, ak patisipasyon sitwayen</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Lajan entènasyonal" data-en="International money">Lajan entènasyonal</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Kanpay long ak chè" data-en="Long and expensive campaigns">Kanpay long ak chè</button>
                     </div>
                 </div>
 
@@ -612,15 +617,17 @@
                 <div class="sources" style="background:#f5f5f5; border-left:3px solid #111; padding:1rem 1.25rem; margin:1.5rem 0;">
                     <h4 data-ht="Sous" data-en="Sources" style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:0.5rem;">Sous</h4>
                     <ul style="list-style:none; padding:0; margin:0; font-size:0.8rem;">
-                        <li><a href="https://www.state.gov/releases/office-of-the-spokesperson/2025/12/council-of-ministers-agrees-to-electoral-decree-on-december-1-2025" target="_blank">Council of Ministers Agrees to Electoral Decree (Dec 1, 2025) - US State Dept</a></li>
-                        <li><a href="https://haitiantimes.com/2026/04/09/haiti-delays-voter-and-candidate-registration-amplifying-doubts-about-long-stalled-electoral-process/" target="_blank">Haiti delays voter and candidate registration - The Haitian Times (Apr 2026)</a></li>
-                        <li><a href="https://haitiantimes.com/2026/05/12/haiti-revised-electoral-degree-controversial-party-requirement/" target="_blank">Electoral decree sparks backlash over 30,000-member rule - The Haitian Times (May 2026)</a></li>
-                        <li><a href="https://cephaiti.ht/" target="_blank">CEP Ayiti (sit ofisyèl)</a></li>
+                        <li><a href="https://www.state.gov/releases/office-of-the-spokesperson/2025/12/council-of-ministers-agrees-to-electoral-decree-on-december-1-2025" target="_blank" rel="noopener">Council of Ministers Agrees to Electoral Decree (Dec 1, 2025) - US State Dept</a></li>
+                        <li><a href="https://haitiantimes.com/2026/04/09/haiti-delays-voter-and-candidate-registration-amplifying-doubts-about-long-stalled-electoral-process/" target="_blank" rel="noopener">Haiti delays voter and candidate registration - The Haitian Times (Apr 2026)</a></li>
+                        <li><a href="https://haitiantimes.com/2026/05/12/haiti-revised-electoral-degree-controversial-party-requirement/" target="_blank" rel="noopener">Electoral decree sparks backlash over 30,000-member rule - The Haitian Times (May 2026)</a></li>
+                        <li><a href="https://cephaiti.ht/" target="_blank" rel="noopener">CEP Ayiti (sit ofisyèl)</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+    </main>
+
 
     <footer class="footer">
         <div class="container">
@@ -630,8 +637,8 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script src="electoral-process.js"></script>
+    <script src="script.js?v=3"></script>
+    <script src="electoral-process.js?v=2"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

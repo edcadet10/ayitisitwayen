@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet">
     <meta name="description" content="Òganizasyon kominotè ann Ayiti: gwoupman, konbit, ak aksyon kolektif — estrateji pratik pou pote chanjman lokal ak nasyonal.">
     <meta property="og:title" content="Òganizasyon Kominotè - Ayiti Sitwayen">
     <meta property="og:description" content="Òganizasyon kominotè ann Ayiti: gwoupman, konbit, ak aksyon kolektif — estrateji pratik pou pote chanjman lokal ak nasyonal.">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Òganizasyon Kominotè - Ayiti Sitwayen", "description": "Kijan pou òganize kominote ou an Ayiti? Gwoupman, konbit, ak aksyon kolektif: estrateji pratik pou pote chanjman lokal ak nasyonal.", "inLanguage": "ht", "url": "https://www.ayitisitwayen.org/community-organizing.html", "image": "https://www.ayitisitwayen.org/logo.png", "dateModified": "2026-07-03", "author": {"@type": "Organization", "name": "Ayiti Sitwayen"}, "publisher": {"@type": "Organization", "name": "Ayiti Sitwayen", "logo": {"@type": "ImageObject", "url": "https://www.ayitisitwayen.org/logo.png"}}}</script>
     <link rel="canonical" href="https://www.ayitisitwayen.org/community-organizing.html">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         .progress-container {
             position: sticky;
@@ -223,15 +223,18 @@
             }
         }
     </style>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="theme.css?v=1">
 </head>
 <body>
+    <a class="skip-link" href="#kontni" data-ht="Ale dirèk nan kontni an" data-en="Skip to main content">Ale dirèk nan kontni an</a>
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo"></a>
+                <a href="index.html"><img src="logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a>
             </div>
-            <button class="nav-toggle" aria-label="Meni">☰</button>
-            <div class="nav-links">
+            <button class="nav-toggle" aria-label="Meni navigasyon" data-ht-aria="Meni navigasyon" data-en-aria="Navigation menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+            <div class="nav-links" id="navLinks">
                 <a href="education.html">Edikasyon</a>
                 <a href="research.html">Rechèch</a>
                 <a href="index.html#about">Konsènan</a>
@@ -241,6 +244,8 @@
             </div>
         </div>
     </nav>
+
+    <main id="kontni">
 
     <section class="legal-page">
         <div class="container">
@@ -333,10 +338,10 @@
                     <h3 data-ht="Tès Konesans 1" data-en="Knowledge Check 1">Tès Konesans 1</h3>
                     <p data-ht="Ki prensip kle òganizasyon kominotè?" data-en="What is a key principle of community organizing?">Ki prensip kle òganizasyon kominotè?</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" data-correct="false" data-ht="Youn sèl lidè pran tout desizyon" data-en="One leader makes all decisions">Youn sèl lidè pran tout desizyon</div>
-                        <div class="quiz-option" data-correct="true" data-ht="Pouvwa kolektif pi fò pase pouvwa endividyèl" data-en="Collective power stronger than individual power">Pouvwa kolektif pi fò pase pouvwa endividyèl</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Tann gouvènman rezoud pwoblèm" data-en="Wait for government to solve problems">Tann gouvènman rezoud pwoblèm</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Travay sèl nan kwen ou" data-en="Work alone in your corner">Travay sèl nan kwen ou</div>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Youn sèl lidè pran tout desizyon" data-en="One leader makes all decisions">Youn sèl lidè pran tout desizyon</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Pouvwa kolektif pi fò pase pouvwa endividyèl" data-en="Collective power stronger than individual power">Pouvwa kolektif pi fò pase pouvwa endividyèl</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Tann gouvènman rezoud pwoblèm" data-en="Wait for government to solve problems">Tann gouvènman rezoud pwoblèm</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Travay sèl nan kwen ou" data-en="Work alone in your corner">Travay sèl nan kwen ou</button>
                     </div>
                 </div>
 
@@ -442,10 +447,10 @@
                     <h3 data-ht="Tès Konesans 2" data-en="Knowledge Check 2">Tès Konesans 2</h3>
                     <p data-ht="Ki premye etap nan òganize kominote ou?" data-en="What is the first step in organizing your community?">Ki premye etap nan òganize kominote ou?</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" data-correct="false" data-ht="Ale nan Washington mande lajan" data-en="Go to Washington to ask for money">Ale nan Washington mande lajan</div>
-                        <div class="quiz-option" data-correct="true" data-ht="Koute vwazen yo pou idantifye pwoblèm komen" data-en="Listen to neighbors to identify common problems">Koute vwazen yo pou idantifye pwoblèm komen</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Kòmanse yon pati politik" data-en="Start a political party">Kòmanse yon pati politik</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Achte yon kamyon" data-en="Buy a truck">Achte yon kamyon</div>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Ale nan Washington mande lajan" data-en="Go to Washington to ask for money">Ale nan Washington mande lajan</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Koute vwazen yo pou idantifye pwoblèm komen" data-en="Listen to neighbors to identify common problems">Koute vwazen yo pou idantifye pwoblèm komen</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Kòmanse yon pati politik" data-en="Start a political party">Kòmanse yon pati politik</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Achte yon kamyon" data-en="Buy a truck">Achte yon kamyon</button>
                     </div>
                 </div>
 
@@ -567,10 +572,10 @@
                     <h3 data-ht="Tès Konesans 3" data-en="Knowledge Check 3">Tès Konesans 3</h3>
                     <p data-ht="Kijan ou dwe kòmanse òganize nan kominote ou?" data-en="How should you start organizing in your community?">Kijan ou dwe kòmanse òganize nan kominote ou?</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" data-correct="false" data-ht="Eseye rezoud tout pwoblèm ansanm" data-en="Try to solve all problems together">Eseye rezoud tout pwoblèm ansanm</div>
-                        <div class="quiz-option" data-correct="true" data-ht="Kòmanse ti ak yon pwoblèm espesifik" data-en="Start small with a specific problem">Kòmanse ti ak yon pwoblèm espesifik</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Tann yon ONG entènasyonal vin ede" data-en="Wait for an international NGO to come help">Tann yon ONG entènasyonal vin ede</div>
-                        <div class="quiz-option" data-correct="false" data-ht="Travay sèl san mande lòt moun opinyon yo" data-en="Work alone without asking others' opinions">Travay sèl san mande lòt moun opinyon yo</div>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Eseye rezoud tout pwoblèm ansanm" data-en="Try to solve all problems together">Eseye rezoud tout pwoblèm ansanm</button>
+                        <button type="button" class="quiz-option" data-correct="true" data-ht="Kòmanse ti ak yon pwoblèm espesifik" data-en="Start small with a specific problem">Kòmanse ti ak yon pwoblèm espesifik</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Tann yon ONG entènasyonal vin ede" data-en="Wait for an international NGO to come help">Tann yon ONG entènasyonal vin ede</button>
+                        <button type="button" class="quiz-option" data-correct="false" data-ht="Travay sèl san mande lòt moun opinyon yo" data-en="Work alone without asking others' opinions">Travay sèl san mande lòt moun opinyon yo</button>
                     </div>
                 </div>
 
@@ -585,6 +590,8 @@
             </div>
         </div>
     </section>
+    </main>
+
 
     <footer class="footer">
         <div class="container">
@@ -594,8 +601,8 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script src="community-organizing.js"></script>
+    <script src="script.js?v=3"></script>
+    <script src="community-organizing.js?v=2"></script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

@@ -33,6 +33,8 @@ const EN_TITLES = {
     'terms.html': 'Terms & Conditions - Ayiti Sitwayen'
 };
 
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
 let currentLang = localStorage.getItem('lang') === 'en' ? 'en' : 'ht';
 
 function pageFile() {
@@ -44,23 +46,37 @@ function applyLanguage(lang) {
     currentLang = lang;
     localStorage.setItem('lang', lang);
 
-    // Swap all bilingual elements
+    // Swap all bilingual elements (inputs swap their placeholder, not innerHTML)
     document.querySelectorAll('[data-ht][data-en]').forEach(element => {
         const htText = element.getAttribute('data-ht');
         const enText = element.getAttribute('data-en');
         if (htText && enText) {
-            element.innerHTML = lang === 'ht' ? htText : enText;
+            const value = lang === 'ht' ? htText : enText;
+            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                element.placeholder = value;
+            } else {
+                element.innerHTML = value;
+            }
         }
+    });
+
+    // Bilingual aria-labels (hidden text is the classic missed translation)
+    document.querySelectorAll('[data-ht-aria][data-en-aria]').forEach(element => {
+        element.setAttribute('aria-label', lang === 'ht'
+            ? element.getAttribute('data-ht-aria')
+            : element.getAttribute('data-en-aria'));
     });
 
     // Keep the document language and title in sync
     document.documentElement.lang = lang;
     document.title = lang === 'ht' ? DEFAULT_TITLE : (EN_TITLES[pageFile()] || DEFAULT_TITLE);
 
-    // Update language switcher button
+    // Update language switcher button (shows the language you can switch TO)
     const langSwitch = document.querySelector('.lang-switch');
     if (langSwitch) {
         langSwitch.textContent = lang === 'ht' ? 'EN' : 'HT';
+        langSwitch.setAttribute('lang', lang === 'ht' ? 'en' : 'ht');
+        langSwitch.setAttribute('aria-label', lang === 'ht' ? 'Switch to English' : 'Tounen an Kreyòl');
     }
 }
 
@@ -68,12 +84,11 @@ function toggleLanguage() {
     applyLanguage(currentLang === 'ht' ? 'en' : 'ht');
 }
 
-// Apply the stored language choice on load so it survives navigation
-document.addEventListener('DOMContentLoaded', () => {
-    if (currentLang !== 'ht') {
-        applyLanguage(currentLang);
-    }
-});
+// Apply the stored language choice immediately (this script sits at the end
+// of <body>, so the DOM is parsed) — avoids a flash of the wrong language.
+if (currentLang !== 'ht') {
+    applyLanguage(currentLang);
+}
 
 // Smooth Scrolling for Anchor Links (guard: bare "#" is not a valid selector)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -82,42 +97,48 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         if (!href || href === '#') {
             return;
         }
-        e.preventDefault();
         const target = document.querySelector(href);
         if (target) {
+            e.preventDefault();
             target.scrollIntoView({
-                behavior: 'smooth',
+                behavior: prefersReducedMotion.matches ? 'auto' : 'smooth',
                 block: 'start'
             });
         }
     });
 });
 
-// Intersection Observer for Animations
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
-        }
-    });
-}, observerOptions);
-
-// Observe all mission cards and team members
+// Scroll-in reveal for homepage cards — skipped entirely for reduced motion,
+// with a timed fallback so content can never stay hidden.
 document.addEventListener('DOMContentLoaded', () => {
     const animatedElements = document.querySelectorAll('.mission-card, .team-member');
+    if (!animatedElements.length || prefersReducedMotion.matches || !('IntersectionObserver' in window)) {
+        return;
+    }
+
+    const reveal = el => {
+        el.style.opacity = '1';
+        el.style.transform = 'translateY(0)';
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                reveal(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
 
     animatedElements.forEach(el => {
         el.style.opacity = '0';
-        el.style.transform = 'translateY(30px)';
-        el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+        el.style.transform = 'translateY(24px)';
+        el.style.transition = 'opacity 0.5s cubic-bezier(0.2, 0, 0, 1), transform 0.5s cubic-bezier(0.2, 0, 0, 1)';
         observer.observe(el);
     });
+
+    // Fallback: never leave content invisible (e.g. observer quirks, printing)
+    setTimeout(() => animatedElements.forEach(reveal), 2500);
 });
 
 // Form Submission Handler (mailto fallback until a Formspree form ID is configured)
@@ -134,47 +155,76 @@ if (contactForm && !contactForm.action.includes('formspree')) {
     });
 }
 
-// Mobile Menu Toggle
+// Mobile Menu Toggle (keeps aria-expanded in sync for assistive tech)
+function setMenuState(open) {
+    const navLinks = document.querySelector('.nav-links');
+    const navToggle = document.querySelector('.nav-toggle');
+    if (!navLinks) return;
+    navLinks.classList.toggle('active', open);
+    if (navToggle) {
+        navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+}
+
 function toggleMobileMenu() {
     const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('active');
+    setMenuState(!(navLinks && navLinks.classList.contains('active')));
 }
 
 // Close mobile menu after tapping a nav link
 document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-        document.querySelector('.nav-links').classList.remove('active');
-    });
+    link.addEventListener('click', () => setMenuState(false));
 });
 
-// Add active state to current nav link
+// Close mobile menu with Escape and return focus to the toggle
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks && navLinks.classList.contains('active')) {
+            setMenuState(false);
+            const navToggle = document.querySelector('.nav-toggle');
+            if (navToggle) navToggle.focus();
+        }
+    }
+});
+
+// Add active state to current nav link (rAF-throttled; no layout thrash per event)
+let scrollTickPending = false;
 window.addEventListener('scroll', () => {
-    const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+    if (scrollTickPending) return;
+    scrollTickPending = true;
+    requestAnimationFrame(() => {
+        scrollTickPending = false;
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+        if (!sections.length || !navLinks.length) return;
 
-    let currentSection = '';
+        let currentSection = '';
+        sections.forEach(section => {
+            if (window.pageYOffset >= section.offsetTop - 120) {
+                currentSection = section.getAttribute('id');
+            }
+        });
 
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-
-        if (window.pageYOffset >= sectionTop - 100) {
-            currentSection = section.getAttribute('id');
-        }
+        navLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === `#${currentSection}`);
+        });
     });
+}, { passive: true });
 
-    navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === `#${currentSection}`) {
-            link.classList.add('active');
-        }
-    });
-});
-
-// Wire nav controls without inline handlers (CSP-safe; replaces onclick attributes)
+// Wire nav controls without inline handlers (CSP-safe)
 document.addEventListener('DOMContentLoaded', function () {
     const navToggle = document.querySelector('.nav-toggle');
-    if (navToggle) navToggle.addEventListener('click', toggleMobileMenu);
+    if (navToggle) {
+        navToggle.setAttribute('aria-expanded', 'false');
+        navToggle.addEventListener('click', toggleMobileMenu);
+    }
     const langSwitch = document.querySelector('.lang-switch');
-    if (langSwitch) langSwitch.addEventListener('click', toggleLanguage);
+    if (langSwitch) {
+        if (!langSwitch.getAttribute('aria-label')) {
+            langSwitch.setAttribute('aria-label', currentLang === 'ht' ? 'Switch to English' : 'Tounen an Kreyòl');
+            langSwitch.setAttribute('lang', currentLang === 'ht' ? 'en' : 'ht');
+        }
+        langSwitch.addEventListener('click', toggleLanguage);
+    }
 });
