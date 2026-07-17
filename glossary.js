@@ -75,7 +75,7 @@ const glossaryData = [
         creole: "Lè moun nan pouvwa sèvi ak pozisyon yo pou benefis pèsonèl, souvan lè yo vòlè lajan piblik.",
         french: "Quand des personnes au pouvoir utilisent leur position pour un bénéfice personnel, souvent en volant l'argent public.",
         english: "When people in power use their position for personal benefit, often by stealing public money.",
-        related: ["Pòdvin", "Detounman", "Transparans"]
+        related: ["Pòdven", "Detounman", "Transparans"]
     },
     {
         term: "Koudeta",
@@ -473,7 +473,7 @@ const glossaryData = [
         related: ["MPNKP", "OPODNE", "Agrikilti"]
     },
     {
-        term: "Pòdvin",
+        term: "Pòdven",
         category: "concept",
         creole: "Ofri oswa aksepte lajan pou enfliyanse yon desizyon. Se yon fòm koripsyon.",
         french: "Offrir ou accepter de l'argent pour influencer une décision. Forme de corruption.",
