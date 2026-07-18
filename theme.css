@@ -919,7 +919,18 @@ p {
     }
 }
 
-/* --- Koute: page audio player (added 2026-07-17) --- */
-.koute{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem .9rem;margin:1.1rem 0 1.4rem;padding:.7rem .9rem;border:1px solid #111;background:#fff}
-.koute-tit{font-weight:600;font-size:.95rem}
-.koute audio{height:38px;max-width:100%}
+/* --- Koute: native page audio player; progress bar = flag-thread gradient --- */
+.koute{display:flex;align-items:center;gap:.9rem;max-width:520px;margin:2.25rem auto 0 auto;padding:.85rem 1rem;border:1px solid var(--gray-300);background:var(--white);transition:border-color var(--dur-1) var(--ease)}
+.koute:hover{border-color:var(--black)}
+.koute-btn{flex:0 0 auto;width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;padding:0;background:var(--black);border:1px solid var(--black);color:var(--white);cursor:pointer;transition:background-color var(--dur-1) var(--ease)}
+.koute-btn:hover{background:var(--gray-800)}
+.koute-btn svg{width:15px;height:15px;fill:currentColor;display:block}
+.koute-btn .ic-pause{display:none}
+.koute.playing .ic-play{display:none}
+.koute.playing .ic-pause{display:block}
+.koute-main{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:.55rem}
+.koute-label{font-size:.6875rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gray-600);line-height:1}
+.koute-track{position:relative;height:4px;background:var(--gray-200);cursor:pointer}
+.koute-fill{position:absolute;top:0;left:0;bottom:0;width:0;background:var(--accent-gradient)}
+.koute-time{flex:0 0 auto;font-size:.8125rem;color:var(--gray-500);font-variant-numeric:tabular-nums;min-width:4.5ch;text-align:right}
+@media (max-width:480px){.koute{gap:.65rem;padding:.7rem .8rem;margin-top:1.75rem}}
