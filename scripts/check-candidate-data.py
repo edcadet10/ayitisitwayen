@@ -49,7 +49,33 @@ class CandidateDataChecks(unittest.TestCase):
                 self.assertTrue(entry['portrait']['reuse_basis'])
         for source in self.enrichment['publications'].values():
             self.assertFalse(source['url'].lower().split('?')[0].endswith('.pdf'))
-            self.assertEqual(source['review_status'],'reviewed')
+            self.assertIn(source['review_status'],['reviewed','indexed'])
+            if source['review_status']=='indexed':
+                self.assertEqual(source['editorial_level'],'index')
+                self.assertIn(source['summary'],[builder.COPY['index_note'],builder.COPY['video_metadata_note']])
+    def test_historical_records_and_candidate_identity_boundaries(self):
+        history=json.loads((ROOT/'data/candidates/history-index.json').read_text(encoding='utf-8'))
+        self.assertGreater(len(history['publications']),8000)
+        self.assertGreater(sum(s['format']=='video' for s in history['publications'].values()),800)
+        self.assertLessEqual(min(s['published_at'] for s in history['publications'].values() if s.get('published_at')),'2002-12-31')
+        audit=json.loads((ROOT/'editorial/candidate-history-provenance.json').read_text(encoding='utf-8'))
+        for ident in audit['withheld_profiles_due_to_identity_ambiguity']:
+            self.assertNotIn(ident,history['profiles'])
+        for ident in ['c-27353ad57d705ce8a375','c-a6829aac87da57bd8551','c-3a935f8354c358368920']:
+            self.assertNotIn(ident,history['profiles'])
+        for ident,entry in history['profiles'].items():
+            self.assertEqual(len(entry['source_ids']),len(set(entry['source_ids'])))
+            self.assertEqual(set(entry['source_ids']),set(entry['source_relations']))
+        source=self.enrichment['publications'][next(iter(history['publications']))]
+        self.assertNotIn('relation',source) # Per-candidate context must not mutate a shared publication.
+    def test_individual_recordings_are_not_account_homepages(self):
+        from urllib.parse import urlparse,parse_qs
+        for source in self.enrichment['publications'].values():
+            if source.get('format')!='video':continue
+            parsed=urlparse(source['url'])
+            if parsed.hostname in ['youtube.com','www.youtube.com']:
+                self.assertEqual(parsed.path,'/watch')
+                self.assertEqual(parse_qs(parsed.query).get('v'),[source['video_id']])
     def test_portrait_assets_are_small_local_and_auditable(self):
         audit=json.loads((ROOT/'editorial/candidate-portrait-provenance.json').read_text(encoding='utf-8'))
         reviewed={p['id']:p for p in audit['portraits']}

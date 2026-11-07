@@ -15,5 +15,6 @@
   const portraitObserver='IntersectionObserver' in window?new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){revealPortrait(entry.target);portraitObserver.unobserve(entry.target);}}},{rootMargin:'0px'}):null;
   function loadPortraits(){for(const image of document.querySelectorAll('img[data-portrait-src]')){if(portraitObserver)portraitObserver.observe(image);else revealPortrait(image);}}
   loadPortraits();
+  for(const link of document.querySelectorAll('.source-preview-link[hidden]'))link.hidden=false;
   window.AyitiCandidates={copy:JSON.parse(document.getElementById('candidate-copy').textContent),lang:document.documentElement.lang==='en'?'en':'ht',loadPortraits};
 })();

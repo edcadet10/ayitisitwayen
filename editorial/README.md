@@ -196,3 +196,8 @@ fixture. Browser evidence is written to a temporary folder, outside the public
 site. These checks are browser automation, not a human usability study, and do
 not represent 8,990 individually observed browser sessions. The complete static
 build still checks every generated registration profile in CI.
+
+The historical backfill, indexing/summary distinction, identity exclusions,
+remaining gaps and repeatable collection/checks are documented in
+[candidate-history-review.md](candidate-history-review.md). The earlier
+33-profile/29-publication figures above describe the preceding release.

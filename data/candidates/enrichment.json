@@ -704,6 +704,143 @@
         "ht": "Chwa kandida OPL la",
         "en": "OPL’s candidate selection"
       }
+    },
+    "bodeau-treasury-20230405": {
+      "id": "bodeau-treasury-20230405",
+      "url": "https://home.treasury.gov/news/press-releases/jy1389",
+      "publisher": "U.S. Department of the Treasury",
+      "published_at": "2023-04-05",
+      "type": "official",
+      "format": "article",
+      "categories": [
+        "public_records",
+        "history"
+      ],
+      "title": {
+        "ht": "Trezò ameriken: anons sanksyon kont Gary Bodeau an 2023",
+        "en": "U.S. Treasury’s 2023 sanctions announcement on Gary Bodeau"
+      },
+      "summary": {
+        "ht": "Kominike Trezò ameriken 5 Avril 2023 a anonse sanksyon OFAC kont Gary Bodeau epi li prezante rezon otorite ameriken yo bay. Se yon anons sanksyon administratif, pa yon kondanasyon penal oswa yon desizyon KEP.",
+        "en": "The Treasury’s 5 April 2023 release announces OFAC sanctions on Gary Bodeau and sets out the U.S. authorities’ stated reasons. This is an administrative sanctions announcement, not a criminal conviction or CEP decision."
+      },
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "martelly-treasury-20240820": {
+      "id": "martelly-treasury-20240820",
+      "url": "https://home.treasury.gov/news/press-releases/jy2542",
+      "publisher": "U.S. Department of the Treasury",
+      "published_at": "2024-08-20",
+      "type": "official",
+      "format": "article",
+      "categories": [
+        "public_records",
+        "history"
+      ],
+      "title": {
+        "ht": "Trezò ameriken: anons sanksyon kont Michel Martelly an 2024",
+        "en": "U.S. Treasury’s 2024 sanctions announcement on Michel Martelly"
+      },
+      "summary": {
+        "ht": "Kominike 20 Out 2024 la anonse sanksyon OFAC kont Michel Joseph Martelly epi li prezante akizasyon Trezò ameriken an. Se yon dosye istorik sou yon mezi administratif; li pa yon jijman penal ni yon verifikasyon estati aktyèl li.",
+        "en": "The 20 August 2024 release announces OFAC sanctions on Michel Joseph Martelly and describes the Treasury’s allegations. This historical record concerns an administrative measure; it is not a criminal judgment or a check of his present status."
+      },
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "privert-canada-2023": {
+      "id": "privert-canada-2023",
+      "url": "https://www.canada.ca/en/global-affairs/news/2023/06/minister-joly-hosts-ministerial-meeting-on-haiti-with-international-partners.html",
+      "publisher": "Global Affairs Canada",
+      "published_at": "2023",
+      "type": "official",
+      "format": "article",
+      "categories": [
+        "public_records",
+        "history"
+      ],
+      "title": {
+        "ht": "Kominike Kanada an 2023 ki site Jocelerme Privert",
+        "en": "Canada’s 2023 Haiti release mentioning Jocelerme Privert"
+      },
+      "summary": {
+        "ht": "Kominike sa a sou politik Kanada pou Ayiti raple sanksyon li te anonse kont Jocelerme Privert an Fevriye 2023. Paj la pale tou sou yon reyinyon ak lòt mezi pou Ayiti. Se deklarasyon gouvènman Kanada a, pa yon desizyon tribinal.",
+        "en": "This release on Canada’s Haiti policy recalls sanctions announced against Jocelerme Privert in February 2023, alongside a meeting and other Haiti measures. It records the Canadian government’s statements, not a court ruling."
+      },
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "privert-un-general-debate-2016": {
+      "id": "privert-un-general-debate-2016",
+      "url": "https://gadebate.un.org/en/71/haiti",
+      "publisher": "United Nations",
+      "published_at": null,
+      "type": "official",
+      "format": "video",
+      "categories": [
+        "public_records",
+        "videos",
+        "history"
+      ],
+      "title": {
+        "ht": "Entèvansyon Jocelerme Privert devan Nasyonzini an 2016",
+        "en": "Jocelerme Privert’s 2016 United Nations address"
+      },
+      "summary": {
+        "ht": "Achiv ofisyèl Nasyonzini an idantifye Jocelerme Privert kòm chèf leta pa enterim Ayiti pou entèvansyon 23 Septanm 2016 la. Paj la gen anrejistreman ak yon rezime sou eleksyon, devlopman, sekirite ak kolera.",
+        "en": "The UN’s official archive identifies Jocelerme Privert as Haiti’s acting head of state for the 23 September 2016 address. The page provides the recording and a summary concerning elections, development, security and cholera."
+      },
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed",
+      "event_date": "2016-09-23"
+    },
+    "privert-interview-magik-2025": {
+      "id": "privert-interview-magik-2025",
+      "url": "https://soundcloud.com/user-268726113/jocelerme-privert-interview",
+      "publisher": "Radio Magik9",
+      "published_at": null,
+      "type": "journalism",
+      "format": "audio",
+      "categories": [
+        "interviews",
+        "history"
+      ],
+      "title": {
+        "ht": "Jocelerme Privert nan Panel Magik, 28 Jiyè 2025",
+        "en": "Jocelerme Privert on Panel Magik, 28 July 2025"
+      },
+      "summary": {
+        "ht": "Radio Magik9 pibliye anrejistreman entèvyou sa a sou paj SoundCloud li, ak dat 28 Jiyè 2025 nan tit la. Se yon lyen dirèk sou yon emisyon, se pa paj akèy yon kont.",
+        "en": "Radio Magik9 publishes this interview recording on its SoundCloud page, with 28 July 2025 stated in the title. This links to an individual programme, not an account homepage."
+      },
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed",
+      "event_date": "2025-07-28"
+    },
+    "claude-france24-interview-2024": {
+      "id": "claude-france24-interview-2024",
+      "url": "https://www.boursorama.com/videos/actualites/claude-joseph-ex-premier-ministre-haitien-ariel-henry-provoque-une-guerre-civile-en-haiti-15718e9bf5faf027d3ef3c96965d8887",
+      "publisher": "France 24 via Boursorama",
+      "published_at": null,
+      "type": "journalism",
+      "format": "video",
+      "categories": [
+        "videos",
+        "interviews",
+        "history"
+      ],
+      "title": {
+        "ht": "Entèvyou France 24 ak Claude Joseph sou kriz politik la",
+        "en": "France 24 interview with Claude Joseph on the political crisis"
+      },
+      "summary": {
+        "ht": "Paj videyo sa a prezante yon entèvyou France 24 kote Claude Joseph kritike desizyon Ariel Henry pou rete sou pouvwa a. Se pozisyon Joseph eksprime nan entèvyou a, pa yon konklizyon nou fè sou evènman yo.",
+        "en": "This video page presents a France 24 interview in which Claude Joseph criticises Ariel Henry’s decision to remain in power. These are Joseph’s positions in the interview, not our findings about the events."
+      },
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed",
+      "event_year": "2024"
     }
   },
   "profiles": {
@@ -715,7 +852,8 @@
     "c-656331d267b75fc0aa53": {
       "source_ids": [
         "haitilibre-20261017",
-        "portrait-source-656331d267b75fc0aa53"
+        "portrait-source-656331d267b75fc0aa53",
+        "bodeau-treasury-20230405"
       ],
       "portrait": {
         "path": "/assets/candidates/gary-bodeau-320.webp",
@@ -942,7 +1080,8 @@
     "c-c9c792b353345247be19": {
       "source_ids": [
         "haitilibre-20261017",
-        "portrait-source-c9c792b353345247be19"
+        "portrait-source-c9c792b353345247be19",
+        "claude-france24-interview-2024"
       ],
       "portrait": {
         "path": "/assets/candidates/claude-joseph-320.webp",
@@ -1053,7 +1192,8 @@
     "c-73cb6b93ef8b5e7e9d1a": {
       "source_ids": [
         "haitilibre-20261017",
-        "portrait-source-73cb6b93ef8b5e7e9d1a"
+        "portrait-source-73cb6b93ef8b5e7e9d1a",
+        "martelly-treasury-20240820"
       ],
       "portrait": {
         "path": "/assets/candidates/michel-martelly-320.webp",
@@ -1164,7 +1304,10 @@
     "c-cfa0ce450d335df39e36": {
       "source_ids": [
         "haitilibre-20261017",
-        "portrait-source-cfa0ce450d335df39e36"
+        "portrait-source-cfa0ce450d335df39e36",
+        "privert-canada-2023",
+        "privert-un-general-debate-2016",
+        "privert-interview-magik-2025"
       ],
       "portrait": {
         "path": "/assets/candidates/jocelerme-privert-320.webp",
@@ -1196,6 +1339,9 @@
         "reviewed_at": "2026-11-07",
         "position": "50% 50%",
         "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      },
+      "source_relations": {
+        "privert-canada-2023": "mention"
       }
     },
     "c-7308041793ef5e32b5ff": {

@@ -33,6 +33,14 @@ def safe_url(value):
 def load():
     registry = json.loads((ROOT / 'data/candidates/registry.json').read_text(encoding='utf-8'))
     enrichment = json.loads((ROOT / 'data/candidates/enrichment.json').read_text(encoding='utf-8'))
+    history = json.loads((ROOT / 'data/candidates/history-index.json').read_text(encoding='utf-8'))
+    for source_id, source in history['publications'].items():
+        assert source_id not in enrichment['publications']
+        enrichment['publications'][source_id]=source
+    for person_id, entry in history['profiles'].items():
+        current=enrichment['profiles'].setdefault(person_id,{'source_ids':[]})
+        current['source_ids']=list(dict.fromkeys(current.get('source_ids',[])+entry['source_ids']))
+        current.setdefault('source_relations',{}).update(entry.get('source_relations',{}))
     assert registry['status'] == 'reviewed' and registry['total'] == len(registry['candidates'])
     people = registry['candidates']; ids = set()
     for person in people:
@@ -52,9 +60,9 @@ def load():
             assert re.fullmatch(r'/assets/candidates/[a-z0-9-]+\.webp',p['web_path']) and (ROOT/p['web_path'].lstrip('/')).is_file()
         seen=set()
         for source in entry.get('sources',[]):
-            assert re.fullmatch('[a-z0-9-]{3,80}',source['id']) and source['id'] not in seen and source['review_status']=='reviewed'
+            assert re.fullmatch('[a-z0-9-]{3,80}',source['id']) and source['id'] not in seen and source['review_status'] in ['reviewed','indexed']
             seen.add(source['id']);safe_url(source['url'])
-            assert source['type'] in ['journalism','official','campaign_source','social_source','opinion']
+            assert source['type'] in ['journalism','official','campaign_source','social_source','opinion','archive_source']
             assert all(category in dict(CATEGORIES) for category in source['categories'])
             for lang in ['ht','en']:assert source['title'][lang] and source['summary'][lang]
     return registry, enrichment
@@ -79,7 +87,7 @@ def shell(lang,title,description,path,body,profile=False):
     ht=route;en='/en'+route
     nav=''.join(f'<a href="{url}"'+(' aria-current="page"' if key=='directory_title' else '')+f'>{label(key,lang)}</a>' for key,url in [('elections',prefix(lang)),('directory_title',directory(lang)),('education',prefix(lang)+'education.html'),('about',prefix(lang)+'about.html')])
     structured={'@context':'https://schema.org','@type':'WebPage','name':title,'url':SITE+path,'inLanguage':lang,'publisher':{'@type':'Organization','name':'Ayiti Sitwayen'}}
-    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | Ayiti Sitwayen</title><meta name="description" content="{esc(description,quote=True)}"><meta name="theme-color" content="#ffffff"><meta property="og:title" content="{esc(title,quote=True)}"><meta property="og:description" content="{esc(description,quote=True)}"><meta property="og:url" content="{SITE}{path}"><meta property="og:type" content="website"><meta property="og:image" content="{SITE}/logo.png"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="{SITE}{path}"><link rel="alternate" hreflang="ht" href="{SITE}{ht}"><link rel="alternate" hreflang="en" href="{SITE}{en}"><link rel="alternate" hreflang="x-default" href="{SITE}{ht}"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/styles.css?v=3"><link rel="stylesheet" href="/theme.css?v=3"><link rel="stylesheet" href="/candidate-directory.css?v=4"><script type="application/ld+json">{compact(structured)}</script></head><body class="candidate-site"><a class="skip-link" href="#kontni">{label('skip',lang)}</a><nav class="navbar"><div class="container"><a class="nav-brand" href="{prefix(lang)}"><img src="/logo.webp" class="logo" alt="Ayiti Sitwayen" width="300" height="200"></a><button class="nav-toggle" aria-label="{label('menu',lang)}" aria-expanded="false" aria-controls="navLinks">☰</button><div class="nav-links" id="navLinks">{nav}<a class="lang-switch" href="{alternate}" lang="{'en' if lang=='ht' else 'ht'}">{'EN' if lang=='ht' else 'HT'}</a></div></div></nav>{body}<footer class="candidate-footer container"><a href="{prefix(lang)}">Ayiti Sitwayen</a><p>{label('independent',lang)}</p><a href="{prefix(lang)}about.html#contact">{label('correction',lang)}</a></footer><script type="application/json" id="candidate-copy">{compact({key:value[lang] for key,value in COPY.items()})}</script><script src="/candidate-common.js?v=4" defer></script><script src="/candidate-{'web' if profile else 'directory'}.js?v=4" defer></script></body></html>'''
+    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | Ayiti Sitwayen</title><meta name="description" content="{esc(description,quote=True)}"><meta name="theme-color" content="#ffffff"><meta property="og:title" content="{esc(title,quote=True)}"><meta property="og:description" content="{esc(description,quote=True)}"><meta property="og:url" content="{SITE}{path}"><meta property="og:type" content="website"><meta property="og:image" content="{SITE}/logo.png"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="{SITE}{path}"><link rel="alternate" hreflang="ht" href="{SITE}{ht}"><link rel="alternate" hreflang="en" href="{SITE}{en}"><link rel="alternate" hreflang="x-default" href="{SITE}{ht}"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/styles.css?v=3"><link rel="stylesheet" href="/theme.css?v=3"><link rel="stylesheet" href="/candidate-directory.css?v=5"><script type="application/ld+json">{compact(structured)}</script></head><body class="candidate-site"><a class="skip-link" href="#kontni">{label('skip',lang)}</a><nav class="navbar"><div class="container"><a class="nav-brand" href="{prefix(lang)}"><img src="/logo.webp" class="logo" alt="Ayiti Sitwayen" width="300" height="200"></a><button class="nav-toggle" aria-label="{label('menu',lang)}" aria-expanded="false" aria-controls="navLinks">☰</button><div class="nav-links" id="navLinks">{nav}<a class="lang-switch" href="{alternate}" lang="{'en' if lang=='ht' else 'ht'}">{'EN' if lang=='ht' else 'HT'}</a></div></div></nav>{body}<footer class="candidate-footer container"><a href="{prefix(lang)}">Ayiti Sitwayen</a><p>{label('independent',lang)}</p><a href="{prefix(lang)}about.html#contact">{label('correction',lang)}</a></footer><script type="application/json" id="candidate-copy">{compact({key:value[lang] for key,value in COPY.items()})}</script><script src="/candidate-common.js?v=5" defer></script><script src="/candidate-{'web' if profile else 'directory'}.js?v=5" defer></script></body></html>'''
 
 def card(person,enrichment,lang):
     image=enrichment['profiles'].get(person['id'],{}).get('portrait')
@@ -104,7 +112,41 @@ def directory_page(lang,registry,enrichment,office='president',page=1,main=True)
 
 def sources_for(person,registry,enrichment):
     official={'id':'cep-registration','type':'official','format':'record','categories':['public_records'],'title':COPY['registry_title'],'summary':COPY['registry_summary'],'publisher':'Conseil Électoral Provisoire (KEP / CEP)','url':registry['source_url'],'published_at':None,'reviewed_at':registry['reviewed_at'],'review_status':'reviewed','native':True}
-    return [official]+enrichment['profiles'].get(person['id'],{}).get('sources',[])
+    entry=enrichment['profiles'].get(person['id'],{});relations=entry.get('source_relations',{})
+    sources=[dict(source,relation=relations.get(source['id'])) for source in entry.get('sources',[])]
+    sources.sort(key=lambda source:source.get('published_at') or source.get('event_date') or source.get('event_year') or '',reverse=True)
+    return [official]+sources
+
+def source_years(source):
+    values=[source.get('published_at'),source.get('event_date'),source.get('event_year')]
+    if source.get('native'):values.append(source.get('reviewed_at'))
+    return sorted({value[:4] for value in values if value and re.match(r'^\d{4}',value)}) or ['unknown']
+
+def archive_url(person,lang,year='all',page=1):
+    base=profile_url(person,lang)+'archive/'+('' if year=='all' else year+'/')
+    return base if page==1 else base+f'page-{page}.html'
+
+def source_card(source,lang,person):
+    kind=label(source['type'],lang)+' · '+label('format_'+source['format'],lang)
+    if source.get('editorial_level')=='index':kind+=' · '+label('index_entry',lang)
+    notes=''
+    if source.get('relation')=='mention':notes+=f'<p class="source-relationship">{label("mention_note",lang)}</p>'
+    elif source.get('relation') in ['candidate_channel','archive_context']:notes+=f'<p class="source-relationship">{label("relation_"+source["relation"],lang)}</p>'
+    if source.get('access')=='account':notes+=f'<p class="source-access-note">{label("source_account_note",lang)}</p>'
+    if source.get('availability')=='archived_page_only':notes+=f'<p class="source-access-note">{label("video_archive_note",lang)}</p>'
+    if source.get('event_date') or source.get('event_year'):notes+=f'<p class="source-date">{label("event_date",lang)}: {esc(source.get("event_date") or source["event_year"])}</p>'
+    link=profile_url(person,lang)+'#registration' if source.get('native') else safe_url(source['url'])
+    return f'''<article class="candidate-source-card" data-source-id="{source['id']}" data-source-type="{source['type']}" data-source-date="{source.get('published_at') or ''}"><div><span class="source-type">{kind}</span><span>{esc(source.get('published_at') or t('date_unknown',lang))}</span></div><h3>{esc(source['title'][lang])}</h3><p>{esc(source['summary'][lang])}</p><p class="source-publisher">{label('source',lang)}: {esc(source['publisher'])}</p>{notes}<a href="{esc(link,quote=True)}"{'' if source.get('native') else ' target="_blank" rel="noopener noreferrer"'}>{label('registry_title' if source.get('native') else 'original',lang)} ↗</a><a class="source-preview-link" hidden href="{profile_url(person,lang)}#source={quote(source['id'])}">{label('view_web',lang)} →</a></article>'''
+
+def archive_page(lang,person,sources,year='all',page=1):
+    rows=sources if year=='all' else [source for source in sources if year in source_years(source)]
+    current=rows[(page-1)*24:page*24];pages=max(1,(len(rows)+23)//24)
+    years=sorted({year for source in sources for year in source_years(source)},reverse=True)
+    links=''.join(f'<a href="{archive_url(person,lang,value)}"'+(' aria-current="page"' if value==year else '')+f'>{label("all_years",lang) if value=="all" else label("unknown_year",lang) if value=="unknown" else esc(value)}</a>' for value in ['all']+years)
+    pagination=f'<nav class="candidate-pagination" aria-label="{label("page",lang)}">'+(f'<a class="candidate-button secondary" href="{archive_url(person,lang,year,page-1)}">{label("previous",lang)}</a>' if page>1 else '')+f'<span>{label("page",lang)} {page} {label("of",lang)} {pages}</span>'+(f'<a class="candidate-button secondary" href="{archive_url(person,lang,year,page+1)}">{label("next",lang)}</a>' if page<pages else '')+'</nav>'
+    body=f'<main id="kontni" class="candidate-main container"><a class="candidate-back" href="{profile_url(person,lang)}#information-web">← {label("archive_back",lang)}</a><p class="candidate-kicker">{esc(person["name"])} · {len(rows):,} {label("sources",lang)}</p><h1>{label("archive",lang)}'+(' · '+(t('unknown_year',lang) if year=='unknown' else year) if year!='all' else '')+f'</h1><p class="candidate-coverage">{label("history_scope",lang)}</p><nav class="candidate-archive-years" aria-label="{label("archive_year",lang)}">{links}</nav><div class="candidate-source-list">'+''.join(source_card(source,lang,person) for source in current)+f'</div>{pagination}</main>'
+    path=archive_url(person,lang,year,page)
+    return path,shell(lang,person['name']+' — '+t('archive',lang),t('history_scope',lang),path,body)
 
 def profile_page(lang,person,registry,enrichment):
     entry=enrichment['profiles'].get(person['id'],{});sources=sources_for(person,registry,enrichment)
@@ -114,9 +156,10 @@ def profile_page(lang,person,registry,enrichment):
     position={'Titulaire':'titulaire','1er Adjoint':'first_deputy','2ème Adjoint':'second_deputy'}.get(person['position'])
     facts=[('office',t(person['office'],lang)),('party',person['party']),('position',t(position,lang) if position else person['position']),('place',' · '.join(person['locality']))]
     fact_html=''.join(f'<div><dt>{label(key,lang)}</dt><dd>{esc(value)}</dd></div>' for key,value in facts)
-    archive=''.join(f'''<article class="candidate-source-card" data-source-id="{s['id']}" data-source-type="{s['type']}" data-source-date="{s.get('published_at') or ''}"><div><span class="source-type">{label(s['type'],lang)} · {label("format_"+s["format"],lang)}</span><span>{esc(s.get('published_at') or t('date_unknown',lang))}</span></div><h3>{esc(s['title'][lang])}</h3><p>{esc(s['summary'][lang])}</p><p class="source-publisher">{label('source',lang)}: {esc(s['publisher'])}</p>{f'<p class="source-access-note">{label("source_account_note",lang)}</p>' if s.get("access")=="account" else ""}{f'<a href="#registration">{label("registry_title",lang)} ↑</a>' if s.get('native') else f'<a href="{esc(safe_url(s["url"]),quote=True)}" target="_blank" rel="noopener noreferrer">{label("original",lang)} ↗</a>'}</article>''' for s in sources)
-    types=''.join(f'<option value="{key}">{label(key,lang)}</option>' for key in ['official','journalism','campaign_source','social_source','opinion'])
-    data={'id':person['id'],'name':person['name'],'registration':[{'label':t(key,lang),'value':value} for key,value in facts]+[{'label':t('status',lang),'value':t(person['status'],lang)}],'sources':sources,'categories':[{ 'key':key,'label':t(key,lang),'icon':icon} for key,icon in CATEGORIES]}
+    archive=''.join(source_card(source,lang,person) for source in sources[:24])
+    if len(sources)>24:archive+=f'<p class="candidate-coverage">{label("archive_recent",lang)} <a href="{archive_url(person,lang)}">{label("full_archive",lang)} ({len(sources):,}) →</a></p>'
+    types=''.join(f'<option value="{key}">{label(key,lang)}</option>' for key in ['official','journalism','campaign_source','social_source','opinion','archive_source'])
+    data={'id':person['id'],'name':person['name'],'registration':[{'label':t(key,lang),'value':value} for key,value in facts]+[{'label':t('status',lang),'value':t(person['status'],lang)}],'sources':sources[:24],'total_sources':len(sources),'topic_counts':{key:sum(key in source['categories'] for source in sources) for key,_ in CATEGORIES},'years':sorted({year for source in sources for year in source_years(source)},reverse=True),'source_catalog_url':('/data/candidate-public/archives/'+person['id']+'.json?v='+hashlib.sha256(compact(sources).encode()).hexdigest()[:12]) if len(sources)>24 else None,'categories':[{ 'key':key,'label':t(key,lang),'icon':icon} for key,icon in CATEGORIES]}
     body=f'''<main id="kontni" class="candidate-main candidate-profile container"><a class="candidate-back" href="{directory(lang)}" id="candidate-back">← {label('back',lang)}</a><section class="candidate-profile-intro" id="registration"><div class="candidate-profile-portrait"><div class="candidate-photo">{portrait(person,enrichment,lang,True)}</div>{credit}</div><div class="candidate-profile-heading"><p class="candidate-kicker">{label('election',lang)} · {label(person['office'],lang)}</p><h1>{esc(person['name'])}</h1><p class="candidate-status">{label(person['status'],lang)}</p><dl class="candidate-facts">{fact_html}</dl><p class="candidate-snapshot">{label('snapshot',lang)} <time datetime="{registry['reviewed_at']}">{registry['reviewed_at']}</time> · {label('source',lang)}: KEP / CEP</p><p class="candidate-status-explanation">{label('status_note',lang)}</p><a class="candidate-text-link" id="candidate-open-web" href="#information-web" hidden>{label("view_web",lang)} ↓</a><button class="candidate-clear" id="candidate-share" type="button" hidden>{label('share',lang)} ↗</button><span id="candidate-share-status" role="status"></span></div></section><section class="candidate-web-section" id="information-web" aria-labelledby="web-title" hidden><div class="candidate-web-heading"><div><p class="candidate-kicker">{esc(person['name'])} · {len(sources)} {label('sources',lang)}</p><p class="candidate-status">{label(person["status"],lang)}</p><h2 id="web-title">{label('the_web',lang)}</h2></div><a href="#source-archive" class="candidate-text-link">{label('archive',lang)} ↓</a></div><div class="candidate-web-toolbar"><button type="button" class="candidate-clear" id="web-back" hidden>← {label('topics',lang)}</button><p id="web-breadcrumb">{label('web_hint',lang)}</p><div id="web-pages" hidden><button type="button" id="web-previous" aria-label="{label('previous',lang)}">←</button><span id="web-page-count"></span><button type="button" id="web-next" aria-label="{label('next',lang)}">→</button></div></div><div class="candidate-web-layout"><div id="web-stage" role="group" aria-label="{label('web_label',lang)}"><svg id="web-threads" aria-hidden="true"></svg><a class="web-centre" href="#registration" aria-label="{esc(person['name'],quote=True)}">{f'<img src="{esc(image["web_path"],quote=True)}" alt="" width="192" height="192" decoding="async">' if image else '<span aria-hidden="true">'+esc(''.join(p[0] for p in [person['given_name'],person['surname']] if p))+'</span>'}</a><div id="web-nodes"></div></div><aside class="candidate-preview" id="web-preview" aria-live="polite" aria-label="{label('the_web',lang)}"><div id="web-preview-empty"><span class="preview-web-symbol" aria-hidden="true">✧</span><h3>{label('preview_empty',lang)}</h3><p>{label('preview_hint',lang)}</p></div><div id="web-preview-content" hidden><button type="button" id="web-close" aria-label="{label('close_preview',lang)}">×</button><p class="source-type" id="web-preview-type"></p><h3 id="web-preview-title"></h3><p id="web-preview-summary"></p><p class="source-publisher" id="web-preview-publisher"></p><p class="source-date" id="web-preview-date"></p><div id="web-preview-action"></div><div id="web-video"></div></div></aside></div></section><section class="candidate-archive" id="source-archive" aria-labelledby="archive-title"><div class="candidate-web-heading"><div><p class="candidate-kicker">{len(sources)} {label('sources',lang)}</p><h2 id="archive-title">{label('archive',lang)}</h2></div><div class="candidate-archive-filters" hidden><label>{label('source_type',lang)}<select id="source-type-filter"><option value="">{label('all_types',lang)}</option>{types}</select></label><label>{label('timeline',lang)}<select id="source-date-sort"><option value="newest">{label('newest',lang)}</option><option value="oldest">{label('oldest',lang)}</option></select></label></div></div><div class="candidate-source-list">{archive}</div><p class="candidate-coverage">{label('coverage',lang)}</p></section><script type="application/json" id="candidate-profile-data">{compact(data)}</script></main>'''
     return shell(lang,person['name']+' — '+t(person['office'],lang),t('registry_summary',lang),profile_url(person,lang),body,True)
 
@@ -140,6 +183,15 @@ def outputs(registry,enrichment):
         for person in registry['candidates']:
             path=profile_url(person,lang);urls.append(path)
             yield ROOT/path.strip('/')/'index.html',profile_page(lang,person,registry,enrichment)
+            sources=sources_for(person,registry,enrichment)
+            if len(sources)>24:
+                if lang=='ht':yield ROOT/f'data/candidate-public/archives/{person["id"]}.json',compact({'id':person['id'],'sources':sources})
+                years=['all']+sorted({year for source in sources for year in source_years(source)},reverse=True)
+                for year in years:
+                    rows=sources if year=='all' else [source for source in sources if year in source_years(source)]
+                    for page in range(1,max(1,(len(rows)+23)//24)+1):
+                        route,html=archive_page(lang,person,sources,year,page)
+                        yield ROOT/route.strip('/')/'index.html' if route.endswith('/') else ROOT/route.strip('/'),html
     sitemap='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{xml_escape(SITE+url)}</loc><lastmod>{registry["reviewed_at"]}</lastmod></url>' for url in urls)+'</urlset>'
     yield ROOT/'sitemap-candidates.xml',sitemap
 

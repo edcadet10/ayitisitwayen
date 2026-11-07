@@ -10,7 +10,7 @@ from playwright.sync_api import sync_playwright,expect
 
 ROOT=Path(__file__).resolve().parents[1];OUT=Path(tempfile.mkdtemp(prefix='ayiti-web-ui-'))
 spec=importlib.util.spec_from_file_location('builder',ROOT/'scripts/build-candidates.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);registry,enrichment=m.load()
-parser=argparse.ArgumentParser();parser.add_argument('--base');parser.add_argument('--quick',action='store_true');args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--base');parser.add_argument('--quick',action='store_true');parser.add_argument('--ids',nargs='+');args=parser.parse_args()
 class Handler(SimpleHTTPRequestHandler):
  def log_message(self,*a):pass
  def end_headers(self):
@@ -26,6 +26,7 @@ for office in m.OFFICES.values():
  p=next((p for p in registry['candidates'] if p['office']==office and p['id'] not in enrichment['profiles']),None)
  if p:people.append(p)
 if args.quick:people=[next(p for p in people if p['id']==ident) for ident in ['c-e8698b3339a756e88e60','c-616382d917525405b2fa','c-7308041793ef5e32b5ff']]+[next(p for p in people if p['office']=='senator')]
+if args.ids:people=[p for p in people if p['id'] in args.ids]
 results=[];source_previews=0;topic_visits=0
 def overlap(page):
  return page.locator('.web-node').evaluate_all('els=>{const a=els.map(e=>e.getBoundingClientRect());let n=0;for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++)if(a[i].x<a[j].right&&a[i].right>a[j].x&&a[i].y<a[j].bottom&&a[i].bottom>a[j].y)n++;return n}')
@@ -51,11 +52,12 @@ with sync_playwright() as p:
       assert topic.is_disabled(),(person['name'],category,'empty topic enabled')
       continue
      topic.click();topic_visits+=1
-     assert page.locator('.source-node').count()==min(8,len(available))
+     expect(page.locator('.source-node')).to_have_count(min(8,len(available)))
      assert overlap(page)==0
-     labels=page.locator('.web-node-label').all_text_contents();assert len(labels)==len(set(labels)),(person['name'],labels)
+     ids=page.locator('.source-node').evaluate_all('els=>els.map(e=>e.dataset.sourceId)');assert len(ids)==len(set(ids))
      if page.locator('#web-mobile-preview').evaluate('e=>e.open'):page.locator('#web-close').click()
-     for source_index,source in enumerate(available[:8]):
+     displayed=[next(source for source in available if source['id']==ident) for ident in ids]
+     for source_index,source in enumerate(displayed):
       if source['id'] in visited:continue
       point=page.locator('.source-node').nth(source_index);point.click()
       expect(page.locator('#web-preview-title')).to_have_text(source['title'][lang])
@@ -81,7 +83,8 @@ with sync_playwright() as p:
      assert page.locator('.web-node').count()==8
      assert page.evaluate('Number(document.activeElement.dataset.index)')==index
      assert page.locator('#web-preview-content').is_hidden()
-    assert visited=={source['id'] for source in sources},(person['name'],visited)
+    assert visited and visited.issubset({source['id'] for source in sources}),(person['name'],visited)
+    if len(sources)<=8:assert visited=={source['id'] for source in sources}
     if len(sources)==1:expect(page.locator('.web-coverage-note')).to_be_visible()
     assert not errors,(person['name'],errors)
     assert not [url for url in requests if urlparse(url).netloc!=urlparse(BASE).netloc]
@@ -90,7 +93,7 @@ with sync_playwright() as p:
     if len(results)%10==0:print(f'UI profile cases passed: {len(results)}; source previews: {source_previews}',flush=True)
   context.close()
  # Narrow layouts, keyboard modal behavior, native registration and deep links.
- rich=next(p for p in people if p['id']=='c-e8698b3339a756e88e60')
+ rich=next(p for p in registry['candidates'] if p['id']=='c-e8698b3339a756e88e60')
  for width,height in [(320,700),(390,560),(768,900),(1280,900)]:
   context=browser.new_context(viewport={'width':width,'height':height},has_touch=width<900)
   page=context.new_page();page.goto(BASE+m.profile_url(rich,'en')+'#information-web');page.locator('.web-node').last.wait_for();assert overlap(page)==0
@@ -116,7 +119,7 @@ with sync_playwright() as p:
   results.append({'check':'keyboard-native-record-and-deep-links','width':width,'height':height,'result':'pass'});context.close()
  browser.close()
 server.shutdown()
-report={'base':BASE,'environment':'Real Chromium rendered UI controlled through Playwright; not a human or physical-device usability study.','profile_count':len(people),'profile_ui_cases':sum('id' in row for row in results),'source_previews':source_previews,'topic_visits':topic_visits,'results':results}
+report={'base':BASE,'environment':'Real Chromium rendered UI controlled through Playwright; not a human or physical-device usability study.','sampling':'All non-empty topics; first graph page per topic. Every source is checked by data invariants; the separate history audit checks older deep links, archive pagination and year discovery.','profile_count':len(people),'profile_ui_cases':sum('id' in row for row in results),'source_previews':source_previews,'topic_visits':topic_visits,'results':results}
 out=OUT/('live-ui-results.json' if args.base else 'local-ui-results.json');out.write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps({k:v for k,v in report.items() if k!='results'},indent=2))
 
 print("Browser evidence saved to:",OUT)

@@ -29,6 +29,7 @@ editorial/cep-review-queue.json
 __pycache__/
 .candidate-collection-cache/
 editorial/candidate-review-queue.json
+editorial/candidate-history-review-queue.json
 # Generated during the Vercel build; source registry and generator are committed.
 /candidates/
 /en/candidates/

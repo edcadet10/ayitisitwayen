@@ -268,8 +268,8 @@
     "en": "Proposals"
   },
   "history": {
-    "ht": "Pakou",
-    "en": "Background"
+    "ht": "Ansyen piblikasyon",
+    "en": "Past coverage"
   },
   "source": {
     "ht": "Sous",
@@ -316,8 +316,8 @@
     "en": "Public social post"
   },
   "opinion": {
-    "ht": "Opinyon moun nan",
-    "en": "Candidate commentary"
+    "ht": "Opinyon",
+    "en": "Opinion"
   },
   "follow": {
     "ht": "Swiv fil sa a",
@@ -448,12 +448,12 @@
     "en": "Fewer filters"
   },
   "web_available_hint": {
-    "ht": "Sijè ki an gri yo poko gen sous revize.",
-    "en": "Grey topics do not yet have reviewed sources."
+    "ht": "Sijè ki an gri yo pa gen sous ki koresponn ak filtè ou chwazi yo.",
+    "en": "Grey topics have no sources matching the selected filters."
   },
   "web_source_hint": {
-    "ht": "Chwazi yon sous pou li rezime li epi louvri lyen li.",
-    "en": "Choose a source to read its summary and open its link."
+    "ht": "Chwazi yon sous pou wè apèsi li epi louvri lyen li.",
+    "en": "Choose a source to view its preview and open its link."
   },
   "web_registry_only": {
     "ht": "Pou kounye a, nou gen sèlman enskripsyon KEP moun sa a. Nou poko ajoute lòt sous revize sou li.",
@@ -502,5 +502,121 @@
   "format_party_page": {
     "ht": "Prezantasyon pati a",
     "en": "Party presentation"
+  },
+  "index_note": {
+    "ht": "Sa a se yon lyen nan endèks achiv la, ak tit orijinal piblikatè a. Louvri sous la pou li atik la ak tout kontèks li.",
+    "en": "This archive index entry shows the publisher’s original headline. Open the source for the full report and context."
+  },
+  "indexed": {
+    "ht": "Ajoute nan endèks la",
+    "en": "Indexed"
+  },
+  "index_entry": {
+    "ht": "Lyen achiv",
+    "en": "Archive link"
+  },
+  "relation_headline": {
+    "ht": "Non an nan tit la",
+    "en": "Named in the headline"
+  },
+  "relation_mention": {
+    "ht": "Non an parèt nan atik la",
+    "en": "Mentioned in the article"
+  },
+  "mention_note": {
+    "ht": "Atik sa a site non moun nan, men li ka konsantre sou yon lòt sijè.",
+    "en": "This report mentions the person but may focus on another subject."
+  },
+  "archive_search": {
+    "ht": "Chèche nan achiv moun sa a",
+    "en": "Search this person’s archive"
+  },
+  "archive_year": {
+    "ht": "Ane",
+    "en": "Year"
+  },
+  "all_years": {
+    "ht": "Tout ane yo",
+    "en": "All years"
+  },
+  "unknown_year": {
+    "ht": "Ane pa presize",
+    "en": "Year not stated"
+  },
+  "archive_relation": {
+    "ht": "Kote non an parèt",
+    "en": "Where the name appears"
+  },
+  "all_references": {
+    "ht": "Tout referans yo",
+    "en": "All references"
+  },
+  "source_loading": {
+    "ht": "Sous yo ap chaje…",
+    "en": "Loading sources…"
+  },
+  "source_load_error": {
+    "ht": "Nou pa rive chaje lòt sous yo. Eseye ankò oswa louvri lis achiv la.",
+    "en": "We could not load the remaining sources. Retry or open the archive list."
+  },
+  "source_no_results": {
+    "ht": "Pa gen sous pou filtè sa yo. Chwazi yon lòt ane oswa efase filtè yo.",
+    "en": "No sources match these filters. Choose another year or clear the filters."
+  },
+  "full_archive": {
+    "ht": "Louvri tout achiv la",
+    "en": "Open the full archive"
+  },
+  "archive_recent": {
+    "ht": "Dènye sous yo; tout achiv la disponib nan lyen ki anba a.",
+    "en": "Recent sources; the full archive is available through the link below."
+  },
+  "archive_years": {
+    "ht": "Ane ki nan achiv la",
+    "en": "Years in this archive"
+  },
+  "archive_back": {
+    "ht": "Retounen sou twal moun sa a",
+    "en": "Back to this person’s web"
+  },
+  "event_date": {
+    "ht": "Dat evènman an selon sous la",
+    "en": "Event date stated by the source"
+  },
+  "archive_source": {
+    "ht": "Achiv yon lòt sit",
+    "en": "Third-party archive"
+  },
+  "format_audio": {
+    "ht": "Anrejistreman odyo",
+    "en": "Audio recording"
+  },
+  "video_archive_note": {
+    "ht": "Paj achiv la disponib. Nou poko konfime si videyo ki sou li a ka jwe.",
+    "en": "The archive page is available. Playback of its embedded video has not been confirmed."
+  },
+  "video_metadata_note": {
+    "ht": "Sous la idantifye anrejistreman sa a. Prezans li nan achiv la pa vle di nou verifye tout deklarasyon ki nan li.",
+    "en": "The source identifies this recording. Its inclusion does not mean every statement in it has been verified."
+  },
+  "original_headline": {
+    "ht": "Tit orijinal piblikatè a",
+    "en": "Original publisher headline"
+  },
+  "history_pending": {
+    "ht": "Rechèch istorik sou pwofil sa a poko fini.",
+    "en": "Historical research for this profile is not complete."
+  },
+  "history_scope": {
+    "ht": "Achiv la ap grandi. Rechèch nan kèk piblikatè pa vle di nou jwenn tout sa ki te pibliye tout kote.",
+    "en": "This archive is growing. Searching selected publishers does not establish that everything published everywhere has been found."
+  },
+  "relation_candidate_channel": {
+    "ht": "Sou chanèl kandida a bay lyen li a",
+    "en": "On the channel linked by the candidate"
+  },
+  "relation_archive_context": {
+    "ht": "Nan yon koleksyon achiv sou moun nan",
+    "en": "In an archive collection about the person"
   }
 }
