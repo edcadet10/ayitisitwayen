@@ -1,0 +1,27 @@
+{
+  "posts": {
+    "18054": {
+      "id": 18054,
+      "modified": "2026-11-06T14:42:40",
+      "content_hash": "2481188a4c34292c000c6ad7568cf23f09fa30532be83183613719cd691d7edd"
+    },
+    "17997": {
+      "id": 17997,
+      "modified": "2026-10-28T22:53:09",
+      "content_hash": "c6c969382f5dda83c677cb47a556344d6134c0a798e339073e12a053ada3a21b"
+    },
+    "18011": {
+      "id": 18011,
+      "modified": "2026-10-28T23:10:02",
+      "content_hash": "73782040f39a25b6a1a4d98bf81aeefac25d451a44e6a3a5551a95639ea6a739"
+    },
+    "17829": {
+      "id": 17829,
+      "modified": "2026-10-16T15:19:37",
+      "content_hash": "48319836594f8778e9e511ffcfbc94ea49b0958b2ce342aa975ba1b32baa34bc"
+    }
+  },
+  "documents": {
+    "https://cephaiti.ht/wp-content/uploads/2026/10/CALENDRIER-ACTUALISE-2026-2027.pdf": "0c6a4e6ffa89c53ae0dffcb12c495eb140c446dfc792081f857805e63bf784a7"
+  }
+}

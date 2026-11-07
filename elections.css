@@ -1,0 +1,86 @@
+/* Election information extends the site's existing editorial design. */
+.elections-page { padding: calc(var(--nav-h) + 3rem) 0 4rem; }
+.elections-page .container { max-width: 1100px; }
+.election-intro h1 { font-weight: 300; font-size: clamp(2.2rem, 5vw, 4.2rem); line-height: 1.15; letter-spacing: -.035em; margin: 1rem 0 1.25rem; }
+.election-kicker { font-size: .73rem; letter-spacing: .09em; text-transform: uppercase; color: #525252; line-height: 1.6; }
+.election-lead { font-size: 1.2rem; line-height: 1.7; max-width: 65ch; margin-bottom: 1.5rem; }
+.election-actions { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.election-button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: .75rem 1.15rem; color: #fff; background: #111; border: 1px solid #111; border-radius: 0; font: inherit; font-size: .875rem; font-weight: 600; text-decoration: none; text-align: center; cursor: pointer; }
+.election-button:hover { color: #fff; background: #333; }
+.election-button-secondary { background: #fff; color: #111; }
+.election-button-secondary:hover { color: #111; background: #f4f4f4; }
+.election-registration { border-left: 3px solid #111; background: #f6f6f6; padding: 1.5rem; margin: 1.5rem 0; line-height: 1.75; }
+.election-registration h2 { font-size: 1.05rem; font-weight: 600; margin: 0 0 .75rem; line-height: 1.6; }
+.election-registration p { margin: .5rem 0; }
+.election-key-dates { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.election-key-dates article { border: 1px solid #d4d4d4; padding: 1.4rem; }
+.election-key-dates p { margin: .4rem 0; }
+.election-big-date { font-size: clamp(1.3rem, 2.5vw, 2rem); font-weight: 400; line-height: 1.4; }
+.election-muted, .election-review-date, .election-audio-note { font-size: .8rem; line-height: 1.75; color: #525252; margin: 1rem 0; }
+.election-stale { padding: 1rem; background: #fffbeb; border-left: 3px solid #a35f00; color: #713f12; font-size: .9rem; line-height: 1.6; }
+.election-section { margin-top: 3rem; }
+.election-section h2 { font-size: 1.75rem; font-weight: 400; margin-bottom: 1.25rem; line-height: 1.35; }
+.election-filter label { display: block; font-size: .875rem; font-weight: 600; margin-bottom: .5rem; }
+.election-filter select { width: 100%; max-width: 420px; min-height: 46px; padding: .7rem; font: inherit; border: 1px solid #999; background: #fff; color: #111; }
+#election-filter-status { font-size: .8rem; color: #525252; margin: .65rem 0 1.25rem; min-height: 1.5em; }
+.election-resources { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.election-resource { border: 1px solid #d4d4d4; padding: 1.3rem; min-width: 0; }
+.election-resource h3, .election-update h3 { font-size: 1.05rem; line-height: 1.5; font-weight: 600; margin: 0 0 .7rem; }
+.election-resource a { color: #111; text-decoration: underline; text-underline-offset: 3px; }
+.election-resource p, .election-update p { font-size: .9rem; line-height: 1.75; }
+.elections-page a:not(.election-button), .election-summary a:not(.election-button) { text-decoration: underline; text-underline-offset: 3px; }
+.election-table-wrap { overflow-x: auto; }
+.elections-page table { width: 100%; border-collapse: collapse; font-size: .875rem; line-height: 1.6; }
+.elections-page th, .elections-page td { padding: 1rem .75rem; text-align: left; vertical-align: top; border-bottom: 1px solid #ddd; }
+.elections-page th { background: #f5f5f5; font-weight: 600; }
+.elections-page td:first-child { min-width: 145px; }
+.elections-page td:last-child { min-width: 105px; }
+.election-update { padding: 1.4rem 0; border-bottom: 1px solid #ddd; }
+.election-update .election-kicker { margin: 0 0 .6rem; }
+.election-update p { margin-bottom: .75rem; }
+.election-faq details { border-bottom: 1px solid #ddd; padding: 1rem 0; }
+.election-faq summary { cursor: pointer; font-weight: 600; line-height: 1.6; padding: .4rem 0; }
+.election-faq details p { margin-top: .75rem; line-height: 1.8; }
+.election-share { margin: 1.5rem 0; }
+.election-disclaimer { border-top: 1px solid #ddd; padding-top: 1.5rem; font-size: .85rem; line-height: 1.7; color: #525252; }
+.election-summary { margin: 1.5rem 0 2rem; padding: 1.25rem; border: 1px solid #d4d4d4; text-align: left; background: #fff; color: #111; }
+.election-summary-home { margin: 1.5rem auto 2rem; max-width: 850px; }
+.election-summary-dates { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: .9rem 0 1.2rem; }
+.election-summary-dates p { margin: 0; }
+.election-summary-dates span { display: block; color: #525252; font-size: .73rem; line-height: 1.6; }
+.election-summary-dates strong { display: block; font-weight: 500; font-size: 1.05rem; line-height: 1.7; }
+.election-summary .election-review-date { margin-bottom: 0; }
+.election-candidate-dates { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.election-transcripts { padding-top: 3rem; padding-bottom: 3rem; max-width: 800px; }
+.election-transcripts section { margin-top: 2rem; line-height: 1.9; }
+.election-transcripts audio { display: block; width: 100%; margin: 1rem 0; }
+[hidden] { display: none !important; }
+@media (max-width: 768px) {
+ .elections-page { padding-top: calc(var(--nav-h) + 1.75rem); }
+ .election-resources { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+ .election-summary-dates { grid-template-columns: 1fr; gap: .6rem; }
+ .election-summary-dates p { display: flex; justify-content: space-between; gap: .75rem; align-items: baseline; }
+ .election-summary-dates strong { flex-shrink: 0; font-size: .95rem; }
+ .election-summary .election-actions { gap: .6rem; }
+ .election-summary .election-button { flex: 1; padding: .65rem .6rem; }
+}
+@media (max-width: 480px) {
+ .election-resources { grid-template-columns: 1fr; }
+ .election-registration { padding: 1.1rem; }
+ .election-key-dates article { padding: 1rem; }
+ .election-key-dates { gap: .75rem; }
+ .election-big-date { font-size: 1.25rem; }
+ .election-summary { padding: 1rem; }
+ .hero:has(.election-summary-home) { padding-top: 7.25rem; }
+ .election-summary-home .election-kicker { font-size: .65rem; }
+ .elections-page th, .elections-page td { padding: .8rem .5rem; font-size: .8rem; }
+}
+@media print {
+ .navbar, .footer, .skip-link, .election-filter, .election-share, .koute, .election-audio-note { display: none !important; }
+ .elections-page { padding: 0; }
+ .election-resource[hidden] { display: block !important; }
+ .election-resources { display: block; }
+ .election-resource, .election-key-dates article, .election-update { break-inside: avoid; }
+ .election-table-wrap { overflow: visible; }
+ .elections-page details > * { display: block; }
+}

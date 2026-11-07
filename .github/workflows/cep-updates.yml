@@ -1,0 +1,30 @@
+name: Collect CEP notices for editorial review
+on:
+  schedule:
+    - cron: '17 4,16 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cep-editorial-collection
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python scripts/build-elections.py --check
+      - run: python scripts/collect-cep-updates.py --output editorial/cep-review-queue.json
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: cep-editorial-review
+          path: editorial/cep-review-queue.json
+          if-no-files-found: error
+          retention-days: 30

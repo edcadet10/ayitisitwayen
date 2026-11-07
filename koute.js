@@ -16,24 +16,30 @@
         var time = k.querySelector('.koute-time');
         var track = k.querySelector('.koute-track');
         if (!audio || !btn) return;
+        var playLabel = btn.getAttribute('aria-label') || 'Koute paj sa a';
+        var english = document.documentElement.lang === 'en';
 
         btn.addEventListener('click', function () {
           if (audio.paused) {
             // only one player at a time
             var others = document.querySelectorAll('.koute audio');
             for (var j = 0; j < others.length; j++) if (others[j] !== audio) others[j].pause();
-            audio.play();
+            var playback = audio.play();
+            if (playback && playback.catch) playback.catch(function () {
+              k.classList.remove('playing');
+              btn.setAttribute('aria-label', playLabel);
+            });
           } else {
             audio.pause();
           }
         });
         audio.addEventListener('play', function () {
           k.classList.add('playing');
-          btn.setAttribute('aria-label', 'Kanpe');
+          btn.setAttribute('aria-label', english ? 'Pause Kreyòl audio' : 'Mete odyo a sou poz');
         });
         audio.addEventListener('pause', function () {
           k.classList.remove('playing');
-          btn.setAttribute('aria-label', 'Koute paj sa a');
+          btn.setAttribute('aria-label', playLabel);
         });
         audio.addEventListener('timeupdate', function () {
           var d = audio.duration || 0;
@@ -42,6 +48,7 @@
         });
         audio.addEventListener('ended', function () {
           k.classList.remove('playing');
+          btn.setAttribute('aria-label', playLabel);
           if (fill) fill.style.width = '0%';
           if (time) time.textContent = '0:00';
         });
