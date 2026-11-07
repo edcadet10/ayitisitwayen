@@ -54,6 +54,15 @@
 .election-transcripts { padding-top: 3rem; padding-bottom: 3rem; max-width: 800px; }
 .election-transcripts section { margin-top: 2rem; line-height: 1.9; }
 .election-transcripts audio { display: block; width: 100%; margin: 1rem 0; }
+.election-source-credit { display: block; color: #525252; font-size: .8rem; line-height: 1.6; margin: .75rem 0; }
+.election-directory-filters { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.5rem 0; }
+.election-directory-filters label { flex: 1 1 220px; font-size: .875rem; font-weight: 600; }
+.election-directory-filters input, .election-directory-filters select { display: block; width: 100%; min-height: 46px; padding: .65rem; margin-top: .5rem; color: #111; background: #fff; border: 1px solid #999; font: inherit; font-weight: 400; }
+.election-centre-results { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.election-directory-card { padding: 1.25rem; border: 1px solid #ddd; min-width: 0; overflow-wrap: anywhere; }
+.election-directory-card h2 { font-size: 1rem; font-weight: 600; line-height: 1.6; margin-bottom: .6rem; }
+.election-directory-card p { font-size: .875rem; line-height: 1.7; }
+@media (max-width: 600px) { .election-centre-results { grid-template-columns: 1fr; } }
 [hidden] { display: none !important; }
 @media (max-width: 768px) {
  .elections-page { padding-top: calc(var(--nav-h) + 1.75rem); }

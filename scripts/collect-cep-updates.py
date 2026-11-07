@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -48,8 +49,8 @@ def main():
     args = parser.parse_args()
     baseline_path = ROOT / 'editorial/approved-sources.json'
     baseline = json.loads(baseline_path.read_text(encoding='utf-8')) if baseline_path.exists() else {'posts': {}, 'documents': {}}
-    result = {'fetched_at': datetime.now(timezone.utc).isoformat(), 'status': 'unreviewed', 'notices': [], 'documents': [], 'errors': [], 'publication': 'No public content changed.'}
-    current = {'posts': {}, 'documents': {}}
+    result = {'fetched_at': datetime.now(timezone.utc).isoformat(), 'status': 'unreviewed', 'notices': [], 'documents': [], 'directories': [], 'errors': [], 'publication': 'No public content changed.'}
+    current = {'posts': {}, 'documents': {}, 'directories': {}}
     try:
         posts = json.loads(fetch(API))
         if not isinstance(posts, list) or not posts:
@@ -76,6 +77,24 @@ def main():
                 result['documents'].append({'source_url': url, 'sha256': value, 'review_status': 'unreviewed', 'instruction': 'Review the PDF visually; a new URL or changed bytes do not approve new dates.'})
     except Exception as error:
         result['errors'].append({'source': 'official calendar', 'error_type': type(error).__name__, 'message': str(error)[:240]})
+    for key, filename in [('voting_centres', 'voting-centres.json'), ('approved_parties', 'approved-parties.json')]:
+        try:
+            mirror = json.loads((ROOT / 'data' / filename).read_text(encoding='utf-8'))
+            body = fetch(mirror['source_url'])
+            if key == 'voting_centres':
+                html = body.decode('utf-8')
+                match = re.search(r'const\s+CENTRES\s*=\s*', html)
+                if not match:
+                    raise ValueError('The source centre dataset was not found')
+                records, _ = json.JSONDecoder().raw_decode(html[match.end():])
+                records = [{'id': row['id'], 'department': row['departement'] or '', 'commune': row['commune'] or '', 'section': row.get('section') or '', 'name': row['nom_cv'] or '', 'address': row.get('adresse_cv') or ''} for row in records]
+                body = json.dumps(records, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')
+            value = digest(body)
+            current['directories'][key] = value
+            if baseline.get('directories', {}).get(key, mirror['source_hash']) != value:
+                result['directories'].append({'dataset': key, 'source_url': mirror['source_url'], 'sha256': value, 'review_status': 'unreviewed'})
+        except Exception as error:
+            result['errors'].append({'source': key, 'error_type': type(error).__name__, 'message': str(error)[:240]})
     output = Path(args.output)
     if not output.is_absolute():
         output = ROOT / output
@@ -86,7 +105,7 @@ def main():
             raise SystemExit('Collection failed; the approved baseline was not changed.')
         baseline_path.parent.mkdir(exist_ok=True)
         baseline_path.write_text(json.dumps(current, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f"Unreviewed notices: {len(result['notices'])}; changed calendars: {len(result['documents'])}; collection errors: {len(result['errors'])}. Public content unchanged.")
+    print(f"Unreviewed notices: {len(result['notices'])}; changed calendars: {len(result['documents'])}; changed directories: {len(result['directories'])}; collection errors: {len(result['errors'])}. Public content unchanged.")
     return 1 if result['errors'] else 0
 
 

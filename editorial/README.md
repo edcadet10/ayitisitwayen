@@ -9,6 +9,15 @@ The original project introduction, mission and contact information are preserved
 at `/about.html` and `/en/about.html`. The generator owns the landing pages as
 well as the existing election URLs, keeping all four routes consistent.
 
+Election information is presented as native HTML with source-name credits.
+The centre finder and political-structure directory are generated from
+`data/voting-centres.json` and `data/approved-parties.json`. Preserve official
+names and addresses as supplied; a listed centre does not establish an
+individual's registration or voting assignment. Public pages do not link to
+source documents or document viewers. Source URLs and fingerprints remain in
+the editorial data for verification. Collection also checks the two directory
+sources for changes; it never updates public records without review.
+
 ```text
 python scripts/build-elections.py
 python scripts/build-elections.py --check

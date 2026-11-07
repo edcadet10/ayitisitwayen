@@ -4,6 +4,8 @@
 const DEFAULT_TITLE = document.title;
 
 const EN_TITLES = {
+    'centres.html': 'Registration and Voting Centres - Ayiti Sitwayen',
+    'parties.html': 'Approved Political Structures - Ayiti Sitwayen',
     'elections.html': 'Haiti Elections - Ayiti Sitwayen',
     'index.html': 'Haiti Elections 2026–2027 - Ayiti Sitwayen',
     'about.html': 'About Ayiti Sitwayen',

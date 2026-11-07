@@ -10,8 +10,8 @@
   },
   "copy": {
     "title": {
-      "ht": "Eleksyon an Ayiti: dat, enskripsyon ak sous ofisyèl",
-      "en": "Haiti Elections: Dates, Registration and Official Sources"
+      "ht": "Eleksyon an Ayiti: dat ak gid pratik",
+      "en": "Haiti Elections: Dates and Practical Guides"
     },
     "description": {
       "ht": "Prepare w pou eleksyon an Ayiti: kalandriye KEP 2026–2027, enskripsyon elektè, sant vòt, kandidati ak enfòmasyon pou dyaspora a.",
@@ -22,8 +22,8 @@
       "en": "Haiti Elections 2026–2027"
     },
     "intro": {
-      "ht": "Jwenn etap pou w suiv, dat ki nan kalandriye KEP la, ak sous ofisyèl yo.",
-      "en": "Find your next steps, dates in the CEP calendar, and the official sources."
+      "ht": "Dat eleksyon, demach enskripsyon ak enfòmasyon pou w patisipe. Enfòmasyon sa yo soti nan piblikasyon KEP yo.",
+      "en": "Election dates, registration steps and information to help you participate. This information is based on CEP publications."
     },
     "find": {
       "ht": "Jwenn yon sant",
@@ -114,8 +114,8 @@
       "en": "Observers and press"
     },
     "resources": {
-      "ht": "Zouti ak dokiman ofisyèl",
-      "en": "Official tools and documents"
+      "ht": "Gid ak zouti Ayiti Sitwayen",
+      "en": "Ayiti Sitwayen guides and tools"
     },
     "updates": {
       "ht": "Dènye enfòmasyon nou verifye",
@@ -150,8 +150,8 @@
       "en": "Published"
     },
     "calendar_link": {
-      "ht": "Kalandriye konplè KEP la (PDF)",
-      "en": "Complete CEP calendar (PDF)"
+      "ht": "Gade kalandriye a sou paj sa a",
+      "en": "View the calendar on this page"
     },
     "disclaimer": {
       "ht": "Ayiti Sitwayen se yon inisyativ endepandan. KEP responsab enskripsyon, fòm ak desizyon ofisyèl yo.",
@@ -335,7 +335,7 @@
         "ht": "Chèche yon sant pa depatman ak komin.",
         "en": "Find a centre by department and commune."
       },
-      "url": "https://cephaiti.ht/civ/"
+      "url": "centres.html"
     },
     {
       "audience": "voter",
@@ -344,70 +344,22 @@
         "en": "Voter registration and mobile teams"
       },
       "description": {
-        "ht": "Li pwosedi KEP anonse a.",
-        "en": "Read the procedure announced by the CEP."
+        "ht": "Aprann etap pou w enskri sou rejis elektoral la.",
+        "en": "Learn the steps for registering on the electoral roll."
       },
-      "url": "https://cephaiti.ht/le-cep-lance-une-operation-mobile-dinscription-des-electeurs-au-sein-des-espaces-publics/"
-    },
-    {
-      "audience": "voter",
-      "title": {
-        "ht": "Estatistik enskripsyon elektè",
-        "en": "Voter registration statistics"
-      },
-      "description": {
-        "ht": "Done enskripsyon yo pa rezilta eleksyon.",
-        "en": "Registration figures are not election results."
-      },
-      "url": "https://stats.cephaiti.ht/"
+      "url": "voting.html"
     },
     {
       "audience": "candidate",
       "title": {
-        "ht": "Espas kandida",
-        "en": "Candidate portal"
+        "ht": "Kandida: delè ak kondisyon",
+        "en": "Candidates: deadlines and requirements"
       },
       "description": {
-        "ht": "Pwosedi, kondisyon ak dokiman pou chak pòs.",
-        "en": "Procedures, requirements and documents for each office."
+        "ht": "Konprann enskripsyon, depo dokiman ak validasyon.",
+        "en": "Understand registration, document filing and validation."
       },
-      "url": "https://cephaiti.ht/espace-candidat-2026/"
-    },
-    {
-      "audience": "candidate",
-      "title": {
-        "ht": "Kandidati endepandan",
-        "en": "Independent candidacy"
-      },
-      "description": {
-        "ht": "Fòmalite ak resous pou kandida endepandan.",
-        "en": "Formalities and resources for independent candidates."
-      },
-      "url": "https://cephaiti.ht/cep-espace-candidat/candidats-independants.html"
-    },
-    {
-      "audience": "candidate",
-      "title": {
-        "ht": "Fòm pou kandida",
-        "en": "Candidate forms"
-      },
-      "description": {
-        "ht": "Fòm enfòmasyon pou pòs ki enterese w la.",
-        "en": "Information forms for the office you are interested in."
-      },
-      "url": "https://cephaiti.ht/cep-espace-candidat/autres.html"
-    },
-    {
-      "audience": "candidate",
-      "title": {
-        "ht": "Estatistik kandida: done preliminè",
-        "en": "Candidate statistics: preliminary data"
-      },
-      "description": {
-        "ht": "Enskripsyon pa vle di KEP valide yon kandidati.",
-        "en": "Registration does not mean a candidacy has been approved."
-      },
-      "url": "https://tableau.cephaiti.ht/"
+      "url": "candidates.html"
     },
     {
       "audience": "candidate",
@@ -416,118 +368,46 @@
         "en": "Approved political structures"
       },
       "description": {
-        "ht": "Lis ofisyèl ak nimewo KEP atribye yo.",
-        "en": "Official list and assigned numbers."
+        "ht": "Chèche non, sig ak nimewo estrikti politik yo.",
+        "en": "Search political structures by name, acronym and assigned number."
       },
-      "url": "https://cephaiti.ht/wp-content/uploads/2026/08/STRUCTURES-NUMEROS.pdf"
-    },
-    {
-      "audience": "candidate",
-      "title": {
-        "ht": "Estatistik manm pati politik",
-        "en": "Political party membership statistics"
-      },
-      "description": {
-        "ht": "Enskripsyon kòm manm yon pati politik pa menm ak enskripsyon kòm elektè.",
-        "en": "Party membership is separate from voter registration."
-      },
-      "url": "https://cephaiti.ht/statistiques-enregistrement-adherent/"
-    },
-    {
-      "audience": "candidate",
-      "title": {
-        "ht": "Estatistik kandida endepandan",
-        "en": "Independent candidate statistics"
-      },
-      "description": {
-        "ht": "Konsilte enfòmasyon KEP pibliye yo.",
-        "en": "Consult the information published by the CEP."
-      },
-      "url": "https://cephaiti.ht/statistiques-enregistrement-des-candidats-independants/"
+      "url": "parties.html"
     },
     {
       "audience": "diaspora",
       "title": {
-        "ht": "Preparasyon pou vòt dyaspora a",
-        "en": "Diaspora voting preparations"
+        "ht": "Dyaspora ak eleksyon yo",
+        "en": "The diaspora and the elections"
       },
       "description": {
         "ht": "Anons ofisyèl sou eksperyans pilòt la.",
         "en": "Official announcement about the pilot."
       },
-      "url": "https://cephaiti.ht/le-cep-participe-au-programme-de-partage-dexperiences-et-dobservation-electorale-a-loccasion-des-elections-generales-du-quebec/"
-    },
-    {
-      "audience": "observer",
-      "title": {
-        "ht": "Akreditasyon obsèvatè",
-        "en": "Observer accreditation"
-      },
-      "description": {
-        "ht": "Pwosedi ak fòm pou òganizasyon obsèvasyon.",
-        "en": "Procedures and forms for observer organisations."
-      },
-      "url": "https://cephaiti.ht/observation-electorale/"
-    },
-    {
-      "audience": "observer",
-      "title": {
-        "ht": "Akreditasyon jounalis",
-        "en": "Journalist accreditation"
-      },
-      "description": {
-        "ht": "Pwosedi ak fòm pou laprès.",
-        "en": "Procedures and forms for the press."
-      },
-      "url": "https://cephaiti.ht/accreditation-journalistes/"
+      "url": "diaspora.html"
     },
     {
       "audience": "all",
       "title": {
-        "ht": "BED ak BEC",
-        "en": "BED and BEC offices"
+        "ht": "Pwosesis elektoral la",
+        "en": "The electoral process"
       },
       "description": {
-        "ht": "Konsilte lis afektasyon biwo elektoral yo.",
-        "en": "Consult electoral office assignments."
+        "ht": "Konprann enskripsyon, jou vòt ak rezilta yo.",
+        "en": "Understand registration, election day and results."
       },
-      "url": "https://cephaiti.ht/liste-bed-bec/"
+      "url": "electoral-process.html"
     },
     {
       "audience": "all",
       "title": {
-        "ht": "Kad legal aktyèl la",
-        "en": "Current legal framework"
+        "ht": "Gid jou vòt la",
+        "en": "Election day guide"
       },
       "description": {
-        "ht": "Dekrè Jen 2026 la ak modifikasyon Jiyè ak Oktòb yo.",
-        "en": "The June 2026 decree and its July and October revisions."
+        "ht": "Prepare dokiman ou epi verifye sant vòt ou.",
+        "en": "Prepare your documents and verify your voting centre."
       },
-      "url": "https://cephaiti.ht/cadre-legal/"
-    },
-    {
-      "audience": "all",
-      "title": {
-        "ht": "Tabilasyon vòt",
-        "en": "Vote tabulation"
-      },
-      "description": {
-        "ht": "Konprann kijan KEP trete rezilta yo.",
-        "en": "Understand how the CEP processes results."
-      },
-      "url": "https://cephaiti.ht/centre-de-tabulation-des-votes/"
-    },
-    {
-      "audience": "all",
-      "title": {
-        "ht": "Anons ak kominike KEP",
-        "en": "CEP announcements and notices"
-      },
-      "description": {
-        "ht": "Tcheke sous la pou nenpòt nouvo chanjman.",
-        "en": "Check the source for subsequent changes."
-      },
-      "url": "https://cephaiti.ht/notes-communiques/"
+      "url": "voting-day.html"
     }
   ],
   "updates": [

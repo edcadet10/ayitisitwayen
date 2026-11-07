@@ -1,0 +1,533 @@
+{
+  "source_name": "Conseil Électoral Provisoire (CEP / KEP)",
+  "source_url": "https://cephaiti.ht/wp-content/uploads/2026/08/STRUCTURES-NUMEROS.pdf",
+  "reviewed_at": "2026-11-06",
+  "parties": [
+    {
+      "name": "Solèy",
+      "acronym": "SOLÈY",
+      "number": 78
+    },
+    {
+      "name": "Parti Différence pour Haïti",
+      "acronym": "PADHA",
+      "number": 28
+    },
+    {
+      "name": "Organisation du Peuple en Lutte",
+      "acronym": "OPL",
+      "number": 54
+    },
+    {
+      "name": "Collège National des Démocrates",
+      "acronym": "CND",
+      "number": 30
+    },
+    {
+      "name": "Groupe d’Appui Juvénile pour le Changement d’Haïti",
+      "acronym": "GAJCH",
+      "number": 59
+    },
+    {
+      "name": "Rasanble",
+      "acronym": "RASANBLE",
+      "number": 105
+    },
+    {
+      "name": "Union National pour l’Intégrité et la Réconciliation",
+      "acronym": "UNIR AYITI",
+      "number": 87
+    },
+    {
+      "name": "Parti INITE",
+      "acronym": "INITE",
+      "number": 84
+    },
+    {
+      "name": "Fanmi Lavalas",
+      "acronym": "FANMI LAVALAS",
+      "number": 44
+    },
+    {
+      "name": "Parti Conscience Nationale",
+      "acronym": "PCN",
+      "number": 69
+    },
+    {
+      "name": "Mobilisation pour le Progrès d’Haïti",
+      "acronym": "MPH",
+      "number": 63
+    },
+    {
+      "name": "Mouvement Travailliste Haïtien",
+      "acronym": "MTH",
+      "number": 3
+    },
+    {
+      "name": "Conviction Patriotique Pour la Restauration d’Haïti",
+      "acronym": "CONPRESH",
+      "number": 21
+    },
+    {
+      "name": "Debloke",
+      "acronym": "DEBLOKE",
+      "number": 15
+    },
+    {
+      "name": "Platfòm Rekonsilye",
+      "acronym": "P.R",
+      "number": 102
+    },
+    {
+      "name": "Solidarité des Unités Démocratiques Dévouées",
+      "acronym": "SUDD",
+      "number": 26
+    },
+    {
+      "name": "Ansanm Nou Fò",
+      "acronym": "ANF",
+      "number": 71
+    },
+    {
+      "name": "Parti Nationaliste Haïtien",
+      "acronym": "PANAH",
+      "number": 49
+    },
+    {
+      "name": "Myèl",
+      "acronym": "MYÈL",
+      "number": 81
+    },
+    {
+      "name": "Platfòm Politik Gras pou Ayiti",
+      "acronym": "PPGA",
+      "number": 104
+    },
+    {
+      "name": "Delivrans",
+      "acronym": "DELIVRANS",
+      "number": 32
+    },
+    {
+      "name": "Konvansyon pou Refondasyon Nasyon An",
+      "acronym": "KORE-N",
+      "number": 29
+    },
+    {
+      "name": "Vision Intégrale pour la Reconstruction Haïtienne",
+      "acronym": "VIREHA",
+      "number": 5
+    },
+    {
+      "name": "Effort et Solidarité pour Construire une Alternative Nationale Populaire",
+      "acronym": "ESCANP",
+      "number": 89
+    },
+    {
+      "name": "Parti Démocrate Haïtien",
+      "acronym": "PADEMH",
+      "number": 50
+    },
+    {
+      "name": "Konbit Liberasyon Ekonomik",
+      "acronym": "KLE",
+      "number": 68
+    },
+    {
+      "name": "En Avant pour Haïti",
+      "acronym": "EAPH",
+      "number": 85
+    },
+    {
+      "name": "Réveil des Citoyens Haïtiens",
+      "acronym": "RCH",
+      "number": 6
+    },
+    {
+      "name": "Parti Fusion des Sociaux-Démocrates Haïtiens",
+      "acronym": "PFSDH",
+      "number": 20
+    },
+    {
+      "name": "Debout Citoyen pour la Transformation d’Haïti",
+      "acronym": "DEBOUT CITOYEN",
+      "number": 66
+    },
+    {
+      "name": "Parti Mackandal pour le Progrès d’Haïti",
+      "acronym": "PMPH",
+      "number": 75
+    },
+    {
+      "name": "Pati Politik Pitit Dessalines",
+      "acronym": "PPPD",
+      "number": 74
+    },
+    {
+      "name": "Réveil d’Haïti",
+      "acronym": "REHA",
+      "number": 92
+    },
+    {
+      "name": "Grand Rassemblement National Démocrate",
+      "acronym": "GRAND",
+      "number": 86
+    },
+    {
+      "name": "Rassemblement des Patriotes Haïtien",
+      "acronym": "RPH",
+      "number": 47
+    },
+    {
+      "name": "Vision-Action-Réalisation",
+      "acronym": "VAR",
+      "number": 95
+    },
+    {
+      "name": "Force Révolutionnaire d’Entente Nationale",
+      "acronym": "FREN",
+      "number": 77
+    },
+    {
+      "name": "Réseau pour le Plaidoyer l’Epanouissement et le Progrès",
+      "acronym": "REZO-PEP",
+      "number": 11
+    },
+    {
+      "name": "Réseau des Patriotes Intègres pour le Redressement d’Haïti",
+      "acronym": "RESPIRE-HAITI",
+      "number": 90
+    },
+    {
+      "name": "Alternative Socialiste",
+      "acronym": "ASO",
+      "number": 98
+    },
+    {
+      "name": "Rasanbleman Sosyalis pou yon Inisyativ tou Nèf",
+      "acronym": "RASIN",
+      "number": 101
+    },
+    {
+      "name": "Parti Héritage des Précurseurs Nationaux",
+      "acronym": "PHPN",
+      "number": 38
+    },
+    {
+      "name": "Inisyativ Sitwayen Ayisyen kap Travay sou Wout yon lòt Ayiti pou Evolisyon ak Anviwonman Nòmal",
+      "acronym": "SITWAYEN",
+      "number": 36
+    },
+    {
+      "name": "Tèt Ansanm pour le Sauvetage Haïtien",
+      "acronym": "TASH",
+      "number": 33
+    },
+    {
+      "name": "Coppos-Haiti et Alliés",
+      "acronym": "CHA",
+      "number": 103
+    },
+    {
+      "name": "Haïti Devant",
+      "acronym": "HD",
+      "number": 93
+    },
+    {
+      "name": "Fòs Chanjman Nasyonal",
+      "acronym": "FCN",
+      "number": 83
+    },
+    {
+      "name": "Anfòs pou Sove Lonè",
+      "acronym": "ANFÒS POU SOVE LONÈ",
+      "number": 9
+    },
+    {
+      "name": "Pati Vizyon Dayiti",
+      "acronym": "PVD",
+      "number": 35
+    },
+    {
+      "name": "Parti Social Rénové",
+      "acronym": "PSR",
+      "number": 41
+    },
+    {
+      "name": "Patriyòt Rasanble pou Sove Lakay",
+      "acronym": "PARASOL",
+      "number": 72
+    },
+    {
+      "name": "LAPEH ak Alye’l yo",
+      "acronym": "LAPEH",
+      "number": 13
+    },
+    {
+      "name": "Parti Populaire National",
+      "acronym": "PPN",
+      "number": 19
+    },
+    {
+      "name": "Aksyon pou Konstwi yon Ayiti Òganize",
+      "acronym": "AKAO",
+      "number": 94
+    },
+    {
+      "name": "Chanjman Ayiti Natirèlman ak Yahwey",
+      "acronym": "CHANY",
+      "number": 45
+    },
+    {
+      "name": "Coalition Citoyenne et Humanitaire pour le Développement d’Haïti",
+      "acronym": "COACHDHA",
+      "number": 80
+    },
+    {
+      "name": "Les Engagés pour le Développement",
+      "acronym": "EDE",
+      "number": 27
+    },
+    {
+      "name": "Ayisyen pou Ayiti",
+      "acronym": "S.O",
+      "number": 24
+    },
+    {
+      "name": "Parti Révolutionnaire Intégré d’Haïti",
+      "acronym": "PRIH",
+      "number": 42
+    },
+    {
+      "name": "Parti pour le Bien-Être des Haïtiens",
+      "acronym": "PBH",
+      "number": 48
+    },
+    {
+      "name": "Entente Nationale",
+      "acronym": "ENA",
+      "number": 96
+    },
+    {
+      "name": "Les Démocrates Visionnaires pour la Nouvelle Haïti",
+      "acronym": "DVNH",
+      "number": 56
+    },
+    {
+      "name": "Réseau Bouclier National",
+      "acronym": "BOUCLIER",
+      "number": 64
+    },
+    {
+      "name": "Parti Rénovateur Haïtien",
+      "acronym": "PREH",
+      "number": 58
+    },
+    {
+      "name": "Konbit ak Aksyon pou Ayiti Bèl",
+      "acronym": "KAPAB",
+      "number": 39
+    },
+    {
+      "name": "Mouvement pour la Reconstruction Nationale",
+      "acronym": "MRN",
+      "number": 70
+    },
+    {
+      "name": "Pati Politik Peyizan",
+      "acronym": "PEYIZAN",
+      "number": 7
+    },
+    {
+      "name": "Viktwa",
+      "acronym": "VIKTWA",
+      "number": 60
+    },
+    {
+      "name": "Parti Unité Réformé",
+      "acronym": "PUR",
+      "number": 8
+    },
+    {
+      "name": "Parti Politique Ekla",
+      "acronym": "PPE",
+      "number": 23
+    },
+    {
+      "name": "Fòs Pèp La",
+      "acronym": "FPL",
+      "number": 51
+    },
+    {
+      "name": "Lanbi Demokratik pou Chanjman",
+      "acronym": "LDC",
+      "number": 14
+    },
+    {
+      "name": "Résultat Démocratique",
+      "acronym": "RD",
+      "number": 53
+    },
+    {
+      "name": "Parti des Révoltés",
+      "acronym": "PREV",
+      "number": 62
+    },
+    {
+      "name": "Pati Chimen Limyè",
+      "acronym": "CHIMEN LIMYÈ",
+      "number": 99
+    },
+    {
+      "name": "Parti de la Restauration et du Changement",
+      "acronym": "PRC",
+      "number": 17
+    },
+    {
+      "name": "Rasanbleman Nasyonal Fòs Demokratik Yo",
+      "acronym": "RANFÒ",
+      "number": 67
+    },
+    {
+      "name": "Mouvement Nationaliste Progressiste Haïtien",
+      "acronym": "MNPH",
+      "number": 40
+    },
+    {
+      "name": "Parti Réformiste National",
+      "acronym": "PRN",
+      "number": 34
+    },
+    {
+      "name": "Ayiti Transfòme",
+      "acronym": "AYITI TRANSFÒME",
+      "number": 91
+    },
+    {
+      "name": "Haïti en Marche pour le Développement",
+      "acronym": "HAMAD",
+      "number": 18
+    },
+    {
+      "name": "Ayiti an Aksyon",
+      "acronym": "AAA",
+      "number": 57
+    },
+    {
+      "name": "Konbit Nasyonal",
+      "acronym": "KONA",
+      "number": 37
+    },
+    {
+      "name": "Parti Révolutionnaire pour l’Organisation et le Progrès",
+      "acronym": "PROP",
+      "number": 55
+    },
+    {
+      "name": "Fòs Liberatris pou Ayiti Demen",
+      "acronym": "FLAD",
+      "number": 2
+    },
+    {
+      "name": "Gwoupman Angaje pou Demokrasi",
+      "acronym": "GAD",
+      "number": 79
+    },
+    {
+      "name": "Le Parti de la Diaspora Haïtienne pour Haïti",
+      "acronym": "MUDHAH",
+      "number": 25
+    },
+    {
+      "name": "Mouvement pour l’Intégration de la Nation au Développement Effectif et Irréversible d’Haïti",
+      "acronym": "MINDEFFIHA",
+      "number": 10
+    },
+    {
+      "name": "Palmis",
+      "acronym": "PALMIS",
+      "number": 43
+    },
+    {
+      "name": "Parti Politique Providence",
+      "acronym": "PROVIDENCE",
+      "number": 76
+    },
+    {
+      "name": "Pati Sèvitè Ayisyen",
+      "acronym": "PSA",
+      "number": 65
+    },
+    {
+      "name": "Parti Démocrate-Chrétien Haïtien",
+      "acronym": "PDCH",
+      "number": 22
+    },
+    {
+      "name": "Parti Républicain Haïtien",
+      "acronym": "PRHA HAYITI",
+      "number": 12
+    },
+    {
+      "name": "Destinée du Peuple Haïtien",
+      "acronym": "DPH",
+      "number": 46
+    },
+    {
+      "name": "Solidarité pou Ayiti Respire",
+      "acronym": "SOL AYITI",
+      "number": 52
+    },
+    {
+      "name": "Debout Patriotes",
+      "acronym": "DPA",
+      "number": 16
+    },
+    {
+      "name": "Pacte Coude-à-coude Inter-Classes et Inter-Générations",
+      "acronym": "PCC-II",
+      "number": 73
+    },
+    {
+      "name": "Grand Rassemblement des Citoyens Emancipés",
+      "acronym": "GRACE",
+      "number": 1
+    },
+    {
+      "name": "Pati Kreyòl Nou Ye",
+      "acronym": "P.K.N",
+      "number": 82
+    },
+    {
+      "name": "Union des Patriotes Progressistes en Action",
+      "acronym": "UPPA",
+      "number": 88
+    },
+    {
+      "name": "Mouvement National des Citoyens",
+      "acronym": "MNC",
+      "number": 100
+    },
+    {
+      "name": "Konkèt pou Konkeri Kiskeya",
+      "acronym": "KONKET-K2",
+      "number": 61
+    },
+    {
+      "name": "Rasanbleman Patriyòt Pwogresis pou Devlopman",
+      "acronym": "RPPD",
+      "number": 4
+    },
+    {
+      "name": "Relève Citoyenne",
+      "acronym": "RELEC",
+      "number": 31
+    },
+    {
+      "name": "Mouvement Indépendant pour la Réconciliation Nationale",
+      "acronym": "MIRN",
+      "number": 97
+    }
+  ],
+  "source_hash": "887ad768897cbd09eebcef904df9bb601f563baf6c771cec71639e69d59068bf"
+}
