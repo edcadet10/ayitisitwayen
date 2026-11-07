@@ -14,6 +14,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'data/elections.json').read_text(encoding='utf-8'))
 COPY = DATA['copy']
+SEO = json.loads((ROOT / 'data/site-seo.json').read_text(encoding='utf-8'))
 SITE = 'https://www.ayitisitwayen.org/'
 MONTHS = {
     'ht': ['Janvye', 'Fevriye', 'Mas', 'Avril', 'Me', 'Jen', 'Jiyè', 'Out', 'Septanm', 'Oktòb', 'Novanm', 'Desanm'],
@@ -95,7 +96,10 @@ def render_hub(lang):
     candidate_feature = f'''<section class="candidate-home-feature" aria-label="{escape(candidate_copy['directory_title'][lang])}"><div><h2>{escape(candidate_copy['featured_title'][lang])}</h2><p>{escape(candidate_copy['featured_text'][lang])}</p></div><a class="candidate-button" href="{local('candidates/')}">{escape(candidate_copy['open_directory'][lang])} ↗</a></section>'''
     footer_source = (ROOT / ('en/candidates.html' if lang == 'en' else 'candidates.html')).read_text(encoding='utf-8')
     footer = re.search(r'<footer\b.*?</footer>', footer_source, re.S).group(0)
-    structured = json.dumps({'@context': 'https://schema.org', '@type': 'WebPage', 'name': COPY['title'][lang], 'description': COPY['description'][lang], 'url': SITE + ('en/' if lang == 'en' else ''), 'inLanguage': lang, 'dateModified': DATA['reviewed_at'], 'publisher': {'@type': 'Organization', 'name': 'Ayiti Sitwayen'}}, ensure_ascii=False)
+    structured = json.dumps({'@context':'https://schema.org','@graph':[
+        {'@type':'WebSite','@id':SITE+'#website','name':'Ayiti Sitwayen','url':SITE,'inLanguage':['ht','en'],'publisher':{'@id':SITE+'#organization'}},
+        {'@type':'Organization','@id':SITE+'#organization','name':'Ayiti Sitwayen','url':SITE,'logo':{'@type':'ImageObject','url':SITE+'logo.png'}},
+        {'@type':'WebPage','@id':SITE+('en/' if lang=='en' else '')+'#webpage','name':COPY['title'][lang],'description':COPY['description'][lang],'url':SITE+('en/' if lang=='en' else ''),'inLanguage':lang,'dateModified':max(DATA['reviewed_at'],SEO['content_revision']),'isPartOf':{'@id':SITE+'#website'},'publisher':{'@id':SITE+'#organization'}}]},ensure_ascii=False)
     return f'''<!DOCTYPE html>
 <html lang="{lang}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{text('title', lang)} | Ayiti Sitwayen</title><meta name="description" content="{text('description', lang)}">
@@ -170,6 +174,10 @@ def outputs():
     scripts = json.loads((ROOT / 'data/election-audio.json').read_text(encoding='utf-8'))
     transcript = ''.join(f'<section><h2>{escape(item["title"])}</h2><p>{escape(item["text"])}</p><audio controls preload="none" src="/audio/{escape(item["file"], quote=True)}"></audio></section>' for item in scripts)
     result[ROOT / 'audio/election-transcripts.html'] = f'<!doctype html><html lang="ht"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tèks odyo eleksyon yo — Ayiti Sitwayen</title><link rel="stylesheet" href="/styles.css?v=3"><link rel="stylesheet" href="/theme.css?v=3"><link rel="stylesheet" href="/elections.css?v=2"></head><body><main class="container election-transcripts"><a href="/elections.html">← Eleksyon</a><h1>Tèks odyo eleksyon yo</h1><p>{COPY["audio_label"]["ht"]}. {COPY["reviewed"]["ht"]}: {date_text(DATA["reviewed_at"], "ht")}. Pou dat aktyèl yo, tcheke <a href="/elections.html">paj Eleksyon an</a>.</p>{transcript}</main></body></html>'
+    audio_url=SITE+'audio/election-transcripts.html'
+    audio_description='Tèks odyo eleksyon yo. '+COPY['audio_label']['ht']+'. '+COPY['reviewed']['ht']+': '+date_text(DATA['reviewed_at'],'ht')+'.'
+    audio_metadata=json.dumps({'@context':'https://schema.org','@type':'WebPage','name':'Tèks odyo eleksyon yo','description':audio_description,'url':audio_url,'inLanguage':'ht','dateModified':max(DATA['reviewed_at'],SEO['content_revision']),'isPartOf':{'@id':SITE+'#website'},'publisher':{'@type':'Organization','@id':SITE+'#organization','name':'Ayiti Sitwayen'}},ensure_ascii=False)
+    result[ROOT/'audio/election-transcripts.html']=result[ROOT/'audio/election-transcripts.html'].replace('</head>',f'<meta name="description" content="{escape(audio_description,quote=True)}"><link rel="canonical" href="{audio_url}"><link rel="alternate" hreflang="ht" href="{audio_url}"><link rel="alternate" hreflang="x-default" href="{audio_url}"><script type="application/ld+json">{audio_metadata}</script></head>')
     return result
 
 

@@ -71,8 +71,35 @@
           "value": "public, max-age=86400, must-revalidate"
         }
       ]
+    },
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/editorial/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/scripts/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
     }
   ],
-  "buildCommand": "python3 scripts/build-candidates.py && python3 scripts/build-elections.py --check",
+  "buildCommand": "python3 scripts/build-candidates.py && python3 scripts/build-elections.py --check && python3 scripts/build-sitemaps.py",
   "outputDirectory": "."
 }

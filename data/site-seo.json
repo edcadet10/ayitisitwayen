@@ -1,0 +1,14 @@
+{
+  "content_revision": "2026-11-07",
+  "copy": {
+    "country": {"ht":"Ayiti","en":"Haiti"},
+    "profile_title": {"ht":"{name} — kandida pou pòs {office}, {place}","en":"{name} — candidate for {office}, {place}"},
+    "profile_description": {"ht":"{name} · {office} · {place} · {party}. {status}. Enskripsyon KEP/CEP ak sous ki disponib sou moun nan.","en":"{name} · {office} · {place} · {party}. {status}. CEP registration details and available coverage of this person."},
+    "directory_title": {"ht":"{office}: kandida pou eleksyon Ayiti","en":"{office}: Haiti election candidates"},
+    "all_title": {"ht":"Kandida pou eleksyon Ayiti","en":"Haiti election candidates"},
+    "directory_description": {"ht":"{count} enskripsyon KEP/CEP pou pòs {office}, Ayiti. {page_label} {page} / {pages}. Chèche non, pati ak lokalite; estati yo make sou chak pwofil.","en":"{count} CEP registrations for {office}, Haiti. {page_label} {page} of {pages}. Browse names, parties and localities, with status labels on each profile."},
+    "all_description": {"ht":"{count} enskripsyon KEP/CEP pou eleksyon Ayiti. {page_label} {page} / {pages}. Chèche non, pati ak lokalite; estati yo make sou chak pwofil.","en":"{count} CEP registrations for Haiti's elections. {page_label} {page} of {pages}. Browse names, parties and localities, with status labels on each profile."},
+    "archive_title": {"ht":"{name} — {archive} · {year} · {page_label} {page}","en":"{name} — {archive} · {year} · {page_label} {page}"},
+    "archive_description": {"ht":"{name}: {count} sous nan achiv la · {year}. {page_label} {page} / {pages}. Lyen, enfòmasyon sou piblikasyon yo ak non piblikatè yo.","en":"{name}: {count} archive sources · {year}. {page_label} {page} of {pages}. Browse source links, publication details and publisher names."}
+  }
+}

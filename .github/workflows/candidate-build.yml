@@ -24,4 +24,6 @@ jobs:
       - run: python scripts/build-candidates.py
       - run: python scripts/build-candidates.py --check
       - run: python scripts/build-elections.py --check
+      - run: python scripts/build-sitemaps.py --check
+      - run: python scripts/check-seo.py
       - run: node --check candidate-common.js && node --check candidate-directory.js && node --check candidate-web.js
