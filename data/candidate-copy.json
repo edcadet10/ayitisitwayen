@@ -516,16 +516,16 @@
     "en": "Archive link"
   },
   "relation_headline": {
-    "ht": "Non an nan tit la",
-    "en": "Named in the headline"
+    "ht": "Non an nan tit sous orijinal la",
+    "en": "Named in the original source headline"
   },
   "relation_mention": {
-    "ht": "Non an parèt nan atik la",
-    "en": "Mentioned in the article"
+    "ht": "Non an parèt nan sous la",
+    "en": "Mentioned in the source"
   },
   "mention_note": {
-    "ht": "Atik sa a site non moun nan, men li ka konsantre sou yon lòt sijè.",
-    "en": "This report mentions the person but may focus on another subject."
+    "ht": "Sous sa a site non moun nan, men li ka konsantre sou yon lòt sijè.",
+    "en": "This source mentions the person, but may focus on another subject."
   },
   "archive_search": {
     "ht": "Chèche nan achiv moun sa a",
@@ -658,5 +658,9 @@
   "photo_coverage": {
     "ht": "{count} foto verifye sou {total} pwofil",
     "en": "{count} verified photos across {total} profiles"
+  },
+  "format_document": {
+    "ht": "Dokiman",
+    "en": "Document"
   }
 }

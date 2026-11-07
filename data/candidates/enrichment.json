@@ -1239,21 +1239,22 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: OGLINE PIERRE",
-        "en": "Photo source: OGLINE PIERRE"
+        "ht": "2021: apèl pou èd rive nan zòn andeyò yo",
+        "en": "2021: appeal for aid to reach rural communities"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte Ogline Pierre, ansyen depite Kanperen/Manich, te mande pou èd apre tranblemanntè a rive nan seksyon kominal kote aksè te difisil.",
+        "en": "Vant Bèf Info reports former Camp-Perrin/Maniche deputy Ogline Pierre’s appeal for earthquake aid to reach rural sections where access was difficult."
       },
       "published_at": "2021-09-06",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Haiti-séisme: l’aide n’atteint pas encore les sections communales de Camp-Perrin, selon Ogline Pierre"
     },
     "portrait-source-f5780e3ec600561bb42d": {
@@ -1262,22 +1263,24 @@
       "publisher": "Rezo Nòdwès",
       "type": "opinion",
       "categories": [
-        "articles"
+        "articles",
+        "history",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: ROLPHE PAPILLON",
-        "en": "Photo source: ROLPHE PAPILLON"
+        "ht": "2022: kritik sou pwojè tranzisyon an",
+        "en": "2022: criticism of the proposed transition"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Nan tèks opinyon sa a, Rolphe Papillon kritike estrikti ak pouvwa enstitisyon yo te pwopoze pou tranzisyon an. Se analiz otè a sou pwojè a.",
+        "en": "In this opinion piece, Rolphe Papillon criticises the structure and powers of the proposed transition institutions. These are the author’s arguments about the plan."
       },
       "published_at": "2022-03-04",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
-      "original_title": "Débat | L’ex-député Rolphe Papillon se prononce contre la  »Transition de Rupture » qu’il qualifie de  »projet liberticide »"
+      "editorial_level": "summary",
+      "original_title": "Débat | L’ex-député Rolphe Papillon se prononce contre la »Transition de Rupture » qu’il qualifie de »projet liberticide »"
     },
     "portrait-source-604802c271a559a28ec0": {
       "id": "portrait-source-604802c271a559a28ec0",
@@ -1285,21 +1288,22 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: BENDGY TILIAS",
-        "en": "Photo source: BENDGY TILIAS"
+        "ht": "2024: enstalasyon nan Kominikasyon",
+        "en": "2024: appointment to the communications post"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte enstalasyon Bendgy Tilias kòm sekretè d Eta nan Kominikasyon an Desanm 2024. Atik la dekri seremoni an ak responsablite yo te anonse pou pòs la nan moman sa a.",
+        "en": "Vant Bèf Info reports Bendgy Tilias’s installation as secretary of state for communications in December 2024. It describes the ceremony and the responsibilities announced for that role at the time."
       },
       "published_at": "2024-12-19",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Bendgy Tilias installé comme nouveau Secrétaire d’État à la Communication"
     },
     "portrait-source-ae1d45d3931f556b872a": {
@@ -1331,21 +1335,23 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "positions",
+        "campaign"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: EDWINE BLAISE",
-        "en": "Photo source: EDWINE BLAISE"
+        "ht": "2026: priyorite li anonse pou Sena a",
+        "en": "2026: stated Senate priorities"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info prezante Edwine Blaise nan kous pou Sena nan Lwès sou non DEBLOKE. Li site edikasyon, lasante, patisipasyon fanm ak pwoteksyon timoun kòm priyorite li anonse.",
+        "en": "Vant Bèf Info introduces Edwine Blaise’s Senate bid in Ouest under DEBLOKE. It reports education, health, women’s participation and child protection as her stated priorities."
       },
       "published_at": "2026-10-30",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Sénatoriales dans l’Ouest : Edwine Blaise veut faire de l’éducation, de la santé et de la protection sociale ses grandes priorités"
     },
     "portrait-source-3201874399de5820bfd0": {
@@ -1377,21 +1383,22 @@
       "publisher": "Lanationpost",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "campaign"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: LOUIS MARIE BONHOMME",
-        "en": "Photo source: LOUIS MARIE BONHOMME"
+        "ht": "2026: eksperyans palmantè ak Nòdwès",
+        "en": "2026: parliamentary experience and Nord-Ouest"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Lanationpost prezante Louis Marie Bonhomme kòm ansyen depite Ansafolè ki vle sèvi Nòdwès nan Sena a. Atik la mete aksan sou eksperyans li ak patisipasyon jèn nan lavi piblik.",
+        "en": "Lanationpost presents former Anse-à-Foleur deputy Louis Marie Bonhomme’s ambition to represent Nord-Ouest in the Senate. It highlights his experience and emphasis on young people’s participation in public life."
       },
       "published_at": "2026-09-13",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Louis Marie Bonhomme mise sur son expérience parlementaire pour le Nord-Ouest – Lanationpost"
     },
     "portrait-source-c3044f237a6c5676aed9": {
@@ -1400,21 +1407,22 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: MYRIAM AMILCAR",
-        "en": "Photo source: MYRIAM AMILCAR"
+        "ht": "2026: ranfòse PNH ak FAd’H",
+        "en": "2026: strengthening the PNH and FAd’H"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte Myriam Amilcar mande plis mwayen pou PNH ak FAd’H nan batay kont ensekirite a. Atik la dekri pozisyon li te eksprime nan yon emisyon radyo.",
+        "en": "Vant Bèf Info reports Myriam Amilcar’s call for more resources for the PNH and FAd’H to address insecurity. The article describes views he expressed in a radio programme."
       },
       "published_at": "2026-07-13",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Haiti-Insecurité : Face aux gangs, Myriam Amilcar mise sur le renforcement de la PNH et des FAd’H"
     },
     "portrait-source-c491793b0b6857c0af38": {
@@ -1423,21 +1431,22 @@
       "publisher": "Renald Desinor / Haïti Standard",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: NEIL LATORTUE",
-        "en": "Photo source: NEIL LATORTUE"
+        "ht": "2020: mezi pou lekòl rekòmanse Gonayiv",
+        "en": "2020: measures for schools to reopen in Gonaïves"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Haïti Standard rapòte Neil Latortue, ki te majistra Gonayiv nan moman an, anonse diskisyon ak otorite ak aktè lokal yo pou ede lekòl rekòmanse. Se yon atik achiv Janvye 2020.",
+        "en": "Haïti Standard reports that Neil Latortue, then mayor of Gonaïves, announced discussions with authorities and local actors to help schools reopen. This is a January 2020 archive report."
       },
       "published_at": "2020-01-04",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "La Mairie des Gonaïves annonce des dispositions favorables à la reprise des activités scolaires - Haiti Standard"
     },
     "portrait-source-fba9e59106cf5fbbab46": {
@@ -1446,21 +1455,22 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: RICHARD LENINE HERVE FOURCAND",
-        "en": "Photo source: RICHARD LENINE HERVE FOURCAND"
+        "ht": "2022: demann pou ranvwaye yon randevou pou reponn kesyon",
+        "en": "2022: request to postpone questioning"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte Hervé Fourcand te mande pou ranvwaye randevou pakè Okay te fikse pou poze l kesyon apre sanksyon Kanada yo. Atik la dekri demann lan ak repons komisè gouvènman an nan moman sa a.",
+        "en": "Vant Bèf Info reports Hervé Fourcand’s request to postpone questioning scheduled by the Cayes prosecutor after Canada’s sanctions. It describes the request and the prosecutor’s response at the time."
       },
       "published_at": "2022-12-20",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Convoqué au Parquet des Cayes, Hervé Fourcand demande un report"
     },
     "portrait-source-e7324ef45edf556bae28": {
@@ -1469,21 +1479,23 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: IRVENSON STEVEN BENOIT",
-        "en": "Photo source: IRVENSON STEVEN BENOIT"
+        "ht": "2025: pozisyon sou Konstitisyon an ak ULCC",
+        "en": "2025: views on the Constitution and ULCC"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte Steven Benoît kritike avanpwojè nouvo Konstitisyon an epi li mande pou ULCC rete endepandan de enfliyans politik. Atik la prezante pozisyon li te bay nan emisyon Panel Magik.",
+        "en": "Vant Bèf Info reports Steven Benoît’s criticism of the draft Constitution and his call for an ULCC independent of political influence. It describes views he expressed on Panel Magik."
       },
       "published_at": "2025-05-27",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Steven Benoît rejette l’avant-projet de la nouvelle constitution et plaide pour une ULCC indépendante"
     },
     "portrait-source-af0d27e0fa365fafad02": {
@@ -1492,21 +1504,22 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "campaign"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: ANDY MARCELUS",
-        "en": "Photo source: ANDY MARCELUS"
+        "ht": "2026: demisyon pou patisipe nan eleksyon",
+        "en": "2026: resignation to enter the elections"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte Andy Marcelus prezante demisyon li kòm delege depatmantal Lwès pou patisipe nan pwochen eleksyon lejislatif yo. Atik la site lèt li te voye bay Premye minis la.",
+        "en": "Vant Bèf Info reports Andy Marcelus’s resignation as departmental delegate for Ouest to participate in the coming legislative elections. The report cites his letter to the prime minister."
       },
       "published_at": "2026-03-24",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Haïti : Andy Marcelus démissionne de la délégation de l’Ouest pour se lancer en politique"
     },
     "portrait-source-dedc8cfc0fd857cfa465": {
@@ -1515,21 +1528,22 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: BOUTROCE GALLY PIERRE",
-        "en": "Photo source: BOUTROCE GALLY PIERRE"
+        "ht": "2025: responsablite nan sante Grandans",
+        "en": "2025: health responsibilities in Grand’Anse"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte enstalasyon doktè Boutroce Gally Pierre nan tèt direksyon depatmantal Sante Grandans lan. Atik la dekri seremoni Jeremi an ak objektif sèvis sante yo te anonse yo.",
+        "en": "Vant Bèf Info reports Dr Boutroce Gally Pierre’s installation as departmental health director in Grand’Anse. It describes the Jérémie ceremony and the health-service aims announced there."
       },
       "published_at": "2025-02-18",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Le docteur Boutroce Gally Pierre installé à la Direction Départementale de la Santé Publique dans la Grand’Anse"
     },
     "portrait-source-a9022ab5996d549ebdd9": {
@@ -1542,17 +1556,17 @@
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: DULAURIER JACQUES",
-        "en": "Photo source: DULAURIER JACQUES"
+        "ht": "2026: yon pòs kowòdinasyon nan OFATMA",
+        "en": "2026: a coordination role at OFATMA"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte enstalasyon doktè Dulaurier Jacques pou dirije kowòdinasyon biwo depatmantal OFATMA yo. Atik la dekri transfè responsablite a ak objektif kowòdinasyon sèvis yo.",
+        "en": "Vant Bèf Info reports Dr Dulaurier Jacques’s installation to lead coordination of OFATMA’s departmental offices. It describes the handover and the stated aims for coordinating services."
       },
       "published_at": "2026-01-13",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "OFATMA : le Dr Dulaurier Jacques prend la tête de la DCDD"
     },
     "portrait-source-98ac0aed2f2d5eacbed4": {
@@ -1561,22 +1575,23 @@
       "publisher": "Rezo Nòdwès",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: RENE CIVIL",
-        "en": "Photo source: RENE CIVIL"
+        "ht": "2018: lansman yon pati politik",
+        "en": "2018: launch of a political party"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Rezo Nòdwès rapòte René Civil lanse pati Émergence Démocratique nan ane 2018. Atik achiv la prezante wòl li te genyen anvan sa ak mesaj li sou òganizasyon ak patisipasyon jèn.",
+        "en": "Rezo Nòdwès reports René Civil’s launch of Émergence Démocratique in 2018. This archive article describes his earlier role and his message on organisation and young people’s participation."
       },
       "published_at": "2018-03-22",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
-      "original_title": "René Civil lance un nouveau parti : « Émergence Démocratique »"
+      "editorial_level": "summary",
+      "original_title": "René Civil lance un nouveau parti : « Émergence Démocratique »"
     },
     "portrait-source-ebd36f4e00f65bf39a35": {
       "id": "portrait-source-ebd36f4e00f65bf39a35",
@@ -1584,21 +1599,22 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: ROBENSON RENE",
-        "en": "Photo source: ROBENSON RENE"
+        "ht": "2026: apèl sou aksè ak sèvis dyaliz",
+        "en": "2026: appeal on access to dialysis services"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte Robenson René voye yon lèt ouvè sou pri sèvis dyaliz nan lopital OFATMA Okay. Atik la prezante demann li pou otorite yo fasilite aksè pou fanmi nan Sid la.",
+        "en": "Vant Bèf Info reports Robenson René’s open letter about the cost of dialysis services at the OFATMA hospital in Les Cayes. It presents his request for authorities to improve access for families in Sud."
       },
       "published_at": "2026-05-21",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "OFATMA des Cayes : Robenson René alerte sur le coût élevé des séances de dialyse"
     },
     "portrait-source-e850f12c66e459959a17": {
@@ -1607,21 +1623,23 @@
       "publisher": "Rezo Nòdwès",
       "type": "opinion",
       "categories": [
-        "articles"
+        "articles",
+        "history",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: CLAUDY DONET",
-        "en": "Photo source: CLAUDY DONET"
+        "ht": "2020: endepandans ak konesans tradisyonèl",
+        "en": "2020: independence and traditional knowledge"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Tèks opinyon sa a melanje refleksyon sou endepandans ak deklarasyon sou remèd tradisyonèl pandan pandemi COVID-19 la. Atik la pa bay prèv klinik pou deklarasyon sou tretman yo.",
+        "en": "This opinion piece links independence and traditional knowledge to COVID-19 remedy claims. The article provides no clinical evidence for its treatment claims."
       },
       "published_at": "2020-07-03",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Claudy Donet : Ayiti ka fè l ankò …"
     },
     "portrait-source-3a68c3295a9b5a46816f": {
@@ -1630,21 +1648,23 @@
       "publisher": "Rezo Nòdwès",
       "type": "opinion",
       "categories": [
-        "articles"
+        "articles",
+        "history",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: JOSUÉ CLERMONT",
-        "en": "Photo source: JOSUÉ CLERMONT"
+        "ht": "2015: opinyon sou kriz politik la",
+        "en": "2015: opinion on the political crisis"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Nan tèks sa a, Josué Clermont prezante pozisyon li kòm kandida pou depite Okay/Ilavach nan epòk la. Li bay analiz li sou kriz politik la ak wòl eleksyon nan yon demokrasi.",
+        "en": "In this piece, Josué Clermont sets out his position as a Cayes/Ile-à-Vache deputy candidate at the time. He offers his analysis of the political crisis and elections’ role in a democracy."
       },
       "published_at": "2015-12-14",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Épreuve historique et déchéance nationale! par Josué Clermont"
     },
     "portrait-source-45fb613119905411871a": {
@@ -1657,17 +1677,17 @@
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: ENO ZEPHIRIN",
-        "en": "Photo source: ENO ZEPHIRIN"
+        "ht": "2026: demann RHAJAC pou revoke li",
+        "en": "2026: RHAJAC’s demand for his removal"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Vant Bèf Info rapòte RHAJAC mande pou revoke Eno Zéphirin apre yon operasyon demolisyon nan Okap. Atik la prezante akizasyon òganizasyon an; li pa yon desizyon tribinal sou akizasyon sa yo.",
+        "en": "Vant Bèf Info reports RHAJAC’s demand for Eno Zéphirin’s removal following a demolition operation in Cap-Haïtien. The report presents the organisation’s allegations; it is not a court ruling on them."
       },
       "published_at": "2026-01-11",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Cap-Haïtien : le RHAJAC réclame la révocation du commissaire du gouvernement Me Eno Zéphirin pour abus d’autorité"
     },
     "portrait-source-15454680fa3a587aa496": {
@@ -1676,21 +1696,23 @@
       "publisher": "Rezo Nòdwès",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: LUC OCCERA",
-        "en": "Photo source: LUC OCCERA"
+        "ht": "2023: deklarasyon nan yon fowòm sou ensekirite",
+        "en": "2023: remarks at a forum on insecurity"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Rezo Nòdwès rapòte deklarasyon Luc Occera nan yon fowòm sou ensekirite nan Latibonit. Atik la prezante akizasyon li te fè sou ansyen palmantè; li pa yon desizyon tribinal.",
+        "en": "Rezo Nòdwès reports Luc Occera’s remarks at a forum on insecurity in Artibonite. It presents accusations he made concerning former parliamentarians; it is not a court decision."
       },
       "published_at": "2023-03-08",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Financement des gangs dans l’Artibonite : Me Luc Occera dénonce 2 anciens parlementaires"
     },
     "portrait-source-823968cf1d2c5982872d": {
@@ -1699,21 +1721,22 @@
       "publisher": "Rezo Nòdwès",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: RALPH SENECAL",
-        "en": "Photo source: RALPH SENECAL"
+        "ht": "2022: rapò sou anlèvman responsab SAM Ambulance",
+        "en": "2022: report on the SAM Ambulance head’s abduction"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Nan atik Oktòb 2022 sa a, Rezo Nòdwès idantifye Ralph Sénécal kòm responsab SAM Ambulance epi li rapòte anlèvman li ak chofè li nan Ganthier.",
+        "en": "In this October 2022 report, Rezo Nòdwès identifies Ralph Sénécal as the head of SAM Ambulance and reports his and his driver’s abduction in Ganthier."
       },
       "published_at": "2022-10-09",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
+      "editorial_level": "summary",
       "original_title": "Ralph Senecal, PDG de SAM ambulance, et son chauffeur kidnappés"
     },
     "portrait-source-183f4898c9d952d9ac6c": {
@@ -1722,22 +1745,117 @@
       "publisher": "Rezo Nòdwès",
       "type": "opinion",
       "categories": [
-        "articles"
+        "articles",
+        "history",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto: MICHELOT OXIL",
-        "en": "Photo source: MICHELOT OXIL"
+        "ht": "2021: tèks opinyon sou Moïse Jean Charles",
+        "en": "2021: opinion piece about Moïse Jean Charles"
       },
       "summary": {
-        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
-        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+        "ht": "Nan tèks opinyon sa a, Michélot Oxil eksprime sipò pou pakou politik Moïse Jean Charles pandan li pale de yon distenksyon inivèsitè. Se pozisyon otè a nan ane 2021.",
+        "en": "In this opinion piece, Michélot Oxil expresses support for Moïse Jean Charles’s political record while discussing a university honour. These are the author’s views in 2021."
       },
       "published_at": "2021-11-08",
       "reviewed_at": "2026-11-07",
       "review_status": "reviewed",
-      "editorial_level": "photo_identity",
-      "original_title": "Oxil Michélot :  »Au sommet de son art, Moïse Jean Charles récompensé par une université américaine »"
+      "editorial_level": "summary",
+      "original_title": "Oxil Michélot : »Au sommet de son art, Moïse Jean Charles récompensé par une université américaine »"
+    },
+    "curated-a3e876b091c1a5963423": {
+      "id": "curated-a3e876b091c1a5963423",
+      "url": "https://www.pousioupatkonnen.com/le-journaliste-johnny-ferdinand-inscrit-sur-la-plateforme-du-cep-comme-candidat/",
+      "publisher": "PouSiOuPaTKonnen",
+      "type": "journalism",
+      "format": "article",
+      "categories": [
+        "articles",
+        "campaign"
+      ],
+      "title": {
+        "ht": "Enskripsyon pou depite Gonayiv",
+        "en": "Registration for the Gonaïves deputy race"
+      },
+      "summary": {
+        "ht": "PouSiOuPaTKonnen rapòte jounalis Johnny Ferdinand enskri pou pòs depite Gonayiv sou non SOLEY. Enskripsyon an pa vle di KEP valide kandidati a.",
+        "en": "PouSiOuPaTKonnen reports journalist Johnny Ferdinand’s registration for the Gonaïves deputy race under SOLEY. Registration does not establish CEP validation."
+      },
+      "published_at": "2026-10-09",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed",
+      "editorial_level": "summary"
+    },
+    "curated-0a68adb7e89722de955d": {
+      "id": "curated-0a68adb7e89722de955d",
+      "url": "https://nam-haiti.com/denis-cadeau-mobilise-miragoane-autour-du-projet-politique-du-mph/",
+      "publisher": "NAM-HAITI",
+      "type": "journalism",
+      "format": "article",
+      "categories": [
+        "articles",
+        "campaign"
+      ],
+      "title": {
+        "ht": "2026: rankont MPH nan Miragwàn",
+        "en": "2026: MPH meeting in Miragoâne"
+      },
+      "summary": {
+        "ht": "NAM-HAITI rapòte Denis Cadeau te rankontre sitwayen nan Miragwàn pandan yon toune MPH nan depatman Nip la. Atik la dekri prezantasyon pwojè pati a ak echanj sou eksperyans li nan Sena a.",
+        "en": "NAM-HAITI reports Denis Cadeau’s meeting with residents in Miragoâne during an MPH tour of Nippes. It describes the party’s presentation and discussion of his Senate experience."
+      },
+      "published_at": "2026-03-31",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed",
+      "editorial_level": "summary"
+    },
+    "curated-cdc2d6332e6fab4c3e87": {
+      "id": "curated-cdc2d6332e6fab4c3e87",
+      "url": "https://triboland.com/2026/09/21/kapab-antre-nan-batay-elektoral-nodwes-la-ant-espwa-dout-ak-gwo-kesyon-sou-kandida-yo/",
+      "publisher": "TRiboLAND",
+      "type": "journalism",
+      "format": "article",
+      "categories": [
+        "articles",
+        "campaign"
+      ],
+      "title": {
+        "ht": "2026: MOSANOH ak KAPAB nan Nòdwès",
+        "en": "2026: MOSANOH and KAPAB in Nord-Ouest"
+      },
+      "summary": {
+        "ht": "TRiboLAND prezante patisipasyon MOSANOH nan gwoupman KAPAB nan Nòdwès. Atik la idantifye François Lucas Sainvil kòm responsab MOSANOH ak patisipan nan kous pou Sena a.",
+        "en": "TRiboLAND describes MOSANOH’s participation in the KAPAB grouping in Nord-Ouest. It identifies François Lucas Sainvil as MOSANOH’s leader and a participant in the Senate race."
+      },
+      "published_at": "2026-09-21",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed",
+      "editorial_level": "summary"
+    },
+    "curated-65e4432b151b37ff1310": {
+      "id": "curated-65e4432b151b37ff1310",
+      "url": "https://international.canada.ca/en/global-affairs/corporate/transparency/briefing-documents/parliamentary-committee/2023-02-09-aefa",
+      "publisher": "Global Affairs Canada",
+      "type": "official",
+      "format": "document",
+      "categories": [
+        "public_records",
+        "history"
+      ],
+      "title": {
+        "ht": "Dokiman Kanada sou sanksyon Novanm 2022 yo",
+        "en": "Canadian briefing on the November 2022 sanctions"
+      },
+      "summary": {
+        "ht": "Dokiman ofisyèl sa a te prepare pou yon prezantasyon ki te prevwa devan yon komite an Fevriye 2023. Li site Hervé Fourcand pami moun Kanada te sanksyone nan Novanm 2022. Paj la te pibliye nan Septanm 2025.",
+        "en": "This official briefing, prepared for a February 2023 committee appearance, lists Hervé Fourcand among people Canada sanctioned in November 2022. The page was published in September 2025."
+      },
+      "published_at": "2025-09-12",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed",
+      "editorial_level": "summary",
+      "event_date": "2023-02-09"
     }
   },
   "profiles": {

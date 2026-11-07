@@ -62,7 +62,7 @@ with sync_playwright() as p:
       point=page.locator('.source-node').nth(source_index);point.click()
       expect(page.locator('#web-preview-title')).to_have_text(source['title'][lang])
       expect(page.locator('#web-preview-summary')).to_have_text(source['summary'][lang])
-      assert source['publisher'] in page.locator('#web-preview-publisher').inner_text()
+      assert ' '.join(source['publisher'].split()) in ' '.join(page.locator('#web-preview-publisher').inner_text().split()),(person['name'],source['id'],'publisher attribution')
       link=page.locator('#web-preview-action>a');assert link.get_attribute('href')==('#registration' if source.get('native') else source['url'])
       if width<900:
        assert page.locator('#web-mobile-preview').evaluate('e=>e.open')
