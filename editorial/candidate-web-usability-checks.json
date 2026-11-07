@@ -1,0 +1,138 @@
+{
+  "reviewed_at": "2026-11-07",
+  "method": "Disconfirm: recorded visitor-task falsifiers before interacting with the live UI. Revised the implementation after failures, then exercised rendered Chromium pages.",
+  "initial_claim": "A visitor can identify available information, open a useful preview and return without losing context.",
+  "initial_claim_result": "revised after four failures",
+  "before_evidence": [
+    {
+      "profile": "party-only",
+      "check": "empty-topic",
+      "title": "Articles",
+      "preview_top": 673.59375,
+      "viewport_height": 844,
+      "action_count": 0,
+      "empty_controls": 6
+    },
+    {
+      "profile": "party-only",
+      "check": "open-source",
+      "title": "Photo source — Mobilisation pour le Progrès d’Haïti (MPH)",
+      "visible_node_labels": [
+        "Mobilisation pour le Progrès d’Haïti (MPH)"
+      ],
+      "duplicate_visible_labels": 0,
+      "action_y": 951.84375,
+      "action_in_viewport": false,
+      "hash": "source=portrait-source-c95770456abb5c95962b"
+    },
+    {
+      "profile": "party-only",
+      "check": "return-from-source",
+      "hash": "source=portrait-source-c95770456abb5c95962b",
+      "active_label": "Articles — 0 sources",
+      "breadcrumb": "Hover, use your keyboard or tap a point on the web."
+    },
+    {
+      "profile": "rich-profile",
+      "check": "empty-topic",
+      "title": "Articles",
+      "preview_top": 673.59375,
+      "viewport_height": 844,
+      "action_count": 0,
+      "empty_controls": 2
+    },
+    {
+      "profile": "rich-profile",
+      "check": "open-source",
+      "title": "Etzer Emile announces his candidacy",
+      "visible_node_labels": [
+        "Campagne Etzer Emile 2027",
+        "Campagne Etzer Emile 2027",
+        "Campagne Etzer Emile 2027"
+      ],
+      "duplicate_visible_labels": 2,
+      "action_y": 946.03125,
+      "action_in_viewport": false,
+      "hash": "source=etzer-announcement-20261031"
+    },
+    {
+      "profile": "rich-profile",
+      "check": "return-from-source",
+      "hash": "source=etzer-announcement-20261031",
+      "active_label": "Articles — 0 sources",
+      "breadcrumb": "Hover, use your keyboard or tap a point on the web."
+    }
+  ],
+  "corrections": [
+    "A native mobile dialog keeps source details and actions in view, with focus containment and restoration.",
+    "Disabled empty topics and explicit registry-only coverage help set expectations.",
+    "Source titles distinguish nodes; source format and excerpt limits remain explicit.",
+    "Candidate context and registration facts appear inside previews; preliminary status remains visible above the web.",
+    "Back, sharing and language changes preserve the candidate, selected source and topic.",
+    "Seventeen source previews now summarize credited source material rather than only photo provenance."
+  ],
+  "browser_results": {
+    "profile_count": 38,
+    "enriched_profiles": 33,
+    "registry_only_examples": 5,
+    "languages": [
+      "ht",
+      "en"
+    ],
+    "main_viewport_widths": [
+      390,
+      1280
+    ],
+    "profile_cases": 152,
+    "source_previews": 376,
+    "topic_visits": 356,
+    "all_cases_passed": true,
+    "edge_cases": [
+      {
+        "check": "mobile-source-copy-and-same-candidate-language-switch",
+        "result": "pass"
+      },
+      {
+        "check": "source-pagination-and-second-page-deep-link",
+        "result": "pass",
+        "fixture": "Nine explicitly synthetic sources in a client-intercepted browser document; no public data changed."
+      },
+      {
+        "check": "language-switch-preserves-selected-source-and-topic",
+        "result": "pass"
+      },
+      {
+        "check": "explicit-player-request-pinning-and-cleanup",
+        "result": "pass",
+        "note": "Player request intercepted by a stub. Actual YouTube streaming was not tested or claimed."
+      },
+      {
+        "check": "native-archive-without-javascript-shows-excerpt-limit",
+        "result": "pass"
+      }
+    ]
+  },
+  "copy_review": {
+    "method": "Independent AI reviewer recorded an HT-only reading before opening English.",
+    "paired_strings": 72,
+    "source_previews": 17,
+    "definite_corrections_applied": 1,
+    "applied_correction": "Preserved En Avant pour Haïti as the proper party name.",
+    "optional_refinements": "Aligned the English proposal label with Pwopozisyon and made the archival context explicit."
+  },
+  "references": [
+    "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+    "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog"
+  ],
+  "gzip_bytes": {
+    "candidate-web.js": 5275,
+    "candidate-common.js": 717,
+    "candidate-directory.css": 4903
+  },
+  "limits": [
+    "Browser automation is not a human usability study or physical-device certification.",
+    "The 8990 registrations share templates; 38 selected profiles were individually exercised, not 8990 browser sessions.",
+    "Player request and lifecycle checks use an intercepted iframe request; real YouTube streaming was not asserted.",
+    "Archive coverage remains incomplete."
+  ]
+}

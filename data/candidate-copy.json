@@ -124,8 +124,8 @@
     "en": "All statuses"
   },
   "status_note": {
-    "ht": "KEP poko pibliye lis definitif kandida yo. Yon enskripsyon pa vle di KEP valide kandidati a.",
-    "en": "The CEP has not yet published the definitive candidate list. Registration does not mean a candidacy has been validated."
+    "ht": "Done sa yo preliminè; yo pa konfime KEP valide kandidati a.",
+    "en": "These data are preliminary and do not establish a validated candidacy."
   },
   "snapshot": {
     "ht": "Done piblik KEP yo te verifye nan dat",
@@ -232,8 +232,8 @@
     "en": "The information web"
   },
   "web_hint": {
-    "ht": "Pase sourit la, sèvi ak klavye a oswa peze yon pwen sou twal la.",
-    "en": "Hover, use your keyboard or tap a point on the web."
+    "ht": "Chwazi yon sijè ki gen sous pou eksplore enfòmasyon yo.",
+    "en": "Choose a topic with sources to explore the information."
   },
   "web_label": {
     "ht": "Twal sous enfòmasyon sou moun sa a",
@@ -261,11 +261,11 @@
   },
   "social": {
     "ht": "Rezo sosyal",
-    "en": "Social posts"
+    "en": "Social media"
   },
   "positions": {
-    "ht": "Pozisyon",
-    "en": "Positions"
+    "ht": "Pwopozisyon",
+    "en": "Proposals"
   },
   "history": {
     "ht": "Pakou",
@@ -308,8 +308,8 @@
     "en": "Official record"
   },
   "campaign_source": {
-    "ht": "Deklarasyon kanpay",
-    "en": "Campaign statement"
+    "ht": "Sous kandida oswa pati politik",
+    "en": "Candidate or party source"
   },
   "social_source": {
     "ht": "Piblikasyon piblik sou rezo sosyal",
@@ -360,8 +360,8 @@
     "en": "Choose a strand to discover the sources."
   },
   "preview_hint": {
-    "ht": "Chak sous gen non piblikatè li, dat li ak yon rezime. Peze Escape pou fèmen apèsi a.",
-    "en": "Every source includes its publisher, date and a summary. Press Escape to close the preview."
+    "ht": "Louvri yon sous pou wè non piblikatè li, dat li ak rezime li. Ou ka fèmen apèsi a pou retounen sou twal la.",
+    "en": "Open a source to see its publisher, date and summary. Close its preview to return to the web."
   },
   "close_preview": {
     "ht": "Fèmen apèsi a",
@@ -380,8 +380,8 @@
     "en": "The video loads only when you choose to watch it."
   },
   "registry_title": {
-    "ht": "Enskripsyon piblik nan KEP",
-    "en": "Public CEP registration"
+    "ht": "Enskripsyon nan KEP",
+    "en": "CEP registration"
   },
   "registry_summary": {
     "ht": "Non sa a parèt nan done piblik enskripsyon KEP pou eleksyon 2026–2027 yo. Done sa yo preliminè; yo pa konfime KEP valide kandidati a.",
@@ -424,8 +424,8 @@
     "en": "Navigation menu"
   },
   "share": {
-    "ht": "Kopye lyen pwofil la",
-    "en": "Copy profile link"
+    "ht": "Kopye lyen sa w ap gade a",
+    "en": "Copy this view’s link"
   },
   "copied": {
     "ht": "Lyen an kopye",
@@ -446,5 +446,61 @@
   "fewer_filters": {
     "ht": "Mwens filtè",
     "en": "Fewer filters"
+  },
+  "web_available_hint": {
+    "ht": "Sijè ki an gri yo poko gen sous revize.",
+    "en": "Grey topics do not yet have reviewed sources."
+  },
+  "web_source_hint": {
+    "ht": "Chwazi yon sous pou li rezime li epi louvri lyen li.",
+    "en": "Choose a source to read its summary and open its link."
+  },
+  "web_registry_only": {
+    "ht": "Pou kounye a, nou gen sèlman enskripsyon KEP moun sa a. Nou poko ajoute lòt sous revize sou li.",
+    "en": "For now, this web contains only this person’s CEP registration. Other reviewed sources have not yet been added."
+  },
+  "web_photos": {
+    "ht": "Sous foto a",
+    "en": "Photo source"
+  },
+  "source_account_note": {
+    "ht": "Nou te revize sèlman pati atik la ki vizib pou tout moun. Sit sous la mande yon kont pou li rès la.",
+    "en": "We reviewed only the publicly visible excerpt. The source website requires an account to read the rest."
+  },
+  "link_unavailable": {
+    "ht": "Sous ki nan lyen sa a pa disponib nan pwofil sa a. Chwazi youn nan sijè ki gen sous yo.",
+    "en": "The source in this saved link is not available on this profile. Choose a topic with sources."
+  },
+  "share_source": {
+    "ht": "Kopye lyen sous sa a",
+    "en": "Copy link to this source"
+  },
+  "view_registration": {
+    "ht": "Gade enskripsyon moun sa a",
+    "en": "View this person’s registration"
+  },
+  "format_article": {
+    "ht": "Atik",
+    "en": "Article"
+  },
+  "format_video": {
+    "ht": "Videyo",
+    "en": "Video"
+  },
+  "format_record": {
+    "ht": "Enskripsyon",
+    "en": "Registration"
+  },
+  "format_account": {
+    "ht": "Kont sou rezo sosyal",
+    "en": "Social account"
+  },
+  "format_portrait": {
+    "ht": "Pòtrè",
+    "en": "Portrait"
+  },
+  "format_party_page": {
+    "ht": "Prezantasyon pati a",
+    "en": "Party presentation"
   }
 }

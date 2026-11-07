@@ -278,16 +278,20 @@
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Juno7",
-        "en": "Photo source — Juno7"
+        "ht": "Gary Bodeau: depo pyès yo te anonse pou 29 Oktòb",
+        "en": "Gary Bodeau: document filing announced for 29 October"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Nan atik 27 Oktòb la, Juno7 anonse Gary Bodeau te prevwa depoze pyès li nan dat 29 Oktòb. Atik la pa konfime KEP te valide kandidati li.",
+        "en": "In its 27 October report, Juno7 says Gary Bodeau planned to submit his documents on 29 October. This report does not establish CEP validation."
       },
       "published_at": "2026-10-27",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Anons depo pyès yo",
+        "en": "Document-filing announcement"
+      }
     },
     "portrait-source-318821d7c6585a15b714": {
       "id": "portrait-source-318821d7c6585a15b714",
@@ -295,20 +299,26 @@
       "publisher": "Le Nouvelliste",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Le Nouvelliste",
-        "en": "Photo source — Le Nouvelliste"
+        "ht": "Pwojè refòm Déus Deronneth anonse a",
+        "en": "Déus Deronneth’s stated reform agenda"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Pati atik Le Nouvelliste ki vizib pou tout moun prezante kandidati Déus Deronneth ak volonte li anonse pou transfòme leta epi rebati relasyon ant sitwayen yo ak enstitisyon yo.",
+        "en": "Le Nouvelliste’s public excerpt introduces Déus Deronneth’s candidacy and his stated aim of reforming the state and rebuilding its relationship with citizens."
       },
-      "published_at": null,
+      "published_at": "2026-10-13",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Pwojè refòm leta",
+        "en": "State reform proposals"
+      },
+      "access": "account"
     },
     "portrait-source-6294b51c7cdc5f969078": {
       "id": "portrait-source-6294b51c7cdc5f969078",
@@ -320,16 +330,20 @@
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — VeliPost",
-        "en": "Photo source — VeliPost"
+        "ht": "ANF chwazi Gandhy Dorfeuille",
+        "en": "ANF selects Gandhy Dorfeuille"
       },
       "summary": {
-        "ht": "Pòtrè ki soti nan yon afich kanpay laprès pibliye; dat foto a pa presize.",
-        "en": "Portrait from a campaign graphic published by the press; photograph date not stated."
+        "ht": "VeliPost rapòte ANF chwazi Gandhy Dorfeuille pou reprezante pati a nan eleksyon prezidansyèl la, dapre yon kominike 14 Septanm. Chwa yon pati pa yon validasyon KEP.",
+        "en": "VeliPost reports ANF’s selection of Gandhy Dorfeuille for the presidential race, citing a 14 September party release. A party’s selection is distinct from CEP validation."
       },
-      "published_at": null,
+      "published_at": "2026-09-24",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Chwa kandida ANF la",
+        "en": "ANF’s candidate selection"
+      }
     },
     "portrait-source-6f201415a1ea54e1984a": {
       "id": "portrait-source-6f201415a1ea54e1984a",
@@ -341,16 +355,20 @@
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Équilibre Presse",
-        "en": "Photo source — Équilibre Presse"
+        "ht": "Sol Ayiti chwazi Moïse Durocher",
+        "en": "Sol Ayiti selects Moïse Durocher"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Équilibre Presse rapòte Moïse Durocher genyen primè Sol Ayiti te òganize nan dat 21 Septanm, dapre rezilta gwoupman an. Se yon chwa entèn, pa yon desizyon validasyon KEP.",
+        "en": "Équilibre Presse reports that Moïse Durocher won Sol Ayiti’s 21 September primary, according to the group’s results. This is an internal selection, not a CEP validation decision."
       },
       "published_at": null,
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Primè Sol Ayiti yo",
+        "en": "Sol Ayiti’s primary"
+      }
     },
     "portrait-source-bf5bb68eea8a5b819128": {
       "id": "portrait-source-bf5bb68eea8a5b819128",
@@ -358,20 +376,25 @@
       "publisher": "Le Tout Au Pluriel Magazine",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Le Tout Au Pluriel Magazine",
-        "en": "Photo source — Le Tout Au Pluriel Magazine"
+        "ht": "Joanas Gué enskri sou non KAPAB",
+        "en": "Joanas Gué registers under KAPAB"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Le Tout Au Pluriel Magazine rapòte Joanas Gué fè enskripsyon li sou entènèt nan dat 9 Oktòb sou non KAPAB. Atik la prezante tou eksperyans li kòm ansyen minis Agrikilti. Enskripsyon pa vle di validasyon.",
+        "en": "Le Tout Au Pluriel Magazine reports Joanas Gué’s online registration on 9 October under KAPAB and describes his previous role as agriculture minister. Registration does not establish validation."
       },
-      "published_at": null,
+      "published_at": "2026-10-10",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Enskripsyon KAPAB la",
+        "en": "KAPAB registration report"
+      }
     },
     "portrait-source-0723179885b7514ab8ce": {
       "id": "portrait-source-0723179885b7514ab8ce",
@@ -383,16 +406,20 @@
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Le Reflet",
-        "en": "Photo source — Le Reflet"
+        "ht": "AJKN mande Wilson Jeudy kite pòs majistra li",
+        "en": "AJKN calls for Wilson Jeudy to leave his mayoral post"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
-        "en": "Portrait published in the press; photograph date not stated."
+        "ht": "Le Reflet rapòte AJKN mande Wilson Jeudy kite pòs majistra Delmas li pandan li kandida pou prezidan. Se yon atik sou revandikasyon òganizasyon an, pa yon desizyon otorite elektoral.",
+        "en": "Le Reflet reports AJKN’s demand that Wilson Jeudy leave his Delmas mayoral post while pursuing the presidency. This covers the organisation’s demand, not an electoral ruling."
       },
-      "published_at": null,
+      "published_at": "2026-10-24",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Demann demisyon an",
+        "en": "Call for resignation"
+      }
     },
     "portrait-source-c9c792b353345247be19": {
       "id": "portrait-source-c9c792b353345247be19",
@@ -404,16 +431,20 @@
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Juno7",
-        "en": "Photo source — Juno7"
+        "ht": "EDE chwazi Claude Joseph",
+        "en": "EDE selects Claude Joseph"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Juno7 rapòte biwo politik EDE a chwazi Claude Joseph nan dat 17 Septanm pou reprezante pati a nan eleksyon prezidansyèl la. Se desizyon pati a; li pa ranplase validasyon KEP.",
+        "en": "Juno7 reports EDE’s political bureau selected Claude Joseph on 17 September to represent the party in the presidential race. The party’s decision does not replace CEP validation."
       },
       "published_at": "2026-09-17",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Chwa kandida EDE a",
+        "en": "EDE’s candidate selection"
+      }
     },
     "portrait-source-e0b68eca43eb5b8cb369": {
       "id": "portrait-source-e0b68eca43eb5b8cb369",
@@ -421,20 +452,26 @@
       "publisher": "Le Nouvelliste",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Le Nouvelliste",
-        "en": "Photo source — Le Nouvelliste"
+        "ht": "Maxo Joseph prezante objektif li pou otorite leta",
+        "en": "Maxo Joseph outlines his aim of restoring state authority"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Pati atik Le Nouvelliste ki vizib pou tout moun prezante Maxo Joseph sou non RCH ak volonte li anonse pou retabli otorite leta. Li baze sou yon entèvyou 24 Septanm.",
+        "en": "Le Nouvelliste’s public excerpt presents Maxo Joseph’s candidacy under RCH and his stated aim of restoring state authority, based on a 24 September interview."
       },
-      "published_at": null,
+      "published_at": "2026-09-24",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Otorite leta",
+        "en": "State authority"
+      },
+      "access": "account"
     },
     "portrait-source-270874e16ee85d36bc51": {
       "id": "portrait-source-270874e16ee85d36bc51",
@@ -442,20 +479,26 @@
       "publisher": "Le Nouvelliste",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Le Nouvelliste",
-        "en": "Photo source — Le Nouvelliste"
+        "ht": "Wilner Joseph mete rekonsilyasyon nasyonal devan",
+        "en": "Wilner Joseph puts forward national reconciliation"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Pati atik Le Nouvelliste ki vizib pou tout moun prezante Wilner Joseph sou non Viktwa, eksperyans politik li ak mesaj rekonsilyasyon nasyonal li a. Se prezantasyon objektif li, pa yon evalyasyon rezilta.",
+        "en": "Le Nouvelliste’s public excerpt presents Wilner Joseph under Viktwa, his political background and his national reconciliation message. It describes his stated aims, not an assessment of results."
       },
-      "published_at": null,
+      "published_at": "2026-09-29",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Rekonsilyasyon nasyonal",
+        "en": "National reconciliation"
+      },
+      "access": "account"
     },
     "portrait-source-73cb6b93ef8b5e7e9d1a": {
       "id": "portrait-source-73cb6b93ef8b5e7e9d1a",
@@ -463,20 +506,25 @@
       "publisher": "Juno7",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "history"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Juno7",
-        "en": "Photo source — Juno7"
+        "ht": "Michel Martelly enskri sou non DEBLOKE",
+        "en": "Michel Martelly registers under DEBLOKE"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Juno7 rapòte Michel Martelly enskri sou non DEBLOKE epi li raple kèk etap nan pakou politik li. Atik la presize enskripsyon an pa yon validasyon definitif kandidati li.",
+        "en": "Juno7 reports Michel Martelly’s registration under DEBLOKE and outlines his political background. The report explicitly distinguishes registration from final validation of his candidacy."
       },
       "published_at": "2026-10-16",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Enskripsyon DEBLOKE a",
+        "en": "DEBLOKE registration report"
+      }
     },
     "portrait-source-c95770456abb5c95962b": {
       "id": "portrait-source-c95770456abb5c95962b",
@@ -486,18 +534,22 @@
       "categories": [
         "campaign"
       ],
-      "format": "article",
+      "format": "party_page",
       "title": {
-        "ht": "Sous foto a — Mobilisation pour le Progrès d’Haïti (MPH)",
-        "en": "Photo source — Mobilisation pour le Progrès d’Haïti (MPH)"
+        "ht": "MPH prezante kandida li yo",
+        "en": "MPH presents its candidates"
       },
       "summary": {
-        "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
-        "en": "Portrait published by the political party; photograph date not stated."
+        "ht": "Paj pati MPH la prezante kandida li yo, foto yo ak pòs yo vle okipe. Se yon lis pati a pibliye li menm; se pa lis kandida KEP valide a.",
+        "en": "MPH’s own page presents its candidates, portraits and the offices they seek. This is a self-published party listing, not the CEP’s validated candidate list."
       },
       "published_at": null,
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Prezantasyon MPH la",
+        "en": "MPH candidate presentation"
+      }
     },
     "portrait-source-260d6761d0c65693b074": {
       "id": "portrait-source-260d6761d0c65693b074",
@@ -509,16 +561,20 @@
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Juno7",
-        "en": "Photo source — Juno7"
+        "ht": "Septanm: FCN ap chèche sipò Jean Ernest Muscadin",
+        "en": "September: FCN seeks Jean Ernest Muscadin’s support"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Nan atik achiv 13 Septanm sa a, Juno7 rapòte FCN t ap eseye konvenk Jean Ernest Muscadin pou reprezante li. Nan moman piblikasyon an, atik la pa t rapòte okenn anons kote li aksepte.",
+        "en": "In this 13 September archive report, Juno7 describes FCN’s efforts to persuade Jean Ernest Muscadin to represent it. At publication, no announcement accepting the proposal was reported."
       },
       "published_at": "2026-09-13",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Premye demach FCN yo",
+        "en": "Early FCN discussions"
+      }
     },
     "portrait-source-cfa0ce450d335df39e36": {
       "id": "portrait-source-cfa0ce450d335df39e36",
@@ -526,20 +582,25 @@
       "publisher": "Juno7",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Juno7",
-        "en": "Photo source — Juno7"
+        "ht": "Jocelerme Privert anonse depo dosye li ak priyorite li",
+        "en": "Jocelerme Privert announces filing and priorities"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Juno7 rapòte Jocelerme Privert anonse li te depoze dosye li sou non AYITI TRANSFÒME nan dat 19 Oktòb. Atik la prezante sekirite, jistis ak pwodiksyon nasyonal kòm priyorite li anonse.",
+        "en": "Juno7 reports Jocelerme Privert’s announcement that he filed under AYITI TRANSFÒME on 19 October, and describes security, justice and national production as his stated priorities."
       },
       "published_at": "2026-10-24",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Depo dosye ak priyorite",
+        "en": "Filing and priorities"
+      }
     },
     "portrait-source-7308041793ef5e32b5ff": {
       "id": "portrait-source-7308041793ef5e32b5ff",
@@ -547,20 +608,26 @@
       "publisher": "Vant Bèf Info",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "interviews",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Vant Bèf Info",
-        "en": "Photo source — Vant Bèf Info"
+        "ht": "René St Fort pale sou eleksyon ak lavi chè",
+        "en": "René St Fort discusses elections and living costs"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
-        "en": "Portrait published in the press; photograph date not stated."
+        "ht": "Vant Bèf Info rapòte yon entèvyou kote René St Fort eksprime enkyetid li sou reta nan pwosesis elektoral la ak konsekans pri gaz yo. Se pozisyon li te eksprime nan mwa Avril.",
+        "en": "Vant Bèf Info reports an interview in which René St Fort raises concerns about electoral delays and the effects of fuel prices. These are positions expressed in April."
       },
       "published_at": "2026-04-07",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Eleksyon ak lavi chè",
+        "en": "Elections and living costs"
+      }
     },
     "portrait-source-e8698b3339a756e88e60": {
       "id": "portrait-source-e8698b3339a756e88e60",
@@ -570,18 +637,22 @@
       "categories": [
         "campaign"
       ],
-      "format": "article",
+      "format": "portrait",
       "title": {
-        "ht": "Sous foto a — Campagne Etzer Emile 2027",
-        "en": "Photo source — Campagne Etzer Emile 2027"
+        "ht": "Pòtrè kanpay Etzer Emile pou laprès",
+        "en": "Etzer Emile’s campaign press portraits"
       },
       "summary": {
-        "ht": "Pòtrè sou sit kanpay aktyèl la",
-        "en": "Portrait on the current campaign website"
+        "ht": "Paj pou laprès ki sou sit kanpay Etzer Emile la bay pòtrè kanpay la pibliye. Sa a se sous foto a, se pa yon atik analiz endepandan.",
+        "en": "The press page on Etzer Emile’s campaign website provides campaign portraits. This is the photo source, not an independent analysis article."
       },
       "published_at": null,
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Pòtrè pou laprès",
+        "en": "Campaign press portraits"
+      }
     },
     "portrait-source-189004967c1e57878f7a": {
       "id": "portrait-source-189004967c1e57878f7a",
@@ -589,20 +660,25 @@
       "publisher": "Juno7",
       "type": "journalism",
       "categories": [
-        "articles"
+        "articles",
+        "positions"
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — Juno7",
-        "en": "Photo source — Juno7"
+        "ht": "Jerry Tardieu anonse kandidati li ak En Avant",
+        "en": "Jerry Tardieu announces his candidacy with En Avant"
       },
       "summary": {
-        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
-        "en": "Portrait published in election coverage; photograph date not stated."
+        "ht": "Juno7 rapòte Jerry Tardieu anonse kandidati li sou non En Avant pour Haïti nan dat 21 Oktòb. Atik la prezante sekirite ak travay kòm priyorite li anonse.",
+        "en": "Juno7 reports Jerry Tardieu’s 21 October candidacy announcement under En Avant pour Haïti and presents security and jobs as his stated priorities."
       },
       "published_at": "2026-10-21",
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Anons kandidati a",
+        "en": "Candidacy announcement"
+      }
     },
     "portrait-source-53033c82b2e954b2a7c5": {
       "id": "portrait-source-53033c82b2e954b2a7c5",
@@ -614,16 +690,20 @@
       ],
       "format": "article",
       "title": {
-        "ht": "Sous foto a — InfoLigne",
-        "en": "Photo source — InfoLigne"
+        "ht": "OPL chwazi Jean-Marie Junior Salomon",
+        "en": "OPL selects Jean-Marie Junior Salomon"
       },
       "summary": {
-        "ht": "Pòtrè achiv ki akonpaye yon atik sou eleksyon yo; dat foto a pa konfime.",
-        "en": "Archival portrait accompanying election coverage; photograph date unconfirmed."
+        "ht": "InfoLigne rapòte OPL chwazi Jean-Marie Junior Salomon nan dat 24 Oktòb pou reprezante li nan eleksyon prezidansyèl la. Atik la rapòte tou demann pati a pou fasilite demach administratif kandida yo.",
+        "en": "InfoLigne reports OPL’s selection of Jean-Marie Junior Salomon on 24 October for the presidential race and the party’s request to ease candidates’ administrative procedures."
       },
       "published_at": null,
       "reviewed_at": "2026-11-07",
-      "review_status": "reviewed"
+      "review_status": "reviewed",
+      "short_title": {
+        "ht": "Chwa kandida OPL la",
+        "en": "OPL’s candidate selection"
+      }
     }
   },
   "profiles": {

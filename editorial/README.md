@@ -157,3 +157,42 @@ publication; it is not described as native-human certification. Lab browser
 checks cover narrow layouts, touch/keyboard access, source previews, directory
 filters, language identity, Back restoration and JavaScript-disabled pages.
 Physical-device usability and field Core Web Vitals remain unmeasured.
+
+The 7 November spider-web usability review found that mobile source actions
+opened below the screen, multiple source points had identical publisher labels,
+and Back left stale source fragments. Mobile source previews now use a native
+dialog with a close control, contained keyboard focus and focus restoration.
+Desktop previews remain alongside the web; an explicit source choice stays
+selected while the pointer crosses other points. Empty topics are disabled and
+explained, and registry-only webs disclose their limited coverage. Source points
+use distinct titles. Saved links retain the candidate, source and topic.
+The registration preview includes its actual office, party, locality, position
+and status, while preliminary status also remains visible above the web.
+
+Seventeen photo-credit-only source previews were revised from the credited
+source material into useful article or campaign-page summaries. Three newspaper
+previews use only the public excerpt and disclose the account requirement for
+the full article. Social account links are labeled as accounts; photo pages and
+party presentations have their own format labels. The native archive preserves
+these labels and excerpt notes without JavaScript. The new bilingual strings
+received a blind independent AI review; its proper-name correction was applied.
+
+Repeat the rendered UI tasks after generating the static pages (requires the
+optional Playwright Python package and its Chromium browser):
+
+```text
+python scripts/check-candidate-web-ui.py
+python scripts/check-candidate-web-edge-cases.py
+python scripts/check-candidate-web-ui.py --base https://www.ayitisitwayen.org
+python scripts/check-candidate-web-edge-cases.py --base https://www.ayitisitwayen.org
+```
+
+The main audit covers all 33 enriched profiles and a registry-only profile in
+each remaining office, in both languages on 390px and 1280px viewports: 152
+profile cases, 376 source previews and 356 topic visits. Additional checks cover
+320px, short landscape screens, keyboard focus, source sharing, language changes,
+missing links, player cleanup and a clearly synthetic nine-source pagination
+fixture. Browser evidence is written to a temporary folder, outside the public
+site. These checks are browser automation, not a human usability study, and do
+not represent 8,990 individually observed browser sessions. The complete static
+build still checks every generated registration profile in CI.
