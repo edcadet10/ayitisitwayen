@@ -7,30 +7,34 @@ from threading import Thread
 from urllib.parse import urlparse
 from playwright.sync_api import sync_playwright,expect
 ROOT=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser();parser.add_argument('--base');parser.add_argument('--output',type=Path);args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--base');parser.add_argument('--output',type=Path);parser.add_argument('--ids',nargs='+');args=parser.parse_args()
 OUT=args.output or Path(tempfile.mkdtemp(prefix='ayiti-portrait-ui-'));OUT.mkdir(parents=True,exist_ok=True)
 spec=importlib.util.spec_from_file_location('builder',ROOT/'scripts/build-candidates.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);registry,enrichment=m.load()
 class Handler(SimpleHTTPRequestHandler):
  def log_message(self,*a):pass
 server=ThreadingHTTPServer(('127.0.0.1',0),partial(Handler,directory=str(ROOT)));Thread(target=server.serve_forever,daemon=True).start();BASE=args.base or f'http://127.0.0.1:{server.server_port}'
 people=registry['candidates'];senators=[p for p in people if p['office']=='senator'];pictured=[p for p in senators if enrichment['profiles'].get(p['id'],{}).get('portrait')]
-added=pictured+[p for p in people if p['name'] in ['NANCY LAINE ISAAC','WUINCHEL OLIVIER']];results=[]
+added=[p for p in people if enrichment['profiles'].get(p['id'],{}).get('portrait') and (not args.ids or p['id'] in args.ids)];results=[]
+if args.ids:assert set(args.ids)=={p['id'] for p in added},'Every requested profile must have a verified portrait'
 with sync_playwright() as pw:
  browser=pw.chromium.launch()
  for width in [320,390,1280]:
   for lang in ['ht','en']:
    context=browser.new_context(viewport={'width':width,'height':844},device_scale_factor=2 if width<900 else 1);page=context.new_page();requests=[];errors=[]
    page.on('request',lambda r:requests.append(r.url));page.on('pageerror',lambda e:errors.append(str(e)))
-   page.goto(BASE+m.directory(lang)+'?office=senator&photo=available');expect(page.locator('.candidate-card')).to_have_count(len(pictured));expect(page.locator('#candidate-count')).to_contain_text(str(len(pictured)))
+   page.goto(BASE+m.directory(lang)+'?office=senator&photo=available');expect(page.locator('.candidate-card')).to_have_count(min(24,len(pictured)));expect(page.locator('#candidate-count')).to_contain_text(str(len(pictured)))
    assert page.locator('.candidate-initials').count()==0
    expect(page.locator('#candidate-photo-count')).to_contain_text(str(len(senators)))
    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
    page.locator('.candidate-results-bar').scroll_into_view_if_needed()
    image=page.locator('.candidate-card .candidate-photo img').first;page.locator('.candidate-card .candidate-photo').first.scroll_into_view_if_needed();expect(image).to_have_attribute('src',enrichment['profiles'][pictured[0]['id']]['portrait']['path'])
    page.wait_for_function('()=>document.querySelector(".candidate-card .candidate-photo img").naturalWidth>0')
-   assert page.locator('.candidate-card-position').count()==len(pictured)
+   assert page.locator('.candidate-card-position').count()==min(24,len(pictured))
    assert not [url for url in requests if urlparse(url).netloc!=urlparse(BASE).netloc]
    page.screenshot(path=str(OUT/f'senate-{lang}-{width}.png'),full_page=False)
+   if len(pictured)>24:
+    page.locator('#candidate-pagination button').last.click();expect(page.locator('.candidate-card')).to_have_count(min(24,len(pictured)-24));expect(page.locator('select[name=photo]')).to_have_value('available');assert page.locator('.candidate-initials').count()==0
+    page.locator('#candidate-pagination button').first.click();expect(page.locator('.candidate-card')).to_have_count(24)
    # Clear photo-only mode, then activate the quick filter with a pending search.
    expect(page.locator('#candidate-filters')).to_be_hidden();page.locator('#candidate-show-portraits').click();expect(page.locator('#candidate-count')).to_contain_text(str(len(senators)))
    page.locator('input[name=q]').fill('cantave');page.locator('#candidate-show-portraits').click();expect(page.locator('.candidate-card')).to_have_count(1);expect(page.locator('.candidate-card h2')).to_have_text('CARL MURAT CANTAVE')

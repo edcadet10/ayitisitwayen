@@ -3140,6 +3140,1797 @@
       "web_bytes": 3214,
       "photograph_date": null,
       "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-839afa2173bd5a58bd8e",
+      "name": "JOHNNY FERDINAND",
+      "office": "deputy",
+      "party": "SOLEY",
+      "locality": [
+        "ARTIBONITE",
+        "GONAÏVES"
+      ],
+      "source_url": "https://vantbefinfo.com/le-journaliste-johnny-ferdinand-de-radio-caraibes-suivi-par-des-motards-suspects/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2023/12/SquareQuick_20231120184825430-768x432-1.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "JOHNNY FERDINAND",
+        "registered_office": "deputy",
+        "registered_party": "SOLEY",
+        "registered_locality": [
+          "ARTIBONITE",
+          "GONAÏVES"
+        ],
+        "publisher_headline": "Le journaliste Johnny Ferdinand de Radio Caraïbes suivi par des motards suspects",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison.",
+        "identity_bridge": "https://www.pousioupatkonnen.com/le-journaliste-johnny-ferdinand-inscrit-sur-la-plateforme-du-cep-comme-candidat/"
+      },
+      "source_sha256": "48d2b73d9252b7488c01e728c98e1d5d682682f085abc8d39e06f5e4ac1d224c",
+      "source_dimensions": [
+        768,
+        432
+      ],
+      "crop_boxes": {
+        "card": [
+          265,
+          0,
+          495,
+          288
+        ],
+        "web": [
+          274,
+          0,
+          486,
+          211
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/johnny-ferdinand-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 2566
+        },
+        {
+          "path": "/assets/candidates/johnny-ferdinand-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 5526
+        },
+        {
+          "path": "/assets/candidates/johnny-ferdinand-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 8936
+        }
+      ],
+      "web_path": "/assets/candidates/johnny-ferdinand-web.webp",
+      "web_bytes": 2646,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-034da234e61f51bd9239",
+      "name": "OGLINE PIERRE",
+      "office": "deputy",
+      "party": "DEBLOKE",
+      "locality": [
+        "SUD",
+        "CAMP PERRIN/MANICHE"
+      ],
+      "source_url": "https://vantbefinfo.com/haiti-seisme-laide-natteint-pas-encore-les-sections-communales-de-camp-perrin-selon-ogline-pierre/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2021/09/IMG-20210906-WA0025.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "OGLINE PIERRE",
+        "registered_office": "deputy",
+        "registered_party": "DEBLOKE",
+        "registered_locality": [
+          "SUD",
+          "CAMP PERRIN/MANICHE"
+        ],
+        "publisher_headline": "Haiti-séisme: l’aide n’atteint pas encore les sections communales de Camp-Perrin, selon Ogline Pierre",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "fc3e5894d94542ecf30a9bf5a5bbb49b87cba36a33befab226ec965b374e46a7",
+      "source_dimensions": [
+        638,
+        960
+      ],
+      "crop_boxes": {
+        "card": [
+          71,
+          0,
+          629,
+          698
+        ],
+        "web": [
+          94,
+          0,
+          606,
+          512
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/ogline-pierre-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 9158
+        },
+        {
+          "path": "/assets/candidates/ogline-pierre-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 24552
+        },
+        {
+          "path": "/assets/candidates/ogline-pierre-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 33936
+        }
+      ],
+      "web_path": "/assets/candidates/ogline-pierre-web.webp",
+      "web_bytes": 9012,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-f5780e3ec600561bb42d",
+      "name": "ROLPHE PAPILLON",
+      "office": "deputy",
+      "party": "EAPH",
+      "locality": [
+        "GRAND'ANSE",
+        "CORAIL/ILES CAYEMITES"
+      ],
+      "source_url": "https://rezonodwes.com/2022/03/debat-lex-depute-rolphe-papillon-se-prononce-contre-la-transition-de-rupture-quil-qualifie-de-projet-liberticide/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2022/02/rolphe-papillon.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "ROLPHE PAPILLON",
+        "registered_office": "deputy",
+        "registered_party": "EAPH",
+        "registered_locality": [
+          "GRAND'ANSE",
+          "CORAIL/ILES CAYEMITES"
+        ],
+        "publisher_headline": "Débat | L’ex-député Rolphe Papillon se prononce contre la  »Transition de Rupture » qu’il qualifie de  »projet liberticide »",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "da427b25fd00e61adf0fc20e39575052469f2fc51c072c157ba6bef2ffebf722",
+      "source_dimensions": [
+        1000,
+        748
+      ],
+      "crop_boxes": {
+        "card": [
+          317,
+          0,
+          771,
+          567
+        ],
+        "web": [
+          336,
+          0,
+          752,
+          416
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/rolphe-papillon-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3448
+        },
+        {
+          "path": "/assets/candidates/rolphe-papillon-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7424
+        },
+        {
+          "path": "/assets/candidates/rolphe-papillon-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12870
+        }
+      ],
+      "web_path": "/assets/candidates/rolphe-papillon-web.webp",
+      "web_bytes": 2790,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-b3c1e8def8575a35b186",
+      "name": "ABEL DESCOLLINES",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "CENTRE"
+      ],
+      "source_url": "https://rezonodwes.com/2023/10/haiti-autorisation-de-deploiement-dune-force-lex-depute-abel-descollines-satisfait/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2022/02/descollines-a.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "ABEL DESCOLLINES",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "CENTRE"
+        ],
+        "publisher_headline": "Haïti | Autorisation de déploiement d’une force par l’ONU : l’ex député Abel Descollines satisfait",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "b905fc12a3af0550edb677b762acbac8e0190bc79caa88eaf3c92123910f5db0",
+      "source_dimensions": [
+        1000,
+        795
+      ],
+      "crop_boxes": {
+        "card": [
+          250,
+          10,
+          850,
+          760
+        ],
+        "web": [
+          275,
+          10,
+          925,
+          660
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/abel-descollines-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4094
+        },
+        {
+          "path": "/assets/candidates/abel-descollines-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 11008
+        },
+        {
+          "path": "/assets/candidates/abel-descollines-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 18662
+        }
+      ],
+      "web_path": "/assets/candidates/abel-descollines-web.webp",
+      "web_bytes": 5000,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-604802c271a559a28ec0",
+      "name": "BENDGY TILIAS",
+      "office": "senator",
+      "party": "EAPH",
+      "locality": [
+        "NORD"
+      ],
+      "source_url": "https://vantbefinfo.com/bendgy-tilias-installe-comme-nouveau-secretaire-detat-a-la-communication/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2024/12/IMG-20241219-WA0081.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "BENDGY TILIAS",
+        "registered_office": "senator",
+        "registered_party": "EAPH",
+        "registered_locality": [
+          "NORD"
+        ],
+        "publisher_headline": "Bendgy Tilias installé comme nouveau Secrétaire d’État à la Communication",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "ef00cd6fd68c32bcfc86281919ed8028e1899fa66643e8d67910a7adbd5036c5",
+      "source_dimensions": [
+        768,
+        559
+      ],
+      "crop_boxes": {
+        "card": [
+          171,
+          40,
+          338,
+          249
+        ],
+        "web": [
+          178,
+          45,
+          331,
+          199
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/bendgy-tilias-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4882
+        },
+        {
+          "path": "/assets/candidates/bendgy-tilias-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10406
+        },
+        {
+          "path": "/assets/candidates/bendgy-tilias-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 16666
+        }
+      ],
+      "web_path": "/assets/candidates/bendgy-tilias-web.webp",
+      "web_bytes": 5146,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-ae1d45d3931f556b872a",
+      "name": "DENIS CADEAU",
+      "office": "senator",
+      "party": "MPH",
+      "locality": [
+        "NIPPES"
+      ],
+      "source_url": "https://www.gazettehaiti.com/node/694",
+      "asset_url": "https://www.gazettehaiti.com/sites/default/files/2019-10/FB_IMG_1572103230511.jpg",
+      "credit": "Gazette Haïti",
+      "identity_context": {
+        "candidate_name": "DENIS CADEAU",
+        "registered_office": "senator",
+        "registered_party": "MPH",
+        "registered_locality": [
+          "NIPPES"
+        ],
+        "publisher_headline": "Mobilisation à Miragôane:- La maison du Sénateur Denis Cadeau attaquée  | Gazette Haiti",
+        "publisher_image_caption": "Photo",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "eba3b79a92ff024d97db5bac0221ce0e792f5671364e4eb1ba5cb79022fdd5c0",
+      "source_dimensions": [
+        360,
+        360
+      ],
+      "crop_boxes": {
+        "card": [
+          52,
+          0,
+          318,
+          333
+        ],
+        "web": [
+          63,
+          0,
+          307,
+          244
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/denis-cadeau-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 6484
+        },
+        {
+          "path": "/assets/candidates/denis-cadeau-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 15934
+        },
+        {
+          "path": "/assets/candidates/denis-cadeau-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 24886
+        }
+      ],
+      "web_path": "/assets/candidates/denis-cadeau-web.webp",
+      "web_bytes": 7126,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-15977c044e07522da39d",
+      "name": "EDWINE BLAISE",
+      "office": "senator",
+      "party": "DEBLOKE",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://vantbefinfo.com/senatoriales-dans-louest-edwine-blaise-veut-faire-de-leducation-de-la-sante-et-de-la-protection-sociale-ses-grandes-priorites/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2026/10/cdac303d-2038-49e7-ab68-b3e1dc803ae5.jpeg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "EDWINE BLAISE",
+        "registered_office": "senator",
+        "registered_party": "DEBLOKE",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "publisher_headline": "Sénatoriales dans l’Ouest : Edwine Blaise veut faire de l’éducation, de la santé et de la protection sociale ses grandes priorités",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "96faa3fc30d6925dff62b41b071bb88721dfffb1618b37a707133275a7b963a6",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "crop_boxes": {
+        "card": [
+          490,
+          45,
+          896,
+          554
+        ],
+        "web": [
+          507,
+          59,
+          879,
+          432
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/edwine-blaise-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4328
+        },
+        {
+          "path": "/assets/candidates/edwine-blaise-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10190
+        },
+        {
+          "path": "/assets/candidates/edwine-blaise-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 16626
+        }
+      ],
+      "web_path": "/assets/candidates/edwine-blaise-web.webp",
+      "web_bytes": 4334,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-52a3d2063931547fbaa1",
+      "name": "FRANÇOIS LUCAS SAINVIL",
+      "office": "senator",
+      "party": "KAPAB",
+      "locality": [
+        "NORD-OUEST"
+      ],
+      "source_url": "https://rezonodwes.com/2016/10/le-senateur-lucas-sainvil-rejette-les-accusations-de-corruption-de-son-collegue-salomon/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2016/07/lucas-sainvil-francois.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "FRANÇOIS LUCAS SAINVIL",
+        "registered_office": "senator",
+        "registered_party": "KAPAB",
+        "registered_locality": [
+          "NORD-OUEST"
+        ],
+        "publisher_headline": "Le sénateur Lucas Sainvil rejette les accusations de corruption de son collègue Salomon!",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "778a6919fc153f23d545ae62d7c43a5f325605e35d7836e2195e171e4083a5b5",
+      "source_dimensions": [
+        750,
+        549
+      ],
+      "crop_boxes": {
+        "card": [
+          204,
+          136,
+          518,
+          527
+        ],
+        "web": [
+          217,
+          146,
+          505,
+          433
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/francois-lucas-sainvil-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5410
+        },
+        {
+          "path": "/assets/candidates/francois-lucas-sainvil-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 13996
+        },
+        {
+          "path": "/assets/candidates/francois-lucas-sainvil-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 22270
+        }
+      ],
+      "web_path": "/assets/candidates/francois-lucas-sainvil-web.webp",
+      "web_bytes": 5904,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-3201874399de5820bfd0",
+      "name": "JEAN MARCEL LUMERANT",
+      "office": "senator",
+      "party": "P.R",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://www.belpolitik.com/photos/photo-haiti-depute-jean-marcel-lumerant.html",
+      "asset_url": "https://www.belpolitik.com/spa/_files/spa_album/pic_1619.jpg",
+      "credit": "BelPolitik",
+      "identity_context": {
+        "candidate_name": "JEAN MARCEL LUMERANT",
+        "registered_office": "senator",
+        "registered_party": "P.R",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "publisher_headline": "Depute Jean Marcel Lumerant | BelPolitik.com",
+        "publisher_image_caption": "Depute Jean Marcel Lumerant | BelPolitik.com",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "784fa8e792055daec801c5bef3986df7b96e3947169f3bdcf883e951ea973fe5",
+      "source_dimensions": [
+        472,
+        266
+      ],
+      "crop_boxes": {
+        "card": [
+          100,
+          0,
+          310,
+          263
+        ],
+        "web": [
+          91,
+          0,
+          351,
+          260
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jean-marcel-lumerant-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3592
+        },
+        {
+          "path": "/assets/candidates/jean-marcel-lumerant-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8206
+        },
+        {
+          "path": "/assets/candidates/jean-marcel-lumerant-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 13190
+        }
+      ],
+      "web_path": "/assets/candidates/jean-marcel-lumerant-web.webp",
+      "web_bytes": 4594,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-17b29e57494f57e2abb9",
+      "name": "LOUIS MARIE BONHOMME",
+      "office": "senator",
+      "party": "ANF",
+      "locality": [
+        "NORD-OUEST"
+      ],
+      "source_url": "https://lanationpost.com/louis-marie-bonhomme-mise-sur-son-experience-parlementaire-pour-le-nord-ouest/actualite/",
+      "asset_url": "https://lanationpost.com/wp-content/uploads/2026/09/IMG-20260913-WA0072.jpg",
+      "credit": "Lanationpost",
+      "identity_context": {
+        "candidate_name": "LOUIS MARIE BONHOMME",
+        "registered_office": "senator",
+        "registered_party": "ANF",
+        "registered_locality": [
+          "NORD-OUEST"
+        ],
+        "publisher_headline": "Louis Marie Bonhomme mise sur son expérience parlementaire pour le Nord-Ouest – Lanationpost",
+        "publisher_image_caption": "Louis Marie Bonhomme mise sur son expérience parlementaire pour le Nord-Ouest – Lanationpost",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "72f4910e906b13bcc5ed2c7f49a5bee7c0344fddbf5863596f963e532fbb456c",
+      "source_dimensions": [
+        865,
+        702
+      ],
+      "crop_boxes": {
+        "card": [
+          201,
+          10,
+          534,
+          426
+        ],
+        "web": [
+          215,
+          21,
+          520,
+          326
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/louis-marie-bonhomme-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4510
+        },
+        {
+          "path": "/assets/candidates/louis-marie-bonhomme-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 11572
+        },
+        {
+          "path": "/assets/candidates/louis-marie-bonhomme-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 18542
+        }
+      ],
+      "web_path": "/assets/candidates/louis-marie-bonhomme-web.webp",
+      "web_bytes": 4540,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-c3044f237a6c5676aed9",
+      "name": "MYRIAM AMILCAR",
+      "office": "senator",
+      "party": "EDE",
+      "locality": [
+        "ARTIBONITE"
+      ],
+      "source_url": "https://vantbefinfo.com/haiti-insecurite-face-aux-gangs-myriam-amilcar-mise-sur-le-renforcement-de-la-pnh-et-des-fadh/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2026/07/IMG-20260712-WA0189.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "MYRIAM AMILCAR",
+        "registered_office": "senator",
+        "registered_party": "EDE",
+        "registered_locality": [
+          "ARTIBONITE"
+        ],
+        "publisher_headline": "Haiti-Insecurité : Face aux gangs, Myriam Amilcar mise sur le renforcement de la PNH et des FAd’H",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "8471b2c3a7fcebda5e83f6aa3c04ab61e60078e24214fb28e0184145671eb278",
+      "source_dimensions": [
+        1000,
+        667
+      ],
+      "crop_boxes": {
+        "card": [
+          296,
+          119,
+          656,
+          569
+        ],
+        "web": [
+          312,
+          131,
+          642,
+          461
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/myriam-amilcar-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5164
+        },
+        {
+          "path": "/assets/candidates/myriam-amilcar-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 12258
+        },
+        {
+          "path": "/assets/candidates/myriam-amilcar-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 19304
+        }
+      ],
+      "web_path": "/assets/candidates/myriam-amilcar-web.webp",
+      "web_bytes": 5458,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-c491793b0b6857c0af38",
+      "name": "NEIL LATORTUE",
+      "office": "senator",
+      "party": "AAA",
+      "locality": [
+        "ARTIBONITE"
+      ],
+      "source_url": "https://haitistandard.com/la-mairie-des-gonaives-annonce-des-dispositions-favorables-a-la-reprise-des-activites-scolaires/",
+      "asset_url": "https://i0.wp.com/haitistandard.com/wp-content/uploads/2020/01/20200104_170839.jpg?resize=300%2C350&ssl=1",
+      "credit": "Renald Desinor / Haïti Standard",
+      "identity_context": {
+        "candidate_name": "NEIL LATORTUE",
+        "registered_office": "senator",
+        "registered_party": "AAA",
+        "registered_locality": [
+          "ARTIBONITE"
+        ],
+        "publisher_headline": "La Mairie des Gonaïves annonce des dispositions favorables à la reprise des activités scolaires - Haiti Standard",
+        "publisher_image_caption": "Le Maire des Gonaïves, Neil Latortue (photo Renald Desinor/Haïti standard)",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "11b0703fe3760dc38c49c0f80b80ddc2bbe784e251d630953f3dce2b30649871",
+      "source_dimensions": [
+        300,
+        350
+      ],
+      "crop_boxes": {
+        "card": [
+          45,
+          0,
+          300,
+          319
+        ],
+        "web": [
+          40,
+          0,
+          300,
+          260
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/neil-latortue-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5440
+        },
+        {
+          "path": "/assets/candidates/neil-latortue-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 11986
+        },
+        {
+          "path": "/assets/candidates/neil-latortue-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 18792
+        }
+      ],
+      "web_path": "/assets/candidates/neil-latortue-web.webp",
+      "web_bytes": 6264,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-8742934b6ca450e68d43",
+      "name": "PRICE CYPRIEN",
+      "office": "senator",
+      "party": "MTH",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://rezonodwes.com/2016/08/le-depute-price-cyprien-denonce-la-hargne-des-policiers-contre-ses-collegues/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2016/08/price-cyprien.gif",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "PRICE CYPRIEN",
+        "registered_office": "senator",
+        "registered_party": "MTH",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "publisher_headline": "Le député Price Cyprien dénonce la hargne des policiers contre ses collègues!",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "c473ed8e1e8f0bdc9e3a7f71e620a73d0ef7196152784349212ba19c0ee60916",
+      "source_dimensions": [
+        741,
+        486
+      ],
+      "crop_boxes": {
+        "card": [
+          235,
+          1,
+          514,
+          350
+        ],
+        "web": [
+          247,
+          10,
+          502,
+          266
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/price-cyprien-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3484
+        },
+        {
+          "path": "/assets/candidates/price-cyprien-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7984
+        },
+        {
+          "path": "/assets/candidates/price-cyprien-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 14862
+        }
+      ],
+      "web_path": "/assets/candidates/price-cyprien-web.webp",
+      "web_bytes": 2620,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-fba9e59106cf5fbbab46",
+      "name": "RICHARD LENINE HERVE FOURCAND",
+      "office": "senator",
+      "party": "PPGA",
+      "locality": [
+        "SUD"
+      ],
+      "source_url": "https://vantbefinfo.com/convoque-au-parquet-des-cayes-herve-fourcand-demande-un-report/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2022/12/1000166729.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "RICHARD LENINE HERVE FOURCAND",
+        "registered_office": "senator",
+        "registered_party": "PPGA",
+        "registered_locality": [
+          "SUD"
+        ],
+        "publisher_headline": "Convoqué au Parquet des Cayes, Hervé Fourcand demande un report",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison.",
+        "identity_bridge": "https://www.lenational.org/article/politique/2238/lex-senateur-herve-fourcand-victime-dune-arnaque"
+      },
+      "source_sha256": "1883b775a861ee0fec0af3617390a5dc40ae6ba736596dbbe7ed35c039c2fbde",
+      "source_dimensions": [
+        835,
+        1080
+      ],
+      "crop_boxes": {
+        "card": [
+          0,
+          0,
+          835,
+          1044
+        ],
+        "web": [
+          0,
+          30,
+          835,
+          865
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/richard-lenine-herve-fourcand-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3642
+        },
+        {
+          "path": "/assets/candidates/richard-lenine-herve-fourcand-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9372
+        },
+        {
+          "path": "/assets/candidates/richard-lenine-herve-fourcand-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 15846
+        }
+      ],
+      "web_path": "/assets/candidates/richard-lenine-herve-fourcand-web.webp",
+      "web_bytes": 3804,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-e7324ef45edf556bae28",
+      "name": "IRVENSON STEVEN BENOIT",
+      "office": "senator",
+      "party": "EAPH",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://vantbefinfo.com/steven-benoit-rejette-lavant-projet-de-la-nouvelle-constitution-et-plaide-pour-une-ulcc-independante/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2025/05/IMG-20250527-WA0042.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "IRVENSON STEVEN BENOIT",
+        "registered_office": "senator",
+        "registered_party": "EAPH",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "publisher_headline": "Steven Benoît rejette l’avant-projet de la nouvelle constitution et plaide pour une ULCC indépendante",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison.",
+        "identity_bridge": "https://www.pousioupatkonnen.com/haiti-lancien-senateur-steven-benoit-inscrit-sur-la-plateforme-du-cep-comme-candidat/"
+      },
+      "source_sha256": "bf7eaabc075110dc9fa5bad479e94c340ec5105cc163f2936a0146b61ccd76a3",
+      "source_dimensions": [
+        346,
+        496
+      ],
+      "crop_boxes": {
+        "card": [
+          50,
+          70,
+          288,
+          367
+        ],
+        "web": [
+          60,
+          78,
+          278,
+          296
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/irvenson-steven-benoit-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5316
+        },
+        {
+          "path": "/assets/candidates/irvenson-steven-benoit-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 13610
+        },
+        {
+          "path": "/assets/candidates/irvenson-steven-benoit-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 21970
+        }
+      ],
+      "web_path": "/assets/candidates/irvenson-steven-benoit-web.webp",
+      "web_bytes": 6520,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-af0d27e0fa365fafad02",
+      "name": "ANDY MARCELUS",
+      "office": "senator",
+      "party": "MTH",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://vantbefinfo.com/haiti-andy-marcelus-demissionne-de-la-delegation-de-louest-pour-se-lancer-en-politique/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2026/03/IMG-20260324-WA0046.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "ANDY MARCELUS",
+        "registered_office": "senator",
+        "registered_party": "MTH",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "publisher_headline": "Haïti : Andy Marcelus démissionne de la délégation de l’Ouest pour se lancer en politique",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "4303883fe2b6cf7df943699dc7f0097ee5df7d7ac78fec51d5f320e048438a58",
+      "source_dimensions": [
+        828,
+        553
+      ],
+      "crop_boxes": {
+        "card": [
+          213,
+          49,
+          514,
+          424
+        ],
+        "web": [
+          226,
+          59,
+          501,
+          334
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/andy-marcelus-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3212
+        },
+        {
+          "path": "/assets/candidates/andy-marcelus-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 6962
+        },
+        {
+          "path": "/assets/candidates/andy-marcelus-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 11532
+        }
+      ],
+      "web_path": "/assets/candidates/andy-marcelus-web.webp",
+      "web_bytes": 3026,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-dedc8cfc0fd857cfa465",
+      "name": "BOUTROCE GALLY PIERRE",
+      "office": "senator",
+      "party": "SOLEY",
+      "locality": [
+        "GRAND'ANSE"
+      ],
+      "source_url": "https://vantbefinfo.com/le-docteur-boutroce-gally-pierre-installe-a-la-direction-departementale-de-la-sante-publique-dans-la-grandanse/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2025/02/1007457635.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "BOUTROCE GALLY PIERRE",
+        "registered_office": "senator",
+        "registered_party": "SOLEY",
+        "registered_locality": [
+          "GRAND'ANSE"
+        ],
+        "publisher_headline": "Le docteur Boutroce Gally Pierre installé à la Direction Départementale de la Santé Publique dans la Grand’Anse",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "8f63aeb42d256e7c9d0f15993eb325a1f44e559cc6ecb5872d3047e3e4a31672",
+      "source_dimensions": [
+        720,
+        721
+      ],
+      "crop_boxes": {
+        "card": [
+          189,
+          0,
+          494,
+          380
+        ],
+        "web": [
+          202,
+          0,
+          481,
+          279
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/boutroce-gally-pierre-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5090
+        },
+        {
+          "path": "/assets/candidates/boutroce-gally-pierre-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 15776
+        },
+        {
+          "path": "/assets/candidates/boutroce-gally-pierre-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 25320
+        }
+      ],
+      "web_path": "/assets/candidates/boutroce-gally-pierre-web.webp",
+      "web_bytes": 5678,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-a9022ab5996d549ebdd9",
+      "name": "DULAURIER JACQUES",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "ARTIBONITE"
+      ],
+      "source_url": "https://vantbefinfo.com/ofatma-le-dr-dulaurier-jacques-prend-la-tete-de-la-dcdd/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2026/01/40c1ee64-356f-4024-8f57-0f343174e98a.jpeg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "DULAURIER JACQUES",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "ARTIBONITE"
+        ],
+        "publisher_headline": "OFATMA : le Dr Dulaurier Jacques prend la tête de la DCDD",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "6f84a5ed29df17b98741adf6e2835e73a0935f76ff3f504b405174e823ce5936",
+      "source_dimensions": [
+        720,
+        719
+      ],
+      "crop_boxes": {
+        "card": [
+          194,
+          7,
+          613,
+          532
+        ],
+        "web": [
+          211,
+          21,
+          596,
+          406
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/dulaurier-jacques-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3260
+        },
+        {
+          "path": "/assets/candidates/dulaurier-jacques-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9874
+        },
+        {
+          "path": "/assets/candidates/dulaurier-jacques-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 18978
+        }
+      ],
+      "web_path": "/assets/candidates/dulaurier-jacques-web.webp",
+      "web_bytes": 3434,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-98ac0aed2f2d5eacbed4",
+      "name": "RENE CIVIL",
+      "office": "senator",
+      "party": "DPA",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://rezonodwes.com/2018/03/rene-civil-lance-un-nouveau-parti-emergence-democratique/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2018/03/rené-civil.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "RENE CIVIL",
+        "registered_office": "senator",
+        "registered_party": "DPA",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "publisher_headline": "René Civil lance un nouveau parti : « Émergence Démocratique »",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "5ec11c184ce098ee67b498871bfafbd29047eec29039a06b09a1f61abe3d94a4",
+      "source_dimensions": [
+        960,
+        834
+      ],
+      "crop_boxes": {
+        "card": [
+          0,
+          0,
+          648,
+          810
+        ],
+        "web": [
+          16,
+          0,
+          610,
+          594
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/rene-civil-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3978
+        },
+        {
+          "path": "/assets/candidates/rene-civil-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9172
+        },
+        {
+          "path": "/assets/candidates/rene-civil-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 16300
+        }
+      ],
+      "web_path": "/assets/candidates/rene-civil-web.webp",
+      "web_bytes": 4514,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-ebd36f4e00f65bf39a35",
+      "name": "ROBENSON RENE",
+      "office": "senator",
+      "party": "ENA",
+      "locality": [
+        "SUD"
+      ],
+      "source_url": "https://vantbefinfo.com/ofatma-des-cayes-robenson-rene-alerte-sur-le-cout-eleve-des-seances-de-dialyse/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2026/05/IMG-20260521-WA0188.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "ROBENSON RENE",
+        "registered_office": "senator",
+        "registered_party": "ENA",
+        "registered_locality": [
+          "SUD"
+        ],
+        "publisher_headline": "OFATMA des Cayes : Robenson René alerte sur le coût élevé des séances de dialyse",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "16586f0638a1c6a75f4b7f5689359d43d82b749e73ed21e0ae0c07ab2276ef23",
+      "source_dimensions": [
+        709,
+        1080
+      ],
+      "crop_boxes": {
+        "card": [
+          195,
+          0,
+          599,
+          504
+        ],
+        "web": [
+          212,
+          0,
+          582,
+          370
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/robenson-rene-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3396
+        },
+        {
+          "path": "/assets/candidates/robenson-rene-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7024
+        },
+        {
+          "path": "/assets/candidates/robenson-rene-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 11430
+        }
+      ],
+      "web_path": "/assets/candidates/robenson-rene-web.webp",
+      "web_bytes": 3254,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-e850f12c66e459959a17",
+      "name": "CLAUDY DONET",
+      "office": "senator",
+      "party": "SOLEY",
+      "locality": [
+        "SUD-EST"
+      ],
+      "source_url": "https://rezonodwes.com/2020/07/claudy-donet-ayiti-ka-fe-l-anko/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2020/07/IMG-20200702-WA0154-1.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "CLAUDY DONET",
+        "registered_office": "senator",
+        "registered_party": "SOLEY",
+        "registered_locality": [
+          "SUD-EST"
+        ],
+        "publisher_headline": "Claudy Donet : Ayiti ka fè l ankò …",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "6fcf4cda2c8afd999b029d9a5ce26b8a4318d66e269e400355d5301e31b85e05",
+      "source_dimensions": [
+        1024,
+        811
+      ],
+      "crop_boxes": {
+        "card": [
+          345,
+          0,
+          885,
+          675
+        ],
+        "web": [
+          368,
+          0,
+          862,
+          495
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/claudy-donet-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4576
+        },
+        {
+          "path": "/assets/candidates/claudy-donet-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 12356
+        },
+        {
+          "path": "/assets/candidates/claudy-donet-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 26546
+        }
+      ],
+      "web_path": "/assets/candidates/claudy-donet-web.webp",
+      "web_bytes": 4658,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-3a68c3295a9b5a46816f",
+      "name": "JOSUÉ CLERMONT",
+      "office": "senator",
+      "party": "OPL",
+      "locality": [
+        "SUD"
+      ],
+      "source_url": "https://rezonodwes.com/2015/12/epreuve-historique-et-decheance-nationale-par-josue-clermont/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2015/12/josue-1.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "JOSUÉ CLERMONT",
+        "registered_office": "senator",
+        "registered_party": "OPL",
+        "registered_locality": [
+          "SUD"
+        ],
+        "publisher_headline": "Épreuve historique et déchéance nationale! par Josué Clermont",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "985c5b39088130b6fd5626a128d27d8f65ff6d8f8d1af9257fc3e9c9bffea145",
+      "source_dimensions": [
+        729,
+        402
+      ],
+      "crop_boxes": {
+        "card": [
+          250,
+          58,
+          467,
+          330
+        ],
+        "web": [
+          259,
+          65,
+          458,
+          265
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/josue-clermont-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 2874
+        },
+        {
+          "path": "/assets/candidates/josue-clermont-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 6594
+        },
+        {
+          "path": "/assets/candidates/josue-clermont-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 11074
+        }
+      ],
+      "web_path": "/assets/candidates/josue-clermont-web.webp",
+      "web_bytes": 3122,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-45fb613119905411871a",
+      "name": "ENO ZEPHIRIN",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "NORD-EST"
+      ],
+      "source_url": "https://vantbefinfo.com/cap-haitien-le-rhajac-reclame-la-revocation-du-commissaire-du-gouvernement-me-eno-zephirin-pour-abus-dautorite/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2026/01/2288d4b7-9439-4263-b714-1cb6527a26be.jpeg",
+      "credit": "Vant Bèf Info",
+      "identity_context": {
+        "candidate_name": "ENO ZEPHIRIN",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "NORD-EST"
+        ],
+        "publisher_headline": "Cap-Haïtien : le RHAJAC réclame la révocation du commissaire du gouvernement Me Eno Zéphirin pour abus d’autorité",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "845e3fe67d4dfde80d8504b3014bc7ec25d987235269f8000df736de30ecc0ff",
+      "source_dimensions": [
+        1080,
+        937
+      ],
+      "crop_boxes": {
+        "card": [
+          184,
+          0,
+          934,
+          937
+        ],
+        "web": [
+          217,
+          0,
+          947,
+          729
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/eno-zephirin-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3266
+        },
+        {
+          "path": "/assets/candidates/eno-zephirin-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7236
+        },
+        {
+          "path": "/assets/candidates/eno-zephirin-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 11998
+        }
+      ],
+      "web_path": "/assets/candidates/eno-zephirin-web.webp",
+      "web_bytes": 3820,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-15454680fa3a587aa496",
+      "name": "LUC OCCERA",
+      "office": "senator",
+      "party": "KAPAB",
+      "locality": [
+        "ARTIBONITE"
+      ],
+      "source_url": "https://rezonodwes.com/2023/03/financement-des-gangs-dans-lartibonite-me-luc-occera-denonce-2-anciens-parlementaires/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2023/03/occera.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "LUC OCCERA",
+        "registered_office": "senator",
+        "registered_party": "KAPAB",
+        "registered_locality": [
+          "ARTIBONITE"
+        ],
+        "publisher_headline": "Financement des gangs dans l’Artibonite : Me Luc Occera dénonce 2 anciens parlementaires",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "90d33454e2de424d3882b199fdddc973aa84fc5002077a6ac434ea6a1bb2ddcb",
+      "source_dimensions": [
+        1315,
+        1000
+      ],
+      "crop_boxes": {
+        "card": [
+          0,
+          0,
+          800,
+          1000
+        ],
+        "web": [
+          39,
+          0,
+          1039,
+          1000
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/luc-occera-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3484
+        },
+        {
+          "path": "/assets/candidates/luc-occera-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9582
+        },
+        {
+          "path": "/assets/candidates/luc-occera-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 16324
+        }
+      ],
+      "web_path": "/assets/candidates/luc-occera-web.webp",
+      "web_bytes": 4082,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-823968cf1d2c5982872d",
+      "name": "RALPH SENECAL",
+      "office": "senator",
+      "party": "GAD",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://rezonodwes.com/2022/10/ralph-senecal-pdg-de-sam-ambulance-et-son-chauffeur-kidnappes/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2022/10/samambulance-seneca.png",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "RALPH SENECAL",
+        "registered_office": "senator",
+        "registered_party": "GAD",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "publisher_headline": "Ralph Senecal, PDG de SAM ambulance, et son chauffeur kidnappés",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "e072cd8519d050d2f28a772a32830c5f456858fa2cfff673bed4a0c5000bad19",
+      "source_dimensions": [
+        1280,
+        1000
+      ],
+      "crop_boxes": {
+        "card": [
+          105,
+          34,
+          847,
+          961
+        ],
+        "web": [
+          136,
+          59,
+          816,
+          739
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/ralph-senecal-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4332
+        },
+        {
+          "path": "/assets/candidates/ralph-senecal-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9586
+        },
+        {
+          "path": "/assets/candidates/ralph-senecal-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 15262
+        }
+      ],
+      "web_path": "/assets/candidates/ralph-senecal-web.webp",
+      "web_bytes": 5296,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-36a81f065acd50b19e63",
+      "name": "RENE MOMPLAISIR",
+      "office": "senator",
+      "party": "ENA",
+      "locality": [
+        "SUD-EST"
+      ],
+      "source_url": "https://rezonodwes.com/2016/04/rene-momplaisir-et-secteur-populaire-divorcent-davec-privert/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2016/01/renemomplaisir.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "RENE MOMPLAISIR",
+        "registered_office": "senator",
+        "registered_party": "ENA",
+        "registered_locality": [
+          "SUD-EST"
+        ],
+        "publisher_headline": "René Momplaisir et Secteur Populaire divorcent d`avec Privert!",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "2534dc2d12397cfaabaf7c6a9722436b151a0efcb013c0b66f00c70a9ed7d125",
+      "source_dimensions": [
+        650,
+        487
+      ],
+      "crop_boxes": {
+        "card": [
+          163,
+          0,
+          553,
+          487
+        ],
+        "web": [
+          180,
+          8,
+          550,
+          378
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/rene-momplaisir-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 6954
+        },
+        {
+          "path": "/assets/candidates/rene-momplaisir-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 15888
+        },
+        {
+          "path": "/assets/candidates/rene-momplaisir-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 24882
+        }
+      ],
+      "web_path": "/assets/candidates/rene-momplaisir-web.webp",
+      "web_bytes": 6188,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-183f4898c9d952d9ac6c",
+      "name": "MICHELOT OXIL",
+      "office": "senator",
+      "party": "FCN",
+      "locality": [
+        "NORD"
+      ],
+      "source_url": "https://rezonodwes.com/2021/11/oxil-michelot-au-sommet-de-son-art-moise-jean-charles-recompense-par-une-universite-americaine/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2021/11/oxil-michelot.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": {
+        "candidate_name": "MICHELOT OXIL",
+        "registered_office": "senator",
+        "registered_party": "FCN",
+        "registered_locality": [
+          "NORD"
+        ],
+        "publisher_headline": "Oxil Michélot :  »Au sommet de son art, Moïse Jean Charles récompensé par une université américaine »",
+        "publisher_image_caption": "",
+        "basis": "Publisher names the person pictured; political/office and locality context checked against this registration. Framing boxes only locate a crop. No face identity recognition or comparison."
+      },
+      "source_sha256": "090f80737ec9f4f90f704456478dbbed9a3152b8f9ed08faa35208a8a71fe37b",
+      "source_dimensions": [
+        960,
+        537
+      ],
+      "crop_boxes": {
+        "card": [
+          377,
+          78,
+          714,
+          499
+        ],
+        "web": [
+          391,
+          89,
+          700,
+          398
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/michelot-oxil-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 2722
+        },
+        {
+          "path": "/assets/candidates/michelot-oxil-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 5946
+        },
+        {
+          "path": "/assets/candidates/michelot-oxil-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 9644
+        }
+      ],
+      "web_path": "/assets/candidates/michelot-oxil-web.webp",
+      "web_bytes": 2642,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
     }
   ]
 }
