@@ -5,7 +5,8 @@ const DEFAULT_TITLE = document.title;
 
 const EN_TITLES = {
     'elections.html': 'Haiti Elections - Ayiti Sitwayen',
-    'index.html': 'Haitian Citizens - Strengthening Civic Engagement in Haiti',
+    'index.html': 'Haiti Elections 2026–2027 - Ayiti Sitwayen',
+    'about.html': 'About Ayiti Sitwayen',
     'education.html': 'Civic Education - Ayiti Sitwayen',
     'democracy.html': 'Democracy - Ayiti Sitwayen',
     'citizenship.html': 'Citizenship - Ayiti Sitwayen',

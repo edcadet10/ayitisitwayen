@@ -4,6 +4,11 @@ The reviewed source of public election facts is `data/elections.json`. The two
 hub pages and status summaries are generated HTML, so dates, sources and actions
 remain available without JavaScript. Edit the data, then run:
 
+The election hub is currently the site's landing page at `/` and `/en/`.
+The original project introduction, mission and contact information are preserved
+at `/about.html` and `/en/about.html`. The generator owns the landing pages as
+well as the existing election URLs, keeping all four routes consistent.
+
 ```text
 python scripts/build-elections.py
 python scripts/build-elections.py --check

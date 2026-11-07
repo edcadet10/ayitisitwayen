@@ -78,7 +78,7 @@ def audio(lang):
 def render_hub(lang):
     prefix = '/en/' if lang == 'en' else '/'
     local = lambda name: prefix + name
-    nav = [('elections.html', 'Eleksyon' if lang == 'ht' else 'Elections'), ('education.html', 'Edikasyon' if lang == 'ht' else 'Education'), ('research.html', 'Rechèch' if lang == 'ht' else 'Research'), ('index.html#about', 'Konsènan' if lang == 'ht' else 'About'), ('index.html#contact', 'Kontak' if lang == 'ht' else 'Contact')]
+    nav = [('elections.html', 'Eleksyon' if lang == 'ht' else 'Elections'), ('education.html', 'Edikasyon' if lang == 'ht' else 'Education'), ('research.html', 'Rechèch' if lang == 'ht' else 'Research'), ('about.html#about', 'Konsènan' if lang == 'ht' else 'About'), ('about.html#contact', 'Kontak' if lang == 'ht' else 'Contact')]
     nav_html = ''.join(f'<a href="{local(path)}"' + (' aria-current="page" class="active"' if path == 'elections.html' else '') + f'>{label}</a>' for path, label in nav)
     resources = ''.join(f'''<article class="election-resource" data-audience="{r['audience']}"><h3>{anchor(r['url'], r['title'][lang])}</h3><p>{escape(r['description'][lang])}</p></article>''' for r in DATA['resources'])
     updates = ''.join(f'''<article class="election-update"><p class="election-kicker">{text('published', lang)}: {time(u['published_at'], lang)}</p><h3>{escape(u['title'][lang])}</h3><p>{escape(u['summary'][lang])}</p>{anchor(u['url'], COPY['official'][lang] + ' →')}</article>''' for u in DATA['updates'] if u['status'] == 'reviewed')
@@ -87,12 +87,12 @@ def render_hub(lang):
     options = ''.join(f'<option value="{key}">{text(key, lang)}</option>' for key in ['all', 'voter', 'candidate', 'diaspora', 'observer'])
     footer_source = (ROOT / ('en/candidates.html' if lang == 'en' else 'candidates.html')).read_text(encoding='utf-8')
     footer = re.search(r'<footer\b.*?</footer>', footer_source, re.S).group(0)
-    structured = json.dumps({'@context': 'https://schema.org', '@type': 'WebPage', 'name': COPY['title'][lang], 'description': COPY['description'][lang], 'url': SITE + ('en/' if lang == 'en' else '') + 'elections.html', 'inLanguage': lang, 'dateModified': DATA['reviewed_at'], 'publisher': {'@type': 'Organization', 'name': 'Ayiti Sitwayen'}}, ensure_ascii=False)
+    structured = json.dumps({'@context': 'https://schema.org', '@type': 'WebPage', 'name': COPY['title'][lang], 'description': COPY['description'][lang], 'url': SITE + ('en/' if lang == 'en' else ''), 'inLanguage': lang, 'dateModified': DATA['reviewed_at'], 'publisher': {'@type': 'Organization', 'name': 'Ayiti Sitwayen'}}, ensure_ascii=False)
     return f'''<!DOCTYPE html>
 <html lang="{lang}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{text('title', lang)} | Ayiti Sitwayen</title><meta name="description" content="{text('description', lang)}">
-<meta property="og:title" content="{text('title', lang)}"><meta property="og:description" content="{text('description', lang)}"><meta property="og:type" content="website"><meta property="og:url" content="{SITE}{'en/' if lang == 'en' else ''}elections.html"><meta property="og:image" content="{SITE}logo.png"><meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="{SITE}{'en/' if lang == 'en' else ''}elections.html"><link rel="alternate" hreflang="ht" href="{SITE}elections.html"><link rel="alternate" hreflang="en" href="{SITE}en/elections.html"><link rel="alternate" hreflang="x-default" href="{SITE}elections.html">
+<meta property="og:title" content="{text('title', lang)}"><meta property="og:description" content="{text('description', lang)}"><meta property="og:type" content="website"><meta property="og:url" content="{SITE}{'en/' if lang == 'en' else ''}"><meta property="og:image" content="{SITE}logo.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="{SITE}{'en/' if lang == 'en' else ''}"><link rel="alternate" hreflang="ht" href="{SITE}"><link rel="alternate" hreflang="en" href="{SITE}en/"><link rel="alternate" hreflang="x-default" href="{SITE}">
 <link rel="icon" type="image/png" href="/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet"><meta name="theme-color" content="#ffffff"><link rel="stylesheet" href="/styles.css?v=3"><link rel="stylesheet" href="/theme.css?v=3"><link rel="stylesheet" href="/elections.css?v=1"><script type="application/ld+json">{structured}</script></head>
 <body><a class="skip-link" href="#kontni">{'Ale dirèk nan kontni an' if lang == 'ht' else 'Skip to main content'}</a>
 <nav class="navbar"><div class="container"><div class="nav-brand"><a href="{prefix}"><img src="/logo.webp" alt="Ayiti Sitwayen" class="logo" width="300" height="200"></a></div><button class="nav-toggle" aria-label="{'Meni navigasyon' if lang == 'ht' else 'Navigation menu'}" aria-expanded="false" aria-controls="navLinks">☰</button><div class="nav-links" id="navLinks">{nav_html}<button class="lang-switch">{'EN' if lang == 'ht' else 'HT'}</button></div></div></nav>
@@ -104,7 +104,7 @@ def render_hub(lang):
 <section class="election-section" aria-labelledby="kalandriye"><h2 id="kalandriye">{text('timeline', lang)}</h2><p class="election-muted">{text('scheduled', lang)} · {time(DATA['calendar']['published_at'], lang)}. {text('caution', lang)}</p><div class="election-table-wrap" role="region" aria-labelledby="kalandriye" tabindex="0"><table><thead><tr><th scope="col">{text('date', lang)}</th><th scope="col">{text('milestone', lang)}</th><th scope="col">{text('official', lang)}</th></tr></thead><tbody>{rows}</tbody></table></div></section>
 <section class="election-section" aria-labelledby="aktyalite"><h2 id="aktyalite">{text('updates', lang)}</h2>{updates}</section>
 <section class="election-section election-faq" aria-labelledby="kesyon"><h2 id="kesyon">{text('questions', lang)}</h2>{faqs}</section>
-<section class="election-section"><h2>{text('learn', lang)}</h2><div class="election-actions">{anchor(local('voting.html'), 'Vòt' if lang == 'ht' else 'Voting')}{anchor(local('candidates.html'), 'Kandida' if lang == 'ht' else 'Candidates')}{anchor(local('electoral-process.html'), 'Pwosesis elektoral' if lang == 'ht' else 'Electoral process')}{anchor(local('diaspora.html'), 'Dyaspora' if lang == 'ht' else 'Diaspora')}{anchor(local('glossary.html'), 'Diksyonè politik' if lang == 'ht' else 'Political dictionary')}</div><div class="election-actions election-share"><button type="button" class="election-button election-button-secondary election-print" hidden>{text('print', lang)}</button>{anchor('https://wa.me/?text=' + quote(SITE + ('en/' if lang == 'en' else '') + 'elections.html', safe=''), COPY['share'][lang], 'election-button election-button-secondary')}</div></section><p class="election-disclaimer">{text('disclaimer', lang)}</p></div></main>{footer}<script src="/script.js?v=5"></script><script src="/elections.js?v=1"></script><script src="/koute.js?v=2"></script></body></html>
+<section class="election-section"><h2>{text('learn', lang)}</h2><div class="election-actions">{anchor(local('voting.html'), 'Vòt' if lang == 'ht' else 'Voting')}{anchor(local('candidates.html'), 'Kandida' if lang == 'ht' else 'Candidates')}{anchor(local('electoral-process.html'), 'Pwosesis elektoral' if lang == 'ht' else 'Electoral process')}{anchor(local('diaspora.html'), 'Dyaspora' if lang == 'ht' else 'Diaspora')}{anchor(local('glossary.html'), 'Diksyonè politik' if lang == 'ht' else 'Political dictionary')}</div><div class="election-actions election-share"><button type="button" class="election-button election-button-secondary election-print" hidden>{text('print', lang)}</button>{anchor('https://wa.me/?text=' + quote(SITE + ('en/' if lang == 'en' else ''), safe=''), COPY['share'][lang], 'election-button election-button-secondary')}</div></section><p class="election-disclaimer">{text('disclaimer', lang)}</p></div></main>{footer}<script src="/script.js?v=6"></script><script src="/elections.js?v=1"></script><script src="/koute.js?v=2"></script></body></html>
 '''
 
 
@@ -113,7 +113,10 @@ def outputs():
     for lang in ['ht', 'en']:
         folder = ROOT / 'en' if lang == 'en' else ROOT
         result[folder / 'elections.html'] = render_hub(lang)
+        result[folder / 'index.html'] = render_hub(lang)
         for name in TARGETS:
+            if name == 'index.html':
+                continue
             path = folder / name
             source = path.read_text(encoding='utf-8')
             marker = r'<!-- election-summary:start -->.*?<!-- election-summary:end -->'
