@@ -1,0 +1,1754 @@
+{
+  "reviewed_at": "2026-11-07",
+  "method": "Source captions and name, party, office and locality context; face location used only for framing. Crop/resize/WebP encoding only. No generated faces, retouching, identity recognition or inferred candidacy validation.",
+  "portraits": [
+    {
+      "id": "c-c47f363b53dc5a6ea7ee",
+      "name": "LUCIEN OLIVIER BARRAU",
+      "office": "president",
+      "party": "MTH",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.juno7.ht/olivier-barrau-presidentielle-securite-education-emploi/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/IMG_5686.jpeg",
+      "credit": "Juno7",
+      "identity_context": "Olivier Barrau place la sécurité, l’éducation et l’emploi au centre de ses orientations politiques",
+      "source_sha256": "6c992a228364e71d212eb1cc3b14d2c2d0fc3ecdb826c48fea90497e6177ce5f",
+      "source_dimensions": [
+        2560,
+        1438
+      ],
+      "crop_boxes": {
+        "card": [
+          730,
+          0,
+          1880,
+          1438
+        ],
+        "web": [
+          783,
+          0,
+          1955,
+          1172
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/olivier-barrau-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3300
+        },
+        {
+          "path": "/assets/candidates/olivier-barrau-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7412
+        },
+        {
+          "path": "/assets/candidates/olivier-barrau-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12104
+        }
+      ],
+      "web_path": "/assets/candidates/olivier-barrau-web.webp",
+      "web_bytes": 3536,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-656331d267b75fc0aa53",
+      "name": "GARY BODEAU",
+      "office": "president",
+      "party": "P.R",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.juno7.ht/gary-bodeau-depot-candidature-29-octobre-2026/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/gary-bodeau-depot-candidature-29-octobre-2026.jpeg",
+      "credit": "Juno7",
+      "identity_context": "Gary Bodeau doit déposer ses pièces de candidature le 29 octobre 2026 au BED de l’Ouest.",
+      "source_sha256": "003e15db1f952fcc4d2d3b9922d382a5f2eb048e86571c775d670b5905cc49ac",
+      "source_dimensions": [
+        2560,
+        1438
+      ],
+      "crop_boxes": {
+        "card": [
+          1019,
+          0,
+          2049,
+          1287
+        ],
+        "web": [
+          1062,
+          0,
+          2006,
+          944
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/gary-bodeau-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3270
+        },
+        {
+          "path": "/assets/candidates/gary-bodeau-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7330
+        },
+        {
+          "path": "/assets/candidates/gary-bodeau-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12488
+        }
+      ],
+      "web_path": "/assets/candidates/gary-bodeau-web.webp",
+      "web_bytes": 3572,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-c9c792b353345247be19",
+      "name": "CLAUDE JOSEPH",
+      "office": "president",
+      "party": "EDE",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.juno7.ht/claude-joseph-candidat-ede-presidentielle-haiti/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/09/Haiti-elections-Claude-Joseph-designe-candidat-unique-dEDE-a-la-presidentielle.jpeg",
+      "credit": "Juno7",
+      "identity_context": "Haïti – élections : Claude Joseph désigné candidat unique d’EDE à la présidentielle",
+      "source_sha256": "a2c30d449b9f8540398461071c97a8748cd0afd23052578ae51ad3a66caee611",
+      "source_dimensions": [
+        1600,
+        900
+      ],
+      "crop_boxes": {
+        "card": [
+          294,
+          0,
+          1014,
+          900
+        ],
+        "web": [
+          332,
+          0,
+          1170,
+          838
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/claude-joseph-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5150
+        },
+        {
+          "path": "/assets/candidates/claude-joseph-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 12352
+        },
+        {
+          "path": "/assets/candidates/claude-joseph-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 19500
+        }
+      ],
+      "web_path": "/assets/candidates/claude-joseph-web.webp",
+      "web_bytes": 6872,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-260d6761d0c65693b074",
+      "name": "JEAN ERNEST MUSCADIN",
+      "office": "president",
+      "party": "FCN",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.juno7.ht/fcn-jean-ernest-muscadin-candidat-presidentielle/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/09/Le-FCN-se-mobilise-pour-obtenir-ladhesion-de-Jean-Ernest-Muscadin-a-la-presidentielle-1.jpeg",
+      "credit": "Juno7",
+      "identity_context": "Le FCN se mobilise pour obtenir l’adhésion de Jean Ernest Muscadin à la présidentielle",
+      "source_sha256": "8aa6481890c541286e5a0b686423643a34ff6388149e12dda5e461b760036216",
+      "source_dimensions": [
+        1600,
+        900
+      ],
+      "crop_boxes": {
+        "card": [
+          804,
+          0,
+          1524,
+          900
+        ],
+        "web": [
+          828,
+          0,
+          1600,
+          772
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jean-ernest-muscadin-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3864
+        },
+        {
+          "path": "/assets/candidates/jean-ernest-muscadin-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9768
+        },
+        {
+          "path": "/assets/candidates/jean-ernest-muscadin-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 16982
+        }
+      ],
+      "web_path": "/assets/candidates/jean-ernest-muscadin-web.webp",
+      "web_bytes": 4392,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-189004967c1e57878f7a",
+      "name": "PHILIPPE GERARD JERRY TARDIEU",
+      "office": "president",
+      "party": "EAPH",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.juno7.ht/jerry-tardieu-candidature-presidence-en-avant-haiti/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/IMG_5645.jpeg",
+      "credit": "Juno7",
+      "identity_context": "Jerry Tardieu annonce sa candidature à la présidence sous la bannière d’En Avant pour Haïti",
+      "source_sha256": "bd5f9bfc72098b199e9e2598c7d71339739012c7002d6c37ec3d999e4caf0bf0",
+      "source_dimensions": [
+        2560,
+        1439
+      ],
+      "crop_boxes": {
+        "card": [
+          1220,
+          0,
+          2276,
+          1320
+        ],
+        "web": [
+          1370,
+          0,
+          2190,
+          820
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jerry-tardieu-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3694
+        },
+        {
+          "path": "/assets/candidates/jerry-tardieu-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8908
+        },
+        {
+          "path": "/assets/candidates/jerry-tardieu-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 14260
+        }
+      ],
+      "web_path": "/assets/candidates/jerry-tardieu-web.webp",
+      "web_bytes": 3910,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-cfa0ce450d335df39e36",
+      "name": "JOCELERME PRIVERT",
+      "office": "president",
+      "party": "AYITI TRANSFOME",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.juno7.ht/jocelerme-privert-candidature-presidence-ayiti-transfome/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/IMG_9456.jpeg",
+      "credit": "Juno7",
+      "identity_context": "Jocelerme Privert dépose sa candidature à la présidence et mise sur la sécurité et la relance de la production nationale",
+      "source_sha256": "d2a6766f7aae521ead0ca506143431c2ad63a2791b05f30364ed27da3d1fa2e5",
+      "source_dimensions": [
+        2560,
+        1439
+      ],
+      "crop_boxes": {
+        "card": [
+          891,
+          59,
+          1669,
+          1031
+        ],
+        "web": [
+          924,
+          85,
+          1636,
+          798
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jocelerme-privert-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3484
+        },
+        {
+          "path": "/assets/candidates/jocelerme-privert-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8120
+        },
+        {
+          "path": "/assets/candidates/jocelerme-privert-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 13608
+        }
+      ],
+      "web_path": "/assets/candidates/jocelerme-privert-web.webp",
+      "web_bytes": 4140,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-73cb6b93ef8b5e7e9d1a",
+      "name": "JOSEPH MICHEL MARTELLY",
+      "office": "president",
+      "party": "DEBLOKE",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.juno7.ht/michel-martelly-inscrit-presidentielle-debloke/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/michel-martelly-inscrit-presidentielle-debloke.jpg",
+      "credit": "Juno7",
+      "identity_context": "Présidentielle : Michel Martelly inscrit sous la bannière de DEBLOKE",
+      "source_sha256": "01e4e3cfeedd4234719923e6cc9dcc7adfce7f8c11e0e17e2e501a4bff06d52c",
+      "source_dimensions": [
+        2560,
+        1439
+      ],
+      "crop_boxes": {
+        "card": [
+          1145,
+          0,
+          2296,
+          1439
+        ],
+        "web": [
+          1197,
+          0,
+          2354,
+          1157
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/michel-martelly-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4836
+        },
+        {
+          "path": "/assets/candidates/michel-martelly-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 12412
+        },
+        {
+          "path": "/assets/candidates/michel-martelly-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 21292
+        }
+      ],
+      "web_path": "/assets/candidates/michel-martelly-web.webp",
+      "web_bytes": 5414,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-270874e16ee85d36bc51",
+      "name": "WILNER JOSEPH",
+      "office": "president",
+      "party": "VIKTWA",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://lenouvelliste.com/article/272443/wilner-joseph-presents-himself-as-the-candidate-of-national-reconciliation",
+      "asset_url": "https://media.lenouvelliste.com/articles/2026-09-29/8db151cf-2b28-45f9-950f-00a94a2d5766.jpg",
+      "credit": "Le Nouvelliste",
+      "identity_context": "Wilner Joseph se dit être le candidat de la « réconciliation nationale »",
+      "source_sha256": "776ad727f413ea9afb57d677cdedaac2d02f5b37e0065c7b1d14a1d66e0113c5",
+      "source_dimensions": [
+        844,
+        716
+      ],
+      "crop_boxes": {
+        "card": [
+          157,
+          0,
+          730,
+          716
+        ],
+        "web": [
+          182,
+          17,
+          716,
+          552
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/wilner-joseph-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4300
+        },
+        {
+          "path": "/assets/candidates/wilner-joseph-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 11312
+        },
+        {
+          "path": "/assets/candidates/wilner-joseph-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 20888
+        }
+      ],
+      "web_path": "/assets/candidates/wilner-joseph-web.webp",
+      "web_bytes": 5028,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-6f201415a1ea54e1984a",
+      "name": "MOISE DUROCHER",
+      "office": "president",
+      "party": "SOL AYITI",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.equilibrepresse.com/article/le-dr-moise-durocher-designe-candidat-a-la-presidence-du-groupement-sol-ayiti-mue6ha2u",
+      "asset_url": "https://ayickzgtatwdxpjmlhzp.supabase.co/storage/v1/object/public/media/images/1790172482737-jddxns.jpg",
+      "credit": "Équilibre Presse",
+      "identity_context": "Le Dr Moïse Durocher désigné candidat à la présidence du groupement Sol Ayiti — Équilibre Presse",
+      "source_sha256": "d99919dcb13768cf991f24406cb58d67341dbcb492a03aabd4f576010d9c2f3e",
+      "source_dimensions": [
+        720,
+        904
+      ],
+      "crop_boxes": {
+        "card": [
+          21,
+          0,
+          683,
+          828
+        ],
+        "web": [
+          48,
+          0,
+          656,
+          607
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/moise-durocher-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3718
+        },
+        {
+          "path": "/assets/candidates/moise-durocher-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10088
+        },
+        {
+          "path": "/assets/candidates/moise-durocher-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 18062
+        }
+      ],
+      "web_path": "/assets/candidates/moise-durocher-web.webp",
+      "web_bytes": 4322,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-e0b68eca43eb5b8cb369",
+      "name": "MAXO JOSEPH",
+      "office": "president",
+      "party": "RCH",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://lenouvelliste.com/article/272310/presidential-candidate-maxo-joseph-pledges-to-restore-state-authority",
+      "asset_url": "https://media.lenouvelliste.com/articles/2026-09-24/be235466-40d8-4567-bd64-f2b07d7e2835.jpeg",
+      "credit": "Le Nouvelliste",
+      "identity_context": "Le candidat à la présidence Maxo Joseph veut « rétablir l’autorité de l’État »",
+      "source_sha256": "8f3e1e7cc5869dba3c65268afdb1166ceb7bce6bbfd687a0da6b73d098c474ca",
+      "source_dimensions": [
+        809,
+        1080
+      ],
+      "crop_boxes": {
+        "card": [
+          180,
+          15,
+          740,
+          715
+        ],
+        "web": [
+          135,
+          0,
+          805,
+          670
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/maxo-joseph-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4468
+        },
+        {
+          "path": "/assets/candidates/maxo-joseph-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9566
+        },
+        {
+          "path": "/assets/candidates/maxo-joseph-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 15364
+        }
+      ],
+      "web_path": "/assets/candidates/maxo-joseph-web.webp",
+      "web_bytes": 4732,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-0723179885b7514ab8ce",
+      "name": "WILSON JEUDY",
+      "office": "president",
+      "party": "VAR",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.lerefletht.com/post/delmas-l-ajkn-accorde-48-heures-%C3%A0-wilson-jeudy-pour-d%C3%A9missionner",
+      "asset_url": "https://static.wixstatic.com/media/531fb7_c2921b389547479d990ca4ae50326d26~mv2.jpg/v1/fill/w_1024,h_1280,al_c,q_85/531fb7_c2921b389547479d990ca4ae50326d26~mv2.jpg",
+      "credit": "Le Reflet",
+      "identity_context": "Delmas : l’AJKN accorde 48 heures à Wilson Jeudy pour démissionner",
+      "source_sha256": "1572b7df36fc2bd8403d26f8ce8ce94762be5efecb05ba7454b68f16569e3ff0",
+      "source_dimensions": [
+        1024,
+        1280
+      ],
+      "crop_boxes": {
+        "card": [
+          0,
+          120,
+          560,
+          820
+        ],
+        "web": [
+          0,
+          105,
+          548,
+          653
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/wilson-jeudy-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4930
+        },
+        {
+          "path": "/assets/candidates/wilson-jeudy-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10684
+        },
+        {
+          "path": "/assets/candidates/wilson-jeudy-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 16726
+        }
+      ],
+      "web_path": "/assets/candidates/wilson-jeudy-web.webp",
+      "web_bytes": 5758,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-bf5bb68eea8a5b819128",
+      "name": "JOANAS GUE",
+      "office": "president",
+      "party": "KAPAB",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://letoutauplurielmag.com/elections-en-haiti-joanas-gue-officiellement-candidat-a-la-presidence-sous-la-banniere-de-kapab/",
+      "asset_url": "https://i0.wp.com/letoutauplurielmag.com/wp-content/uploads/2026/10/FB_IMG_1791650979195.jpg?fit=410%2C512&ssl=1",
+      "credit": "Le Tout Au Pluriel Magazine",
+      "identity_context": "Élections en Haïti : Joanas Gué officiellement candidat à la présidence sous la bannière de « KAPAB » - Le tout au pluriel Magazine",
+      "source_sha256": "0c78b7f040551c02ac490e5c578cf80f4b1958f7a2d072c252b504a33cf36fae",
+      "source_dimensions": [
+        410,
+        512
+      ],
+      "crop_boxes": {
+        "card": [
+          64,
+          4,
+          312,
+          314
+        ],
+        "web": [
+          61,
+          0,
+          330,
+          269
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/joanas-gue-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3160
+        },
+        {
+          "path": "/assets/candidates/joanas-gue-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 6778
+        },
+        {
+          "path": "/assets/candidates/joanas-gue-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 10818
+        }
+      ],
+      "web_path": "/assets/candidates/joanas-gue-web.webp",
+      "web_bytes": 3484,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-318821d7c6585a15b714",
+      "name": "DEUS DERONNETH",
+      "office": "president",
+      "party": "DVNH",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://lenouvelliste.com/article/272880/candidat-a-la-presidence-deus-deronneth-veut-transformer-haiti",
+      "asset_url": "https://media.lenouvelliste.com/articles/2026-10-12/58b81d2f-70ea-4253-b438-10edcdff18db.jpg",
+      "credit": "Le Nouvelliste",
+      "identity_context": "Candidat à la présidence, Déus Deronneth veut « transformer l'État et reconstruire le contrat entre les citoyens et les institutions »",
+      "source_sha256": "0f6b2ea59f9e6b11db985a38e906c8f063b311fdc5f74873755b61e1e91661c0",
+      "source_dimensions": [
+        3262,
+        2522
+      ],
+      "crop_boxes": {
+        "card": [
+          1141,
+          220,
+          2216,
+          1563
+        ],
+        "web": [
+          1186,
+          256,
+          2171,
+          1241
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/deus-deronneth-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3888
+        },
+        {
+          "path": "/assets/candidates/deus-deronneth-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9684
+        },
+        {
+          "path": "/assets/candidates/deus-deronneth-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 15036
+        }
+      ],
+      "web_path": "/assets/candidates/deus-deronneth-web.webp",
+      "web_bytes": 3760,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-6294b51c7cdc5f969078",
+      "name": "GANDHY DORFEUILLE",
+      "office": "president",
+      "party": "ANF",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://velipost.com/?p=7037",
+      "asset_url": "https://velipost.com/wp-content/uploads/2026/09/ANF.jpg",
+      "credit": "VeliPost",
+      "identity_context": "Ansanm Nou Fò choisit Gandhy Dorfeuille comme candidat à la présidentielle – VeliPost",
+      "source_sha256": "8c3cacc313f7b99976ae93353a02571058b850ba25a83727e16ef2016e37d6a9",
+      "source_dimensions": [
+        1170,
+        603
+      ],
+      "crop_boxes": {
+        "card": [
+          826,
+          145,
+          1026,
+          395
+        ],
+        "web": [
+          831,
+          160,
+          1023,
+          352
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/gandhy-dorfeuille-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4838
+        },
+        {
+          "path": "/assets/candidates/gandhy-dorfeuille-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10200
+        },
+        {
+          "path": "/assets/candidates/gandhy-dorfeuille-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 16414
+        }
+      ],
+      "web_path": "/assets/candidates/gandhy-dorfeuille-web.webp",
+      "web_bytes": 4340,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-7308041793ef5e32b5ff",
+      "name": "RENÉ ST FORT",
+      "office": "president",
+      "party": "PRN",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://vantbefinfo.com/processus-electoral-et-vie-chere-me-rene-st-fort-tire-la-sonnette-dalarme/",
+      "asset_url": "https://vantbefinfo.com/wp-content/uploads/2026/04/IMG-20260407-WA0029.jpg",
+      "credit": "Vant Bèf Info",
+      "identity_context": "Processus électoral et vie chère : Me René St Fort",
+      "source_sha256": "d4bdee3e4c010426fff7d21b1e71a33bc3a1ff0f95e704369d8e5ae47c6f892c",
+      "source_dimensions": [
+        528,
+        796
+      ],
+      "crop_boxes": {
+        "card": [
+          34,
+          15,
+          394,
+          465
+        ],
+        "web": [
+          49,
+          27,
+          379,
+          357
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/rene-st-fort-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3386
+        },
+        {
+          "path": "/assets/candidates/rene-st-fort-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7102
+        },
+        {
+          "path": "/assets/candidates/rene-st-fort-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 11792
+        }
+      ],
+      "web_path": "/assets/candidates/rene-st-fort-web.webp",
+      "web_bytes": 3326,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-53033c82b2e954b2a7c5",
+      "name": "JEAN-MARIE JUNIOR SALOMON",
+      "office": "president",
+      "party": "OPL",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://infoligne.net/lopl-designe-jean-marie-junior-salomon-comme-candidat-a-la-presidence/",
+      "asset_url": "https://infoligne.net/wp-content/uploads/2026/10/IMG-20171004-WA0182.jpg",
+      "credit": "InfoLigne",
+      "identity_context": "L’OPL désigne Jean-Marie Junior Salomon comme candidat à la présidence  - Info Ligne",
+      "source_sha256": "a875c9540774623d0eb0a6dbcb745ded84dede158d50f5a87c541859eeb4e377",
+      "source_dimensions": [
+        500,
+        331
+      ],
+      "crop_boxes": {
+        "card": [
+          122,
+          34,
+          324,
+          286
+        ],
+        "web": [
+          131,
+          41,
+          315,
+          226
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/junior-salomon-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3850
+        },
+        {
+          "path": "/assets/candidates/junior-salomon-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8518
+        },
+        {
+          "path": "/assets/candidates/junior-salomon-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 13550
+        }
+      ],
+      "web_path": "/assets/candidates/junior-salomon-web.webp",
+      "web_bytes": 4338,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-e8698b3339a756e88e60",
+      "name": "ETZER S. EMILE",
+      "office": "president",
+      "party": "SOLEY",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.voteetzer.ht/presse",
+      "asset_url": "https://www.voteetzer.ht/img/hero-etzer-cravate-m.webp",
+      "credit": "Campagne Etzer Emile 2027",
+      "identity_context": "ETZER S. EMILE — candidate portrait on the credited website",
+      "source_sha256": "5652658580810db88d7ddba5955bec175ab9a7e8b59ec2a867c885775c9f4939",
+      "source_dimensions": [
+        1080,
+        1123
+      ],
+      "crop_boxes": {
+        "card": [
+          270,
+          0,
+          900,
+          788
+        ],
+        "web": [
+          337,
+          15,
+          782,
+          460
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/etzer-emile-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4378
+        },
+        {
+          "path": "/assets/candidates/etzer-emile-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10024
+        },
+        {
+          "path": "/assets/candidates/etzer-emile-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 17204
+        }
+      ],
+      "web_path": "/assets/candidates/etzer-emile-web.webp",
+      "web_bytes": 3886,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-a16d010ca47352d98607",
+      "name": "JUDE ELIE",
+      "office": "president",
+      "party": "PUR",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://judeelie.org/",
+      "asset_url": "https://judeelie.org/wp-content/uploads/2026/10/Jude-Elie-R.png",
+      "credit": "Jude Elie · judeelie.org",
+      "identity_context": "JUDE ELIE — candidate portrait on the credited website",
+      "source_sha256": "1cfdddaeae958be7edf8e71f62abcb1bbf9956384e62d0e710bfd84a638dad04",
+      "source_dimensions": [
+        1920,
+        1000
+      ],
+      "crop_boxes": {
+        "card": [
+          130,
+          0,
+          730,
+          750
+        ],
+        "web": [
+          120,
+          0,
+          800,
+          680
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jude-elie-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4206
+        },
+        {
+          "path": "/assets/candidates/jude-elie-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 11338
+        },
+        {
+          "path": "/assets/candidates/jude-elie-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 19082
+        }
+      ],
+      "web_path": "/assets/candidates/jude-elie-web.webp",
+      "web_bytes": 4594,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-c95770456abb5c95962b",
+      "name": "MUNIR JOSEPH MOURRA",
+      "office": "president",
+      "party": "MPH",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/equipe/whatsapp-image-2026-09-03-at-5-24-10-pm-mtq1gbm6.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Munir Joseph Mourra Président de la République",
+      "source_sha256": "b69d9c9274c3b1418f875977e68f53ce87f484a624c66f45d249c0364f47d0c7",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          12,
+          0,
+          652,
+          800
+        ],
+        "web": [
+          45,
+          0,
+          770,
+          724
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/munir-joseph-mourra-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3864
+        },
+        {
+          "path": "/assets/candidates/munir-joseph-mourra-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10038
+        },
+        {
+          "path": "/assets/candidates/munir-joseph-mourra-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 17222
+        }
+      ],
+      "web_path": "/assets/candidates/munir-joseph-mourra-web.webp",
+      "web_bytes": 4044,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-d491928c4ced5fe09f6b",
+      "name": "KEDMA CHRISPIN",
+      "office": "mayor",
+      "party": "MPH",
+      "locality": [
+        "CENTRE",
+        "BOUCAN-CARRÉ"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/kedma-chrispin-muogo7yj.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Kedma CHRISPIN Magistrat Boucan Carré, Centre",
+      "source_sha256": "0a5ace035632d22dc8d91567f7a57e4fd85e7231396138e4892f27088f0271e4",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          61,
+          8,
+          695,
+          800
+        ],
+        "web": [
+          88,
+          43,
+          668,
+          624
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/kedma-chrispin-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5180
+        },
+        {
+          "path": "/assets/candidates/kedma-chrispin-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 17904
+        },
+        {
+          "path": "/assets/candidates/kedma-chrispin-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 34552
+        }
+      ],
+      "web_path": "/assets/candidates/kedma-chrispin-web.webp",
+      "web_bytes": 6490,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-616382d917525405b2fa",
+      "name": "MULLER DEROSE",
+      "office": "deputy",
+      "party": "MPH",
+      "locality": [
+        "CENTRE",
+        "LASCAHOBAS"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/muller-derose-mudznyvb.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Muller Derose Député Lascahobas, Centre",
+      "source_sha256": "e7498891e0072f156be0f27645ac36c89cbec48a65bd13e243dc3149c3b58e60",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          0,
+          0,
+          640,
+          800
+        ],
+        "web": [
+          19,
+          0,
+          760,
+          741
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/muller-derose-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3724
+        },
+        {
+          "path": "/assets/candidates/muller-derose-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10340
+        },
+        {
+          "path": "/assets/candidates/muller-derose-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 19128
+        }
+      ],
+      "web_path": "/assets/candidates/muller-derose-web.webp",
+      "web_bytes": 3954,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-e00dd988e8ac58518bcb",
+      "name": "GERGOT DORLEUS",
+      "office": "deputy",
+      "party": "MPH",
+      "locality": [
+        "CENTRE",
+        "SAVANETTE"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/gergot-dorleus-muhmjnbg.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Gergot Dorleus Député Savanette, Centre",
+      "source_sha256": "80a7e2026c23dda66510158f856c29467f1dc43243b2d52af8b908737707b05d",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          54,
+          0,
+          694,
+          800
+        ],
+        "web": [
+          85,
+          0,
+          766,
+          681
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/gergot-dorleus-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3260
+        },
+        {
+          "path": "/assets/candidates/gergot-dorleus-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7350
+        },
+        {
+          "path": "/assets/candidates/gergot-dorleus-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12362
+        }
+      ],
+      "web_path": "/assets/candidates/gergot-dorleus-web.webp",
+      "web_bytes": 3488,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-4e4ff889e0f35fc38895",
+      "name": "PYRRHUS JEREMIE",
+      "office": "mayor",
+      "party": "MPH",
+      "locality": [
+        "CENTRE",
+        "BELLADÈRE"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/pyrrhus-jeremie-mug0bdle.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Pyrrhus JÉRÉMIE Magistrat Belladère, Centre",
+      "source_sha256": "e5dfa3f9b59c5ca7a899435cf1587c4dc4af3abd0191470bf1b4b2c6bdb7fa72",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          0,
+          0,
+          640,
+          800
+        ],
+        "web": [
+          8,
+          8,
+          800,
+          800
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/pyrrhus-jeremie-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3002
+        },
+        {
+          "path": "/assets/candidates/pyrrhus-jeremie-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 6518
+        },
+        {
+          "path": "/assets/candidates/pyrrhus-jeremie-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 10464
+        }
+      ],
+      "web_path": "/assets/candidates/pyrrhus-jeremie-web.webp",
+      "web_bytes": 3236,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-3878549561695b638f48",
+      "name": "CHARLEMAGNE MICHEL",
+      "office": "deputy",
+      "party": "MPH",
+      "locality": [
+        "CENTRE",
+        "BOUCAN-CARRÉ"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/charlemagne-michel-mulrsy0s.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Charlemagne Michel Député Boucan Carré, Centre",
+      "source_sha256": "cc746f5392f51ecb0b7643ed3d0c6ea3a6e89147eae48e102337f01fe6947f91",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          0,
+          0,
+          640,
+          800
+        ],
+        "web": [
+          0,
+          0,
+          800,
+          800
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/charlemagne-michel-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3202
+        },
+        {
+          "path": "/assets/candidates/charlemagne-michel-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8110
+        },
+        {
+          "path": "/assets/candidates/charlemagne-michel-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 13778
+        }
+      ],
+      "web_path": "/assets/candidates/charlemagne-michel-web.webp",
+      "web_bytes": 3772,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-b11e449ddb9b53f09725",
+      "name": "YOLDIE PIERRE",
+      "office": "mayor",
+      "party": "MPH",
+      "locality": [
+        "CENTRE",
+        "LASCAHOBAS"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/yoldie-pierre-mubxq09s.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Yoldie Pierre Magistrat Lascahobas, Centre",
+      "source_sha256": "3cd0f9c134acc2b52aaa28dee75da8bec1ab7e093cbbd1582d602e881744e7d3",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          25,
+          0,
+          665,
+          800
+        ],
+        "web": [
+          56,
+          31,
+          731,
+          706
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/yoldie-pierre-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4976
+        },
+        {
+          "path": "/assets/candidates/yoldie-pierre-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 11122
+        },
+        {
+          "path": "/assets/candidates/yoldie-pierre-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 17412
+        }
+      ],
+      "web_path": "/assets/candidates/yoldie-pierre-web.webp",
+      "web_bytes": 5400,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-0b564f7e361d534e9580",
+      "name": "NATRAS RALEM ED RAVIX",
+      "office": "deputy",
+      "party": "MPH",
+      "locality": [
+        "CENTRE",
+        "BELLADÈRE"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/natras-ralem-ed-ravix-muehn79c.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Natras Ralem Ed Ravix Député Belladère, Centre",
+      "source_sha256": "f4ba3312c355d5be89bf93e3493ec0d6f16c129d118a2cd90b3a70093ffb0e72",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          104,
+          0,
+          744,
+          800
+        ],
+        "web": [
+          134,
+          0,
+          780,
+          647
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/natras-ralem-ed-ravix-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5622
+        },
+        {
+          "path": "/assets/candidates/natras-ralem-ed-ravix-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 12898
+        },
+        {
+          "path": "/assets/candidates/natras-ralem-ed-ravix-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 20838
+        }
+      ],
+      "web_path": "/assets/candidates/natras-ralem-ed-ravix-web.webp",
+      "web_bytes": 6330,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-d8dc0994d0905dd38f97",
+      "name": "MARIE LOURNA FLEURANTIN",
+      "office": "deputy",
+      "party": "MPH",
+      "locality": [
+        "NIPPES",
+        "MIRAGOÂNE"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/marie-lourna-fleurantin-mudkdjjp.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Marie lourna Fleurantin Député Miragoâne, Nippes",
+      "source_sha256": "e29fd50995d9d7d324e616af81067e2eeda50372a4c206dafa6563631b1935e4",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          35,
+          0,
+          675,
+          800
+        ],
+        "web": [
+          65,
+          0,
+          744,
+          678
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/marie-lourna-fleurantin-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3202
+        },
+        {
+          "path": "/assets/candidates/marie-lourna-fleurantin-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7568
+        },
+        {
+          "path": "/assets/candidates/marie-lourna-fleurantin-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12154
+        }
+      ],
+      "web_path": "/assets/candidates/marie-lourna-fleurantin-web.webp",
+      "web_bytes": 3858,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-842de42c270858bea381",
+      "name": "ANIEL NECEL GEORGES",
+      "office": "deputy",
+      "party": "MPH",
+      "locality": [
+        "NORD",
+        "ACUL-DU-NORD"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/aniel-necel-georges-mvbrgxfd.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Aniel Necel GEORGES Député Acul du Nord, Nord",
+      "source_sha256": "e394c4994e0bfbd3ec8a482bbcf54c0a81a16fd7db4fe8256f2c77ee4a618a03",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          44,
+          15,
+          665,
+          791
+        ],
+        "web": [
+          70,
+          36,
+          639,
+          605
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/aniel-necel-georges-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 6040
+        },
+        {
+          "path": "/assets/candidates/aniel-necel-georges-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 14868
+        },
+        {
+          "path": "/assets/candidates/aniel-necel-georges-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 24576
+        }
+      ],
+      "web_path": "/assets/candidates/aniel-necel-georges-web.webp",
+      "web_bytes": 6660,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-27f13b1951ea52769cdb",
+      "name": "ANTONIO LOUIS",
+      "office": "deputy",
+      "party": "MPH",
+      "locality": [
+        "NORD",
+        "CAP-HAITIEN"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/antonio-louis-mula83hl.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Antonio Louis Député Cap-Haïtien, Nord",
+      "source_sha256": "e5b354505e4d00b99566201efc5a7728024af8589026b474f0999103e848e448",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          0,
+          0,
+          640,
+          800
+        ],
+        "web": [
+          0,
+          0,
+          726,
+          726
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/antonio-louis-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3464
+        },
+        {
+          "path": "/assets/candidates/antonio-louis-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10026
+        },
+        {
+          "path": "/assets/candidates/antonio-louis-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 19762
+        }
+      ],
+      "web_path": "/assets/candidates/antonio-louis-web.webp",
+      "web_bytes": 3400,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-c1c2bcf8922e52dea968",
+      "name": "ENEC MERVELUS",
+      "office": "deputy",
+      "party": "MPH",
+      "locality": [
+        "NORD",
+        "PILATE"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/enec-mervelus-mumz3we1.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Enec Mervelus Député Pilate, Nord",
+      "source_sha256": "21a7fc15804bd12424f281d733ee5083ed6bf0ece6425dcd1aed0d668e120187",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          0,
+          0,
+          640,
+          800
+        ],
+        "web": [
+          0,
+          0,
+          800,
+          800
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/enec-mervelus-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4176
+        },
+        {
+          "path": "/assets/candidates/enec-mervelus-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 11986
+        },
+        {
+          "path": "/assets/candidates/enec-mervelus-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 21866
+        }
+      ],
+      "web_path": "/assets/candidates/enec-mervelus-web.webp",
+      "web_bytes": 4352,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-8710560b03475e3e8d8f",
+      "name": "MIGUELITE JEAN CHRISTOPHE",
+      "office": "deputy",
+      "party": "MPH",
+      "locality": [
+        "NORD",
+        "DONDON"
+      ],
+      "source_url": "https://mphhaiti.org/candidats",
+      "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/jean-christophe-miguelite-mujuvuvy.webp",
+      "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "identity_context": "Jean Christophe Miguelite Député Dondon, Nord",
+      "source_sha256": "4e2053d7c63a9cd439f944f7524066e907869cf9930bbd8d634e49abc2d03383",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "crop_boxes": {
+        "card": [
+          5,
+          0,
+          645,
+          800
+        ],
+        "web": [
+          38,
+          0,
+          755,
+          718
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jean-christophe-miguelite-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3568
+        },
+        {
+          "path": "/assets/candidates/jean-christophe-miguelite-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9362
+        },
+        {
+          "path": "/assets/candidates/jean-christophe-miguelite-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 16886
+        }
+      ],
+      "web_path": "/assets/candidates/jean-christophe-miguelite-web.webp",
+      "web_bytes": 3722,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    }
+  ]
+}

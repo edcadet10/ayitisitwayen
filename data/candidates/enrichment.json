@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-11-06",
+  "reviewed_at": "2026-11-07",
   "coverage_note": "Initial reviewed archive, incomplete. Registry facts cover every registration; portraits and non-registry sources are added only when reviewed.",
   "publications": {
     "haitilibre-20261017": {
@@ -267,6 +267,363 @@
       "published_at": "2026-10-28",
       "reviewed_at": "2026-11-06",
       "review_status": "reviewed"
+    },
+    "portrait-source-656331d267b75fc0aa53": {
+      "id": "portrait-source-656331d267b75fc0aa53",
+      "url": "https://www.juno7.ht/gary-bodeau-depot-candidature-29-octobre-2026/",
+      "publisher": "Juno7",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Juno7",
+        "en": "Photo source — Juno7"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": "2026-10-27",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-318821d7c6585a15b714": {
+      "id": "portrait-source-318821d7c6585a15b714",
+      "url": "https://lenouvelliste.com/article/272880/candidat-a-la-presidence-deus-deronneth-veut-transformer-haiti",
+      "publisher": "Le Nouvelliste",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Le Nouvelliste",
+        "en": "Photo source — Le Nouvelliste"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-6294b51c7cdc5f969078": {
+      "id": "portrait-source-6294b51c7cdc5f969078",
+      "url": "https://velipost.com/?p=7037",
+      "publisher": "VeliPost",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — VeliPost",
+        "en": "Photo source — VeliPost"
+      },
+      "summary": {
+        "ht": "Pòtrè ki soti nan yon afich kanpay laprès pibliye; dat foto a pa presize.",
+        "en": "Portrait from a campaign graphic published by the press; photograph date not stated."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-6f201415a1ea54e1984a": {
+      "id": "portrait-source-6f201415a1ea54e1984a",
+      "url": "https://www.equilibrepresse.com/article/le-dr-moise-durocher-designe-candidat-a-la-presidence-du-groupement-sol-ayiti-mue6ha2u",
+      "publisher": "Équilibre Presse",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Équilibre Presse",
+        "en": "Photo source — Équilibre Presse"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-bf5bb68eea8a5b819128": {
+      "id": "portrait-source-bf5bb68eea8a5b819128",
+      "url": "https://letoutauplurielmag.com/elections-en-haiti-joanas-gue-officiellement-candidat-a-la-presidence-sous-la-banniere-de-kapab/",
+      "publisher": "Le Tout Au Pluriel Magazine",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Le Tout Au Pluriel Magazine",
+        "en": "Photo source — Le Tout Au Pluriel Magazine"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-0723179885b7514ab8ce": {
+      "id": "portrait-source-0723179885b7514ab8ce",
+      "url": "https://www.lerefletht.com/post/delmas-l-ajkn-accorde-48-heures-%C3%A0-wilson-jeudy-pour-d%C3%A9missionner",
+      "publisher": "Le Reflet",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Le Reflet",
+        "en": "Photo source — Le Reflet"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+        "en": "Portrait published in the press; photograph date not stated."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-c9c792b353345247be19": {
+      "id": "portrait-source-c9c792b353345247be19",
+      "url": "https://www.juno7.ht/claude-joseph-candidat-ede-presidentielle-haiti/",
+      "publisher": "Juno7",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Juno7",
+        "en": "Photo source — Juno7"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": "2026-09-17",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-e0b68eca43eb5b8cb369": {
+      "id": "portrait-source-e0b68eca43eb5b8cb369",
+      "url": "https://lenouvelliste.com/article/272310/presidential-candidate-maxo-joseph-pledges-to-restore-state-authority",
+      "publisher": "Le Nouvelliste",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Le Nouvelliste",
+        "en": "Photo source — Le Nouvelliste"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-270874e16ee85d36bc51": {
+      "id": "portrait-source-270874e16ee85d36bc51",
+      "url": "https://lenouvelliste.com/article/272443/wilner-joseph-presents-himself-as-the-candidate-of-national-reconciliation",
+      "publisher": "Le Nouvelliste",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Le Nouvelliste",
+        "en": "Photo source — Le Nouvelliste"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-73cb6b93ef8b5e7e9d1a": {
+      "id": "portrait-source-73cb6b93ef8b5e7e9d1a",
+      "url": "https://www.juno7.ht/michel-martelly-inscrit-presidentielle-debloke/",
+      "publisher": "Juno7",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Juno7",
+        "en": "Photo source — Juno7"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": "2026-10-16",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-c95770456abb5c95962b": {
+      "id": "portrait-source-c95770456abb5c95962b",
+      "url": "https://mphhaiti.org/candidats",
+      "publisher": "Mobilisation pour le Progrès d’Haïti (MPH)",
+      "type": "campaign_source",
+      "categories": [
+        "campaign"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Mobilisation pour le Progrès d’Haïti (MPH)",
+        "en": "Photo source — Mobilisation pour le Progrès d’Haïti (MPH)"
+      },
+      "summary": {
+        "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+        "en": "Portrait published by the political party; photograph date not stated."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-260d6761d0c65693b074": {
+      "id": "portrait-source-260d6761d0c65693b074",
+      "url": "https://www.juno7.ht/fcn-jean-ernest-muscadin-candidat-presidentielle/",
+      "publisher": "Juno7",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Juno7",
+        "en": "Photo source — Juno7"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": "2026-09-13",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-cfa0ce450d335df39e36": {
+      "id": "portrait-source-cfa0ce450d335df39e36",
+      "url": "https://www.juno7.ht/jocelerme-privert-candidature-presidence-ayiti-transfome/",
+      "publisher": "Juno7",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Juno7",
+        "en": "Photo source — Juno7"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": "2026-10-24",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-7308041793ef5e32b5ff": {
+      "id": "portrait-source-7308041793ef5e32b5ff",
+      "url": "https://vantbefinfo.com/processus-electoral-et-vie-chere-me-rene-st-fort-tire-la-sonnette-dalarme/",
+      "publisher": "Vant Bèf Info",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Vant Bèf Info",
+        "en": "Photo source — Vant Bèf Info"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+        "en": "Portrait published in the press; photograph date not stated."
+      },
+      "published_at": "2026-04-07",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-e8698b3339a756e88e60": {
+      "id": "portrait-source-e8698b3339a756e88e60",
+      "url": "https://www.voteetzer.ht/presse",
+      "publisher": "Campagne Etzer Emile 2027",
+      "type": "campaign_source",
+      "categories": [
+        "campaign"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Campagne Etzer Emile 2027",
+        "en": "Photo source — Campagne Etzer Emile 2027"
+      },
+      "summary": {
+        "ht": "Pòtrè sou sit kanpay aktyèl la",
+        "en": "Portrait on the current campaign website"
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-189004967c1e57878f7a": {
+      "id": "portrait-source-189004967c1e57878f7a",
+      "url": "https://www.juno7.ht/jerry-tardieu-candidature-presidence-en-avant-haiti/",
+      "publisher": "Juno7",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — Juno7",
+        "en": "Photo source — Juno7"
+      },
+      "summary": {
+        "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+        "en": "Portrait published in election coverage; photograph date not stated."
+      },
+      "published_at": "2026-10-21",
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
+    },
+    "portrait-source-53033c82b2e954b2a7c5": {
+      "id": "portrait-source-53033c82b2e954b2a7c5",
+      "url": "https://infoligne.net/lopl-designe-jean-marie-junior-salomon-comme-candidat-a-la-presidence/",
+      "publisher": "InfoLigne",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Sous foto a — InfoLigne",
+        "en": "Photo source — InfoLigne"
+      },
+      "summary": {
+        "ht": "Pòtrè achiv ki akonpaye yon atik sou eleksyon yo; dat foto a pa konfime.",
+        "en": "Archival portrait accompanying election coverage; photograph date unconfirmed."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-07",
+      "review_status": "reviewed"
     }
   },
   "profiles": {
@@ -277,28 +634,188 @@
     },
     "c-656331d267b75fc0aa53": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-656331d267b75fc0aa53"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/gary-bodeau-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/gary-bodeau-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/gary-bodeau-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/gary-bodeau-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/gary-bodeau-web.webp",
+        "source_url": "https://www.juno7.ht/gary-bodeau-depot-candidature-29-octobre-2026/",
+        "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/gary-bodeau-depot-candidature-29-octobre-2026.jpeg",
+        "credit": "Juno7",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-318821d7c6585a15b714": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-318821d7c6585a15b714"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/deus-deronneth-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/deus-deronneth-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/deus-deronneth-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/deus-deronneth-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/deus-deronneth-web.webp",
+        "source_url": "https://lenouvelliste.com/article/272880/candidat-a-la-presidence-deus-deronneth-veut-transformer-haiti",
+        "asset_url": "https://media.lenouvelliste.com/articles/2026-10-12/58b81d2f-70ea-4253-b438-10edcdff18db.jpg",
+        "credit": "Le Nouvelliste",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-6294b51c7cdc5f969078": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-6294b51c7cdc5f969078"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/gandhy-dorfeuille-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/gandhy-dorfeuille-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/gandhy-dorfeuille-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/gandhy-dorfeuille-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/gandhy-dorfeuille-web.webp",
+        "source_url": "https://velipost.com/?p=7037",
+        "asset_url": "https://velipost.com/wp-content/uploads/2026/09/ANF.jpg",
+        "credit": "VeliPost",
+        "context": {
+          "ht": "Pòtrè ki soti nan yon afich kanpay laprès pibliye; dat foto a pa presize.",
+          "en": "Portrait from a campaign graphic published by the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-6f201415a1ea54e1984a": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-6f201415a1ea54e1984a"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/moise-durocher-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/moise-durocher-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/moise-durocher-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/moise-durocher-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/moise-durocher-web.webp",
+        "source_url": "https://www.equilibrepresse.com/article/le-dr-moise-durocher-designe-candidat-a-la-presidence-du-groupement-sol-ayiti-mue6ha2u",
+        "asset_url": "https://ayickzgtatwdxpjmlhzp.supabase.co/storage/v1/object/public/media/images/1790172482737-jddxns.jpg",
+        "credit": "Équilibre Presse",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-bf5bb68eea8a5b819128": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-bf5bb68eea8a5b819128"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/joanas-gue-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/joanas-gue-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/joanas-gue-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/joanas-gue-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/joanas-gue-web.webp",
+        "source_url": "https://letoutauplurielmag.com/elections-en-haiti-joanas-gue-officiellement-candidat-a-la-presidence-sous-la-banniere-de-kapab/",
+        "asset_url": "https://i0.wp.com/letoutauplurielmag.com/wp-content/uploads/2026/10/FB_IMG_1791650979195.jpg?fit=410%2C512&ssl=1",
+        "credit": "Le Tout Au Pluriel Magazine",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-27353ad57d705ce8a375": {
       "source_ids": [
@@ -307,48 +824,336 @@
     },
     "c-0723179885b7514ab8ce": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-0723179885b7514ab8ce"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/wilson-jeudy-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/wilson-jeudy-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/wilson-jeudy-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/wilson-jeudy-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/wilson-jeudy-web.webp",
+        "source_url": "https://www.lerefletht.com/post/delmas-l-ajkn-accorde-48-heures-%C3%A0-wilson-jeudy-pour-d%C3%A9missionner",
+        "asset_url": "https://static.wixstatic.com/media/531fb7_c2921b389547479d990ca4ae50326d26~mv2.jpg/v1/fill/w_1024,h_1280,al_c,q_85/531fb7_c2921b389547479d990ca4ae50326d26~mv2.jpg",
+        "credit": "Le Reflet",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-c9c792b353345247be19": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-c9c792b353345247be19"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/claude-joseph-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/claude-joseph-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/claude-joseph-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/claude-joseph-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/claude-joseph-web.webp",
+        "source_url": "https://www.juno7.ht/claude-joseph-candidat-ede-presidentielle-haiti/",
+        "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/09/Haiti-elections-Claude-Joseph-designe-candidat-unique-dEDE-a-la-presidentielle.jpeg",
+        "credit": "Juno7",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-e0b68eca43eb5b8cb369": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-e0b68eca43eb5b8cb369"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/maxo-joseph-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/maxo-joseph-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/maxo-joseph-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/maxo-joseph-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/maxo-joseph-web.webp",
+        "source_url": "https://lenouvelliste.com/article/272310/presidential-candidate-maxo-joseph-pledges-to-restore-state-authority",
+        "asset_url": "https://media.lenouvelliste.com/articles/2026-09-24/be235466-40d8-4567-bd64-f2b07d7e2835.jpeg",
+        "credit": "Le Nouvelliste",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-270874e16ee85d36bc51": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-270874e16ee85d36bc51"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/wilner-joseph-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/wilner-joseph-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/wilner-joseph-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/wilner-joseph-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/wilner-joseph-web.webp",
+        "source_url": "https://lenouvelliste.com/article/272443/wilner-joseph-presents-himself-as-the-candidate-of-national-reconciliation",
+        "asset_url": "https://media.lenouvelliste.com/articles/2026-09-29/8db151cf-2b28-45f9-950f-00a94a2d5766.jpg",
+        "credit": "Le Nouvelliste",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-73cb6b93ef8b5e7e9d1a": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-73cb6b93ef8b5e7e9d1a"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/michel-martelly-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/michel-martelly-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/michel-martelly-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/michel-martelly-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/michel-martelly-web.webp",
+        "source_url": "https://www.juno7.ht/michel-martelly-inscrit-presidentielle-debloke/",
+        "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/michel-martelly-inscrit-presidentielle-debloke.jpg",
+        "credit": "Juno7",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-c95770456abb5c95962b": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/munir-joseph-mourra-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/munir-joseph-mourra-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/munir-joseph-mourra-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/munir-joseph-mourra-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/munir-joseph-mourra-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/equipe/whatsapp-image-2026-09-03-at-5-24-10-pm-mtq1gbm6.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-260d6761d0c65693b074": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-260d6761d0c65693b074"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/jean-ernest-muscadin-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/jean-ernest-muscadin-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/jean-ernest-muscadin-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/jean-ernest-muscadin-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/jean-ernest-muscadin-web.webp",
+        "source_url": "https://www.juno7.ht/fcn-jean-ernest-muscadin-candidat-presidentielle/",
+        "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/09/Le-FCN-se-mobilise-pour-obtenir-ladhesion-de-Jean-Ernest-Muscadin-a-la-presidentielle-1.jpeg",
+        "credit": "Juno7",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-cfa0ce450d335df39e36": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-cfa0ce450d335df39e36"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/jocelerme-privert-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/jocelerme-privert-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/jocelerme-privert-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/jocelerme-privert-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/jocelerme-privert-web.webp",
+        "source_url": "https://www.juno7.ht/jocelerme-privert-candidature-presidence-ayiti-transfome/",
+        "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/IMG_9456.jpeg",
+        "credit": "Juno7",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-7308041793ef5e32b5ff": {
       "source_ids": [
-        "haitilibre-20261017"
-      ]
+        "haitilibre-20261017",
+        "portrait-source-7308041793ef5e32b5ff"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/rene-st-fort-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/rene-st-fort-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/rene-st-fort-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/rene-st-fort-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/rene-st-fort-web.webp",
+        "source_url": "https://vantbefinfo.com/processus-electoral-et-vie-chere-me-rene-st-fort-tire-la-sonnette-dalarme/",
+        "asset_url": "https://vantbefinfo.com/wp-content/uploads/2026/04/IMG-20260407-WA0029.jpg",
+        "credit": "Vant Bèf Info",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-e8698b3339a756e88e60": {
       "source_ids": [
@@ -358,10 +1163,29 @@
         "etzer-account-instagram",
         "etzer-account-tiktok",
         "etzer-video-honey",
-        "etzer-video-newyear"
+        "etzer-video-newyear",
+        "portrait-source-e8698b3339a756e88e60"
       ],
       "portrait": {
-        "path": "/assets/candidates/etzer-emile.webp",
+        "path": "/assets/candidates/etzer-emile-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/etzer-emile-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/etzer-emile-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/etzer-emile-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/etzer-emile-web.webp",
         "source_url": "https://www.voteetzer.ht/presse",
         "asset_url": "https://www.voteetzer.ht/img/hero-etzer-cravate-m.webp",
         "credit": "Campagne Etzer Emile 2027",
@@ -369,8 +1193,8 @@
           "ht": "Pòtrè sou sit kanpay aktyèl la",
           "en": "Portrait on the current campaign website"
         },
-        "reviewed_at": "2026-11-06",
-        "position": "50% 30%",
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
         "reuse_basis": "Campaign press page permits editorial portrait use with Campagne Etzer Emile 2027 credit."
       }
     },
@@ -379,7 +1203,25 @@
         "jude-biography"
       ],
       "portrait": {
-        "path": "/assets/candidates/jude-elie.png",
+        "path": "/assets/candidates/jude-elie-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/jude-elie-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/jude-elie-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/jude-elie-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/jude-elie-web.webp",
         "source_url": "https://judeelie.org/",
         "asset_url": "https://judeelie.org/wp-content/uploads/2026/10/Jude-Elie-R.png",
         "credit": "Jude Elie · judeelie.org",
@@ -387,21 +1229,552 @@
           "ht": "Pòtrè sou sit kandida a; dat foto a pa presize",
           "en": "Portrait on the candidate website; photograph date not stated"
         },
-        "reviewed_at": "2026-11-06",
-        "position": "5% 50%",
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
         "reuse_basis": "Candidate-posted portrait used to identify the public candidate, with original site credit; not sold or relicensed."
       }
     },
     "c-c47f363b53dc5a6ea7ee": {
       "source_ids": [
         "barrau-juno7-priorities"
-      ]
+      ],
+      "portrait": {
+        "path": "/assets/candidates/olivier-barrau-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/olivier-barrau-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/olivier-barrau-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/olivier-barrau-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/olivier-barrau-web.webp",
+        "source_url": "https://www.juno7.ht/olivier-barrau-presidentielle-securite-education-emploi/",
+        "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/IMG_5686.jpeg",
+        "credit": "Juno7",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     },
     "c-189004967c1e57878f7a": {
       "source_ids": [
         "tardieu-nouvelliste-filing",
-        "tardieu-campaign-release"
-      ]
+        "tardieu-campaign-release",
+        "portrait-source-189004967c1e57878f7a"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/jerry-tardieu-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/jerry-tardieu-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/jerry-tardieu-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/jerry-tardieu-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/jerry-tardieu-web.webp",
+        "source_url": "https://www.juno7.ht/jerry-tardieu-candidature-presidence-en-avant-haiti/",
+        "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/10/IMG_5645.jpeg",
+        "credit": "Juno7",
+        "context": {
+          "ht": "Pòtrè ki parèt nan yon atik sou eleksyon yo; dat foto a pa presize.",
+          "en": "Portrait published in election coverage; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-53033c82b2e954b2a7c5": {
+      "source_ids": [
+        "portrait-source-53033c82b2e954b2a7c5"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/junior-salomon-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/junior-salomon-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/junior-salomon-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/junior-salomon-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/junior-salomon-web.webp",
+        "source_url": "https://infoligne.net/lopl-designe-jean-marie-junior-salomon-comme-candidat-a-la-presidence/",
+        "asset_url": "https://infoligne.net/wp-content/uploads/2026/10/IMG-20171004-WA0182.jpg",
+        "credit": "InfoLigne",
+        "context": {
+          "ht": "Pòtrè achiv ki akonpaye yon atik sou eleksyon yo; dat foto a pa konfime.",
+          "en": "Archival portrait accompanying election coverage; photograph date unconfirmed."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-d491928c4ced5fe09f6b": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/kedma-chrispin-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/kedma-chrispin-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/kedma-chrispin-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/kedma-chrispin-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/kedma-chrispin-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/kedma-chrispin-muogo7yj.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-616382d917525405b2fa": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/muller-derose-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/muller-derose-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/muller-derose-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/muller-derose-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/muller-derose-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/muller-derose-mudznyvb.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-e00dd988e8ac58518bcb": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/gergot-dorleus-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/gergot-dorleus-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/gergot-dorleus-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/gergot-dorleus-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/gergot-dorleus-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/gergot-dorleus-muhmjnbg.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-4e4ff889e0f35fc38895": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/pyrrhus-jeremie-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/pyrrhus-jeremie-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/pyrrhus-jeremie-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/pyrrhus-jeremie-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/pyrrhus-jeremie-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/pyrrhus-jeremie-mug0bdle.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-3878549561695b638f48": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/charlemagne-michel-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/charlemagne-michel-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/charlemagne-michel-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/charlemagne-michel-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/charlemagne-michel-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/charlemagne-michel-mulrsy0s.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-b11e449ddb9b53f09725": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/yoldie-pierre-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/yoldie-pierre-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/yoldie-pierre-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/yoldie-pierre-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/yoldie-pierre-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/yoldie-pierre-mubxq09s.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-0b564f7e361d534e9580": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/natras-ralem-ed-ravix-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/natras-ralem-ed-ravix-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/natras-ralem-ed-ravix-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/natras-ralem-ed-ravix-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/natras-ralem-ed-ravix-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/natras-ralem-ed-ravix-muehn79c.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-d8dc0994d0905dd38f97": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/marie-lourna-fleurantin-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/marie-lourna-fleurantin-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/marie-lourna-fleurantin-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/marie-lourna-fleurantin-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/marie-lourna-fleurantin-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/marie-lourna-fleurantin-mudkdjjp.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-842de42c270858bea381": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/aniel-necel-georges-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/aniel-necel-georges-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/aniel-necel-georges-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/aniel-necel-georges-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/aniel-necel-georges-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/aniel-necel-georges-mvbrgxfd.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-27f13b1951ea52769cdb": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/antonio-louis-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/antonio-louis-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/antonio-louis-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/antonio-louis-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/antonio-louis-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/antonio-louis-mula83hl.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-c1c2bcf8922e52dea968": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/enec-mervelus-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/enec-mervelus-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/enec-mervelus-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/enec-mervelus-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/enec-mervelus-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/enec-mervelus-mumz3we1.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-8710560b03475e3e8d8f": {
+      "source_ids": [
+        "portrait-source-c95770456abb5c95962b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/jean-christophe-miguelite-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/jean-christophe-miguelite-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/jean-christophe-miguelite-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/jean-christophe-miguelite-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/jean-christophe-miguelite-web.webp",
+        "source_url": "https://mphhaiti.org/candidats",
+        "asset_url": "https://xzupusvwhibhekorcrhe.supabase.co/storage/v1/object/public/cms-media/candidatures/jean-christophe-miguelite-mujuvuvy.webp",
+        "credit": "Mobilisation pour le Progrès d’Haïti (MPH)",
+        "context": {
+          "ht": "Pòtrè pati politik la pibliye; dat foto a pa presize.",
+          "en": "Portrait published by the political party; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-07",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
     }
   }
 }

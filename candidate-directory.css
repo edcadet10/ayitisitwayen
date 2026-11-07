@@ -5,3 +5,5 @@
 @media(max-width:360px){.web-node{width:64px}.web-node-count{right:0}.candidate-site .container{padding-left:14px;padding-right:14px}.candidate-profile-intro{gap:15px;grid-template-columns:85px minmax(0,1fr)}.candidate-profile-portrait .candidate-photo{width:85px}.candidate-grid{gap:26px 12px}}
 @media(prefers-reduced-motion:reduce){.candidate-site *{transition:none!important;scroll-behavior:auto!important}}
 .candidate-web-section{padding:0;scroll-margin-top:12px}.candidate-profile-intro{padding-top:0}.candidate-archive{padding-bottom:0}.candidate-site .lang-switch{color:#fff;text-decoration:none}
+
+.candidate-card-photo-credit{font-size:9px;line-height:1.45;color:#61717d;margin:8px 0 0;overflow-wrap:anywhere}.candidate-card-photo-credit+.candidate-card-info{padding-top:10px}

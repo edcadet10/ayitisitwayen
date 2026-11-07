@@ -50,6 +50,23 @@ class CandidateDataChecks(unittest.TestCase):
         for source in self.enrichment['publications'].values():
             self.assertFalse(source['url'].lower().split('?')[0].endswith('.pdf'))
             self.assertEqual(source['review_status'],'reviewed')
+    def test_portrait_assets_are_small_local_and_auditable(self):
+        audit=json.loads((ROOT/'editorial/candidate-portrait-provenance.json').read_text(encoding='utf-8'))
+        reviewed={p['id']:p for p in audit['portraits']}
+        for ident,entry in self.enrichment['profiles'].items():
+            if not entry.get('portrait'):continue
+            portrait=entry['portrait'];evidence=reviewed[ident]
+            self.assertEqual(portrait['source_url'],evidence['source_url'])
+            self.assertIn(portrait['source_url'],[self.enrichment['publications'][key]['url'] for key in entry['source_ids']])
+            self.assertEqual(len(evidence['source_sha256']),64)
+            self.assertEqual({v['width'] for v in portrait['variants']},{160,320,480})
+            for variant in portrait['variants']:
+                asset=ROOT/variant['path'].lstrip('/')
+                self.assertLessEqual(asset.stat().st_size,35000)
+                self.assertEqual(asset.read_bytes()[:4],b'RIFF')
+                self.assertEqual(asset.read_bytes()[8:12],b'WEBP')
+            web=ROOT/portrait['web_path'].lstrip('/')
+            self.assertLessEqual(web.stat().st_size,18000)
     def test_both_languages_keep_profile_identity(self):
         person=self.registry['candidates'][0]
         for lang in ['ht','en']:

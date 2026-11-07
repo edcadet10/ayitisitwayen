@@ -82,10 +82,34 @@ convert a press report into a CEP validation or rejection decision.
 
 `data/candidates/enrichment.json` stores reviewed publications once and links
 profiles by source ID. It also records portrait provenance and source contexts.
-The initial non-registry archive has 12 source records across 20 presidential
-profiles and two candidate-posted portraits. It is incomplete. Three links are
+The non-registry archive now has 29 source records across 33 registrations;
+portrait provenance also appears as a source in each candidate's web. These
+sources describe the credited photo context rather than inventing an article
+summary or endorsing party statements. The portrait review of 7 November adds
+29 portraits, for 31 total:
+19 presidential, nine deputy and three municipal registrations. Two presidential
+registrations and most local registrations still need a verified portrait.
+Coverage is incomplete. Three links are
 campaign-linked social accounts, not individual posts. Unknown publication or
 photograph dates remain unknown. Source counts are never a candidate score.
+
+Portrait sources include candidate sites, the MPH party's named candidate cards,
+and named press coverage. `editorial/candidate-portrait-provenance.json` preserves
+each identity context, source and asset URLs, original image hash, crop bounds
+and delivery sizes. Party membership, office and locality were checked before
+attaching local portraits; a party card with no matching registration was excluded.
+Do not confuse Jean Ernest Muscadin with André Muscadin. A press photo is never
+labeled an official current-election portrait without evidence. The Salomon
+portrait is labeled archival; other unknown capture dates remain unknown.
+
+Cards use locally hosted 160 × 200, 320 × 400 and 480 × 600 WebP crops, with
+responsive selection and loading only when visible. Profiles use a separate
+192 × 192 crop in the web centre. The gallery names the photo source; profiles
+link to it and describe its context. Crop, resize and encoding preserve the
+published person and surroundings; there is no generated face, facial retouching
+or identity matching from face detection. The original large files stay outside
+the public build. Every card variant is below 35,000 bytes and every web-centre
+image below 18,000 bytes. These are asset limits, not field performance claims.
 
 Generate the static HTML profiles, office lists, compact search catalogs and
 candidate sitemap using Python standard library only:

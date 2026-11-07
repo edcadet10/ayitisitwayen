@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '22'
       - run: python scripts/check-candidate-data.py
-      - run: git ls-files --error-unmatch data/candidates/registry.json data/candidates/enrichment.json assets/candidates/etzer-emile.webp assets/candidates/jude-elie.png
+      - run: git ls-files --error-unmatch data/candidates/registry.json data/candidates/enrichment.json editorial/candidate-portrait-provenance.json assets/candidates/etzer-emile-320.webp assets/candidates/jude-elie-320.webp
       - run: python scripts/build-candidates.py
       - run: python scripts/build-candidates.py --check
       - run: python scripts/build-elections.py --check

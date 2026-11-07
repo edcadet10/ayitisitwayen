@@ -38,11 +38,11 @@
   function card(row){
     const article=element('article','candidate-card'),link=element('a','candidate-card-link');link.href=base+row.id+'/#information-web';link.setAttribute('aria-label',row.name+' — '+c.view_web);
     const photo=element('div','candidate-photo');
-    if(row.portrait){const image=element('img');image.dataset.portraitSrc=row.portrait.path;image.alt=row.name;image.width=240;image.height=300;image.decoding='async';image.style.objectPosition=row.portrait.position;photo.append(image);}
+    if(row.portrait){const image=element('img');image.dataset.portraitSrc=row.portrait.path;image.dataset.portraitSrcset=row.portrait.variants.map(v=>v.path+' '+v.width+'w').join(', ');image.dataset.portraitSizes=row.portrait.sizes;image.alt=row.name;image.width=320;image.height=400;image.decoding='async';image.style.objectPosition=row.portrait.position;photo.append(image);}
     else{const initials=element('span','candidate-initials',row.initials);initials.setAttribute('aria-hidden','true');photo.append(initials,element('span','photo-pending',c.photo_pending));}
     const arrow=element('span','photo-open','↗');arrow.setAttribute('aria-hidden','true');photo.append(arrow);
     const info=element('div','candidate-card-info');info.append(element('p','candidate-card-office',c[row.office]+' · '+row.party),element('h2','',row.name),element('p','candidate-card-place',row.locality.join(' · ')),element('span','candidate-status',c[row.status]));
-    const action=element('span','candidate-card-cta',c.view_web);action.append(element('span','','↗'));info.append(action);link.append(photo,info);article.append(link);return article;
+    const action=element('span','candidate-card-cta',c.view_web);action.append(element('span','','↗'));info.append(action);link.append(photo);if(row.portrait)link.append(element('p','candidate-card-photo-credit',c.photo_credit+': '+row.portrait.credit));link.append(info);article.append(link);return article;
   }
   function updateUrl(){
     const query=new URLSearchParams();for(const[key,value]of Object.entries(state))if(value!==''&&(key!=='page'||value!==1))query.set(key,String(value));
