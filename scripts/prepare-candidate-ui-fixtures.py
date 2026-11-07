@@ -8,6 +8,9 @@ def prepare():
  for office in m.OFFICES.values():
   person=next((p for p in r['candidates'] if p['office']==office and p['id'] not in e['profiles']),None)
   if person:people.append(person)
+ for position in m.POSITION_KEYS:
+  person=next(p for p in r['candidates'] if p['position']==position)
+  if person not in people:people.append(person)
  def write(route,html):
   path=ROOT/route.strip('/')/'index.html' if route.endswith('/') else ROOT/route.strip('/');path.parent.mkdir(parents=True,exist_ok=True);path.write_text(html,encoding='utf-8',newline='\n')
  for person in people:
@@ -20,6 +23,8 @@ def prepare():
     for year in ['all']+years:
      pages=max(1,(sum(year=='all' or year in m.source_years(s) for s in sources)+23)//24)
      for page in {1,pages}:write(*m.archive_page(lang,person,sources,year,page))
- for lang in ['ht','en']:write(*m.directory_page(lang,r,e))
+ for lang in ['ht','en']:
+  write(*m.directory_page(lang,r,e))
+  for office in m.OFFICES.values():write(*m.directory_page(lang,r,e,office=office,main=False))
  print('Real profile fixtures:',len(people),'in both languages',flush=True)
 if __name__=='__main__':prepare()

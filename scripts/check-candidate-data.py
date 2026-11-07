@@ -100,6 +100,18 @@ class CandidateDataChecks(unittest.TestCase):
             self.assertIn(builder.profile_url(person,'ht'),html)
             self.assertIn(builder.profile_url(person,'en'),html)
             self.assertIn(person['name'],html)
+    def test_rejected_portrait_matches_do_not_reappear(self):
+        # A headline can mention the candidate while picturing somebody else.
+        # These rejected assets include Youri Latortue, Lean Colun and longer-name matches.
+        rejected={
+            'c-fdd715f3093f5e0e9c1f':'https://www.juno7.ht/wp-content/uploads/2020/12/5AF49516-7BC5-4811-9305-B2DD402C9E07.jpeg',
+            'c-19a06a1d64595771bf1b':'https://www.juno7.ht/wp-content/uploads/2026/09/Jean-Junior-Jiha-demissionne-de-la-presidence-de-REKONSILYE-et-de-la-coordination-de-la-plateforme.jpg',
+            'c-8bf29d122ade5423919a':'https://www.juno7.ht/wp-content/uploads/2020/12/Herve-Joseph.jpg',
+            'c-1e903075c2db5a8db187':'https://www.juno7.ht/wp-content/uploads/2023/09/C6960CC0-FC18-44F0-A2CF-413109ABA410.png',
+            'c-fd98f9247bf957ce81d6':'https://www.juno7.ht/wp-content/uploads/2023/03/B170969A-1A6D-4271-9861-E1FF1E5A0D6B.jpeg',
+        }
+        for ident,asset in rejected.items():
+            self.assertNotEqual(self.enrichment['profiles'].get(ident,{}).get('portrait',{}).get('asset_url'),asset)
     def test_copy_review_fixes_are_present(self):
         self.assertEqual(builder.COPY['mayor']['ht'],'Majistra')
         self.assertEqual(builder.COPY['reviewed']['ht'],'Revize')

@@ -1749,6 +1749,1397 @@
       "web_bytes": 3722,
       "photograph_date": null,
       "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-5f664743af985e649f53",
+      "name": "WUINCHEL OLIVIER",
+      "office": "deputy",
+      "party": "MYEL",
+      "locality": [
+        "SUD",
+        "CAVAILLON"
+      ],
+      "source_url": "https://www.juno7.ht/lancien-depute-wuinchel-olivier-blesse-par-balles/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/wuinchel-olivier.jpeg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "WUINCHEL OLIVIER",
+        "registered_office": "deputy",
+        "registered_party": "MYEL",
+        "registered_locality": [
+          "SUD",
+          "CAVAILLON"
+        ],
+        "source_headline": "L’ancien député Wuinchel Olivier blessé par balles",
+        "source_image_caption": "wuinchel olivier",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "a6c320a2deeb4223424e3a1fe7ed3660552c3a49a79087c9cd360f1989e48344",
+      "source_dimensions": [
+        1080,
+        720
+      ],
+      "crop_boxes": {
+        "card": [
+          203,
+          0,
+          752,
+          686
+        ],
+        "web": [
+          226,
+          0,
+          729,
+          503
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/wuinchel-olivier-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3868
+        },
+        {
+          "path": "/assets/candidates/wuinchel-olivier-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8648
+        },
+        {
+          "path": "/assets/candidates/wuinchel-olivier-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 13788
+        }
+      ],
+      "web_path": "/assets/candidates/wuinchel-olivier-web.webp",
+      "web_bytes": 3600,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-11d2656b926e54239fec",
+      "name": "ANDALASSE MERTILUS",
+      "office": "senator",
+      "party": "P.R",
+      "locality": [
+        "NORD-OUEST"
+      ],
+      "source_url": "https://www.juno7.ht/andalasse-mertilus-se-rebelle-contre-le-referendum/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2021/05/E3EC42C4-2071-4CFE-9D8A-87E5D51E3BAF.jpeg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "ANDALASSE MERTILUS",
+        "registered_office": "senator",
+        "registered_party": "P.R",
+        "registered_locality": [
+          "NORD-OUEST"
+        ],
+        "source_headline": "Me Andalasse Mertilus se rebelle contre le référendum à Jean-Rabel",
+        "source_image_caption": "Me Andalasse Mertilus se rebelle contre le référendum à Jean-Rabel",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "ab721eedbbcff356ba84d68956f7a1fb7742d3e69468c99570abd06a0edeef40",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "crop_boxes": {
+        "card": [
+          562,
+          6,
+          923,
+          458
+        ],
+        "web": [
+          577,
+          18,
+          908,
+          349
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/andalasse-mertilus-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3514
+        },
+        {
+          "path": "/assets/candidates/andalasse-mertilus-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7542
+        },
+        {
+          "path": "/assets/candidates/andalasse-mertilus-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12564
+        }
+      ],
+      "web_path": "/assets/candidates/andalasse-mertilus-web.webp",
+      "web_bytes": 3586,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-fdd715f3093f5e0e9c1f",
+      "name": "CARL MURAT CANTAVE",
+      "office": "senator",
+      "party": "MPH",
+      "locality": [
+        "ARTIBONITE"
+      ],
+      "source_url": "https://www.juno7.ht/carl-murat-cantave-part-a-londres-pour-evaluer-5-employes-a-lambassade-dhaiti/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/Cantave-e1550177055219.jpg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "CARL MURAT CANTAVE",
+        "registered_office": "senator",
+        "registered_party": "MPH",
+        "registered_locality": [
+          "ARTIBONITE"
+        ],
+        "source_headline": "Carl Murat Cantave part à Londres pour évaluer 5 employés à l’ambassade d’Haïti",
+        "source_image_caption": "",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "2cbea2303bd1e6b1355916fdb94dbbd389396a094518932ea641b496b666a434",
+      "source_dimensions": [
+        800,
+        557
+      ],
+      "crop_boxes": {
+        "card": [
+          128,
+          23,
+          519,
+          511
+        ],
+        "web": [
+          144,
+          36,
+          503,
+          394
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/carl-murat-cantave-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3708
+        },
+        {
+          "path": "/assets/candidates/carl-murat-cantave-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8110
+        },
+        {
+          "path": "/assets/candidates/carl-murat-cantave-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 13346
+        }
+      ],
+      "web_path": "/assets/candidates/carl-murat-cantave-web.webp",
+      "web_bytes": 3496,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-1470837bf1e2537ea0b5",
+      "name": "EVALLIERE BEAUPLAN",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "NORD-OUEST"
+      ],
+      "source_url": "https://www.juno7.ht/evaliere-beauplan-dement-que-sa-femme-a-ete-arretee-par-les-autorites-canadiennes/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/beauplan.jpg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "EVALLIERE BEAUPLAN",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "NORD-OUEST"
+        ],
+        "source_headline": "Evalière Beauplan dément que sa femme a été arrêtée par les autorités canadiennes",
+        "source_image_caption": "Evallière Beauplan",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "2b72a86162efcc4d52010b87eb2bbac5d00a986f32f64b66eb8a3166f427e712",
+      "source_dimensions": [
+        1024,
+        536
+      ],
+      "crop_boxes": {
+        "card": [
+          279,
+          0,
+          701,
+          526
+        ],
+        "web": [
+          297,
+          0,
+          683,
+          386
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/evalliere-beauplan-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4550
+        },
+        {
+          "path": "/assets/candidates/evalliere-beauplan-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10864
+        },
+        {
+          "path": "/assets/candidates/evalliere-beauplan-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 17460
+        }
+      ],
+      "web_path": "/assets/candidates/evalliere-beauplan-web.webp",
+      "web_bytes": 4952,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-e16e0328b3275fbe8ad7",
+      "name": "FRANTZ EXANTUS",
+      "office": "senator",
+      "party": "GAD",
+      "locality": [
+        "ARTIBONITE"
+      ],
+      "source_url": "https://metropole.ht/frantz-exantus-plaide-pour-des-negociations-inter-haitiennes/",
+      "asset_url": "https://metropole.ht/wp-content/uploads/7FE12460-B3A2-4070-85BE-3732AB17A9B6.jpeg",
+      "credit": "Radio Métropole",
+      "identity_context": {
+        "candidate_name": "FRANTZ EXANTUS",
+        "registered_office": "senator",
+        "registered_party": "GAD",
+        "registered_locality": [
+          "ARTIBONITE"
+        ],
+        "source_headline": "Frantz Exantus plaide pour des négociations inter haitiennes",
+        "source_image_caption": "Frantz Exantus",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "a1675630ebe8df975f7e0604420248875a72ffe8be44d6ecfb6c06f5f4d39dd0",
+      "source_dimensions": [
+        750,
+        1050
+      ],
+      "crop_boxes": {
+        "card": [
+          30,
+          31,
+          668,
+          828
+        ],
+        "web": [
+          57,
+          53,
+          641,
+          637
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/frantz-exantus-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4058
+        },
+        {
+          "path": "/assets/candidates/frantz-exantus-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9828
+        },
+        {
+          "path": "/assets/candidates/frantz-exantus-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 17072
+        }
+      ],
+      "web_path": "/assets/candidates/frantz-exantus-web.webp",
+      "web_bytes": 4236,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-d7a0d2e5d214555f9571",
+      "name": "JEAN RIGAUD BELIZAIRE",
+      "office": "senator",
+      "party": "MPH",
+      "locality": [
+        "GRAND'ANSE"
+      ],
+      "source_url": "https://www.juno7.ht/jean-rigaud-belizaire-satisfait-bien-oriente-fonds/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/92E196B6-3250-40A9-962A-DFCDBD54646F.jpeg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "JEAN RIGAUD BELIZAIRE",
+        "registered_office": "senator",
+        "registered_party": "MPH",
+        "registered_locality": [
+          "GRAND'ANSE"
+        ],
+        "source_headline": "Jean Rigaud Bélizaire satisfait d’avoir bien orienté les fonds départemenataux",
+        "source_image_caption": "Jean Rigaud Bélizaire satisfait d'avoir bien orienté les fonds départemenataux",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "675a49b687157f992d012f4f9658412e05cb650f5fb5e9de365d64bad0ed022a",
+      "source_dimensions": [
+        640,
+        360
+      ],
+      "crop_boxes": {
+        "card": [
+          214,
+          0,
+          476,
+          326
+        ],
+        "web": [
+          225,
+          9,
+          465,
+          248
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jean-rigaud-belizaire-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5280
+        },
+        {
+          "path": "/assets/candidates/jean-rigaud-belizaire-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 12268
+        },
+        {
+          "path": "/assets/candidates/jean-rigaud-belizaire-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 19710
+        }
+      ],
+      "web_path": "/assets/candidates/jean-rigaud-belizaire-web.webp",
+      "web_bytes": 5840,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-359a844659e35c739b74",
+      "name": "JEAN ROOSEVELT JEAN",
+      "office": "senator",
+      "party": "SOLEY",
+      "locality": [
+        "GRAND'ANSE"
+      ],
+      "source_url": "https://www.juno7.ht/jean-jean-roosevelt-voix-haitienne-aux-jeux-de-la-francophonie/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/01/Jean-Jean-Roosevelt-voix-haitienne-aux-Jeux-de-la-Francophonie.jpeg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "JEAN ROOSEVELT JEAN",
+        "registered_office": "senator",
+        "registered_party": "SOLEY",
+        "registered_locality": [
+          "GRAND'ANSE"
+        ],
+        "source_headline": "Jean Jean Roosevelt, voix haïtienne aux Jeux de la Francophonie",
+        "source_image_caption": "Jean Jean Roosevelt, voix haïtienne aux Jeux de la Francophonie",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison.",
+        "identity_bridge": "https://www.gazettehaiti.com/index.php/node/14489"
+      },
+      "source_sha256": "854753797b4a85ae54a38c81605ea8fdae6b76de8565f283a8dff7eb1106e54c",
+      "source_dimensions": [
+        1600,
+        900
+      ],
+      "crop_boxes": {
+        "card": [
+          410,
+          0,
+          1130,
+          900
+        ],
+        "web": [
+          444,
+          21,
+          1186,
+          764
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jean-roosevelt-jean-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5428
+        },
+        {
+          "path": "/assets/candidates/jean-roosevelt-jean-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 13920
+        },
+        {
+          "path": "/assets/candidates/jean-roosevelt-jean-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 23002
+        }
+      ],
+      "web_path": "/assets/candidates/jean-roosevelt-jean-web.webp",
+      "web_bytes": 6668,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-64232082d3035a0888d1",
+      "name": "JORCHEMY JEAN BAPTISTE",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "ARTIBONITE"
+      ],
+      "source_url": "https://www.juno7.ht/haiti-politique-jorchemy-jean-baptiste-demis-de-ses-fonctions-de-porte-parole-de-renmen-ayiti/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/Jorchemy-Jean-Baptiste.jpg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "JORCHEMY JEAN BAPTISTE",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "ARTIBONITE"
+        ],
+        "source_headline": "Haïti-Politique: Jorchemy Jean-Baptiste, demis de ses fonctions de Porte-parole de Renmen Ayiti",
+        "source_image_caption": "",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "adf009ff9e0938eaee20629d8fdcbd2573300683c0384c9cbca59a64d231f855",
+      "source_dimensions": [
+        1080,
+        617
+      ],
+      "crop_boxes": {
+        "card": [
+          408,
+          105,
+          709,
+          480
+        ],
+        "web": [
+          421,
+          115,
+          696,
+          390
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jorchemy-jean-baptiste-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3554
+        },
+        {
+          "path": "/assets/candidates/jorchemy-jean-baptiste-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7730
+        },
+        {
+          "path": "/assets/candidates/jorchemy-jean-baptiste-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12466
+        }
+      ],
+      "web_path": "/assets/candidates/jorchemy-jean-baptiste-web.webp",
+      "web_bytes": 3332,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-55c311fd6dba5ffc984d",
+      "name": "JUDE CHARLES FAUSTIN",
+      "office": "senator",
+      "party": "EDE",
+      "locality": [
+        "NORD"
+      ],
+      "source_url": "https://www.juno7.ht/jude-charles-faustin-secretaire-general-primature/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/F2095ACF-329B-4131-8647-E05E8219488F.jpeg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "JUDE CHARLES FAUSTIN",
+        "registered_office": "senator",
+        "registered_party": "EDE",
+        "registered_locality": [
+          "NORD"
+        ],
+        "source_headline": "Jude Charles Faustin nommé secrétaire général de la Primature",
+        "source_image_caption": "Jude Charles Faustin nommé secrétaire général de la Primature",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "3fe80214e9afca7dae02c9c69d924f9276b9ad321579916da3c4d73fb5286844",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "crop_boxes": {
+        "card": [
+          359,
+          0,
+          1223,
+          1080
+        ],
+        "web": [
+          407,
+          0,
+          1463,
+          1056
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jude-charles-faustin-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4492
+        },
+        {
+          "path": "/assets/candidates/jude-charles-faustin-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10780
+        },
+        {
+          "path": "/assets/candidates/jude-charles-faustin-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 18022
+        }
+      ],
+      "web_path": "/assets/candidates/jude-charles-faustin-web.webp",
+      "web_bytes": 5378,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-0bbb862504a35f8181fe",
+      "name": "MARTIAL BENECHE",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://www.juno7.ht/dr-martial-beneche-directeur-programme-elargi-vaccina/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2025/02/Image-WhatsApp-Feb-15-2025-2-scaled.jpeg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "MARTIAL BENECHE",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "source_headline": "Dr Martial Benêche installé comme directeur du Programme Élargi de Vaccination du MSPP",
+        "source_image_caption": "Dr Martial Benêche installé comme directeur du Programme Élargi de Vaccination du MSPP",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "2671d1506b55513bf40cc002722e40baeead6715aa72b7d85fc2c30e375a98cf",
+      "source_dimensions": [
+        2560,
+        1682
+      ],
+      "crop_boxes": {
+        "card": [
+          1256,
+          385,
+          1797,
+          1062
+        ],
+        "web": [
+          1278,
+          403,
+          1775,
+          899
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/martial-beneche-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3718
+        },
+        {
+          "path": "/assets/candidates/martial-beneche-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10610
+        },
+        {
+          "path": "/assets/candidates/martial-beneche-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 22230
+        }
+      ],
+      "web_path": "/assets/candidates/martial-beneche-web.webp",
+      "web_bytes": 4472,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-4708ce6e9f9d5ea2b168",
+      "name": "MIRADIN MORLAN",
+      "office": "senator",
+      "party": "MTH",
+      "locality": [
+        "SUD-EST"
+      ],
+      "source_url": "https://www.juno7.ht/haiti-affaire-petrocaribe-agritrans-et-bretex-s-a-deux-firmes-deux-numeros-didentification-fiscales-distinctes-selon-le-dg-miradin-morlan/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/IMG-20190603-WA0024.jpg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "MIRADIN MORLAN",
+        "registered_office": "senator",
+        "registered_party": "MTH",
+        "registered_locality": [
+          "SUD-EST"
+        ],
+        "source_headline": "Haïti-Affaire PetroCaribe: Agritrans et Bretex S.A, deux firmes, deux numéros d’Identification Fiscales distinctes, selon le DG, Miradin Morlan",
+        "source_image_caption": "",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "5d8d6e431f1533bee534c0a8e0e0fe1f84b9168b8001a98c618d3152ccd07106",
+      "source_dimensions": [
+        1080,
+        608
+      ],
+      "crop_boxes": {
+        "card": [
+          400,
+          53,
+          630,
+          341
+        ],
+        "web": [
+          409,
+          61,
+          621,
+          272
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/miradin-morlan-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4034
+        },
+        {
+          "path": "/assets/candidates/miradin-morlan-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9026
+        },
+        {
+          "path": "/assets/candidates/miradin-morlan-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 14614
+        }
+      ],
+      "web_path": "/assets/candidates/miradin-morlan-web.webp",
+      "web_bytes": 4344,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-afc87afc23765b758861",
+      "name": "ONONDIEU LOUIS",
+      "office": "senator",
+      "party": "MPH",
+      "locality": [
+        "NORD-OUEST"
+      ],
+      "source_url": "https://www.juno7.ht/le-senateur-onondieu-louis-auditionne-par-le-juge-osner-petit-papa/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/IMG-20190904-WA0011.jpg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "ONONDIEU LOUIS",
+        "registered_office": "senator",
+        "registered_party": "MPH",
+        "registered_locality": [
+          "NORD-OUEST"
+        ],
+        "source_headline": "Le sénateur Onondieu Louis auditionné par le juge Osner Petit-Papa",
+        "source_image_caption": "",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "4eda9676848d9976b8f5680e4a48ad47f5dfb412a00093e4945ffee280d8172c",
+      "source_dimensions": [
+        1080,
+        608
+      ],
+      "crop_boxes": {
+        "card": [
+          360,
+          49,
+          707,
+          483
+        ],
+        "web": [
+          374,
+          60,
+          693,
+          379
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/onondieu-louis-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3064
+        },
+        {
+          "path": "/assets/candidates/onondieu-louis-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7318
+        },
+        {
+          "path": "/assets/candidates/onondieu-louis-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 11424
+        }
+      ],
+      "web_path": "/assets/candidates/onondieu-louis-web.webp",
+      "web_bytes": 2922,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-d38b41aee7ac5f5fa7a2",
+      "name": "SOREL JACINTHE",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "GRAND'ANSE"
+      ],
+      "source_url": "https://www.juno7.ht/liberalisation-du-marche-petrolier-haitien-le-senateur-sorel-jacinthe-se-dit-preoccupe/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/Senateur-Jacinthe-1.jpg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "SOREL JACINTHE",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "GRAND'ANSE"
+        ],
+        "source_headline": "Libéralisation du marché pétrolier haïtien: Le Sénateur Sorel Jacinthe se dit préoccupé",
+        "source_image_caption": "",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "dce879bcb3ccb5cfcae8f5b73f5086feffae982e24817187748909c961a09c5a",
+      "source_dimensions": [
+        1080,
+        617
+      ],
+      "crop_boxes": {
+        "card": [
+          356,
+          73,
+          698,
+          500
+        ],
+        "web": [
+          371,
+          84,
+          684,
+          398
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/sorel-jacinthe-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4192
+        },
+        {
+          "path": "/assets/candidates/sorel-jacinthe-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9186
+        },
+        {
+          "path": "/assets/candidates/sorel-jacinthe-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 15154
+        }
+      ],
+      "web_path": "/assets/candidates/sorel-jacinthe-web.webp",
+      "web_bytes": 4662,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-b9fa926565645ab5b455",
+      "name": "WILFRID GELIN",
+      "office": "senator",
+      "party": "MPH",
+      "locality": [
+        "CENTRE"
+      ],
+      "source_url": "https://www.juno7.ht/haiti-politique-le-senateur-wilfrid-gelin-salut-laccession-du-premier-ministre-jean-henry-ceant-a-la-primature/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/BF6FDFED-BB5B-497C-8BF5-40BA447D3E1B.jpeg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "WILFRID GELIN",
+        "registered_office": "senator",
+        "registered_party": "MPH",
+        "registered_locality": [
+          "CENTRE"
+        ],
+        "source_headline": "Haïti/Politique: Le Sénateur Wilfrid Gelin salue l’accession du Premier ministre Jean Henry Ceant à la Primature",
+        "source_image_caption": "",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "ca050dbda286184c26683f97fbe278a3c2e75f7d967d2fd9542031d5401d5c46",
+      "source_dimensions": [
+        2048,
+        1152
+      ],
+      "crop_boxes": {
+        "card": [
+          520,
+          0,
+          1440,
+          1150
+        ],
+        "web": [
+          580,
+          0,
+          1490,
+          910
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/wilfrid-gelin-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3240
+        },
+        {
+          "path": "/assets/candidates/wilfrid-gelin-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7166
+        },
+        {
+          "path": "/assets/candidates/wilfrid-gelin-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12392
+        }
+      ],
+      "web_path": "/assets/candidates/wilfrid-gelin-web.webp",
+      "web_bytes": 3542,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-ccf6dd125e085d76aa92",
+      "name": "YVENERT FOESHTER JOSEPH",
+      "office": "senator",
+      "party": "OPL",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://www.juno7.ht/18-juillet-1968-naissance-yvenert-foeshter-joseph-rsf/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2020/12/E7B73DD8-3E20-417B-B0AB-847EACCAF902-e1595081794585.jpeg",
+      "credit": "Juno7",
+      "identity_context": {
+        "candidate_name": "YVENERT FOESHTER JOSEPH",
+        "registered_office": "senator",
+        "registered_party": "OPL",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "source_headline": "18 juillet 1968. Naissance de Yvenert Foeshter Joseph, PDG de RSF",
+        "source_image_caption": "18 juillet 1968. Naissance de Yvenert Foeshter Joseph,PDG de RSF",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "3bb2a0574d7a68403e7ebcb47fa2536159d74b3d1908da7dfe3df6f655487116",
+      "source_dimensions": [
+        700,
+        700
+      ],
+      "crop_boxes": {
+        "card": [
+          190,
+          70,
+          504,
+          463
+        ],
+        "web": [
+          203,
+          80,
+          491,
+          369
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/yvenert-foeshter-joseph-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 6684
+        },
+        {
+          "path": "/assets/candidates/yvenert-foeshter-joseph-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 15786
+        },
+        {
+          "path": "/assets/candidates/yvenert-foeshter-joseph-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 24962
+        }
+      ],
+      "web_path": "/assets/candidates/yvenert-foeshter-joseph-web.webp",
+      "web_bytes": 6840,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-3d0b18185c8057458eb4",
+      "name": "NANCY LAINE ISAAC",
+      "office": "deputy",
+      "party": "SOLEY",
+      "locality": [
+        "OUEST",
+        "PÉTION-VILLE"
+      ],
+      "source_url": "https://lefacteurhaiti.com/haiti-ville-la-journaliste-nancy-laine-isaac-candidate/",
+      "asset_url": "https://i0.wp.com/lefacteurhaiti.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-07-30-at-6.43.26-PM-1.jpeg?resize=512%2C338&ssl=1",
+      "credit": "Le Facteur Haïti",
+      "identity_context": {
+        "candidate_name": "NANCY LAINE ISAAC",
+        "registered_office": "deputy",
+        "registered_party": "SOLEY",
+        "registered_locality": [
+          "OUEST",
+          "PÉTION-VILLE"
+        ],
+        "source_headline": "Haïti : La journaliste Nancy Lainé Isaac, candidate ? - LE FACTEUR HAÏTI",
+        "source_image_caption": "La journaliste Nancy Lainé ambitionne la politique par les élections",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "c7e54c12af2facfc3cc02383f474b7eec3704a20402bab253d59cf5d44451f04",
+      "source_dimensions": [
+        512,
+        338
+      ],
+      "crop_boxes": {
+        "card": [
+          232,
+          11,
+          375,
+          189
+        ],
+        "web": [
+          238,
+          16,
+          369,
+          146
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/nancy-laine-isaac-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3322
+        },
+        {
+          "path": "/assets/candidates/nancy-laine-isaac-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 6854
+        },
+        {
+          "path": "/assets/candidates/nancy-laine-isaac-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 11152
+        }
+      ],
+      "web_path": "/assets/candidates/nancy-laine-isaac-web.webp",
+      "web_bytes": 2738,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-0a5c463b85d15c4a9f35",
+      "name": "RONALD LARECHE",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "NORD-EST"
+      ],
+      "source_url": "https://nordestinfo.blogspot.com/2016/02/qui-est-ronald-lareche.html",
+      "asset_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLv75SOuBKgtCoGq9RtzqzyDtD0__IB9e07WTLqZ1bKLrrMX73L2xzfpKotIVlL8nQXBoVEFetYj1KbWlD6tbVmcU53_keU30Ko9bzX7VWJqEFza3j_YY67AImuLIYCOEFZnQuRXcD3AvC/s640/S%25C3%25A9nateur+Ronald+Lar%25C3%25AAche%252C+de+passage+%25C3%25A0+la+f%25C3%25AAte+de+la+moisson+de+l%2527%25C3%25A9glise+Baptiste+de+Ouanaminthe%252C+le+31+janvier+2016%253B+photo+de+J%25C3%25A9thro-Claudel+Pierre+Jeanty.jpg",
+      "credit": "Nord-Est Info",
+      "identity_context": {
+        "candidate_name": "RONALD LARECHE",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "NORD-EST"
+        ],
+        "source_headline": "Nord-Est Info: Qui est Ronald Larêche?",
+        "source_image_caption": "",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "ee5e2bcf529196d92790db3b77e77c4bf4feb25c0fa45e2c68a76b3e35a9426a",
+      "source_dimensions": [
+        640,
+        428
+      ],
+      "crop_boxes": {
+        "card": [
+          278,
+          0,
+          539,
+          326
+        ],
+        "web": [
+          289,
+          0,
+          528,
+          239
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/ronald-lareche-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 6284
+        },
+        {
+          "path": "/assets/candidates/ronald-lareche-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 16230
+        },
+        {
+          "path": "/assets/candidates/ronald-lareche-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 25726
+        }
+      ],
+      "web_path": "/assets/candidates/ronald-lareche-web.webp",
+      "web_bytes": 7324,
+      "photograph_date": "2016-01-31",
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-8a87c159442b59a98a9f",
+      "name": "PASCAL ADRIEN",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "NORD"
+      ],
+      "source_url": "https://latribunenews.com/index.php/2026/08/30/viktwa-et-pascal-adrien-mobilisent-la-population-capoise-autour-dune-nouvelle-vision-pour-haiti/",
+      "asset_url": "https://latribunenews.com/wp-content/uploads/2026/08/IMG_5488.jpeg",
+      "credit": "La Tribune News",
+      "identity_context": {
+        "candidate_name": "PASCAL ADRIEN",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "NORD"
+        ],
+        "source_headline": "VIKTWA et Pascal ADRIEN mobilisent la population capoise autour d’une nouvelle vision pour Haïti - LA TRIBUNE NEWS",
+        "source_image_caption": "VIKTWA et Pascal ADRIEN mobilisent la population capoise autour d’une nouvelle vision pour Haïti - LA TRIBUNE NEWS",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "28d6d4e336ffcf4a491cf3608f1a8226fb130e237757ff60d9fd7cd8de042a4a",
+      "source_dimensions": [
+        1290,
+        882
+      ],
+      "crop_boxes": {
+        "card": [
+          498,
+          227,
+          697,
+          477
+        ],
+        "web": [
+          506,
+          233,
+          689,
+          417
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/pascal-adrien-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4554
+        },
+        {
+          "path": "/assets/candidates/pascal-adrien-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9754
+        },
+        {
+          "path": "/assets/candidates/pascal-adrien-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 15468
+        }
+      ],
+      "web_path": "/assets/candidates/pascal-adrien-web.webp",
+      "web_bytes": 5426,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-cd27a66b96635c868f1c",
+      "name": "WILLOT JOSEPH",
+      "office": "senator",
+      "party": "DEBLOKE",
+      "locality": [
+        "CENTRE"
+      ],
+      "source_url": "https://gazettehaiti.com/index.php/node/10511",
+      "asset_url": "https://gazettehaiti.com/sites/default/files/2023-11/Screenshot_20231115_165829_Google.jpg",
+      "credit": "Gazette Haïti",
+      "identity_context": {
+        "candidate_name": "WILLOT JOSEPH",
+        "registered_office": "senator",
+        "registered_party": "DEBLOKE",
+        "registered_locality": [
+          "CENTRE"
+        ],
+        "source_headline": "L'ULCC demande de poursuivre l'ancien sénateur Willot Joseph pour faux certificat de déclaration de patrimoine | Gazette Haiti",
+        "source_image_caption": "Wilot Joseph, ex sénateur ",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "d3632075ff0cd9fa387b1d0728fa41efdcf18e39b94506f353614a6bb91fa8ad",
+      "source_dimensions": [
+        805,
+        810
+      ],
+      "crop_boxes": {
+        "card": [
+          52,
+          0,
+          700,
+          810
+        ],
+        "web": [
+          84,
+          0,
+          775,
+          691
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/willot-joseph-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4182
+        },
+        {
+          "path": "/assets/candidates/willot-joseph-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9156
+        },
+        {
+          "path": "/assets/candidates/willot-joseph-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 15000
+        }
+      ],
+      "web_path": "/assets/candidates/willot-joseph-web.webp",
+      "web_bytes": 4210,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-f7fe0fcad63255ff96a3",
+      "name": "PHELITO DORAN",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "OUEST"
+      ],
+      "source_url": "https://haiti24.net/insecurite-lex-depute-de-petion-ville-phelito-doran-blesse-par-des-hommes-armes/",
+      "asset_url": "https://haiti24.net/wp-content/uploads/2021/01/30BDB486-D23F-4966-AB6F-E1EAF5CE27D4.png",
+      "credit": "Haïti24",
+      "identity_context": {
+        "candidate_name": "PHELITO DORAN",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "OUEST"
+        ],
+        "source_headline": "Insécurité : l’ex-député de Pétion-Ville, Phelito Doran, blessé par des hommes armés – Haïti24 – Actualités & Infos en Direct",
+        "source_image_caption": "Insécurité : l’ex-député de Pétion-Ville, Phelito Doran, blessé par des hommes armés – Haïti24 – Actualités & Infos en Direct",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "a6cd5f953d9ed40512b0ec47f598bc5d195f9cd6bc3afc0ec6681ac4717ad2df",
+      "source_dimensions": [
+        360,
+        280
+      ],
+      "crop_boxes": {
+        "card": [
+          90,
+          0,
+          314,
+          280
+        ],
+        "web": [
+          87,
+          0,
+          360,
+          273
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/phelito-doran-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3296
+        },
+        {
+          "path": "/assets/candidates/phelito-doran-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7456
+        },
+        {
+          "path": "/assets/candidates/phelito-doran-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12830
+        }
+      ],
+      "web_path": "/assets/candidates/phelito-doran-web.webp",
+      "web_bytes": 3668,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-19a06a1d64595771bf1b",
+      "name": "JEAN JUNIOR JIHA",
+      "office": "senator",
+      "party": "VIKTWA",
+      "locality": [
+        "CENTRE"
+      ],
+      "source_url": "https://www.belpolitik.com/photos/candidate-jean-junior-jiha-bouclier-election-campaign-hinche.html",
+      "asset_url": "https://www.belpolitik.com/spa/_files/spa_album/pic_347.jpg",
+      "credit": "BelPolitik",
+      "identity_context": {
+        "candidate_name": "JEAN JUNIOR JIHA",
+        "registered_office": "senator",
+        "registered_party": "VIKTWA",
+        "registered_locality": [
+          "CENTRE"
+        ],
+        "source_headline": "Candidate Jean Junior Jiha - Bouclier Election Campaign Hinche Haiti | BelPolitik.com",
+        "source_image_caption": "Candidate Jean Junior Jiha - Bouclier Election Campaign Hinche Haiti | BelPolitik.com",
+        "basis": "Named publisher portrait, with public political/office and locality context reviewed against this registry entry. Framing boxes are used only for cropping; no face identity comparison."
+      },
+      "source_sha256": "f70f7e5abe6d2901b75c50c37d2e0bf2820d6a41067fc39feb639b433b09f3a5",
+      "source_dimensions": [
+        472,
+        315
+      ],
+      "crop_boxes": {
+        "card": [
+          204,
+          0,
+          358,
+          194
+        ],
+        "web": [
+          210,
+          0,
+          352,
+          142
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jean-junior-jiha-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4132
+        },
+        {
+          "path": "/assets/candidates/jean-junior-jiha-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8754
+        },
+        {
+          "path": "/assets/candidates/jean-junior-jiha-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 14054
+        }
+      ],
+      "web_path": "/assets/candidates/jean-junior-jiha-web.webp",
+      "web_bytes": 3214,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-07"
     }
   ]
 }

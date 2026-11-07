@@ -7,14 +7,17 @@
   const normalize=value=>String(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
   const element=(tag,className,text)=>{const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;};
   const catalogs=new Map();let rows=null,sequence=0,timer;
-  let state={office:main.dataset.directoryOffice,page:Number(main.dataset.directoryPage),q:'',department:'',place:'',party:'',status:''};
+  let state={office:main.dataset.directoryOffice,page:Number(main.dataset.directoryPage),q:'',department:'',place:'',party:'',status:'',photo:''};
   for(const key of Object.keys(state)){const value=new URLSearchParams(location.search).get(key);if(value!==null)state[key]=key==='page'?Math.max(1,Number(value)||1):value;}
-  for(const key of ['q','department','place','party','status'])form.elements.namedItem(key).value=state[key];
+  if(state.photo!=='available')state.photo='';
+  for(const key of ['q','department','place','party','status','photo'])form.elements.namedItem(key).value=state[key];
   form.hidden=false;
   const filterToggle=document.getElementById('candidate-filter-toggle'),filterPanel=document.getElementById('candidate-filters');
   function expandFilters(open){filterPanel.hidden=!open;filterToggle.setAttribute('aria-expanded',String(open));filterToggle.textContent=(open?c.fewer_filters:c.more_filters)+(open?' −':' +');}
   filterToggle.addEventListener('click',()=>expandFilters(filterPanel.hidden));
   if(state.department||state.place||state.party||state.status)expandFilters(true);
+  const photoCount=document.getElementById('candidate-photo-count'),photoLink=document.getElementById('candidate-show-portraits');photoLink.hidden=false;
+  const positionKeys={'Titulaire':'titulaire','1er Adjoint':'first_deputy','2ème Adjoint':'second_deputy','3ème Adjoint':'third_deputy','4ème Adjoint':'fourth_deputy','5ème Adjoint':'fifth_deputy','6ème Adjoint':'sixth_deputy','7ème Adjoint':'seventh_deputy','8ème Adjoint':'eighth_deputy'};
   function catalog(){
     const office=state.office;
     if(!catalogs.has(office))catalogs.set(office,fetch('/data/candidate-public/catalog'+(office==='all'?'':'-'+office)+'.json').then(response=>{if(!response.ok)throw Error('Directory unavailable');return response.json();}).then(data=>data.candidates.map(row=>({...row,search:normalize([row.name,row.party,...row.locality].join(' '))}))).catch(e=>{catalogs.delete(office);throw e;}));
@@ -42,6 +45,7 @@
     else{const initials=element('span','candidate-initials',row.initials);initials.setAttribute('aria-hidden','true');photo.append(initials,element('span','photo-pending',c.photo_pending));}
     const arrow=element('span','photo-open','↗');arrow.setAttribute('aria-hidden','true');photo.append(arrow);
     const info=element('div','candidate-card-info');info.append(element('p','candidate-card-office',c[row.office]+' · '+row.party),element('h2','',row.name),element('p','candidate-card-place',row.locality.join(' · ')),element('span','candidate-status',c[row.status]));
+    const role=element('p','candidate-card-position',c.position+': '+(c[positionKeys[row.position]]||row.position));info.querySelector('.candidate-status').before(role);
     const action=element('span','candidate-card-cta',c.view_web);action.append(element('span','','↗'));info.append(action);link.append(photo);if(row.portrait)link.append(element('p','candidate-card-photo-credit',c.photo_credit+': '+row.portrait.credit));link.append(info);article.append(link);return article;
   }
   function updateUrl(){
@@ -54,7 +58,10 @@
     try{
       const all=await catalog();if(request!==sequence)return;rows=all;populateFilters();
       const words=normalize(state.q).split(' ').filter(Boolean);
-      const matches=all.filter(row=>(state.office==='all'||row.office===state.office)&&(!state.department||row.locality[0]===state.department)&&(!state.place||row.locality.slice(1).join(' · ')===state.place)&&(!state.party||row.party===state.party)&&(!state.status||row.status===state.status)&&words.every(word=>row.search.includes(word)));
+      const eligible=all.filter(row=>(state.office==='all'||row.office===state.office)&&(!state.department||row.locality[0]===state.department)&&(!state.place||row.locality.slice(1).join(' · ')===state.place)&&(!state.party||row.party===state.party)&&(!state.status||row.status===state.status)&&words.every(word=>row.search.includes(word)));
+      const withPhoto=eligible.filter(row=>row.portrait),matches=state.photo==='available'?withPhoto:eligible;
+      const number=value=>new Intl.NumberFormat(lang==='en'?'en-US':'fr-HT').format(value);
+      photoCount.textContent=c.photo_coverage.replace('{count}',number(withPhoto.length)).replace('{total}',number(eligible.length));photoLink.textContent=(state.photo==='available'?c.all_portraits:c.available_portraits)+' →';const photoQuery=new URLSearchParams();for(const[key,value]of Object.entries({...state,page:1,photo:state.photo==='available'?'':'available'}))if(value!==''&&key!=='page')photoQuery.set(key,String(value));photoLink.href=base+'?'+photoQuery.toString();
       const pages=Math.max(1,Math.ceil(matches.length/size));state.page=Math.min(Math.max(1,state.page),pages);
       const fragment=document.createDocumentFragment();for(const row of matches.slice((state.page-1)*size,state.page*size))fragment.append(card(row));
       if(!matches.length)fragment.append(element('p','candidate-archive-empty',c.no_results));
@@ -69,11 +76,12 @@
     }catch(_){if(request===sequence){error.hidden=false;count.textContent=c.load_error;}}
     finally{if(request===sequence)results.removeAttribute('aria-busy');}
   }
-  function readForm(){for(const key of ['q','department','place','party','status'])state[key]=form.elements.namedItem(key).value;state.page=1;}
+  function readForm(){for(const key of ['q','department','place','party','status','photo'])state[key]=form.elements.namedItem(key).value;state.page=1;}
+  photoLink.addEventListener('click',event=>{if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();clearTimeout(timer);readForm();state.photo=state.photo==='available'?'':'available';state.page=1;form.elements.photo.value=state.photo;render();});
   form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(timer);readForm();render();});
   form.elements.q.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{readForm();render();},200);});
   form.addEventListener('change',event=>{if(event.target.tagName!=='SELECT')return;if(event.target===form.elements.department){form.elements.place.value='';state.place='';}readForm();populateFilters();render();});
-  form.addEventListener('reset',event=>{event.preventDefault();clearTimeout(timer);state={office:'all',page:1,q:'',department:'',place:'',party:'',status:''};for(const key of ['q','department','place','party','status'])form.elements.namedItem(key).value='';populateFilters();render();});
+  form.addEventListener('reset',event=>{event.preventDefault();clearTimeout(timer);state={office:'all',page:1,q:'',department:'',place:'',party:'',status:'',photo:''};for(const key of ['q','department','place','party','status','photo'])form.elements.namedItem(key).value='';populateFilters();render();});
   form.addEventListener('focusin',()=>{const office=state.office;catalog().then(all=>{if(office===state.office){rows=all;populateFilters();}}).catch(()=>{error.hidden=false;});},{once:true});
   for(const tab of document.querySelectorAll('[data-office]'))tab.addEventListener('click',event=>{if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();clearTimeout(timer);readForm();state.office=tab.dataset.office;rows=null;state.department='';state.place='';state.party='';render();});
   document.getElementById('candidate-retry').addEventListener('click',()=>render());

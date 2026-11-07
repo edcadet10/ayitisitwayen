@@ -618,5 +618,45 @@
   "relation_archive_context": {
     "ht": "Nan yon koleksyon achiv sou moun nan",
     "en": "In an archive collection about the person"
+  },
+  "third_deputy": {
+    "ht": "Twazyèm adjwen",
+    "en": "Third running mate"
+  },
+  "fourth_deputy": {
+    "ht": "Katriyèm adjwen",
+    "en": "Fourth running mate"
+  },
+  "fifth_deputy": {
+    "ht": "Senkyèm adjwen",
+    "en": "Fifth running mate"
+  },
+  "sixth_deputy": {
+    "ht": "Sizyèm adjwen",
+    "en": "Sixth running mate"
+  },
+  "seventh_deputy": {
+    "ht": "Setyèm adjwen",
+    "en": "Seventh running mate"
+  },
+  "eighth_deputy": {
+    "ht": "Wityèm adjwen",
+    "en": "Eighth running mate"
+  },
+  "portrait_filter": {
+    "ht": "Foto",
+    "en": "Photos"
+  },
+  "all_portraits": {
+    "ht": "Tout pwofil yo",
+    "en": "All profiles"
+  },
+  "available_portraits": {
+    "ht": "Avèk foto verifye",
+    "en": "With a verified photo"
+  },
+  "photo_coverage": {
+    "ht": "{count} foto verifye sou {total} pwofil",
+    "en": "{count} verified photos across {total} profiles"
   }
 }
