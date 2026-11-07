@@ -2,41 +2,88 @@
   "registry_reviewed_at": "2026-11-06",
   "implementation_checked_at": "2026-11-07",
   "reviewed_registration_records": 8990,
-  "office_counts": {"president":21,"senator":402,"deputy":1425,"mayor":2126,"casec":3031,"asec":1985},
+  "office_counts": {
+    "president": 21,
+    "senator": 402,
+    "deputy": 1425,
+    "mayor": 2126,
+    "casec": 3031,
+    "asec": 1985
+  },
   "identical_source_rows": 0,
   "registration_status": "preliminary",
-  "static_profile_languages": ["ht","en"],
+  "static_profile_languages": [
+    "ht",
+    "en"
+  ],
   "non_registry_source_records": 12,
   "profiles_with_reviewed_non_registry_sources": 20,
   "portraits": 2,
   "coverage": "Initial archive, incomplete. Missing portraits and empty source categories are explicitly labeled. No exhaustive-history claim.",
   "independent_language_review": {
-    "reviewer_type":"Independent AI, not a native-human certification",
-    "method":"Separate Kreyol-only reading saved before English comparison",
-    "ui_pairs":110,
-    "source_title_summary_context_fields":26,
-    "corrections_applied":["mayor office terminology","withdrawal actor neutrality","positions scope","review versus verification","public-post qualifier","honey terminology","standing month capitalization"]
+    "reviewer_type": "Independent AI, not a native-human certification",
+    "method": "Separate Kreyol-only reading saved before English comparison",
+    "ui_pairs": 110,
+    "source_title_summary_context_fields": 26,
+    "corrections_applied": [
+      "mayor office terminology",
+      "withdrawal actor neutrality",
+      "positions scope",
+      "review versus verification",
+      "public-post qualifier",
+      "honey terminology",
+      "standing month capitalization"
+    ]
   },
   "browser_checks": {
-    "environment":"Headless Chromium lab",
-    "viewports":[320,390,640,768,900,1280],
-    "main_background":"white",
-    "web_structure":{"radial_strands":16,"capture_loops":8},
-    "overlapping_source_targets":0,
-    "preview_access":["hover","focus","tap","Escape dismissal"],
-    "directory_flow":["accent-insensitive search","office filter","geographic filter","status empty state","pagination","Back preserves results","language preserves profile identity"],
-    "javascript_disabled":["office pagination","profile facts","source archive"],
-    "external_requests_on_profile_load_or_hover":0,
-    "player_check":"Iframe created only after explicit Play, using a stubbed player response; actual video playback not asserted."
+    "environment": "Headless Chromium lab",
+    "viewports": [
+      320,
+      390,
+      640,
+      768,
+      900,
+      1280
+    ],
+    "main_background": "white",
+    "web_structure": {
+      "radial_strands": 16,
+      "capture_loops": 8
+    },
+    "overlapping_source_targets": 0,
+    "preview_access": [
+      "hover",
+      "focus",
+      "tap",
+      "Escape dismissal"
+    ],
+    "directory_flow": [
+      "accent-insensitive search",
+      "office filter",
+      "geographic filter",
+      "status empty state",
+      "pagination",
+      "Back preserves results",
+      "language preserves profile identity"
+    ],
+    "javascript_disabled": [
+      "office pagination",
+      "profile facts",
+      "source archive"
+    ],
+    "external_requests_on_profile_load_or_hover": 0,
+    "player_check": "Iframe created only after explicit Play, using a stubbed player response; actual video playback not asserted.",
+    "portrait_click_opens_web_directly": true
   },
   "performance_probe": {
-    "cpu_throttle":6,
-    "initial_directory_bytes_including_headers":94686,
-    "initial_catalog_requests":0,
-    "graph_and_common_js_gzip_bytes":4295,
-    "presidential_search_catalog_gzip_bytes":1026,
-    "field_core_web_vitals":"Not measured",
-    "physical_low_end_phone":"Not tested"
+    "cpu_throttle": 6,
+    "initial_directory_bytes_including_headers": 94686,
+    "initial_catalog_requests": 0,
+    "graph_and_common_js_gzip_bytes": 4362,
+    "presidential_search_catalog_gzip_bytes": 1026,
+    "field_core_web_vitals": "Not measured",
+    "physical_low_end_phone": "Not tested",
+    "initial_transfer_measurement_commit": "5cf012f"
   },
-  "publication_state":"Build and deployment verification recorded separately by CI and the hosting provider."
+  "publication_state": "Build and deployment verification recorded separately by CI and the hosting provider."
 }

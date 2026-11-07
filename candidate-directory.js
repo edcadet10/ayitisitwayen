@@ -36,7 +36,7 @@
     departments.disabled=state.office==='president';places.disabled=state.office==='president'||!relevant.some(row=>row.locality.length>1);
   }
   function card(row){
-    const article=element('article','candidate-card'),link=element('a','candidate-card-link');link.href=base+row.id+'/';link.setAttribute('aria-label',row.name+' — '+c.view_web);
+    const article=element('article','candidate-card'),link=element('a','candidate-card-link');link.href=base+row.id+'/#information-web';link.setAttribute('aria-label',row.name+' — '+c.view_web);
     const photo=element('div','candidate-photo');
     if(row.portrait){const image=element('img');image.dataset.portraitSrc=row.portrait.path;image.alt=row.name;image.width=240;image.height=300;image.decoding='async';image.style.objectPosition=row.portrait.position;photo.append(image);}
     else{const initials=element('span','candidate-initials',row.initials);initials.setAttribute('aria-hidden','true');photo.append(initials,element('span','photo-pending',c.photo_pending));}
