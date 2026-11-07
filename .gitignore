@@ -27,3 +27,10 @@ node_modules/
 # Local unreviewed source collection
 editorial/cep-review-queue.json
 __pycache__/
+.candidate-collection-cache/
+editorial/candidate-review-queue.json
+# Generated during the Vercel build; source registry and generator are committed.
+/candidates/
+/en/candidates/
+/data/candidate-public/
+/sitemap-candidates.xml

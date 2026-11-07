@@ -1,0 +1,407 @@
+{
+  "reviewed_at": "2026-11-06",
+  "coverage_note": "Initial reviewed archive, incomplete. Registry facts cover every registration; portraits and non-registry sources are added only when reviewed.",
+  "publications": {
+    "haitilibre-20261017": {
+      "id": "haitilibre-20261017",
+      "url": "https://www.haitilibre.com/article-48686-haiti-actualite-zapping.html",
+      "publisher": "HaïtiLibre",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Enskripsyon pou prezidan: lis preliminè 17 Oktòb la",
+        "en": "Presidential registrations: the preliminary list on 17 October"
+      },
+      "summary": {
+        "ht": "Atik sa a site non moun nan nan yon lis preliminè enskripsyon pou prezidan. Se yon atik achiv; chif li yo pa ranplase done KEP ki pi resan yo.",
+        "en": "This report names the person in a preliminary presidential registration list. It is an archive item; its figures do not replace the newer CEP snapshot."
+      },
+      "published_at": "2026-10-17",
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed"
+    },
+    "etzer-announcement-20261031": {
+      "id": "etzer-announcement-20261031",
+      "url": "https://www.voteetzer.ht/actualites/etzer-emile-annonce-sa-candidature",
+      "publisher": "Campagne Etzer Emile 2027",
+      "type": "campaign_source",
+      "categories": [
+        "campaign",
+        "positions"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Etzer Emile anonse kandidati li",
+        "en": "Etzer Emile announces his candidacy"
+      },
+      "summary": {
+        "ht": "Nan kominike sa a, kanpay Etzer Emile anonse kandidati li epi prezante sekirite, travay ak jistis sosyal kòm angajman li. Se deklarasyon kanpay la.",
+        "en": "This campaign release announces Etzer Emile’s candidacy and presents security, work and social justice as commitments. These are campaign statements."
+      },
+      "published_at": "2026-10-31",
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed"
+    },
+    "etzer-priorities": {
+      "id": "etzer-priorities",
+      "url": "https://www.voteetzer.ht/priorites",
+      "publisher": "Campagne Etzer Emile 2027",
+      "type": "campaign_source",
+      "categories": [
+        "campaign",
+        "positions"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Priyorite kanpay Etzer Emile yo",
+        "en": "Etzer Emile’s campaign priorities"
+      },
+      "summary": {
+        "ht": "Paj kanpay la prezante priyorite kandida a. Li dwe li kòm pwopozisyon kanpay, pa kòm rezilta ki deja reyalize.",
+        "en": "The campaign page presents the candidate’s priorities. Read them as campaign proposals, not as results already achieved."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed"
+    },
+    "etzer-account-facebook": {
+      "id": "etzer-account-facebook",
+      "url": "https://www.facebook.com/OfficialEtzerEmile",
+      "publisher": "Etzer Emile · Facebook",
+      "type": "campaign_source",
+      "categories": [
+        "social"
+      ],
+      "format": "account",
+      "title": {
+        "ht": "Kont Facebook kanpay la site a",
+        "en": "The Facebook account linked by the campaign"
+      },
+      "summary": {
+        "ht": "Sit kanpay la bay lyen kont sa a. Sa se yon lyen kont, li pa yon piblikasyon presi ni yon verifikasyon tout deklarasyon ki sou kont lan.",
+        "en": "The campaign website links to this account. This is an account link, not an individual post or verification of all statements on the account."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed",
+      "identity_source": "https://www.voteetzer.ht/"
+    },
+    "etzer-account-instagram": {
+      "id": "etzer-account-instagram",
+      "url": "https://www.instagram.com/etzeremile/",
+      "publisher": "Etzer Emile · Instagram",
+      "type": "campaign_source",
+      "categories": [
+        "social"
+      ],
+      "format": "account",
+      "title": {
+        "ht": "Kont Instagram kanpay la site a",
+        "en": "The Instagram account linked by the campaign"
+      },
+      "summary": {
+        "ht": "Sit kanpay la bay lyen kont sa a. Sa se yon lyen kont, li pa yon piblikasyon presi ni yon verifikasyon tout deklarasyon ki sou kont lan.",
+        "en": "The campaign website links to this account. This is an account link, not an individual post or verification of all statements on the account."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed",
+      "identity_source": "https://www.voteetzer.ht/"
+    },
+    "etzer-account-tiktok": {
+      "id": "etzer-account-tiktok",
+      "url": "https://www.tiktok.com/@etzeremile",
+      "publisher": "Etzer Emile · TikTok",
+      "type": "campaign_source",
+      "categories": [
+        "social"
+      ],
+      "format": "account",
+      "title": {
+        "ht": "Kont TikTok kanpay la site a",
+        "en": "The TikTok account linked by the campaign"
+      },
+      "summary": {
+        "ht": "Sit kanpay la bay lyen kont sa a. Sa se yon lyen kont, li pa yon piblikasyon presi ni yon verifikasyon tout deklarasyon ki sou kont lan.",
+        "en": "The campaign website links to this account. This is an account link, not an individual post or verification of all statements on the account."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed",
+      "identity_source": "https://www.voteetzer.ht/"
+    },
+    "etzer-video-honey": {
+      "id": "etzer-video-honey",
+      "url": "https://www.youtube.com/watch?v=AKmCuZRE9pM",
+      "publisher": "Etzer Emile · Éducation économique",
+      "type": "social_source",
+      "categories": [
+        "videos",
+        "history"
+      ],
+      "format": "video",
+      "title": {
+        "ht": "Pwodiksyon siwo myèl nan komin Milo",
+        "en": "Honey production in Milot"
+      },
+      "summary": {
+        "ht": "Yon videyo nan achiv piblik Etzer Emile prezante pwodiksyon siwo myèl nan komin Milo. Li parèt nan pwòp achiv videyo li; se pa yon analiz endepandan sou kandidati li.",
+        "en": "A video in Etzer Emile’s public archive features honey production in Milot. It appears in his own video archive and is not an independent assessment of his candidacy."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed",
+      "video_id": "AKmCuZRE9pM",
+      "identity_source": "https://www.etzeremile.com/videos"
+    },
+    "etzer-video-newyear": {
+      "id": "etzer-video-newyear",
+      "url": "https://www.youtube.com/watch?v=9KYmTq0XoWo",
+      "publisher": "Etzer Emile",
+      "type": "social_source",
+      "categories": [
+        "videos",
+        "history"
+      ],
+      "format": "video",
+      "title": {
+        "ht": "Mesaj Etzer Emile pou premye Janvye 2026",
+        "en": "Etzer Emile’s New Year 2026 message"
+      },
+      "summary": {
+        "ht": "Mesaj pou premye Janvye 2026 ki parèt nan achiv videyo piblik Etzer Emile. Dat piblikasyon orijinal la poko etabli nan dosye nou an.",
+        "en": "A New Year 2026 message listed in Etzer Emile’s public video archive. The original publication date has not yet been established in our record."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed",
+      "video_id": "9KYmTq0XoWo",
+      "identity_source": "https://www.etzeremile.com/videos"
+    },
+    "jude-biography": {
+      "id": "jude-biography",
+      "url": "https://judeelie.org/",
+      "publisher": "Jude Elie",
+      "type": "campaign_source",
+      "categories": [
+        "campaign",
+        "history",
+        "positions"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Prezantasyon Jude Elie sou sit li",
+        "en": "Jude Elie’s own website biography"
+      },
+      "summary": {
+        "ht": "Sit Jude Elie prezante pakou li ak angajman politik li. Se prezantasyon moun nan ak ekip li, li pa yon biyografi endepandan.",
+        "en": "Jude Elie’s website presents his background and political commitments. This is a presentation by the person and his team, not an independent biography."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed"
+    },
+    "barrau-juno7-priorities": {
+      "id": "barrau-juno7-priorities",
+      "url": "https://www.juno7.ht/olivier-barrau-presidentielle-securite-education-emploi/",
+      "publisher": "Juno7",
+      "type": "journalism",
+      "categories": [
+        "articles",
+        "positions"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Olivier Barrau prezante priyorite li",
+        "en": "Olivier Barrau presents his priorities"
+      },
+      "summary": {
+        "ht": "Juno7 rapòte Olivier Barrau mete sekirite, edikasyon ak travay nan sant priyorite li. Atik la fè diferans ant angajman yo ak mezi ki poko detaye yo.",
+        "en": "Juno7 reports that Olivier Barrau emphasizes security, education and employment, and distinguishes those commitments from measures that are not yet detailed."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed"
+    },
+    "tardieu-nouvelliste-filing": {
+      "id": "tardieu-nouvelliste-filing",
+      "url": "https://beta.lenouvelliste.com/article/273538/jerry-tardieu-depose-sa-candidature-a-la-presidence-au-bed-ouest-1?lang=en",
+      "publisher": "Le Nouvelliste",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Jerry Tardieu depoze dokiman pou kandidati li",
+        "en": "Jerry Tardieu files candidacy documents"
+      },
+      "summary": {
+        "ht": "Le Nouvelliste rapòte Jerry Tardieu te depoze dokiman pou kandidati prezidansyèl li nan BED Lwès 1 nan dat 2 Novanm 2026. Depo sa a pa yon desizyon final KEP sou validasyon.",
+        "en": "Le Nouvelliste reports that Jerry Tardieu filed presidential candidacy documents at BED Ouest 1 on 2 November 2026. Filing is not a final CEP validation decision."
+      },
+      "published_at": "2026-11-04",
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed"
+    },
+    "tardieu-campaign-release": {
+      "id": "tardieu-campaign-release",
+      "url": "https://www.lenouvelliste.com/en/article/273378/declaration-of-candidacy-by-jerry-tardieu",
+      "publisher": "En Avant pour Haïti · Le Nouvelliste",
+      "type": "campaign_source",
+      "categories": [
+        "campaign"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Deklarasyon kandidati Jerry Tardieu",
+        "en": "Jerry Tardieu’s declaration of candidacy"
+      },
+      "summary": {
+        "ht": "Le Nouvelliste pibliye yon kominike En Avant pour Haïti sou anons kandidati Jerry Tardieu nan dat 21 Oktòb 2026. Paj la make kòm yon tèks yo mande pibliye, se pa yon atik analiz endepandan.",
+        "en": "Le Nouvelliste carries an En Avant pour Haïti release about Jerry Tardieu’s announcement on 21 October 2026. The page is labeled a requested insertion, not independent analysis."
+      },
+      "published_at": "2026-10-28",
+      "reviewed_at": "2026-11-06",
+      "review_status": "reviewed"
+    }
+  },
+  "profiles": {
+    "c-fc4335e0768d55ee8d62": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-656331d267b75fc0aa53": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-318821d7c6585a15b714": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-6294b51c7cdc5f969078": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-6f201415a1ea54e1984a": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-bf5bb68eea8a5b819128": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-27353ad57d705ce8a375": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-0723179885b7514ab8ce": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-c9c792b353345247be19": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-e0b68eca43eb5b8cb369": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-270874e16ee85d36bc51": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-73cb6b93ef8b5e7e9d1a": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-c95770456abb5c95962b": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-260d6761d0c65693b074": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-cfa0ce450d335df39e36": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-7308041793ef5e32b5ff": {
+      "source_ids": [
+        "haitilibre-20261017"
+      ]
+    },
+    "c-e8698b3339a756e88e60": {
+      "source_ids": [
+        "etzer-announcement-20261031",
+        "etzer-priorities",
+        "etzer-account-facebook",
+        "etzer-account-instagram",
+        "etzer-account-tiktok",
+        "etzer-video-honey",
+        "etzer-video-newyear"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/etzer-emile.webp",
+        "source_url": "https://www.voteetzer.ht/presse",
+        "asset_url": "https://www.voteetzer.ht/img/hero-etzer-cravate-m.webp",
+        "credit": "Campagne Etzer Emile 2027",
+        "context": {
+          "ht": "Pòtrè sou sit kanpay aktyèl la",
+          "en": "Portrait on the current campaign website"
+        },
+        "reviewed_at": "2026-11-06",
+        "position": "50% 30%",
+        "reuse_basis": "Campaign press page permits editorial portrait use with Campagne Etzer Emile 2027 credit."
+      }
+    },
+    "c-a16d010ca47352d98607": {
+      "source_ids": [
+        "jude-biography"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/jude-elie.png",
+        "source_url": "https://judeelie.org/",
+        "asset_url": "https://judeelie.org/wp-content/uploads/2026/10/Jude-Elie-R.png",
+        "credit": "Jude Elie · judeelie.org",
+        "context": {
+          "ht": "Pòtrè sou sit kandida a; dat foto a pa presize",
+          "en": "Portrait on the candidate website; photograph date not stated"
+        },
+        "reviewed_at": "2026-11-06",
+        "position": "5% 50%",
+        "reuse_basis": "Candidate-posted portrait used to identify the public candidate, with original site credit; not sold or relicensed."
+      }
+    },
+    "c-c47f363b53dc5a6ea7ee": {
+      "source_ids": [
+        "barrau-juno7-priorities"
+      ]
+    },
+    "c-189004967c1e57878f7a": {
+      "source_ids": [
+        "tardieu-nouvelliste-filing",
+        "tardieu-campaign-release"
+      ]
+    }
+  }
+}

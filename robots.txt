@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.ayitisitwayen.org/sitemap.xml
+
+Sitemap: https://www.ayitisitwayen.org/sitemap-candidates.xml

@@ -1,0 +1,450 @@
+{
+  "brand": {
+    "ht": "Ayiti Sitwayen",
+    "en": "Ayiti Sitwayen"
+  },
+  "directory_title": {
+    "ht": "Kandida yo",
+    "en": "Candidates"
+  },
+  "heading": {
+    "ht": "Konnen moun ki vle reprezante w.",
+    "en": "Meet the people seeking your vote."
+  },
+  "intro": {
+    "ht": "Chèche yon non. Chwazi yon eleksyon. Louvri foto yon moun pou eksplore sous enfòmasyon ki konsène li.",
+    "en": "Search a name. Choose a race. Open a portrait to explore the sources about that person."
+  },
+  "election": {
+    "ht": "Eleksyon 2026–2027",
+    "en": "2026–2027 elections"
+  },
+  "elections": {
+    "ht": "Eleksyon",
+    "en": "Elections"
+  },
+  "education": {
+    "ht": "Edikasyon",
+    "en": "Education"
+  },
+  "about": {
+    "ht": "Konsènan",
+    "en": "About"
+  },
+  "search": {
+    "ht": "Chèche yon non, yon pati oswa yon lokalite",
+    "en": "Search a name, party or place"
+  },
+  "search_button": {
+    "ht": "Chèche",
+    "en": "Search"
+  },
+  "all": {
+    "ht": "Tout pòs yo",
+    "en": "All offices"
+  },
+  "president": {
+    "ht": "Prezidan",
+    "en": "President"
+  },
+  "senator": {
+    "ht": "Senatè",
+    "en": "Senator"
+  },
+  "deputy": {
+    "ht": "Depite",
+    "en": "Deputy"
+  },
+  "mayor": {
+    "ht": "Majistra",
+    "en": "Mayor"
+  },
+  "casec": {
+    "ht": "KASEK",
+    "en": "CASEC"
+  },
+  "asec": {
+    "ht": "ASEK",
+    "en": "ASEC"
+  },
+  "office": {
+    "ht": "Pòs",
+    "en": "Office"
+  },
+  "department": {
+    "ht": "Depatman",
+    "en": "Department"
+  },
+  "commune": {
+    "ht": "Komin / sikonskripsyon",
+    "en": "Commune / constituency"
+  },
+  "party": {
+    "ht": "Estrikti politik",
+    "en": "Political structure"
+  },
+  "all_departments": {
+    "ht": "Tout depatman yo",
+    "en": "All departments"
+  },
+  "all_communes": {
+    "ht": "Tout lokalite yo",
+    "en": "All places"
+  },
+  "all_parties": {
+    "ht": "Tout estrikti politik yo",
+    "en": "All political structures"
+  },
+  "clear": {
+    "ht": "Efase filtè yo",
+    "en": "Clear filters"
+  },
+  "preliminary": {
+    "ht": "Enskripsyon preliminè",
+    "en": "Preliminary registration"
+  },
+  "validated": {
+    "ht": "Kandidati KEP valide",
+    "en": "Validated by the CEP"
+  },
+  "withdrawn": {
+    "ht": "Kandidati retire",
+    "en": "Withdrawn"
+  },
+  "rejected": {
+    "ht": "Kandidati KEP rejte",
+    "en": "Rejected by the CEP"
+  },
+  "status": {
+    "ht": "Estati",
+    "en": "Status"
+  },
+  "all_statuses": {
+    "ht": "Tout estati yo",
+    "en": "All statuses"
+  },
+  "status_note": {
+    "ht": "KEP poko pibliye lis definitif kandida yo. Yon enskripsyon pa vle di KEP valide kandidati a.",
+    "en": "The CEP has not yet published the definitive candidate list. Registration does not mean a candidacy has been validated."
+  },
+  "snapshot": {
+    "ht": "Done piblik KEP yo te verifye nan dat",
+    "en": "Public CEP data checked on"
+  },
+  "records": {
+    "ht": "enskripsyon",
+    "en": "registrations"
+  },
+  "results": {
+    "ht": "rezilta",
+    "en": "results"
+  },
+  "view_web": {
+    "ht": "Eksplore twal enfòmasyon an",
+    "en": "Explore the information web"
+  },
+  "photo_pending": {
+    "ht": "Foto poko verifye",
+    "en": "Photo not yet verified"
+  },
+  "photo_credit": {
+    "ht": "Sous foto a",
+    "en": "Photo source"
+  },
+  "historical_photo": {
+    "ht": "Foto achiv",
+    "en": "Archive photo"
+  },
+  "current_photo": {
+    "ht": "Foto kanpay aktyèl la",
+    "en": "Current campaign photo"
+  },
+  "back": {
+    "ht": "Retounen nan lis la",
+    "en": "Back to candidates"
+  },
+  "previous": {
+    "ht": "Anvan",
+    "en": "Previous"
+  },
+  "next": {
+    "ht": "Apre",
+    "en": "Next"
+  },
+  "page": {
+    "ht": "Paj",
+    "en": "Page"
+  },
+  "of": {
+    "ht": "sou",
+    "en": "of"
+  },
+  "no_results": {
+    "ht": "Pa gen rezilta pou filtè sa yo. Eseye yon lòt non oswa efase filtè yo.",
+    "en": "No registrations match these filters. Try another name or clear the filters."
+  },
+  "load_error": {
+    "ht": "Nou pa rive chaje lis la. Eseye ankò oswa sèvi ak lis pa pòs yo anba a.",
+    "en": "We could not load the directory. Retry or use the office lists below."
+  },
+  "loading": {
+    "ht": "Lis la ap chaje…",
+    "en": "Loading candidates…"
+  },
+  "retry": {
+    "ht": "Eseye ankò",
+    "en": "Retry"
+  },
+  "browse_office": {
+    "ht": "Gade lis pa pòs yo",
+    "en": "Browse by office"
+  },
+  "browse_note": {
+    "ht": "Lis sa yo mache menm san JavaScript.",
+    "en": "These lists work even without JavaScript."
+  },
+  "national": {
+    "ht": "Tout peyi a",
+    "en": "Nationwide"
+  },
+  "titulaire": {
+    "ht": "Titilè",
+    "en": "Lead candidate"
+  },
+  "first_deputy": {
+    "ht": "Premye adjwen",
+    "en": "First running mate"
+  },
+  "second_deputy": {
+    "ht": "Dezyèm adjwen",
+    "en": "Second running mate"
+  },
+  "position": {
+    "ht": "Pozisyon",
+    "en": "Position"
+  },
+  "place": {
+    "ht": "Lokalite",
+    "en": "Place"
+  },
+  "the_web": {
+    "ht": "Twal enfòmasyon an",
+    "en": "The information web"
+  },
+  "web_hint": {
+    "ht": "Pase sourit la, sèvi ak klavye a oswa peze yon pwen sou twal la.",
+    "en": "Hover, use your keyboard or tap a point on the web."
+  },
+  "web_label": {
+    "ht": "Twal sous enfòmasyon sou moun sa a",
+    "en": "Web of sources about this person"
+  },
+  "articles": {
+    "ht": "Atik",
+    "en": "Articles"
+  },
+  "videos": {
+    "ht": "Videyo",
+    "en": "Videos"
+  },
+  "interviews": {
+    "ht": "Antretyen",
+    "en": "Interviews"
+  },
+  "campaign": {
+    "ht": "Kanpay",
+    "en": "Campaign"
+  },
+  "public_records": {
+    "ht": "Dosye piblik",
+    "en": "Public records"
+  },
+  "social": {
+    "ht": "Rezo sosyal",
+    "en": "Social posts"
+  },
+  "positions": {
+    "ht": "Pozisyon",
+    "en": "Positions"
+  },
+  "history": {
+    "ht": "Pakou",
+    "en": "Background"
+  },
+  "source": {
+    "ht": "Sous",
+    "en": "Source"
+  },
+  "sources": {
+    "ht": "sous",
+    "en": "sources"
+  },
+  "publisher": {
+    "ht": "Piblikatè",
+    "en": "Publisher"
+  },
+  "published": {
+    "ht": "Pibliye",
+    "en": "Published"
+  },
+  "reviewed": {
+    "ht": "Revize",
+    "en": "Reviewed"
+  },
+  "date_unknown": {
+    "ht": "Dat piblikasyon pa presize",
+    "en": "Publication date not stated"
+  },
+  "source_type": {
+    "ht": "Kalite sous",
+    "en": "Source type"
+  },
+  "journalism": {
+    "ht": "Travay jounalis",
+    "en": "Journalism"
+  },
+  "official": {
+    "ht": "Dosye ofisyèl",
+    "en": "Official record"
+  },
+  "campaign_source": {
+    "ht": "Deklarasyon kanpay",
+    "en": "Campaign statement"
+  },
+  "social_source": {
+    "ht": "Piblikasyon piblik sou rezo sosyal",
+    "en": "Public social post"
+  },
+  "opinion": {
+    "ht": "Opinyon moun nan",
+    "en": "Candidate commentary"
+  },
+  "follow": {
+    "ht": "Swiv fil sa a",
+    "en": "Follow this strand"
+  },
+  "topics": {
+    "ht": "Retounen nan sijè yo",
+    "en": "Back to topics"
+  },
+  "archive": {
+    "ht": "Tout sous yo",
+    "en": "All sources"
+  },
+  "timeline": {
+    "ht": "Lòd pa dat",
+    "en": "Timeline"
+  },
+  "newest": {
+    "ht": "Pi resan yo an premye",
+    "en": "Newest first"
+  },
+  "oldest": {
+    "ht": "Pi ansyen yo an premye",
+    "en": "Oldest first"
+  },
+  "all_types": {
+    "ht": "Tout kalite sous yo",
+    "en": "All source types"
+  },
+  "no_sources": {
+    "ht": "Nou poko ajoute sous revize nan kategori sa a.",
+    "en": "No reviewed sources have been added to this category yet."
+  },
+  "coverage": {
+    "ht": "Achiv sa a ap grandi. Li pa gen tout sa ki te janm pibliye sou moun nan. Kantite sous yo montre travay rechèch nou, li pa yon nòt sou moun nan.",
+    "en": "This archive is growing. It does not contain everything ever published about this person. Source counts describe our research, not a score for the person."
+  },
+  "preview_empty": {
+    "ht": "Chwazi yon fil pou dekouvri sous yo.",
+    "en": "Choose a strand to discover the sources."
+  },
+  "preview_hint": {
+    "ht": "Chak sous gen non piblikatè li, dat li ak yon rezime. Peze Escape pou fèmen apèsi a.",
+    "en": "Every source includes its publisher, date and a summary. Press Escape to close the preview."
+  },
+  "close_preview": {
+    "ht": "Fèmen apèsi a",
+    "en": "Close preview"
+  },
+  "original": {
+    "ht": "Louvri sous la",
+    "en": "Open original source"
+  },
+  "play": {
+    "ht": "Gade videyo a",
+    "en": "Watch video"
+  },
+  "no_autoplay": {
+    "ht": "Videyo a ap chaje sèlman lè ou chwazi gade li.",
+    "en": "The video loads only when you choose to watch it."
+  },
+  "registry_title": {
+    "ht": "Enskripsyon piblik nan KEP",
+    "en": "Public CEP registration"
+  },
+  "registry_summary": {
+    "ht": "Non sa a parèt nan done piblik enskripsyon KEP pou eleksyon 2026–2027 yo. Done sa yo preliminè; yo pa konfime KEP valide kandidati a.",
+    "en": "This name appears in the CEP's public registration data for the 2026–2027 elections. These data are preliminary and do not establish a validated candidacy."
+  },
+  "native_record": {
+    "ht": "Enfòmasyon ki nan dosye a parèt anlè paj sa a. Sous: KEP / CEP.",
+    "en": "The registration details appear at the top of this page. Source: KEP / CEP."
+  },
+  "correction": {
+    "ht": "Siyale yon erè oswa pwopoze yon sous",
+    "en": "Report an error or suggest a source"
+  },
+  "independent": {
+    "ht": "Yon pwojè endepandan pou edikasyon sivik",
+    "en": "An independent civic education project"
+  },
+  "learn": {
+    "ht": "Konprann enskripsyon ak validasyon kandida",
+    "en": "Understand registration and candidate validation"
+  },
+  "featured_title": {
+    "ht": "Ki moun ki vle reprezante w?",
+    "en": "Who wants to represent you?"
+  },
+  "featured_text": {
+    "ht": "Chèche moun ki enskri pou prezidan, senatè, depite ak pòs lokal yo. Louvri pwofil yo pou eksplore sous enfòmasyon sou yo.",
+    "en": "Find registrations for president, senate, deputy and local offices. Open a profile to explore the sources about each person."
+  },
+  "open_directory": {
+    "ht": "Chèche kandida yo",
+    "en": "Explore candidates"
+  },
+  "skip": {
+    "ht": "Ale dirèk nan kontni an",
+    "en": "Skip to main content"
+  },
+  "menu": {
+    "ht": "Meni navigasyon",
+    "en": "Navigation menu"
+  },
+  "share": {
+    "ht": "Kopye lyen pwofil la",
+    "en": "Copy profile link"
+  },
+  "copied": {
+    "ht": "Lyen an kopye",
+    "en": "Link copied"
+  },
+  "copy_failed": {
+    "ht": "Ou ka kopye adrès paj la nan navigatè a.",
+    "en": "You can copy the page address from your browser."
+  },
+  "stale": {
+    "ht": "Done sa yo bezwen yon lòt revizyon. Gade dat ki endike anlè a.",
+    "en": "These records need another review. Check the snapshot date above."
+  },
+  "more_filters": {
+    "ht": "Plis filtè",
+    "en": "More filters"
+  },
+  "fewer_filters": {
+    "ht": "Mwens filtè",
+    "en": "Fewer filters"
+  }
+}
