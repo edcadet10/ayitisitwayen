@@ -71,9 +71,19 @@ The candidate directory lives at `/candidates/` and `/en/candidates/`. The older
 links prominently to the directory. White is the main color throughout the
 directory, profiles and spider webs.
 
-`data/candidates/registry.json` is the reviewed snapshot of 8,990 public CEP
-registrations captured on 6 November 2026. Totals reconcile across president,
-senate, deputy, mayor, CASEC and ASEC, and there are no identical source rows.
+`data/candidates/registry.json` is the reviewed snapshot of 10,710 public CEP
+registrations captured on 14 November 2026: 32 president, 470 senate, 1,664 deputy,
+2,551 mayor, 3,574 CASEC and 2,419 ASEC. Totals reconcile across all six offices,
+and there are no identical source rows. The preceding 6 November snapshot held
+8,990 registrations. The update adds 1,827 newly observed registrations, applies
+28 reviewed one-field corrections using their existing IDs, and retains 107
+earlier registrations that were not found in the latest source. Retained entries
+keep their original profile URLs, last-observed date and preliminary status,
+with an explicit absence notice. They are excluded from current search catalogs
+and office totals; absence is not a withdrawal or rejection decision. See
+`editorial/candidate-registry-review-2026-11-14.json` for source hashes, counts,
+reviewed corrections and the identity policy. New entries initially have the
+reviewed CEP registration source; existing enrichment and portraits are preserved.
 All are labeled preliminary. Source records do not contain portraits or stable
 IDs. Persistent registration IDs were assigned once and saved; never recompute
 them when a name, party or locality changes. Reconcile changed rows manually.

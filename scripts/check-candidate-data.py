@@ -22,6 +22,35 @@ class CandidateDataChecks(unittest.TestCase):
         sources=builder.sources_for(person,self.registry,self.enrichment)
         self.assertTrue(sources[0]['native'])
         self.assertIn('preliminary',sources[0]['summary']['en'])
+    def test_retained_registrations_keep_last_observed_dates(self):
+        retained=self.registry.get('retained_candidates',[])
+        self.assertTrue(retained)
+        current_ids={p['id'] for p in self.registry['candidates']}
+        current_fingerprints={p['source_fingerprint'] for p in self.registry['candidates']}
+        for person in retained:
+            self.assertNotIn(person['id'],current_ids)
+            self.assertNotIn(person['source_fingerprint'],current_fingerprints)
+            self.assertEqual(person['status'],'preliminary')
+            self.assertLess(person['last_observed_at'],person['not_observed_at'])
+            source=builder.sources_for(person,self.registry,self.enrichment)[0]
+            self.assertEqual(source['reviewed_at'],person['last_observed_at'])
+            for lang in ['ht','en']:
+                self.assertIn(person['last_observed_at'],source['summary'][lang])
+                self.assertIn(person['not_observed_at'],source['summary'][lang])
+    def test_current_catalog_excludes_retained_registrations(self):
+        path,content=next(builder.outputs(self.registry,self.enrichment))
+        self.assertEqual(path.name,'catalog.json')
+        catalog=json.loads(content)
+        self.assertEqual(len(catalog['candidates']),self.registry['total'])
+        self.assertEqual({p['id'] for p in catalog['candidates']},{p['id'] for p in self.registry['candidates']})
+        self.assertFalse({p['id'] for p in self.registry.get('retained_candidates',[])} & {p['id'] for p in catalog['candidates']})
+    def test_retained_profiles_keep_bilingual_urls_and_absence_notice(self):
+        person=self.registry['retained_candidates'][0]
+        for lang in ['ht','en']:
+            html=builder.profile_page(lang,person,self.registry,self.enrichment)
+            self.assertIn('candidate-retained-note',html)
+            self.assertIn(f'<time datetime="{person["last_observed_at"]}">{person["last_observed_at"]}</time>',html)
+            for other in ['ht','en']:self.assertIn(builder.profile_url(person,other),html)
     def test_exact_names_preserved_and_not_merged(self):
         for person in self.registry['candidates']:
             self.assertEqual(person['name'],person['given_name']+' '+person['surname'])

@@ -662,5 +662,13 @@
   "format_document": {
     "ht": "Dokiman",
     "en": "Document"
+  },
+  "not_observed_note": {
+    "ht": "Enskripsyon sa a pa parèt nan done KEP nou te revize yo nan dat {reviewed_at}. Dènye fwa nou te jwenn enfòmasyon ki anba yo se te nan dat {last_observed_at}. Sa pa vle di moun nan retire kandidati li oswa KEP rejte li.",
+    "en": "This registration was not found in the CEP snapshot reviewed on {reviewed_at}. The details below were last observed on {last_observed_at}. This does not establish withdrawal or rejection."
+  },
+  "last_observed": {
+    "ht": "Dènye fwa nou te jwenn enskripsyon an nan done KEP yo:",
+    "en": "Last observed in CEP data:"
   }
 }

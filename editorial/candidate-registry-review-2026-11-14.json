@@ -1,0 +1,1102 @@
+{
+  "reviewed_at": "2026-11-14",
+  "source_url": "https://tableau.cephaiti.ht/",
+  "retrieved_at": "2026-11-15T02:32:33.681899+00:00",
+  "source_generated_at": "2026-11-15T02:31:06.4176125Z",
+  "source_sha256": "cc6aa93afa334e90863e4347b5cf83058171ada3e168f689afa77c2f60fd9873",
+  "previous_total": 8990,
+  "current_total": 10710,
+  "net_change": 1720,
+  "new_registrations": 1827,
+  "new_by_office": {
+    "asec": 450,
+    "casec": 568,
+    "deputy": 262,
+    "mayor": 460,
+    "senator": 76,
+    "president": 11
+  },
+  "office_counts": {
+    "asec": 2419,
+    "casec": 3574,
+    "mayor": 2551,
+    "deputy": 1664,
+    "senator": 470,
+    "president": 32
+  },
+  "unchanged_registrations": 8855,
+  "reviewed_corrections": [
+    {
+      "id": "c-041fe5a4713a51aea709",
+      "name": "DIEUNOU ALTEMA",
+      "changed_field": "structure",
+      "before": {
+        "nom": "ALTEMA",
+        "prenom": "DIEUNOU",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "DEBLOKE",
+        "localite": [
+          "OUEST",
+          "PÉTION-VILLE"
+        ]
+      },
+      "after": {
+        "nom": "ALTEMA",
+        "prenom": "DIEUNOU",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "LAPEH.",
+        "localite": [
+          "OUEST",
+          "PÉTION-VILLE"
+        ]
+      },
+      "before_fingerprint": "45219b770f3f3fdac6517b3831f649a9416b53322167b26fd870c7c437b9f847",
+      "after_fingerprint": "0324c3d4e24caaa0711f7462a1b65054ec210477ecb35a3a49d370d6c566d755",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-83218a5d1c43515a92d1",
+      "name": "CAMIL BEAUVOIR",
+      "changed_field": "structure",
+      "before": {
+        "nom": "BEAUVOIR",
+        "prenom": "CAMIL",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "ENA",
+        "localite": [
+          "NIPPES"
+        ]
+      },
+      "after": {
+        "nom": "BEAUVOIR",
+        "prenom": "CAMIL",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "ANF",
+        "localite": [
+          "NIPPES"
+        ]
+      },
+      "before_fingerprint": "fd347991d391a7f68a219d341d88f5118aba5f26adbbe3913819ecc1cec59a61",
+      "after_fingerprint": "1cfc7140c5f285a1b2e1d8fedb6444f6c353410816f0f9ff12dace8ac0bc006d",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-8228e7083dc857d58e2e",
+      "name": "JEAN-REMOND BELIZAIRE",
+      "changed_field": "structure",
+      "before": {
+        "nom": "BELIZAIRE",
+        "prenom": "JEAN-REMOND",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "PPGA",
+        "localite": [
+          "CENTRE"
+        ]
+      },
+      "after": {
+        "nom": "BELIZAIRE",
+        "prenom": "JEAN-REMOND",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "MPH",
+        "localite": [
+          "CENTRE"
+        ]
+      },
+      "before_fingerprint": "92b2070f70fb2f2a4e7725b3af02d54abd0b78fcbd110b7bf2b66d4a06671432",
+      "after_fingerprint": "7db745c1f47b334b4a8252734189cedfe49b139baf305d1d9b222cdf966a0661",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-55018c09154859b58fb0",
+      "name": "ROLIN BENOIT",
+      "changed_field": "structure",
+      "before": {
+        "nom": "BENOIT",
+        "prenom": "ROLIN",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "RPPD",
+        "localite": [
+          "NORD-EST",
+          "FORT-LIBERTÉ"
+        ]
+      },
+      "after": {
+        "nom": "BENOIT",
+        "prenom": "ROLIN",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "DELIVRANS",
+        "localite": [
+          "NORD-EST",
+          "FORT-LIBERTÉ"
+        ]
+      },
+      "before_fingerprint": "67fb281852d751a865e55eedb8e0dfbda322501a113dc6f3886a265865035303",
+      "after_fingerprint": "62d9f6da645af6c98c26e8a6822a03be6ef5d3f3edf6cd929f492c55f7c8d5fe",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-15977c044e07522da39d",
+      "name": "EDWINE BLAISE",
+      "changed_field": "structure",
+      "before": {
+        "nom": "BLAISE",
+        "prenom": "EDWINE",
+        "sexe": "F",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "DEBLOKE",
+        "localite": [
+          "OUEST"
+        ]
+      },
+      "after": {
+        "nom": "BLAISE",
+        "prenom": "EDWINE",
+        "sexe": "F",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "MTH",
+        "localite": [
+          "OUEST"
+        ]
+      },
+      "before_fingerprint": "0aabf351fad38818f78614aef3f220456a615e53e634fe8f2a046d19469d00db",
+      "after_fingerprint": "83b7307dd8b049737deb2aea384f8392610b01549d32dfe823ae6265a29c712d",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-45372ce82a5e55b8bfe4",
+      "name": "GILLES PIERRISSAINT DELATOUR",
+      "changed_field": "structure",
+      "before": {
+        "nom": "DELATOUR",
+        "prenom": "GILLES PIERRISSAINT",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "VIKTWA",
+        "localite": [
+          "NIPPES"
+        ]
+      },
+      "after": {
+        "nom": "DELATOUR",
+        "prenom": "GILLES PIERRISSAINT",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "AYITI TRANSFOME",
+        "localite": [
+          "NIPPES"
+        ]
+      },
+      "before_fingerprint": "f5acd1d3f8be5394100f43e8498f902368052df809ba49741e156f2e30077a2b",
+      "after_fingerprint": "459c761a2c9c6f4da02ae06024a0e9b82ba07ece9c2ba7a6b81642dc070b88c4",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-df88c113cee950a99b96",
+      "name": "LESLY GRANDIN",
+      "changed_field": "structure",
+      "before": {
+        "nom": "GRANDIN",
+        "prenom": "LESLY",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "RPPD",
+        "localite": [
+          "CENTRE",
+          "BELLADÈRE"
+        ]
+      },
+      "after": {
+        "nom": "GRANDIN",
+        "prenom": "LESLY",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "MTH",
+        "localite": [
+          "CENTRE",
+          "BELLADÈRE"
+        ]
+      },
+      "before_fingerprint": "2ca0c3cf3e0eeb4e3d9ee62598b5d7dc2052a4d2c80e50c0150c36108f7d6e23",
+      "after_fingerprint": "750ad36e19d3f624fb0c88823c5a89ffdffb45a02ee9c6eee69fc0933112e6bf",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-487349c7aaca5d6bb4b5",
+      "name": "LEKENDY MARCELLUS",
+      "changed_field": "structure",
+      "before": {
+        "nom": "MARCELLUS",
+        "prenom": "LEKENDY",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "PFSDH",
+        "localite": [
+          "NORD",
+          "SAINT-RAPHAËL"
+        ]
+      },
+      "after": {
+        "nom": "MARCELLUS",
+        "prenom": "LEKENDY",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "FCN",
+        "localite": [
+          "NORD",
+          "SAINT-RAPHAËL"
+        ]
+      },
+      "before_fingerprint": "fb04206758d49f3fe766bffa2c2dd0ce59a335451280bca9a2c580ca54b44702",
+      "after_fingerprint": "13d918a6f78d48c4a28877683b1db2235e8615ec84edb720d0c87503d7c455eb",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-8038d8ea4f1552d68e97",
+      "name": "JEAN EVENS NOEL",
+      "changed_field": "structure",
+      "before": {
+        "nom": "NOEL",
+        "prenom": "JEAN EVENS",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "EAPH",
+        "localite": [
+          "SUD-EST"
+        ]
+      },
+      "after": {
+        "nom": "NOEL",
+        "prenom": "JEAN EVENS",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "VIKTWA",
+        "localite": [
+          "SUD-EST"
+        ]
+      },
+      "before_fingerprint": "61236cba1a21c7ac1a44ac176e5c2a91150ac2f1d222480b74a4d032fb501419",
+      "after_fingerprint": "7c7d701b88bda7e6e9a0de15f265984cc7fabf119adf39eccd18be81550a37ce",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-3bb67b36db1a5942be64",
+      "name": "ROBINSON OMMILUS",
+      "changed_field": "structure",
+      "before": {
+        "nom": "OMMILUS",
+        "prenom": "ROBINSON",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "ENA",
+        "localite": [
+          "NIPPES",
+          "MIRAGOÂNE"
+        ]
+      },
+      "after": {
+        "nom": "OMMILUS",
+        "prenom": "ROBINSON",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "RPPD",
+        "localite": [
+          "NIPPES",
+          "MIRAGOÂNE"
+        ]
+      },
+      "before_fingerprint": "31fb5774a23b099c4f134b3f08a8545fd1ea621b1726b13b284b882f5669c908",
+      "after_fingerprint": "afe8cc2a8e04b016b8ecf4246e457aabb5363f8c5afc563b0fc740747d9feba4",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-ca0a7b993d135fa793c8",
+      "name": "LUCIEN PIERRE",
+      "changed_field": "structure",
+      "before": {
+        "nom": "PIERRE",
+        "prenom": "LUCIEN",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "ENA",
+        "localite": [
+          "ARTIBONITE"
+        ]
+      },
+      "after": {
+        "nom": "PIERRE",
+        "prenom": "LUCIEN",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "UNIR AYITI INI",
+        "localite": [
+          "ARTIBONITE"
+        ]
+      },
+      "before_fingerprint": "01f5132397afa51b3bd2f9f6b3929000cbd84cfa3bc5c5dedfc18b4fa5eacabe",
+      "after_fingerprint": "b12f2b95fe520daec922dd25ea367c8c6011ff94ef752fdf907a7749a8d09d6e",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-3c365f5049055c4492c0",
+      "name": "WALKI PIERRE",
+      "changed_field": "structure",
+      "before": {
+        "nom": "PIERRE",
+        "prenom": "WALKI",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "MTH",
+        "localite": [
+          "NORD",
+          "PLAISANCE"
+        ]
+      },
+      "after": {
+        "nom": "PIERRE",
+        "prenom": "WALKI",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "VIKTWA",
+        "localite": [
+          "NORD",
+          "PLAISANCE"
+        ]
+      },
+      "before_fingerprint": "dba39c2b985b837370e0152c12164b544bd8a86dc60f2e6e64d881210bc841ec",
+      "after_fingerprint": "391684e7abae520cdeb8d387ead1d8c98ea51e1bd2b163009877e8ed83eabb43",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-327a1f6b866157d7ba50",
+      "name": "JACKSON PRESNA",
+      "changed_field": "structure",
+      "before": {
+        "nom": "PRESNA",
+        "prenom": "JACKSON",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "ENA",
+        "localite": [
+          "NIPPES",
+          "PAILLANT"
+        ]
+      },
+      "after": {
+        "nom": "PRESNA",
+        "prenom": "JACKSON",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "ANF",
+        "localite": [
+          "NIPPES",
+          "PAILLANT"
+        ]
+      },
+      "before_fingerprint": "d090e5ad59a4c5f918564e50357dca2d097c3c5c7065c4eb1873569ce1463979",
+      "after_fingerprint": "ecfefdc36421fc0bc9e1e7ac8f2feb9bf55b55410635e95a30442f56afd3b6f7",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-acefefa8e48b56cc8b45",
+      "name": "JEAN DANIEL SAMEDI",
+      "changed_field": "structure",
+      "before": {
+        "nom": "SAMEDI",
+        "prenom": "JEAN DANIEL",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "SOL AYITI",
+        "localite": [
+          "GRAND'ANSE"
+        ]
+      },
+      "after": {
+        "nom": "SAMEDI",
+        "prenom": "JEAN DANIEL",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "PVD",
+        "localite": [
+          "GRAND'ANSE"
+        ]
+      },
+      "before_fingerprint": "1f859e14b4706c85d45cc8863b55c9e9757ba1cc4d8f6a94cd52cc4623da8fc5",
+      "after_fingerprint": "7a2f806206776e022c77a62ba4c29835feeb08a7aed3be22f195b215e70cbbea",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-0d3d7dfb91c35548a9ae",
+      "name": "VLADIMIR JASMIN BASTIEN",
+      "changed_field": "localite",
+      "before": {
+        "nom": "BASTIEN",
+        "prenom": "VLADIMIR JASMIN",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "MYEL",
+        "localite": [
+          "OUEST",
+          "PORT-AU-PRINCE 2"
+        ]
+      },
+      "after": {
+        "nom": "BASTIEN",
+        "prenom": "VLADIMIR JASMIN",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "MYEL",
+        "localite": [
+          "OUEST",
+          "PÉTION-VILLE"
+        ]
+      },
+      "before_fingerprint": "578b58482b08285a6af64605b6190f7cbf522e5496d7ae8f01738b494fabe45c",
+      "after_fingerprint": "ccf4748060dd82bdf4f6fb13758485bd31a27913956409131916ad18ea793ca9",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-9e4a9aff23e957698bee",
+      "name": "NADEGE NOEL GUILLAUME",
+      "changed_field": "localite",
+      "before": {
+        "nom": "GUILLAUME",
+        "prenom": "NADEGE NOEL",
+        "sexe": "F",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "PVD",
+        "localite": [
+          "OUEST",
+          "PORT-AU-PRINCE 1"
+        ]
+      },
+      "after": {
+        "nom": "GUILLAUME",
+        "prenom": "NADEGE NOEL",
+        "sexe": "F",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "PVD",
+        "localite": [
+          "OUEST",
+          "CITÉ SOLEIL"
+        ]
+      },
+      "before_fingerprint": "a4a7ca451baa642cf8eec51f358be4f56db48a3173feeedfa9be9442d5c25037",
+      "after_fingerprint": "b5f73194854f2e954fd0b4243c8b1b9beae98b3cce8113f9ba816611f487f438",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-38d985711c6650548f73",
+      "name": "JOALA MICHAUD",
+      "changed_field": "localite",
+      "before": {
+        "nom": "MICHAUD",
+        "prenom": "JOALA",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "PFSDH",
+        "localite": [
+          "ARTIBONITE",
+          "GRANDE-SALINE"
+        ]
+      },
+      "after": {
+        "nom": "MICHAUD",
+        "prenom": "JOALA",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "PFSDH",
+        "localite": [
+          "ARTIBONITE",
+          "GONAÏVES"
+        ]
+      },
+      "before_fingerprint": "534d9a136dd64f79e531c09d3edcaa0d3760587cbbef41133b8e471c1d995190",
+      "after_fingerprint": "14e93e08cd15afc2a32cf5566984b1e0e7c012be4e5aa67bbdc8f3962e3042c7",
+      "basis": "One reviewed field changed; every other source field agrees exactly and the full context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-fd19e9e3fe7e5877b702",
+      "name": "MICHELOR ALADIN",
+      "changed_field": "position",
+      "before": {
+        "nom": "ALADIN",
+        "prenom": "MICHELOR",
+        "sexe": "M",
+        "poste": "CASEC",
+        "position": "Titulaire",
+        "structure": "MPH",
+        "localite": [
+          "SUD",
+          "CHANTAL",
+          "1ère Section Fond-Palmiste"
+        ]
+      },
+      "after": {
+        "nom": "ALADIN",
+        "prenom": "MICHELOR",
+        "sexe": "M",
+        "poste": "CASEC",
+        "position": "1er Adjoint",
+        "structure": "MPH",
+        "localite": [
+          "SUD",
+          "CHANTAL",
+          "1ère Section Fond-Palmiste"
+        ]
+      },
+      "before_fingerprint": "d6b578a8440721d846712da7ecd9530c5a4ca25b420789aae29304de070f982b",
+      "after_fingerprint": "d8fa199b60e97dfdc77a0cdfa3e5c33894e2f362dc29a63e951af71d5da80cde",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-7f1cd8745da0505cb175",
+      "name": "LUCKSONN CADELY",
+      "changed_field": "position",
+      "before": {
+        "nom": "CADELY",
+        "prenom": "LUCKSONN",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "2ème Adjoint",
+        "structure": "EDE",
+        "localite": [
+          "SUD",
+          "MANICHE"
+        ]
+      },
+      "after": {
+        "nom": "CADELY",
+        "prenom": "LUCKSONN",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "1er Adjoint",
+        "structure": "EDE",
+        "localite": [
+          "SUD",
+          "MANICHE"
+        ]
+      },
+      "before_fingerprint": "928ddb0c1bdc282926212013ee8322bf825a7ab4a42c529460bbf6e441f89147",
+      "after_fingerprint": "3914c887b29ce1ca30b0350aed4695707e76de2eb59e31141680858dc96649d7",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-90b8c19f9c9f50e6b5d3",
+      "name": "IFRANDIEU CLERMONVIL",
+      "changed_field": "position",
+      "before": {
+        "nom": "CLERMONVIL",
+        "prenom": "IFRANDIEU",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "MYEL",
+        "localite": [
+          "NORD-OUEST",
+          "LA TORTUE"
+        ]
+      },
+      "after": {
+        "nom": "CLERMONVIL",
+        "prenom": "IFRANDIEU",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "1er Adjoint",
+        "structure": "MYEL",
+        "localite": [
+          "NORD-OUEST",
+          "LA TORTUE"
+        ]
+      },
+      "before_fingerprint": "8e4f8893aa7f2d52bbb405e5c6ddbb6ac70424832cb2313db0db172beb1066ac",
+      "after_fingerprint": "6b87206f2815e2aac798a034f096d3c19c782a55f5c675927ae12675ee82a8da",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-f4cbd908a3b850bd80f7",
+      "name": "CLAUDIUS DEMELLIEN",
+      "changed_field": "position",
+      "before": {
+        "nom": "DEMELLIEN",
+        "prenom": "CLAUDIUS",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "1er Adjoint",
+        "structure": "MYEL",
+        "localite": [
+          "NORD-OUEST",
+          "LA TORTUE"
+        ]
+      },
+      "after": {
+        "nom": "DEMELLIEN",
+        "prenom": "CLAUDIUS",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "MYEL",
+        "localite": [
+          "NORD-OUEST",
+          "LA TORTUE"
+        ]
+      },
+      "before_fingerprint": "1cb09ea6e72751439f8798509c19d2fdc7fa4242321936a0097d58d8cac46162",
+      "after_fingerprint": "269990274d156c0e8379e4be9b5895ba1584544fe6f290a318da6482bb409d9a",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-33c16cb6199f5e8f8264",
+      "name": "BERGENA LAGUERRE",
+      "changed_field": "position",
+      "before": {
+        "nom": "LAGUERRE",
+        "prenom": "BERGENA",
+        "sexe": "F",
+        "poste": "ASEC",
+        "position": "1er Adjoint",
+        "structure": "CHA",
+        "localite": [
+          "OUEST",
+          "PORT-AU-PRINCE",
+          "1ère Section Turgeau"
+        ]
+      },
+      "after": {
+        "nom": "LAGUERRE",
+        "prenom": "BERGENA",
+        "sexe": "F",
+        "poste": "ASEC",
+        "position": "Titulaire",
+        "structure": "CHA",
+        "localite": [
+          "OUEST",
+          "PORT-AU-PRINCE",
+          "1ère Section Turgeau"
+        ]
+      },
+      "before_fingerprint": "27ba2ae0336787d007fcdccb1706eb858883401cf438c319d57334b6f40e13ce",
+      "after_fingerprint": "45f346aa39b3e9e12895c214767b980010e6ad29d03f25e0f040a1ce332596d8",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-51b861a82ac1537c8f3d",
+      "name": "EDLINE LEXY",
+      "changed_field": "position",
+      "before": {
+        "nom": "LEXY",
+        "prenom": "EDLINE",
+        "sexe": "F",
+        "poste": "ASEC",
+        "position": "5ème Adjoint",
+        "structure": "DEBLOKE",
+        "localite": [
+          "OUEST",
+          "CITÉ SOLEIL",
+          "1ère Section Varreux"
+        ]
+      },
+      "after": {
+        "nom": "LEXY",
+        "prenom": "EDLINE",
+        "sexe": "F",
+        "poste": "ASEC",
+        "position": "Titulaire",
+        "structure": "DEBLOKE",
+        "localite": [
+          "OUEST",
+          "CITÉ SOLEIL",
+          "1ère Section Varreux"
+        ]
+      },
+      "before_fingerprint": "729b552d450354ef9b4b6fa53d12ca4bd2794fa5cb855d0c2542110dfa057318",
+      "after_fingerprint": "ba0945e2e82548d605072c4ede9850d831fa22718ebb39ccb17da580808855aa",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-5bd32ee806d85c1baf7b",
+      "name": "JUDELAINE SAINTILMON",
+      "changed_field": "position",
+      "before": {
+        "nom": "SAINTILMON",
+        "prenom": "JUDELAINE",
+        "sexe": "F",
+        "poste": "CASEC",
+        "position": "2ème Adjoint",
+        "structure": "DEBLOKE",
+        "localite": [
+          "NORD-EST",
+          "CAPOTILLE",
+          "1ère Section de Capotille"
+        ]
+      },
+      "after": {
+        "nom": "SAINTILMON",
+        "prenom": "JUDELAINE",
+        "sexe": "F",
+        "poste": "CASEC",
+        "position": "1er Adjoint",
+        "structure": "DEBLOKE",
+        "localite": [
+          "NORD-EST",
+          "CAPOTILLE",
+          "1ère Section de Capotille"
+        ]
+      },
+      "before_fingerprint": "c9375c9bc97679964e98c33d8aa646abac990cbf5059baec0f0f8b78f7a05804",
+      "after_fingerprint": "4727bb9a2f600d49a7af456f2b4d9ec3eb8d180ad88614540434f62ab772ebd3",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-96574ac966ff516194a4",
+      "name": "MIRADIEU THEZAN",
+      "changed_field": "position",
+      "before": {
+        "nom": "THEZAN",
+        "prenom": "MIRADIEU",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "CHA",
+        "localite": [
+          "CENTRE",
+          "MIREBALAIS"
+        ]
+      },
+      "after": {
+        "nom": "THEZAN",
+        "prenom": "MIRADIEU",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "1er Adjoint",
+        "structure": "CHA",
+        "localite": [
+          "CENTRE",
+          "MIREBALAIS"
+        ]
+      },
+      "before_fingerprint": "1a5ae6f0caef3a6f8a43d1c2aceb120192c23d4d7b0a0d9069cb4ec4864a44c4",
+      "after_fingerprint": "1a8918d41b37002beaed717db22c1d63eef5373664a8ec151237ae58a415b082",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-d765a30a9eaa59958cde",
+      "name": "FABRICE THYS",
+      "changed_field": "position",
+      "before": {
+        "nom": "THYS",
+        "prenom": "FABRICE",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "1er Adjoint",
+        "structure": "EDE",
+        "localite": [
+          "SUD",
+          "MANICHE"
+        ]
+      },
+      "after": {
+        "nom": "THYS",
+        "prenom": "FABRICE",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "EDE",
+        "localite": [
+          "SUD",
+          "MANICHE"
+        ]
+      },
+      "before_fingerprint": "657f722f22960b19188fd9fbe28bd1115862e69a9afd300913651763cef8d819",
+      "after_fingerprint": "f51654dacb575e8b549b364200c374988ba3e34dc276c2db96fae2a316c92dfd",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-d0fd368774d2538c81e5",
+      "name": "ROLEX TILUS",
+      "changed_field": "position",
+      "before": {
+        "nom": "TILUS",
+        "prenom": "ROLEX",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "1er Adjoint",
+        "structure": "DEBLOKE",
+        "localite": [
+          "NORD",
+          "LIMBÉ"
+        ]
+      },
+      "after": {
+        "nom": "TILUS",
+        "prenom": "ROLEX",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "DEBLOKE",
+        "localite": [
+          "NORD",
+          "LIMBÉ"
+        ]
+      },
+      "before_fingerprint": "07f119cb2026b56bc2952e2893d7d0f4bbb8c60bcd6977462e97f5a9dc84356f",
+      "after_fingerprint": "ac70ac6efaaded427e25ec894abb8db8df381c1d84f74ca83561a84b86ac602e",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    },
+    {
+      "id": "c-52ab77b1380c505aadd8",
+      "name": "JUDITH VITAL",
+      "changed_field": "position",
+      "before": {
+        "nom": "VITAL",
+        "prenom": "JUDITH",
+        "sexe": "F",
+        "poste": "Maire",
+        "position": "2ème Adjoint",
+        "structure": "PVD",
+        "localite": [
+          "GRAND'ANSE",
+          "JÉRÉMIE"
+        ]
+      },
+      "after": {
+        "nom": "VITAL",
+        "prenom": "JUDITH",
+        "sexe": "F",
+        "poste": "Maire",
+        "position": "1er Adjoint",
+        "structure": "PVD",
+        "localite": [
+          "GRAND'ANSE",
+          "JÉRÉMIE"
+        ]
+      },
+      "before_fingerprint": "d2f17170413609f3876e463ee9209c19352ff9ed29d2ed45bb1bb5cba1d4b3ff",
+      "after_fingerprint": "70a26cfe2718a2482049143a5141366b8abbe4353c62a5f6560539de3b37a0da",
+      "basis": "Reviewed position correction; all six other source fields agree exactly and the complete context is unique in both snapshots. No fuzzy or name-only merge."
+    }
+  ],
+  "not_observed_count": 107,
+  "retained_ids": [
+    "c-af5a9afcb80c59ee9913",
+    "c-6c4cfda59f0e56b583aa",
+    "c-85dcea0d42755c059e05",
+    "c-c65a69066c325ae4ad81",
+    "c-1f62088fd2385a0cb1e0",
+    "c-96b4f73263c75686a852",
+    "c-c8d3fc8e95665a47a19b",
+    "c-04f117d6cf475e138a16",
+    "c-f4781f657c505718ae2c",
+    "c-ff9af154a0645eb5b17c",
+    "c-964fe1c6df9f571a82d2",
+    "c-2eff5a0697cf5163a1a3",
+    "c-75c34a2c811152f287f5",
+    "c-39aaa7df154e53e090e6",
+    "c-61c02ca610d15c77b331",
+    "c-6e6208048d6d5ae48cb6",
+    "c-4aa28445ee4a54ea8cf9",
+    "c-95cc3f9dc60a52a397a7",
+    "c-9b8ada42c5135f1097ed",
+    "c-cc17d2d6ab4d5b62a9c7",
+    "c-28c4e7d8685c5e78a138",
+    "c-64bd146113a652ae9d01",
+    "c-a52e7a94702c544ba0fb",
+    "c-51acb1553e4f52ed87f4",
+    "c-37602df262135517af44",
+    "c-dfaf9f14b7875ecaaa2e",
+    "c-b7b91f7a0ffe578e85c9",
+    "c-8382917f43f753028fd1",
+    "c-843c8d65728a50a4a2d5",
+    "c-b391f97c4fab5b7ea0d7",
+    "c-14b7c53ac1a051d2a61f",
+    "c-83d3bb59387559b990e0",
+    "c-0f5eb012bd2055f78a26",
+    "c-171de4d5591952baa528",
+    "c-251bff58b1af5c229ccf",
+    "c-db8e9b9c72d8585b80aa",
+    "c-d699d9bbe76a5b219a4e",
+    "c-51fda347336c55d09243",
+    "c-fc2f6942738258a0a6a6",
+    "c-62712a21424a56a29872",
+    "c-3c8ae10b817756238d5b",
+    "c-acccdbc322e15faaa779",
+    "c-c8804151df7f51afb005",
+    "c-3d146bf1d44c5279aa63",
+    "c-0fe0622466745d42bd8f",
+    "c-0e089dd74ac754efae51",
+    "c-f7ab6a4f695a50c09f60",
+    "c-8a78d1b7b8395a149479",
+    "c-a9022ab5996d549ebdd9",
+    "c-d90edc746faf57668664",
+    "c-2e468510349f5ece8937",
+    "c-0bd4ce7783cf5142a4f9",
+    "c-4854e57d71db5ec38f2c",
+    "c-1e6051c040975f24a7fe",
+    "c-b385ec11a8365c8eaea3",
+    "c-9def428a2c5a520e9db6",
+    "c-1a0900bff07a548cb6c0",
+    "c-ce1a1ff7218a55ce95fc",
+    "c-696464a8bab8502a94fb",
+    "c-c678e4e992c15747b8fa",
+    "c-0bafc7765a4d5728915d",
+    "c-16ecc461f4225af39de8",
+    "c-b3d6703f85e4574b8306",
+    "c-401aa4f48a3953b4b57c",
+    "c-69d564503d545dc3a769",
+    "c-509aad0d271754a8aa2d",
+    "c-e503c4f601b15691bf49",
+    "c-a771c6ab470652d49d3e",
+    "c-59c0acc570e25294809a",
+    "c-3a0b20835ccb539eb3a8",
+    "c-3167ba75a05e591cbd7d",
+    "c-93c0daaf08f05be1ab2c",
+    "c-e36f845b63fb5d85a609",
+    "c-a162efcac2a259e9b0e6",
+    "c-53afc3ec378a51b59c81",
+    "c-6d6d79362ba555cdac53",
+    "c-d2d5338145fa5ab7bd64",
+    "c-2c1024bc4df056098057",
+    "c-3ba7612b8f755c1f9b9c",
+    "c-33f5044575bc5d3abbfd",
+    "c-1d7d4743c4f15ccfa1c0",
+    "c-e9ca4df3d2585e42ad13",
+    "c-a932492a92b4542fb837",
+    "c-e8c5d4d49ae65afbb821",
+    "c-7f43f83d844c5507a410",
+    "c-592ddc3f3a995c14bb0f",
+    "c-156bd6630bf75caf8bc7",
+    "c-476be6906e3a501d8a17",
+    "c-eba67d256dcd539abb5d",
+    "c-d8ff5093e427510384d9",
+    "c-ecc7cf1b18945149b517",
+    "c-2f5516bc5b89507bb042",
+    "c-23e6b246839458e9a526",
+    "c-d81e72341b0e5a8dbbe5",
+    "c-3b367671d1df53deb77a",
+    "c-819093bb8f0d50d189c8",
+    "c-87a44c06eb135bbf80eb",
+    "c-f1d84b53819a562e8aa9",
+    "c-c62cf03babe05070b6c7",
+    "c-b7f46742a16a5e4490c1",
+    "c-59f4d1002dc15952a2c6",
+    "c-9464d775cdc657648564",
+    "c-9a9a1d99c4075f9091d4",
+    "c-a17e8e415301548a8d28",
+    "c-d7e1abf76aab53e39b1b",
+    "c-11c04cd1eb5c5d1fb3fe",
+    "c-3543e5592225578b869b"
+  ],
+  "new_presidential_registrations": [
+    {
+      "id": "c-eafa5d1131725d7384c9",
+      "name": "KELY C. BASTIEN",
+      "party": "DELIVRANS"
+    },
+    {
+      "id": "c-792c5ce25dbb58bfa7d9",
+      "name": "JUDE CELESTIN",
+      "party": "ENA"
+    },
+    {
+      "id": "c-89917a3266b65e969c3d",
+      "name": "LUCMANNE DELILLE",
+      "party": "DEBOUT CITOYEN"
+    },
+    {
+      "id": "c-11e21ae7092757dcaaaa",
+      "name": "MARC ARTHUR DROUILLARD",
+      "party": "MRN"
+    },
+    {
+      "id": "c-85da87af028d528d8f83",
+      "name": "DOMINIQUE DUPUY",
+      "party": "PVD"
+    },
+    {
+      "id": "c-20a19b185cd2557e8e12",
+      "name": "HANS JACQUES LUDWIG JOSEPH",
+      "party": "ESCANP"
+    },
+    {
+      "id": "c-8cc27cd6c9bb5f41a143",
+      "name": "JACKY LUMARQUE",
+      "party": "MYEL"
+    },
+    {
+      "id": "c-07a633c73b3950999f76",
+      "name": "MICHELET NESTOR",
+      "party": "DPA"
+    },
+    {
+      "id": "c-a8679d21107058f5bc35",
+      "name": "JEAN CLARENS RENOIS",
+      "party": "UNIR AYITI INI"
+    },
+    {
+      "id": "c-9aa099e78f485f8daa4b",
+      "name": "WALSONN SANON",
+      "party": "ANFOS POU SOVE LONE"
+    },
+    {
+      "id": "c-044a28564a40545cb553",
+      "name": "MARIE ANNE SAVANNAH HADID SAVARY",
+      "party": "HAMAD"
+    }
+  ],
+  "identity_policy": "Persist existing IDs. Reconcile only reviewed, unique full-context one-field corrections. No fuzzy/name-only matching. Entries absent from the latest source retain their URLs and last-observed date; absence does not establish withdrawal, rejection or person identity.",
+  "collection_checks": [
+    "Every office pagination group reconciled with the final CEP summary; changing ASEC groups were retried.",
+    "Every source row is unique; totals and all six office counts reconcile.",
+    "Every current registration fingerprint occurs in the collected source.",
+    "Every previous registration ID remains current or retained.",
+    "Existing enrichment, portraits and source relations are unchanged."
+  ],
+  "initial_claim_disconfirmed": "The hypothesis that every previous fingerprint remained unchanged was false: 28 reviewed one-field corrections and 107 entries not observed require distinct handling.",
+  "result": "pass",
+  "bilingual_notice_review": {
+    "method": "Independent HT-only reading followed by English comparison",
+    "result": "Long notice retained; last-observed label clarified to name the observation action.",
+    "native_human_certification": false
+  }
+}
