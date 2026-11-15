@@ -149,6 +149,26 @@
     "record_link": {
       "ht": "Egzamine dokiman yo ak sa yo etabli",
       "en": "Examine the documents and what they establish"
+    },
+    "all_candidates": {
+      "ht": "Tout kandida yo",
+      "en": "All candidates"
+    },
+    "search_articles": {
+      "ht": "Chèche nan atik yo",
+      "en": "Search articles"
+    },
+    "choose_candidate": {
+      "ht": "Chwazi yon kandida",
+      "en": "Choose a candidate"
+    },
+    "no_results": {
+      "ht": "Pa gen atik ki koresponn. Eseye yon lòt mo oswa chwazi tout kandida yo.",
+      "en": "No matching articles. Try another word or choose all candidates."
+    },
+    "browse_all": {
+      "ht": "Gade tout analiz ak opinyon yo →",
+      "en": "Browse all analysis and opinion →"
     }
   },
   "sources": {
@@ -402,6 +422,202 @@
       "note": {
         "ht": "Rapò jounalis sou odyans 12 Novanm lan; nou pa pretann nou te asiste odyans lan oswa li tout transkripsyon an. Temwayaj yon akize pa yon konklizyon jiri a.",
         "en": "Journalist’s report of the November 12 hearing; we do not claim attendance or review of the complete transcript. A defendant’s testimony is not a jury finding."
+      }
+    },
+    "treasury-martelly-2024": {
+      "publisher": "U.S. Department of the Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/jy2542",
+      "published_at": "2024-08-20",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Sanksyon ameriken kont Martelly — rezon ak twa entèdiksyon yo",
+        "en": "U.S. sanctions on Martelly — stated grounds and three prohibitions"
+      },
+      "note": {
+        "ht": "Kominike administratif ameriken; li pa yon vèdik nan yon pwosè kriminèl.",
+        "en": "A U.S. administrative statement, not a criminal-trial verdict."
+      }
+    },
+    "ofac-martelly-action": {
+      "publisher": "Office of Foreign Assets Control",
+      "url": "https://ofac.treasury.gov/recent-actions/20240820",
+      "published_at": "2024-08-20",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "OFAC — antre Martelly nan lis NS-MBS la",
+        "en": "OFAC — Martelly’s NS-MBS listing"
+      },
+      "note": {
+        "ht": "Nou verifye non an tou nan fichye ofisyèl cons_prim.csv telechaje 15 Novanm 2026. Nou pa repibliye nimewo idantifikasyon pèsonèl ki nan lis la.",
+        "en": "The name was also checked in the official cons_prim.csv downloaded November 15, 2026. Personal identification numbers in the list are not republished."
+      }
+    },
+    "un-2023-martelly": {
+      "publisher": "UN Security Council Panel of Experts",
+      "url": "https://documents.un.org/api/symbol/access?s=S/2023/674&l=en&t=pdf",
+      "published_at": "2023-09-15",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "S/2023/674 — relasyon politik ak gang, paragraf 69–74, paj 19–20",
+        "en": "S/2023/674 — political and gang relationships, paragraphs 69–74, pages 19–20"
+      },
+      "note": {
+        "ht": "Rapò ekspè yo site entèvyou ak enfòmasyon konfidansyèl. Nou li rapò a; nou pa t egzamine tout dosye konfidansyèl li baze sou yo.",
+        "en": "The experts cite interviews and confidential information. We reviewed the report, not every underlying confidential record."
+      }
+    },
+    "un-2024-palace": {
+      "publisher": "UN Security Council Panel of Experts",
+      "url": "https://digitallibrary.un.org/record/4064700/files/S_2024_704-EN.pdf",
+      "published_at": "2024-09-30",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "S/2024/704 — zam Palè yo, paragraf 77–82, paj 20–21",
+        "en": "S/2024/704 — Palace weapons, paragraphs 77–82, pages 20–21"
+      },
+      "note": {
+        "ht": "Rapò a te repibliye ak koreksyon 29 Oktòb 2024. Relasyon fanmi ak fonksyon sekirite yo se sa rapò a dekri; yo pa otomatikman pwouve lòd oswa koupabilite lòt moun.",
+        "en": "Reissued with corrections October 29, 2024. Family relationships and security responsibilities are as described by the report; they do not automatically establish another person’s orders or guilt."
+      }
+    },
+    "fara-7793-registration": {
+      "publisher": "U.S. Department of Justice, FARA Unit",
+      "url": "https://efile.fara.gov/docs/7793-Registration-Statement-20261105-1.pdf",
+      "published_at": "2026-11-05",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "FARA 7793 — deklarasyon enskripsyon, sitou paj 3",
+        "en": "FARA 7793 — registration statement, especially page 3"
+      },
+      "note": {
+        "ht": "Nou egzamine paj finansye yo vizyèlman nan PDF eskane a. Se deklarasyon konpayi an depoze nan rejis la, pa yon odit DOJ.",
+        "en": "Financial pages were visually examined in the scanned PDF. These are the firm’s disclosures in a public register, not a DOJ audit."
+      }
+    },
+    "fara-7793-contract": {
+      "publisher": "U.S. Department of Justice, FARA Unit",
+      "url": "https://efile.fara.gov/docs/7793-Exhibit-AB-20261105-2.pdf",
+      "published_at": "2026-11-05",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "FARA 7793 — Exhibit AB, resi paj 7; kontra paj 10–15",
+        "en": "FARA 7793 — Exhibit AB, receipt on page 7; contract on pages 10–15"
+      },
+      "note": {
+        "ht": "Nou li paj sa yo vizyèlman. Kontra a gen dat 22 Oktòb, ak siyati 26 Oktòb 2026. Yon kondisyon kontra pa prèv tout peman oswa aktivite ki te fèt.",
+        "en": "These pages were visually examined. The letter is dated October 22 and signed October 26, 2026. Contract terms do not establish that every payment or activity occurred."
+      }
+    },
+    "treasury-bodeau-2023": {
+      "publisher": "U.S. Department of the Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/jy1389",
+      "published_at": "2023-04-05",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Sanksyon Gary Bodeau — akizasyon sou acha vòt pou nominasyon",
+        "en": "Gary Bodeau sanctions — allegations of payments for appointment votes"
+      },
+      "note": {
+        "ht": "Kominike a akize Bodeau pou koripsyon ak pou enfliyanse vòt yo. Pa transfòme fraz jeneral sou gang yo an yon vèdik kriminèl kont li.",
+        "en": "Alleges corruption and influence over votes. General statements about gangs must not be recast as a criminal verdict against him."
+      }
+    },
+    "bodeau-response-2023": {
+      "publisher": "Gazette Haïti",
+      "url": "https://gazettehaiti.com/index.php/node/9747",
+      "published_at": "2023-04-06",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Repons Bodeau apre sanksyon ameriken yo",
+        "en": "Bodeau’s response after the U.S. sanctions"
+      },
+      "note": {
+        "ht": "Rapò sou videyo Bodeau a: li rejte akizasyon yo epi anonse li vle sèvi ak mekanis legal yo. Sa pa pwouve ki demach li te depoze apre sa oswa rezilta yo.",
+        "en": "Reports his denial and intention to use legal mechanisms. It does not establish which later challenges were filed or their outcomes."
+      }
+    },
+    "binuh-q2-muscadin": {
+      "publisher": "BINUH / United Nations",
+      "url": "https://dppa.un.org/sites/default/files/2026-08/Q2%202026%20-%20EN-V3.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "BINUH Avril–Jen 2026 — Jean Ernest Muscadin, paj 24",
+        "en": "BINUH April–June 2026 — Jean Ernest Muscadin, page 24"
+      },
+      "note": {
+        "ht": "Limit tan sou absans pwosedi a se peryòd rapò sa a. Nou verifye rapò Jiyè–Septanm 2026 la tou; nou pa jwenn yon nouvo pasaj ki nonmen Muscadin ladan l. Sa pa pwouve pa t gen okenn chanjman apre sa.",
+        "en": "The statement about proceedings is limited to this reporting period. The July–September 2026 report was also checked and has no new passage naming Muscadin; that does not prove nothing changed later."
+      }
+    },
+    "un-2025-muscadin": {
+      "publisher": "UN Security Council Panel of Experts",
+      "url": "https://digitallibrary.un.org/record/4091504/files/S_2025_597-EN.pdf",
+      "published_at": "2025-09-25",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "S/2025/597 — akizasyon sou pwokirè Miragwàn nan, paj 67",
+        "en": "S/2025/597 — allegations concerning the Miragoâne prosecutor, page 67"
+      },
+      "note": {
+        "ht": "Paj la rapòte akizasyon sou omwen 74 ka jiska Jen 2025. Li pa dwe ajoute sou chif 76 nan lòt rapò a kòm si tout ka yo diferan.",
+        "en": "Reports allegations involving at least 74 cases through June 2025. These must not be added to the other report’s 76 as if all cases were different."
+      }
+    },
+    "muscadin-support-2025": {
+      "publisher": "Vant Bèf Info",
+      "url": "https://vantbefinfo.com/apres-les-accusations-de-lonu-miragoane-se-mobilise-en-soutien-au-cg-jean-ernest-muscadin/",
+      "published_at": "2025-11-17",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Manifestasyon sipò pou Muscadin nan Miragwàn",
+        "en": "Demonstration supporting Muscadin in Miragoâne"
+      },
+      "note": {
+        "ht": "Atik la dekri plizyè dizèn manifestan ak agiman yo. Se pa yon sondaj ki mezire opinyon tout vil la.",
+        "en": "Describes several dozen demonstrators and their arguments, not a representative poll of the town."
+      }
+    },
+    "canada-haiti-sanctions": {
+      "publisher": "Global Affairs Canada",
+      "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/haiti.aspx?lang=eng",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Kanada — istwa ak rezon amannman sanksyon sou Ayiti yo",
+        "en": "Canada — history and stated grounds of Haiti sanctions amendments"
+      },
+      "note": {
+        "ht": "Gade espesyalman amannman 15 Fevriye 2023 la. Eksplikasyon jeneral pou de moun yo pa yon lis tranzaksyon ki pwouve chak zak endividyèl.",
+        "en": "See especially the February 15, 2023 amendment. Its collective explanation for two people is not transaction-level proof of each individual act."
+      }
+    },
+    "canada-current-list": {
+      "publisher": "Global Affairs Canada",
+      "url": "https://www.international.gc.ca/world-monde/assets/pdfs/international_relations-relations_internationales/sanctions/sema-lmes.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Lis konsolide sanksyon Kanada — seksyon Ayiti, paj 9",
+        "en": "Canada consolidated sanctions list — Haiti section, page 9"
+      },
+      "note": {
+        "ht": "Kopi nou verifye 15 Novanm 2026 la gen Martelly, Bodeau ak Privert. Se lis administratif la, pa yon rejis kondanasyon kriminèl.",
+        "en": "The copy checked November 15, 2026 lists Martelly, Bodeau and Privert. It is an administrative list, not a criminal-conviction register."
+      }
+    },
+    "privert-response-2023": {
+      "publisher": "Gazette Haïti",
+      "url": "https://gazettehaiti.com/index.php/node/9637",
+      "published_at": "2023-03-08",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Privert konteste sanksyon kanadyen yo",
+        "en": "Privert disputes the Canadian sanctions"
+      },
+      "note": {
+        "ht": "Rapò sou entèvansyon li nan LE POINT. Sa li deklare sou byen oswa enterè li se pozisyon pa l, pa yon odit finansye nou fè.",
+        "en": "Reports his LE POINT appearance. Statements about his assets or interests are his account, not our independent financial audit."
       }
     }
   },
@@ -811,6 +1027,566 @@
           "text": {
             "ht": "Se sou kapasite pou bay prèv sa yo nou vle egzamine pwomès yo. Sa pwoteje fanmi ki peye yo, timoun yo ak moun yo ta ka akize san prèv. Rann kont dwe pèmèt nou wè tou sa ki mache byen.",
             "en": "We want promises examined through the ability to provide this evidence. That protects paying families, children and people who might otherwise face unsupported accusations. Accountability must also let us see what worked."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martelly-us-sanctions-three-restrictions",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Martelly: ki sa twa entèdiksyon ameriken yo vize?",
+        "en": "Martelly: what do the three U.S. restrictions cover?"
+      },
+      "description": {
+        "ht": "Dèyè mo « sanksyon » an, gen mezi presi. Fòk nou li yo anvan nou esplike konsekans yo.",
+        "en": "The word “sanctions” covers specific measures. Their actual terms matter."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon bank ameriken pa ka ba l kredi. Sèten tranzaksyon deviz ak envestisman ameriken ki konsène l entèdi tou. Se twa mezi Trèzò ameriken an te anonse kont Michel Joseph Martelly 20 Out 2024.",
+            "en": "A U.S. bank cannot extend him credit. Certain foreign-exchange transactions and U.S. investments involving him are also prohibited. These are the three measures the U.S. Treasury announced against Michel Joseph Martelly on August 20, 2024."
+          },
+          "sources": [
+            "treasury-martelly-2024"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Washington te di ansyen prezidan an te fasilite trafik dwòg, blanchi lajan epi sipòte plizyè gang. Se rezon administrasyon ameriken an bay pou desizyon li; kominike sa a pa yon jijman kriminèl.",
+            "en": "Washington said the former president facilitated drug trafficking, laundered money and sponsored gangs. Those are the U.S. administration’s stated grounds; the announcement is not a criminal judgment."
+          },
+          "sources": [
+            "treasury-martelly-2024"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Gen yon detay ki fasil pou rate. OFAC, biwo ameriken ki jere sanksyon finansye yo, te mete Martelly sou lis NS-MBS la, ki pèmèt mezi espesifik. Se pa menm lis ak SDN lan. Non li toujou nan fichye ofisyèl ki konsolide lis ki pa SDN yo nou telechaje 15 Novanm 2026 la.",
+            "en": "One easily missed detail: OFAC, the U.S. financial-sanctions office, placed Martelly on its NS-MBS list of specified measures. This is different from the SDN list. His name remains in the official consolidated non-SDN file downloaded November 15, 2026."
+          },
+          "sources": [
+            "ofac-martelly-action"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kidonk, yon fraz ki di « Etazini bloke tout byen li » pa esplike mezi sa yo kòrèkteman. Fòk nou nonmen ki tranzaksyon ki entèdi, ki moun règ la konsène ak dat desizyon an. Sa pi presi pase repete yon gwo etikèt.",
+            "en": "A blanket statement that “the U.S. froze all his assets” therefore does not accurately describe these measures. Name the prohibited transactions, who is covered and the decision date. That is more precise than repeating a broad label."
+          },
+          "sources": [
+            "treasury-martelly-2024",
+            "ofac-martelly-action"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Pou lektè k ap egzamine kandidati li, de kesyon rete diferan: ki zak Washington di li te fè, epi ki prèv yon tribinal te egzamine? Yon sanksyon finansye pa reponn toude poukont li.",
+            "en": "For readers examining his candidacy, two questions remain separate: what conduct does Washington attribute to him, and what evidence has a court examined? A financial designation cannot answer both on its own."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martelly-un-report-gangs-intermediaries",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Martelly ak gang yo: sa rapò ONU a di sou entèmedyè yo",
+        "en": "Martelly and gangs: what the UN report says about intermediaries"
+      },
+      "description": {
+        "ht": "Rapò 2023 a dekri lajan, zam ak moun ki t ap fè lyen. Se sou chak lyen prèv la dwe chita.",
+        "en": "The 2023 report describes money, weapons and people connecting them. Each link needs its own evidence."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon politisyen pa bezwen parèt sou yon foto ak yon chèf gang pou yon relasyon gen konsekans. Se youn nan mekanis rapò ekspè ONU 2023 a dekri nan ka Michel Martelly: relasyon ki ta pase atravè entèmedyè, fondasyon ak moun nan sekirite pwòch li.",
+            "en": "A politician need not appear in a photograph with a gang leader for a relationship to matter. One mechanism described in the UN experts’ 2023 report on Michel Martelly is alleged contact through intermediaries, foundations and members of his close-protection team."
+          },
+          "sources": [
+            "un-2023-martelly"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan paragraf 73 ak 74, ekspè yo rapòte ansyen prezidan an te sipòte gang tankou Base 257, Village de Dieu, Ti Bois ak Grand Ravine avèk lajan oswa zam. Yo dekri Base 257 kòm yon zouti pou anpeche manifestasyon kont gouvènman an nan Petyonvil, sitou depi 2014.",
+            "en": "In paragraphs 73 and 74, the experts report support for gangs including Base 257, Village de Dieu, Ti Bois and Grand Ravine through money or firearms. They describe Base 257 as an instrument for preventing anti-government demonstrations in Pétion-Ville, especially from 2014."
+          },
+          "sources": [
+            "un-2023-martelly"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò a site deklarasyon Arnel Joseph sou kontak li ak yon entèmedyè ki t ap travay nan pwoteksyon Martelly. Li site tou yon videyo kote Ti Lapli pale sou fizi lapolis yo ta bay chèf gang. Sa yo se eleman rapò a prezante; nou pa pretann nou te gen aksè dirèk ak tout temwayaj konfidansyèl ki sèvi kòm baz rapò a.",
+            "en": "The report cites Arnel Joseph’s account of contact with an intermediary in Martelly’s protection unit, and a video in which Ti Lapli discusses police rifles allegedly supplied to gang leaders. These are elements presented by the report; we do not claim independent access to every underlying confidential testimony."
+          },
+          "sources": [
+            "un-2023-martelly"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa fè kesyon an pi presi pase « èske li konnen yon chèf gang? »: kiyès ki te bay resous, kiyès ki te pote yo, pou ki objektif, ak sou lòd kiyès? Se la yon ankèt bezwen non, dat ak tras materyèl.",
+            "en": "This makes the question more precise than whether he knows a gang leader: who supplied resources, who delivered them, for what purpose and on whose instructions? An investigation needs names, dates and material records at each step."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Yon rapò ekspè ki nonmen relasyon sa yo merite egzamen serye. Men li pa otorize nou bay tout moun ki te travay bò kote Martelly menm responsablite a, ni prezante tout akizasyon yo kòm kondanasyon tribinal.",
+            "en": "An expert report identifying these relationships warrants serious scrutiny. It does not authorize assigning the same responsibility to everyone who worked near Martelly or presenting every allegation as a court conviction."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martelly-palace-54-rifles-family-security",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "54 fizi Palè: kote lyen fanmi rankontre yon fonksyon piblik",
+        "en": "54 Palace rifles: where a family connection meets public responsibility"
+      },
+      "description": {
+        "ht": "Rapò ONU a nonmen yon responsab sekirite ak yon relasyon fanmi. Fòk nou egzamine fonksyon an ak tras zam yo ansanm.",
+        "en": "The UN report names a security official and a family connection. The public role and the weapons trail must be examined together."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Zam ki fèt pou pwoteje Leta ka vin sèvi kont popilasyon an lè kontwòl sou yo kraze. Rapò ekspè ONU 2024 a bay yon egzanp presi: 54 fizi otomatik Galil lapolis ki te detounen nan depo Palè Nasyonal ant 2013 ak 2016.",
+            "en": "Weapons intended to protect the state can turn against the public when custody controls fail. The UN experts’ 2024 report provides a specific example: 54 police-owned Galil automatic rifles diverted from National Palace stocks between 2013 and 2016."
+          },
+          "sources": [
+            "un-2024-palace"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan paragraf 80, rapò a di Pierre-Léon Junior Saint Remy te responsab sekirite Palè a ak jesyon depo zam li pandan peryòd sa a. Ekspè yo dekri li kòm yon fanmi pwòch madanm prezidan Michel Martelly. Relasyon sa a enpòtan paske li mache ak yon fonksyon piblik ki te gen kontwòl sou zam.",
+            "en": "Paragraph 80 identifies Pierre-Léon Junior Saint Remy as responsible for Palace security and management of its weapons stockpile during that period. The experts describe him as a close relative of President Michel Martelly’s wife. The relationship matters because it accompanies a public role with responsibility for weapons."
+          },
+          "sources": [
+            "un-2024-palace"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Paj ki vin apre a pa dwe rete deyò istwa a: enfòmasyon ekspè yo te resevwa endike fizi yo te ale bay moun, ladan yo manm gang, an echanj pou sipò bay prezidan an. Rapò a di kèk nan zam yo te jwenn apre sou sèn krim oswa nan men manm gang ann Ayiti ak aletranje.",
+            "en": "The next page is essential: information supplied to the experts indicates the rifles went to individuals, including gang members, in exchange for support for the president. The report says some were subsequently recovered at crime scenes or from gang members in Haiti and abroad."
+          },
+          "sources": [
+            "un-2024-palace"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Rapò a dekri tou yon feblès ki pi laj: lidèchip lapolis pa t kapab fè envantè depo Palè a pandan plizyè ane. Kidonk, sijè a pa sèlman kiyès ki te pwòch kiyès. Se kiyès ki te kenbe rejis yo, otorize sòti yo epi verifye sa ki te rete.",
+            "en": "The report also describes a wider weakness: police leadership had been unable to inventory Palace stocks for years. The issue therefore extends beyond personal proximity to who kept the records, authorized transfers and checked what remained."
+          },
+          "sources": [
+            "un-2024-palace"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Relasyon fanmi a poukont li pa pwouve Martelly oswa madanm li te bay yon lòd. Pou etabli responsablite pèsonèl, fòk gen lòt prèv. Men fonksyon sekirite a ak kantite zam yo bay yon pwen depa ki konkrè pou mande kont.",
+            "en": "Kinship alone does not prove Martelly or his wife issued an order. Personal responsibility requires further evidence. The security role and specified weapons, however, provide a concrete starting point for accountability."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martelly-fara-lobbying-money-intermediary",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Martelly nan dosye lobbying lan: kiyès ki peye?",
+        "en": "Martelly’s lobbying file: who is paying?"
+      },
+      "description": {
+        "ht": "Yon depo ameriken rapòte 75,000 dola resevwa; kontra a prevwa lòt montan. Se pa menm bagay.",
+        "en": "A U.S. filing reports $75,000 received; the contract specifies other amounts. Those are different facts."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon dosye depoze Washington 5 Novanm 2026, Liberty Government Affairs deklare li resevwa 75,000 dola nan men Invisible Investigations LLC. Dat resi a se 10 Septanm. Moun etranje travay la fèt pou li a se Michel Joseph Martelly, atravè menm konpayi entèmedyè sa a.",
+            "en": "In a filing submitted in Washington on November 5, 2026, Liberty Government Affairs reports receiving $75,000 from Invisible Investigations LLC. The receipt is dated September 10. The foreign principal served by the work is Michel Joseph Martelly, through that intermediary company."
+          },
+          "sources": [
+            "fara-7793-registration"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Dosye a nan rejis FARA, ki fè relasyon sèten ajan ak kliyan etranje yo piblik. Sa etabli yon relasyon sèvis ki deklare. Li pa yon akizasyon koripsyon oswa yon prèv DOJ verifye chak deklarasyon finansye.",
+            "en": "The disclosure is in the FARA register, which makes certain agents’ relationships with foreign principals public. It establishes a disclosed service relationship, not a corruption charge or proof that DOJ independently audited every financial declaration."
+          },
+          "sources": [
+            "fara-7793-registration"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kontra ki tache a gen dat 22 Oktòb, ak siyati 26 Oktòb. Li prevwa yon depo 125,000 dola, yon frè 50,000 dola pa mwa ak depans ki limite nòmalman a 5,000 dola pa mwa. Kontra a di li ranplase tout ansyen akò. Nou pa dwe prezante montan kontra sa yo kòm lajan ki deja peye.",
+            "en": "The attached letter is dated October 22 and signed October 26. It specifies a $125,000 deposit, a $50,000 monthly retainer and expenses normally capped at $5,000 monthly. It says it supersedes prior agreements. These terms must not be presented as amounts already paid."
+          },
+          "sources": [
+            "fara-7793-contract"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Gen yon lòt detay enpòtan. Kontra a di Martelly pa dwe ranbouse oswa rekonpanse Invisible Investigations, dirèkteman oswa endirèkteman, pou frè sa yo. Li prevwa peman davans avèk dola ki deja nan enstitisyon finansye ameriken. Se kondisyon kontra yo; yo pa poukont yo prèv sou orijin final tout lajan an.",
+            "en": "Another important detail: the agreement says Martelly must not directly or indirectly reimburse or compensate Invisible Investigations for these payments. It calls for advance payments using dollars already held at U.S. financial institutions. These are contractual conditions, not independent proof of the ultimate origin of all funds."
+          },
+          "sources": [
+            "fara-7793-contract"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Kesyon ki rete a se presi: ki relasyon finansye ki soutni entèmedyè a, epi kijan resi 75,000 dola a mache ak nouvo kondisyon kontra yo? Dosye nou li a pa bay ase enfòmasyon pou reponn tout sa. Li pa pèmèt envante yon finansè kache.",
+            "en": "The remaining question is specific: what financial relationships support the intermediary, and how does the $75,000 receipt relate to the newer contract terms? The filing reviewed does not supply enough information to answer everything. It does not justify inventing a hidden financier."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martelly-lobbying-policy-not-court-defense",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Sa kontra lobbying Martelly a mande Washington chanje",
+        "en": "What Martelly’s lobbying contract asks Washington to change"
+      },
+      "description": {
+        "ht": "Dokiman an vize politik sanksyon. Li pa yon vèdik, ni yon pwomès rezilta.",
+        "en": "The document targets sanctions policy. It is neither a verdict nor a promise of success."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kontra ki parèt nan dosye FARA 7793 a mande konsèy ak demach enfliyans bò kote Trèzò ameriken an ak Depatman Deta, sou politik ki sèvi ak OFAC pou sanksyone moun etranje. Sa bay yon objektif politik piblik ki presi pou travay la.",
+            "en": "The agreement in FARA filing 7793 calls for advice and advocacy aimed at the U.S. Treasury and State Department concerning policy that uses OFAC to sanction foreign individuals. This gives the work a specific public-policy target."
+          },
+          "sources": [
+            "fara-7793-contract"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Invisible Investigations se kliyan ki siyen kontra a; Michel Joseph Martelly se benefisyè li nonmen. Lèt la prezante travay la kòm yon efò pou revize politik oswa desizyon ki, dapre pozisyon kliyan an, pa ta gen ase baz nan prèv oswa lalwa. Sa se objektif kliyan an, pa yon konklizyon administrasyon ameriken an dakò avè l.",
+            "en": "Invisible Investigations is the contracting client; Michel Joseph Martelly is the named beneficiary. The letter frames the work as seeking review of policies or designations considered insufficiently grounded in facts or law. That is the client’s position, not a finding that the U.S. government agrees."
+          },
+          "sources": [
+            "fara-7793-contract"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sèvis yo gen ladan prepare estrateji, kominike ak responsab gouvènman yo epi bay rapò sou avansman travay la. Men kontra a pa garanti menm yon rankont, yon chanjman politik oswa leve sanksyon yo. Li kite posibilite pou sispann travay ki ta poze pwoblèm legal.",
+            "en": "Services include developing strategies, communicating with officials and reporting progress. The agreement guarantees neither a meeting, a policy change nor removal of sanctions. It permits suspension of work that raises legal concerns."
+          },
+          "sources": [
+            "fara-7793-contract"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon lòt limit ekri klèman: sèvis sa yo pa kouvri travay nan litij, dosye kriminèl oswa ankèt Kongrè, sof si gen yon lòt akò alekri. Kidonk, dosye lobbying sa a pa prèv konpayi an reprezante Martelly nan nenpòt dosye tribinal sou asasina Jovenel Moïse.",
+            "en": "Another express limit: services exclude litigation, criminal matters and congressional investigations unless separately agreed in writing. This lobbying filing therefore does not establish that the firm represents Martelly in court proceedings concerning Jovenel Moïse’s assassination."
+          },
+          "sources": [
+            "fara-7793-contract"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou suiv rezilta travay la, fòk nou chèche kontak oswa aktivite ki deklare pita ak nenpòt desizyon ofisyèl OFAC. Egzistans yon kontra pa sifi pou di yon responsab ameriken te aksepte rankontre kliyan an oswa chanje pozisyon li.",
+            "en": "Assessing results requires later disclosures of contacts or activities and any official OFAC decision. A contract alone cannot establish that a U.S. official agreed to a meeting or changed position."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "gary-bodeau-vote-buying-sanctions-record",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-656331d267b75fc0aa53"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Gary Bodeau: lè yon vòt pou nominasyon ta gen yon pri",
+        "en": "Gary Bodeau: when an appointment vote allegedly had a price"
+      },
+      "description": {
+        "ht": "Trèzò ameriken an dekri lajan pou enfliyanse vòt nan Chanm depite a. Bodeau rejte akizasyon yo.",
+        "en": "The U.S. Treasury describes payments intended to influence votes in the Chamber of Deputies. Bodeau disputes the allegations."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon moun ki bezwen apwobasyon depite yo pou antre nan gouvènman ta dwe jwenn yon vòt sou kapasite ak pwojè li. Nan dosye Gary Bodeau a, Trèzò ameriken an dekri yon lòt lojik: lajan ta sikile pou fè rezilta nominasyon yo mache nan yon sans.",
+            "en": "Someone seeking parliamentary approval for a government appointment should face scrutiny of their ability and plans. In Gary Bodeau’s case, the U.S. Treasury describes another mechanism: money allegedly circulating to secure an appointment outcome."
+          },
+          "sources": [
+            "treasury-bodeau-2023"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan desizyon 5 Avril 2023 li a, administrasyon ameriken an di ansyen prezidan Chanm depite a te patisipe nan plizyè plan koripsyon. Li rapòte peman bay responsab ayisyen an 2018 pou jwenn vòt, epi diskisyon sou peman pou yon lòt vòt nominasyon an 2019.",
+            "en": "In its April 5, 2023 action, the U.S. administration says the former Chamber president participated in corruption schemes. It describes payments to Haitian officials to secure votes in 2018 and discussions about payments for another appointment vote in 2019."
+          },
+          "sources": [
+            "treasury-bodeau-2023"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou epizòd 2019 la, Trèzò a site ant 500 ak 600 milyon goud kèk biznisman te bay manm Chanm nan. Li pa di tout montan sa a te antre nan pòch pèsonèl Bodeau. Fòk nou kenbe diferans sa a lè n ap rakonte akizasyon an.",
+            "en": "For the 2019 episode, Treasury identifies 500–600 million gourdes supplied by businessmen to Chamber members. It does not say this entire amount entered Bodeau’s personal pocket. That distinction matters when describing the allegation."
+          },
+          "sources": [
+            "treasury-bodeau-2023"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Bodeau te reyaji piblikman apre sanksyon an. Dapre Gazette Haïti, li te di li pa t fè anyen pou merite sa, epi li te anonse li vle sèvi ak mekanis legal Ozetazini ak Kanada pou konteste akizasyon yo. Anonse yon demach pa menm bagay ak montre desizyon ki soti ladan l.",
+            "en": "Bodeau responded publicly after the designation. Gazette Haïti reports that he denied having done anything to deserve it and said he intended to use U.S. and Canadian legal mechanisms to contest the allegations. An announced challenge is different from a documented ruling on it."
+          },
+          "sources": [
+            "bodeau-response-2023"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sanksyon sa a se yon desizyon administratif ameriken, pa yon kondanasyon nan yon pwosè kriminèl. Fraz Trèzò a sou koripsyon ki ranfòse gang yo pa dwe tounen yon fo deklarasyon tribinal te kondane Bodeau pou finanse gang.",
+            "en": "The sanction is a U.S. administrative decision, not a criminal-trial conviction. Treasury’s statement that corruption empowers gangs must not become a false claim that a court convicted Bodeau of financing gangs."
+          },
+          "sources": [
+            "treasury-bodeau-2023"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou eleksyon an, kesyon enstitisyonèl la klè: si nominasyon depann de peman prive, kiyès moun ki pran fonksyon an pral dwe sèvis apre sa? Se resi, mesaj ak dosye vòt ki ka pèmèt teste chèn sa a, pa etikèt sèlman.",
+            "en": "The institutional question is clear: if appointments depend on private payments, to whom will the appointee owe favors afterward? Receipts, communications and voting records can test that chain; labels alone cannot."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "muscadin-76-cases-security-accountability",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-260d6761d0c65693b074"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Muscadin: pwoteksyon popilasyon an ak 76 ka ONU dokimante yo",
+        "en": "Muscadin: public protection and the 76 cases documented by the UN"
+      },
+      "description": {
+        "ht": "Sipò pou yon responsab sekirite ak prèv sou metòd li yo se de kesyon diferan.",
+        "en": "Support for a security official and evidence about his methods are different questions."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Moun k ap viv anba menas gang vle pwoteksyon. Nan Miragwàn, plizyè dizèn manifestan te soti soutni Jean Ernest Muscadin an Novanm 2025, dapre Vant Bèf Info. Gen patisipan ki te prezante pwokirè a kòm yon moun ki fè fas ak gang yo kote enstitisyon yo pa rive pwoteje yo.",
+            "en": "People living under gang threats want protection. In Miragoâne, several dozen demonstrators supported Jean Ernest Muscadin in November 2025, according to Vant Bèf Info. Participants portrayed the prosecutor as confronting gangs where institutions had failed to protect them."
+          },
+          "sources": [
+            "muscadin-support-2025"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men gen yon dosye ki dwe antre nan egzamen kandidati li tou. Nan rapò Avril–Jen 2026 li a, BINUH di pa t gen pwosedi lajistis kont Muscadin pou patisipasyon posib li nan omwen 76 egzekisyon somè ki dokimante ant 2022 ak 2025. Se touye moun san pwosesis lajistis ki ta dwe detèmine koupabilite yo.",
+            "en": "His candidacy also requires examining another record. In its April–June 2026 report, BINUH says no judicial proceedings had been initiated against Muscadin for possible involvement in at least 76 summary executions documented between 2022 and 2025: killings outside the judicial process meant to determine guilt."
+          },
+          "sources": [
+            "binuh-q2-muscadin"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Dat yo enpòtan. Chif 76 la pa kantite moun ki mouri nan dezyèm trimès 2026 la. Li konsène ka ant 2022 ak 2025. Yon rapò ekspè 2025 te deja site omwen 74 ka jiska Jen ane sa a. Nou pa ajoute 74 sou 76 kòm si se de gwoup moun ki diferan.",
+            "en": "The dates matter. The 76 is not a death toll for the second quarter of 2026. It concerns cases from 2022–2025. A 2025 expert report had identified at least 74 cases through June that year. We do not add 74 to 76 as if they were separate groups."
+          },
+          "sources": [
+            "binuh-q2-muscadin",
+            "un-2025-muscadin"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa yo se akizasyon ak konsta rapò ONU yo, pa yon vèdik kriminèl. Absans pwosedi nan peryòd rapò a pa pwouve akizasyon yo fo; li pa pwouve yo vre tou. Menm jan an, yon manifestasyon sipò pa yon sondaj ki mezire opinyon tout popilasyon an.",
+            "en": "These are allegations and observations in UN reports, not a criminal verdict. The reported absence of proceedings proves neither that the allegations are false nor that they are true. A supporting demonstration is likewise not a representative opinion poll."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Kesyon ki dwe mache ak pwomès sekirite a se konkrè: kiyès ki verifye idantite ak aksyon moun yon responsab rele bandi? Ki sa fanmi yo ka fè si gen yon erè? Pwoteje popilasyon an mande repons sou rezilta ak sou limit pouvwa a.",
+            "en": "The questions accompanying a security promise are concrete: who verifies the identity and conduct of people an official calls criminals? What recourse exists if there is an error? Public protection requires answers about results and limits on power."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "privert-canada-sanctions-what-record-shows",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-cfa0ce450d335df39e36"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Privert ak Kanada: kisa desizyon sanksyon an etabli?",
+        "en": "Privert and Canada: what does the sanctions record establish?"
+      },
+      "description": {
+        "ht": "Lis la konfime desizyon administratif la. Li pa ranplase yon dosye prèv sou chak zak yo reproche.",
+        "en": "The list confirms an administrative designation. It does not replace evidence about each alleged act."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Jocelerme Privert parèt sou lis sanksyon Kanada ki konsène Ayiti. Lis konsolide nou verifye 15 Novanm 2026 la bay dat 15 Fevriye 2023 pou antre li a. Sa se yon desizyon reyèl ki dokimante, pa yon rimè sou rezo sosyal.",
+            "en": "Jocelerme Privert appears on Canada’s Haiti sanctions list. The consolidated list checked November 15, 2026 dates his entry to February 15, 2023. This is a documented administrative action, not a social-media rumor."
+          },
+          "sources": [
+            "canada-current-list"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan eksplikasyon amannman sa a, Kanada di li te ajoute de moun pou gwo zak koripsyon ki alimante kriz la. Eksplikasyon kolektif la site gwo fwod, move jesyon lajan piblik ak trafik zam kòm kalite aktivite ki konsène gwoup sa a. Li pa bay, nan pasaj sa a, yon lis tranzaksyon endividyèl ki ta pwouve chak aktivite sa yo pou Privert.",
+            "en": "Canada’s explanation says the amendment added two people over significant corruption fueling the crisis. Its collective explanation mentions large-scale fraud, public-fund mismanagement and arms trafficking. That passage does not provide an itemized transaction record establishing every category of conduct for Privert individually."
+          },
+          "sources": [
+            "canada-haiti-sanctions"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Se la presizyon fè diferans: « Kanada sanksyone Privert » se yon enfòmasyon lis la konfime. « Yon tribinal kondane Privert pou chak zak sa yo » se yon lòt deklarasyon, ki bezwen yon jijman. Lis la pa bay sa.",
+            "en": "Precision changes the meaning: “Canada sanctioned Privert” is confirmed by the list. “A court convicted Privert of each of those acts” is a different claim requiring a judgment. The list does not supply that."
+          },
+          "sources": [
+            "canada-current-list"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Privert te konteste desizyon an. Nan yon entèvansyon LE POINT Gazette Haïti rapòte 8 Mas 2023, li te rejte sanksyon yo epi deklare li pa gen enterè oswa byen nan Kanada. Se deklarasyon pa l; nou pa prezante li kòm yon odit byen li.",
+            "en": "Privert disputed the action. In a LE POINT appearance reported by Gazette Haïti on March 8, 2023, he rejected the sanctions and said he had no interests or assets in Canada. That is his statement, not an independent audit of his holdings."
+          },
+          "sources": [
+            "privert-response-2023"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou egzamine dosye a pi lwen, fòk nou chèche zak presi, dokiman finansye ak nenpòt repons lajistis ki vin apre. Egzijans sa a pa efase sanksyon an. Li anpeche yon desizyon administratif sèvi kòm yon istwa nou ajoute detay ladan l san prèv.",
+            "en": "Further scrutiny requires specific acts, financial records and any subsequent judicial response. That requirement does not erase the designation. It prevents an administrative action from becoming a story embellished with unsupported details."
           },
           "sources": []
         }

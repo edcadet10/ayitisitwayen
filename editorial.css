@@ -1,4 +1,12 @@
 /* Candidate editorial coverage and the platform's mission use the shared theme. */
+.editorial-tools { margin: 2rem 0 1rem; padding: 1.3rem; border: 1px solid #ddd; border-radius: 10px; }
+.editorial-search-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+.editorial-search-fields label { display: grid; gap: .5rem; font-size: .85rem; font-weight: 500; }
+.editorial-search-fields input, .editorial-search-fields select { font: inherit; padding: .8rem; min-width: 0; width: 100%; box-sizing: border-box; background: #fff; color: #111; border: 1px solid #aaa; border-radius: 5px; }
+.editorial-tools .editorial-filters { margin-bottom: 0; }
+.editorial-empty { padding: 2rem 0; }
+[hidden] { display: none !important; }
+@media (max-width: 650px) { .editorial-search-fields { grid-template-columns: 1fr; } }
 .editorial-site .navbar .lang-switch { color: #fff !important; background: #111; }
 .editorial-site .navbar .lang-switch:hover { color: #111 !important; background: #eee; }
 .editorial-site a:focus-visible, .editorial-site button:focus-visible { outline: 2px solid #1e40af; outline-offset: 4px; }

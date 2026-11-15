@@ -1,0 +1,44 @@
+{
+  "reviewed_at": "2026-11-15",
+  "batch": 1,
+  "distinct_articles_added": 8,
+  "distinct_articles_total": 13,
+  "languages": ["ht", "en"],
+  "word_limit_per_language": 500,
+  "records_examined": [
+    "U.S. Treasury Martelly and Bodeau designation announcements and OFAC non-SDN consolidated file",
+    "UN expert reports S/2023/674, S/2024/704 and S/2025/597, relevant passages",
+    "FARA registration 7793 and Exhibit AB: financial receipt and signed contract pages visually inspected",
+    "BINUH April–June 2026, page 24; subsequent quarterly report screened for a named update",
+    "Canadian consolidated listing, regulations and amendment explanations",
+    "Published responses by Bodeau and Privert; reported demonstration supporting Muscadin"
+  ],
+  "editorial_limits": [
+    "Administrative designations and UN allegations are not criminal convictions",
+    "Contract prices are not evidence of amounts actually paid",
+    "Reported financial receipt does not independently prove ultimate funding source",
+    "Family relationship and security responsibility do not automatically prove another person's orders",
+    "Overlapping Muscadin counts are not added; procedural status has an explicit reporting cutoff",
+    "No private identifying numbers or personal addresses reproduced"
+  ],
+  "creole_review": {
+    "independent_blind_reading_before_english": true,
+    "matching_article_and_source_note_keys": 85,
+    "required_replacements_applied": 3,
+    "optional_fluency_replacements_applied": 2,
+    "new_hub_strings_reviewed": 5,
+    "native_human_certification": false
+  },
+  "verification": {
+    "editorial_unit_checks": 13,
+    "browser_cases": 38,
+    "browser_connection": "CDP",
+    "viewports": [390, 1280],
+    "combined_search_candidate_and_type_filters": "pass",
+    "zero_results_feedback": "pass",
+    "native_links_without_javascript": "pass",
+    "new_article_text_citation_targets_and_overflow": "pass",
+    "search_indexing_and_ranking": "Not established by publication checks"
+  },
+  "continuation": "The at-least-100-distinct-article expansion remains active; translations count as one story."
+}
