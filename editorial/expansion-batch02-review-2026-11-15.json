@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_articles_added": 11,
+  "distinct_articles_total": 24,
+  "subjects": [
+    "Etzer Emile: police recruitment, programme financing, power delivery, enterprise loans and education-budget measures",
+    "Olivier Barrau: documented family business, IDB private-sector loan and proposed youth corps",
+    "Jacky Lumarque: vocational-training responsibilities and distinction between two historical clearance files",
+    "Marc Arthur Drouillard: the EU observer report's 2016 withdrawal record and provisional result"
+  ],
+  "languages": ["ht", "en"],
+  "maximum_words_per_language": 500,
+  "independent_creole_review": {
+    "blind_reading_saved_before_english_comparison": true,
+    "article_and_source_keys": 107,
+    "required_replacement_keys_applied": 6,
+    "optional_clarity_replacements_applied": 3,
+    "native_human_certification": false
+  },
+  "method": "Read the cited records; attribute campaign claims; distinguish proposed amounts, independently calculated arithmetic and achieved outcomes. Historical relationships do not establish later wrongdoing.",
+  "verification_scope": "Publication checks verify rendering and consistency. They do not establish indexing, rankings or public comprehension."
+}

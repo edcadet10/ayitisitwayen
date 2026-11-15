@@ -690,7 +690,7 @@
         "en": "Etzer Emile education programme"
       },
       "note": {
-        "ht": "Nou konpare kalite endikatè yo: kredi nan bidjè ak depans ki fèt toutbon pa menm mezi.",
+        "ht": "Nou konpare mezi yo itilize yo: montan yo otorize nan bidjè a ak depans ki fèt toutbon se de mezi diferan.",
         "en": "Compares the measures used: budget allocations and spending actually executed are different quantities."
       }
     },
@@ -746,7 +746,7 @@
         "en": "Barrau’s proposed youth corps"
       },
       "note": {
-        "ht": "Tèks konplè konsève nan kopi achiv piblikasyon an. Rapò sou yon pwopozisyon, pa yon evalyasyon rezilta.",
+        "ht": "Nou li tèks konplè a nan kopi achiv piblikasyon an. Se yon rapò sou yon pwopozisyon, pa yon evalyasyon rezilta.",
         "en": "Full text reviewed in the publication’s archive copy. Reports a proposal, not evaluated results."
       }
     },
@@ -1794,7 +1794,7 @@
     },
     {
       "slug": "etzer-emile-police-doubling-training-test",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -1859,7 +1859,7 @@
     },
     {
       "slug": "etzer-emile-thirty-billion-financing-test",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -1925,7 +1925,7 @@
     },
     {
       "slug": "etzer-emile-electricity-capacity-household-service",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -1988,7 +1988,7 @@
     },
     {
       "slug": "etzer-emile-five-billion-small-business-loans",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -2028,7 +2028,7 @@
         {
           "kind": "interpretation",
           "text": {
-            "ht": "Yon fon garanti ka ede yon bank prete lè li pè pèdi lajan. Men garanti a pa lajan gratis: si moun pa remèt prè a, yon lòt moun pran pèt la. Règ pwogram nan dwe di ki pati bank la, leta ak moun ki prete a chak pran.",
+            "ht": "Yon fon garanti ka ankouraje yon bank bay prè lè li pè pèdi lajan. Men garanti a pa lajan gratis: si moun pa remèt prè a, yon lòt moun pran pèt la. Règ pwogram nan dwe di ki pati bank la, leta ak moun ki prete a chak pran.",
             "en": "A guarantee fund can encourage a bank to lend when it fears losses. A guarantee is not free money: if a borrower fails to repay, someone bears the loss. The rules should specify the shares carried by bank, state and borrower."
           },
           "sources": []
@@ -2055,7 +2055,7 @@
     },
     {
       "slug": "etzer-emile-school-budget-percentages-test",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -2120,7 +2120,7 @@
     },
     {
       "slug": "olivier-barrau-family-insurance-public-power",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -2183,7 +2183,7 @@
     },
     {
       "slug": "olivier-barrau-idb-two-million-insurance-loan",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -2213,7 +2213,7 @@
         {
           "kind": "record",
           "text": {
-            "ht": "Yon dokiman BID sou objektif la esplike rekapitalizasyon an te dwe ede AIC elaji asirans pou moun ki gen ti revni apre tranblemanntè 2010 la. Rapò anyèl konpayi an idantifye Olivier Barrau kòm PDG li an 2022.",
+            "ht": "Yon dokiman BID sou objektif la esplike rekapitalizasyon an te dwe ede AIC elaji asirans pou moun ki gen ti revni apre tranblemanntè 2010 la. Rapò anyèl konpayi an idantifye Olivier Barrau kòm direktè jeneral li an 2022.",
             "en": "An IDB description says recapitalization was intended to help AIC expand insurance for lower-income people after the 2010 earthquake. The company’s annual report identifies Olivier Barrau as its chief executive in 2022."
           },
           "sources": [
@@ -2249,7 +2249,7 @@
     },
     {
       "slug": "olivier-barrau-youth-corps-foundation-state",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -2313,7 +2313,7 @@
     },
     {
       "slug": "jacky-lumarque-vocational-training-record",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -2343,7 +2343,7 @@
         {
           "kind": "interpretation",
           "text": {
-            "ht": "Sa fè yon kestyon travay jèn vin yon kestyon sou dosye li tou. Li pa sèlman bezwen di sa li ta fè; li ka montre sa enstitisyon li te dirije yo te fè. Biyografi a soti nan enstitisyon li dirije a, pa nan yon evalyasyon endepandan sou pèfòmans li.",
+            "ht": "Sa fè yon kesyon travay jèn vin yon kesyon sou dosye li tou. Li pa sèlman bezwen di sa li ta fè; li ka montre sa enstitisyon li te dirije yo te fè. Biyografi a soti nan enstitisyon li dirije a, pa nan yon evalyasyon endepandan sou pèfòmans li.",
             "en": "That makes youth employment a question about his record as well. Beyond saying what he would do, he can show what institutions he led delivered. The biography comes from his own institution, not an independent performance evaluation."
           },
           "sources": []
@@ -2351,7 +2351,7 @@
         {
           "kind": "interpretation",
           "text": {
-            "ht": "Yon sant fòmasyon ka bay anpil diplòm san tout moun jwenn travay. Pou egzamine rezilta a, fòk nou konnen konbyen moun ki antre, konbyen ki fini, pri pou chak patisipan ak kantite ki jwenn travay nan domèn yo apre sa. Menm kestyon sa yo dwe poze pou tout kandida ki pwomèt fòmasyon.",
+            "ht": "Yon sant fòmasyon ka bay anpil diplòm san tout moun jwenn travay. Pou egzamine rezilta a, fòk nou konnen konbyen moun ki antre, konbyen ki fini, pri pou chak patisipan ak kantite ki jwenn travay nan domèn yo apre sa. Menm kesyon sa yo dwe poze pou tout kandida ki pwomèt fòmasyon.",
             "en": "A training centre can issue many certificates without everyone finding employment. Assessment requires entrants, completions, cost per participant and subsequent work in the trained field. The same questions should apply to every candidate promising training."
           },
           "sources": []
@@ -2376,7 +2376,7 @@
     },
     {
       "slug": "jacky-lumarque-2015-exclusion-two-files",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -2416,7 +2416,7 @@
         {
           "kind": "scope",
           "text": {
-            "ht": "Dat yo ak fonksyon yo pa menm. Donk, sèvi ak desizyon sou Wout Esklav la kòm si se li ki tranche tout kestyon GTEF la ta twonpe lektè a. Menm jan an tou, yon eksklizyon pou dosye elektoral pa yon kondanasyon pou vòl lajan.",
+            "ht": "Dat yo ak fonksyon yo pa menm. Donk, sèvi ak desizyon sou Wout Esklav la kòm si se li ki tranche tout kesyon GTEF la ta twonpe lektè a. Menm jan an tou, yon eksklizyon pou dosye elektoral pa yon kondanasyon pou vòl lajan.",
             "en": "The dates and roles differ. Using the Route de l’Esclave decision as if it settled every GTEF question would mislead readers. Equally, exclusion over electoral paperwork is not a conviction for stealing money."
           },
           "sources": []
@@ -2424,7 +2424,7 @@
         {
           "kind": "questions",
           "text": {
-            "ht": "Pou rekonstwi konfli a nèt, fòk chak pyès gen dat depo li, fonksyon li kouvri ak desizyon ki te vini apre l. Sa pèmèt nou poze de kestyon apa: èske kont yo te mande yon dechaj, epi èske enstitisyon elektoral la te aplike pwosedi a kòrèkteman?",
+            "ht": "Pou rekonstwi konfli a nèt, fòk chak pyès gen dat depo li, fonksyon li kouvri ak desizyon ki te vini apre l. Sa pèmèt nou poze de kesyon apa: èske kont yo te mande yon dechaj, epi èske enstitisyon elektoral la te aplike pwosedi a kòrèkteman?",
             "en": "A full reconstruction needs each document’s submission date, covered role and subsequent decision. That separates two questions: did the accounts require clearance, and did the electoral institution correctly apply procedure?"
           },
           "sources": []
@@ -2441,7 +2441,7 @@
     },
     {
       "slug": "marc-arthur-drouillard-2016-withdrawal-moise",
-      "status": "draft",
+      "status": "published",
       "kind": "analysis",
       "format": "narrative",
       "candidate_ids": [
@@ -2495,7 +2495,7 @@
         {
           "kind": "interpretation",
           "text": {
-            "ht": "Lè nou rakonte yon pakou, kestyon an pa sèlman « konbyen vòt li te fè? ». Li se tou « ki moun li te ede pran pouvwa, pou ki rezon, epi ki sa li aprann? ». Ti nòt sa a fè dosye a vin pi rich pase yon klasman.",
+            "ht": "Lè nou rakonte yon pakou, kesyon an pa sèlman « konbyen vòt li te fè? ». Li se tou « ki moun li te ede pran pouvwa, pou ki rezon, epi ki sa li aprann? ». Ti nòt sa a fè dosye a vin pi rich pase yon klasman.",
             "en": "When tracing a career, the question extends beyond “how many votes?” to “whom did he help into power, why, and what did he learn?” The footnote makes the record more informative than a ranking alone."
           },
           "sources": []
