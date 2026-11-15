@@ -670,5 +670,13 @@
   "last_observed": {
     "ht": "Dènye fwa nou te jwenn enskripsyon an nan done KEP yo:",
     "en": "Last observed in CEP data:"
+  },
+  "names_in_sources": {
+    "ht": "Non ki parèt nan sous yo",
+    "en": "Names used in sources"
+  },
+  "presidential_name_index": {
+    "ht": "Tout enskripsyon pou pòs prezidan an",
+    "en": "All presidential registrations"
   }
 }

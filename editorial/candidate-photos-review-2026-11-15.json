@@ -1,0 +1,135 @@
+{
+  "reviewed_at": "2026-11-15",
+  "scope": "All 11 presidential registrations added in the November 14 registry refresh.",
+  "added_portraits": 11,
+  "assets": 44,
+  "max_card_bytes": 27518,
+  "max_web_bytes": 6662,
+  "rejected_leads": [
+    {
+      "candidate": "LUCMANNE DELILLE",
+      "source_url": "https://www.pousioupatkonnen.com/haiti-elections-lucmanne-delille-inscrit-sur-la-plateforme-du-cep-comme-candidat/",
+      "reason": "The featured image is a CEP logo, not a portrait."
+    }
+  ],
+  "framing_review": "All eleven original images and the card/web crops visually reviewed; false-positive detector boxes in text, logos and lapels excluded. Detection used for framing only, never identity recognition.",
+  "published_name_variants": [
+    {
+      "id": "c-792c5ce25dbb58bfa7d9",
+      "name": "Jude Célestin",
+      "source_url": "https://beta.lenouvelliste.com/article/273799/a?lang=fr"
+    },
+    {
+      "id": "c-11e21ae7092757dcaaaa",
+      "name": "Marc-Arthur Drouillard",
+      "source_url": "https://moredayiti.com/"
+    },
+    {
+      "id": "c-a8679d21107058f5bc35",
+      "name": "Clarens Renois",
+      "source_url": "https://www.hpninfo.com/post/ha%C3%AFti-%C3%A9lections-clarens-renois-officialise-sa-candidature-%C3%A0-la-pr%C3%A9sidence-et-pr%C3%B4ne-l-unit%C3%A9-nationa"
+    },
+    {
+      "id": "c-9aa099e78f485f8daa4b",
+      "name": "Walson Sanon",
+      "source_url": "https://rezonodwes.com/2025/05/en-haiti-walson-sanon-appelle-a-une-refondation-citoyenne-face-a-la-crise-politique/"
+    },
+    {
+      "id": "c-044a28564a40545cb553",
+      "name": "Savannah Savary",
+      "source_url": "https://beta.lenouvelliste.com/article/273908/savannah-savary-refuse-que-le-pouvoir-devienne-un-gateau?lang=fr"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c-eafa5d1131725d7384c9",
+      "name": "KELY C. BASTIEN",
+      "source_url": "https://fcnhaiti.com/presidentielle-2027-delivrans-designe-kelly-c-bastien-comme-candidat-a-la-presidence/",
+      "asset_url": "https://i0.wp.com/fcnhaiti.com/wp-content/uploads/20261114_080440.jpg",
+      "source_sha256": "ee4c25cb234b32d1e5579ea3e855552264c90534d19f571ed396be9abc9361d0"
+    },
+    {
+      "id": "c-792c5ce25dbb58bfa7d9",
+      "name": "JUDE CELESTIN",
+      "source_url": "https://beta.lenouvelliste.com/article/273799/a?lang=fr",
+      "asset_url": "https://media.lenouvelliste.com/articles/2026-11-11/ede273f8-2a50-44e7-865a-bf580d2950bf.jpg",
+      "source_sha256": "6291a432cbbfa283c75db2073ba6143c874bcefa9e5a8293efc9efd1bcdd8e3e"
+    },
+    {
+      "id": "c-89917a3266b65e969c3d",
+      "name": "LUCMANNE DELILLE",
+      "source_url": "https://www.lenational.org/article/politique/7471/crise-politique-lucmanne-delille-plaide-pour-un-juge-de-la-cour-de-cassation-apres-le-7-fevrier",
+      "asset_url": "https://www.lenational.org/uploads/articles/1768920437-11.jpg",
+      "source_sha256": "e782381f97c3358f26cbfdf60b4f118d85a8a6a2889392bdfd8e1df0fcd3d04b"
+    },
+    {
+      "id": "c-11e21ae7092757dcaaaa",
+      "name": "MARC ARTHUR DROUILLARD",
+      "source_url": "https://moredayiti.com/",
+      "asset_url": "https://moredayiti.com/wp-content/uploads/2025/08/Marc-Arthur-Drouillard.png",
+      "source_sha256": "b36ed4d1c65f3920564a1e3f2fcf90510af439fa50b2130057670b15483eb0fc"
+    },
+    {
+      "id": "c-85da87af028d528d8f83",
+      "name": "DOMINIQUE DUPUY",
+      "source_url": "https://www.juno7.ht/dominique-dupuy-candidature-presidentielle-pvd/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/11/Dominique-Dupuy-entre-dans-la-course-a-la-presidentielle-sous-la-banniere-du-PVD.png",
+      "source_sha256": "e0ee4f4b2eb23b0be0d22be665677efc055e9b21c74398f9027023b2d7bdcc2f"
+    },
+    {
+      "id": "c-20a19b185cd2557e8e12",
+      "name": "HANS JACQUES LUDWIG JOSEPH",
+      "source_url": "https://www.juno7.ht/hans-jacques-ludwig-joseph-presidentielle-2027/",
+      "asset_url": "https://i0.wp.com/www.juno7.ht/wp-content/uploads/2026/11/IMG_0158.jpeg?fit=2560%2C1438&ssl=1",
+      "source_sha256": "493c2cdf59497f38424e96b43903889ff77191a949b21a10ae773831ed59fd16"
+    },
+    {
+      "id": "c-8cc27cd6c9bb5f41a143",
+      "name": "JACKY LUMARQUE",
+      "source_url": "https://www.leplacentin.com/politique/14-11-2026-presidentielle-jacky-lumarque-officialise-sa-candidature-sous-la-banniere-de-myel",
+      "asset_url": "https://leplacentin.com/storage/photo/stUtB7XnKbt4SQJTSya7zIVgWAWhFubguyLYndur.jpg",
+      "source_sha256": "1e76074ed364a0dcb0949df1b419f4033554351b9922974a1ef8dc8319130dc8"
+    },
+    {
+      "id": "c-07a633c73b3950999f76",
+      "name": "MICHELET NESTOR",
+      "source_url": "https://kayimitnews.com/?p=2551",
+      "asset_url": "https://kayimitnews.com/wp-content/uploads/2026/11/1c848226-aa5a-4d81-867c-db9ba1ce811f.jpeg",
+      "source_sha256": "88f224078659f1d928222c6acaa6cef608a38d348bcf1a000f028f59c63c18aa"
+    },
+    {
+      "id": "c-a8679d21107058f5bc35",
+      "name": "JEAN CLARENS RENOIS",
+      "source_url": "https://www.hpninfo.com/post/ha%C3%AFti-%C3%A9lections-clarens-renois-officialise-sa-candidature-%C3%A0-la-pr%C3%A9sidence-et-pr%C3%B4ne-l-unit%C3%A9-nationa",
+      "asset_url": "https://static.wixstatic.com/media/7224c5_338ee8d4afed4d39a674cb9e351a4c9b~mv2.jpeg/v1/fill/w_1705,h_1136,al_c,q_85/7224c5_338ee8d4afed4d39a674cb9e351a4c9b~mv2.jpeg",
+      "source_sha256": "5c77fa031b29aa21ccb99e9842017cd6a159e59af25af4ffba44588a54d31350"
+    },
+    {
+      "id": "c-9aa099e78f485f8daa4b",
+      "name": "WALSONN SANON",
+      "source_url": "https://rezonodwes.com/2025/05/en-haiti-walson-sanon-appelle-a-une-refondation-citoyenne-face-a-la-crise-politique/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2025/05/capture-decran-2025-05-04-101009.jpg",
+      "source_sha256": "993d97b06705881dad6810c629b7272da8eb9fa61211f44c6edb7da621a469ac"
+    },
+    {
+      "id": "c-044a28564a40545cb553",
+      "name": "MARIE ANNE SAVANNAH HADID SAVARY",
+      "source_url": "https://beta.lenouvelliste.com/article/273908/savannah-savary-refuse-que-le-pouvoir-devienne-un-gateau?lang=fr",
+      "asset_url": "https://media.lenouvelliste.com/articles/2026-11-13/8c71c0d1-f4da-42fe-94f6-be2e9967408c.jpg",
+      "source_sha256": "88672a415af948c63083614fa68cf92adff3d00d71d874bc8446cf3c7334fa90"
+    }
+  ],
+  "existing_enrichment_and_portraits_preserved": true,
+  "generated_faces_or_retouching": false,
+  "candidacy_status_changed": false,
+  "bilingual_labels_review": {
+    "method": "Independent HT-only reading followed by English comparison",
+    "result": "Names-used-in-sources label retained; alphabetical-index label revised to describe registrations rather than validated candidates.",
+    "native_human_certification": false
+  },
+  "seo_changes": [
+    "Candidate-specific sharing images with source-verified portraits",
+    "Five visibly sourced published-name forms mirrored in Person alternateName and on-site search",
+    "Complete native alphabetical list of the 32 current presidential registrations"
+  ]
+}

@@ -65,3 +65,21 @@ Primary references:
 - [Language versions](https://developers.google.com/search/docs/specialty/international/localized-versions)
 - [Pagination](https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading)
 - [Request recrawling](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl)
+
+## Candidate profile discovery update, 15 November 2026
+
+Verified portrait profiles now use their own image and name in Open Graph and
+Twitter image metadata. Unpictured profiles retain the site-logo fallback. Five
+published name forms have visible, source-linked attribution and matching Person
+alternateName metadata; directory search recognizes those same forms. The main
+presidential directory links every current presidential registration by name in a
+complete native alphabetical index, including entries beyond the first gallery
+page. IDs and canonical URLs remain stable.
+
+`candidate_revision` in `data/site-seo.json` records this deliberate candidate
+template/metadata revision. `content_revision` remains the floor for the shared
+election guides. Do not advance either value solely because a build ran.
+
+These changes improve identification, browsing and descriptive metadata. Their
+ranking impact requires later Search Console measurement; no rich result,
+Knowledge Panel, Discover placement or universal search position is promised.

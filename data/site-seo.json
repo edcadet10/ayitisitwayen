@@ -1,5 +1,6 @@
 {
   "content_revision": "2026-11-07",
+  "candidate_revision": "2026-11-15",
   "copy": {
     "country": {"ht":"Ayiti","en":"Haiti"},
     "profile_title": {"ht":"{name} — kandida pou pòs {office}, {place}","en":"{name} — candidate for {office}, {place}"},

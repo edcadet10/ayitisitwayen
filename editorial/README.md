@@ -211,3 +211,21 @@ The historical backfill, indexing/summary distinction, identity exclusions,
 remaining gaps and repeatable collection/checks are documented in
 [candidate-history-review.md](candidate-history-review.md). The earlier
 33-profile/29-publication figures above describe the preceding release.
+
+## Portrait additions and name discovery, 15 November 2026
+
+All eleven presidential entries added on 14 November now have source-credited,
+visually reviewed portraits. This brings current coverage to 30 of 32 presidential
+registrations and 89 registrations across all offices. Photograph dates remain
+unknown unless independently established; article and upload dates are not photo
+dates. The Marc-Arthur Drouillard image is credited to his movement website,
+without relabeling it an official MRN campaign portrait.
+
+The directory includes a complete native alphabetical presidential name index.
+Five published name forms are displayed with their source links and mirrored in
+Person alternateName metadata. A profile with a verified portrait uses that image
+in sharing metadata; pages without one retain the site-logo fallback. Existing
+profile IDs, registration statuses, portraits and historical archives are preserved.
+New labels received an independent HT-only reading and English comparison.
+See candidate-photos-review-2026-11-15.json for sources and review limits. These
+changes improve browsing and descriptive metadata; no search ranking is promised.

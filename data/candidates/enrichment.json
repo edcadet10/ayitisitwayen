@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-11-07",
+  "reviewed_at": "2026-11-15",
   "coverage_note": "Initial reviewed archive, incomplete. Registry facts cover every registration; portraits and non-registry sources are added only when reviewed.",
   "publications": {
     "haitilibre-20261017": {
@@ -1856,6 +1856,262 @@
       "review_status": "reviewed",
       "editorial_level": "summary",
       "event_date": "2023-02-09"
+    },
+    "portrait-source-eafa5d1131725d7384c9": {
+      "id": "portrait-source-eafa5d1131725d7384c9",
+      "url": "https://fcnhaiti.com/presidentielle-2027-delivrans-designe-kelly-c-bastien-comme-candidat-a-la-presidence/",
+      "publisher": "FCN",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: KELY C. BASTIEN",
+        "en": "Photo source: KELY C. BASTIEN"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2026-11-14",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "Présidentielle 2027 : DELIVRANS désigne Kely C. Bastien comme candidat à la présidence - FCN"
+    },
+    "portrait-source-792c5ce25dbb58bfa7d9": {
+      "id": "portrait-source-792c5ce25dbb58bfa7d9",
+      "url": "https://beta.lenouvelliste.com/article/273799/a?lang=fr",
+      "publisher": "Le Nouvelliste",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: JUDE CELESTIN",
+        "en": "Photo source: JUDE CELESTIN"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2026-11-11",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "Jude Célestin veut refonder l'État pour reconstruire la Nation | Le Nouvelliste",
+      "access": "account"
+    },
+    "portrait-source-89917a3266b65e969c3d": {
+      "id": "portrait-source-89917a3266b65e969c3d",
+      "url": "https://www.lenational.org/article/politique/7471/crise-politique-lucmanne-delille-plaide-pour-un-juge-de-la-cour-de-cassation-apres-le-7-fevrier",
+      "publisher": "Le National",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: LUCMANNE DELILLE",
+        "en": "Photo source: LUCMANNE DELILLE"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2026-01-20",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "Crise politique : Lucmanne Delille plaide pour un juge de la Cour de cassation après le 7 février — Le National",
+      "access": "account"
+    },
+    "portrait-source-11e21ae7092757dcaaaa": {
+      "id": "portrait-source-11e21ae7092757dcaaaa",
+      "url": "https://moredayiti.com/",
+      "publisher": "MORED AYITI",
+      "type": "campaign_source",
+      "categories": [
+        "campaign"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: MARC ARTHUR DROUILLARD",
+        "en": "Photo source: MARC ARTHUR DROUILLARD"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "MORED - MORED AYITI | Mouvman Revèy Desalinyen"
+    },
+    "portrait-source-85da87af028d528d8f83": {
+      "id": "portrait-source-85da87af028d528d8f83",
+      "url": "https://www.juno7.ht/dominique-dupuy-candidature-presidentielle-pvd/",
+      "publisher": "Juno7",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: DOMINIQUE DUPUY",
+        "en": "Photo source: DOMINIQUE DUPUY"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2026-11-11",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "Dominique Dupuy candidate à la présidentielle sous le PVD"
+    },
+    "portrait-source-20a19b185cd2557e8e12": {
+      "id": "portrait-source-20a19b185cd2557e8e12",
+      "url": "https://www.juno7.ht/hans-jacques-ludwig-joseph-presidentielle-2027/",
+      "publisher": "Juno7",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: HANS JACQUES LUDWIG JOSEPH",
+        "en": "Photo source: HANS JACQUES LUDWIG JOSEPH"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2026-11-14",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "Présidentielle : l’ancien chef de l’ULCC se lance"
+    },
+    "portrait-source-8cc27cd6c9bb5f41a143": {
+      "id": "portrait-source-8cc27cd6c9bb5f41a143",
+      "url": "https://www.leplacentin.com/politique/14-11-2026-presidentielle-jacky-lumarque-officialise-sa-candidature-sous-la-banniere-de-myel",
+      "publisher": "Le Placentin",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: JACKY LUMARQUE",
+        "en": "Photo source: JACKY LUMARQUE"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2026-11-14",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "Présidentielle : Jacky Lumarque officialise sa candidature sous la bannière de MYÈL"
+    },
+    "portrait-source-07a633c73b3950999f76": {
+      "id": "portrait-source-07a633c73b3950999f76",
+      "url": "https://kayimitnews.com/?p=2551",
+      "publisher": "Kayimit News",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: MICHELET NESTOR",
+        "en": "Photo source: MICHELET NESTOR"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2026-11-14",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "Présidentielle : Michelet Nestor effectue son inscription comme candidat sous la bannière de Debout Patriotes - kayimitnews.com"
+    },
+    "portrait-source-a8679d21107058f5bc35": {
+      "id": "portrait-source-a8679d21107058f5bc35",
+      "url": "https://www.hpninfo.com/post/ha%C3%AFti-%C3%A9lections-clarens-renois-officialise-sa-candidature-%C3%A0-la-pr%C3%A9sidence-et-pr%C3%B4ne-l-unit%C3%A9-nationa",
+      "publisher": "HPN",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: JEAN CLARENS RENOIS",
+        "en": "Photo source: JEAN CLARENS RENOIS"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2026-11-13",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "Haïti-Élections : Clarens Renois officialise sa candidature à la présidence et prône l’unité nationale"
+    },
+    "portrait-source-9aa099e78f485f8daa4b": {
+      "id": "portrait-source-9aa099e78f485f8daa4b",
+      "url": "https://rezonodwes.com/2025/05/en-haiti-walson-sanon-appelle-a-une-refondation-citoyenne-face-a-la-crise-politique/",
+      "publisher": "Rezo Nòdwès",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: WALSONN SANON",
+        "en": "Photo source: WALSONN SANON"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2025-05-04",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "En Haïti, Walson Sanon appelle à une refondation citoyenne face à la crise politique - Rezo Nòdwès"
+    },
+    "portrait-source-044a28564a40545cb553": {
+      "id": "portrait-source-044a28564a40545cb553",
+      "url": "https://beta.lenouvelliste.com/article/273908/savannah-savary-refuse-que-le-pouvoir-devienne-un-gateau?lang=fr",
+      "publisher": "Le Nouvelliste",
+      "type": "journalism",
+      "categories": [
+        "articles"
+      ],
+      "format": "portrait",
+      "title": {
+        "ht": "Sous foto: MARIE ANNE SAVANNAH HADID SAVARY",
+        "en": "Photo source: MARIE ANNE SAVANNAH HADID SAVARY"
+      },
+      "summary": {
+        "ht": "Piblikasyon sa a se sous foto ki sou pwofil la. Li pa yon desizyon KEP sou kandidati moun nan.",
+        "en": "This publication is the source of the profile photograph. It is not a CEP decision on the person's candidacy."
+      },
+      "published_at": "2026-11-13",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed",
+      "editorial_level": "photo_identity",
+      "original_title": "Savannah Savary refuse que le pouvoir devienne « un gâteau » | Le Nouvelliste",
+      "access": "account"
     }
   },
   "profiles": {
@@ -4744,6 +5000,432 @@
         "position": "50% 50%",
         "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
       }
+    },
+    "c-eafa5d1131725d7384c9": {
+      "source_ids": [
+        "portrait-source-eafa5d1131725d7384c9"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/kely-bastien-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/kely-bastien-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/kely-bastien-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/kely-bastien-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/kely-bastien-web.webp",
+        "source_url": "https://fcnhaiti.com/presidentielle-2027-delivrans-designe-kelly-c-bastien-comme-candidat-a-la-presidence/",
+        "asset_url": "https://i0.wp.com/fcnhaiti.com/wp-content/uploads/20261114_080440.jpg",
+        "credit": "FCN",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-792c5ce25dbb58bfa7d9": {
+      "source_ids": [
+        "portrait-source-792c5ce25dbb58bfa7d9"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/jude-celestin-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/jude-celestin-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/jude-celestin-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/jude-celestin-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/jude-celestin-web.webp",
+        "source_url": "https://beta.lenouvelliste.com/article/273799/a?lang=fr",
+        "asset_url": "https://media.lenouvelliste.com/articles/2026-11-11/ede273f8-2a50-44e7-865a-bf580d2950bf.jpg",
+        "credit": "Le Nouvelliste",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      },
+      "name_variants": [
+        {
+          "name": "Jude Célestin",
+          "source_id": "portrait-source-792c5ce25dbb58bfa7d9"
+        }
+      ]
+    },
+    "c-89917a3266b65e969c3d": {
+      "source_ids": [
+        "portrait-source-89917a3266b65e969c3d"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/lucmanne-delille-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/lucmanne-delille-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/lucmanne-delille-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/lucmanne-delille-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/lucmanne-delille-web.webp",
+        "source_url": "https://www.lenational.org/article/politique/7471/crise-politique-lucmanne-delille-plaide-pour-un-juge-de-la-cour-de-cassation-apres-le-7-fevrier",
+        "asset_url": "https://www.lenational.org/uploads/articles/1768920437-11.jpg",
+        "credit": "Le National",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-11e21ae7092757dcaaaa": {
+      "source_ids": [
+        "portrait-source-11e21ae7092757dcaaaa"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/marc-arthur-drouillard-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/marc-arthur-drouillard-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/marc-arthur-drouillard-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/marc-arthur-drouillard-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/marc-arthur-drouillard-web.webp",
+        "source_url": "https://moredayiti.com/",
+        "asset_url": "https://moredayiti.com/wp-content/uploads/2025/08/Marc-Arthur-Drouillard.png",
+        "credit": "MORED AYITI",
+        "context": {
+          "ht": "Pòtrè sou sit kandida a; dat foto a pa presize",
+          "en": "Portrait on the candidate website; photograph date not stated"
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      },
+      "name_variants": [
+        {
+          "name": "Marc-Arthur Drouillard",
+          "source_id": "portrait-source-11e21ae7092757dcaaaa"
+        }
+      ]
+    },
+    "c-85da87af028d528d8f83": {
+      "source_ids": [
+        "portrait-source-85da87af028d528d8f83"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/dominique-dupuy-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/dominique-dupuy-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/dominique-dupuy-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/dominique-dupuy-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/dominique-dupuy-web.webp",
+        "source_url": "https://www.juno7.ht/dominique-dupuy-candidature-presidentielle-pvd/",
+        "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/11/Dominique-Dupuy-entre-dans-la-course-a-la-presidentielle-sous-la-banniere-du-PVD.png",
+        "credit": "Juno7",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-20a19b185cd2557e8e12": {
+      "source_ids": [
+        "portrait-source-20a19b185cd2557e8e12"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/hans-jacques-ludwig-joseph-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/hans-jacques-ludwig-joseph-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/hans-jacques-ludwig-joseph-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/hans-jacques-ludwig-joseph-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/hans-jacques-ludwig-joseph-web.webp",
+        "source_url": "https://www.juno7.ht/hans-jacques-ludwig-joseph-presidentielle-2027/",
+        "asset_url": "https://i0.wp.com/www.juno7.ht/wp-content/uploads/2026/11/IMG_0158.jpeg?fit=2560%2C1438&ssl=1",
+        "credit": "Juno7",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-8cc27cd6c9bb5f41a143": {
+      "source_ids": [
+        "portrait-source-8cc27cd6c9bb5f41a143"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/jacky-lumarque-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/jacky-lumarque-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/jacky-lumarque-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/jacky-lumarque-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/jacky-lumarque-web.webp",
+        "source_url": "https://www.leplacentin.com/politique/14-11-2026-presidentielle-jacky-lumarque-officialise-sa-candidature-sous-la-banniere-de-myel",
+        "asset_url": "https://leplacentin.com/storage/photo/stUtB7XnKbt4SQJTSya7zIVgWAWhFubguyLYndur.jpg",
+        "credit": "Le Placentin",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-07a633c73b3950999f76": {
+      "source_ids": [
+        "portrait-source-07a633c73b3950999f76"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/michelet-nestor-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/michelet-nestor-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/michelet-nestor-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/michelet-nestor-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/michelet-nestor-web.webp",
+        "source_url": "https://kayimitnews.com/?p=2551",
+        "asset_url": "https://kayimitnews.com/wp-content/uploads/2026/11/1c848226-aa5a-4d81-867c-db9ba1ce811f.jpeg",
+        "credit": "Kayimit News",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      }
+    },
+    "c-a8679d21107058f5bc35": {
+      "source_ids": [
+        "portrait-source-a8679d21107058f5bc35"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/jean-clarens-renois-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/jean-clarens-renois-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/jean-clarens-renois-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/jean-clarens-renois-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/jean-clarens-renois-web.webp",
+        "source_url": "https://www.hpninfo.com/post/ha%C3%AFti-%C3%A9lections-clarens-renois-officialise-sa-candidature-%C3%A0-la-pr%C3%A9sidence-et-pr%C3%B4ne-l-unit%C3%A9-nationa",
+        "asset_url": "https://static.wixstatic.com/media/7224c5_338ee8d4afed4d39a674cb9e351a4c9b~mv2.jpeg/v1/fill/w_1705,h_1136,al_c,q_85/7224c5_338ee8d4afed4d39a674cb9e351a4c9b~mv2.jpeg",
+        "credit": "HPN",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      },
+      "name_variants": [
+        {
+          "name": "Clarens Renois",
+          "source_id": "portrait-source-a8679d21107058f5bc35"
+        }
+      ]
+    },
+    "c-9aa099e78f485f8daa4b": {
+      "source_ids": [
+        "portrait-source-9aa099e78f485f8daa4b"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/walsonn-sanon-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/walsonn-sanon-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/walsonn-sanon-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/walsonn-sanon-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/walsonn-sanon-web.webp",
+        "source_url": "https://rezonodwes.com/2025/05/en-haiti-walson-sanon-appelle-a-une-refondation-citoyenne-face-a-la-crise-politique/",
+        "asset_url": "https://rezonodwes.com/wp-content/uploads/2025/05/capture-decran-2025-05-04-101009.jpg",
+        "credit": "Rezo Nòdwès",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      },
+      "name_variants": [
+        {
+          "name": "Walson Sanon",
+          "source_id": "portrait-source-9aa099e78f485f8daa4b"
+        }
+      ]
+    },
+    "c-044a28564a40545cb553": {
+      "source_ids": [
+        "portrait-source-044a28564a40545cb553"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/savannah-savary-320.webp",
+        "variants": [
+          {
+            "path": "/assets/candidates/savannah-savary-160.webp",
+            "width": 160,
+            "height": 200
+          },
+          {
+            "path": "/assets/candidates/savannah-savary-320.webp",
+            "width": 320,
+            "height": 400
+          },
+          {
+            "path": "/assets/candidates/savannah-savary-480.webp",
+            "width": 480,
+            "height": 600
+          }
+        ],
+        "web_path": "/assets/candidates/savannah-savary-web.webp",
+        "source_url": "https://beta.lenouvelliste.com/article/273908/savannah-savary-refuse-que-le-pouvoir-devienne-un-gateau?lang=fr",
+        "asset_url": "https://media.lenouvelliste.com/articles/2026-11-13/8c71c0d1-f4da-42fe-94f6-be2e9967408c.jpg",
+        "credit": "Le Nouvelliste",
+        "context": {
+          "ht": "Pòtrè ki parèt nan laprès; dat foto a pa presize.",
+          "en": "Portrait published in the press; photograph date not stated."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
+      },
+      "name_variants": [
+        {
+          "name": "Savannah Savary",
+          "source_id": "portrait-source-044a28564a40545cb553"
+        }
+      ]
     }
   }
 }

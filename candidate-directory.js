@@ -20,7 +20,7 @@
   const positionKeys={'Titulaire':'titulaire','1er Adjoint':'first_deputy','2ème Adjoint':'second_deputy','3ème Adjoint':'third_deputy','4ème Adjoint':'fourth_deputy','5ème Adjoint':'fifth_deputy','6ème Adjoint':'sixth_deputy','7ème Adjoint':'seventh_deputy','8ème Adjoint':'eighth_deputy'};
   function catalog(){
     const office=state.office;
-    if(!catalogs.has(office))catalogs.set(office,fetch('/data/candidate-public/catalog'+(office==='all'?'':'-'+office)+'.json').then(response=>{if(!response.ok)throw Error('Directory unavailable');return response.json();}).then(data=>data.candidates.map(row=>({...row,search:normalize([row.name,row.party,...row.locality].join(' '))}))).catch(e=>{catalogs.delete(office);throw e;}));
+    if(!catalogs.has(office))catalogs.set(office,fetch('/data/candidate-public/catalog'+(office==='all'?'':'-'+office)+'.json').then(response=>{if(!response.ok)throw Error('Directory unavailable');return response.json();}).then(data=>data.candidates.map(row=>({...row,search:normalize([row.name,...(row.name_variants||[]),row.party,...row.locality].join(' '))}))).catch(e=>{catalogs.delete(office);throw e;}));
     return catalogs.get(office);
   }
   function fill(select,values,first){

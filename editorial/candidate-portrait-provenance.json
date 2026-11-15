@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-11-07",
+  "reviewed_at": "2026-11-15",
   "method": "Source captions and name, party, office and locality context; face location used only for framing. Crop/resize/WebP encoding only. No generated faces, retouching, identity recognition or inferred candidacy validation.",
   "portraits": [
     {
@@ -4931,6 +4931,622 @@
       "web_bytes": 2642,
       "photograph_date": null,
       "reviewed_at": "2026-11-07"
+    },
+    {
+      "id": "c-eafa5d1131725d7384c9",
+      "name": "KELY C. BASTIEN",
+      "office": "president",
+      "party": "DELIVRANS",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://fcnhaiti.com/presidentielle-2027-delivrans-designe-kelly-c-bastien-comme-candidat-a-la-presidence/",
+      "asset_url": "https://i0.wp.com/fcnhaiti.com/wp-content/uploads/20261114_080440.jpg",
+      "credit": "FCN",
+      "identity_context": "Dr Kely C. Bastien, candidat à la présidence désigné par la plateforme DELIVRANS; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "ee4c25cb234b32d1e5579ea3e855552264c90534d19f571ed396be9abc9361d0",
+      "source_dimensions": [
+        512,
+        512
+      ],
+      "crop_boxes": {
+        "card": [
+          175,
+          257,
+          333,
+          455
+        ],
+        "web": [
+          181,
+          262,
+          327,
+          407
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/kely-bastien-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3622
+        },
+        {
+          "path": "/assets/candidates/kely-bastien-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7766
+        },
+        {
+          "path": "/assets/candidates/kely-bastien-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12128
+        }
+      ],
+      "web_path": "/assets/candidates/kely-bastien-web.webp",
+      "web_bytes": 3654,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-792c5ce25dbb58bfa7d9",
+      "name": "JUDE CELESTIN",
+      "office": "president",
+      "party": "ENA",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://beta.lenouvelliste.com/article/273799/a?lang=fr",
+      "asset_url": "https://media.lenouvelliste.com/articles/2026-11-11/ede273f8-2a50-44e7-865a-bf580d2950bf.jpg",
+      "credit": "Le Nouvelliste",
+      "identity_context": "Jude Célestin; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "6291a432cbbfa283c75db2073ba6143c874bcefa9e5a8293efc9efd1bcdd8e3e",
+      "source_dimensions": [
+        443,
+        349
+      ],
+      "crop_boxes": {
+        "card": [
+          80,
+          0,
+          327,
+          308
+        ],
+        "web": [
+          90,
+          0,
+          317,
+          226
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jude-celestin-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4690
+        },
+        {
+          "path": "/assets/candidates/jude-celestin-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10876
+        },
+        {
+          "path": "/assets/candidates/jude-celestin-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 17630
+        }
+      ],
+      "web_path": "/assets/candidates/jude-celestin-web.webp",
+      "web_bytes": 5264,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-89917a3266b65e969c3d",
+      "name": "LUCMANNE DELILLE",
+      "office": "president",
+      "party": "DEBOUT CITOYEN",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.lenational.org/article/politique/7471/crise-politique-lucmanne-delille-plaide-pour-un-juge-de-la-cour-de-cassation-apres-le-7-fevrier",
+      "asset_url": "https://www.lenational.org/uploads/articles/1768920437-11.jpg",
+      "credit": "Le National",
+      "identity_context": "Crise politique : Lucmanne Delille plaide pour un juge de la Cour de cassation après le 7 février — Le National; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "e782381f97c3358f26cbfdf60b4f118d85a8a6a2889392bdfd8e1df0fcd3d04b",
+      "source_dimensions": [
+        3920,
+        3080
+      ],
+      "crop_boxes": {
+        "card": [
+          1327,
+          131,
+          2934,
+          2140
+        ],
+        "web": [
+          1394,
+          184,
+          2867,
+          1658
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/lucmanne-delille-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 2708
+        },
+        {
+          "path": "/assets/candidates/lucmanne-delille-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 5814
+        },
+        {
+          "path": "/assets/candidates/lucmanne-delille-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 9186
+        }
+      ],
+      "web_path": "/assets/candidates/lucmanne-delille-web.webp",
+      "web_bytes": 3192,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-11e21ae7092757dcaaaa",
+      "name": "MARC ARTHUR DROUILLARD",
+      "office": "president",
+      "party": "MRN",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://moredayiti.com/",
+      "asset_url": "https://moredayiti.com/wp-content/uploads/2025/08/Marc-Arthur-Drouillard.png",
+      "credit": "MORED AYITI",
+      "identity_context": "MORED - MORED AYITI | Mouvman Revèy Desalinyen; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "b36ed4d1c65f3920564a1e3f2fcf90510af439fa50b2130057670b15483eb0fc",
+      "source_dimensions": [
+        460,
+        323
+      ],
+      "crop_boxes": {
+        "card": [
+          124,
+          15,
+          305,
+          242
+        ],
+        "web": [
+          131,
+          21,
+          298,
+          187
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/marc-arthur-drouillard-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3754
+        },
+        {
+          "path": "/assets/candidates/marc-arthur-drouillard-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8408
+        },
+        {
+          "path": "/assets/candidates/marc-arthur-drouillard-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 13798
+        }
+      ],
+      "web_path": "/assets/candidates/marc-arthur-drouillard-web.webp",
+      "web_bytes": 3942,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-85da87af028d528d8f83",
+      "name": "DOMINIQUE DUPUY",
+      "office": "president",
+      "party": "PVD",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.juno7.ht/dominique-dupuy-candidature-presidentielle-pvd/",
+      "asset_url": "https://www.juno7.ht/wp-content/uploads/2026/11/Dominique-Dupuy-entre-dans-la-course-a-la-presidentielle-sous-la-banniere-du-PVD.png",
+      "credit": "Juno7",
+      "identity_context": "Dominique Dupuy candidate à la présidentielle sous le PVD; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "e0ee4f4b2eb23b0be0d22be665677efc055e9b21c74398f9027023b2d7bdcc2f",
+      "source_dimensions": [
+        1600,
+        900
+      ],
+      "crop_boxes": {
+        "card": [
+          478,
+          0,
+          1037,
+          700
+        ],
+        "web": [
+          501,
+          0,
+          1014,
+          513
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/dominique-dupuy-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3602
+        },
+        {
+          "path": "/assets/candidates/dominique-dupuy-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 8536
+        },
+        {
+          "path": "/assets/candidates/dominique-dupuy-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 14020
+        }
+      ],
+      "web_path": "/assets/candidates/dominique-dupuy-web.webp",
+      "web_bytes": 4784,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-20a19b185cd2557e8e12",
+      "name": "HANS JACQUES LUDWIG JOSEPH",
+      "office": "president",
+      "party": "ESCANP",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.juno7.ht/hans-jacques-ludwig-joseph-presidentielle-2027/",
+      "asset_url": "https://i0.wp.com/www.juno7.ht/wp-content/uploads/2026/11/IMG_0158.jpeg?fit=2560%2C1438&ssl=1",
+      "credit": "Juno7",
+      "identity_context": "Présidentielle : l’ancien chef de l’ULCC se lance; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "493c2cdf59497f38424e96b43903889ff77191a949b21a10ae773831ed59fd16",
+      "source_dimensions": [
+        2560,
+        1438
+      ],
+      "crop_boxes": {
+        "card": [
+          626,
+          0,
+          1733,
+          1384
+        ],
+        "web": [
+          672,
+          0,
+          1687,
+          1015
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/hans-jacques-ludwig-joseph-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3940
+        },
+        {
+          "path": "/assets/candidates/hans-jacques-ludwig-joseph-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9536
+        },
+        {
+          "path": "/assets/candidates/hans-jacques-ludwig-joseph-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 15974
+        }
+      ],
+      "web_path": "/assets/candidates/hans-jacques-ludwig-joseph-web.webp",
+      "web_bytes": 4324,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-8cc27cd6c9bb5f41a143",
+      "name": "JACKY LUMARQUE",
+      "office": "president",
+      "party": "MYEL",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.leplacentin.com/politique/14-11-2026-presidentielle-jacky-lumarque-officialise-sa-candidature-sous-la-banniere-de-myel",
+      "asset_url": "https://leplacentin.com/storage/photo/stUtB7XnKbt4SQJTSya7zIVgWAWhFubguyLYndur.jpg",
+      "credit": "Le Placentin",
+      "identity_context": "Présidentielle : Jacky Lumarque officialise sa candidature sous la bannière de MYÈL; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "1e76074ed364a0dcb0949df1b419f4033554351b9922974a1ef8dc8319130dc8",
+      "source_dimensions": [
+        1476,
+        1599
+      ],
+      "crop_boxes": {
+        "card": [
+          460,
+          300,
+          1060,
+          1050
+        ],
+        "web": [
+          460,
+          305,
+          1060,
+          905
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jacky-lumarque-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 5672
+        },
+        {
+          "path": "/assets/candidates/jacky-lumarque-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 15582
+        },
+        {
+          "path": "/assets/candidates/jacky-lumarque-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 27518
+        }
+      ],
+      "web_path": "/assets/candidates/jacky-lumarque-web.webp",
+      "web_bytes": 6662,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-07a633c73b3950999f76",
+      "name": "MICHELET NESTOR",
+      "office": "president",
+      "party": "DPA",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://kayimitnews.com/?p=2551",
+      "asset_url": "https://kayimitnews.com/wp-content/uploads/2026/11/1c848226-aa5a-4d81-867c-db9ba1ce811f.jpeg",
+      "credit": "Kayimit News",
+      "identity_context": "Présidentielle : Michelet Nestor effectue son inscription comme candidat sous la bannière de Debout Patriotes - kayimitnews.com; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "88f224078659f1d928222c6acaa6cef608a38d348bcf1a000f028f59c63c18aa",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "crop_boxes": {
+        "card": [
+          374,
+          82,
+          842,
+          667
+        ],
+        "web": [
+          394,
+          98,
+          822,
+          527
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/michelet-nestor-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3976
+        },
+        {
+          "path": "/assets/candidates/michelet-nestor-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 10496
+        },
+        {
+          "path": "/assets/candidates/michelet-nestor-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 21930
+        }
+      ],
+      "web_path": "/assets/candidates/michelet-nestor-web.webp",
+      "web_bytes": 4710,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-a8679d21107058f5bc35",
+      "name": "JEAN CLARENS RENOIS",
+      "office": "president",
+      "party": "UNIR AYITI INI",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://www.hpninfo.com/post/ha%C3%AFti-%C3%A9lections-clarens-renois-officialise-sa-candidature-%C3%A0-la-pr%C3%A9sidence-et-pr%C3%B4ne-l-unit%C3%A9-nationa",
+      "asset_url": "https://static.wixstatic.com/media/7224c5_338ee8d4afed4d39a674cb9e351a4c9b~mv2.jpeg/v1/fill/w_1705,h_1136,al_c,q_85/7224c5_338ee8d4afed4d39a674cb9e351a4c9b~mv2.jpeg",
+      "credit": "HPN",
+      "identity_context": "Haïti-Élections : Clarens Renois officialise sa candidature à la présidence et prône l’unité nationale; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "5c77fa031b29aa21ccb99e9842017cd6a159e59af25af4ffba44588a54d31350",
+      "source_dimensions": [
+        1705,
+        1136
+      ],
+      "crop_boxes": {
+        "card": [
+          567,
+          83,
+          1207,
+          884
+        ],
+        "web": [
+          593,
+          104,
+          1181,
+          691
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/jean-clarens-renois-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 2688
+        },
+        {
+          "path": "/assets/candidates/jean-clarens-renois-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 6070
+        },
+        {
+          "path": "/assets/candidates/jean-clarens-renois-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 10152
+        }
+      ],
+      "web_path": "/assets/candidates/jean-clarens-renois-web.webp",
+      "web_bytes": 3204,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-9aa099e78f485f8daa4b",
+      "name": "WALSONN SANON",
+      "office": "president",
+      "party": "ANFOS POU SOVE LONE",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://rezonodwes.com/2025/05/en-haiti-walson-sanon-appelle-a-une-refondation-citoyenne-face-a-la-crise-politique/",
+      "asset_url": "https://rezonodwes.com/wp-content/uploads/2025/05/capture-decran-2025-05-04-101009.jpg",
+      "credit": "Rezo Nòdwès",
+      "identity_context": "En Haïti, Walson Sanon appelle à une refondation citoyenne face à la crise politique - Rezo Nòdwès; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "993d97b06705881dad6810c629b7272da8eb9fa61211f44c6edb7da621a469ac",
+      "source_dimensions": [
+        994,
+        661
+      ],
+      "crop_boxes": {
+        "card": [
+          68,
+          0,
+          597,
+          661
+        ],
+        "web": [
+          2,
+          0,
+          663,
+          661
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/walsonn-sanon-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 4174
+        },
+        {
+          "path": "/assets/candidates/walsonn-sanon-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 9932
+        },
+        {
+          "path": "/assets/candidates/walsonn-sanon-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 16112
+        }
+      ],
+      "web_path": "/assets/candidates/walsonn-sanon-web.webp",
+      "web_bytes": 4500,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-044a28564a40545cb553",
+      "name": "MARIE ANNE SAVANNAH HADID SAVARY",
+      "office": "president",
+      "party": "HAMAD",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://beta.lenouvelliste.com/article/273908/savannah-savary-refuse-que-le-pouvoir-devienne-un-gateau?lang=fr",
+      "asset_url": "https://media.lenouvelliste.com/articles/2026-11-13/8c71c0d1-f4da-42fe-94f6-be2e9967408c.jpg",
+      "credit": "Le Nouvelliste",
+      "identity_context": "Savannah Savary; matched to the existing CEP registration by full name and the documented political/office context. Photograph date not inferred from article or upload date.",
+      "source_sha256": "88672a415af948c63083614fa68cf92adff3d00d71d874bc8446cf3c7334fa90",
+      "source_dimensions": [
+        469,
+        513
+      ],
+      "crop_boxes": {
+        "card": [
+          74,
+          23,
+          406,
+          437
+        ],
+        "web": [
+          88,
+          34,
+          392,
+          338
+        ]
+      },
+      "variants": [
+        {
+          "path": "/assets/candidates/savannah-savary-160.webp",
+          "width": 160,
+          "height": 200,
+          "bytes": 3022
+        },
+        {
+          "path": "/assets/candidates/savannah-savary-320.webp",
+          "width": 320,
+          "height": 400,
+          "bytes": 7350
+        },
+        {
+          "path": "/assets/candidates/savannah-savary-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 12076
+        }
+      ],
+      "web_path": "/assets/candidates/savannah-savary-web.webp",
+      "web_bytes": 3550,
+      "photograph_date": null,
+      "reviewed_at": "2026-11-15"
     }
   ]
 }

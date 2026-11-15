@@ -1,6 +1,7 @@
 """Meaningful invariants for reviewed data and source/render safety, without a network dependency."""
 import importlib.util
 import json
+import re
 from pathlib import Path
 import unittest
 
@@ -51,6 +52,34 @@ class CandidateDataChecks(unittest.TestCase):
             self.assertIn('candidate-retained-note',html)
             self.assertIn(f'<time datetime="{person["last_observed_at"]}">{person["last_observed_at"]}</time>',html)
             for other in ['ht','en']:self.assertIn(builder.profile_url(person,other),html)
+    def test_portrait_profiles_have_person_specific_sharing_images(self):
+        people=[person for person in self.registry['candidates'] if self.enrichment['profiles'].get(person['id'],{}).get('portrait')]
+        for person in people:
+            image=self.enrichment['profiles'][person['id']]['portrait']['path']
+            html=builder.profile_page('en',person,self.registry,self.enrichment)
+            self.assertIn(f'<meta property="og:image" content="{builder.SITE}{image}">',html)
+            self.assertIn(f'<meta name="twitter:image" content="{builder.SITE}{image}">',html)
+        missing=next(person for person in self.registry['candidates'] if not self.enrichment['profiles'].get(person['id'],{}).get('portrait'))
+        self.assertIn(f'<meta property="og:image" content="{builder.SITE}/logo.png">',builder.profile_page('en',missing,self.registry,self.enrichment))
+    def test_published_names_are_visible_sourced_and_in_person_metadata(self):
+        by_id={p['id']:p for p in self.registry['candidates']}
+        for ident,entry in self.enrichment['profiles'].items():
+            if not entry.get('name_variants'):continue
+            for lang in ['ht','en']:
+                html=builder.profile_page(lang,by_id[ident],self.registry,self.enrichment)
+                metadata=json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>',html).group(1))
+                self.assertEqual(metadata['about']['alternateName'],[alias['name'] for alias in entry['name_variants']])
+                visible=re.search(r'<p class="candidate-published-names">(.*?)</p>',html).group(1)
+                for alias in entry['name_variants']:
+                    self.assertIn(alias['name'],visible)
+                    self.assertIn(self.enrichment['publications'][alias['source_id']]['url'].replace('&','&amp;'),visible)
+    def test_presidential_name_index_links_beyond_first_gallery_page(self):
+        presidents=[person for person in self.registry['candidates'] if person['office']=='president']
+        self.assertGreater(len(presidents),builder.PAGE_SIZE)
+        for lang in ['ht','en']:
+            _,html=builder.directory_page(lang,self.registry,self.enrichment)
+            index=re.search(r'<details class="candidate-name-index">(.*?)</details>',html).group(1)
+            self.assertEqual(set(re.findall(r'<a href="([^"]+)">',index)),{builder.profile_url(person,lang) for person in presidents})
     def test_exact_names_preserved_and_not_merged(self):
         for person in self.registry['candidates']:
             self.assertEqual(person['name'],person['given_name']+' '+person['surname'])
