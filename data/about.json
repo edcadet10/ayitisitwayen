@@ -1,0 +1,128 @@
+{
+  "updated_at": "2026-11-15",
+  "title": {
+    "ht": "Konsènan Ayiti Sitwayen ak misyon nou",
+    "en": "About Ayiti Sitwayen and our mission"
+  },
+  "description": {
+    "ht": "Ayiti Sitwayen se yon platfòm endepandan enfòmasyon ak analiz sivik sou Ayiti: eleksyon, kandida, enstitisyon ak patisipasyon sitwayen.",
+    "en": "Ayiti Sitwayen is an independent civic information and analysis platform focused on Haiti: elections, candidates, institutions and citizen participation."
+  },
+  "heading": {
+    "ht": "Konprann lavi piblik. Patisipe ak bonjan enfòmasyon.",
+    "en": "Understand public life. Participate with sound information."
+  },
+  "intro": {
+    "ht": "Ayiti Sitwayen mete enfòmasyon sivik, dosye kandida ak analiz ki baze sou sous pi pre piblik la, an Kreyòl ak an Angle.",
+    "en": "Ayiti Sitwayen makes civic information, candidate records and sourced analysis more accessible to the public, in Haitian Creole and English."
+  },
+  "identity_title": {
+    "ht": "Kiyès nou ye",
+    "en": "Who we are"
+  },
+  "identity": {
+    "ht": "Nou se yon platfòm endepandan enfòmasyon ak analiz sivik ki konsantre sou Ayiti. Nou rasanble sous piblik, esplike enstitisyon yo epi egzamine kandida ak kesyon politik piblik. Nou pa afilye ak okenn pati politik.",
+    "en": "We are an independent civic information and analysis platform focused on Haiti. We bring public sources together, explain institutions and examine candidates and public-policy questions. We are not affiliated with any political party."
+  },
+  "mission_title": {
+    "ht": "Misyon nou",
+    "en": "Our mission"
+  },
+  "mission": {
+    "ht": "Mete enfòmasyon sivik ak elektoral ki fyab aladispozisyon Ayisyen yo, pou yo ka konprann enstitisyon piblik yo, egzamine kandida yo epi egzèse dwa yo selon pwòp jijman yo, ak bonjan enfòmasyon.",
+    "en": "Make reliable civic and electoral information accessible so Haitians can understand public institutions, examine candidates and exercise their rights with informed, independent judgment."
+  },
+  "pillars": [
+    {
+      "title": {
+        "ht": "Verifye epi dokimante",
+        "en": "Verify and document"
+      },
+      "text": {
+        "ht": "Rasanble enfòmasyon sou eleksyon ak kandida, ak sous, dat ak limit ki klè.",
+        "en": "Bring election and candidate information together with clear sources, dates and limits."
+      },
+      "route": "candidates/"
+    },
+    {
+      "title": {
+        "ht": "Esplike lavi piblik",
+        "en": "Explain public life"
+      },
+      "text": {
+        "ht": "Bay gid sou dwa, enstitisyon ak pwosesis elektoral la nan yon lang ki fasil pou konprann.",
+        "en": "Provide understandable guides to rights, institutions and the electoral process."
+      },
+      "route": "education.html"
+    },
+    {
+      "title": {
+        "ht": "Egzamine lide ak dosye",
+        "en": "Examine ideas and records"
+      },
+      "text": {
+        "ht": "Pibliye analiz ki baze sou prèv ak opinyon ki make klèman, pou lektè yo ka fè pwòp evalyasyon yo.",
+        "en": "Publish evidence-based analysis and clearly labeled opinion so readers can form their own assessments."
+      },
+      "route": "elections/analysis/"
+    },
+    {
+      "title": {
+        "ht": "Ankouraje patisipasyon ki enfòme",
+        "en": "Support informed participation"
+      },
+      "text": {
+        "ht": "Ede moun jwenn enfòmasyon pratik pou egzèse dwa yo, poze kesyon ak suiv desizyon piblik yo.",
+        "en": "Help people find practical information to exercise their rights, ask questions and follow public decisions."
+      },
+      "route": "elections.html"
+    }
+  ],
+  "standards_title": {
+    "ht": "Angajman editoryal nou",
+    "en": "Our editorial commitments"
+  },
+  "standards": [
+    {
+      "ht": "Menm egzijans pou tout kandida: endepandans mande pou nou egzamine dosye yo san favè pou okenn pati.",
+      "en": "The same standards for every candidate: independence requires scrutiny without preference for any party."
+    },
+    {
+      "ht": "Separe enfòmasyon ki verifye, entèpretasyon ak opinyon. Yon enskripsyon nan rejis KEP/CEP pa yon apwobasyon kandida a.",
+      "en": "Separate verified information, interpretation and opinion. A CEP registry entry is not candidate approval."
+    },
+    {
+      "ht": "Bay sous ak dat; di sa nou pa konnen. Yon sous nou poko jwenn pa pwouve yon enfòmasyon oswa yon dokiman pa egziste.",
+      "en": "Provide sources and dates; state what is unknown. A source we have not found does not prove that information or a document does not exist."
+    },
+    {
+      "ht": "Resevwa koreksyon ak nouvo prèv, epi mete dat sou chanjman ki afekte sans yon atik.",
+      "en": "Accept corrections and new evidence, and date changes that affect an article’s meaning."
+    },
+    {
+      "ht": "Esplike itilizasyon asistans entèlijans atifisyèl. Pa prezante tèks ki prepare ak zouti sa yo kòm entèvyou oswa ankèt sou teren nou pa fè.",
+      "en": "Disclose AI assistance. Do not present text prepared with these tools as interviews or field reporting we did not conduct."
+    }
+  ],
+  "origins_title": {
+    "ht": "Soti nan rechèch pou rive nan yon platfòm sivik",
+    "en": "From research project to civic platform"
+  },
+  "origins": {
+    "ht": "Ayiti Sitwayen te kòmanse kòm yon pwojè rechèch ak aksyon sou angajman sivik, rezo sosyal ak teknoloji. Jodi a, sit la gen edikasyon sivik, gid elektoral, dosye kandida ak atik analiz ak opinyon. Rechèch rete yon pati nan pwojè a; li ede nou poze bon kesyon ak travay sou prèv.",
+    "en": "Ayiti Sitwayen began as a research and action project on civic engagement, social media and technology. Today the site includes civic education, election guides, candidate records, analysis and opinion. Research remains part of the project, helping us ask sound questions and work with evidence."
+  },
+  "contribute_title": {
+    "ht": "Patisipe nan travay la",
+    "en": "Contribute to the work"
+  },
+  "contribute": {
+    "ht": "Ou ka voye yon koreksyon, yon dokiman piblik oswa yon pwopozisyon pou kontribye nan rechèch ak tradiksyon. Nou evalye sa moun voye sou baz prèv ak enterè piblik, san pwomès pou pibliye tout kontribisyon.",
+    "en": "You can send a correction, a public document or a proposal to contribute research or translation. We assess submissions for evidence and public value, without promising to publish every contribution."
+  },
+  "contact_title": {
+    "ht": "Kontakte nou",
+    "en": "Contact us"
+  },
+  "email": "contact@ayitisitwayen.org"
+}

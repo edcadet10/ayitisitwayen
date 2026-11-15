@@ -1,5 +1,12 @@
 # Election information maintenance
 
+Original candidate articles and the revised platform mission are maintained in
+`data/candidate-editorial.json` and `data/about.json`. See
+[candidate-analysis-method.md](candidate-analysis-method.md) for the reporting,
+review, narration and publication workflow. Their bibliography links make the
+cited primary records inspectable; the directory presentation described below
+retains its existing source-preview policy.
+
 The reviewed source of public election facts is `data/elections.json`. The two
 hub pages and status summaries are generated HTML, so dates, sources and actions
 remain available without JavaScript. Edit the data, then run:

@@ -20,7 +20,7 @@ class Head(HTMLParser):
   if self.in_title:self.title+=text
 def base_pages():
  dates=json.loads((ROOT/'data/site-page-dates.json').read_text(encoding='utf-8'))
- for path in sorted(list(ROOT.glob('*.html'))+list((ROOT/'en').glob('*.html'))+[ROOT/'audio/election-transcripts.html']):
+ for path in sorted(list(ROOT.glob('*.html'))+list((ROOT/'en').glob('*.html'))+list((ROOT/'elections/analysis').rglob('*.html'))+list((ROOT/'en/elections/analysis').rglob('*.html'))+[ROOT/'audio/election-transcripts.html']):
   if re.fullmatch(r'google[a-f0-9]+\.html',path.name):continue
   route='/'+path.relative_to(ROOT).as_posix();route=route.removesuffix('index.html') if path.name=='index.html' else route
   head=Head(path.read_text(encoding='utf-8'))

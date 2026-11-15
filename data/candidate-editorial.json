@@ -1,0 +1,847 @@
+{
+  "updated_at": "2026-11-15",
+  "publisher": "Ayiti Sitwayen",
+  "copy": {
+    "title": {
+      "ht": "Kandida yo anba egzamen",
+      "en": "Candidates under scrutiny"
+    },
+    "intro": {
+      "ht": "Konprann dosye yo, suiv lajan an epi egzamine lyen ki dokimante yo. Chak atik rete sou yon kesyon, nan yon lang ki fasil pou konprann.",
+      "en": "Understand the record, follow the money and examine documented connections. Each article follows one question in plain language."
+    },
+    "analysis": {
+      "ht": "Analiz",
+      "en": "Analysis"
+    },
+    "opinion": {
+      "ht": "Opinyon",
+      "en": "Opinion"
+    },
+    "analysis_note": {
+      "ht": "Yon lekti enfòmasyon ki dokimante yo, ak entèpretasyon ki make klèman.",
+      "en": "An examination of documented information, with interpretations clearly identified."
+    },
+    "opinion_note": {
+      "ht": "Yon agiman editoryal. Jijman ki ladan l yo pa desizyon ofisyèl sou kandida yo.",
+      "en": "An editorial argument. Its judgments are not official findings about candidates."
+    },
+    "elections": {
+      "ht": "Eleksyon",
+      "en": "Elections"
+    },
+    "candidates": {
+      "ht": "Kandida yo",
+      "en": "Candidates"
+    },
+    "all": {
+      "ht": "Tout atik yo",
+      "en": "All articles"
+    },
+    "read": {
+      "ht": "Li atik la",
+      "en": "Read article"
+    },
+    "published": {
+      "ht": "Pibliye",
+      "en": "Published"
+    },
+    "updated": {
+      "ht": "Mizajou",
+      "en": "Updated"
+    },
+    "sources": {
+      "ht": "Sous ak limit verifikasyon an",
+      "en": "Sources and verification limits"
+    },
+    "profile": {
+      "ht": "Gade dosye kandida a",
+      "en": "View candidate record"
+    },
+    "related": {
+      "ht": "Analiz ak opinyon sou moun sa a",
+      "en": "Analysis and opinion about this person"
+    },
+    "related_articles": {
+      "ht": "Lòt atik pou li",
+      "en": "Further reading"
+    },
+    "method": {
+      "ht": "Kijan nou travay",
+      "en": "How we work"
+    },
+    "method_text": {
+      "ht": "Analiz egzamine sa sous yo pèmèt nou konprann. Opinyon defann yon pozisyon editoryal ki make klèman. Nou separe enfòmasyon nou verifye, entèpretasyon nou ak kesyon ki rete ouvè. Menm egzijans sou sous ak presizyon aplike pou chak kandida; chwa premye atik yo pa yon klasman ni yon andòsman.",
+      "en": "Analysis examines what the evidence supports. Opinion makes a clearly labeled editorial argument. We distinguish verified information, our interpretations and open questions. The same sourcing and accuracy requirements apply to every candidate; the initial selection is neither a ranking nor an endorsement."
+    },
+    "ai_note": {
+      "ht": "Atik sa yo prepare avèk asistans entèlijans atifisyèl, apati sous ki site yo. Yo pa prezante kòm ankèt sou teren oswa entèvyou ak kandida yo.",
+      "en": "These articles were prepared with AI assistance from the cited sources. They are not presented as field reporting or interviews with the candidates."
+    },
+    "status_note": {
+      "ht": "Enskripsyon nan rejis la pa yon apwobasyon kandida a. Enfòmasyon sou enskripsyon yo soti nan kopi rejis KEP/CEP nou te verifye 14 Novanm 2026 la.",
+      "en": "A registry entry is not candidate approval. Registration information comes from the CEP snapshot reviewed November 14, 2026."
+    },
+    "correction": {
+      "ht": "Voye yon koreksyon oswa yon sous",
+      "en": "Send a correction or source"
+    },
+    "filter_label": {
+      "ht": "Kalite atik",
+      "en": "Article type"
+    },
+    "result_count": {
+      "ht": "{count} atik",
+      "en": "{count} articles"
+    },
+    "skip": {
+      "ht": "Ale dirèk nan kontni an",
+      "en": "Skip to main content"
+    },
+    "menu": {
+      "ht": "Meni navigasyon",
+      "en": "Navigation menu"
+    },
+    "education": {
+      "ht": "Edikasyon",
+      "en": "Education"
+    },
+    "about": {
+      "ht": "Konsènan",
+      "en": "About"
+    },
+    "record": {
+      "ht": "Sa dokiman yo montre",
+      "en": "Documented record"
+    },
+    "interpretation": {
+      "ht": "Entèpretasyon nou",
+      "en": "Our interpretation"
+    },
+    "argument": {
+      "ht": "Pozisyon editoryal",
+      "en": "Editorial argument"
+    },
+    "questions": {
+      "ht": "Kesyon ki rete ouvè",
+      "en": "Open questions"
+    },
+    "scope": {
+      "ht": "Dimansyon ak limit",
+      "en": "Scope and limits"
+    },
+    "feature_title": {
+      "ht": "Konprann moun ki vle dirije yo",
+      "en": "Understand the people seeking power"
+    },
+    "feature_text": {
+      "ht": "Atik kout, sous ki klè ak kesyon sou eksperyans, lajan, relasyon ak rann kont.",
+      "en": "Short articles, clear sources and questions about experience, money, relationships and accountability."
+    },
+    "words": {
+      "ht": "mo",
+      "en": "words"
+    },
+    "series": {
+      "ht": "Nan seri sa a",
+      "en": "In this series"
+    },
+    "record_link": {
+      "ht": "Egzamine dokiman yo ak sa yo etabli",
+      "en": "Examine the documents and what they establish"
+    }
+  },
+  "sources": {
+    "cep-20261114": {
+      "publisher": "Conseil Électoral Provisoire (CEP)",
+      "url": "https://tableau.cephaiti.ht/",
+      "published_at": null,
+      "checked_at": "2026-11-14",
+      "title": {
+        "ht": "Rejis enskripsyon KEP/CEP — kopi nou verifye 14 Novanm 2026",
+        "en": "CEP registration registry — snapshot reviewed November 14, 2026"
+      },
+      "note": {
+        "ht": "Se kopi ki nan dosye kandida nou yo nou itilize. Platfòm sous la ka chanje apre dat sa a; li pa yon lis final kandida ki apwouve.",
+        "en": "Uses the snapshot preserved in our candidate records. The source dashboard may change after that date; it is not a final approved-candidate list."
+      }
+    },
+    "unesco-20230125": {
+      "publisher": "UNESCO",
+      "url": "https://articles.unesco.org/sites/default/files/medias/fichiers/2023/01/Intergenerational-Dialogue-Programme-EN-web.pdf",
+      "published_at": "2023-01-25",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Pwogram dyalòg ant jenerasyon — biyografi Dominique Dupuy, paj 7",
+        "en": "Intergenerational dialogue programme — Dominique Dupuy biography, page 7"
+      },
+      "note": {
+        "ht": "Yon biyografi enstitisyonèl ki soti an 2023; li pa yon evalyasyon pèfòmans li kòm minis oswa kandida.",
+        "en": "A 2023 institutional biography, not a performance assessment of her ministerial work or candidacy."
+      }
+    },
+    "unesco-20241014": {
+      "publisher": "UNESCO",
+      "url": "https://www.unesco.org/sites/default/files/medias/fichiers/2024/10/speakers_14_oct.pdf",
+      "published_at": "2024-10-14",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "220yèm sesyon Konsèy egzekitif la — lis oratè 14 Oktòb 2024, paj 1",
+        "en": "220th Executive Board session — October 14, 2024 speakers, page 1"
+      },
+      "note": {
+        "ht": "Dokiman an konfime tit fonksyon li nan dat sa a; li pa bay yon bilan rezilta.",
+        "en": "Confirms her office title on that date; it does not provide an assessment of results."
+      }
+    },
+    "dupuy-20261113": {
+      "publisher": "Le Nouvelliste",
+      "url": "https://beta.lenouvelliste.com/article/273899/dominique-dupuy-mise-sur-la-justice-sociale-pour-le-progres-collectif",
+      "published_at": "2026-11-13",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Anons kandidati Dominique Dupuy anba banyè PVD",
+        "en": "Dominique Dupuy’s PVD candidacy announcement"
+      },
+      "note": {
+        "ht": "Nou li entwodiksyon ki aksesib piblikman an sèlman. Nou pa pretann nou te li rès atik la, ki mande koneksyon.",
+        "en": "Only the publicly accessible introduction was read. We do not claim to have reviewed the remainder, which requires sign-in."
+      }
+    },
+    "celestin-20261111": {
+      "publisher": "Le Nouvelliste",
+      "url": "https://beta.lenouvelliste.com/article/273799/a?lang=fr",
+      "published_at": "2026-11-11",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Retou Jude Célestin anba banyè Entente nationale",
+        "en": "Jude Célestin’s return under Entente nationale"
+      },
+      "note": {
+        "ht": "Nou itilize sèlman entwodiksyon piblik la pou enfòmasyon sou ansyen kanpay li yo ak nouvo enskripsyon an; rès atik la mande koneksyon.",
+        "en": "Uses only the public introduction for previous campaigns and the new registration; the remainder requires sign-in."
+      }
+    },
+    "celestin-20100813": {
+      "publisher": "Le Nouvelliste",
+      "url": "https://lenouvelliste.com/article/82452/jude-cne-candidat-de-inite",
+      "published_at": "2010-08-13",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Jude CNE, candidat de INITE — pwofil istorik",
+        "en": "Jude CNE, candidat de INITE — historical profile"
+      },
+      "note": {
+        "ht": "Entwodiksyon piblik la idantifye li kòm direktè jeneral CNE nan epòk la. Sa pa yon odit sou jesyon li.",
+        "en": "The public introduction identifies him as CNE director-general at the time. It is not an audit of his management."
+      }
+    },
+    "brh-2011": {
+      "publisher": "Banque de la République d’Haïti",
+      "url": "https://www.brh.ht/wp-content/uploads/2018/08/rapport_2011.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Rapò anyèl BRH 2011 — lis sikilè yo, paj enprime 170",
+        "en": "BRH Annual Report 2011 — circulars list, printed page 170"
+      },
+      "note": {
+        "ht": "Peryòd rapò a fini an 2011; nou pa sipoze dat egzak piblikasyon PDF la. Lis la konfime sikilè sou frè transfè a.",
+        "en": "The report covers 2011; its exact PDF publication date is not assumed. The list confirms the transfer-fee circular."
+      }
+    },
+    "court-2022-fees": {
+      "publisher": "U.S. Court of Appeals, Second Circuit",
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ca2-20-01412/pdf/USCOURTS-ca2-20-01412-0.pdf",
+      "published_at": "2022-03-31",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Celestin v. Caribbean Air Mail — desizyon apèl 20-1412",
+        "en": "Celestin v. Caribbean Air Mail — appeal 20-1412"
+      },
+      "note": {
+        "ht": "Paj 5–7 rakonte akizasyon plent lan; yo pa konklizyon ki pwouve akizasyon sa yo. Paj 2 bay desizyon tribinal la.",
+        "en": "Pages 5–7 recount the complaint’s allegations, not findings proving them. Page 2 states the court’s decision."
+      }
+    },
+    "court-2023-fees": {
+      "publisher": "U.S. District Court, Eastern District of New York",
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_18-cv-07340/pdf/USCOURTS-nyed-1_18-cv-07340-3.pdf",
+      "published_at": "2023-09-29",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Celestin v. Martelly — dosye 18-CV-7340, dokiman 159",
+        "en": "Celestin v. Martelly — 18-CV-7340, document 159"
+      },
+      "note": {
+        "ht": "Tampon depo a di 29 Septanm; siyati a pote dat 30 Septanm. Tribinal la aksepte kèk demann rejè epi refize lòt yo. Sa tribinal la rakonte sou plent lan pa otomatikman pwouve akizasyon yo vre.",
+        "en": "Filed September 29; signature dated September 30. The court grants some dismissal requests and denies others. Its account of a complaint does not automatically establish those allegations as true."
+      }
+    },
+    "court-2025-fees": {
+      "publisher": "U.S. District Court, Eastern District of New York",
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_18-cv-07340/pdf/USCOURTS-nyed-1_18-cv-07340-5.pdf",
+      "published_at": "2025-09-30",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Dosye 18-CV-7340 — dokiman 203, sanksyon kont avoka yo",
+        "en": "18-CV-7340 — document 203, sanctions on counsel"
+      },
+      "note": {
+        "ht": "Penalite a se kont de avoka pleyan yo pou reklamasyon kont Unibank ak Unitransfer. Se pa yon sanksyon finansye entènasyonal kont politisyen yo.",
+        "en": "The penalty concerns two plaintiffs’ lawyers and claims against Unibank and Unitransfer. It is not an international financial sanction against the politicians."
+      }
+    },
+    "cscca-2019-fne": {
+      "publisher": "Cour Supérieure des Comptes et du Contentieux Administratif",
+      "url": "https://cscca.gouv.ht/uploads/documents/1749766881_RSFPEDP_17-18__.pdf",
+      "published_at": "2019-05-26",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Rapò final sou egzèsis 2017–2018 — FNE, paj 138–142, tablo 59 paj 140",
+        "en": "Final report for 2017–2018 — FNE, pages 138–142, table 59 on page 140"
+      },
+      "note": {
+        "ht": "Se vèsyon 148 paj sou sit Koudèkont la nou site. Tablo a bay lajan BRH ranmase ak transfere; li pa yon lis konplè tout depans final yo.",
+        "en": "Cites the 148-page version on the audit court’s website. The table records BRH collections and transfers, not a complete list of final expenditures."
+      }
+    },
+    "cscca-2024-fne": {
+      "publisher": "Cour Supérieure des Comptes et du Contentieux Administratif",
+      "url": "https://cscca.gouv.ht/uploads/documents/1776779684_RSFPEDP_2023-2024_Final_25_03_26.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Rapò sou egzèsis 2023–2024 — sipli bidjè a ak FNE, paj 54–55",
+        "en": "Report for 2023–2024 — the budget surplus and FNE, pages 54–55"
+      },
+      "note": {
+        "ht": "Rapò a konsène ane bidjè 2023–2024. Nou pa sipoze dat piblikasyon li. Li dekri yon pwoblèm nan kont Leta yo; pasaj sa a pa yon desizyon sou responsablite pèsonèl ansyen prezidan yo.",
+        "en": "Covers fiscal year 2023–2024. Its publication date is not assumed. It identifies a problem in government accounts; this passage does not adjudicate former presidents’ personal responsibility."
+      }
+    },
+    "fne-beneficiaries-2026": {
+      "publisher": "Fonds National de l’Éducation",
+      "url": "https://fne.gouv.ht/aides-financieres-accordees-aux-ecoles-et-organisations-annee-academique-2025-2026/",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "FNE — lis èd finansye pou ane akademik 2025–2026",
+        "en": "FNE — financial assistance listed for academic year 2025–2026"
+      },
+      "note": {
+        "ht": "Se FNE menm ki pibliye lis la. Li gen non benefisyè, rezon ak montan. Li pa yon odit endepandan, epi kèk dat pa koresponn ant kolòn yo. Nou pa kalkile yon total ki ta pretann kouvri tout depans yo.",
+        "en": "Published by FNE itself, with beneficiaries, purposes and amounts. It is not an independent audit, and some dates conflict across columns. No total is presented as complete expenditure coverage."
+      }
+    },
+    "state-joseph-20210707": {
+      "publisher": "U.S. Department of State",
+      "url": "https://2021-2025.state.gov/secretary-blinkens-call-with-acting-haitian-prime-minister-joseph/",
+      "published_at": "2021-07-07",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Apèl Blinken ak Claude Joseph — 7 Jiyè 2021",
+        "en": "Blinken’s call with Acting Prime Minister Claude Joseph — July 7, 2021"
+      },
+      "note": {
+        "ht": "Kominike nan achiv la idantifye fonksyon Joseph nan dat asasina a. Li pa yon konklizyon ankèt sou asasina a.",
+        "en": "The archived statement identifies Joseph’s role on the assassination date. It is not an investigative finding about the killing."
+      }
+    },
+    "vbi-moise-20251013": {
+      "publisher": "Vant Bèf Info",
+      "url": "https://vantbefinfo.com/assassinat-de-jovenel-moise-la-cour-dappel-relance-linstruction-de-laffaire/",
+      "published_at": "2025-10-13",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Koudapèl relanse ankèt sou asasina Jovenel Moïse",
+        "en": "Appeals court restarts the Moïse assassination investigation"
+      },
+      "note": {
+        "ht": "Rapò laprès sou anilasyon ansyen òdonans lan ak nouvo ankèt la. Nou pa prezante li kòm kopi sètifye desizyon an. Rapò BINUH yo konfime ankèt siplemantè a te kontinye an 2026.",
+        "en": "News report on the annulment of the earlier order and the renewed inquiry, not a certified copy of the ruling. BINUH’s reports corroborate that the supplementary investigation continued in 2026."
+      }
+    },
+    "binuh-q3-2026": {
+      "publisher": "BINUH / United Nations",
+      "url": "https://binuh.unmissions.org/sites/default/files/2026-11/Q3%202026%20-%20ENGLISH.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Rapò BINUH pou Jiyè–Septanm 2026 — pwosedi lajistis, paj 27",
+        "en": "BINUH July–September 2026 report — judicial proceedings, page 27"
+      },
+      "note": {
+        "ht": "Sitiyasyon rapòte jiska 30 Septanm 2026; dat piblikasyon egzak la pa sipoze. Se yon rezime Nasyonzini, pa tout transkripsyon oswa desizyon dosye yo.",
+        "en": "Reports developments through September 30, 2026; its exact publication date is not assumed. A UN summary, not the complete transcripts or decisions in the cases."
+      }
+    },
+    "doj-moise-20260921": {
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/usao-sdfl/pr/elite-fbi-and-hsi-team-transports-18-defendants-haiti-south-florida-face-federal-0",
+      "published_at": "2026-09-21",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "18 moun transfere Miami pou akizasyon federal nan dosye asasina a",
+        "en": "18 defendants transported to Miami in the federal assassination case"
+      },
+      "note": {
+        "ht": "Kominike pwokirè ameriken yo, mizajou 9 Oktòb 2026; li bay nimewo dosye 22-cr-20104. Akizasyon yo pa otomatikman konklizyon sou koupabilite.",
+        "en": "Prosecutors’ statement, updated October 9, 2026, identifying case 22-cr-20104. Charges are not automatically findings of guilt."
+      }
+    },
+    "herald-sanon-20261113": {
+      "publisher": "Jacqueline Charles / Miami Herald, republished by AOL",
+      "url": "https://www.aol.com/articles/sanon-takes-stand-defense-miami-024032000.html",
+      "published_at": "2026-11-13",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Christian Emmanuel Sanon temwaye nan defans li nan pwosè Miami",
+        "en": "Christian Emmanuel Sanon testifies in his defense in Miami"
+      },
+      "note": {
+        "ht": "Rapò jounalis sou odyans 12 Novanm lan; nou pa pretann nou te asiste odyans lan oswa li tout transkripsyon an. Temwayaj yon akize pa yon konklizyon jiri a.",
+        "en": "Journalist’s report of the November 12 hearing; we do not claim attendance or review of the complete transcript. A defendant’s testimony is not a jury finding."
+      }
+    }
+  },
+  "articles": [
+    {
+      "slug": "martelly-privert-transfer-fee-school-promise",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "series": "money-home",
+      "series_position": 1,
+      "title": {
+        "ht": "Martelly ak frè 1.50 dola a: ki sa fanmi yo t ap finanse?",
+        "en": "Martelly and the $1.50 fee: what were families paying for?"
+      },
+      "description": {
+        "ht": "Anba prezidans Martelly, yon frè sou transfè vin pote yon pwomès lekòl gratis. Yon pwosè vin konteste fason sistèm nan te mache.",
+        "en": "Under Martelly, a transfer fee became part of a promise of free schooling. A lawsuit later challenged how the arrangement worked."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Chak fwa yon fanmi peye frè 1.50 dola a sou yon transfè, gen mwens lajan ki rete pou lòt bezwen. Dis fwa 1.50 dola, se 15 dola: frè sèvis konpayi an poko ladan l.",
+            "en": "Every time a family pays the $1.50 transfer fee, less money remains for other needs. Ten payments of this fee cost $15, before the company’s other service charges."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sistèm sa a te kòmanse anba prezidans Michel Martelly. Rapò anyèl Bank Repiblik Ayiti konfime Sikilè 98 te fikse yon frè 1.50 dola ameriken sou transfè k ap antre oswa soti nan peyi a, avèk dat aplikasyon 1ye Jen 2011.",
+            "en": "The arrangement began under President Michel Martelly. Haiti’s central bank’s annual report confirms that Circular 98 established a US$1.50 fee on incoming and outgoing transfers, effective June 1, 2011."
+          },
+          "sources": [
+            "brh-2011"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pwomès la se te ede timoun ale lekòl gratis. Yon desizyon tribinal ameriken an 2023 dekri videyo kote Martelly ak Denis O’Brien, prezidan konsèy Digicel nan epòk la, esplike pwojè finansman edikasyon an. Se konsa yon ti frè sou transfè te vin antre nan yon gwo pwomès politik.",
+            "en": "The promise was to help children attend school free of charge. A 2023 U.S. court decision describes videos in which Martelly and then-Digicel chairman Denis O’Brien explained the education-funding plan. A small transfer fee had become part of a large political promise."
+          },
+          "sources": [
+            "court-2023-fees"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Konbyen lajan sa te bay? Nan rapò 2017–2018 li a, Koudèkont la, ki egzamine kont Leta yo, bay yon premye repons. Li rapòte BRH te ranmase anviwon 120 milyon dola ameriken sou transfè ant 2011 ak 2018 pou Fon Nasyonal Edikasyon an, FNE. Prèske 118 milyon dola te ale nan Trezò piblik la, kote Leta jere lajan li. Tablo a bay yon rès anviwon 2.37 milyon dola nan fen peryòd la.",
+            "en": "How much money did that produce? Haiti’s audit court supplies a first answer in its report for 2017–2018. It reports about US$120 million collected through the central bank from transfer fees in 2011–2018 for the National Education Fund, or FNE. Nearly $118 million went to the Treasury, which manages government money. The table records about $2.37 million remaining at the period’s end."
+          },
+          "sources": [
+            "cscca-2019-fne"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kidonk, gen tras ofisyèl ki montre lajan te antre nan kont Leta. Rapò a dekri travay konstriksyon ak reparasyon lekòl tou. Men li di Koudèkont la rezève dwa pou l al verifye kantite ak kalite sal klas yo sou teren.",
+            "en": "There is therefore an official trail into government accounts. The report also describes school construction and rehabilitation. But the court reserves the right to check classroom numbers and construction quality through site visits."
+          },
+          "sources": [
+            "cscca-2019-fne"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa poko reponn kesyon chak fanmi an: ki rezilta frè mwen yo te bay? Yon transfè bay Trezò pa otomatikman yon timoun ki jwenn plas lekòl. Pou mezire pwomès Martelly a, pwochen etap la se konekte lajan Leta resevwa ak depans, lekòl ak elèv ki benefisye. Se la rann kont lan dwe rive.",
+            "en": "That still leaves each family’s question: what did my fees achieve? A Treasury transfer does not automatically become a school place. Assessing Martelly’s promise requires connecting government receipts to spending, schools and the children who benefited. Accountability has to reach that last step."
+          },
+          "sources": []
+        }
+      ],
+      "audio": {
+        "language": "ht",
+        "provider": "ElevenLabs",
+        "path": "/audio/editorial/martelly-privert-transfer-fee-school-promise-ht.mp3",
+        "generated_at": "2026-11-15",
+        "article_sha256": "0743f36bbb9ebe29da0aab1e48cbf65017aab4ecbfbe239fa30ad51bf72ae3b2",
+        "narration_script_sha256": "3d04a3b51590842d53b426e1d577c2feef459068be71ad17f343c6fcc55e28aa",
+        "duration_seconds": 173.44,
+        "file_sha256": "7ee78d107eb8678f9516c973f93da053b4c68ccc3c99e32fff87e2f1454dae2f"
+      }
+    },
+    {
+      "slug": "martelly-school-promise-paper-trail",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a",
+        "c-cfa0ce450d335df39e36"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "series": "money-home",
+      "series_position": 2,
+      "title": {
+        "ht": "Martelly ak Privert: ki sa plent sou lajan lekòl la te di?",
+        "en": "Martelly and Privert: what did the school-fee lawsuit allege?"
+      },
+      "description": {
+        "ht": "Yon gwoup moun t al lajistis Ozetazini pou frè transfè ak apèl yo. Men akizasyon yo, repons tribinal la ak sa ki poko pwouve.",
+        "en": "A group of U.S. residents challenged the transfer and call charges. Here are their allegations, the court’s response and the limits of the evidence."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2018, yon gwoup moun ki t ap viv Ozetazini te pote plent nan New York. Yo te di lajan yo t ap peye sou transfè ak apèl pou Ayiti pa t sèvi jan yo te pwomèt la. Yo te akize Martelly ak konpayi transfè lajan ak telefòn dèske yo te antann yo pou enpoze frè ilegal. Yo te akize prezidan ki vin apre l yo, Jocelerme Privert ak Jovenel Moïse, dèske yo te kontinye sistèm nan epi pwofite ladan l.",
+            "en": "In 2018, a group of U.S. residents sued in New York. They said money charged on transfers and calls to Haiti had not served its promised purpose. They accused Martelly and money-transfer and telephone companies of agreeing to impose unlawful fees. They accused his successors, Jocelerme Privert and Jovenel Moïse, of continuing and benefiting from the arrangement."
+          },
+          "sources": [
+            "court-2022-fees",
+            "court-2023-fees"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Akizasyon santral la te grav: konpayi ak prezidan yo ta kenbe yon pati nan lajan ki te prezante kòm finansman lekòl. Sa se sa pleyan yo te deklare; se pa yon konklizyon ki pwouve yo te vòlè lajan.",
+            "en": "Their central accusation was serious: companies and presidents had allegedly kept some of the money presented as school funding. That was the plaintiffs’ claim, not an established finding of theft."
+          },
+          "sources": [
+            "court-2023-fees"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou konprann plent lan, fòk nou separe de frè yo. Sikilè BRH yo te konsène transfè lajan. Yon desizyon prezidansyèl te konsène apèl entènasyonal: dapre sa tribinal la rapòte, senk santim sou yon pri minimòm 23 santim pa minit te dwe ale bay CONATEL, òganis ki kontwole telekominikasyon yo. Objektif ki te ekri pou frè apèl sa a se te konbat fwod telefòn. Pleyan yo te konteste diferans ant tèks sa yo ak pwomès lekòl gratis la.",
+            "en": "Understanding the complaint requires separating two charges. Central-bank circulars concerned money transfers. A presidential order concerned international calls: as recounted by the court, five cents of a minimum 23-cent-per-minute price was to go to CONATEL, Haiti’s telecommunications regulator. The stated purpose of that call fee was fighting telephone fraud. The plaintiffs challenged the gap between those texts and the school promise."
+          },
+          "sources": [
+            "court-2023-fees"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men ki repons tribinal yo te bay? An 2022, tribinal apèl la te relouvri chemen pou dosye a kontinye. Sa pa t pwouve akizasyon yo. An 2023, jij la te rejte plizyè reklamasyon, ladan yo sa ki te baze sou fwod, epi li te kite reklamasyon anba lwa ameriken sou kominikasyon an kontinye.",
+            "en": "What did the courts decide? In 2022, an appeals court reopened the path for the case to proceed. That did not prove the allegations. In 2023, the judge dismissed several claims, including fraud claims, while allowing Communications Act claims to proceed."
+          },
+          "sources": [
+            "court-2022-fees",
+            "court-2023-fees"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2025, tribinal la te mete yon penalite 5,000 dola sou de avoka pleyan yo pou reklamasyon kont Unibank ak Unitransfer. Se pa ansyen prezidan yo penalite sa a te frape.",
+            "en": "In 2025, the court imposed a $5,000 penalty on two plaintiffs’ lawyers concerning claims against Unibank and Unitransfer. That penalty was not imposed on the former presidents."
+          },
+          "sources": [
+            "court-2025-fees"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Dosye sa a se sivil; desizyon sa yo pa yon kondanasyon kriminèl. Yon akizasyon ka soulve yon kesyon enpòtan san li pa deja bay repons lan. Pou kesyon lajan lekòl la, prèv sou kont ak depans yo toujou esansyèl.",
+            "en": "This is a civil case; these decisions are not criminal convictions. An accusation can raise an important question without answering it. For the school-money question, evidence of receipts and spending remains essential."
+          },
+          "sources": []
+        }
+      ],
+      "audio": {
+        "language": "ht",
+        "provider": "ElevenLabs",
+        "path": "/audio/editorial/martelly-school-promise-paper-trail-ht.mp3",
+        "generated_at": "2026-11-15",
+        "article_sha256": "f445467af5769b22525d658092cb2ba18dec748fa5ac1a9a5580d00d2ad13a99",
+        "narration_script_sha256": "06a4c3e8ab29a5d570cce7434914e4b2ed5071ba9b20a96f8bb6c749d1741062",
+        "duration_seconds": 156.4,
+        "file_sha256": "1a89806b00cf0425741121af35aca38d311862a59656be76116cbfd531db4a09"
+      }
+    },
+    {
+      "slug": "school-fees-fne-accounting-gap",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "series": "money-home",
+      "series_position": 3,
+      "title": {
+        "ht": "Lajan lekòl la: yon pwoblèm nan kont Leta yo te kontinye",
+        "en": "School-fee money: the accounting problem continued"
+      },
+      "description": {
+        "ht": "Yon rapò ki kouvri 2023–2024 montre revni FNE yo te antre nan kalkil diferans ant revni ak depans Leta yo, men depans FNE yo pa t ladan l. Poukisa sa enpòtan?",
+        "en": "A report covering 2023–2024 says FNE revenue was counted in the government budget balance while its spending was left out. Why does that matter?"
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon fanmi bezwen konnen sa li resevwa ak sa li depanse pou l konnen konbyen lajan ki rete. Si li konte yon revni, men li bliye depans ki mache avè l, rès la ap parèt pi gwo pase sa li ye.",
+            "en": "A family needs to count both income and spending to know what remains. Count the income but leave out the related spending, and the balance looks larger than it is."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Koudèkont la idantifye yon pwoblèm konsa nan kont Leta pou ane bidjè 2023–2024. Rapò li a di Ministè Ekonomi ak Finans te mete resous ki fèt pou finanse Fon Nasyonal Edikasyon an nan kalkil diferans ant revni ak depans Leta yo, men li pa t mete depans FNE yo ladan l. Dapre Koudèkont la, sa te defòme sipli yo te rapòte a, sa vle di lajan ki ta rete apre depans yo.",
+            "en": "Haiti’s audit court identifies this kind of problem in government accounts for fiscal year 2023–2024. Its report says the Finance Ministry counted resources intended for the National Education Fund in the budget balance but left out FNE expenditure. The court says this distorted the reported surplus."
+          },
+          "sources": [
+            "cscca-2024-fne"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Se menm fon edikasyon an ki parèt nan tras frè transfè yo depi 2011. Rapò Koudèkont 2017–2018 la te deja dekri lajan BRH ak CONATEL ranmase epi voye nan Trezò piblik la. Lè nou mete de rapò yo ansanm, yo mennen nou nan yon lòt kesyon: èske kont Leta yo pèmèt piblik la suiv lajan edikasyon an jouk nan depans final yo?",
+            "en": "This is the education fund appearing in the transfer-fee trail since 2011. The court’s 2017–2018 report had already described money collected through the central bank and CONATEL and transferred to the Treasury. Reading the reports together raises a further question: do government accounts let the public follow education money through to its final use?"
+          },
+          "sources": [
+            "cscca-2019-fne",
+            "cscca-2024-fne"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Gen dokiman piblik ki ka ede. Sit FNE a prezante yon lis èd finansye pou 2025–2026, avèk benefisyè, rezon ak montan. Se yon pwen depa pou verifye peman yo. Men yon lis enstitisyon an pibliye poukont li pa ranplase yon odit endepandan oswa verifikasyon sa lekòl yo resevwa.",
+            "en": "There are public records to examine. FNE’s website lists financial assistance for 2025–2026, with beneficiaries, purposes and amounts. It provides a starting point for checking payments. An institution’s own list, however, cannot replace an independent audit or verification of what schools received."
+          },
+          "sources": [
+            "fne-beneficiaries-2026"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Pwoblèm kontab sa a pa pwouve Martelly oswa yon lòt ansyen prezidan te pran lajan an. Rapò ki kouvri 2023–2024 la konsène yon peryòd apre prezidans li. Li montre yon pwomès edikasyon bezwen plis pase chif sou sa Leta ranmase: li bezwen kont ki montre sa Leta fè ak lajan an.",
+            "en": "This accounting problem does not prove that Martelly or another former president took the money. The report for 2023–2024 covers a period after his presidency. It shows why an education promise needs more than collection figures: it needs accounts showing what government did with the money."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "claude-joseph-moise-case-what-changed",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c9c792b353345247be19"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Claude Joseph ak dosye Moïse la: sa ki chanje depi 2024",
+        "en": "Claude Joseph and the Moïse case: what changed after 2024"
+      },
+      "description": {
+        "ht": "Pou konprann dosye a, fòk nou suiv ankèt ann Ayiti a ak pwosè Ozetazini yo apa, epi li sa ki rive apre premye akizasyon yo.",
+        "en": "Understanding the case requires following Haiti’s inquiry and the U.S. prosecutions separately, including what happened after the first accusations."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yo te asasinen prezidan Jovenel Moïse lakay li 7 Jiyè 2021. Claude Joseph t ap sèvi kòm Premye minis enterimè nan epòk la. Jodi a, lè n ap egzamine dosye kandida sa a, fòk nou konprann sa lajistis te fè apre asasina a.",
+            "en": "President Jovenel Moïse was assassinated at home on July 7, 2021. Claude Joseph was serving as acting prime minister. Examining this candidate’s record requires understanding what the courts did after the killing."
+          },
+          "sources": [
+            "state-joseph-20210707",
+            "doj-moise-20260921"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon òdonans an 2024 te voye Joseph ak plizyè lòt moun devan tribinal kriminèl sou akizasyon konplisite nan asasina a. Men 13 Oktòb 2025, Koudapèl Pòtoprens te anile ansyen òdonans sa a epi mande yon nouvo ankèt. Se sa Vant Bèf Info te rapòte sou desizyon an.",
+            "en": "A 2024 investigative order referred Joseph and others for criminal trial over alleged complicity in the assassination. But on October 13, 2025, the Port-au-Prince appeals court annulled that earlier order and called for a renewed investigation, according to Vant Bèf Info’s account of the ruling."
+          },
+          "sources": [
+            "vbi-moise-20251013"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa enpòtan: prezante òdonans 2024 la poukont li ta kite yon gwo chanjman deyò istwa a. Men anilasyon òdonans lan pa menm bagay ak yon jijman ki deklare yon moun pa koupab apre yon pwosè. Desizyon an te mande plis ankèt.",
+            "en": "That matters: presenting the 2024 order alone would leave a major change out of the story. Annulment is also different from an acquittal after trial. The ruling called for further investigation."
+          },
+          "sources": [
+            "vbi-moise-20251013"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò BINUH pou Jiyè–Septanm 2026 la konfime jij la te fè lòt odyans nan mwa Jiyè ak Out nan kad ankèt siplemantè a. Kidonk, nouvo ankèt la pa t sèlman yon anons sou papye.",
+            "en": "BINUH’s July–September 2026 report confirms further hearings in July and August as part of that supplementary inquiry. The renewed investigation had therefore advanced beyond an announcement."
+          },
+          "sources": [
+            "binuh-q3-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Ozetazini, se yon lòt pwosedi. Nan mwa Septanm 2026, Depatman Jistis te anonse transfè 18 moun soti Ayiti pou Miami nan yon dosye ki te gen 30 moun akize. BINUH rapòte yo te deja jwenn dis moun koupab Ozetazini nan dat 30 Septanm. Sa pa vle di tout moun yo akize yo te kondane.",
+            "en": "The United States has separate proceedings. In September 2026, the Justice Department announced the transfer of 18 defendants from Haiti to Miami in a case involving 30 indicted people. BINUH reports that ten people had been found guilty in the United States by September 30. That does not mean every accused person was convicted."
+          },
+          "sources": [
+            "doj-moise-20260921",
+            "binuh-q3-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Gen pwosè ki te toujou ap dewoule apre dat sa a. Yon rapò Jacqueline Charles pou Miami Herald, pibliye 13 Novanm, dekri Christian Emmanuel Sanon k ap temwaye nan pwòp defans li. Se yon rapò sou temwayaj; li pa yon vèdik.",
+            "en": "Proceedings continued beyond that date. A November 13 report by Miami Herald journalist Jacqueline Charles describes Christian Emmanuel Sanon testifying in his own defense. It reports testimony, not a verdict."
+          },
+          "sources": [
+            "herald-sanon-20261113"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Akizasyon ak kondanasyon lòt moun pa pwouve Joseph te patisipe nan asasina a. Nenpòt lyen ak yon kandida bezwen pwòp prèv li. Atik sa a mete etap pwosedi yo nan lòd; li pa pretann revele tout moun ki te òganize krim nan.",
+            "en": "Charges and convictions concerning others do not prove Joseph participated in the assassination. Any connection to a candidate needs its own evidence. This article puts the procedural stages in order; it does not claim to identify every organizer of the crime."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martelly-school-promise-demand-accounts",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Apre pwomès lekòl Martelly a, mande kont ki klè",
+        "en": "After Martelly’s school promise, demand clear accounts"
+      },
+      "description": {
+        "ht": "Pozisyon editoryal nou: yon pwomès pou sèvi timoun dwe vini ak yon fason piblik la ka verifye chak etap lajan an.",
+        "en": "Our editorial position: a promise to serve children should include a way for the public to check each stage of the money trail."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Dosye frè transfè yo ban nou de enfòmasyon pou kenbe ansanm. Rapò Koudèkont 2017–2018 la montre lajan te ale nan Trezò piblik la. Rapò pou 2023–2024 la idantifye yon pwoblèm kote resous FNE yo te antre nan kalkil rès lajan bidjè a, men depans li yo pa t antre ladan l.",
+            "en": "The transfer-fee record gives us two facts to hold together. The audit court’s 2017–2018 report records money reaching the Treasury. Its report for 2023–2024 identifies a balance calculation that included FNE resources while leaving out FNE expenditure."
+          },
+          "sources": [
+            "cscca-2019-fne",
+            "cscca-2024-fne"
+          ]
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Pou nou, sa bay yon egzijans pou chak kandida, kit li gen eksperyans, kit li nouvo: lè yon kandida mande fanmi kontribye pou yon sèvis, li dwe montre kijan yo pral verifye rezilta a.",
+            "en": "For us, that creates a standard for every candidate, whether experienced or new: when asking families to contribute toward a service, show how they will be able to verify the result."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Kat repons dwe mache ak chak nouvo pwomès: konbyen lajan ki antre, kiyès ki resevwa l, ki sèvis moun jwenn, epi kiyès ki verifye sa san l pa depann de moun k ap depanse a. Yon foto lekòl pa bay kat repons sa yo.",
+            "en": "Four answers should accompany each new promise: how much comes in, who receives it, what service people get, and who checks this independently of the spender. A photograph of a school cannot supply those four answers."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Yon lis benefisyè, tankou sa FNE pibliye pou 2025–2026 la, ka ede nou kòmanse. Men fòk nou ka konpare lis la ak peman yo ak sa benefisyè yo resevwa. Mete dokiman deyò pa vle di tout dokiman yo deja verifye.",
+            "en": "A beneficiary list, such as FNE’s for 2025–2026, can help us begin. But it must be possible to compare the list with payments and what beneficiaries received. Publishing documents does not mean every document has been verified."
+          },
+          "sources": [
+            "fne-beneficiaries-2026"
+          ]
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Se sou kapasite pou bay prèv sa yo nou vle egzamine pwomès yo. Sa pwoteje fanmi ki peye yo, timoun yo ak moun yo ta ka akize san prèv. Rann kont dwe pèmèt nou wè tou sa ki mache byen.",
+            "en": "We want promises examined through the ability to provide this evidence. That protects paying families, children and people who might otherwise face unsupported accusations. Accountability must also let us see what worked."
+          },
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "word_limit": 500,
+  "series": {
+    "money-home": {
+      "title": {
+        "ht": "Lajan fanmi yo, pwomès Leta a",
+        "en": "Family money, state promises"
+      }
+    },
+    "power-networks": {
+      "title": {
+        "ht": "Relasyon ak pouvwa",
+        "en": "Relationships and power"
+      }
+    },
+    "justice-records": {
+      "title": {
+        "ht": "Dosye devan lajistis",
+        "en": "Records before the courts"
+      }
+    },
+    "record-test": {
+      "title": {
+        "ht": "Egzamine eksperyans lan",
+        "en": "Examining experience"
+      }
+    }
+  }
+}

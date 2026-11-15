@@ -21,3 +21,9 @@
 @media(max-width:650px){.web-archive-controls{padding:2px 16px 12px;grid-template-columns:minmax(0,1fr) 108px;gap:12px}.web-filter-status{padding:0 16px 14px}.web-archive-controls input,.web-archive-controls select{font-size:16px;padding:8px}.candidate-pagination .candidate-button{padding:10px 12px}.candidate-source-card .source-preview-link{margin-left:12px}}
 
 .candidate-name-index{margin:1.25rem 0;padding:1rem;border:1px solid #d8e3eb;background:#fff}.candidate-name-index summary{cursor:pointer;font-weight:600}.candidate-name-index ul{padding-left:1.3rem;columns:2;column-gap:2rem}.candidate-name-index li{break-inside:avoid;margin:.5rem 0;font-size:.9rem}.candidate-published-names{font-size:.9rem;line-height:1.6;color:#405c73}@media(max-width:650px){.candidate-name-index ul{columns:1}}
+.candidate-editorial { border-top: 1px solid #222; border-bottom: 1px solid #ddd; padding: 1.5rem 0; margin: 2rem 0; }
+.candidate-editorial h2 { font-size: 1.35rem; font-weight: 400; }
+.candidate-editorial ul { list-style: none; padding: 0; margin: .6rem 0 0; }
+.candidate-editorial li { padding: .7rem 0; display: flex; flex-wrap: wrap; gap: .3rem 1rem; align-items: baseline; }
+.candidate-editorial li span { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: #555; min-width: 5rem; }
+.candidate-editorial a { font-size: .95rem; color: #111; text-underline-offset: .2em; }

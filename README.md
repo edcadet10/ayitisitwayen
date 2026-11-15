@@ -1,135 +1,63 @@
 # Ayiti Sitwayen
 
-**Ranfòse angajman sivik nan Ayiti** | **Strengthening civic engagement in Haiti**
+Ayiti Sitwayen is an independent civic information and analysis platform focused
+on Haiti. It brings together civic education, election guidance, candidate
+records, sourced analysis and clearly labeled opinion in Haitian Creole and
+English. Research supports that mission.
 
-## About
+Production: https://www.ayitisitwayen.org
 
-Ayiti Sitwayen is a research and action project using social media technology and machine learning to strengthen active citizenship in Haiti. This website serves as the public-facing platform for our research and campaign.
+The site uses static HTML, CSS, JavaScript and Python generators. Pushing the
+reviewed main branch triggers GitHub checks and the connected Vercel deployment.
+There is no visitor-facing paid API dependency.
 
-## Website
+## Content and builds
 
-- **Production**: https://ayitisitwayen.org
-- **Staging**: https://ayiti-sitwayen.vercel.app
+- `data/elections.json`: reviewed election guidance and source dates.
+- `data/candidates/`: registrations, verified enrichment, portraits and archives.
+- `data/candidate-editorial.json`: original articles, citations, series and audio.
+- `data/about.json`: identity, mission and editorial commitments.
+- `data/site-page-dates.json`: genuine revision dates for static pages.
 
-## Features
-
-- Bilingual content (Haitian Creole / English)
-- Responsive design (mobile-first)
-- Research documentation
-- Contact form integration
-- Haiti flag color scheme (Blue & Red)
-
-## Technology Stack
-
-- **Frontend**: HTML5, CSS3, Vanilla JavaScript
-- **Hosting**: Vercel
-- **Domain**: Ayitisitwayen.org
-- **Form Backend**: Formspree (to be configured)
-
-## Local Development
-
-1. Clone this repository
-2. Open `index.html` in your browser
-3. No build process required - it's pure HTML/CSS/JS!
-
-## Deployment
-
-This site is automatically deployed to Vercel when you push to the `main` branch.
-
-### Deploy to Vercel (First Time)
-
-1. Push this code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Click "Import Project"
-4. Connect your GitHub repository
-5. Click "Deploy"
-6. Done! Your site will be live at `[your-project].vercel.app`
-
-### Connect Custom Domain
-
-1. In Vercel dashboard, go to your project
-2. Click "Settings" → "Domains"
-3. Add `ayitisitwayen.org`
-4. Follow instructions to update your DNS settings at your domain registrar
-
-## File Structure
-
-```
-Ayiti_Sitwayen_Website/
-├── index.html          # Main HTML file
-├── styles.css          # All styles
-├── script.js           # JavaScript functionality
-├── README.md           # This file
-├── .gitignore         # Git ignore file
-└── vercel.json        # Vercel configuration
+```text
+python scripts/build-editorial.py
+python scripts/build-candidates.py
+python scripts/build-elections.py
+python scripts/build-sitemaps.py
+python -m http.server 8767 --bind 127.0.0.1
 ```
 
-## Customization
+Open `http://127.0.0.1:8767/`. Candidate profiles and their catalogs are generated
+locally and on Vercel; their large output trees are ignored by Git. The editorial,
+About and election landing pages are committed and checked for consistency.
+Edit reviewed source data, then regenerate; do not hand-edit generated HTML.
 
-### Update Team Member
-
-Edit the Team section in `index.html`:
-
-```html
-<div class="team-member">
-    <div class="member-photo">
-        <div class="photo-placeholder">👤</div>
-    </div>
-    <h3 class="member-name">Your Name</h3>
-    <p class="member-role">Your Role</p>
-    <p class="member-bio">Your bio here...</p>
-</div>
+```text
+python scripts/check-candidate-data.py
+python scripts/check-editorial.py
+python scripts/build-editorial.py --check
+python scripts/build-candidates.py --check
+python scripts/build-elections.py --check
+python scripts/build-sitemaps.py --check
+python scripts/check-seo.py
+node --check editorial.js
 ```
 
-### Update Contact Email
+The article builder enforces a maximum of 500 words in each language, including
+headline and deck. Only published entries are emitted; stale article HTML blocks
+the build. Native text, citations and metadata remain available without
+JavaScript. Sitemaps and metadata support discovery; they do not guarantee Google
+indexing or rankings.
 
-1. Sign up at [Formspree.io](https://formspree.io)
-2. Create a new form
-3. Copy your form endpoint URL
-4. Replace `{your-form-id}` in `index.html` line 318:
+Selected articles have labeled ElevenLabs narration, transcripts and controls
+without autoplay. Credentials belong in the existing private audio pipeline,
+never this repository. Changed Creole transcripts require a new recording.
 
-```html
-<form class="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
-```
+The About contact form opens the visitor’s email application for review and
+manual sending. It does not send mail or imply a configured submission service.
 
-### Add Social Media Links
+See [editorial/README.md](editorial/README.md) for election maintenance and
+[editorial/candidate-analysis-method.md](editorial/candidate-analysis-method.md)
+for article sourcing, review and publication requirements.
 
-Update the social links in the Contact section (around line 346):
-
-```html
-<div class="social-links">
-    <a href="https://facebook.com/ayitisitwayen" target="_blank">Facebook</a>
-    <a href="https://instagram.com/ayitisitwayen" target="_blank">Instagram</a>
-    <a href="https://tiktok.com/@ayitisitwayen" target="_blank">TikTok</a>
-</div>
-```
-
-## Language Toggle
-
-The website supports bilingual content. Users can switch between Haitian Creole and English by clicking the language toggle button in the navigation.
-
-All translatable content uses `data-ht` and `data-en` attributes:
-
-```html
-<h2 data-ht="Konsènan Pwojè a" data-en="About the Project">
-    Konsènan Pwojè a
-</h2>
-```
-
-## Contributing
-
-This is a research project website. If you'd like to contribute or report issues, please contact us at contact@ayitisitwayen.org
-
-## License
-
-© 2025 Ayiti Sitwayen. All rights reserved.
-
-## Contact
-
-- **Email**: contact@ayitisitwayen.org
-- **Research Email**: research@ayitisitwayen.org
-- **Partnerships**: partnerships@ayitisitwayen.org
-
----
-
-**Ayiti Sitwayen** | Renforcer l'engagement civique en Haïti
+Contact: contact@ayitisitwayen.org

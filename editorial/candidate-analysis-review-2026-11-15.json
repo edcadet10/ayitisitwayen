@@ -1,0 +1,177 @@
+{
+  "reviewed_at": "2026-11-15",
+  "publication_scope": "Initial five articles, not completed investigations of all 32 presidential registrants",
+  "articles": [
+    {
+      "slug": "martelly-privert-transfer-fee-school-promise",
+      "kind": "analysis",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "word_counts": {
+        "ht": 321,
+        "en": 268
+      },
+      "audio": "ElevenLabs",
+      "citations": [
+        "brh-2011",
+        "court-2023-fees",
+        "cscca-2019-fne"
+      ]
+    },
+    {
+      "slug": "martelly-school-promise-paper-trail",
+      "kind": "analysis",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a",
+        "c-cfa0ce450d335df39e36"
+      ],
+      "word_counts": {
+        "ht": 355,
+        "en": 281
+      },
+      "audio": "ElevenLabs",
+      "citations": [
+        "court-2022-fees",
+        "court-2023-fees",
+        "court-2025-fees"
+      ]
+    },
+    {
+      "slug": "school-fees-fne-accounting-gap",
+      "kind": "analysis",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "word_counts": {
+        "ht": 316,
+        "en": 248
+      },
+      "audio": null,
+      "citations": [
+        "cscca-2024-fne",
+        "cscca-2019-fne",
+        "fne-beneficiaries-2026"
+      ]
+    },
+    {
+      "slug": "claude-joseph-moise-case-what-changed",
+      "kind": "analysis",
+      "candidate_ids": [
+        "c-c9c792b353345247be19"
+      ],
+      "word_counts": {
+        "ht": 338,
+        "en": 288
+      },
+      "audio": null,
+      "citations": [
+        "state-joseph-20210707",
+        "doj-moise-20260921",
+        "vbi-moise-20251013",
+        "binuh-q3-2026",
+        "herald-sanon-20261113"
+      ]
+    },
+    {
+      "slug": "martelly-school-promise-demand-accounts",
+      "kind": "opinion",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "word_counts": {
+        "ht": 239,
+        "en": 203
+      },
+      "audio": null,
+      "citations": [
+        "cscca-2019-fne",
+        "cscca-2024-fne",
+        "fne-beneficiaries-2026"
+      ]
+    }
+  ],
+  "primary_document_fingerprints": {
+    "brh-2011": {
+      "url": "https://www.brh.ht/wp-content/uploads/2018/08/rapport_2011.pdf",
+      "sha256": "eae39c5b0e3a00a93e85762658ada78c3d8990c0b4f44a5fb045b4e7be6ea2d7",
+      "bytes": 24279433
+    },
+    "court-2022-fees": {
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ca2-20-01412/pdf/USCOURTS-ca2-20-01412-0.pdf",
+      "sha256": "c02caab38bbeea3c42bb77e800e0fd44e08fd9d399243e080c24193f5e982124",
+      "bytes": 430875
+    },
+    "court-2023-fees": {
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_18-cv-07340/pdf/USCOURTS-nyed-1_18-cv-07340-3.pdf",
+      "sha256": "facc9e14bfdb9f303549bfbc21f7387b964cbe4beaf585a5386257c79fcfa092",
+      "bytes": 422688
+    },
+    "court-2025-fees": {
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_18-cv-07340/pdf/USCOURTS-nyed-1_18-cv-07340-5.pdf",
+      "sha256": "96ce3c86f51ee5954b42e1a05d74486fe3801f5fa8d297a585ea74b55a774e6f",
+      "bytes": 321512
+    },
+    "cscca-2019-fne": {
+      "url": "https://cscca.gouv.ht/uploads/documents/1749766881_RSFPEDP_17-18__.pdf",
+      "sha256": "6250c963ffc2eb280ad0b000d22b8a7bfcf44339da0529fe5bce301c0cc1a7b5",
+      "bytes": 3154892
+    },
+    "cscca-2024-fne": {
+      "url": "https://cscca.gouv.ht/uploads/documents/1776779684_RSFPEDP_2023-2024_Final_25_03_26.pdf",
+      "sha256": "66a388095ceb081b6a00efb2a99f92f6f143a3503670da347e87f008007e3314",
+      "bytes": 2346849
+    },
+    "binuh-q3-2026": {
+      "url": "https://binuh.unmissions.org/sites/default/files/2026-11/Q3%202026%20-%20ENGLISH.pdf",
+      "sha256": "fd57b4e7483ace5bbde0901f0c86f0d339e08276fc4dd0d68a09711c8d3b943d",
+      "bytes": 16265447
+    }
+  },
+  "examples_studied": [
+    {
+      "publisher": "ProPublica",
+      "url": "https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax",
+      "use": "Narrative structure only; no quoted prose"
+    },
+    {
+      "publisher": "ICIJ",
+      "url": "https://www.icij.org/investigations/pandora-papers/global-investigation-tax-havens-offshore/",
+      "use": "Clear mechanism and evidence chain; no copied prose"
+    },
+    {
+      "publisher": "Reuters",
+      "url": "https://www.marketscreener.com/news/latest/He-never-stood-a-chance-the-fateful-downfall-of-Haiti-s-president-36221160/",
+      "use": "Actual syndicated story body; chronology, attribution, alternative explanations"
+    },
+    {
+      "publisher": "AP",
+      "url": "https://apnews.com/article/41b1c9617d4ab1b79599c3ee7e4ec4dd",
+      "use": "Story text supplied in search results; direct page access limited"
+    },
+    {
+      "publisher": "InSight Crime",
+      "url": "https://insightcrime.org/news/international-sanctions-seek-to-weaken-haitis-patronage-system-between-politicians-gangs/",
+      "use": "Describe mechanisms while attributing allegations; no copied prose"
+    }
+  ],
+  "verification": {
+    "candidate_data_tests": 18,
+    "editorial_tests": 13,
+    "local_browser_cases": 42,
+    "creole_review": "Independent AI HT-only reading before English, then fidelity comparison; required changes applied",
+    "audio": "Two exact-transcript-hash recordings; MP3 duration and browser metadata checked; full Scribe v3 Haitian Creole roundtrip preserves key amounts, chronology and negation. No native-human pronunciation certification.",
+    "indexing": "Native HTML, reciprocal language links, canonical URLs and sitemap entries; actual Google indexing and ranking unconfirmed",
+    "seo_audit": {
+      "canonical_html_pages": 26007,
+      "duplicate_titles": 0,
+      "sitemap_coverage": "complete"
+    }
+  },
+  "limits": [
+    "Not every court filing or transcript was accessed. The articles identify the records actually used.",
+    "No field interviews, confidential-source reporting or requests for comment were conducted.",
+    "A name search across collected UN reports is discovery only; absence of a match is not exoneration.",
+    "Family and patronage investigations require independently sourced relationships and public-interest relevance; no guilt by association."
+  ]
+}

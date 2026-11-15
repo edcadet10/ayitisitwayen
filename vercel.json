@@ -100,6 +100,6 @@
       ]
     }
   ],
-  "buildCommand": "python3 scripts/build-candidates.py && python3 scripts/build-elections.py --check && python3 scripts/build-sitemaps.py",
+  "buildCommand": "python3 scripts/build-editorial.py && python3 scripts/build-candidates.py && python3 scripts/build-elections.py --check && python3 scripts/build-sitemaps.py",
   "outputDirectory": "."
 }
