@@ -823,6 +823,314 @@
         "ht": "Gade paj PDF 6, nòt 5, pou retrè yo; anèks 5 se rezilta pwovizwa. Nou pa sèvi ak yon ansyen chif kòm sondaj jodi a.",
         "en": "See PDF page 6, footnote 5, for withdrawals; annex 5 contains provisional results. Historical totals are not present-day polling."
       }
+    },
+    "bastien-delivrans-choice": {
+      "publisher": "Fact Checking News (FCN)",
+      "url": "https://fcnhaiti.com/presidentielle-2027-delivrans-designe-kely-c-bastien-comme-candidat-a-la-presidence/",
+      "published_at": "2026-11-14",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "DELIVRANS chwazi Kely C. Bastien",
+        "en": "DELIVRANS selects Kely C. Bastien"
+      },
+      "note": {
+        "ht": "Rapò sou kominike ki dekri deliberasyon 13 Novanm lan. Yon chwa entèn pa yon eleksyon nasyonal oswa yon apwobasyon final KEP.",
+        "en": "Reports the communiqué describing the November 13 deliberation. An internal selection is not a national election or final CEP approval."
+      }
+    },
+    "bastien-delatour-response": {
+      "publisher": "Fact Checking News (FCN)",
+      "url": "https://fcnhaiti.com/delivrans-djina-guillet-delatour-felicite-kely-c-bastien-apres-sa-designation-a-la-presidentielle/",
+      "published_at": "2026-11-14",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Reyaksyon Djina Guillet Delatour apre chwa DELIVRANS lan",
+        "en": "Djina Guillet Delatour’s response to the DELIVRANS choice"
+      },
+      "note": {
+        "ht": "Deklarasyon ak rezèv kandida ki pa t chwazi a; li pa yon sondaj sipò piblik.",
+        "en": "Statements and reservations of the unsuccessful nominee, not a public-support poll."
+      }
+    },
+    "senate-fund-2011-bastien": {
+      "publisher": "U.S. Senate Committee on Foreign Relations",
+      "url": "https://www.foreign.senate.gov/imo/media/doc/Haitian-American%20Enterprise%20Fund%20Trip%20Report.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Rapò vwayaj 2011 — fich sou Kely Bastien, paj PDF 18",
+        "en": "2011 trip report — Kely Bastien briefing, PDF page 18"
+      },
+      "note": {
+        "ht": "Fich preparasyon an dekri fonksyon ak objektif. Yon aktivite nan ajanda a pa prèv reyinyon an te fèt oswa objektif la te reyalize.",
+        "en": "A briefing describes roles and stated objectives. A scheduled event does not prove a meeting occurred or an objective was achieved."
+      }
+    },
+    "un-2020-g9-delille": {
+      "publisher": "United Nations Secretary-General",
+      "url": "https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/S_2020_944.pdf",
+      "published_at": "2020-09-25",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "S/2020/944 — fòmasyon G9 ak ranplasman Délille",
+        "en": "S/2020/944 — G9 formation and Délille’s replacement"
+      },
+      "note": {
+        "ht": "Paragraf 15, paj PDF 4: 10 Jen pou fòmasyon alyans lan. Paragraf 24, paj 6: ranplasman minis la 9 Jiyè. Sa pa poukont li pwouve rezon revokasyon an.",
+        "en": "Paragraph 15, PDF page 4: alliance formation on June 10. Paragraph 24, page 6: minister replaced July 9. This does not by itself establish the reason for dismissal."
+      }
+    },
+    "delille-response-2022": {
+      "publisher": "Gazette Haïti",
+      "url": "https://gazettehaiti.com/index.php/node/6600",
+      "published_at": "2022-04-04",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Repons Lucmane Delille bay Joseph Jouthe an 2022",
+        "en": "Lucmane Delille’s 2022 response to Joseph Jouthe"
+      },
+      "note": {
+        "ht": "Nou li tèks atik konplè a. Se rapò jounal la sou entèvansyon an, pa yon transkripsyon videyo nou verifye nèt oswa yon desizyon tribinal.",
+        "en": "The full article was reviewed. This is the outlet’s account of the appearance, not a fully checked video transcript or a court finding."
+      }
+    },
+    "dupuy-diplomat-recalls": {
+      "publisher": "Radio Métropole",
+      "url": "https://metropole.ht/la-chanceliere-confirme-les-reformes-dans-la-diplomatie/",
+      "published_at": "2024-07-11",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Dominique Dupuy esplike rapèl diplomat yo",
+        "en": "Dominique Dupuy explains diplomatic recalls"
+      },
+      "note": {
+        "ht": "Atik la bay yon kantite ki rapòte ak eksplikasyon minis la. Li pa pibliye yon lis konplè oswa yon odit ekonomi ki fèt.",
+        "en": "Reports a headcount and the minister’s explanation. It does not supply a complete list or an audit of savings."
+      }
+    },
+    "dupuy-withdrawal-2024": {
+      "publisher": "HaitiLibre",
+      "url": "https://www.haitilibre.com/en/news-41963-haiti-flash-dominique-dupuy-resigns-from-the-presidential-transitional-council-video.html",
+      "published_at": "2024-03-25",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Dominique Dupuy anonse retrè li 24 Mas 2024",
+        "en": "Dominique Dupuy announces withdrawal on March 24, 2024"
+      },
+      "note": {
+        "ht": "Rapò sou deklarasyon videyo li. Menas yo se sa li te denonse; atik sa a pa idantifye otè yo atravè yon jijman.",
+        "en": "Reports her video statement. The threats are what she reported; this article does not identify perpetrators through a judgment."
+      }
+    },
+    "cep-presidential-count-20261115": {
+      "publisher": "Conseil Électoral Provisoire",
+      "url": "https://tableau.cephaiti.ht/",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "KEP — 32 enskripsyon prezidansyèl, verifikasyon 15 Novanm",
+        "en": "CEP — 32 presidential registrations, checked November 15"
+      },
+      "note": {
+        "ht": "Nou rekonsilye kat paj rezilta filtre pou pòs Prezidan an: menm 32 non ak etikèt pati yo. Tablo a bay 30 gason ak 2 fanm. Se enskripsyon preliminè.",
+        "en": "Four pages filtered for President reconciled: the same 32 names and party labels. The dashboard reports 30 men and 2 women. These are preliminary registrations."
+      }
+    },
+    "deronneth-marigot-result": {
+      "publisher": "Rezo Nòdwès",
+      "url": "https://rezonodwes.com/2017/01/marigotdeputation-lherisson-emporte-par-le-vent-defendu-par-le-feu/",
+      "published_at": "2017-01-03",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Marigo — chanjman rezilta apre kontestasyon elektoral",
+        "en": "Marigot — result changed after electoral challenge"
+      },
+      "note": {
+        "ht": "Nou li tèks konplè a nan kopi achiv la. Nou separe enfòmasyon sou rezilta a ak jijman editoryal oswa atribisyon vyolans ki pa pwouve.",
+        "en": "Full archive text reviewed. The result is separated from editorial judgments and unproven attribution of violence."
+      }
+    },
+    "gue-local-aid-2010": {
+      "publisher": "Radio Métropole",
+      "url": "https://metropole.ht/joanas-gue-pour-une-reorientation-de-laide-humanitaire/",
+      "published_at": "2010-03-15",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué mande acha lokal pou èd alimantè",
+        "en": "Joanas Gué calls for local purchasing in food assistance"
+      },
+      "note": {
+        "ht": "Pozisyon minis la apre tranblemanntè a. Nou pa prezante apèl la kòm prèv tout acha oswa rezilta ki te swiv.",
+        "en": "The minister’s position after the earthquake. The appeal does not establish every subsequent purchase or outcome."
+      }
+    },
+    "wfp-local-meals-2026": {
+      "publisher": "World Food Programme",
+      "url": "https://www.wfp.org/stories/hope-haiti-lessons-frontlines-hunger-crisis",
+      "published_at": "2026-06-16",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "PAM — kantite timoun ak acha lokal nan kantin yo",
+        "en": "WFP — school-meal reach and local purchasing"
+      },
+      "note": {
+        "ht": "Deklarasyon responsab PAM sou pwòp pwogram li. Pousantaj la pa mezi tout kantin oswa tout manje ann Ayiti.",
+        "en": "A WFP official’s account of its own programme. The percentage does not describe every canteen or all food consumed in Haiti."
+      }
+    },
+    "gue-agriculture-2009": {
+      "publisher": "Radio Métropole",
+      "url": "https://metropole.ht/la-relance-du-secteur-agricole-est-lune-des-priorites-du-gouvernement-selon-joanas-gue/",
+      "published_at": "2009-01-07",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué — irigasyon, wout ak kredi agrikòl an 2009",
+        "en": "Joanas Gué — irrigation, roads and agricultural credit in 2009"
+      },
+      "note": {
+        "ht": "Chif ak evalyasyon sa yo se deklarasyon minis la nan epòk la, pa yon odit endepandan oswa yon deskripsyon sitiyasyon 2026 la.",
+        "en": "Figures and assessments are the minister’s statements at the time, not an independent audit or a description of conditions in 2026."
+      }
+    },
+    "tardieu-police-bill-2016": {
+      "publisher": "Rezo Nòdwès",
+      "url": "https://rezonodwes.com/2016/05/jerry-tardieu-depose-une-proposition-de-loi-sur-la-reorganisation-de-la-pnh/",
+      "published_at": "2016-05-04",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Jerry Tardieu depoze pwopozisyon lwa sou PNH",
+        "en": "Jerry Tardieu submits a PNH reorganization bill"
+      },
+      "note": {
+        "ht": "Atik la rapòte depo pwopozisyon an 3 Me. Li pa poukont li etabli adopsyon, piblikasyon oswa egzekisyon yon lwa.",
+        "en": "Reports submission on May 3. It does not by itself establish passage, promulgation or implementation."
+      }
+    },
+    "tardieu-campaign-2026": {
+      "publisher": "Jerry Tardieu campaign",
+      "url": "https://www.jerrytardieu.ht/",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Jerry Tardieu — priyorite kanpay la",
+        "en": "Jerry Tardieu — campaign priorities"
+      },
+      "note": {
+        "ht": "Sit la idantifye kandida a ak EAPH. Pwomès sekirite ak rapèl travay palmantè yo se deklarasyon kanpay la.",
+        "en": "The site identifies the candidate and EAPH. Security proposals and legislative-record descriptions are campaign statements."
+      }
+    },
+    "tardieu-diaspora-2016": {
+      "publisher": "Rezo Nòdwès",
+      "url": "https://rezonodwes.com/2016/07/le-depute-jerry-tardieu-veut-faire-entrer-la-diaspora-au-parlement-haitien/",
+      "published_at": "2016-07-10",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Jerry Tardieu pwopoze reprezantasyon dyaspora a nan Palman",
+        "en": "Jerry Tardieu proposes diaspora representation in Parliament"
+      },
+      "note": {
+        "ht": "Rapò sou deklarasyon an Florid an 2016; yon pozisyon oswa yon pwopozisyon amannman pa yon dwa ki deja antre an aplikasyon.",
+        "en": "Reports his 2016 statements in Florida; a position or proposed amendment is not an already operative right."
+      }
+    },
+    "tardieu-constitution-consultation-2017": {
+      "publisher": "Parliamentary commission communiqué, published by Juno7",
+      "url": "https://www.juno7.ht/la-commission-speciale-sur-lamendement-de-la-constitution-avance-dans-sa-consultation-nationale/",
+      "published_at": "2017-10-31",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Kominike komisyon amannman Konstitisyon an, 30 Oktòb 2017",
+        "en": "Constitutional-amendment commission communiqué, October 30, 2017"
+      },
+      "note": {
+        "ht": "Tèks konplè a idantifye Jerry Tardieu kòm prezidan komisyon an. Nou distenge rankont komisyon an deklare li fè ak etap li te sèlman anonse.",
+        "en": "Full text identifies Jerry Tardieu as commission chair. Meetings the commission reports holding are distinguished from announced future steps."
+      }
+    },
+    "mph-manifesto-2026": {
+      "publisher": "Mobilisation pour le Progrès d’Haïti",
+      "url": "https://mphhaiti.org/media/manifeste-mph-2026.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Manifès MPH — sekirite paj 9, ekonomi ak finans paj 10",
+        "en": "MPH manifesto — security on page 9, economy and finance on page 10"
+      },
+      "note": {
+        "ht": "Nou li dokiman 14 paj la. Se pwopozisyon pati a, pa yon lwa bidjè oswa prèv lajan ki disponib.",
+        "en": "The 14-page document was reviewed. These are party proposals, not a budget law or proof of available funding."
+      }
+    },
+    "mph-candidate-mourra": {
+      "publisher": "Mobilisation pour le Progrès d’Haïti",
+      "url": "https://mphhaiti.org/candidats",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "MPH idantifye Munir Joseph Mourra kòm kandida prezidansyèl li",
+        "en": "MPH identifies Munir Joseph Mourra as its presidential candidate"
+      },
+      "note": {
+        "ht": "Paj pati a fè lyen ant kandida a ak kat angajman manifès li. Enskripsyon KEP ak apwobasyon final rete diferan.",
+        "en": "The party links the candidate to its manifesto’s four commitments. CEP registration remains distinct from final approval."
+      }
+    },
+    "mored-membership-2026": {
+      "publisher": "MORED Ayiti",
+      "url": "https://moredayiti.com/",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Sit MORED — pwogram manm ak frè chak mwa",
+        "en": "MORED website — membership programme and monthly fee"
+      },
+      "note": {
+        "ht": "Paj la nonmen Marc-Arthur Drouillard. Etikèt MORED la pa menm ak MRN nan rejis KEP la. Yon montan sou fòmilè pa yon resi oswa yon kont verifye.",
+        "en": "The page names Marc-Arthur Drouillard. Its MORED label is not the CEP’s MRN label. A form amount is not a receipt or verified account."
+      }
+    },
+    "jude-elie-biography": {
+      "publisher": "Jude Elie",
+      "url": "https://judeelie.org/",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Jude Elie — biyografi sou pwòp sit li",
+        "en": "Jude Elie — biography on his own website"
+      },
+      "note": {
+        "ht": "Paj san dat piblikasyon. Deklarasyon sou travay, antrepriz ak fòmasyon yo se deklarasyon kandida a, sof kote yon lòt sous dokimante yo.",
+        "en": "No publication date supplied. Employment, business and education statements are the candidate’s account unless separately documented."
+      }
+    },
+    "nycha-elie-chart-2018": {
+      "publisher": "New York City Housing Authority",
+      "url": "https://www.nyc.gov/assets/nycha/downloads/pdf/CPD%20-%20Capital%20Planning%20Department.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "NYCHA — organigram planifikasyon, 2018",
+        "en": "NYCHA — capital-planning organization chart, 2018"
+      },
+      "note": {
+        "ht": "Nou li dyagram nan vizyèlman. Li mete Jude Elie pami twa A/E Planners anba Physical Needs Manager la. Li pa sifi pou etabli travay aktyèl li an 2026.",
+        "en": "The chart was visually examined. It places Jude Elie among three A/E Planners under the Physical Needs Manager. It does not establish present employment in 2026."
+      }
+    },
+    "million-billion-elie": {
+      "publisher": "Million Billion Group",
+      "url": "https://millionbilliongroup.com/pages/our-team-our-mission",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Million Billion Group — pwofil Jude Elie kòm patnè",
+        "en": "Million Billion Group — Jude Elie partner profile"
+      },
+      "note": {
+        "ht": "Paj konpayi an te disponib epi li te toujou nonmen Jude Elie lè nou telechaje l 15 Novanm 2026. Sa pa yon rejis aksyonè oswa yon odit envestisman.",
+        "en": "The company page remained available and named Jude Elie when downloaded November 15, 2026. It is not a shareholder register or investment audit."
+      }
     }
   },
   "articles": [
@@ -2501,6 +2809,1063 @@
           "text": {
             "ht": "Lè nou rakonte yon pakou, kesyon an pa sèlman « konbyen vòt li te fè? ». Li se tou « ki moun li te ede pran pouvwa, pou ki rezon, epi ki sa li aprann? ». Ti nòt sa a fè dosye a vin pi rich pase yon klasman.",
             "en": "When tracing a career, the question extends beyond “how many votes?” to “whom did he help into power, why, and what did he learn?” The footnote makes the record more informative than a ranking alone."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "kely-bastien-delivrans-who-chose-candidate",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-eafa5d1131725d7384c9"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Kely Bastien: kiyès ki chwazi l pou DELIVRANS?",
+        "en": "Kely Bastien: who selected him for DELIVRANS?"
+      },
+      "description": {
+        "ht": "Chwa yon kowalisyon esplike ki jan pouvwa òganize anndan l; li pa mezire vòt peyi a.",
+        "en": "A coalition’s selection explains its internal organization, not the country’s voting intentions."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kely C. Bastien pa t poukont li nan pwosesis DELIVRANS lan. Dapre kominike FCN rapòte a, ANSANM te pwopoze non li; LÒD DEMOKRATIK te pwopoze Djina Guillet Delatour. Konferans prezidan platfòm nan te chwazi Bastien pa majorite 13 Novanm 2026.",
+            "en": "Kely C. Bastien was not the only proposed DELIVRANS nominee. According to the communiqué reported by FCN, ANSANM proposed him and LÒD DEMOKRATIK proposed Djina Guillet Delatour. The platform’s presidents’ conference selected Bastien by majority on November 13, 2026."
+          },
+          "sources": [
+            "bastien-delivrans-choice"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Delatour te felisite l epi rekonèt chwa a. Nan deklarasyon FCN rapòte a, li te kenbe rezèv li sou pwosesis elektoral la. Sa montre yon moun ka aksepte yon desizyon entèn san li abandone tout pozisyon pa l.",
+            "en": "Delatour congratulated him and acknowledged the choice. In the statement reported by FCN, she retained reservations about the electoral process. Someone can accept an internal decision without abandoning every position of her own."
+          },
+          "sources": [
+            "bastien-delatour-response"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou lektè a, gen twa nivo apa: pati manm yo pwopoze, dirijan kowalisyon an chwazi, epi elektè yo vote. Yon majorite nan dezyèm nivo a pa otomatikman yon majorite nan twazyèm nan. Fòk sipò piblik la mezire apa.",
+            "en": "For readers, three levels remain distinct: member parties propose, coalition leaders select, and citizens vote. A majority at the second level is not automatically a majority at the third. Public support requires separate measurement."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Kesyon ki vini apre a se sou sa ki mare gwoup yo: ki pwogram yo aksepte ansanm, kijan yo pran desizyon sou lajan ak nominasyon, epi ki règ ki rete si yo pa dakò? Yon kowalisyon dwe kapab esplike pwòp règ li anvan li mande pou dirije peyi a.",
+            "en": "The next issue is what binds the groups: their common programme, how they decide on money and appointments, and what happens when they disagree. A coalition should explain its own rules before seeking to govern the country’s."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa se yon kesyon òganizasyon politik, pa yon akizasyon sou antant sekrè. Non chak estrikti ak etap desizyon an bay yon bon kote pou kòmanse egzamine relasyon sa yo.",
+            "en": "This concerns political organization, not an allegation of a secret deal. Naming each organization and decision stage provides a concrete starting point for examining those relationships."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "kely-bastien-senate-transparency-record",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-eafa5d1131725d7384c9"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Kely Bastien: tès transparans lan pa kòmanse ak kanpay sa a",
+        "en": "Kely Bastien: the transparency test predates this campaign"
+      },
+      "description": {
+        "ht": "Yon ansyen fich ofisyèl montre ki dosye piblik pou egzamine dèyè nouvo kandidati a.",
+        "en": "An old official briefing points to the public record behind the new candidacy."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Non Kely Bastien nan dokiman piblik entènasyonal yo parèt lontan anvan chwa DELIVRANS lan. Yon fich ki nan rapò vwayaj 2011 sou sit komite afè etranjè Sena ameriken an dekri l kòm senatè Nò epi pale sou eleksyon li kòm prezidan Sena an 2008.",
+            "en": "Kely Bastien appears in international public records long before DELIVRANS selected him. A briefing in a 2011 trip report hosted by the U.S. Senate Foreign Relations Committee identifies the northern senator and records his election as Senate president in 2008."
+          },
+          "sources": [
+            "senate-fund-2011-bastien"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Fich la prezante transparans nan Sena ak pi bon relasyon ant pouvwa yo kòm objektif li. Li pa yon odit ki deklare objektif sa yo te reyalize. Li pa prèv tout rankont ki te sou ajanda vizit la te fèt nonplis.",
+            "en": "The briefing describes Senate transparency and better relations between branches as his objectives. It is not an audit establishing those objectives were achieved. Nor does it prove every meeting on the visit’s agenda occurred."
+          },
+          "sources": [
+            "senate-fund-2011-bastien"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Se la eksperyans yon ansyen dirijan vin yon dosye piblik pou egzamine. Si yon moun te gen responsablite nan yon asanble, piblik la ka chèche bidjè asanble a, rapò sou depans ak tras desizyon yo. Yon tit montre kote pou fouye; li pa bay rezilta fouy la davans.",
+            "en": "That is where a former leader’s experience becomes a record for public examination. Assembly responsibilities point readers towards budgets, expenditure reports and decision records. A title identifies where to investigate; it does not predetermine the findings."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon fanmi ki peye taks, transparans vle di yon bagay konkrè: li ka wè kote lajan ale epi konpare sa ak sèvis li resevwa. Se menm tès la pou kandida ki soti nan Sena, nan yon ministè oswa nan yon antrepriz.",
+            "en": "For a taxpaying household, transparency means something concrete: seeing where money goes and comparing it with services received. The same test applies to candidates coming from the Senate, a ministry or a company."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Chwa DELIVRANS te fè an Novanm 2026 la se yon nouvo etap politik. Li pa fè ansyen responsablite yo disparèt, ni li pa prèv yon fot. Li fè dokiman sou responsablite sa yo vin enpòtan pou lektè a ankò.",
+            "en": "DELIVRANS’s November 2026 selection is a new political step. It neither erases earlier responsibilities nor proves wrongdoing. It makes the documents about those responsibilities relevant to readers again."
+          },
+          "sources": [
+            "bastien-delivrans-choice"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lucmanne-delille-g9-timeline-dismissal",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-89917a3266b65e969c3d"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Lucmanne Delille ak G9: de dat ki bezwen mache ak istwa a",
+        "en": "Lucmanne Delille and G9: two dates his account must address"
+      },
+      "description": {
+        "ht": "Yon rapò ONU ak yon repons li te bay an 2022 pa mete fòmasyon G9 nan menm moman.",
+        "en": "A UN report and a published account of his 2022 response place G9’s formation differently."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "10 Jen 2020: se dat rapò sekretè jeneral ONU a bay pou fòmasyon alyans G9 an fanmi an. 9 Jiyè 2020: se dat menm rapò a bay pou Rockefeller Vincent ranplase Lucmanne Délille nan ministè Jistis la. Gen 29 jou ant de dat sa yo.",
+            "en": "June 10, 2020: the UN Secretary-General’s report dates the formation of the G9 an fanmi alliance. July 9, 2020: the same report dates Rockefeller Vincent’s replacement of Lucmanne Délille as justice minister. Those dates are 29 days apart."
+          },
+          "sources": [
+            "un-2020-g9-delille"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men nan rapò Gazette Haïti sou repons Delille te bay Joseph Jouthe 4 Avril 2022 a, Delille di G9 pa t fòme pandan li te minis, men apre depa li. Jounal la rapòte tou li te rejte akizasyon ansyen premye minis la epi prezante pwòp vèsyon revokasyon li.",
+            "en": "Yet in Gazette Haïti’s account of Delille’s April 4, 2022 response to Joseph Jouthe, Delille says G9 formed after his departure, rather than during his ministry. The outlet also reports his rejection of the former prime minister’s allegations and his own account of dismissal."
+          },
+          "sources": [
+            "delille-response-2022"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Diferans lan presi: dapre kwonoloji ONU a, alyans lan te deja egziste lè li te kite ministè a. Sa mande yon eksplikasyon sou sa li te rele « fòmasyon » nan entèvansyon 2022 a, oswa sou fason pawòl yo te rapòte. Nou li atik la; nou pa t gade tout videyo emisyon an.",
+            "en": "The discrepancy is specific: in the UN chronology, the alliance existed before he left office. That calls for clarification of what “formation” meant in the 2022 appearance, or how the statement was reported. We reviewed the article, not the entire broadcast video."
+          },
+          "sources": [
+            "un-2020-g9-delille",
+            "delille-response-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa pa pwouve Delille te kreye, finanse oswa soutni G9. Sa pa tranche rezon revokasyon an nonplis. Dat yon gwoup parèt, sa yon minis te konnen ak aksyon li te pran se twa kesyon ki mande prèv diferan.",
+            "en": "This does not establish that Delille created, financed or supported G9. Nor does it settle why he was dismissed. A group’s emergence, a minister’s knowledge and the actions he took require different evidence."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou egzamine dosye sekirite yon kandida, kòmanse ak yon liy tan moun ka verifye. Apre sa, chèche lòd, rapò operasyon ak desizyon ki montre sa otorite yo te fè. Yon istwa politik ki rakonte apre evènman an dwe kapab kanpe bò kote dat ki te ekri nan epòk la.",
+            "en": "To examine a candidate’s security record, start with a checkable timeline. Then seek orders, operational reports and decisions showing what authorities did. A political account told afterwards must withstand comparison with dates recorded at the time."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "dominique-dupuy-diplomatic-recalls-savings-test",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Dominique Dupuy ak rapèl diplomat yo: ki ekonomi ki te fèt?",
+        "en": "Dominique Dupuy’s diplomatic recalls: what savings followed?"
+      },
+      "description": {
+        "ht": "Fè yon administrasyon pi piti ak fè l sèvi pi byen se de rezilta pou mezire apa.",
+        "en": "Making an administration smaller and making it work better are separate outcomes."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Jiyè 2024, Dominique Dupuy te defann rapèl diplomat kòm yon refòm pou adapte depans diplomasi a ak mwayen peyi a. Métropole te rapòte plis pase 80 diplomat ak lòt anplwaye reprezantasyon ta konsène. Minis la pa t bay lis la pandan entèvansyon sa a.",
+            "en": "In July 2024, Dominique Dupuy defended diplomatic recalls as reform to align diplomatic costs with the country’s means. Métropole reported more than 80 diplomats and representation staff were reportedly affected. The minister did not release the list during that appearance."
+          },
+          "sources": [
+            "dupuy-diplomat-recalls"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Li te mete konpetans ak wotasyon an devan, epi li te rejte lide refòm nan te fèt pou rezon politik oswa klan. Se eksplikasyon pa l. Atik la pa bay yon odit sou ekonomi, sou moun ki te ranplase lòt yo oswa sou sèvis konsilè apre sa.",
+            "en": "She emphasized competence and rotation, rejecting political or factional motives. That is her explanation. The article does not provide an audit of savings, replacements or subsequent consular service."
+          },
+          "sources": [
+            "dupuy-diplomat-recalls"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon Ayisyen k ap tann yon dokiman aletranje, kesyon an pa fini nan kantite moun yo raple. Konbyen tan sèvis la pran? Konbyen li koute? Èske anplwaye ki rete yo gen kapasite pou bay li? Yon depans ki bese pandan yon sèvis vin pi difisil pa rakonte menm istwa ak yon sèvis ki amelyore.",
+            "en": "For a Haitian awaiting a document abroad, the issue extends beyond the recall count. How long does service take? What does it cost? Can remaining staff deliver it? Lower spending alongside harder access tells a different story from improved service."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Yon konparezon itil ta mete depans anvan ak apre, kantite pòs vid oswa ranpli, epi delè prensipal sèvis yo sou menm peryòd. Fòk li konte depans tranzisyon tou. Se konsa piblik la ka wè yon ekonomi reyèl olye yon senp deplasman depans.",
+            "en": "A useful comparison would align before-and-after expenditure, vacant and filled positions, and major service delays over comparable periods. It should include transition costs. That would distinguish real savings from costs merely shifted elsewhere."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Dosye a merite egzamen paske li konsène yon desizyon li te defann pandan li te gen pouvwa. Ni yon refòm ki anonse ni kritik sou motif li pa ranplase mezi rezilta a.",
+            "en": "The record merits examination because it concerns a decision she defended while in office. Neither an announced reform nor criticism of its motives substitutes for measuring results."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "dominique-dupuy-threats-women-presidential-registration",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Dominique Dupuy: menas 2024 yo ak de fanm nan lis prezidansyèl la",
+        "en": "Dominique Dupuy: the 2024 threats and two women on the presidential list"
+      },
+      "description": {
+        "ht": "Yon lis enskripsyon montre kiyès ki rive nan pòt la; li pa esplike tout baryè sou wout la.",
+        "en": "A registration list shows who reaches the door, not every barrier encountered."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "24 Mas 2024, Dominique Dupuy te anonse li retire kò l nan pwosesis fòmasyon konsèy prezidansyèl la. Nan deklarasyon videyo HaitiLibre rapòte a, li te denonse atak politik ak menas sou lavi li. Li te reprezante regroupman RED/EDE ak alye li yo nan pwosesis sa a.",
+            "en": "On March 24, 2024, Dominique Dupuy announced withdrawal from the presidential-council formation process. In the video statement reported by HaitiLibre, she described political attacks and threats to her life. She had been the RED/EDE grouping and allies’ designated representative."
+          },
+          "sources": [
+            "dupuy-withdrawal-2024"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Se pa yon desizyon tribinal ki idantifye moun ki te fè menas yo. Nou pa bay yon pati oswa yon moun responsablite kriminèl atik la pa etabli. Men yon deklarasyon retrè konsa se yon eleman piblik enpòtan nan pakou politik li.",
+            "en": "This is not a judgment identifying those responsible for threats. We do not assign criminal responsibility the article does not establish. Such a withdrawal statement nevertheless forms an important public part of her political record."
+          },
+          "sources": [
+            "dupuy-withdrawal-2024"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nan tablo KEP nou verifye 15 Novanm 2026 la, gen 2 fanm sou 32 enskripsyon prezidansyèl: 6,25%, dapre kalkil nou. Sa se yon foto enskripsyon preliminè yo, pa yon lis final, yon sondaj oswa yon mezi kapasite kandida yo.",
+            "en": "The CEP dashboard checked November 15, 2026 shows 2 women among 32 presidential registrations: 6.25%, by our calculation. This is a snapshot of preliminary registrations, not a final list, poll or measure of candidates’ abilities."
+          },
+          "sources": [
+            "cep-presidential-count-20261115"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Chif sa a poukont li pa pwouve poukisa lòt fanm pa enskri. Pou konprann baryè yo, fòk nou egzamine fason pati chwazi kandida, aksè ak finansman, kondisyon sekirite ak eksperyans moun ki te eseye antre nan kous la. Pa fè yon sèl istwa esplike tout sistèm nan.",
+            "en": "That figure alone cannot explain why other women did not register. Understanding barriers requires examining party selection, access to finance, security conditions and experiences of people who tried to run. One person’s story cannot explain the entire system."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Epi menm egzijans sou dosye ak pwogram dwe aplike pou tout moun. Pran menas politik oserye ak egzamine yon kandida sevè se de travay ki ka fèt ansanm.",
+            "en": "The same scrutiny of record and programme should apply to everyone. Taking political threats seriously and examining a candidate rigorously are compatible tasks."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "deus-deronneth-marigot-result-changed-on-appeal",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-318821d7c6585a15b714"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Déus Deronneth nan Marigo: poukisa premye rezilta a pa t dènye mo a",
+        "en": "Déus Deronneth in Marigot: why the first result was not the last word"
+      },
+      "description": {
+        "ht": "Yon ansyen kous palmantè montre sa yon kontestasyon ka chanje, ak sa li pa pwouve.",
+        "en": "An old parliamentary contest shows what a challenge can change, and what it cannot establish."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Dapre rapò misyon Inyon Ewopeyèn sou eleksyon 2016 la, egzamen 34 kontestasyon pou pòs senatè ak depite te ranvèse yon sèl rezilta depite: Marigo. Se yon konklizyon obsèvatè yo sou pwosesis la.",
+            "en": "According to the EU mission’s 2016 election report, examination of 34 legislative challenges reversed just one deputy result: Marigot. This is the observers’ account of the process."
+          },
+          "sources": [
+            "eu-election-2016"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rezo Nòdwès te rapòte an Janvye 2017 desizyon final la te bay Déus Deronneth, kandida PONT, viktwa sou Dieudonné Lhérisson, ki te pi byen plase nan rezilta preliminè yo. Rapò sou vyolans ki te swiv yo pa etabli Deronneth te bay lòd pou okenn zak.",
+            "en": "Rezo Nòdwès reported in January 2017 that the final decision gave PONT candidate Déus Deronneth victory over Dieudonné Lhérisson, who had ranked ahead in preliminary results. Reports of subsequent violence do not establish that Deronneth ordered any act."
+          },
+          "sources": [
+            "deronneth-marigot-result"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Pou konprann yon rezilta konsa, fòk nou li desizyon elektoral la ak chanjman nan pwosè-vèbal yo. Yon jounal ki bay non gayan an pa otomatikman esplike ki vòt yo te konte, retire oswa korije. Nou pa prezante atik la kòm yon kopi jijman an.",
+            "en": "Understanding such a result requires the electoral decision and changes to polling records. An outlet naming the winner does not automatically explain which votes were counted, excluded or corrected. We do not present that article as the judgment itself."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa itil pou moun k ap suiv kous aktyèl la. Premye chif yo ka gen kontestasyon; kontestasyon yo bezwen yon delè, yon baz ak yon desizyon moun ka jwenn. Yon moun ki ranpòte yon rekou pa otomatikman fè fwod, menm jan yon moun ki plenyen pa otomatikman gen rezon.",
+            "en": "This matters for people following the present race. Initial totals may face challenges, which need deadlines, grounds and accessible decisions. Winning a challenge does not automatically imply fraud; filing one does not automatically establish merit."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nan pakou Deronneth, dosye Marigo a montre yon etap presi nan aksè li nan pouvwa. Li mande lekti pyès ki te chanje rezilta a, pa yon lejand sou fason eleksyon toujou mache.",
+            "en": "In Deronneth’s career, Marigot identifies a specific step into office. It calls for the records that changed the result, rather than a legend about how elections always work."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "joanas-gue-local-food-purchases-2010-2026",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-bf5bb68eea8a5b819128",
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué te mande acha lokal an 2010. Kantin yo bay yon tès jodi a.",
+        "en": "Joanas Gué called for local buying in 2010. School meals offer a test today."
+      },
+      "description": {
+        "ht": "Yon lide ka retounen nan plizyè kanpay. Fòk nou egzamine sistèm ki fè l tounen acha reyèl.",
+        "en": "An idea can recur across campaigns. The purchasing system determines delivery."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Apre tranblemanntè 2010 la, minis agrikilti Joanas Gué te defann yon chanjman nan èd alimantè: achte nan men pwodiktè ayisyen olye tout apwovizyònman an soti nan enpòtasyon. Se pozisyon Métropole te rapòte 15 Mas 2010 la.",
+            "en": "After the 2010 earthquake, agriculture minister Joanas Gué advocated redirecting food assistance towards purchases from Haitian producers rather than relying on imports. Métropole reported that position on March 15, 2010."
+          },
+          "sources": [
+            "gue-local-aid-2010"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Jen 2026, responsab PAM te rapòte pwogram kantin òganizasyon an te pase soti nan 450 000 rive nan 650 000 timoun sou de ane. Prèske twa ka manje sa yo te pwodui lokalman, kont mwatye de ane anvan. Sa yo se chif PAM pou pwòp pwogram li, pa pou tout kantin peyi a.",
+            "en": "In June 2026, a WFP official reported its school-meal programme had grown from 450,000 to 650,000 children over two years. Nearly three-quarters of those meals were locally produced, up from half. These are WFP’s figures for its programme, not every canteen in Haiti."
+          },
+          "sources": [
+            "wfp-local-meals-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "De sous yo pa pwouve apèl Gué an 2010 la te lakòz rezilta 2026 yo. Yo montre pito yon kesyon ki dire: kijan depans pou manje ka fè timoun manje epi bay pwodiktè yon mache? Pwogram Etzer Emile a reprann acha lokal pou kantin tou.",
+            "en": "The sources do not establish that Gué’s 2010 appeal caused the 2026 results. They reveal an enduring question: how can food spending feed children while giving producers a market? Etzer Emile’s programme also proposes local purchasing for school meals."
+          },
+          "sources": [
+            "gue-local-aid-2010",
+            "wfp-local-meals-2026",
+            "etzer-education"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon kiltivatè, kliyan an dwe bay yon kantite, yon pri ak yon dat peman. Pou yon lekòl, manje dwe rive alè epi an bon kondisyon. Se kontra, depo, transpò ak peman regilye ki mare de bezwen sa yo ansanm.",
+            "en": "A farmer needs an agreed quantity, price and payment date. A school needs timely, safe food. Contracts, storage, transport and reliable payment connect those needs."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Se la konparezon kandida yo dwe antre pi fon pase slogan « pwodiksyon nasyonal ». Kiyès ki achte, nan ki men, sou ki règ ak ak ki kontwòl? San repons sa yo, menm bèl lide a ka retounen nan chak eleksyon san li elaji sèvis la.",
+            "en": "Candidate comparisons should therefore go deeper than “national production.” Who buys, from whom, under what rules and oversight? Without those answers, an attractive idea can recur at each election without expanding service."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "joanas-gue-irrigation-repairs-maintenance-record",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-bf5bb68eea8a5b819128"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué ak 115 sistèm irigasyon yo: reparasyon bezwen yon swit",
+        "en": "Joanas Gué and 115 irrigation systems: repairs need a follow-through"
+      },
+      "description": {
+        "ht": "Yon ansyen deklarasyon sou travay agrikòl louvri yon dosye sou antretyen ak rezilta.",
+        "en": "An old statement on agricultural works opens a record of maintenance and outcomes."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan entèvyou Métropole te rapòte 7 Janvye 2009 la, Joanas Gué te di yon pati nan lajan ijans te sèvi pou repare 115 sistèm irigasyon apre pasaj siklòn 2008 yo. Li te minis agrikilti lè li te fè deklarasyon sa a. Se kont pa l, pa yon odit nou fè sou chak sistèm.",
+            "en": "In an interview reported by Métropole on January 7, 2009, Joanas Gué said emergency funds had been used to repair 115 irrigation systems after the 2008 hurricanes. He was agriculture minister. This is his account, not our audit of each system."
+          },
+          "sources": [
+            "gue-agriculture-2009"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Poukisa retounen sou yon ansyen chif? Paske yon sistèm irigasyon pa sèvi yon kiltivatè sèlman jou yo fini travay la. Li bezwen dlo, kanal ki pa bouche ak moun ki responsab antretyen. San swit sa a, yon reparasyon ka pa pwoteje pwochen rekòt la.",
+            "en": "Why revisit an old number? An irrigation system serves farmers beyond the day work ends. It needs water, clear canals and assigned maintenance. Without follow-through, a repair may fail to protect the next harvest."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou egzamine travay la, premye lis itil la se non ak kote 115 sistèm yo, travay ki te prevwa, montan ki te peye ak dat resepsyon. Dezyèm lis la ta montre kiyès ki te pran antretyen an ak kijan itilizatè yo te patisipe. Yon total nasyonal pa ranplase detay sa yo.",
+            "en": "Assessing the work starts with names and locations of the 115 systems, planned works, payments and acceptance dates. A second record would identify maintenance responsibility and user participation. A national total cannot replace those details."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Fòk evalyasyon an konsidere tou sa ki te rive apre: nouvo dezas, chanjman administrasyon ak resous ki te disponib. Yon sistèm ki pa mache jodi a pa poukont li pwouve travay 2009 la pa t fèt oswa yon moun te vòlè lajan.",
+            "en": "Assessment must also consider later disasters, changes of administration and available resources. A system failing today does not by itself establish that work in 2009 never occurred or money was stolen."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Men ansyen responsablite a rete enpòtan. Yon kandida ki pwomèt rebati agrikilti ka montre sa eksperyans li aprann li sou antretyen, pa sèlman sou lansman chantye. Se diferans ant yon travay ki anonse ak yon sèvis kiltivatè a ka konte sou li.",
+            "en": "The earlier responsibility still matters. A candidate promising agricultural recovery can show what experience taught about maintenance, beyond launching projects. That separates an announced work from a service farmers can rely on."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jerry-tardieu-police-bill-national-guard",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jerry Tardieu: soti nan yon pwopozisyon lwa sou PNH rive nan pwomès gad nasyonal la",
+        "en": "Jerry Tardieu: from a PNH bill to a national-guard proposal"
+      },
+      "description": {
+        "ht": "Dosye palmantè a ak nouvo pwomès sekirite a bezwen li etap pa etap.",
+        "en": "The legislative record and new security proposal need to be read stage by stage."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Me 2016, Rezo Nòdwès te rapòte depite Jerry Tardieu depoze yon pwopozisyon lwa 98 atik pou reòganize PNH. Tèks rapò a te dekri nouvo direksyon pou polis teritoryal, fwontyè, fòmasyon ak administrasyon prizon, pami lòt fonksyon.",
+            "en": "In May 2016, Rezo Nòdwès reported deputy Jerry Tardieu submitting a 98-article bill to reorganize the PNH. Its account described new directorates for territorial policing, borders, training and prison administration, among other functions."
+          },
+          "sources": [
+            "tardieu-police-bill-2016"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou sit kanpay li an 2026, Tardieu pwopoze ranfòse PNH ak lame epi kreye yon gad nasyonal jèn pou repran teritwa gwoup ame yo kontwole. Se yon pwopozisyon kanpay, pa yon fòs nou verifye ki deja etabli.",
+            "en": "On his 2026 campaign site, Tardieu proposes strengthening police and army and creating a youth national guard to recover territory controlled by armed groups. This is a campaign proposal, not a force we have verified as established."
+          },
+          "sources": [
+            "tardieu-campaign-2026"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Premye kesyon an se sou chenn otorite a. Kiyès ki rekrite, fòme, peye ak bay lòd? Lè yon moun pote zam ak pouvwa piblik, règ sou responsablite li enpòtan menm jan ak ekipman li genyen. Fòk plan an esplike relasyon nouvo fòs la ak enstitisyon ki deja la yo.",
+            "en": "The first issue is command. Who recruits, trains, pays and gives orders? When someone carries weapons and public authority, accountability rules matter alongside equipment. The plan needs to explain how a new force relates to existing institutions."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Dezyèm kesyon an se sa ki te rive ansyen pwopozisyon an. Depoze yon pwopozisyon lwa, fè l adopte, pibliye l epi egzekite l se etap diferan. Atik 2016 la etabli depo a; li pa sifi pou bay tout etap ki vini apre yo kòm rezilta.",
+            "en": "The second issue is what followed the earlier bill. Submission, passage, promulgation and implementation are different stages. The 2016 article establishes submission; it cannot stand in for every later outcome."
+          },
+          "sources": [
+            "tardieu-police-bill-2016"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou piblik la, yon nouvo non enstitisyon pa garanti yon nouvo kalite pwoteksyon. Se règleman, kontwòl ak kapasite pou kenbe sèvis la ki pral montre sa chanjman an pote.",
+            "en": "For the public, a new institution’s name does not guarantee a different quality of protection. Rules, oversight and the ability to sustain service will show what changes."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jerry-tardieu-diaspora-representation-voting-rights",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jerry Tardieu ak dyaspora a: vote, gen reprezantan ak okipe yon pòs piblik pa menm dwa",
+        "en": "Jerry Tardieu and the diaspora: voting, representation and office differ"
+      },
+      "description": {
+        "ht": "Yon ansyen pwopozisyon ede separe kesyon yo sou patisipasyon Ayisyen aletranje.",
+        "en": "An earlier proposal helps separate questions about participation from abroad."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon rankont an Florid an 2016, Jerry Tardieu te defann reprezantasyon dyaspora a nan Palman ayisyen an. Rezo Nòdwès te rapòte li te vle mete lide a nan yon pwopozisyon amannman Konstitisyon an. Se yon pwojè politik li te prezante, pa prèv yon dwa te antre an aplikasyon.",
+            "en": "At a 2016 gathering in Florida, Jerry Tardieu advocated diaspora representation in Haiti’s Parliament. Rezo Nòdwès reported that he wanted the idea included in a constitutional-amendment proposal. This documents a political project, not proof an operative right was created."
+          },
+          "sources": [
+            "tardieu-diaspora-2016"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sou sit kanpay li a, dosye dwa dyaspora a toujou parèt nan lis travay palmantè li mete devan piblik la. Sa pèmèt lektè yo suiv yon tèm sou tan, men li mande yo egzamine dokiman legal ki te swiv deklarasyon yo.",
+            "en": "His campaign site still includes diaspora rights among the legislative work he presents. That lets readers trace a theme over time, while requiring examination of the legal documents that followed the statements."
+          },
+          "sources": [
+            "tardieu-campaign-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Gen omwen twa kesyon apa: èske yon moun ka vote kote li rete a, èske li ka eli yon reprezantan pou kominote aletranje a, epi èske li ka kandida pou yon pòs nan peyi a? Yon chanjman sou youn pa otomatikman bay de lòt yo.",
+            "en": "At least three questions differ: can a person vote where they live, elect a representative for an overseas community, and run for an office in Haiti? A change to one does not automatically resolve the others."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou chak pwomès, fòk nou jwenn tèks la, dat li antre an vigè ak enstitisyon ki dwe aplike l. Lè sa depann de yon chanjman nan Konstitisyon, kandida a dwe esplike chemen legal la. Yon deklarasyon kanpay pa ranplase etap sa yo.",
+            "en": "For each promise, readers need the text, effective date and implementing institution. When constitutional change is required, the candidate should explain the legal route. A campaign statement cannot replace those steps."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa pa bay yon repons legal sou sitiyasyon pèsonèl yon elektè. Li bay yon fason pou pa kite mo « entegrasyon » an melanje plizyè dwa diferan. Pou demach aktyèl yo, se dènye enstriksyon KEP yo ak tèks ki an vigè yo ki dwe gide moun.",
+            "en": "This does not decide an individual voter’s legal position. It helps prevent the word “integration” from merging distinct rights. Current procedures require the latest CEP instructions and operative legal texts."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jerry-tardieu-constitutional-consultations-2017",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jerry Tardieu ak Konstitisyon an: kiyès konsiltasyon 2017 yo te rive jwenn?",
+        "en": "Jerry Tardieu and the Constitution: whom did the 2017 consultations reach?"
+      },
+      "description": {
+        "ht": "Yon kominike bay tras rankont yo, men li pa ranplase kontribisyon ak desizyon yo.",
+        "en": "A communiqué records meetings, but cannot replace submissions and decisions."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon kominike 30 Oktòb 2017, komisyon espesyal amannman Konstitisyon Chanm depite a te dekri konsiltasyon li yo. Tèks Juno7 pibliye a idantifye Jerry Tardieu kòm prezidan komisyon an epi site sektè tankou antrepriz, medya, jistis, inivèsite ak enstitisyon kontwòl.",
+            "en": "In an October 30, 2017 communiqué, the Chamber of Deputies’ constitutional-amendment commission described its consultations. The text published by Juno7 identifies Jerry Tardieu as chair and lists business, media, justice, universities and oversight institutions among participating sectors."
+          },
+          "sources": [
+            "tardieu-constitution-consultation-2017"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Kominike a te anonse tou lòt etap, tankou atelye nan dis depatman yo ak nan dyaspora a. Fòk nou distenge sa komisyon an deklare li te fè ak sa li te prevwa fè. Yon ajanda se pa yon rapò sou aktivite ki fin fèt.",
+            "en": "The communiqué also announced further steps, including workshops across the ten departments and diaspora. What the commission reports doing differs from what it planned. An agenda is not a completion report."
+          },
+          "sources": [
+            "tardieu-constitution-consultation-2017"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon konsiltasyon vin itil lè piblik la ka suiv chemen yon lide: kiyès ki te pwopoze l, ki rezon yo te bay, epi poukisa yo te kenbe l oswa rejte l. Yon lis òganizasyon ki rankontre pa poukont li montre ki moun ki te enfliyanse tèks final la.",
+            "en": "A consultation becomes useful when the public can trace an idea: who proposed it, the reasons offered, and why it was retained or rejected. A list of participating organizations cannot by itself show who shaped the final text."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Fòk lektè a chèche kontribisyon yo, rapò ki fè sentèz yo ak vòt ki te swiv. Sa ta ede wè si enkyetid yon komin oswa yon gwoup sitwayen te antre nan chanjman yo. Absans yon gwoup nan kominike sa a pa prèv li pa t janm patisipe.",
+            "en": "Readers should seek submissions, synthesis reports and subsequent votes. Those would show whether a commune’s or citizen group’s concerns entered the changes. Absence from this communiqué does not prove a group never participated."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon kandida ki mete eksperyans refòm li devan, kesyon an pa sèlman kantite rankont li te fè. Se kijan rankont yo te chanje yon desizyon moun ka li. Se la patisipasyon kite foto ofisyèl pou l vin yon tras piblik.",
+            "en": "For a candidate presenting reform experience, the issue extends beyond meeting totals to how meetings changed a readable decision. That turns participation from an official photograph into a public record."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "munir-mourra-mph-double-security-budgets",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Munir Mourra ak bidjè sekirite yo: « plis 100% » vle di ki sa?",
+        "en": "Munir Mourra’s security budgets: what does “100% more” mean?"
+      },
+      "description": {
+        "ht": "Double yon montan pa otomatikman double sèvis la. Chif depa ak pri yo enpòtan.",
+        "en": "Doubling an amount does not automatically double service. The starting point and prices matter."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Manifès MPH la pwopoze ajoute 100% sou bidjè jistis, lapolis ak lame a. Paj kandida pati a idantifye Munir Joseph Mourra kòm kandida prezidansyèl ki pote angajman manifès sa a. Se yon pwomès sou resous leta, pa yon depans ki deja fèt.",
+            "en": "The MPH manifesto proposes increasing the budgets of justice, police and army by 100%. The party’s candidate page identifies Munir Joseph Mourra as its presidential candidate carrying that manifesto. This is a proposal for state resources, not completed expenditure."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "mph-candidate-mourra"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nan matematik, ajoute 100% sou yon montan se double l. Men pou konprann pwomès la, fòk nou konnen ki ane ak ki bidjè ki sèvi kòm baz. Double lajan yo te otorize pa menm kalkil ak double sa yo te depanse toutbon.",
+            "en": "Mathematically, adding 100% doubles an amount. Understanding the promise requires the baseline year and budget. Doubling authorized funds differs from doubling expenditure actually executed."
+          },
+          "sources": [
+            "mph-manifesto-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Gen kesyon pri a tou. Si ekipman ak sèvis vin pi chè, yon pi gwo bidjè ka achte mwens pase sa moun imajine. Se menm bagay yon fanmi wè lè salè li monte men manje ak transpò monte tou. Se poutèt sa fòk nou konte sa lajan an ka achte.",
+            "en": "Prices matter too. If equipment and services become more expensive, a larger budget can buy less than people expect. Families recognize the same problem when wages rise alongside food and transport costs. Purchasing power belongs in the assessment."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Plan an bezwen separe salè, fòmasyon, operasyon, tribinal, prizon ak envestisman. Li bezwen montre sous lajan an ak fason piblik la ap suiv peman yo. Twa enstitisyon ki jwenn plis lajan pa otomatikman travay pi byen ansanm.",
+            "en": "The plan needs to separate pay, training, operations, courts, prisons and investment, identify funding sources and show how payments will be tracked. Larger budgets for three institutions do not automatically improve coordination."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon moun k ap chèche pwoteksyon, dènye mezi a se sèvis la: yon ekip ki rive, yon ankèt ki fèt ak yon tribinal ki fonksyone. Se sou rezilta sa yo ogmantasyon an dwe rive rann kont.",
+            "en": "For someone seeking protection, the final measure is service: a unit responding, an investigation conducted and a functioning court. The increase should be accountable for those outcomes."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "munir-mourra-agricultural-bank-old-credit-problem",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b",
+        "c-bf5bb68eea8a5b819128"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Munir Mourra vle yon bank agrikòl. Pwoblèm kredi a gen yon istwa.",
+        "en": "Munir Mourra proposes an agricultural bank. The credit problem has a history."
+      },
+      "description": {
+        "ht": "Yon nouvo enstitisyon dwe esplike sa li pral fè diferan nan lavi kiltivatè a.",
+        "en": "A new institution should explain what changes in a farmer’s life."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Manifès MPH Munir Joseph Mourra ap pote a pwopoze kreye yon bank agrikòl. Li mete lide a bò kote travay sou kanal irigasyon ak distribisyon pwodui agrikòl. Se yon pwopozisyon pati a nou egzamine, pa yon bank nou verifye ki deja louvri.",
+            "en": "The MPH manifesto carried by Munir Joseph Mourra proposes creating an agricultural bank, alongside irrigation-channel work and agricultural distribution. We are examining a party proposal, not a bank verified as already open."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "mph-candidate-mourra"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kesyon kredi agrikòl la pa nouvo nan lavi piblik ayisyen. Nan entèvyou Janvye 2009 li a, Joanas Gué te site Biwo Kredi Agrikòl la epi kritike ti kantite prè li te bay sou dis ane. Sa se evalyasyon Gué nan epòk la, pa yon bilan aktyèl enstitisyon an.",
+            "en": "Agricultural credit is not a new Haitian public-policy issue. In his January 2009 interview, Joanas Gué referred to the Bureau de Crédit Agricole and criticized its limited lending over ten years. That is Gué’s assessment then, not a present-day institutional balance sheet."
+          },
+          "sources": [
+            "gue-agriculture-2009"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa bay yon konparezon itil: èske bezwen an se yon nouvo non, plis lajan, yon nouvo kalite garanti oswa yon lòt fason pou evalye risk rekòt? Se pa menm repons yo. Fòk kandida a montre ki feblès nouvo bank la ap korije.",
+            "en": "That creates a useful comparison: is the need a new name, more capital, different guarantees or another way to assess harvest risk? These are different answers. The candidate should identify the weakness a new bank would correct."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou yon kiltivatè, prè a dwe rive anvan sezon plante a epi ranbousman an dwe mache ak rekòt la. Fòk gen règ sou sa ki rive apre yon inondasyon, kiyès ki ka prete ak kijan yo evite kontak politik ranplase yon bon dosye.",
+            "en": "For a farmer, credit needs to arrive before planting and repayment should fit the harvest cycle. Rules must address flooding losses, eligibility and prevention of political connections replacing sound applications."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon bank ka sèvi pwodiksyon san li vin yon kès favè. Men diferans lan mande kapital, règ ak kontwòl piblik. Se sa ki pral fè yon nouvo enstitisyon diferan de yon nouvo afich sou menm pwoblèm nan.",
+            "en": "A bank can support production without becoming a favours fund. The difference requires capital, rules and public oversight. Those would distinguish a new institution from a new sign over the same problem."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "marc-arthur-drouillard-mored-membership-money",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-11e21ae7092757dcaaaa"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Marc Arthur Drouillard ak MORED: sa frè 100 dola a pwomèt",
+        "en": "Marc Arthur Drouillard and MORED: what the $100 fee offers"
+      },
+      "description": {
+        "ht": "Yon paj manm mete sèvis ak angajman politik ansanm. Fòk kont yo montre sa chak montan peye.",
+        "en": "A membership page combines services and political participation. The accounts need to show what each payment funds."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou sit MORED ki nonmen Marc-Arthur Drouillard la, yon pwogram « 1 000 Eli MORED » mande 100 dola chak mwa. Avantaj paj la site yo gen ladan konsiltasyon, fòmasyon, rabè sou sèvis Mèt Marc-Arthur ak rityèl pwoteksyon. Se sa sit la ofri; se pa prèv nou verifye moun resevwa sèvis yo.",
+            "en": "On the MORED website naming Marc-Arthur Drouillard, a “1,000 Eli MORED” programme asks for $100 monthly. Advertised benefits include consultation, training, discounted Marc-Arthur services and protection rituals. These are the site’s offers, not services we have independently verified as delivered."
+          },
+          "sources": [
+            "mored-membership-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon egzanp kalkil montre poukisa kont yo itil: si 1 000 manm ta peye 100 dola pou yon mwa, sa ta bay 100 000 dola anvan depans. Se yon egzanp, pa yon resi. Nou pa gen prèv tout kantite manm sa a peye.",
+            "en": "An illustrative calculation shows why accounts matter: if 1,000 members paid $100 for one month, that would produce $100,000 before expenses. This is an example, not a receipt. We do not have evidence that this many people pay."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Fòk gen yon lòt distenksyon ankò. Paj sa a sèvi ak etikèt MORED; enskripsyon prezidansyèl Drouillard nan KEP la sèvi ak MRN. Nou pa deklare se menm antite legal oswa menm kès la. Lyen an mande dokiman sou òganizasyon ak finansman yo.",
+            "en": "Another distinction matters. The page uses MORED; Drouillard’s presidential registration uses MRN. We do not declare them the same legal entity or treasury. That relationship requires organizational and financial records."
+          },
+          "sources": [
+            "mored-membership-2026",
+            "cep-20261114"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou yon moun ki kontribye, kesyon pratik yo se kiyès ki resevwa lajan, ki resi li bay ak ki sèvis oswa aktivite montan an finanse. Lè yon paj melanje sèvis ak yon mouvman politik, separe kont yo ta pèmèt moun konprann angajman yo.",
+            "en": "For a contributor, the practical questions concern who receives money, the receipt issued and the services or activities funded. When a page combines services with a political movement, separate accounts would help people understand their commitments."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa pa yon jijman sou kwayans manm yo, ni yon akizasyon lajan achte desizyon piblik. Se yon demann nòmal pou transparans sou yon aktivite ki sèvi ak non yon kandida.",
+            "en": "This is neither a judgment on members’ beliefs nor an allegation that payments buy public decisions. It is ordinary scrutiny of an activity using a candidate’s name."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jude-elie-nycha-official-planning-chart",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-a16d010ca47352d98607"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jude Elie nan NYCHA: sa yon organigram ofisyèl konfime",
+        "en": "Jude Elie at NYCHA: what an official chart confirms"
+      },
+      "description": {
+        "ht": "Yon dokiman 2018 bay yon pwen presi pou egzamine eksperyans li nan lojman.",
+        "en": "A 2018 document provides a specific basis for examining his housing experience."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou sit biyografi li a, Jude Elie mete eksperyans NYCHA, ajans lojman piblik Nouyòk la, nan pakou li. Gen yon dokiman apa sou sit Vil Nouyòk ki bay yon pwen pou verifye sa: yon organigram 2018 nan depatman planifikasyon pwojè NYCHA.",
+            "en": "Jude Elie includes experience at NYCHA, New York’s public housing authority, in his online biography. A separate document on New York City’s website provides a checkable point: a 2018 organization chart for NYCHA capital planning."
+          },
+          "sources": [
+            "jude-elie-biography",
+            "nycha-elie-chart-2018"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou dyagram nan, non li parèt pami twa « A/E Planners », anba responsab bezwen fizik bilding yo. Nou verifye plas non an vizyèlman. Dokiman an bay yon fonksyon nan yon ekip nan epòk sa a; li pa etabli travay aktyèl li oswa yon evalyasyon pèfòmans li.",
+            "en": "The diagram places his name among three “A/E Planners,” under the Physical Needs Manager. We examined that placement visually. The document identifies a team role at that time; it does not establish present employment or assess his performance."
+          },
+          "sources": [
+            "nycha-elie-chart-2018"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa pi itil pase repete yon gwo non enstitisyon san esplike fonksyon an. Planifye travay sou lojman mande pou idantifye bezwen, fikse priyorite epi mete pwojè nan yon kalandriye ak yon bidjè. Pou mezire eksperyans kandida a, fòk nou konnen ki travay li te responsab egzakteman.",
+            "en": "This is more useful than repeating a major institution’s name without explaining the role. Housing-work planning involves identifying needs, setting priorities and fitting projects to schedules and budgets. Assessing the candidate’s experience requires his specific responsibilities."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Dosye ki ta fè evalyasyon an pi solid se pwojè li te travay sou yo, wòl li nan desizyon yo ak rezilta ki dokimante. Yon moun ka gen yon wòl itil san li dirije tout ajans lan; travay nan yon gwo ajans pa fè tout rezilta ajans lan tounen rezilta pèsonèl li.",
+            "en": "Project records, decision responsibilities and documented outcomes would strengthen assessment. Someone can make a useful contribution without heading an agency; employment does not make every agency outcome a personal achievement."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Ayiti, kesyon an se sa eksperyans sa a ka pote nan fason yo planifye ak antreteni lojman. Organigram nan ede kòmanse egzamen an ak yon fonksyon ak yon ane, olye yon tit ki rete flou.",
+            "en": "For Haiti, the question is what that experience can bring to housing planning and maintenance. The chart starts the examination with a role and year, rather than an undefined title."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jude-elie-business-interests-million-billion-group",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-a16d010ca47352d98607"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jude Elie: enterè antrepriz yo bezwen yon kat ki klè",
+        "en": "Jude Elie: business interests need a clear map"
+      },
+      "description": {
+        "ht": "De paj piblik bay pwen depa sou aktivite prive li; yo pa yon deklarasyon konplè byen.",
+        "en": "Two public pages identify starting points for examining private interests, not a complete asset declaration."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou paj ekip Million Billion Group la, Jude Elie prezante kòm patnè pou estrateji enfrastrikti ak devlopman. Paj la toujou te nonmen l lè nou telechaje l 15 Novanm 2026. Se yon deklarasyon sou sit konpayi an, pa yon lis aksyonè nou verifye.",
+            "en": "Million Billion Group’s team page presents Jude Elie as a partner for infrastructure and development strategy. It still named him when downloaded November 15, 2026. This is a company-site statement, not a verified shareholder register."
+          },
+          "sources": [
+            "million-billion-elie"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou pwòp biyografi li, li deklare li posede EJDECO nan konstriksyon, GESA Green Energy ak SEPSA nan distribisyon petwòl. Paj la pa bay yon dat piblikasyon ki pèmèt nou sipoze tout enfòmasyon sa yo se yon deklarasyon byen aktyalize.",
+            "en": "His own biography says he owns construction company EJDECO, GESA Green Energy and petroleum-distribution company SEPSA. The page supplies no publication date allowing us to treat these statements as an updated asset declaration."
+          },
+          "sources": [
+            "jude-elie-biography"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pwen enterè piblik la se sektè yo. Enfrastrikti, enèji ak gaz se domèn kote leta ka bay kontra, fikse règ oswa pran desizyon sou taks. Sa pa pwouve kandida a resevwa favè; sa montre ki enterè ekonomik yon evalyasyon dwe idantifye.",
+            "en": "The public-interest point is the sectors. Infrastructure, energy and fuel involve public contracts, regulation or tax decisions. That does not establish that the candidate received favours; it identifies financial interests an assessment needs to map."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Yon kat serye ta separe sa li posede, sa li sèlman konseye ak sa li deja kite. Li ta bay dat, pati li genyen ak responsablite li. Mo « patnè » a poukont li pa di konbyen aksyon, lajan oswa pouvwa yon moun genyen.",
+            "en": "A sound map would separate ownership, advisory work and ended relationships, with dates, interests held and responsibilities. The word “partner” alone cannot tell us a person’s equity, money or decision-making power."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Ni non konpayi yo ni moun ki parèt sou menm sit la pa prèv yo finanse kanpay la. Pou fè lyen sa a, fòk gen tras kontribisyon oswa peman. Se sou tras sa yo egzamen finansman an dwe chita.",
+            "en": "Neither company names nor appearing on the same website establishes campaign financing. That link requires contribution or payment records. Those records should anchor financial scrutiny."
           },
           "sources": []
         }

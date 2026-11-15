@@ -1,0 +1,53 @@
+{
+  "reviewed_at": "2026-11-15",
+  "articles": [
+    "kely-bastien-delivrans-who-chose-candidate",
+    "kely-bastien-senate-transparency-record",
+    "lucmanne-delille-g9-timeline-dismissal",
+    "dominique-dupuy-diplomatic-recalls-savings-test",
+    "dominique-dupuy-threats-women-presidential-registration",
+    "deus-deronneth-marigot-result-changed-on-appeal",
+    "joanas-gue-local-food-purchases-2010-2026",
+    "joanas-gue-irrigation-repairs-maintenance-record",
+    "jerry-tardieu-police-bill-national-guard",
+    "jerry-tardieu-diaspora-representation-voting-rights",
+    "jerry-tardieu-constitutional-consultations-2017",
+    "munir-mourra-mph-double-security-budgets",
+    "munir-mourra-agricultural-bank-old-credit-problem",
+    "marc-arthur-drouillard-mored-membership-money",
+    "jude-elie-nycha-official-planning-chart",
+    "jude-elie-business-interests-million-billion-group"
+  ],
+  "distinct_articles": 16,
+  "languages": [
+    "ht",
+    "en"
+  ],
+  "word_ceiling": 500,
+  "language_review": {
+    "independent_blind_ht_reading_before_english": true,
+    "paired_passages_checked": 162,
+    "required_replacements_applied": 4,
+    "optional_replacements_applied": 5,
+    "all_articles_under_word_ceiling": true
+  },
+  "source_checks": [
+    "Délille: UN formation and departure dates compared with the attributed Gazette account; no criminal or dismissal-cause inference.",
+    "Deronneth: EU report and reported final Marigot outcome; judgment text still needed for the reasons.",
+    "Tardieu: a submitted police bill is distinguished from an enacted law.",
+    "Gué: historical ministerial claims are distinguished from audited outcomes and current WFP figures.",
+    "Mourra and Drouillard: campaign proposals and hypothetical arithmetic are distinguished from money received.",
+    "Jude Elie: official historical NYCHA role and company-listed partnership are distinguished from current employment, ownership or wrongdoing."
+  ],
+  "validation": {
+    "editorial_tests": 14,
+    "candidate_data_tests": 18,
+    "staged_browser_cases": 70,
+    "discovery_browser_cases": 28,
+    "widths": [
+      390,
+      1280
+    ],
+    "native_html_without_javascript": "pass"
+  }
+}
