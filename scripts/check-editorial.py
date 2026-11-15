@@ -6,6 +6,7 @@ from pathlib import Path
 import re
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('editorial_builder',ROOT/'scripts/build-editorial.py')
@@ -63,6 +64,19 @@ class EditorialChecks(unittest.TestCase):
         for lang in builder.LANGUAGES:
             rendered=builder.index_page(lang,data,self.people,self.portraits)
             self.assertNotIn(builder.route(lang,data['articles'][0]['slug']),rendered)
+
+    def test_feed_excludes_drafts_and_escapes_article_text(self):
+        data=copy.deepcopy(self.data)
+        data['articles'][0]['status']='draft'
+        newest=next(a for a in reversed(data['articles']) if a['status']=='published')
+        for lang in builder.LANGUAGES:
+            newest['title'][lang]='A <title> & a source'
+            feed=ET.fromstring(builder.rss_feed(lang,data))
+            items=feed.findall('./channel/item')
+            self.assertEqual(len(items),sum(a['status']=='published' for a in data['articles']))
+            self.assertEqual(items[0].findtext('title'),newest['title'][lang])
+            self.assertEqual(items[0].findtext('guid'),builder.SITE+builder.route(lang,newest['slug']))
+            self.assertNotIn(builder.route(lang,data['articles'][0]['slug']),builder.rss_feed(lang,data))
 
     def test_withdrawn_html_cannot_silently_remain_public(self):
         with tempfile.TemporaryDirectory() as temporary:

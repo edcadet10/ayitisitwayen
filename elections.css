@@ -93,3 +93,6 @@
  .election-table-wrap { overflow: visible; }
  .elections-page details > * { display: block; }
 }
+.election-editorial-latest { padding-left: 1.1rem; margin: .8rem 0; max-width: 66ch; }
+.election-editorial-latest li { margin: .75rem 0; line-height: 1.55; }
+.election-editorial-feature h3 { font-size: .85rem; font-weight: 600; margin-top: 1.4rem; }

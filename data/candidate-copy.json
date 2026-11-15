@@ -678,5 +678,49 @@
   "presidential_name_index": {
     "ht": "Tout enskripsyon pou pòs prezidan an",
     "en": "All presidential registrations"
+  },
+  "candidate_websites": {
+    "ht": "Sit kandida a ak pati li",
+    "en": "Candidate and party websites"
+  },
+  "candidate_websites_note": {
+    "ht": "Lyen sa yo mennen deyò Ayiti Sitwayen. Yon sit kanpay prezante pozisyon kandida a; li pa yon verifikasyon endepandan.",
+    "en": "These links lead outside Ayiti Sitwayen. A campaign website presents the candidate’s position; it is not independent verification."
+  },
+  "campaign_website": {
+    "ht": "Sit kanpay",
+    "en": "Campaign website"
+  },
+  "party_website": {
+    "ht": "Sit pati",
+    "en": "Party website"
+  },
+  "movement_website": {
+    "ht": "Sit mouvman politik",
+    "en": "Political movement website"
+  },
+  "personal_website": {
+    "ht": "Sit pèsonèl",
+    "en": "Personal website"
+  },
+  "website_checked": {
+    "ht": "Lyen ak idantite verifye",
+    "en": "Link and identity checked"
+  },
+  "website_basis": {
+    "ht": "Sous pou idantifye sit la",
+    "en": "Website identification source"
+  },
+  "website_movement_note": {
+    "ht": "Sit MORED la nonmen Marc-Arthur Drouillard. Enskripsyon KEP li a nonmen MRN; nou pa trete de etikèt sa yo kòm menm estrikti san lòt prèv.",
+    "en": "The MORED site names Marc-Arthur Drouillard. His CEP registration names MRN; we do not treat these labels as the same organization without further evidence."
+  },
+  "latest_articles": {
+    "ht": "Dènye analiz yo",
+    "en": "Latest analysis"
+  },
+  "follow_feed": {
+    "ht": "Suiv nouvo atik yo · RSS",
+    "en": "Follow new articles · RSS"
   }
 }

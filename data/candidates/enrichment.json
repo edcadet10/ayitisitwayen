@@ -2112,6 +2112,28 @@
       "editorial_level": "photo_identity",
       "original_title": "Savannah Savary refuse que le pouvoir devienne « un gâteau » | Le Nouvelliste",
       "access": "account"
+    },
+    "tardieu-campaign-website-20261115": {
+      "id": "tardieu-campaign-website-20261115",
+      "url": "https://www.jerrytardieu.ht/",
+      "publisher": "Jerry Tardieu campaign",
+      "type": "campaign_source",
+      "categories": [
+        "campaign",
+        "positions"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Jerry Tardieu · Sit kanpay",
+        "en": "Jerry Tardieu · Campaign website"
+      },
+      "summary": {
+        "ht": "Paj kanpay la prezante priyorite kandida a. Li dwe li kòm pwopozisyon kanpay, pa kòm rezilta ki deja reyalize.",
+        "en": "The campaign page presents the candidate’s priorities. Read them as campaign proposals, not as results already achieved."
+      },
+      "published_at": null,
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed"
     }
   },
   "profiles": {
@@ -2533,7 +2555,15 @@
         "reviewed_at": "2026-11-07",
         "position": "50% 50%",
         "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
-      }
+      },
+      "websites": [
+        {
+          "url": "https://mphhaiti.org/candidats",
+          "kind": "party_website",
+          "source_id": "portrait-source-c95770456abb5c95962b",
+          "checked_at": "2026-11-15"
+        }
+      ]
     },
     "c-260d6761d0c65693b074": {
       "source_ids": [
@@ -2693,7 +2723,15 @@
         "reviewed_at": "2026-11-07",
         "position": "50% 50%",
         "reuse_basis": "Campaign press page permits editorial portrait use with Campagne Etzer Emile 2027 credit."
-      }
+      },
+      "websites": [
+        {
+          "url": "https://www.voteetzer.ht/",
+          "kind": "campaign_website",
+          "source_id": "etzer-priorities",
+          "checked_at": "2026-11-15"
+        }
+      ]
     },
     "c-a16d010ca47352d98607": {
       "source_ids": [
@@ -2771,7 +2809,8 @@
       "source_ids": [
         "tardieu-nouvelliste-filing",
         "tardieu-campaign-release",
-        "portrait-source-189004967c1e57878f7a"
+        "portrait-source-189004967c1e57878f7a",
+        "tardieu-campaign-website-20261115"
       ],
       "portrait": {
         "path": "/assets/candidates/jerry-tardieu-320.webp",
@@ -2803,7 +2842,15 @@
         "reviewed_at": "2026-11-07",
         "position": "50% 50%",
         "reuse_basis": "Public candidate identification in a source-credited civic election directory. Limited editorial crops; no claim of ownership or reuse licence. Original source linked."
-      }
+      },
+      "websites": [
+        {
+          "url": "https://www.jerrytardieu.ht/",
+          "kind": "campaign_website",
+          "source_id": "tardieu-campaign-website-20261115",
+          "checked_at": "2026-11-15"
+        }
+      ]
     },
     "c-53033c82b2e954b2a7c5": {
       "source_ids": [
@@ -5154,6 +5201,15 @@
         {
           "name": "Marc-Arthur Drouillard",
           "source_id": "portrait-source-11e21ae7092757dcaaaa"
+        }
+      ],
+      "websites": [
+        {
+          "url": "https://moredayiti.com/",
+          "kind": "movement_website",
+          "source_id": "portrait-source-11e21ae7092757dcaaaa",
+          "checked_at": "2026-11-15",
+          "note_key": "website_movement_note"
         }
       ]
     },

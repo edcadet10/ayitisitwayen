@@ -29,3 +29,8 @@
 .candidate-editorial a { font-size: .95rem; color: #111; text-underline-offset: .2em; }
 /* The adjacent-feature rule above hides legacy duplicate directory blocks. */
 .candidate-home-feature.election-editorial-feature { display: flex; }
+.candidate-official-websites { margin: 2rem 0; padding: 1.5rem; border: 1px solid #ddd; border-radius: 12px; }
+.candidate-official-websites h2 { margin-top: 0; font-size: 1.4rem; font-weight: 400; }
+.candidate-official-websites ul { padding-left: 1.2rem; }
+.candidate-official-websites li { margin: 1rem 0; overflow-wrap: anywhere; }
+.candidate-official-websites p { line-height: 1.7; font-size: .9rem; color: #444; }

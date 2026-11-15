@@ -1,0 +1,26 @@
+{
+  "reviewed_at": "2026-11-15",
+  "changes": [
+    "Newest articles first in the analysis hub, including stories sharing a publication date",
+    "Three native article links on the homepage and Elections page",
+    "Bilingual RSS feeds containing published articles only",
+    "Labeled and dated external websites for Etzer Emile, Jerry Tardieu, Munir Joseph Mourra and Marc Arthur Drouillard"
+  ],
+  "website_identity": "Campaign sites can be sameAs links for the person. Party and movement sites are not treated as personal identity equivalents. MORED and the CEP registration label MRN remain distinct.",
+  "review": {
+    "new_bilingual_labels": 11,
+    "independent_blind_creole_reading_before_english": true,
+    "required_replacements": 0
+  },
+  "validation": {
+    "editorial_checks": 14,
+    "candidate_data_checks": 18,
+    "discovery_browser_cases": 28,
+    "connection": "CDP",
+    "widths": [390, 1280],
+    "native_navigation_without_javascript": "pass",
+    "rss_draft_exclusion_and_xml_escaping": "pass",
+    "live_article_batch02_cases": 50
+  },
+  "limits": "Website identity checks are not endorsements or verification of campaign claims. Publication, technical search eligibility, actual indexing and ranking remain separate."
+}

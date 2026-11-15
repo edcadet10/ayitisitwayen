@@ -173,6 +173,10 @@
     "audio_credit": {
       "ht": "Vwa sentetik · ElevenLabs.",
       "en": "Synthetic narration · ElevenLabs."
+    },
+    "follow_feed": {
+      "ht": "Suiv nouvo atik yo · RSS",
+      "en": "Follow new articles · RSS"
     }
   },
   "sources": {
