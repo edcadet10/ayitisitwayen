@@ -1,0 +1,39 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_articles": 10,
+  "articles": [
+    "martelly-bodeau-sanctions-un-election-rule",
+    "celestin-martelly-2010-runoff-verification-dispute",
+    "hans-joseph-ulcc-drone-housing-million",
+    "hans-joseph-corruption-complaints-regional-access",
+    "wilner-joseph-viktwa-primary-two-vote-counts",
+    "salomon-2020-senate-chair-permanence-election",
+    "renois-maxo-2015-protestant-candidate-negotiation",
+    "bastien-2010-transition-popular-mandate",
+    "muscadin-armored-vehicle-donations-ownership",
+    "muscadin-2023-ministry-warning-jurisdiction"
+  ],
+  "languages": [
+    "ht",
+    "en"
+  ],
+  "independent_language_review": {
+    "ht_only_retellings_saved_before_english": true,
+    "paired_passages_checked": 106,
+    "required_replacements_applied": 5,
+    "optional_refinements_applied": 2,
+    "word_ceiling_per_article_per_language": 500
+  },
+  "additional_copy_edit": "Standardized the Haitian Creole country name to Ayiti. Reused an already-reviewed CEP source citation.",
+  "factual_checks": [
+    "October2026 Article76 visually verified in official LeMoniteurPDF; UNcondition is not presented as first introduced in October.",
+    "UN HaitiXML generatedNovember15 read directly; static landingpagewasolder.",
+    "2010–2011 OASreport read alongside CEPRcritique of the draft; no claim of a new recount or newly established winner.",
+    "ULCC2021 institutional submission distinguished from court findings; 2025 officeopening distinguished from measuredoutcomes.",
+    "VIKTWA two published counts remain unresolved; no fraud conclusion.",
+    "Muscadin reprimand and separate Richemond letter kept distinct; fundraising targets, claimed cost and ownership questions kept separate.",
+    "Maxo Joseph identity corroborated by LeNouvellisteSeptember24,2026: pastor, formerRendez-vouscandidate and currentRCH affiliation."
+  ],
+  "identity_check_reference": "https://lenouvelliste.com/article/272310/presidential-candidate-maxo-joseph-pledges-to-restore-state-authority",
+  "scope": "Language review and source verification are separate. No interviews, private records access or field reporting claimed."
+}

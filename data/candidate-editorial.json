@@ -1131,6 +1131,216 @@
         "ht": "Paj konpayi an te disponib epi li te toujou nonmen Jude Elie lè nou telechaje l 15 Novanm 2026. Sa pa yon rejis aksyonè oswa yon odit envestisman.",
         "en": "The company page remained available and named Jude Elie when downloaded November 15, 2026. It is not a shareholder register or investment audit."
       }
+    },
+    "cep-oct2026-article76": {
+      "publisher": "Conseil Électoral Provisoire / Le Moniteur",
+      "url": "https://cephaiti.ht/wp-content/uploads/2026/10/DECRET-DU-6-OCTOBRE-2026-REVISANT-LE-DECRET-ELECTORAL-DU-2-JUIN-2026-MODIFIE-PAR-CELUI-DU-2-JUILLET-2026.pdf",
+      "published_at": "2026-10-06",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Dekrè elektoral — atik 76, paj enprime 20",
+        "en": "Electoral decree — Article 76, printed page 20"
+      },
+      "note": {
+        "ht": "Paj PDF 21 verifye sou imaj orijinal la, epi konpare ak transkripsyon aktyèl KEP la. Kondisyon konstitisyonèl yo ak lòt kondisyon yo rete enpòtan.",
+        "en": "PDF page 21 visually checked against the original and the CEP’s current transcription. Constitutional and other requirements still matter."
+      }
+    },
+    "un-haiti-list-20261115": {
+      "publisher": "United Nations Security Council",
+      "url": "https://scsanctions.un.org/xml/en/haiti",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Lis sanksyon ONU pou Ayiti — fichye XML 15 Novanm 2026",
+        "en": "UN Haiti sanctions list — XML generated November 15, 2026"
+      },
+      "note": {
+        "ht": "Fichye ofisyèl la bay nèf moun. Nou pa jwenn Michel Martelly oswa Gary Bodeau ladan l nan verifikasyon sa a. Sa pa yon sètifika inosans oswa yon desizyon KEP.",
+        "en": "The official file lists nine individuals. Michel Martelly and Gary Bodeau were not found in this check. This is not an innocence certificate or a CEP determination."
+      }
+    },
+    "oas-election-2010-2011": {
+      "publisher": "Organization of American States / CARICOM",
+      "url": "https://www.oas.org/es/sap/deco/moe_informe/Haiti_Nov2010_Mar20_2011_f.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Rapò obsèvasyon eleksyon 2010–2011 — paj PDF 23–25",
+        "en": "2010–2011 election observation report — PDF pages 23–25"
+      },
+      "note": {
+        "ht": "Rapò misyon an sou pwòp travay li: rezilta preliminè, verifikasyon, kontestasyon ak piblikasyon final. Li pa yon nouvo rekontaj nou fè.",
+        "en": "The mission’s account of its work: preliminary results, verification, challenges and final publication. This is not a new recount by us."
+      }
+    },
+    "cepr-oas-method-2011": {
+      "publisher": "Center for Economic and Policy Research",
+      "url": "https://www.cepr.net/documents/publications/haiti-oas-analysis-2011-01.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Analiz CEPR sou metòd pwojè rapò OEA a, Janvye 2011",
+        "en": "CEPR analysis of the draft OAS report’s methods, January 2011"
+      },
+      "note": {
+        "ht": "Mark Weisbrot ak Jake Johnston kritike metòd verifikasyon an. Se analiz yo sou pwojè rapò a, pa yon jijman oswa yon rezilta elektoral nouvo.",
+        "en": "Mark Weisbrot and Jake Johnston criticize the verification method. This analyzes the draft report; it is not a judgment or new election result."
+      }
+    },
+    "ulcc-oas-drone-2021": {
+      "publisher": "Haiti / OAS MESICIC",
+      "url": "https://www.oas.org/es/sla/dlc/mesicic/docs/sep2021_ss_ht_form.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Prezantasyon ULCC nan MESICIC an 2021 — paj PDF 3–6",
+        "en": "ULCC’s 2021 MESICIC submission — PDF pages 3–6"
+      },
+      "note": {
+        "ht": "Dokiman Leta soumèt ki site Hans Joseph kòm direktè jeneral. Sa enstitisyon an rakonte sou yon ankèt pa ranplase dosye tribinal oswa yon verifikasyon endepandan.",
+        "en": "State submission naming Hans Joseph as director general. The institution’s account of an investigation does not replace a court file or independent verification."
+      }
+    },
+    "haiti-mesicic-progress-2025": {
+      "publisher": "Republic of Haiti / OAS MESICIC",
+      "url": "https://www.oas.org/en/sla/dlc/mesicic/docs/IA_Haiti_2025.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Rapò pwogrè Ayiti, 11 Mas 2024–18 Fevriye 2025",
+        "en": "Haiti progress report, March 11, 2024–February 18, 2025"
+      },
+      "note": {
+        "ht": "Paj 10 sou biwo Nòdès la; lòt seksyon separe mezi ki fèt ak pwojè ki poko valide. Se rapò Leta sou pwogrè pa li.",
+        "en": "Page 10 covers the Nord-Est office; other sections distinguish actions from plans awaiting validation. This is the State’s own progress report."
+      }
+    },
+    "viktwa-juno-primary": {
+      "publisher": "Juno7",
+      "url": "https://www.juno7.ht/viktwa-wilner-joseph-candidat-presidence-2026/",
+      "published_at": "2026-09-10",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Primè VIKTWA: Juno7 rapòte 39 vwa sou 43",
+        "en": "VIKTWA primary: Juno7 reports 39 votes out of 43"
+      },
+      "note": {
+        "ht": "Atik la atribye chif li yo ak kominike regroupman an. Nou poko jwenn pwosè-vèbal orijinal ki pèmèt rezoud diferans ak lòt rapò a.",
+        "en": "Attributes its figures to the grouping’s communiqué. The original minutes needed to resolve the discrepancy with another report have not been located."
+      }
+    },
+    "viktwa-fcn-primary": {
+      "publisher": "Fact Checking News (FCN)",
+      "url": "https://fcnhaiti.com/wilner-joseph-le-choix-de-viktwa-pour-la-presidentielle-de-2026/",
+      "published_at": "2026-09-11",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Primè VIKTWA: FCN rapòte 43 vwa sou 49",
+        "en": "VIKTWA primary: FCN reports 43 votes out of 49"
+      },
+      "note": {
+        "ht": "Chif yo diferan ak sa Juno7 pibliye. Nou pa trete diferans laprès la kòm prèv fwod oswa kòm yon desizyon kont kandida a.",
+        "en": "Figures differ from Juno7’s account. A reporting discrepancy is not treated as evidence of fraud or a decision against the candidate."
+      }
+    },
+    "salomon-senate-chair-2020": {
+      "publisher": "Rezo Nòdwès",
+      "url": "https://rezonodwes.com/2020/01/jean-marie-salomon-sautoproclame-president-du-senat-suite-au-constat-de-caducite-du-parlement-fait-par-jovenel-moise/",
+      "published_at": "2020-01-13",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Janvye 2020: Salomon reklame prezidans Sena a",
+        "en": "January 2020: Salomon claims the Senate presidency"
+      },
+      "note": {
+        "ht": "Tèks achiv la bay agiman Salomon ak repons sekretè jeneral Rony Gilot sou règ entèn yo. Nou pa prezante atik la kòm yon jijman sou manda yo.",
+        "en": "The archived text gives Salomon’s argument and secretary-general Rony Gilot’s account of internal rules. It is not presented as a judgment on mandates."
+      }
+    },
+    "renois-protestant-choice-2015": {
+      "publisher": "Rezo Nòdwès",
+      "url": "https://rezonodwes.com/2015/09/presidentielles-clarens-renois-designe-candidat-officiel-du-secteur-protestant/",
+      "published_at": "2015-09-03",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Seleksyon Clarens Renois apre negosyasyon kandida pwotestan yo",
+        "en": "Clarens Renois selected after negotiations among Protestant candidates"
+      },
+      "note": {
+        "ht": "Rapò sou yon komite ak yon antant ant sèt kandida, pami yo Maxo Joseph. Li pa etabli chak elektè pwotestan te chwazi Renois oswa lòt kandida yo te retire non yo nan bilten an.",
+        "en": "Reports a committee and agreement among seven candidates, including Maxo Joseph. It does not establish every Protestant voter chose Renois or that the others withdrew from the ballot."
+      }
+    },
+    "bastien-transition-2010": {
+      "publisher": "Radio Métropole",
+      "url": "https://metropole.ht/kelly-bastien-propose-un-debat-sur-la-fin-du-mandat-de-preval/",
+      "published_at": "2010-03-03",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Kelly Bastien sou yon tranzisyon ak fen manda Préval",
+        "en": "Kelly Bastien on a transition and the end of Préval’s term"
+      },
+      "note": {
+        "ht": "Se pozisyon laprès te rapòte nan kontèks apre tranblemanntè a; se pa yon lwa li te fè adopte oswa yon mezi nou atribye ak li.",
+        "en": "A reported position in the post-earthquake context, not legislation he enacted or an outcome attributed to him."
+      }
+    },
+    "muscadin-vehicle-appeal-2023": {
+      "publisher": "Juno7",
+      "url": "https://www.juno7.ht/theriel-thelus-appelle-a-laide-pour-blindes-muscadin/",
+      "published_at": "2023-03-22",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Apèl pou achte de machin blende pou Muscadin",
+        "en": "Appeal to buy two armored vehicles for Muscadin"
+      },
+      "note": {
+        "ht": "Atik konplè a bay objektif koleksyon an ak eksplikasyon Theriel Thelus. Objektif pa egal lajan yo resevwa.",
+        "en": "The full article gives the fundraising target and Theriel Thelus’s explanation. A target is not money received."
+      }
+    },
+    "muscadin-vehicle-delivery-2023": {
+      "publisher": "Juno7",
+      "url": "https://www.juno7.ht/theriel-thelus-le-vehicule-blinde-enfin-cg-muscadin/",
+      "published_at": "2023-06-22",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Livrezon yon Nissan Patrol blende ak depans yo deklare a",
+        "en": "Delivery of an armored Nissan Patrol and the stated cost"
+      },
+      "note": {
+        "ht": "Depans 100 000 dola a soti nan eksplikasyon Theriel Thelus bay Juno7; nou pa prezante li kòm yon fakti nou odit.",
+        "en": "The $100,000 cost comes from Thelus’s explanation to Juno7; it is not presented as an invoice audited by us."
+      }
+    },
+    "muscadin-resignation-2026": {
+      "publisher": "Juno7",
+      "url": "https://www.juno7.ht/demission-jean-ernest-muscadin-acceptee-miragoane/",
+      "published_at": "2026-11-06",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Minis Jistis la aksepte demisyon Muscadin",
+        "en": "Justice minister accepts Muscadin’s resignation"
+      },
+      "note": {
+        "ht": "Atik la dekri lèt MJSP/SCGe/33 ki aksepte demisyon ki te soumèt 29 Oktòb la. Akseptasyon demisyon pa apwobasyon kandidati.",
+        "en": "Describes letter MJSP/SCGe/33 accepting the resignation submitted October 29. Acceptance of resignation is not approval of a candidacy."
+      }
+    },
+    "muscadin-ministry-warning-2023": {
+      "publisher": "Juno7 / Ministry of Justice and Public Security",
+      "url": "https://www.juno7.ht/mjsp-enjoint-les-commissaires-jean-ernest-muscadin-et/",
+      "published_at": "2023-12-18",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "MJSP raple Muscadin limit jiridiksyon li ak obligasyon rann kont",
+        "en": "MJSP reminds Muscadin of jurisdictional limits and accountability"
+      },
+      "note": {
+        "ht": "Atik la rapòte de lèt diferan: youn pou Muscadin, youn pou Ronald Richemond. Nou pa transfere kritik sou youn sou lòt la.",
+        "en": "Reports separate letters to Muscadin and Ronald Richemond. Criticism directed at one is not transferred to the other."
+      }
     }
   },
   "articles": [
@@ -3866,6 +4076,683 @@
           "text": {
             "ht": "Ni non konpayi yo ni moun ki parèt sou menm sit la pa prèv yo finanse kanpay la. Pou fè lyen sa a, fòk gen tras kontribisyon oswa peman. Se sou tras sa yo egzamen finansman an dwe chita.",
             "en": "Neither company names nor appearing on the same website establishes campaign financing. That link requires contribution or payment records. Those records should anchor financial scrutiny."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martelly-bodeau-sanctions-un-election-rule",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a",
+        "c-656331d267b75fc0aa53"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Martelly ak Bodeau: poukisa sanksyon aletranje pa bay yon repons otomatik sou eleksyon an",
+        "en": "Martelly and Bodeau: why foreign sanctions do not automatically settle election eligibility"
+      },
+      "description": {
+        "ht": "Pou konprann prezans yo nan tablo enskripsyon an, fòk nou separe twa desizyon diferan.",
+        "en": "Understanding their presence on the registration dashboard requires separating three different decisions."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Michel Martelly ak Gary Bodeau anba sanksyon ameriken. Poutan, toude non yo parèt nan tablo enskripsyon prezidansyèl KEP la. Kontradiksyon an sèlman parèt senp si nou trete tout lis sanksyon tankou yon sèl lis.",
+            "en": "Michel Martelly and Gary Bodeau face U.S. sanctions. Yet both names appear on the CEP’s presidential registration dashboard. The apparent contradiction looks simple only if every sanctions list is treated as the same list."
+          },
+          "sources": [
+            "treasury-martelly-2024",
+            "treasury-bodeau-2023",
+            "cep-presidential-count-20261115"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan dekrè 6 Oktòb 2026 la, pwen 8 atik 76 la site sanksyon Konsèy Sekirite Nasyonzini. Se pa menm otorite ak Trezò ameriken. Nan fichye ofisyèl ONU ki pwodui 15 Novanm lan, nou pa jwenn ni Martelly ni Bodeau.",
+            "en": "In the October 6, 2026 decree, Article 76’s eighth condition names UN Security Council sanctions. That is a different authority from the U.S. Treasury. Neither Martelly nor Bodeau appears in the official UN file generated November 15."
+          },
+          "sources": [
+            "cep-oct2026-article76",
+            "un-haiti-list-20261115"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa pa vle di sanksyon ameriken yo disparèt. Yon règ elektoral ayisyen pa efase yon mezi yon lòt peyi. Li pa bay nonplis yon sètifika inosans sou sa otorite etranje yo te deklare.",
+            "en": "This does not make U.S. sanctions disappear. A Haitian electoral rule does not erase another country’s measures. Nor does it certify innocence regarding the foreign authorities’ stated grounds."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Epi atik 76 la gen lòt kondisyon; li fè referans tou ak kondisyon Konstitisyon an. Prezans yon non sou yon tablo enskripsyon pa yon desizyon final sou tout pyès oswa tout kondisyon sa yo. Nou pa anonse KEP oblije aksepte oswa rejte yon moun.",
+            "en": "Article 76 has other conditions and also refers to constitutional requirements. A name on a registration dashboard is not a final determination on every document or requirement. We are not declaring that the CEP must admit or reject either person."
+          },
+          "sources": [
+            "cep-oct2026-article76"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Men twa kesyon piblik la dwe kenbe separe: ki rezon ki dèyè sanksyon an; ki règ KEP aplike pou admisyon; epi ki chwa elektè yo fè apre egzamen dosye a. Reponn youn pa otomatikman reponn de lòt yo.",
+            "en": "The public therefore faces three separate questions: the grounds for sanctions, the rule the CEP applies to admission, and voters’ judgment after examining the record. Answering one does not automatically answer the others."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "celestin-martelly-2010-runoff-verification-dispute",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-792c5ce25dbb58bfa7d9",
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Célestin ak Martelly an 2010: 234 pwosè-vèbal ak yon dezyèm tou ki chanje",
+        "en": "Célestin and Martelly in 2010: 234 tally sheets and a changed runoff"
+      },
+      "description": {
+        "ht": "Rapò OEA a ak kritik sou metòd li montre poukisa yon rekalkil pa menm bagay ak yon rekontaj konplè.",
+        "en": "The OAS report and criticism of its method show why recalculation differs from a full recount."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Lè rezilta preliminè 7 Desanm 2010 yo soti, Jude Célestin te dezyèm, Michel Martelly te twazyèm. Apre verifikasyon ak kontestasyon, Martelly te antre nan dezyèm tou a, Célestin te soti. Rapò OEA/KARIKÒM lan rakonte kijan sa te pase.",
+            "en": "When preliminary results appeared on December 7, 2010, Jude Célestin ranked second and Michel Martelly third. Following verification and challenges, Martelly entered the runoff and Célestin was excluded. The OAS/CARICOM report describes the process."
+          },
+          "sources": [
+            "oas-election-2010-2011"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Misyon an te rekòmande retire 234 pwosè-vèbal li te jije pa respekte règ yo. Yon pwosè-vèbal rasanble rezilta yon biwo vòt; retire li ka retire anpil vòt an menm tan. Se konsa yon koreksyon sou dokiman ka chanje lòd kandida yo san yo pa rekonte chak bilten.",
+            "en": "The mission recommended excluding 234 tally sheets it considered irregular. A tally sheet records a polling station’s results; excluding it can remove many votes together. Document-level corrections can therefore change the order of candidates without recounting every ballot."
+          },
+          "sources": [
+            "oas-election-2010-2011"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men kesyon an pa t sèlman si kèk fèy te gen pwoblèm. Nan analiz Janvye 2011 yo sou pwojè rapò a, Mark Weisbrot ak Jake Johnston nan CEPR te mande poukisa menm tès yo pa t aplike sou tout fèy yo. Yo te kritike tou fason yo te trete pwosè-vèbal ki manke oswa ki te mete apa yo.",
+            "en": "The issue was not merely whether some sheets had problems. In their January 2011 analysis of the draft report, CEPR’s Mark Weisbrot and Jake Johnston questioned why the same tests were not applied to every sheet. They also challenged the treatment of missing or quarantined returns."
+          },
+          "sources": [
+            "cepr-oas-method-2011"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Kritik sa a pa poukont li pwouve Célestin te genyen yon eleksyon ki ta dwe bay li pouvwa. Rapò misyon an pa poukont li yon prèv chak vòt peyi a te verifye. Se de limit diferan, epi yo dwe rete vizib ansanm.",
+            "en": "That criticism does not itself prove Célestin won an election that entitled him to office. The mission’s report does not itself establish that every vote nationwide was checked. These are separate limits that should remain visible together."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon elektè, leson an konkrè: anvan ou aksepte fraz « yo korije rezilta a », mande ki dokiman yo retire, ak ki règ, epi si tout kandida sibi menm tès la. Yon metòd dwe ka esplike tou de sa li korije ak sa li kite san repons.",
+            "en": "For voters, the practical lesson is to ask what documents were excluded, under which rules, and whether every candidate faced the same test. A method must explain both what it corrected and what it left unresolved."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "hans-joseph-ulcc-drone-housing-million",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-20a19b185cd2557e8e12"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Hans Joseph: yon milyon dola sou papye, men kay yo pa t kòmanse",
+        "en": "Hans Joseph: a million dollars on paper, but the houses had not started"
+      },
+      "description": {
+        "ht": "Yon dokiman ULCC nan achiv OEA a montre sa yon imaj kapab revele, ak sa li pa kapab tranche.",
+        "en": "An ULCC document in the OAS archive shows what an image can reveal and what it cannot decide."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou papye, yon pwojè kay sosyal te resevwa yon milyon dola ameriken. Nan imaj yon dròn te pran sou teren an, konstriksyon kay yo pa t kòmanse. Se konsa ULCC te rakonte yon ankèt nan yon dokiman li te soumèt nan mekanis antikòripsyon OEA a an 2021.",
+            "en": "On paper, a social-housing project had received one million U.S. dollars. In drone images of the site, house construction had not begun. That is how the ULCC described an investigation in its 2021 submission to the OAS anti-corruption mechanism."
+          },
+          "sources": [
+            "ulcc-oas-drone-2021"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Dokiman an site Hans Jacques Ludwig Joseph kòm direktè jeneral. Li di dimansyon teren an pa t koresponn ak sa pwojè a te prezante. Sa se yon eleman nan dosye enstitisyon li t ap dirije a, pa yon istwa ki montre li menm te pilote dròn nan.",
+            "en": "The document names Hans Jacques Ludwig Joseph as director general. It says the land’s dimensions did not match the project’s description. This belongs to the record of the institution he led; it does not establish that he personally operated the drone."
+          },
+          "sources": [
+            "ulcc-oas-drone-2021"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa ki enteresan se metòd la: konpare sa yon administrasyon peye ak sa ki egziste toutbon. Yon kontra ak yon resi pa sifi pou montre yon fanmi gen yon kay. Foto, vizit sou teren, dimansyon ak tras peman dwe kapab reponn youn lòt.",
+            "en": "The useful method is comparing what an administration pays for with what actually exists. A contract and receipt do not establish that a family has a home. Images, site visits, measurements and payment records should be checked against each other."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Men dokiman an se prezantasyon ULCC sou pwòp travay li. Li pa bay isit la yon jijman final oswa yon kont konplè sou lajan yo ta rekipere. Nou pa fè yon akizasyon ankèt tounen yon kondanasyon.",
+            "en": "But this is the ULCC’s account of its own work. It does not provide a final judgment here or a complete accounting of money recovered. We do not turn an investigative allegation into a conviction."
+          },
+          "sources": [
+            "ulcc-oas-drone-2021"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Kòm kandida, Joseph ka esplike kijan li ta fè kontwòl sa a tounen yon abitid Leta: verifye livrezon anvan dènye peman, konsève prèv yo, epi suiv dosye a jouk tribinal ak rekiperasyon lajan lè sa jistifye. Jwenn yon twou nan yon dosye se kòmansman travay la, pa tout rezilta a.",
+            "en": "As a candidate, Joseph can explain how he would make this routine: verify delivery before final payment, preserve evidence, and follow justified cases through court and recovery. Finding a discrepancy starts the work; it does not complete the outcome."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "hans-joseph-corruption-complaints-regional-access",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-20a19b185cd2557e8e12"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Hans Joseph: denonse kòripsyon pa dwe mande yon vwayaj Pòtoprens",
+        "en": "Hans Joseph: reporting corruption should not require a trip to Port-au-Prince"
+      },
+      "description": {
+        "ht": "De dokiman Leta mete aksè sitwayen an nan mitan bilan antikòripsyon an.",
+        "en": "Two State documents put citizens’ access at the center of the anti-corruption record."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Imajine yon sitwayen ki gen prèv yo mande li lajan anba tab, men ki pa ka peye transpò oswa jwenn entènèt. Yon pòtal denonsyasyon ka egziste san moun sa a pa kapab sèvi avè l. Se yon egzanp pou konprann pwoblèm nan, pa temwayaj yon moun nou entèvyouve.",
+            "en": "Imagine a citizen with evidence of a bribe demand who cannot afford travel or internet. A complaint portal can exist without being usable by that person. This is an illustration of the problem, not testimony from someone we interviewed."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2021, ULCC, ki te anba direksyon Hans Jacques Ludwig Joseph, te rekonèt pri entènèt ak mank aksè nan zòn rekile kòm baryè nan yon dokiman li te soumèt bay OEA. Sa te limite valè zouti dijital li yo pou enfòme piblik la ak ankouraje denonsyasyon.",
+            "en": "In 2021, the ULCC under Hans Jacques Ludwig Joseph acknowledged internet costs and poor access in remote areas as barriers in its OAS submission. Those conditions limited the value of digital tools for informing the public and encouraging reports."
+          },
+          "sources": [
+            "ulcc-oas-drone-2021"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan rapò pwogrè pou peryòd Mas 2024–Fevriye 2025 la, Leta rapòte ouvèti yon biwo ULCC nan Nòdès, 24 Janvye 2025. Objektif li deklare a se te pwoche sèvis la ak popilasyon an, pou denonsyasyon ak deklarasyon patrimwàn.",
+            "en": "In its March 2024–February 2025 progress report, the State records a Nord-Est ULCC office opening on January 24, 2025. Its stated purpose was to bring complaint and asset-declaration services closer to residents."
+          },
+          "sources": [
+            "haiti-mesicic-progress-2025"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Ouvèti a se yon aksyon konkrè nan bilan enstitisyon an. Men li pa di poukont li konbyen moun ki jwenn sèvis, konbyen plent yo trete oswa konbyen tan sa pran. Nou pa bay yon seremoni valè yon evalyasyon rezilta.",
+            "en": "The opening is a concrete institutional action. It does not itself establish how many people received service, how many complaints were handled or how long they waited. A ceremony is not an outcome evaluation."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou egzamine pwopozisyon prezidansyèl Joseph yo, yon bon kesyon se ki sèvis yon moun san gwo mwayen ap ka jwenn depi premye kontak la rive nan swivi dosye a. Yon sistèm serye dwe pwoteje prèv ak moun ki pote yo, epi bay repons ki ka suiv. Aksè se yon pati nan jistis la.",
+            "en": "A useful test of Joseph’s presidential proposals is what service a person with little money can obtain from first contact through follow-up. A serious system should protect evidence and the people providing it, with responses that can be tracked. Access is part of justice."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "wilner-joseph-viktwa-primary-two-vote-counts",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-270874e16ee85d36bc51"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Wilner Joseph ak primè VIKTWA a: de rapò, de kantite vòt",
+        "en": "Wilner Joseph and the VIKTWA primary: two reports, two vote counts"
+      },
+      "description": {
+        "ht": "Tou de rapò yo bay li viktwa; yo pa bay menm chif. Pwosè-vèbal la enpòtan.",
+        "en": "Both reports name him the winner, but their figures differ. The minutes matter."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Wilner Joseph te genyen seleksyon entèn VIKTWA pou prezidans lan an Septanm 2026. Men mete de rapò sou vòt la kòtakòt, epi chif yo pa menm. Se yon diferans ki merite klarifikasyon, san nou pa envante yon fwod.",
+            "en": "Wilner Joseph won VIKTWA’s internal presidential selection in September 2026. But place two reports of the vote side by side and their numbers differ. The discrepancy merits clarification without inventing fraud."
+          },
+          "sources": [
+            "viktwa-juno-primary",
+            "viktwa-fcn-primary"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Juno7, 10 Septanm, rapòte 43 patisipan sou 52 pati regroupman an di li genyen: 39 vòt pou Joseph, 3 pou Jean Nerva Siméon, ak yon vòt blan. Atik la atribye chif sa yo ak kominike VIKTWA.",
+            "en": "Juno7 on September 10 reports 43 participants from the grouping’s claimed 52 parties: 39 votes for Joseph, three for Jean Nerva Siméon, and one blank. It attributes those figures to VIKTWA’s communiqué."
+          },
+          "sources": [
+            "viktwa-juno-primary"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "FCN, nan atik 11 Septanm li a, bay Joseph 43 vòt sou 49, epi li bay rival la 3. Se pa menm total oswa menm kantite vòt pou gayan an. Nou poko jwenn pwosè-vèbal orijinal la ki ta pèmèt nou tranche diferans lan.",
+            "en": "FCN’s September 11 article gives Joseph 43 votes out of 49, with three for his rival. Neither the total nor the winner’s tally matches. We have not located the original minutes needed to resolve the discrepancy."
+          },
+          "sources": [
+            "viktwa-fcn-primary"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Tou de vèsyon yo dekri yon viktwa laj pou Joseph. Diferans lan pa prèv li te pèdi, ni prèv pati yo te fè magouy. Li montre poukisa yon rezilta entèn dwe gen yon tras ki pi solid pase repete menm nouvèl sou plizyè sit.",
+            "en": "Both versions describe a substantial Joseph victory. The difference is not proof he lost or that parties manipulated the vote. It shows why an internal result needs a record stronger than repeated news coverage."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Piblikasyon règ seleksyon yo, kantite estrikti ki te kalifye, total patisipan ak rezilta siyen an ta fè pwosesis la pi fasil egzamine. Epi sipò yon gwoup lidè pa mezire sipò tout elektè peyi a: yon primè pati pa yon sondaj nasyonal.",
+            "en": "Publishing selection rules, eligible structures, participation totals and signed results would make the process easier to examine. Support among party leaders does not measure support among the country’s voters: an internal primary is not a national poll."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "salomon-2020-senate-chair-permanence-election",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-53033c82b2e954b2a7c5"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Salomon an 2020: Sena a te pèmanan, men kiyès ki te chwazi prezidan li?",
+        "en": "Salomon in 2020: a permanent Senate, but who chose its president?"
+      },
+      "description": {
+        "ht": "Yon ansyen kriz montre diferans ant defann yon enstitisyon ak resevwa otorite pou dirije li.",
+        "en": "An old crisis shows the difference between defending an institution and receiving authority to lead it."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "13 Janvye 2020, pandan diskisyon sou fen manda palmantè yo, Jean-Marie Junior Salomon te anonse li pran fonksyon prezidan Sena a pwovizwaman. Rezo Nòdwès rapòte li te site atik 95-1 Konstitisyon an sou karaktè pèmanan Sena a.",
+            "en": "On January 13, 2020, amid the dispute over parliamentary terms, Jean-Marie Junior Salomon announced that he was provisionally assuming the Senate presidency. Rezo Nòdwès reports that he invoked Constitution Article 95-1 on the Senate’s permanent character."
+          },
+          "sources": [
+            "salomon-senate-chair-2020"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men menm atik laprès la bay yon lòt repè. Sekretè jeneral Sena a, Rony Gilot, te raple règ entèn ki prevwa yon eleksyon ak bilten sekrè pou nouvo biwo a, epi yon wòl pwovizwa pou dwayen laj la pandan yo tann eleksyon an.",
+            "en": "The same article supplies another reference point. Senate secretary-general Rony Gilot recalled internal rules providing a secret-ballot election for the new bureau and an interim role for the oldest member pending that election."
+          },
+          "sources": [
+            "salomon-senate-chair-2020"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "De agiman sa yo pa reponn menm kesyon an. Youn pale sou egzistans enstitisyon an; lòt la sou fason li bay yon moun otorite pou dirije li. Menm lè yon kriz pa dwe fè yon enstitisyon disparèt, sa pa otomatikman esplike kiyès ki gen dwa pale nan non li.",
+            "en": "Those arguments address different questions. One concerns the institution’s continued existence; the other concerns how it grants someone authority to lead. Even if a crisis should not extinguish an institution, that does not automatically identify who can speak for it."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa sèvi ak atik laprès sa a pou rann yon jijman sou tout manda ki te an diskisyon yo. Li etabli pozisyon moun yo te eksprime nan moman an; li pa ranplase desizyon oswa pwosè-vèbal ki ta montre kijan kriz la te regle.",
+            "en": "We do not use this news report to adjudicate every disputed term. It records positions expressed at the time; it does not replace the decisions or minutes that would show how the crisis was resolved."
+          },
+          "sources": [
+            "salomon-senate-chair-2020"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou yon kandida prezidan ki mete respè enstitisyon devan, dosye sa a poze yon kesyon sou pratik pouvwa: lè tèks yo ak aktè yo pa dakò, ki pwosedi li aksepte pou deside? Repons lan enpòtan sitou lè pwosedi a ka pa ba li sa li vle.",
+            "en": "For a presidential candidate emphasizing institutions, this raises a practical question about power: when texts and political actors conflict, what decision process does he accept? The answer matters especially when that process might deny him what he wants."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "renois-maxo-2015-protestant-candidate-negotiation",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-a8679d21107058f5bc35",
+        "c-e0b68eca43eb5b8cb369"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Renois ak Maxo Joseph: sa chwa kandida pwotestan 2015 la te vle di",
+        "en": "Renois and Maxo Joseph: what the 2015 Protestant candidate selection meant"
+      },
+      "description": {
+        "ht": "Yon antant ant lidè te chwazi yon kandida; li pa t transfere vòt sitwayen yo.",
+        "en": "An agreement among leaders selected a candidate; it did not transfer citizens’ votes."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Septanm 2015, yon komite fasilitasyon pastè Gérald Bataille t ap dirije te chwazi Jean Clarens Renois kòm kandida pou reprezante sektè pwotestan an, dapre Rezo Nòdwès. Maxo Joseph te youn nan sèt kandida ki te antre nan antant pou chwazi yon sèl moun.",
+            "en": "In September 2015, a facilitation committee led by pastor Gérald Bataille selected Jean Clarens Renois to represent the Protestant sector, according to Rezo Nòdwès. Maxo Joseph was among seven candidates participating in the agreement to select one person."
+          },
+          "sources": [
+            "renois-protestant-choice-2015"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò a dekri de etap negosyasyon. Premye a te kenbe twa non: Renois, Jean-Chavannes Jeune ak Jean Palème Mathurin. Apre diskisyon, chwa a te tonbe sou Renois. Sa rakonte kijan lidè yo te chèche rasanble plizyè kandidati dèyè yon sèl moun.",
+            "en": "The report describes two negotiating stages. The first retained three names: Renois, Jean-Chavannes Jeune and Jean Palème Mathurin. Discussions then produced the Renois choice. This records how leaders sought to consolidate several candidacies behind one."
+          },
+          "sources": [
+            "renois-protestant-choice-2015"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Li pa etabli tout legliz oswa tout elektè pwotestan te patisipe nan desizyon an. Li pa bay nonplis prèv tout lòt kandida yo te retire non yo nan bilten an. Siyen yon antant, bay sipò ak kite yon kous elektoral se aksyon diferan.",
+            "en": "It does not establish that every church or Protestant voter participated. Nor does it prove all the other candidates removed their names from the ballot. Signing an agreement, endorsing someone and withdrawing from an election are different actions."
+          },
+          "sources": [
+            "renois-protestant-choice-2015"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou konprann baz politik yon kandida, fòk nou gade rezo ki ede li jwenn soutyen: pati, asosyasyon, legliz oswa lòt gwoup. Men okenn rezo pa posede vòt moun ki ladan l yo. Yon moun kapab pataje yon lafwa epi fè yon lòt chwa politik.",
+            "en": "Understanding a candidate’s political base requires examining networks that help mobilize support: parties, associations, churches and other groups. No network owns its members’ votes. People can share a faith and make different political choices."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Istwa sa a ede li prezans Renois ak Maxo Joseph nan kous aktyèl la san envante yon alyans ki ta kontinye otomatikman depi 2015. Pou konnen kiyès ki apiye kiyès jodi a, fòk gen yon deklarasyon oswa yon angajman aktyèl. Yon ansyen antant se yon pati nan pakou yo, pa yon chèk politik san dat ekspirasyon.",
+            "en": "This history helps explain Renois’s and Maxo Joseph’s political paths without inventing an alliance automatically continuing from 2015. Present support requires a current statement or commitment. An old agreement belongs in their record; it is not a political blank check without an expiry date."
+          },
+          "sources": [
+            "cep-presidential-count-20261115"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bastien-2010-transition-popular-mandate",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-eafa5d1131725d7384c9"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Kely Bastien an 2010: ki limit yon pouvwa san manda popilè dwe genyen?",
+        "en": "Kely Bastien in 2010: what limits should unelected power face?"
+      },
+      "description": {
+        "ht": "Apre tranblemanntè a, li te pale sou delè ak lejitimite. Pozisyon an merite rete nan memwa politik la.",
+        "en": "After the earthquake, he discussed deadlines and legitimacy. That position belongs in the political record."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Mas 2010, Ayiti t ap chèche kijan pou li renouvle enstitisyon li apre tranblemanntè a. Fen manda René Préval la t ap pwoche. Kelly Bastien, prezidan Sena a nan moman an, te mande aktè yo egzamine opsyon ki pi pre Konstitisyon an, selon Radio Métropole.",
+            "en": "In March 2010, Haiti was considering how to renew its institutions after the earthquake, with René Préval’s term approaching its end. Senate president Kelly Bastien urged political actors to examine the option closest to the Constitution, according to Radio Métropole."
+          },
+          "sources": [
+            "bastien-transition-2010"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Li pa t elimine posiblite yon gouvènman pwovizwa. Men li te mete aksan sou efò pou òganize yon eleksyon nan 90 jou, epi li te kritike lide bay yon gouvènman san lejitimite popilè yon manda yon ane. Se yon pozisyon laprès rapòte, pa yon delè nou prezante kòm lwa li te fè aplike.",
+            "en": "He did not rule out a provisional government. But he emphasized efforts to hold an election within 90 days and criticized giving an administration without popular legitimacy a one-year mandate. This is a reported position, not a deadline we claim he enacted."
+          },
+          "sources": [
+            "bastien-transition-2010"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Difikilte a fasil pou konprann: kriz la ka anpeche yon eleksyon fèt alè, men moun ki pran pouvwa pou jere kriz la pa resevwa yon otorizasyon san limit pou rete. Delè yo dwe mache ak sa ki dwe fèt, kiyès ki responsab epi kijan piblik la ka verifye pwogrè.",
+            "en": "The dilemma is straightforward: a crisis may prevent an election on time, but those managing it do not receive unlimited permission to remain. Deadlines should identify what must happen, who is responsible and how the public can check progress."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Yon ansyen deklarasyon pa pwouve li te rezoud kriz la, ni li pa reponn otomatikman tout sitiyasyon ki vini apre. Men li montre yon prensip Bastien te mete devan pandan li te okipe yon gwo fonksyon Leta.",
+            "en": "An old statement does not prove he resolved that crisis or automatically answer every later situation. It does establish a principle Bastien advanced while holding high public office."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Kòm kandida jodi a, li ka esplike ki garanti li ta aksepte pou anpeche eksepsyon vin pèmanan: rapò piblik sou reta, kontwòl endepandan ak konsekans pou angajman ki pa respekte. Mande limit pou lòt moun genyen tout sans li lè ou pare pou menm limit yo mare pwòp pouvwa ou.",
+            "en": "As a candidate today, he can explain what safeguards he would accept to keep exceptions temporary: public accounts of delays, independent oversight and consequences for missed commitments. Demanding limits on others matters most when one accepts those limits on one’s own power."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "muscadin-armored-vehicle-donations-ownership",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-260d6761d0c65693b074"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Muscadin: kiyès ki posede machin blende donatè yo te achte a?",
+        "en": "Muscadin: who owns the armored vehicle donors bought?"
+      },
+      "description": {
+        "ht": "Apre yon koleksyon piblik ak demisyon li, yon kesyon sou byen ak responsablite rete.",
+        "en": "After public fundraising and his resignation, an ownership and accountability question remains."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Mas 2023, jounalis Theriel Thelus te lanse yon koleksyon pou achte de machin blende pou Jean Ernest Muscadin. Twa mwa apre, Juno7 te rapòte livrezon yon Nissan Patrol blende. Thelus te deklare machin nan te koute 45 000 dola, epi blendaj la 55 000 dola: 100 000 dola ameriken ansanm.",
+            "en": "In March 2023, journalist Theriel Thelus launched fundraising for two armored vehicles for Jean Ernest Muscadin. Three months later, Juno7 reported delivery of one armored Nissan Patrol. Thelus stated that the vehicle cost $45,000 and armor $55,000: $100,000 together."
+          },
+          "sources": [
+            "muscadin-vehicle-appeal-2023",
+            "muscadin-vehicle-delivery-2023"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Fòk objektif koleksyon an rete separe ak livrezon yo rapòte a. De machin ki te anonse pa prèv de machin te livre. Depans Thelus bay la pa yon fakti nou verifye, epi atik la pa yon kont odit sou tout lajan ki te antre ak sa ki te soti.",
+            "en": "The fundraising target must remain separate from the reported delivery. Announcing two vehicles does not establish two were delivered. Thelus’s stated cost is not an invoice we verified, and the article is not an audited account of all receipts and expenditure."
+          },
+          "sources": [
+            "muscadin-vehicle-appeal-2023",
+            "muscadin-vehicle-delivery-2023"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kesyon an vin pi konkrè apre demisyon Muscadin nan. Dapre atik Juno7 sou lèt ministè a, minis Patrick Pélissier te aksepte depa li an Novanm 2026. Yon machin ki sèvi yon fonksyon piblik dwe gen yon estati klè lè moun ki te resevwa li a kite fonksyon an.",
+            "en": "The question becomes more concrete following Muscadin’s resignation. Juno7’s account of the ministry’s letter says minister Patrick Pélissier accepted his departure in November 2026. A vehicle serving a public function needs clear status when its recipient leaves office."
+          },
+          "sources": [
+            "muscadin-resignation-2026"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Èske tit la nan non Leta, yon òganizasyon oswa yon moun? Kiyès ki peye antretyen, asirans ak gaz? Èske gen yon envantè oswa yon dokiman ki fikse itilizasyon li apre depa a? Se kesyon nòmal sou yon byen ki te finanse ak yon apèl piblik.",
+            "en": "Is the title held by the State, an organization or an individual? Who pays maintenance, insurance and fuel? Does an inventory or agreement govern use after departure? These are ordinary questions about an asset financed through a public appeal."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa prezante don an kòm prèv kòripsyon, ni kòm finansman otomatik kanpay 2026 la. Li montre kijan sipò sitwayen pou sekirite ka kreye yon lòt obligasyon: konnen sa yo finanse, kiyès ki responsab li ak sa li vin tounen.",
+            "en": "We do not present the donation as proof of corruption or automatic financing of the 2026 campaign. It shows how citizens’ support for security can create another obligation: knowing what they funded, who is accountable for it and what becomes of it."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "muscadin-2023-ministry-warning-jurisdiction",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-260d6761d0c65693b074"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Muscadin ak lèt blam 2023 la: sekirite ak limit pouvwa",
+        "en": "Muscadin and the 2023 reprimand: security and limits on power"
+      },
+      "description": {
+        "ht": "Yon ansyen lèt ministè a poze yon kesyon ki depase popilarite yon komisè.",
+        "en": "An earlier ministry letter raises a question that goes beyond a prosecutor’s popularity."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Desanm 2023, ministè Jistis la te raple Jean Ernest Muscadin obligasyon rann kont li ak limit jiridiksyon li. Nan lèt Juno7 te rapòte a, ministè a te kritike entèvansyon li nan yon lòt jiridiksyon san otorizasyon epi yon blokaj wout patizan te fè nan non li.",
+            "en": "In December 2023, the justice ministry reminded Jean Ernest Muscadin of accountability obligations and jurisdictional limits. In the letter reported by Juno7, the ministry criticized intervention in another jurisdiction without authorization and a roadblock supporters had mounted in his name."
+          },
+          "sources": [
+            "muscadin-ministry-warning-2023"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Se pozisyon ministè a nan yon lèt blam; se pa yon kondanasyon tribinal nou prezante. Men dokiman sa a enpòtan paske li montre otorite siperyè li te poze kesyon sou fason li te egzèse pouvwa, pa sèlman sou rezilta li t ap reklame yo.",
+            "en": "This is the ministry’s position in a reprimand, not a criminal conviction we present. The document matters because it shows his supervising authority questioning how he exercised power, beyond the outcomes he claimed."
+          },
+          "sources": [
+            "muscadin-ministry-warning-2023"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Atik la pale tou sou yon lòt lèt pou Ronald Richemond. Kritik sou entèwogasyon yon pwopriyetè otèl nan dosye sa a konsène Richemond. Li pa dwe transfere sou Muscadin poutèt de non yo parèt nan menm atik la.",
+            "en": "The article also discusses a separate letter to Ronald Richemond. Criticism of a hotel owner’s questioning concerns Richemond. It must not be transferred to Muscadin because both names appear in one article."
+          },
+          "sources": [
+            "muscadin-ministry-warning-2023"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou piblik la, kesyon ki rete a se kiyès ki ka mete yon fren lè yon ajan Leta deklare aksyon li nesesè pou sekirite. Si otorizasyon, kontwòl ak eksplikasyon sèlman aplike lè yon ajan pa popilè, se popilarite ki vin ranplase règ yo.",
+            "en": "For the public, the issue is who can impose limits when a State agent says action is necessary for security. If authorization, oversight and explanation apply only to unpopular officials, popularity replaces the rules."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Nan egzamen kandidati Muscadin nan, sa mande yon repons sou kontwòl li ta aksepte sou pwòp aksyon li: kiyès ki ka revize yon lòd, ki prèv li konsève ak ki kote yon sitwayen ka pote plent. Pwoteje popilasyon an ak rann kont sou mwayen yo itilize pou sa se menm responsablite piblik la.",
+            "en": "Scrutinizing Muscadin’s candidacy therefore requires an answer about oversight he would accept over his own actions: who can review an order, what evidence is preserved and where a citizen can complain. Protecting residents and accounting for the means used are parts of the same public responsibility."
           },
           "sources": []
         }
