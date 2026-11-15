@@ -27,3 +27,5 @@
 .candidate-editorial li { padding: .7rem 0; display: flex; flex-wrap: wrap; gap: .3rem 1rem; align-items: baseline; }
 .candidate-editorial li span { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: #555; min-width: 5rem; }
 .candidate-editorial a { font-size: .95rem; color: #111; text-underline-offset: .2em; }
+/* The adjacent-feature rule above hides legacy duplicate directory blocks. */
+.candidate-home-feature.election-editorial-feature { display: flex; }
