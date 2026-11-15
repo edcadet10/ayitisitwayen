@@ -74,10 +74,6 @@
       "ht": "Analiz egzamine sa sous yo pèmèt nou konprann. Opinyon defann yon pozisyon editoryal ki make klèman. Nou separe enfòmasyon nou verifye, entèpretasyon nou ak kesyon ki rete ouvè. Menm egzijans sou sous ak presizyon aplike pou chak kandida; chwa premye atik yo pa yon klasman ni yon andòsman.",
       "en": "Analysis examines what the evidence supports. Opinion makes a clearly labeled editorial argument. We distinguish verified information, our interpretations and open questions. The same sourcing and accuracy requirements apply to every candidate; the initial selection is neither a ranking nor an endorsement."
     },
-    "ai_note": {
-      "ht": "Atik sa yo prepare avèk asistans entèlijans atifisyèl, apati sous ki site yo. Yo pa prezante kòm ankèt sou teren oswa entèvyou ak kandida yo.",
-      "en": "These articles were prepared with AI assistance from the cited sources. They are not presented as field reporting or interviews with the candidates."
-    },
     "status_note": {
       "ht": "Enskripsyon nan rejis la pa yon apwobasyon kandida a. Enfòmasyon sou enskripsyon yo soti nan kopi rejis KEP/CEP nou te verifye 14 Novanm 2026 la.",
       "en": "A registry entry is not candidate approval. Registration information comes from the CEP snapshot reviewed November 14, 2026."
@@ -169,6 +165,14 @@
     "browse_all": {
       "ht": "Gade tout analiz ak opinyon yo →",
       "en": "Browse all analysis and opinion →"
+    },
+    "editorial_note": {
+      "ht": "Ayiti Sitwayen pran responsablite pou piblikasyon sa yo. Sous ki site yo pèmèt lektè yo egzamine baz enfòmasyon yo epi voye koreksyon oswa nouvo prèv.",
+      "en": "Ayiti Sitwayen takes responsibility for these publications. The cited sources let readers examine their basis and submit corrections or new evidence."
+    },
+    "audio_credit": {
+      "ht": "Vwa sentetik · ElevenLabs.",
+      "en": "Synthetic narration · ElevenLabs."
     }
   },
   "sources": {
@@ -618,6 +622,202 @@
       "note": {
         "ht": "Rapò sou entèvansyon li nan LE POINT. Sa li deklare sou byen oswa enterè li se pozisyon pa l, pa yon odit finansye nou fè.",
         "en": "Reports his LE POINT appearance. Statements about his assets or interests are his account, not our independent financial audit."
+      }
+    },
+    "etzer-programme": {
+      "publisher": "Etzer Emile campaign",
+      "url": "https://www.voteetzer.ht/priorites",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Pwogram Etzer Emile — priyorite ak premye 100 jou",
+        "en": "Etzer Emile programme — priorities and first 100 days"
+      },
+      "note": {
+        "ht": "Se pwopozisyon kanpay la pou 2028–2033, jan sit la prezante l. Yon sib pa yon rezilta deja reyalize.",
+        "en": "The campaign describes its programme as 2028–2033. A target is not an achieved result."
+      }
+    },
+    "etzer-security": {
+      "publisher": "Etzer Emile campaign",
+      "url": "https://www.voteetzer.ht/priorite/securite",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Pwogram sekirite Etzer Emile",
+        "en": "Etzer Emile security programme"
+      },
+      "note": {
+        "ht": "Chif depa ak sib yo se sa kanpay la pibliye. Nou separe akselere fòmasyon ak kantite polisye ki deja pare pou sèvi.",
+        "en": "Baselines and targets are campaign statements. Accelerating training is distinguished from having officers ready for duty."
+      }
+    },
+    "etzer-infrastructure": {
+      "publisher": "Etzer Emile campaign",
+      "url": "https://www.voteetzer.ht/priorite/infrastructures",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Pwogram enfrastrikti Etzer Emile",
+        "en": "Etzer Emile infrastructure programme"
+      },
+      "note": {
+        "ht": "Paj kanpay la sou elektrisite, wout, dlo ak finansman pwojè yo; se pa kontra ki deja finanse.",
+        "en": "Campaign proposals on power, roads, water and project finance; these are not already funded contracts."
+      }
+    },
+    "etzer-jobs": {
+      "publisher": "Etzer Emile campaign",
+      "url": "https://www.voteetzer.ht/priorite/emplois",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Pwogram travay ak antrepriz Etzer Emile",
+        "en": "Etzer Emile jobs and enterprise programme"
+      },
+      "note": {
+        "ht": "Kalkil 5 milya goud la soti nan 5 000 pwojè miltipliye pa 1 milyon goud; li pa yon montan nou jwenn deja depanse.",
+        "en": "The 5-billion-gourde calculation multiplies 5,000 projects by 1 million gourdes; it is not recorded expenditure."
+      }
+    },
+    "etzer-education": {
+      "publisher": "Etzer Emile campaign",
+      "url": "https://www.voteetzer.ht/priorite/education",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Pwogram edikasyon Etzer Emile",
+        "en": "Etzer Emile education programme"
+      },
+      "note": {
+        "ht": "Nou konpare kalite endikatè yo: kredi nan bidjè ak depans ki fèt toutbon pa menm mezi.",
+        "en": "Compares the measures used: budget allocations and spending actually executed are different quantities."
+      }
+    },
+    "aic-report-2022": {
+      "publisher": "Alternative Insurance Company",
+      "url": "https://aic.ht/wp-content/uploads/2024/02/AIC-Annual-Report_2022_French.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Rapò anyèl AIC 2022 — orijin konpayi an, paj 20",
+        "en": "AIC annual report 2022 — company origins, page 20"
+      },
+      "note": {
+        "ht": "Sous antrepriz la sou pwòp istwa li; nou pa trete langaj pwomosyon li kòm yon evalyasyon endepandan.",
+        "en": "The company’s account of its history; promotional judgments are not treated as independent assessments."
+      }
+    },
+    "idb-aic-loan": {
+      "publisher": "Inter-American Development Bank",
+      "url": "https://www.iadb.org/en/project/HA-L1072",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "BID — pwojè HA-L1072 pou AIC",
+        "en": "IDB — AIC project HA-L1072"
+      },
+      "note": {
+        "ht": "Prè sektè prive san garanti leta; montan apwouve a pa yon don pèsonèl oswa yon depans kanpay.",
+        "en": "A non-sovereign-guaranteed private-sector loan; the approved amount is not a personal gift or campaign expenditure."
+      }
+    },
+    "idb-aic-purpose": {
+      "publisher": "Inter-American Development Bank",
+      "url": "https://publications.iadb.org/en/accessible-insurance-solutions-all-haitians",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "BID — asirans pou fanmi ki gen ti revni",
+        "en": "IDB — accessible insurance for lower-income households"
+      },
+      "note": {
+        "ht": "Dokiman an esplike objektif rekapitalizasyon an. Li pa sifi pou mezire tout rezilta pwojè a plizyè ane apre.",
+        "en": "Explains the recapitalization’s intended purpose. It does not independently establish all later outcomes."
+      }
+    },
+    "barrau-youth-corps": {
+      "publisher": "Juno7",
+      "url": "https://www.juno7.ht/olivier-barrau-corps-des-jeunes-haiti/",
+      "published_at": "2026-10-15",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Pwopozisyon Barrau pou yon kò jèn",
+        "en": "Barrau’s proposed youth corps"
+      },
+      "note": {
+        "ht": "Tèks konplè konsève nan kopi achiv piblikasyon an. Rapò sou yon pwopozisyon, pa yon evalyasyon rezilta.",
+        "en": "Full text reviewed in the publication’s archive copy. Reports a proposal, not evaluated results."
+      }
+    },
+    "barrau-jacmel-training": {
+      "publisher": "Juno7",
+      "url": "https://www.juno7.ht/jacmel-olivier-barrau-formation-jeunes-entrepreneuriat/",
+      "published_at": "2026-09-14",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Aktivite Fondasyon AIC pou jèn nan Jakmèl",
+        "en": "AIC Foundation youth training in Jacmel"
+      },
+      "note": {
+        "ht": "Distenge aktivite fondasyon an, pwomès politik ak sèvis piblik. Atik la pa yon odit finansman elektoral.",
+        "en": "Distinguishes a foundation event, political proposals and public services. This is not a campaign-finance audit."
+      }
+    },
+    "lumarque-career": {
+      "publisher": "Université Quisqueya",
+      "url": "https://uniq.edu.ht/presentation-du-recteur/",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Inivèsite Quisqueya — pakou Jacky Lumarque",
+        "en": "Université Quisqueya — Jacky Lumarque’s career"
+      },
+      "note": {
+        "ht": "Biyografi enstitisyon li dirije a. Fonksyon ak dat yo itil; lwanj ak jijman sou pèfòmans yo mande prèv apa.",
+        "en": "Biography from the institution he leads. Roles and dates are useful; praise and performance judgments require separate evidence."
+      }
+    },
+    "lumarque-court-1998-2000": {
+      "publisher": "CSCCA, archived judgment",
+      "url": "https://docs.haitidocs.org/cscca-arrets-2015-06-08-jacky-lumarque-comite-national.pdf",
+      "published_at": "2015-06-08",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "CSCCA — komite Wout Esklav la, Me 1998–Out 2000",
+        "en": "CSCCA — Route de l’Esclave committee, May 1998–August 2000"
+      },
+      "note": {
+        "ht": "Desizyon sa a limite ak fonksyon ak peryòd li nonmen an. Li pa menm dosye ak GTEF la.",
+        "en": "This decision is limited to the named role and period. It is not the GTEF file."
+      }
+    },
+    "lumarque-cep-response": {
+      "publisher": "Radio Métropole",
+      "url": "https://metropole.ht/opont-justifie-la-mise-a-l-ecart-de-jacky-lumarque/",
+      "published_at": "2015-07-08",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Eksplikasyon Pierre-Louis Opont sou eksklizyon Lumarque",
+        "en": "Pierre-Louis Opont’s explanation of Lumarque’s exclusion"
+      },
+      "note": {
+        "ht": "Rapò sou pozisyon prezidan KEP la nan epòk la. Se pa yon konklizyon sou detounman lajan.",
+        "en": "Reports the then-CEP president’s position; this is not a finding of embezzlement."
+      }
+    },
+    "eu-election-2016": {
+      "publisher": "European Union Electoral Expert Mission",
+      "url": "https://www.eeas.europa.eu/sites/default/files/eem_final_report.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Misyon Inyon Ewopeyèn — eleksyon 20 Novanm 2016",
+        "en": "EU mission — November 20, 2016 elections"
+      },
+      "note": {
+        "ht": "Gade paj PDF 6, nòt 5, pou retrè yo; anèks 5 se rezilta pwovizwa. Nou pa sèvi ak yon ansyen chif kòm sondaj jodi a.",
+        "en": "See PDF page 6, footnote 5, for withdrawals; annex 5 contains provisional results. Historical totals are not present-day polling."
       }
     }
   },
@@ -1587,6 +1787,716 @@
           "text": {
             "ht": "Pou egzamine dosye a pi lwen, fòk nou chèche zak presi, dokiman finansye ak nenpòt repons lajistis ki vin apre. Egzijans sa a pa efase sanksyon an. Li anpeche yon desizyon administratif sèvi kòm yon istwa nou ajoute detay ladan l san prèv.",
             "en": "Further scrutiny requires specific acts, financial records and any subsequent judicial response. That requirement does not erase the designation. It prevents an administrative action from becoming a story embellished with unsupported details."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-police-doubling-training-test",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Emile vle double lapolis. Ki lè rekrit yo ap pare?",
+        "en": "Etzer Emile wants to double the police. When will recruits be ready?"
+      },
+      "description": {
+        "ht": "Gen yon diferans ant anonse fòmasyon ak mete yon polisye byen prepare nan lari.",
+        "en": "Announcing training and putting a prepared officer on the street are different steps."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon fanmi bezwen konnen si wout lakay li ap an sekirite, pa sèlman kantite moun yon kandida vle rekrite. Pwogram Etzer Emile a vize pase soti nan anviwon 13 000 polisye operasyonèl rive nan 26 000 an 2033. Se chif depa kanpay la bay.",
+            "en": "A family needs to know whether its road will be safe, not only how many people a candidate wants to recruit. Etzer Emile’s programme proposes moving from about 13,000 operational officers to 26,000 by 2033. That starting figure is the campaign’s."
+          },
+          "sources": [
+            "etzer-security"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou premye 100 jou yo, li pwomèt akselere rekritman ak fòmasyon 1 000 a 2 000 polisye. Paj la prevwa tou verifikasyon rekrit yo, sanksyon kont abi ak yon enspeksyon jeneral ranfòse.",
+            "en": "For the first 100 days, he promises to accelerate recruitment and training of 1,000–2,000 officers. The page also proposes recruit screening, sanctions for abuse and a stronger inspectorate."
+          },
+          "sources": [
+            "etzer-security"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Mo « akselere » a enpòtan. Li pa vle di tout rekrit sa yo ap fin fòme nan santyèm jou a. Yon kalandriye ki montre kantite ki antre, kantite ki fini epi kantite ki rete nan sèvis ta pèmèt piblik la mezire pwomès la.",
+            "en": "The word “accelerate” matters. It does not mean all those recruits would finish training by day 100. A timetable showing entrants, graduates and officers retained in service would let the public measure delivery."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Menm kantite rekrit la ka bay de rezilta diferan. Si yo ranplase polisye ki kite sèvis la, fòs la ka prèske pa grandi. Si yo ajoute sou ekip ki deja la yo, gen plis moun pou pwoteje zòn yo. Kont lan dwe montre toude mouvman yo.",
+            "en": "The same recruitment total can produce two different results. If recruits replace departing officers, the force may barely grow. If they add to existing teams, more officers become available. The count must show both movements."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou yon moun sou wout la, mezi ki konte a se prezans ki dire: kiyès ki peye ekip la, kiyès ki kontwole konduit li, epi èske li toujou la apre operasyon an? Se la yon plan rekritman vin yon plan pwoteksyon.",
+            "en": "For someone travelling, the meaningful test is sustained protection: who pays the unit, who supervises its conduct, and does it remain after an operation? That is where a recruitment plan becomes a protection plan."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-thirty-billion-financing-test",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Emile ak 30 milya dola yo: kiyès ki pote lajan an?",
+        "en": "Etzer Emile’s $30 billion plan: who provides the money?"
+      },
+      "description": {
+        "ht": "Yon total bay gwosè yon pwomès. Sous lajan an montre kiyès ki pran risk la.",
+        "en": "A total shows the scale of a promise. Funding sources show who carries the risk."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou sit kanpay li a, Etzer Emile prezante yon pwogram 30 milya dola ameriken sou senk ane. Paj enfrastrikti a rezève 15 milya dola pou sektè sa a: mwatye total la. Sa yo se anvlòp pwopoze, pa lajan nou verifye ki deja disponib.",
+            "en": "Etzer Emile’s campaign website presents a US$30 billion programme over five years. Its infrastructure page assigns US$15 billion to that sector: half the total. These are proposed envelopes, not funds we have verified as available."
+          },
+          "sources": [
+            "etzer-programme",
+            "etzer-infrastructure"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Divize 30 milya pa senk bay yon mwayèn 6 milya dola chak ane. Se kalkil nou sou total la. Sa pa vle di depans yo ta menm chak ane; yon gwo chantye ka mande plis lajan nan kòmansman.",
+            "en": "Dividing 30 billion by five gives an average of US$6 billion a year. That is our calculation from the stated total. It does not imply equal annual spending; a large project may require more funding at the start."
+          },
+          "sources": [
+            "etzer-programme"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Men yon lòt diferans pi enpòtan. Yon don pa menm ak yon prè leta dwe remèt. Envestisman prive ka pote kondisyon sou tarif oswa sou pwofi. Revni taks mande yon plan pou ranmase yo. Mete tout sa ansanm anba mo « finansman » kache chwa fanmi yo ap viv ak yo.",
+            "en": "A more important distinction follows. A grant differs from a loan the state must repay. Private investment may come with tariff or profit conditions. Tax revenue requires a collection plan. Grouping these under “funding” can hide choices households will live with."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Yon tablo finansman ta dwe bay, pou chak pwojè, pri an goud ak an dola, sous ki konfime, montan ki poko jwenn ak dèt ki ta rete. San tablo sa a, lektè a pa ka wè diferans ant anbisyon ak angajman ki finanse.",
+            "en": "A financing table should give each project’s cost in gourdes and dollars, confirmed sources, unfunded amount and resulting debt. Without it, a reader cannot distinguish ambition from funded commitments."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Se pa gwosè chif la poukont li ki fè yon plan serye oswa enposib. Se si lajan an, kalandriye a ak sèvis la mache ansanm. Yon wout fini san antretyen ka tounen yon lòt bòdwo pou menm piblik la.",
+            "en": "The size of the number alone makes a plan neither sound nor impossible. Funding, timing and service must fit together. A completed road without maintenance can become another bill for the same public."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-electricity-capacity-household-service",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Emile: 500 megawat pa sifi pou esplike bòdwo kouran an",
+        "en": "Etzer Emile: 500 megawatts does not explain the electricity bill"
+      },
+      "description": {
+        "ht": "Pou mezire pwomès la, suiv kouran an soti nan santral la rive lakay moun.",
+        "en": "To assess the promise, follow power from the plant to the household."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pwogram enfrastrikti Etzer Emile a anonse 500 megawat nouvo kapasite an 2033. Li pale tou de refòm EDH, reparasyon rezo a ak ti rezo solè. Objektif paj la se fè sèvis kouran an pase rive nan 18 èdtan pa jou.",
+            "en": "Etzer Emile’s infrastructure programme proposes 500 megawatts of additional capacity by 2033. It also discusses EDH reform, network repairs and solar mini-grids. The page sets an ambition of 18 hours of daily electricity service."
+          },
+          "sources": [
+            "etzer-infrastructure"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon megawat mezire kapasite pou pwodui kouran. Li pa di konbyen èdtan yon kay resevwa l. Yon santral ka gen kapasite sou papye pandan yon liy kraze anpeche kouran an rive nan katye a. Sa esplike poukisa de chif yo pa ka ranplase youn lòt.",
+            "en": "A megawatt measures power capacity. It does not tell us how many hours a household receives electricity. A plant can have capacity on paper while a broken line prevents supply reaching a neighbourhood. The two numbers cannot substitute for each other."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon ti machann ki bezwen kenbe manje fre, twa bagay mache ansanm: èske kouran an rive, èske li dire, epi èske li ka peye l? Yon bon rapò sou plan an dwe montre sèvis ak pri, pa sèlman foto nouvo ekipman.",
+            "en": "For a small trader keeping food cold, three questions belong together: does power arrive, does it last, and is it affordable? Reporting on the plan should track service and price, beyond photographs of new equipment."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Fòk chak pwojè gen yon kote, yon dat koneksyon, yon pri ak yon moun ki responsab antretyen. Fòk plan an esplike tou kiyès ki peye lè kliyan pa kapab peye tout pri a. Sib nasyonal la ta dwe desann nan yon lis zòn moun ka rekonèt.",
+            "en": "Each project needs a location, connection date, cost and maintenance responsibility. The plan should also explain who pays when customers cannot cover the full cost. A national target should become a list of places people can recognize."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Kesyon desizif la senp: nan ki mwa, nan ki komin, yon fanmi ap jwenn plis èdtan kouran pou yon pri li konnen davans? Se konsa yon kantite megawat vin yon sèvis piblik moun ka evalye.",
+            "en": "The decisive question is simple: in which month and commune will a household receive more hours of power at a price known in advance? That turns a megawatt total into a public service people can assess."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-five-billion-small-business-loans",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Emile: 5 000 ti pwojè yo vle di 5 milya goud",
+        "en": "Etzer Emile: 5,000 small projects mean 5 billion gourdes"
+      },
+      "description": {
+        "ht": "Kalkil la fasil. Chwazi benefisyè yo san paspouki se gwo tès la.",
+        "en": "The arithmetic is simple. Choosing beneficiaries fairly is the harder test."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon milyon goud ka chanje sa yon ti antrepriz kapab fè. Etzer Emile pwopoze prè san enterè ak yon fon garanti pou 5 000 pwojè, ak 1 milyon goud pou chak pwojè. Paj travay kanpay li a mete mezi sa a nan premye 100 jou yo.",
+            "en": "One million gourdes could change what a small business can do. Etzer Emile proposes interest-free loans and a guarantee fund for 5,000 projects, at 1 million gourdes each. His campaign’s jobs page places the measure in its first 100 days."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Miltiplikasyon an bay 5 milya goud. Se valè 5 000 prè yo si chak pwojè resevwa montan sa a; li pa otomatikman tout depans leta. Depans administrasyon, garanti ak prè ki pa remèt yo ta dwe parèt apa.",
+            "en": "Multiplication gives 5 billion gourdes. That is the value of 5,000 loans if each receives that amount; it is not automatically the state’s total expenditure. Administration, guarantees and unpaid loans should appear separately."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon fon garanti ka ede yon bank prete lè li pè pèdi lajan. Men garanti a pa lajan gratis: si moun pa remèt prè a, yon lòt moun pran pèt la. Règ pwogram nan dwe di ki pati bank la, leta ak moun ki prete a chak pran.",
+            "en": "A guarantee fund can encourage a bank to lend when it fears losses. A guarantee is not free money: if a borrower fails to repay, someone bears the loss. The rules should specify the shares carried by bank, state and borrower."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Lektè a ta dwe kapab jwenn kritè seleksyon yo, kantite pwojè pa depatman, kondisyon ranbousman ak règ pou fanmi responsab politik yo. Yon lis non poukont li pa montre si yon moun te chwazi poutèt pwojè li oswa poutèt kontak li.",
+            "en": "Readers should be able to find selection criteria, projects by department, repayment terms and rules for political officials’ relatives. A list of names alone cannot show whether someone was selected for a project or for connections."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kanpay la pwomèt tou 50 000 djòb tanporè nan travay piblik ak 300 000 djòb fòmèl an 2033. Sa yo pa twa fason pou konte menm rezilta a. Yon prè se yon zouti, yon travay tanporè gen yon fen, epi yon djòb ki dire mande kliyan ak revni.",
+            "en": "The campaign also proposes 50,000 temporary public-works jobs and 300,000 formal jobs by 2033. These are not three ways to count the same outcome. A loan is a tool, temporary work ends, and a lasting job needs customers and revenue."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-school-budget-percentages-test",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Emile ak bidjè lekòl la: 16% ak 22% pa konte menm bagay",
+        "en": "Etzer Emile’s school budget: 16% and 22% measure different things"
+      },
+      "description": {
+        "ht": "Lajan yo otorize sou papye pa toujou egal lajan ki rive nan sèvis la.",
+        "en": "Money authorized on paper does not always equal money delivered to a service."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan pwogram edikasyon li a, Etzer Emile bay de sib: edikasyon ta resevwa 16% depans piblik ki fèt toutbon an 2029, epi 22% bidjè nasyonal la an 2033. Premye chif la pale de egzekisyon; dezyèm nan pale de bidjè.",
+            "en": "Etzer Emile’s education programme gives two targets: education would receive 16% of public spending actually executed in 2029, and 22% of the national budget in 2033. The first concerns execution; the second concerns the budget."
+          },
+          "sources": [
+            "etzer-education"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon paran, sa ka sanble menm pwomès la. Men yon bidjè se otorizasyon depans. Egzekisyon se sa ki depanse toutbon. Si leta otorize 22 goud sou chak 100 pou lekòl, men li pa lage lajan an, pousantaj sou papye a pa peye pwofesè a.",
+            "en": "For a parent, these may sound like the same promise. A budget authorizes expenditure; execution records spending that occurs. If the state authorizes 22 of every 100 gourdes for schools but does not release the money, the paper percentage cannot pay a teacher."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Gen yon egzanp sou difikilte pou suiv depans yo: nan rapò sou ane fiskal 2023–2024 la, Lakou Siperyè Kont te kritike fason revni FNE te antre nan bilan leta pandan depans li yo pa t ladan l. Sa pa pwouve pwomès Etzer la enposib; li montre poukisa definisyon ak kont yo enpòtan.",
+            "en": "An example of the tracking problem appears in the state audit for fiscal 2023–2024: the Court of Accounts criticized inclusion of FNE revenue in the government balance while its expenditure was omitted. This does not prove Etzer’s promise impossible; it shows why definitions and accounts matter."
+          },
+          "sources": [
+            "cscca-2024-fne"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou konpare 2029 ak 2033, kanpay la ta dwe bay toude mezi yo pou chak ane: montan otorize, montan debouse ak montan depanse. Fòk li di ki enstitisyon ki ladan l, pou yon chanjman nan kontablite pa sanble yon pwogrè nan klas yo.",
+            "en": "To compare 2029 with 2033, the campaign should give both measures each year: amounts authorized, released and spent. It should name the institutions included, so an accounting change cannot masquerade as classroom progress."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Finalman, yon paran ap chèche yon pwofesè ki prezan, yon lekòl ki louvri ak yon frè li ka peye. Pousantaj la itil sèlman si piblik la ka suiv chemen lajan an rive nan rezilta sa yo.",
+            "en": "Ultimately, a parent wants a teacher present, an open school and affordable fees. The percentage helps only when the public can trace the money to those outcomes."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "olivier-barrau-family-insurance-public-power",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Olivier Barrau: soti nan asirans fanmi an rive nan anbisyon prezidansyèl",
+        "en": "Olivier Barrau: from a family insurance business to presidential ambition"
+      },
+      "description": {
+        "ht": "Yon istwa antrepriz ka esplike yon pakou. Li pa ranplase kont sou enterè ekonomik yo.",
+        "en": "A business history can explain a career. It cannot replace an account of financial interests."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan paj 20 rapò anyèl AIC 2022 a, konpayi an rakonte Olivier Barrau te reprann direksyon koutye asirans fanmi an apre etid li. Menm paj la idantifye Lucien Barrau kòm papa li epi date kreyasyon AIC an Desanm 2001.",
+            "en": "On page 20 of its 2022 annual report, AIC says Olivier Barrau took over management of the family insurance brokerage after his studies. The same page identifies Lucien Barrau as his father and dates AIC’s creation to December 2001."
+          },
+          "sources": [
+            "aic-report-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa bay yon lyen fanmi ki dokimante nan sous antrepriz la. Li pa bay yon lis konplè byen fanmi an, ni prèv yon favè leta. Nou pa ajoute granparan, parenn oswa patisipasyon finansye sous la pa etabli.",
+            "en": "This provides a family relationship documented by the company. It does not provide a complete family-asset list or evidence of state favour. We do not add grandparents, godparents or financial holdings the source does not establish."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Kesyon piblik la kòmanse lè yon dirijan ekonomik vle pran desizyon pou tout peyi a. Ki patisipasyon li toujou genyen? Ki responsablite li kite? Ki desizyon sou asirans, taks oswa kontra piblik li ta dwe kite lòt moun pran pou evite pwòp enterè li enfliyanse yo?",
+            "en": "The public question begins when a business leader seeks power to make decisions for the country. What holdings remain? Which responsibilities have ended? Which insurance, tax or procurement decisions should be left to others to prevent personal interests influencing them?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon moun ka gen eksperyans itil nan antrepriz epi gen bezwen mete baryè ant byen prive ak fonksyon piblik. De bagay sa yo ka vre ansanm. Yon deklarasyon byen ak yon plan pou jere konfli enterè ta pèmèt lektè yo egzamine baryè sa yo.",
+            "en": "Business experience can be useful while safeguards between private assets and public office remain necessary. Both can be true. An asset declaration and conflict-management plan would let readers examine those safeguards."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Istwa papa a itil pou konprann orijin yon aktivite. Pou evalye yon prezidans, se sa kandida a kontwole jodi a ak règ li aksepte pou demen ki mande plis limyè.",
+            "en": "A father’s business history helps explain an activity’s origins. Assessing a presidency requires closer scrutiny of what the candidate controls today and the rules he accepts for tomorrow."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "olivier-barrau-idb-two-million-insurance-loan",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Olivier Barrau ak AIC: 2 milyon dola BID la pa t yon don kanpay",
+        "en": "Olivier Barrau and AIC: the IDB’s $2 million was not a campaign gift"
+      },
+      "description": {
+        "ht": "Dosye prè 2012 la montre yon relasyon finansye presi, ak yon objektif pou egzamine.",
+        "en": "The 2012 loan record identifies a specific financial relationship and purpose to examine."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan rejis BID la, pwojè HA-L1072 se yon prè 2 milyon dola ameriken pou Alternative Insurance Company. Li te apwouve 8 Mas 2012 nan yon operasyon total 8 milyon dola. Rejis la klase l kòm finansman sektè prive san garanti leta.",
+            "en": "In the IDB register, project HA-L1072 is a US$2 million loan to Alternative Insurance Company. Approved March 8, 2012, it formed part of an US$8 million operation. The register classifies it as non-sovereign-guaranteed private-sector financing."
+          },
+          "sources": [
+            "idb-aic-loan"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon dokiman BID sou objektif la esplike rekapitalizasyon an te dwe ede AIC elaji asirans pou moun ki gen ti revni apre tranblemanntè 2010 la. Rapò anyèl konpayi an idantifye Olivier Barrau kòm PDG li an 2022.",
+            "en": "An IDB description says recapitalization was intended to help AIC expand insurance for lower-income people after the 2010 earthquake. The company’s annual report identifies Olivier Barrau as its chief executive in 2022."
+          },
+          "sources": [
+            "idb-aic-purpose",
+            "aic-report-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Twa bagay pa dwe melanje: prè yon enstitisyon bay yon konpayi, byen pèsonèl yon kandida ak lajan kanpay li. Dosye sa a dokimante premye a. Li pa fè lajan an tounen yon don pèsonèl oswa yon kontribisyon elektoral.",
+            "en": "Three things should stay separate: an institution’s loan to a company, a candidate’s personal assets and campaign money. This record documents the first. It does not turn the funds into a personal gift or election contribution."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Men gen yon kesyon ki merite fouye: èske objektif sosyal operasyon an te rive jwenn moun li te vize yo? Pou reponn, fòk nou konpare kantite moun ki te jwenn asirans, pri yo te peye ak reklamasyon konpayi an te regle. Yon objektif nan yon dokiman pa mezire rezilta sa yo.",
+            "en": "A worthwhile question remains: did the operation’s social purpose reach its intended customers? Answering requires comparing coverage, premiums and claims paid. A purpose statement cannot measure those outcomes."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa se yon tès pi itil pase prezante tout kontak ak yon bank entènasyonal kòm yon sispisyon. Lè yon kandida sèvi ak eksperyans antrepriz li kòm agiman, piblik la ka egzamine kiyès aktivite sa a te sèvi ak ki rezilta li te bay.",
+            "en": "This is more useful than treating every international-bank relationship as suspicious. When a candidate presents business experience as a qualification, the public can examine whom that activity served and what it delivered."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "olivier-barrau-youth-corps-foundation-state",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Kò jèn Olivier Barrau a: kiyès ki chwazi, kiyès ki peye?",
+        "en": "Olivier Barrau’s youth corps: who selects and who pays?"
+      },
+      "description": {
+        "ht": "Yon aktivite fondasyon pa menm ak yon sèvis nasyonal ki dwe sèvi tout sitwayen.",
+        "en": "A foundation event differs from a national service that must serve all citizens."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Septanm 2026, Fondasyon AIC te òganize yon fòmasyon pou jèn nan Jakmèl. Yon mwa apre, Juno7 te rapòte Olivier Barrau pwopoze yon kò jèn pou moun 16–35 an: yon pwogram pilòt twa ane sou sèvis kominotè, espò, edikasyon sivik ak fòmasyon pwofesyonèl.",
+            "en": "In September 2026, the AIC Foundation organized youth training in Jacmel. A month later, Juno7 reported Olivier Barrau proposing a youth corps for ages 16–35: a three-year pilot covering community service, sport, civic education and vocational training."
+          },
+          "sources": [
+            "barrau-jacmel-training",
+            "barrau-youth-corps"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Lyen ant de aktivite yo se yon enterè piblik nan fòmasyon jèn. Sous sa yo pa pwouve resous fondasyon an te sèvi pou achte vòt, ni yo pa pwouve pwogram nasyonal la deja egziste. Fòk nou egzamine finansman ak règ yo pou fè youn nan konklizyon sa yo.",
+            "en": "The activities share a public interest in youth training. These sources do not establish that foundation resources bought votes or that a national programme already exists. Those conclusions would require examination of funding and rules."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Gen yon chanjman enpòtan lè lide a pase soti nan yon fondasyon rive nan leta. Yon sèvis piblik dwe gen kritè moun ka konteste, yon bidjè yo ka suiv ak aksè ki pa depann de patisipasyon nan yon pati. Kapasite pou òganize yon aktivite pa poukont li reponn kesyon sa yo.",
+            "en": "An important change occurs when an idea moves from a foundation to the state. A public service needs contestable selection rules, traceable funding and access independent of party participation. Being able to organize an event does not itself answer those questions."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou yon jèn k ap chèche travay, fòk pwogram nan di si gen salè, konbyen tan fòmasyon an dire ak kiyès ki rekonèt konpetans li aprann yo. Pou yon patisipan 16 an, règ pwoteksyon ak relasyon ak lekòl li enpòtan tou.",
+            "en": "For a young jobseeker, the programme should explain pay, training length and recognition of acquired skills. For a 16-year-old participant, protection rules and the relationship with schooling also matter."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pi bon mezi a pa kantite moun ki vin nan lansman an. Se sa patisipan yo kapab fè apre: yon konpetans, yon revni oswa yon sèvis kominotè ki dire. Se la pwomès la bezwen yon kalandriye ak yon kont piblik.",
+            "en": "Attendance at a launch is not the strongest measure. What participants can do afterwards matters: a skill, income or lasting community service. That is where the promise needs a timetable and public accounts."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jacky-lumarque-vocational-training-record",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jacky Lumarque: tès fòmasyon pwofesyonèl la kòmanse anvan kanpay la",
+        "en": "Jacky Lumarque: the vocational-training test starts before the campaign"
+      },
+      "description": {
+        "ht": "Pakou nan edikasyon bay eksperyans pou egzamine, pa yon rezilta pou sipoze.",
+        "en": "An education career supplies experience to examine, not results to assume."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Anvan li te rektè, Jacky Lumarque te travay nan fòmasyon pwofesyonèl leta. Biyografi Inivèsite Quisqueya a date nominasyon li kòm direktè jeneral adjwen INFP an 1984 epi direktè jeneral an 1987. Li se rektè inivèsite a depi 2007, dapre menm sous la.",
+            "en": "Before becoming rector, Jacky Lumarque worked in state vocational training. Université Quisqueya’s biography dates his INFP deputy-director appointment to 1984 and director-general appointment to 1987. It says he has been the university’s rector since 2007."
+          },
+          "sources": [
+            "lumarque-career"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa fè yon kestyon travay jèn vin yon kestyon sou dosye li tou. Li pa sèlman bezwen di sa li ta fè; li ka montre sa enstitisyon li te dirije yo te fè. Biyografi a soti nan enstitisyon li dirije a, pa nan yon evalyasyon endepandan sou pèfòmans li.",
+            "en": "That makes youth employment a question about his record as well. Beyond saying what he would do, he can show what institutions he led delivered. The biography comes from his own institution, not an independent performance evaluation."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon sant fòmasyon ka bay anpil diplòm san tout moun jwenn travay. Pou egzamine rezilta a, fòk nou konnen konbyen moun ki antre, konbyen ki fini, pri pou chak patisipan ak kantite ki jwenn travay nan domèn yo apre sa. Menm kestyon sa yo dwe poze pou tout kandida ki pwomèt fòmasyon.",
+            "en": "A training centre can issue many certificates without everyone finding employment. Assessment requires entrants, completions, cost per participant and subsequent work in the trained field. The same questions should apply to every candidate promising training."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Gen yon lòt chwa pou esplike: kiyès ki peye? Fanmi, antrepriz ak leta pa gen menm mwayen ni menm enterè. Si yon pwogram depann de frè etidyan yo, fòk kandida a montre kijan jèn ki pi pòv yo ka antre ladan l.",
+            "en": "Another choice needs explanation: who pays? Families, employers and the state have different resources and interests. If a programme depends on student fees, the candidate should show how poorer young people gain access."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Se pa yon diplòm kandida a ki pral peye salè yon jèn. Se yon sistèm ki mare sa li aprann ak yon travay ki egziste. Pou Lumarque, ansyen responsablite yo bay piblik la yon kote presi pou kòmanse verifye sistèm sa a.",
+            "en": "A candidate’s diploma will not pay a young person’s wage. A system connecting learning to available work may. Lumarque’s previous responsibilities give the public a specific starting point for examining that connection."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jacky-lumarque-2015-exclusion-two-files",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jacky Lumarque an 2015: pa melanje de dosye dechaj yo",
+        "en": "Jacky Lumarque in 2015: do not merge two clearance files"
+      },
+      "description": {
+        "ht": "Non yon kandida sou yon desizyon pa vle di desizyon an kouvri tout fonksyon li te genyen.",
+        "en": "A candidate’s name on a decision does not mean it covers every previous role."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon kopi desizyon CSCCA ki gen dat 8 Jen 2015 konsène Jacky Lumarque ak komite nasyonal Wout Esklav la, pou Me 1998 rive Out 2000. Lakou a deklare li pa t kontab lajan piblik pou fonksyon sa a epi li leve restriksyon ki ta sou byen li.",
+            "en": "An archived CSCCA decision dated June 8, 2015 concerns Jacky Lumarque and the national Route de l’Esclave committee for May 1998–August 2000. It declares he was not a public accountant in that role and lifts potential restrictions on his assets."
+          },
+          "sources": [
+            "lumarque-court-1998-2000"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan deba sou eksklizyon elektoral li a, gen yon lòt dosye: GTEF, gwoup travay sou edikasyon ak fòmasyon. An Jiyè 2015, Pierre-Louis Opont te defann pozisyon KEP la lè li te di yon sètifika 3 Jen te vini apre delè depo pyès la. Se pozisyon Métropole te rapòte a.",
+            "en": "The electoral-exclusion dispute involved another file: GTEF, the education and training working group. In July 2015, Pierre-Louis Opont defended the CEP’s position by saying a June 3 certificate came after the document deadline. That is the position reported by Métropole."
+          },
+          "sources": [
+            "lumarque-cep-response"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Dat yo ak fonksyon yo pa menm. Donk, sèvi ak desizyon sou Wout Esklav la kòm si se li ki tranche tout kestyon GTEF la ta twonpe lektè a. Menm jan an tou, yon eksklizyon pou dosye elektoral pa yon kondanasyon pou vòl lajan.",
+            "en": "The dates and roles differ. Using the Route de l’Esclave decision as if it settled every GTEF question would mislead readers. Equally, exclusion over electoral paperwork is not a conviction for stealing money."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou rekonstwi konfli a nèt, fòk chak pyès gen dat depo li, fonksyon li kouvri ak desizyon ki te vini apre l. Sa pèmèt nou poze de kestyon apa: èske kont yo te mande yon dechaj, epi èske enstitisyon elektoral la te aplike pwosedi a kòrèkteman?",
+            "en": "A full reconstruction needs each document’s submission date, covered role and subsequent decision. That separates two questions: did the accounts require clearance, and did the electoral institution correctly apply procedure?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Se yon leson pou eleksyon k ap vini an tou. Yon sètifika pa dwe tounen yon benediksyon sou tout lavi yon moun; yon diskisyon sou delè pa dwe tounen yon akizasyon kriminèl. Non dosye a ak sa desizyon an di se premye bagay pou li.",
+            "en": "The lesson applies to the coming election too. A certificate should not become approval of someone’s entire life; a deadline dispute should not become a criminal accusation. Start with the file’s identity and the decision’s actual terms."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "marc-arthur-drouillard-2016-withdrawal-moise",
+      "status": "draft",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-11e21ae7092757dcaaaa"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Marc Arthur Drouillard: sa nòt 2016 la montre dèyè ti kantite vòt la",
+        "en": "Marc Arthur Drouillard: what a 2016 footnote adds to the small vote total"
+      },
+      "description": {
+        "ht": "Yon rezilta ansyen pa esplike yon alyans. Rapò obsèvatè yo bay yon lòt pyès.",
+        "en": "An old result does not explain an alliance. The observers’ report adds another piece."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan anèks rezilta pwovizwa rapò Inyon Ewopeyèn sou eleksyon 2016 la, Marc-Arthur Drouillard gen 978 vòt. Men, pi bonè nan menm rapò a, yon nòt di li te retire kò l an favè Jovenel Moïse 27 Septanm 2016.",
+            "en": "In the provisional-results annex of the EU report on the 2016 election, Marc-Arthur Drouillard has 978 votes. Earlier in the same report, a footnote says he withdrew in favour of Jovenel Moïse on September 27, 2016."
+          },
+          "sources": [
+            "eu-election-2016"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "De enfòmasyon yo ka egziste ansanm. Yon anons retrè pa otomatikman fè yon non disparèt nan tout materyèl elektoral oswa anpeche moun vote pou li. Nou pa sèvi ak total pwovizwa sa a kòm yon mezi sipò Drouillard genyen an 2026.",
+            "en": "Both facts can coexist. An announced withdrawal does not automatically remove a name from every electoral material or prevent votes for it. We do not use that provisional total as a measure of Drouillard’s support in 2026."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Sa ki itil pou egzamine se chwa politik la: poukisa li te soutni Moïse nan moman sa a, ki objektif li te anonse, epi ki evalyasyon li fè sou chwa a kounye a? Yon ansyen alyans merite yon eksplikasyon; li pa pwouve yon alyans aktyèl.",
+            "en": "The useful issue is the political choice: why did he support Moïse then, what aims did he state, and how does he assess that decision now? A past alliance merits explanation; it does not establish a present alliance."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Gen yon lòt limit enpòtan. Sipòte yon kandida nan yon eleksyon pa pwouve patisipasyon nan zak lòt moun te fè apre sa. Fòk chak akizasyon sou yon zak gen pwòp prèv li. Yon relasyon politik gen yon dat ak yon sans presi.",
+            "en": "Another limit matters. Supporting a candidate in an election does not establish participation in others’ later conduct. Each allegation about an act requires its own evidence. A political relationship has a date and a specific meaning."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè nou rakonte yon pakou, kestyon an pa sèlman « konbyen vòt li te fè? ». Li se tou « ki moun li te ede pran pouvwa, pou ki rezon, epi ki sa li aprann? ». Ti nòt sa a fè dosye a vin pi rich pase yon klasman.",
+            "en": "When tracing a career, the question extends beyond “how many votes?” to “whom did he help into power, why, and what did he learn?” The footnote makes the record more informative than a ranking alone."
           },
           "sources": []
         }

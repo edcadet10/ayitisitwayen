@@ -76,13 +76,13 @@ treated as independently audited or summed as complete annual expenditure.
 
 ## Review, audio and discovery
 
-The Creole copy receives an independent AI reading before that reviewer opens
+The Creole copy receives an independent blind reading before that reviewer opens
 English, followed by a fidelity comparison. This is not native-human
 certification or a human-reader comprehension study. Changes are checked against
 the actual source and applied to the saved text. Reuse review of unchanged copy.
 
-AI assistance and generated narration are disclosed. The author is the actual
-publisher, Ayiti Sitwayen; do not invent staff credentials, interviews, fieldwork,
+Ayiti Sitwayen is the responsible publisher. Narration is identified as synthetic.
+Do not invent staff credentials, interviews, fieldwork,
 confidential sources or intelligence access. Contact links accept corrections;
 do not claim that a request for comment was sent unless it actually was.
 
