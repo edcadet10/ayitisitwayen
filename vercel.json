@@ -100,6 +100,19 @@
       ]
     }
   ],
-  "buildCommand": "python3 scripts/build-editorial.py && python3 scripts/build-candidates.py && python3 scripts/build-elections.py --check && python3 scripts/build-sitemaps.py",
-  "outputDirectory": "."
+  "buildCommand": "python3 scripts/build-editorial.py && python3 scripts/build-elections.py --check && python3 scripts/build-publish.py",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/candidate-page.py": {
+      "includeFiles": ".page-pack/candidates.sqlite",
+      "excludeFiles": "{assets/**,audio/**,candidates/**,en/**,data/**,editorial/**,scripts/**,dist/**,.git/**,.github/**,*.html,*.css,*.js,*.json,*.md,*.xml,*.png,*.webp,*.svg,*.txt}",
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {"source": "/candidates", "destination": "/api/candidate-page?route=/candidates/"},
+    {"source": "/candidates/:path(.*)", "destination": "/api/candidate-page?route=/candidates/:path"},
+    {"source": "/en/candidates", "destination": "/api/candidate-page?route=/en/candidates/"},
+    {"source": "/en/candidates/:path(.*)", "destination": "/api/candidate-page?route=/en/candidates/:path"}
+  ]
 }

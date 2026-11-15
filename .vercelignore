@@ -1,0 +1,9 @@
+.git/
+.github/
+__pycache__/
+.candidate-collection-cache/
+.page-pack/
+dist/
+/candidates/
+/en/candidates/
+/data/candidate-public/

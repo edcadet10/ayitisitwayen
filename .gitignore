@@ -37,3 +37,5 @@ editorial/candidate-history-review-queue.json
 /sitemap-candidates.xml
 /sitemap-candidate-directory.xml
 /sitemap-candidate-archives.xml
+/.page-pack/
+/.vercel/
