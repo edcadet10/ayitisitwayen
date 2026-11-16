@@ -1971,6 +1971,174 @@
         "ht": "Rapò sou deklarasyon li pibliye 10 Oktòb la. Kritik li yo rete pozisyon kandida a, pa konklizyon yon odit sekirite.",
         "en": "Reports his October 10 statement. His criticism remains the candidate’s position, not a security-audit finding."
       }
+    },
+    "nestor-origins-interview-2015": {
+      "publisher": "Marian L. Tupy / Cato Institute",
+      "url": "https://www.cato.org/commentary/can-anyone-save-haiti-crisis-offers-new-chance",
+      "published_at": "2015-07-16",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Michelet Nestor nan yon pòtrè 2015 ki baze sou yon entèvyou",
+        "en": "Michelet Nestor in a 2015 interview-based profile"
+      },
+      "note": {
+        "ht": "Yon tèks opinyon, orijinalman pibliye nan SunSentinel 22 Jen 2015. Detay biyografik li rapòte yo pa yon verifikasyon konplè sou diplòm, byen oswa jeneyaloji kandida a.",
+        "en": "A commentary originally published in SunSentinel on June 22, 2015. Reported biographical details are not a complete verification of qualifications, assets or genealogy."
+      }
+    },
+    "nestor-dpa-launch-2026": {
+      "publisher": "Le Facteur Haïti",
+      "url": "https://lefacteurhaiti.com/haiti-elections-me-michelet-nestor-candidat-a-la-presidence-du-groupement-debout-patriotes/",
+      "published_at": "2026-10-01",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Lansman Debout Patriotes: Nestor te kandida yo te anvizaje",
+        "en": "Debout Patriotes launch: Nestor was a prospective candidate"
+      },
+      "note": {
+        "ht": "Tout kò atik orijinal la li atravè API piblik WordPress jounal la. Tit la pi definitif pase tèks la, ki presize chwa a pa t ankò final.",
+        "en": "Full original article read through the publisher’s public WordPress API. Its headline is more definite than its body, which says the choice was not yet final."
+      }
+    },
+    "nestor-dpa-registration-2026": {
+      "publisher": "Kayimit News",
+      "url": "https://kayimitnews.com/?p=2551",
+      "published_at": "2026-11-13",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Nestor enskri pou DPA apre yon chwa pa konsansis",
+        "en": "Nestor registers for DPA following a consensus selection"
+      },
+      "note": {
+        "ht": "Jounal la rapòte yon chwa 2 Novanm ak enskripsyon 13 Novanm. Sa pa ranplase yon pwosè-vèbal pati a oswa yon desizyon final KEP.",
+        "en": "Reports a November 2 selection and November 13 registration; not a substitute for party minutes or a final CEP decision."
+      }
+    },
+    "dupuy-deportation-response-2024": {
+      "publisher": "Bureau de Communication de la Présidence",
+      "url": "https://lapresidence.ht/reunion-speciale-autour-des-deportations-massives-dhaitiens-par-la-republique-dominicaine/",
+      "published_at": "2024-10-08",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Prezidans lan bay bilan ONM epi konfye Dupuy demach diplomatik",
+        "en": "Presidency reports ONM figures and assigns diplomatic work to Dupuy"
+      },
+      "note": {
+        "ht": "Kominike gouvènman ayisyen an. Konte moun yo soti nan ONM; jijman sou vyolasyon akò a se pozisyon otorite yo, pa yon desizyon tribinal nan sous sa a.",
+        "en": "Haitian government communiqué. Counts are attributed to ONM; the characterization of treaty violations is the authorities’ position, not a judicial ruling in this source."
+      }
+    },
+    "lumarque-women-speech-2023": {
+      "publisher": "Université Quisqueya",
+      "url": "https://uniq.edu/upload/inside_articles_document/9464_discours%20jacky%20lumarque%209%20mars%202023.pdf",
+      "published_at": "2023-03-09",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Diskou Jacky Lumarque sou dwa fanm, deplasman ak Mouka",
+        "en": "Jacky Lumarque’s address on women’s rights, displacement and Mouka"
+      },
+      "note": {
+        "ht": "Tèks diskou rektè a, sis paj. Li etabli sa li te defann ak sa inivèsite a te anonse; li pa yon evalyasyon endepandan tout rezilta yo.",
+        "en": "Six-page speech establishes his positions and the university’s announcements; not an independent evaluation of every outcome."
+      }
+    },
+    "mouka-public-library": {
+      "publisher": "Mouka",
+      "url": "https://mouka.ht/",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Mouka: espas dokimantè piblik sou jan ak dwa fanm ayisyen",
+        "en": "Mouka: public documentary resource on gender and Haitian women’s rights"
+      },
+      "note": {
+        "ht": "Sit la ak fich rechèch li yo te aksesib lè nou tcheke yo. Egzistans yon bibliyotèk sou entènèt pa mezire enpak li sou tout sitwayen.",
+        "en": "The site and its research listings were accessible when checked. An online library’s existence does not measure its population-wide impact."
+      }
+    },
+    "gue-storm-damage-2008": {
+      "publisher": "Radio Métropole",
+      "url": "https://metropole.ht/lagriculture-a-subi-dimportants-degats-selon-joanas-gue/",
+      "published_at": "2008-09-18",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué prezante estimasyon dega ak bezwen agrikòl apre siklòn yo",
+        "en": "Joanas Gué presents estimates of agricultural losses and recovery needs"
+      },
+      "note": {
+        "ht": "Estimasyon minis la nan Septanm 2008; bezwen, pèt ak resous li te espere jwenn yo rete kategori diferan. Sous la di dola san li pa presize lajan peyi a.",
+        "en": "The minister’s September 2008 estimates; losses, needs and hoped-for resources are different categories. The source says dollars without specifying the national currency."
+      }
+    },
+    "gue-mango-reopening-2007": {
+      "publisher": "Radio Métropole",
+      "url": "https://metropole.ht/reprise-des-exportations-de-mangues-francis-vers-les-etats-unis/",
+      "published_at": "2007-07-18",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué anonse reprann ekspòtasyon mango 19 Jiyè 2007",
+        "en": "Joanas Gué announces mango exports will resume July 19, 2007"
+      },
+      "note": {
+        "ht": "Atik la dekri sispansyon 2 Jiyè ak nouvo otorizasyon pou sis izin. Anons repriz la pa yon odit tout chajman ki te pati apre sa.",
+        "en": "Describes the July 2 suspension and renewed authorization for six plants. The reopening announcement is not an audit of every subsequent shipment."
+      }
+    },
+    "gue-mango-new-suspension-2007": {
+      "publisher": "Radio Métropole",
+      "url": "https://metropole.ht/nouvelle-suspension-des-exportations-de-mangues-vers-les-etats-unis/",
+      "published_at": "2007-07-31",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Nouvo sispansyon ekspòtasyon mango nan fen Jiyè 2007",
+        "en": "Renewed suspension of mango exports in late July 2007"
+      },
+      "note": {
+        "ht": "Eksplikasyon Gué sou risk fitosanitè ak yon pwogram li te anonse. Nou pa bay konsèy tretman agrikòl oswa yon jijman sou chak izin.",
+        "en": "Gué’s explanation of plant-health risks and an announced programme; not agricultural treatment advice or a judgment about every plant."
+      }
+    },
+    "salomon-opl-protest-2025": {
+      "publisher": "Rezo Nòdwès",
+      "url": "https://rezonodwes.com/2025/07/aux-cayes-une-manifestation-anti-cpt-initiee-par-lancien-senateur-salomon-dispersee-par-la-police/",
+      "published_at": "2025-07-29",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Manifestasyon OPL ak Jean-Marie Junior Salomon kont CPT nan Okay",
+        "en": "OPL protest involving Jean-Marie Junior Salomon against the CPT in Les Cayes"
+      },
+      "note": {
+        "ht": "Atik la site sitou patisipan Hervé Saintilus. Akizasyon li sou lòt dirijan yo rete deklarasyon politik, pa konklizyon finansye oswa jidisyè.",
+        "en": "The article chiefly quotes participant Hervé Saintilus. His allegations about other leaders remain political statements, not financial or judicial findings."
+      }
+    },
+    "deronneth-cpt-constitution-2024": {
+      "publisher": "Rezo Nòdwès",
+      "url": "https://rezonodwes.com/2024/03/haiti-me-deus-deronneth-deux-articles-de-la-constitution-de-1987-contredisent-le-conseil-presidentiel-de-la-caricom/",
+      "published_at": "2024-03-29",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Deus Deronneth konteste baz konstitisyonèl konsèy tranzisyon yo te pwopoze a",
+        "en": "Deus Deronneth challenges the proposed transition council’s constitutional basis"
+      },
+      "note": {
+        "ht": "Rapò sou entèpretasyon konstitisyonèl li. Se pa yon desizyon tribinal ki anile CPT a oswa ki bay yon jij manda pou dirije peyi a.",
+        "en": "Reports his constitutional interpretation; not a judgment annulling the CPT or authorizing a judge to govern the country."
+      }
+    },
+    "nestor-medina-letter-2015": {
+      "publisher": "Office of Michelet Nestor / WebWire",
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=198487",
+      "published_at": "2015-06-24",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Lèt piblik Michelet Nestor bay Prezidan Danilo Medina",
+        "en": "Michelet Nestor’s public letter to President Danilo Medina"
+      },
+      "note": {
+        "ht": "Kominike biwo kandida a, li kòm yon pozisyon politik nan 2015. Li pa yon garanti dwa rezidans oswa sitwayènte aktyèl.",
+        "en": "Candidate-office release, read as a 2015 political position; not a guarantee of present residence or citizenship rights."
+      }
     }
   },
   "articles": [
@@ -7238,6 +7406,588 @@
           "text": {
             "ht": "Kritik Deronneth la gen pwa sitou kote li mande otorite yo mare tan ak rezilta. Menm estanda a dwe sèvi pou nenpòt lòt tranzisyon li ta soutni: yon manda presi, etap piblik ak yon fason pou mande kont si yo pa respekte yo. Chanje ekip la pa rezoud pwoblèm nan si règ sou dire pouvwa a rete flou.",
             "en": "Deronneth’s criticism is strongest where it connects time to results. The same standard should apply to any alternative transition he supports: a defined mandate, public milestones and accountability for missed commitments. Replacing personnel does not resolve an unclear limit on power."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "michelet-nestor-2015-social-origins-transparency",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-07a633c73b3950999f76"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Michelet Nestor: orijin modès, gwo pwomès ak kesyon bilan an",
+        "en": "Michelet Nestor: modest origins, big promises and the record"
+      },
+      "description": {
+        "ht": "Yon pòtrè 2015 montre istwa sosyal li te pote nan politik. Istwa lavi a bay kontèks; li pa ranplase prèv sou jesyon.",
+        "en": "A 2015 profile records the social story accompanying his political entry. A life story provides context; it does not replace evidence of management."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Lè Michelet Nestor te kandida an 2015, yon pòtrè Marian Tupy pibliye sou sit Cato Institute te dekri l kòm pitit yon machann nan lari ak yon anplwaye kay, ki te grandi nan yon zòn Pòtoprens san dlo potab ak latrin. Otè a, ki te fè entèvyou ak li, te prezante l kòm yon antreprenè ki te dirije yon konpayi rekritman anplwaye ak inisyativ edikatif.",
+            "en": "During Michelet Nestor’s 2015 candidacy, an interview-based profile by Marian Tupy, published by Cato Institute, described him as the child of a street vendor and a domestic worker, raised in a Port-au-Prince neighbourhood without potable water or latrines. It presented him as an entrepreneur leading a staffing business and educational initiatives."
+          },
+          "sources": [
+            "nestor-origins-interview-2015"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan menm tèks la, Nestor te mete aksan sou kontwòl finans piblik ak kapasite sitwayen, laprès ak dyaspora a pou suiv sa gouvènman an fè. Sa te mare de mesaj: li konnen lavi moun ki pa gen mwayen, epi li vle yon Leta ki rann kont. Sa yo se angajman politik li te eksprime, pa rezilta yon manda prezidansyèl.",
+            "en": "In that account, Nestor emphasized fiscal accountability and public, press and diaspora scrutiny of government. The message connected lived deprivation with a promise of answerable government. Those were political commitments, not results from a presidential term."
+          },
+          "sources": [
+            "nestor-origins-interview-2015"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Orijin yon kandida ka ede konprann sa li chwazi mete devan. Men soti nan povrete pa garanti yon moun pral byen jere lajan piblik, menm jan soti nan yon fanmi rich pa pwouve koripsyon. Se aksyon, enterè ekonomik ak règ kontwòl ki dwe pèmèt elektè yo fè diferans lan.",
+            "en": "A candidate’s origins can illuminate priorities. Growing up poor does not guarantee sound public financial management, just as a wealthy family does not establish corruption. Actions, economic interests and accountability arrangements must allow voters to judge."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Kopi rejis KEP nou verifye a mete Nestor anba DPA pou eleksyon aktyèl yo. Retou sa a pèmèt yon kesyon sou tan ki pase a: ki travay ak prèv piblik ki soutni pwomès transparans 2015 yo jodi a? Pòtrè a se yon pwen depa pou ankèt sou pakou li, pa yon dosye konplè sou fanmi, byen oswa reyalizasyon li.",
+            "en": "The reviewed CEP registry places Nestor under DPA in the current election process. His return invites scrutiny of the intervening years: what public work and records support those earlier transparency commitments today? The profile begins an examination of his background; it is not a complete record of family, assets or achievements."
+          },
+          "sources": [
+            "cep-20261114"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nestor-savary-dpa-launch-current-party-affiliation",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-07a633c73b3950999f76",
+        "c-044a28564a40545cb553"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Nestor, Savary ak DPA: yon lansman pa t fikse tout afilyasyon yo",
+        "en": "Nestor, Savary and DPA: a launch did not settle every affiliation"
+      },
+      "description": {
+        "ht": "Dokiman ki gen dat diferan montre poukisa li pa sifi pou wè yon moun nan yon aktivite pou di ki pati li reprezante.",
+        "en": "Dated records show why appearing at a political event does not, by itself, establish someone’s eventual party affiliation."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan rapò 1 Oktòb 2026 li sou lansman Debout Patriotes, Le Facteur Haïti te site Savannah Savary pami figi yo te prezante yo. Menm atik la te dekri Michelet Mike Nestor kòm yon kandida prezidansyèl yo te anvizaje, pandan li te presize chwa final la te poko fèt. Lansman an te fèt 30 Septanm nan Petyonvil.",
+            "en": "Le Facteur Haïti’s October 1, 2026 report on the Debout Patriotes launch named Savannah Savary among figures presented. It described Michelet Mike Nestor as a prospective presidential candidate while expressly saying selection was not yet final. The launch took place September 30 in Pétion-Ville."
+          },
+          "sources": [
+            "nestor-dpa-launch-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Apre sa, Kayimit News te rapòte DPA te chwazi Nestor pa konsansis 2 Novanm, epi li te enskri 13 Novanm. Nan kopi rejis KEP nou verifye 14 Novanm nan, Nestor parèt anba DPA, tandiske Savary parèt anba HAMAD. Sa bay yon estati pi resan pase yon lis envite oswa kandida yo te anvizaje nan yon seremoni.",
+            "en": "Kayimit News later reported DPA’s consensus selection of Nestor on November 2 and his registration on November 13. In the November 14 CEP snapshot, Nestor appears under DPA and Savary under HAMAD. Those records are later than a launch’s list of featured or prospective candidates."
+          },
+          "sources": [
+            "nestor-dpa-registration-2026",
+            "cep-20261114"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Dokiman sa yo pa pwouve Savary te kite DPA apre yon konfli. Yo pa pwouve nonplis Nestor ak Savary pa gen okenn relasyon politik ankò. Yo pa bay tout kontra oswa akò ant òganizasyon yo. Sa yo etabli se yon diferans ant prezans nan yon aktivite, yon chwa andedan pati ak estrikti ki parèt nan enskripsyon an.",
+            "en": "These records do not establish that Savary left DPA following a dispute or that she and Nestor have no continuing political relationship. They do not supply every interparty agreement. They establish distinctions between appearing at an event, internal selection and the structure recorded at registration."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou elektè yo, diferans lan itil: se pa sèlman kiyès ki sou estrad la ki konte. Fòk yo kapab konnen ki òganizasyon ki bay kandida a manda li, ki pwogram li angaje l respekte ak kiyès ki ka mande l kont. Yon koneksyon politik merite suiv; li pa dwe envante apati prezans yon jou sèlman.",
+            "en": "For voters, the distinction matters. Beyond who shares a stage, they need to know which organization mandates a candidate, which programme binds them and who can hold them answerable. Political relationships deserve examination through records extending beyond one public appearance."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "rene-st-fort-displaced-voters-registration-access",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-7308041793ef5e32b5ff"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "René St-Fort: lè yon moun deplase, vòt li pa dwe disparèt",
+        "en": "René St-Fort: displacement should not erase a vote"
+      },
+      "description": {
+        "ht": "Pozisyon li sou enskripsyon elektè yo mete aksan sou yon baryè fasil pou bliye: biwo a ka rete louvri pandan sitwayen an pa ka rive ladan.",
+        "en": "His registration position highlights an easily missed barrier: an office can remain open while the citizen cannot reach it."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "16 Mas 2026, René St-Fort te di Vant Bèf Info li te soutni demach KEP pou ale jwenn elektè yo. Dirijan PRN lan te souliye moun vyolans fòse kite lakay yo pa fasil jwenn sèvis enskripsyon kote yo ye kounye a. Li te mande atansyon pou zòn ki lwen yo tou.",
+            "en": "On March 16, 2026, René St-Fort told Vant Bèf Info he supported CEP outreach to voters. The PRN leader emphasized registration barriers for people displaced by violence and called for attention to remote areas."
+          },
+          "sources": [
+            "stfort-prn-registration-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pwen li a depase distans. Yon pwosesis ka egziste ofisyèlman san li pa aksesib an pratik. Pou yon fanmi ki te kouri kite kay li, enfòmasyon sou kote pou ale ak posibilite deplase an sekirite ka konte menm jan ak lè biwo a ouvri. Sa se yon analiz sou aksè, pa yon deskripsyon ka yon fanmi nou te entèvyouve.",
+            "en": "The point extends beyond distance. A procedure may formally exist while remaining inaccessible in practice. For a displaced household, knowing where to go and being able to travel safely can matter as much as office hours. This is an access analysis, not the account of a family interviewed by us."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa bay yon tès presi pou nenpòt plan: èske li rive jwenn moun ki deplase yo, oswa li sèlman konte moun ki te deja kapab deplase poukont yo? Yon total enskripsyon pa reponn kesyon sa a si li pa montre ki gwoup ak ki zòn sèvis la rive touche.",
+            "en": "That suggests a concrete test: does a plan reach displaced people, or mainly count those already able to travel independently? A registration total cannot answer without showing which groups and locations the service reaches."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Deklarasyon St-Fort la pa yon plan operasyonèl ak pri, wout ak delè. Li etabli yon priyorite li te defann. Pou evalye l kòm kandida, elektè yo kapab mande kijan pwòp pati li ap ede moun konprann pwosedi a, san li pa mare sèvis sivik ak yon obligasyon pou soutni pati a.",
+            "en": "St-Fort’s statement is not a costed operational plan. It establishes a priority he defended. Voters can ask how his own party helps people understand the process while keeping civic assistance independent of any obligation to support the party."
+          },
+          "sources": [
+            "stfort-prn-registration-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dominique-dupuy-2024-deportations-diplomacy-protection",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Dominique Dupuy: apre kondanasyon depòtasyon yo, ki pwoteksyon?",
+        "en": "Dominique Dupuy: after condemning deportations, what protection followed?"
+      },
+      "description": {
+        "ht": "Yon kominike ofisyèl 2024 montre misyon diplomatik yo te konfye li a. Bilan an bezwen suiv sa ki te rive moun yo apre sa.",
+        "en": "A 2024 official communiqué records the diplomatic task assigned to her. Assessing the record requires following what happened to the people affected."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "8 Oktòb 2024, Prezidans ayisyen an pibliye yon bilan alarman: ONM te konte 5,323 moun repatriye ant 4 ak 7 Oktòb, pami yo 140 timoun. Kominike a di Konsèy Prezidansyèl la te konfye Minis Afè Etranjè Dominique Dupuy demach diplomatik pou defann dwa ak diyite moun sa yo.",
+            "en": "On October 8, 2024, Haiti’s presidency published ONM’s count of 5,323 people repatriated between October 4 and 7, including 140 children. Its communiqué says the Presidential Council assigned Foreign Minister Dominique Dupuy diplomatic work to protect their rights and dignity."
+          },
+          "sources": [
+            "dupuy-deportation-response-2024"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa ede mete responsablite yo an plas. ONM te pote done sou resepsyon moun yo. Konsèy la te bay direksyon politik. Dupuy te resevwa misyon diplomatik la. Nou pa ka atribye tout desizyon yon lòt Leta oswa tout sèvis ki te dwe fèt sou fwontyè a ak minis Afè Etranjè ayisyen an sèlman.",
+            "en": "The record separates responsibilities. ONM supplied reception data, the council gave political direction and Dupuy received the diplomatic assignment. Decisions by another state and every service at the border cannot all be assigned solely to Haiti’s foreign minister."
+          },
+          "sources": [
+            "dupuy-deportation-response-2024"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Men gen yon lyen ki dwe egzamine ant demach aletranje ak swivi anndan peyi a. Ki plent yo te dokimante? Ki repons otorite dominiken yo te bay? Ki aranjman ki te ede fanmi yo, sitou timoun yo, apre yo rive? Se kesyon pou mezire pwoteksyon an, olye sèlman fòs yon deklarasyon piblik.",
+            "en": "Diplomatic action and domestic follow-through nevertheless need connecting. Which complaints were documented? How did Dominican authorities respond? What arrangements helped families, particularly children, after arrival? These are measures of protection beyond the strength of a public statement."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Kominike a pa bay rezilta final demach Dupuy yo, epi li pa yon desizyon tribinal sou tout depòtasyon yo. Pou egzamine kandida a, fòk yon bilan konpare travay li te gen pouvwa fè, sa li te mande ak chanjman ki ka verifye. Pran pozisyon pou diyite moun enpòtan; montre kijan pozisyon an te tounen pwoteksyon se pwochen etap la.",
+            "en": "The communiqué does not establish the final outcomes of Dupuy’s diplomacy or adjudicate every deportation. Assessing the candidate requires comparing her authority, her requests and verifiable changes. Defending dignity matters; demonstrating how that position became protection is the next evidentiary step."
+          },
+          "sources": [
+            "dupuy-deportation-response-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jacky-lumarque-mouka-women-rights-public-record",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jacky Lumarque ak Mouka: kite yon zouti piblik dèyè pawòl yo",
+        "en": "Jacky Lumarque and Mouka: a public resource behind the speech"
+      },
+      "description": {
+        "ht": "Yon diskou 2023 sou dwa fanm montre yon aksyon ki ka verifye. Li bay yon egzanp pou egzamine bilan yon rektè ki vin kandida.",
+        "en": "A 2023 address on women’s rights points to a verifiable institutional action. It offers a way to examine the record of a rector seeking office."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "9 Mas 2023, Jacky Lumarque te pale sou fanm ki pote chay fanmi yo pandan vyolans fòse moun deplase. Nan diskou li a, rektè Inivèsite Quisqueya a te prezante Mouka kòm yon espas dokimantè sou jan ak dwa fanm ayisyen, ak rechèch piblik la te dwe kapab jwenn gratis sou entènèt.",
+            "en": "On March 9, 2023, Jacky Lumarque discussed women carrying family burdens amid forced displacement. In that address, the Université Quisqueya rector presented Mouka as an online documentary resource on gender and Haitian women’s rights, with research intended to be freely accessible."
+          },
+          "sources": [
+            "lumarque-women-speech-2023"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nou kapab tcheke omwen yon pati nan anons lan. Sit mouka.ht aksesib epi li prezante fich rechèch, piblikasyon ak dosye tematik sou dwa fanm. Sa bay yon rezilta enstitisyonèl ki pi presi pase yon fraz jeneral sou angajman. Sa pa vle di Lumarque te fè travay la poukont li; se yon resous ki soti nan travay kolektif.",
+            "en": "At least part of that announcement is verifiable. Mouka.ht is accessible and presents research records, publications and thematic resources on women’s rights. This is a more specific institutional output than a general declaration of commitment. It does not mean Lumarque produced it alone; the resource represents collective work."
+          },
+          "sources": [
+            "mouka-public-library"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Men egzistans resous la ak enpak li se de mezi diferan. Yon bibliyotèk kapab itil san nou pa deja konnen konbyen pwofesè, etidyan oswa òganizasyon ki sèvi avè l. Pou mezire enpak, fòk gen done itilizasyon ak egzanp ki montre rechèch la ede chanje fòmasyon, sèvis oswa desizyon.",
+            "en": "Existence and impact are different measures. A library can be valuable before its use by teachers, students or organizations has been quantified. Measuring impact requires usage evidence and examples connecting research to changes in training, services or decisions."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou elektè yo, epizòd la sijere yon fason pou egzamine eksperyans kandida a: chèche zouti li te ede enstitisyon an kreye, rekonèt travay lòt aktè yo, epi mande rezilta yo. Yon bilan serye pa oblije sèlman yon lis diplòm. Li ka montre sa ki rete disponib pou lòt moun sèvi avè l apre diskou a fini.",
+            "en": "For voters, the episode suggests a way to examine experience: identify resources a candidate helped an institution create, credit other contributors and investigate results. A useful record extends beyond qualifications to what remains available for others after a speech ends."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "joanas-gue-2008-storm-losses-recovery-funding",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-bf5bb68eea8a5b819128"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué apre siklòn 2008 yo: dega pa menm ak lajan pou repare",
+        "en": "Joanas Gué after the 2008 storms: losses are not recovery funding"
+      },
+      "description": {
+        "ht": "Estimasyon dega, plan reparasyon ak lajan nan bidjè se twa etap. Melanje yo fè li difisil pou mezire yon repons piblik.",
+        "en": "Damage estimates, recovery plans and budget funding are separate stages. Combining them makes a public response harder to assess."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "18 Septanm 2008, Joanas Gué, lè sa a minis Agrikilti, te di Radio Métropole plis pase 63,000 ekta tè kiltivab te afekte apre siklòn yo. Li te estime pèt yo nan plis pase 180 milyon dola. Nan menm nouvèl la, responsab òganizasyon peyizan Kozepep Charles Suffrard te di li poko kapab bay yon bilan konplè pou Latibonit.",
+            "en": "On September 18, 2008, Agriculture Minister Joanas Gué told Radio Métropole that storms had affected more than 63,000 hectares of cultivable land, with losses exceeding 180 million dollars. The same report quotes Kozepep’s Charles Suffrard saying he could not yet provide a comprehensive assessment for the Artibonite valley."
+          },
+          "sources": [
+            "gue-storm-damage-2008"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Gué te bay lòt chif sou repons lan: 123 milyon dola pou pwoteje rivyè, jwenn entran ak repare kanal, epi 200 milyon goud li te espere jwenn rapidman nan bidjè a. Se pa menm lajan, ni menm kalite chif. Youn se yon estimasyon bezwen pou travay; lòt la se resous nan bidjè li te espere mobilize.",
+            "en": "Gué also cited 123 million dollars for river protection, inputs and canal repairs, and 200 million gourdes he hoped to obtain quickly from the budget. These are different currencies and different measures: estimated recovery work versus hoped-for budget resources."
+          },
+          "sources": [
+            "gue-storm-damage-2008"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nou pa ka soustrè 200 milyon goud nan 123 milyon dola pou jwenn yon « twou » finansye. Menm si nou konvèti lajan yo, fòk nou konnen ki travay chak montan kouvri ak ki dat estimasyon an fèt. Pèt yon rekòt pa nesesèman egal pri pou retabli tout pwodiksyon an.",
+            "en": "Subtracting 200 million gourdes from 123 million dollars cannot establish a financing gap. Even with conversion, the scope and date of each estimate matter. A lost harvest’s value need not equal the cost of restoring the production system."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Pou egzamine eksperyans Gué, se chenn repons lan ki konte: evalye, finanse, debouse epi verifye rekiperasyon an. Nouvèl la montre sa li te anonse ak ensètitid ki te genyen. Li pa bay yon kont final sou kantite peyizan ki te reprann aktivite oswa sou tout lajan yo te depanse.",
+            "en": "Assessing Gué’s experience requires following the response from assessment through financing, disbursement and recovery. The report records announcements and uncertainty. It does not establish final spending or how many farmers resumed production."
+          },
+          "sources": [
+            "gue-storm-damage-2008"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "joanas-gue-2007-mango-exports-stop-restart",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-bf5bb68eea8a5b819128"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué ak mango 2007 yo: relouvri mache a pa t fini kriz la",
+        "en": "Joanas Gué and mango exports in 2007: reopening did not end the crisis"
+      },
+      "description": {
+        "ht": "Yon repriz anonse nan mitan Jiyè te swiv ak yon nouvo sispansyon nan fen mwa a. Suiv dat yo chanje lekti bilan an.",
+        "en": "An announced mid-July restart was followed by another suspension at month-end. Following the dates changes the assessment."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "2 Jiyè 2007, ekspòtasyon mango fransik pou Etazini te sispann apre yo te jwenn lav mouch vivan nan chajman yo. Radio Métropole te rapòte 18 Jiyè sekretè deta Agrikilti Joanas Gué t ap anonse reprann ekspedisyon yo 19 Jiyè. Sis izin ki pa t konsène nan chajman ki te pwovoke pwoblèm nan te jwenn nouvo otorizasyon, dapre li.",
+            "en": "Mango exports to the United States were suspended July 2, 2007 after live fruit-fly larvae were found in shipments. On July 18, Radio Métropole reported Agriculture Secretary of State Joanas Gué’s announcement of a July 19 restart, following renewed authorization for six plants not implicated in the triggering shipments."
+          },
+          "sources": [
+            "gue-mango-reopening-2007"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men 31 Jiyè, menm estasyon an te rapòte yon nouvo sispansyon. Gué te esplike Ministè Agrikilti a, asosyasyon ekspòtatè yo ak USDA te dakò kanpe ekspedisyon yo akoz nivo enfestasyon an. Li te anonse yon pwogram Leta t ap finanse pou 25 milyon goud pou diminye mouch yo nan zòn pwodiksyon yo.",
+            "en": "By July 31, the station reported another suspension. Gué said the ministry, exporters’ association and USDA had agreed to stop shipments because of infestation levels. He announced a state-funded 25-million-gourde programme to reduce fruit flies in producing areas."
+          },
+          "sources": [
+            "gue-mango-new-suspension-2007"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Istwa a pa pèmèt nou deklare sis izin yo te fè fwod oswa premye otorizasyon an te ilegal. Li montre yon lòt bagay: rezoud otorizasyon ekspòtasyon an pa t sifi pou elimine risk nan chenn pwodiksyon an. Relouvri yon mache ak kenbe li louvri se de travay ki konekte, men ki bezwen verifikasyon diferan.",
+            "en": "This history does not establish fraud by the six plants or illegality of the initial authorization. It shows that reopening market access did not eliminate production-chain risks. Reopening a market and keeping it open are connected tasks requiring different checks."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Pou elektè yo, bilan Gué sou ekspòtasyon merite mezire ak sa ki te fèt apre anons yo: kontwòl nan jaden ak izin, enfòmasyon pou pwodiktè yo, epi rezilta pwogram li te anonse a. De nouvèl Jiyè yo pa bay tout rezilta sa yo. Yo anpeche nou pran yon anons repriz pou yon siksè ki te deja dire lontan.",
+            "en": "Voters assessing Gué’s export record should examine what followed the announcements: field and processing controls, information for producers and programme outcomes. The two July reports do not provide that complete record. They prevent an announced restart from being mistaken for durable success."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "salomon-opl-2025-protest-cpt-party-division",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-53033c82b2e954b2a7c5"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Salomon ak OPL: konteste yon pouvwa kote yon lòt dirijan pati a te chita",
+        "en": "Salomon and OPL: opposing a council that included another party leader"
+      },
+      "description": {
+        "ht": "Manifestasyon Okay 2025 la montre poukisa yon pati pa toujou pale ak yon sèl vwa. Fòk lyen ak dezakò yo rete vizib ansanm.",
+        "en": "A 2025 protest in Les Cayes shows why a party does not always speak with one voice. Connections and disagreements both need documenting."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "29 Jiyè 2025, Rezo Nòdwès te rapòte lapolis te dispèse yon manifestasyon kont CPT nan Okay, kote ansyen senatè Jean-Marie Junior Salomon ak manm OPL te patisipe. Atik la site sitou patisipan Hervé Saintilus, ki te kritike tou Edgard Leblanc Fils, yon lòt figi OPL ki te nan Konsèy Prezidansyèl Tranzisyon an.",
+            "en": "On July 29, 2025, Rezo Nòdwès reported police dispersing an anti-CPT demonstration in Les Cayes involving former senator Jean-Marie Junior Salomon and OPL members. Its principal quoted participant, Hervé Saintilus, also criticized Edgard Leblanc Fils, another OPL figure serving on the council."
+          },
+          "sources": [
+            "salomon-opl-protest-2025"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Akò politik Avril 2024 la ede konprann lyen an. Li idantifye Leblanc kòm moun Kolektif Pati Politik 30 Janvye 2023 yo te deziyen nan konsèy la. Sa pa fè Salomon yon manm CPT, ni sa pa pwouve li te bay tout desizyon Leblanc yo apwobasyon. Yon alyans ki deziyen yon reprezantan ak tout moun ki nan yon pati pa menm aktè.",
+            "en": "The April 2024 agreement clarifies the connection: it names Leblanc as the collective of January 30 political parties’ council representative. That does not make Salomon a CPT member or establish his approval of Leblanc’s decisions. A nominating coalition and every individual in one party are not the same actor."
+          },
+          "sources": [
+            "transition-pact-april-2024"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Menm jan an, akizasyon Saintilus sou privilèj ak enterè pèsonèl yo pa yon odit sou Leblanc. Yo montre yon dezakò politik ki te rive nan lari a. Sa ki ta fè liy politik pati a pi klè se desizyon ògàn li yo: kiyès ki te gen manda pale, ki pozisyon yo te vote ak kijan yo te trete dezakò a.",
+            "en": "Similarly, Saintilus’s accusations about privilege and personal interests are not an audit of Leblanc. They document a political disagreement expressed through protest. Formal party decisions would clarify who had authority to speak, which positions were adopted and how disagreement was handled."
+          },
+          "sources": [
+            "salomon-opl-protest-2025"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Pou Salomon kòm kandida, epizòd la merite egzamine san de rakousi: pa ba li tout desizyon yon lòt dirijan OPL, epi pa pran patisipasyon nan yon manifestasyon kòm prèv li te kase tout lyen politik yo. Se pozisyon, manda ak aksyon ki pèmèt elektè yo suiv responsablite a.",
+            "en": "For Salomon as a candidate, neither assigning him every OPL colleague’s decision nor treating protest as proof of severed political ties would be sound. Positions, mandates and actions allow voters to trace accountability."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "deus-deronneth-2024-constitution-cpt-judiciary",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-318821d7c6585a15b714"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Deus Deronneth an 2024: konteste yon konsèy pa menm ak anile l",
+        "en": "Deus Deronneth in 2024: challenging a council is not annulling it"
+      },
+      "description": {
+        "ht": "Li te envoke souverènte ak separasyon pouvwa yo. Pou konprann pozisyon an, fòk nou separe agiman yon kandida ak yon desizyon jidisyè.",
+        "en": "He invoked sovereignty and separation of powers. Understanding the position requires distinguishing a candidate’s argument from a judicial decision."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "29 Mas 2024, Rezo Nòdwès te rapòte Deus Deronneth te konteste baz konstitisyonèl Konsèy Prezidansyèl ki t ap prepare avèk fasilitasyon CARICOM nan. Li te apiye agiman li sou atik 1 ak 59 Konstitisyon an: souverènte peyi a ak fason sitwayen delege pouvwa bay twa branch Leta yo.",
+            "en": "On March 29, 2024, Rezo Nòdwès reported Deus Deronneth challenging the constitutional basis of the presidential council being prepared with CARICOM facilitation. He relied on articles 1 and 59: national sovereignty and the delegation of power to the three branches of the state."
+          },
+          "sources": [
+            "deronneth-cpt-constitution-2024"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Dapre atik la, Deronneth te ensiste sou devwa pouvwa jidisyè a pou garanti prensip konstitisyonèl yo nan kriz la. Sa se te yon entèpretasyon ak yon demann politik. Nouvèl la pa site yon desizyon tribinal ki te anile konsèy la oswa ki te bay yon jij otorizasyon pou pran tout pouvwa egzekitif la.",
+            "en": "The article says Deronneth emphasized the judiciary’s duty to uphold constitutional principles during the crisis. That was an interpretation and political demand. It cites no judgment annulling the council or authorizing a judge to assume all executive authority."
+          },
+          "sources": [
+            "deronneth-cpt-constitution-2024"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Akò Avril 2024 la te apre sa dekri yon lòt chemen: nèf moun nan Konsèy Prezidansyèl la, pami yo sèt ki gen dwa vote ak de obsèvatè. Tèks sa a etabli aranjman pati yo te negosye a. Siyati akò a pa ranplase poukont li yon jijman sou tout kesyon konstitisyonèl Deronneth te soulve yo.",
+            "en": "The April agreement subsequently described a different route: nine council members, seven voting and two observers. It records the negotiated arrangement. Signing an agreement does not itself adjudicate every constitutional objection Deronneth raised."
+          },
+          "sources": [
+            "transition-pact-april-2024"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou evalye kandida a, kesyon an se kijan li ta fè yon pozisyon legal tounen yon sòti kriz ki gen règ. Ki enstitisyon ki ta deside, ak ki limit sou pouvwa moun ki ta dirije pandanstan? Mande respè Konstitisyon an se yon prensip. Yon mekanis ki ka aplike san kreye yon lòt pouvwa san kontwòl se travay ki dwe swiv la.",
+            "en": "Assessing the candidate means asking how his legal position would become a governed route out of crisis: which institution decides, and what limits apply to temporary authority? Respect for the Constitution is a principle. An implementable mechanism that avoids another unchecked authority must follow."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "michelet-nestor-2015-medina-letter-citizenship",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-07a633c73b3950999f76"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Michelet Nestor an 2015: defann moun ki gen orijin ayisyen pa sifi ak yon slogan",
+        "en": "Michelet Nestor in 2015: defending people of Haitian descent beyond a slogan"
+      },
+      "description": {
+        "ht": "Lèt li bay Danilo Medina a montre sa li te mande. Li fè parèt yon diferans ant orijin yon moun ak estati legal li.",
+        "en": "His letter to Danilo Medina records a concrete demand. It also highlights the distinction between a person’s ancestry and legal status."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "24 Jen 2015, biwo kandida Michelet Nestor te pibliye yon lèt bay Prezidan dominiken Danilo Medina ak direktè Imigrasyon an. Li te mande kanpe plan ekspilsyon masiv yo epi fasilite yon chemen pou moun ki konsène yo jwenn sitwayènte. Lèt la te ensiste anpil nan yo pa t janm ale Ayiti.",
+            "en": "On June 24, 2015, presidential candidate Michelet Nestor’s office published a letter to Dominican President Danilo Medina and the immigration director. It sought a halt to planned mass expulsions and an accessible path to citizenship, emphasizing that many affected people had never visited Haiti."
+          },
+          "sources": [
+            "nestor-medina-letter-2015"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Se te yon pozisyon kandida a, pa yon desizyon ki te bay moun sa yo dwa rezidans oswa sitwayènte. Lèt la te kritike efè politik dominiken yo epi li te mande yon chanjman. Nou pa itilize tèks 2015 sa a kòm yon gid sou règ imigrasyon ki aplikab jodi a.",
+            "en": "This was the candidate’s position, not a decision granting residence or citizenship. The letter criticized Dominican policy and sought change. It is not used here as guidance on immigration rules applicable today."
+          },
+          "sources": [
+            "nestor-medina-letter-2015"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pwen ki rete enpòtan pou yon elektè se presizyon an. Gen orijin ayisyen pa bay poukont li tout repons sou kote yon moun fèt, sitwayènte li oswa dwa li. Yon politik ki mete tout moun nan menm sak ka rate sitiyasyon ki diferan. Defann moun mande konprann diferans sa yo, pa sèlman rele tout moun « konpatriyòt ».",
+            "en": "For voters, the lasting issue is precision. Haitian ancestry alone does not establish birthplace, citizenship or rights. A policy treating everyone identically can miss different situations. Defending people requires understanding those distinctions rather than relying solely on a shared-ancestry appeal."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lèt la bay yon angajman Nestor te pran anvan retou li nan pwosesis elektoral aktyèl la. Pou mezire swivi li, prèv ki itil yo ta montre demach ki te fèt apre lèt la, patnè ki te mobilize ak rezilta ki te jwenn. Pibliye yon demann ak jwenn yon chanjman pou moun yo pa menm etap.",
+            "en": "The letter records a commitment made before Nestor’s return to the current electoral process. Evaluating follow-through requires evidence of subsequent initiatives, partners mobilized and outcomes obtained. Publishing a demand and securing change for the affected people are different stages."
           },
           "sources": []
         }

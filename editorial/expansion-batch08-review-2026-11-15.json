@@ -1,0 +1,37 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_articles": 10,
+  "articles": [
+    "michelet-nestor-2015-social-origins-transparency",
+    "nestor-savary-dpa-launch-current-party-affiliation",
+    "rene-st-fort-displaced-voters-registration-access",
+    "dominique-dupuy-2024-deportations-diplomacy-protection",
+    "jacky-lumarque-mouka-women-rights-public-record",
+    "joanas-gue-2008-storm-losses-recovery-funding",
+    "joanas-gue-2007-mango-exports-stop-restart",
+    "salomon-opl-2025-protest-cpt-party-division",
+    "deus-deronneth-2024-constitution-cpt-judiciary",
+    "michelet-nestor-2015-medina-letter-citizenship"
+  ],
+  "languages": [
+    "ht",
+    "en"
+  ],
+  "independent_language_review": {
+    "ht_only_retellings_saved_before_english": true,
+    "paired_passages_checked": 90,
+    "required_replacements_applied": 4,
+    "optional_refinements_applied": 1,
+    "word_ceiling_per_article_per_language": 500
+  },
+  "source_checks": [
+    "Nestor2015biography attributed to an interview-based commentary; no personal asset, diploma or full genealogy certification inferred.",
+    "DPAlaunchfulloriginalpost read from public publisher API, contrasting prospective selection with later consensus/registration. Savannah currently HAMAD, not assigned DPA solely by event attendance.",
+    "PresidencyONMOct8,2024counts and assignment to Dupuy separated from a successful diplomacy outcome.",
+    "Mouka home and thematic record accessible; collective institutional output not sole-person achievement or measured nationwide impact.",
+    "Gué2008 losses, recovery need and hoped-for budget resources not added/subtracted across currencies; unspecified dollars remain unspecified.",
+    "MangoJuly2007 restart and later suspension distinguished; no fraud or illegal authorization inferred.",
+    "SalomonOPLprotest and LeblancCollective30JanuaryCPTseat distinguished from all party members sharing decisions.",
+    "Deronneth constitutional view is not a court judgment. Nestor2015letter is not current immigration advice."
+  ]
+}
