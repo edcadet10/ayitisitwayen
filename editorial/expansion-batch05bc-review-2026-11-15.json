@@ -1,0 +1,30 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_articles": 6,
+  "articles": [
+    "moise-durocher-million-half-jobs-measurement",
+    "martelly-charles-saint-remy-family-adviser-sanctions",
+    "jude-celestin-cne-machines-inventory-2008",
+    "hans-joseph-166-files-justice-outcomes",
+    "martelly-bautista-contracts-before-presidency",
+    "martelly-son-olivier-2016-order-not-ready-judgment"
+  ],
+  "languages": [
+    "ht",
+    "en"
+  ],
+  "independent_language_review": {
+    "ht_only_retellings_saved_before_english": true,
+    "paired_passages_checked": 71,
+    "required_replacements_applied": 3,
+    "optional_refinements_applied": 4,
+    "word_ceiling_per_article_per_language": 500
+  },
+  "parent_copy_edit": "Clarified that ECC traced information on files; replaced unexplained court-registry terminology. Unknown exact day of Senate-report publication left null.",
+  "source_checks": [
+    "Bautista current OFAC name ROSARIO, Felix Ramon Bautista, GLOMAG verified from November15SDN snapshot.",
+    "Contract values not payments or proven losses; original2010contracts predateMartelly.",
+    "Court2016operative pages8and9 visually checked in public reader; interlocutory order not a final conviction or clearance.",
+    "Two-agency2005-2024referral total not attributed to one director; reportcounts distinguished from judgments."
+  ]
+}
