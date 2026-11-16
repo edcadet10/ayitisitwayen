@@ -1,0 +1,39 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_articles": 10,
+  "articles": [
+    "claude-joseph-2022-dominican-entry-ban-gang-list",
+    "martelly-july-2026-moise-investigation-witness",
+    "claude-joseph-ede-smith-augustin-bnc-accountability",
+    "wilner-joseph-government-adviser-electoral-fairness",
+    "jerry-tardieu-france-scholarships-public-partners",
+    "martelly-asset-disclosure-2025-account-counts",
+    "hans-joseph-high-court-decree-parliament-gate",
+    "lucmanne-delille-2020-police-union-order",
+    "dupuy-savary-two-women-32-presidential-registrations",
+    "candidates-public-money-private-money-same-scrutiny"
+  ],
+  "languages": [
+    "ht",
+    "en"
+  ],
+  "independent_language_review": {
+    "ht_only_retellings_saved_before_english": true,
+    "paired_passages_checked": 100,
+    "required_replacements_applied": 4,
+    "optional_refinements_applied": 1,
+    "word_ceiling_per_article_per_language": 500
+  },
+  "source_checks": [
+    "Dominican entry restriction dates to September2022, not the2023canal dispute; same-list membership not proof of gang affiliation. AP records Joseph response.",
+    "MartellyJuly20,2026Haitian witness hearing separated from UStrial and personal guilt; status attributed to lawyer.",
+    "EDE2024support/withdrawal/nomination separated from Joseph personal liability; RNDDH reproduces2025appeal operative wording continuing investigation while suspending summons during office.",
+    "Wilneradviser role dated to September source, not current payroll certification.",
+    "BRHscholarship financing identified in candidate own2016account; laterFrench scholarship arrangements not merged.",
+    "Martellyasset allegations attributed to news account ofULCC, not personally reviewed full report;20entry and17exit counts not summed as37distinct accounts.",
+    "HighCourtDecember2025primary8page text read; articles4and12scope tension identified; no constitutional ruling or case outcome invented.",
+    "Delille2020policeunion text is historical and collective government action.",
+    "CEPfour-pageNov15presidential snapshot32entries:30M/2F;6.25percent registrations not polling or final approval."
+  ],
+  "search_audit": "Native article/schema, citation, canonical, language, feed and sitemap parity check added. Structured Elections breadcrumb corrected to match visible navigation."
+}

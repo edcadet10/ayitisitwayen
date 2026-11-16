@@ -27,6 +27,7 @@ jobs:
       - run: python scripts/build-publish.py
       - run: python scripts/build-sitemaps.py --check
       - run: python scripts/check-language-routing.py
+      - run: python scripts/check-editorial-seo.py
       - run: python scripts/check-seo.py
       - run: python scripts/check-publish.py
       - run: node --check candidate-common.js && node --check candidate-directory.js && node --check candidate-web.js && node --check editorial.js
