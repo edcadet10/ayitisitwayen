@@ -203,8 +203,8 @@
       "en": "Choose two different candidates."
     },
     "comparison_pending": {
-      "ht": "Nou poko pibliye konparezon sa a. Ou ka li dosye kandida yo pi ba a.",
-      "en": "This comparison has not been published yet. You can read the candidate profiles below."
+      "ht": "Nou poko pibliye atik konparezon sa a. Tablo rejis ki pi ba a deja pèmèt ou konpare de kandida sa yo.",
+      "en": "The comparison article is not published yet. The registry table below still lets you compare these two candidates."
     },
     "comparison_ready": {
       "ht": "Konparezon sa a disponib. Peze bouton an pou li l.",
@@ -2447,6 +2447,48 @@
         "ht": "Harold Isaac idantifye ansyen Premyè dam nan kòm nouvo kandida nan lekti CEP a. Li di Martine Moïse poko fè kòmantè piblik sou enskripsyon an; pa pran yon ansyen deklarasyon kòm pwogram kanpay sa a.",
         "en": "Harold Isaac identifies the former first lady as the new registrant in the CEP reading. He reports no public comment from her on registration; an earlier statement is not treated as this campaign’s programme."
       }
+    },
+    "cep-party-footprint-20261115": {
+      "publisher": "Conseil Électoral Provisoire / Ayiti Sitwayen",
+      "url": "https://tableau.cephaiti.ht/",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Kalkil sou enskripsyon pa kòd pati, kopi 15 Novanm nan",
+        "en": "Party-code registration calculations, November 15 snapshot"
+      },
+      "note": {
+        "ht": "Koleksyon konplè a bay 11,142 antre. Nou konte kòd pati yo egzakteman jan yo ekri; nou pa mete lòt pati oswa antre ki pa parèt nan kopi sa a ansanm ak yo. Se enskripsyon preliminè, pa manm, sipòtè, vòt oswa moun ki fin apwouve.",
+        "en": "The complete collection contains 11,142 entries. We match party codes exactly, without merging other parties or entries absent from this snapshot. These are preliminary registrations, not membership, supporters, votes or approved candidacies."
+      }
+    },
+    "doj-moise-four-verdict-20260508": {
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/four-defendants-convicted-plot-kill-haitian-president-jovenel-moise",
+      "published_at": "2026-05-08",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Jiri Miami kondane kat gason, 8 Me 2026",
+        "en": "Miami jury convicts four men, May 8, 2026"
+      },
+      "note": {
+        "ht": "Kominike a idantifye Pretel Ortiz, Intriago, Veintemilla ak Solages nan vèdik sa a. Li dekri blesi Martine Moïse pandan atak la. Sa pa tout dosye jidisyè asasina a ni yon jijman sou tout moun ki site ladan l.",
+        "en": "The statement identifies Pretel Ortiz, Intriago, Veintemilla and Solages in this verdict and describes Martine Moïse’s injuries during the attack. It is not the complete assassination docket or a judgment on everyone mentioned in it."
+      }
+    },
+    "ap-martine-witness-20260311": {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/41b1c9617d4ab1b79599c3ee7e4ec4dd",
+      "published_at": "2026-03-11",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "AP: Martine Moïse temwaye nan pwosè kat gason nan Miami",
+        "en": "AP: Martine Moïse testifies at four men’s Miami trial"
+      },
+      "note": {
+        "ht": "Rapò sou temwayaj 11 Mas 2026 la. Se rapò yon jounalis, pa transkripsyon konplè odyans lan. Wòl temwen nan pwosè sa a rete separe ak etap ankèt ann Ayiti.",
+        "en": "Report of her March 11, 2026 testimony, not the complete hearing transcript. Her witness role in that trial is kept separate from the Haitian inquiry."
+      }
     }
   },
   "articles": [
@@ -2766,12 +2808,12 @@
         {
           "kind": "record",
           "text": {
-            "ht": "Ozetazini, se yon lòt pwosedi. Nan mwa Septanm 2026, Depatman Jistis te anonse transfè 18 moun soti Ayiti pou Miami nan yon dosye ki te gen 30 moun akize. BINUH rapòte yo te deja jwenn dis moun koupab Ozetazini nan dat 30 Septanm. Sa pa vle di tout moun yo akize yo te kondane.",
-            "en": "The United States has separate proceedings. In September 2026, the Justice Department announced the transfer of 18 defendants from Haiti to Miami in a case involving 30 indicted people. BINUH reports that ten people had been found guilty in the United States by September 30. That does not mean every accused person was convicted."
+            "ht": "Etazini gen pwosedi apa. Depatman Jistis la te anonse 8 Me 2026 yon jiri kondane Arcangel Pretel Ortiz, Antonio Intriago, Walter Veintemilla ak James Solages. An Septanm, li anonse transfè 18 akize soti Ayiti pou Miami nan yon dosye ki gen 30 moun yo mete an akizasyon. Se de etap diferan, pa 30 kondanasyon.",
+            "en": "The United States has separate proceedings. On May 8, 2026, the Justice Department announced a jury had convicted Arcangel Pretel Ortiz, Antonio Intriago, Walter Veintemilla and James Solages. In September, it announced 18 defendants’ transfer from Haiti to Miami in a case involving 30 indicted people. These are different stages, not 30 convictions."
           },
           "sources": [
-            "doj-moise-20260921",
-            "binuh-q3-2026"
+            "doj-moise-four-verdict-20260508",
+            "doj-moise-20260921"
           ]
         },
         {
@@ -10080,6 +10122,542 @@
           "sources": []
         }
       ]
+    },
+    {
+      "slug": "daniest-adrien-vs-ricardo-jean-pierre",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-fc4335e0768d55ee8d62",
+        "c-27353ad57d705ce8a375"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Daniest Adrien ak Ricardo Jean Pierre: lis yon pati pa kantite vòt li",
+        "en": "Daniest Adrien vs Ricardo Jean Pierre: a party slate is not its vote total"
+      },
+      "description": {
+        "ht": "PRC gen plis antre pou Sena; PANAH gen yon antre anplis pou depite. Done yo montre ki kote pati yo antre nan konpetisyon an, san predi kiyès k ap genyen.",
+        "en": "PRC has more Senate entries; PANAH has one more deputy entry. The data show participation in the contest without predicting who will win."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Anvan nou deklare yon kandida «fò» oswa «fèb», fòk nou di kisa nou mezire. Pou Daniest Adrien ak Ricardo Jean Pierre, rejis CEP a bay yon pwen konparezon ki verifyab: lòt enskripsyon ki pote menm kòd pati ak yo.",
+            "en": "Before describing a candidate as strong or weak, we need to say what is being measured. For Daniest Adrien and Ricardo Jean Pierre, the CEP registry provides a checkable comparison: other registrations carrying their party codes."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Adrien parèt anba PRC; Jean Pierre anba PANAH. Nan koleksyon 11,142 antre nou rekonsilye a, PRC gen sèt antre pou Sena ak uit pou Chanm Depite. PANAH gen twa pou Sena ak nèf pou Chanm Depite. Nou konte antre anba kòd egzak sa yo, pa moun nou sipoze alye ak kandida yo.",
+            "en": "Adrien appears under PRC; Jean Pierre under PANAH. In the reconciled collection of 11,142 entries, PRC has seven Senate and eight Chamber of Deputies entries. PANAH has three Senate and nine deputy entries. We count exact codes, not people presumed to be their allies."
+          },
+          "sources": [
+            "cep-party-footprint-20261115"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Konparezon an chanje selon pòs la. PRC gen kat antre anplis pou Sena; PANAH gen youn anplis pou depite. Se kalkil sou menm kopi a. Sa pa bay kantite syèj yo pral genyen, ni yon majorite palmantè pou yon prezidan. CEP poko fin apwouve tout kandidati sa yo, epi chak sikonskripsyon gen pwòp elektè li.",
+            "en": "The comparison changes with the office. PRC has four more Senate entries; PANAH has one more deputy entry. These calculations use the same snapshot. They establish neither seats won nor a president’s parliamentary majority. The CEP has not finished approving these candidacies, and each constituency has its own voters."
+          },
+          "sources": [
+            "cep-party-footprint-20261115"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Done sa yo itil paske yon pwogram prezidansyèl ka bezwen lwa ak desizyon lòt nivo Leta. Men yon enskripsyon pa yon angajman vote menm jan sou chak lwa. Antant ak lòt pati kapab egziste san yo pa parèt nan konte sa a. Nou pa gen baz isit la pou envante pwogram, finansman oswa istwa fanmi kandida yo. Premye egzamen an se mande menm dokiman sa yo nan men toude, pandan nou konsève diferans dosye a montre deja yo.",
+            "en": "These data matter because a presidential programme may require laws and decisions at other levels of government. Registration is not a commitment to vote together on every law. Agreements with other parties may exist outside this count. This record does not support inventing either candidate’s programme, financing or family history. The next test is obtaining the same documents from both while preserving the differences already established."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "kely-bastien-vs-junior-salomon",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-eafa5d1131725d7384c9",
+        "c-53033c82b2e954b2a7c5"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Kely Bastien ak Junior Salomon: yon tit nan Sena pa esplike tout pouvwa a",
+        "en": "Kely Bastien vs Junior Salomon: a Senate title does not explain all the power"
+      },
+      "description": {
+        "ht": "Dosye yo poze de kesyon diferan: kijan yon dirijan rann kont, epi kijan li resevwa otorite pou dirije.",
+        "en": "Their records raise different questions: how a leader accounts for his decisions, and how he obtains authority to lead."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon moun ka gen eksperyans nan Sena san sa pa esplike kijan li te sèvi ak pouvwa li. Kely Bastien ak Jean-Marie Junior Salomon bay de egzanp ki mande dokiman diferan: tras administrasyon yon enstitisyon ak règ ki bay dwa dirije l.",
+            "en": "Senate experience does not, by itself, explain how someone exercised power. Kely Bastien and Jean-Marie Junior Salomon provide two examples requiring different records: the administration of an institution and the rules granting authority to lead it."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon brèf nan yon rapò vwayaj 2011 sou sit Komite Afè Etranjè Sena ameriken an idantifye Bastien kòm senatè Nò epi li rapòte eleksyon li kòm prezidan Sena an 2008. Li prezante transparans ak pi bon relasyon ant branch Leta kòm objektif li. Sa se objektif nan dokiman an, pa yon odit ki konfime yo te reyalize.",
+            "en": "A briefing in a 2011 trip report hosted by the U.S. Senate Foreign Relations Committee identifies Bastien as a northern senator and records his election as Senate president in 2008. It presents transparency and better relations between branches as his objectives. Those are documented aims, not an audit confirming delivery."
+          },
+          "sources": [
+            "senate-fund-2011-bastien"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Salomon, yon rapò Rezo Nòdwès 13 Janvye 2020 dekri anons li te fè pou pran prezidans Sena a pwovizwaman pandan konfli sou manda yo. Li te site karaktè pèmanan Sena a nan atik 95-1 Konstitisyon an. Sekretè jeneral Rony Gilot te raple règ sou eleksyon biwo a ak wòl pwovizwa doyèn laj la.",
+            "en": "For Salomon, Rezo Nòdwès’s January 13, 2020 report describes his announcement that he was provisionally assuming the Senate presidency during the dispute over terms. He cited the Senate’s permanent character under Constitution Article 95-1. Secretary-general Rony Gilot recalled rules on electing the bureau and an interim role for the oldest member."
+          },
+          "sources": [
+            "salomon-senate-chair-2020"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Dire yon enstitisyon ak dwa yon moun dirije l pa menm kesyon. Pou Bastien, egzamen an suiv bidjè, depans ak piblikasyon desizyon pandan responsablite li. Pou Salomon, li bezwen pwosedi, vòt ak pwosè vèbal ki esplike otorite li te reklame a. Nou pa sèvi ak de rapò sa yo pou tranche tout konfli legal sou Sena a.",
+            "en": "An institution’s continuity and an individual’s authority to lead it are different questions. For Bastien, scrutiny follows budgets, expenditure and publication of decisions during his responsibilities. For Salomon, it requires procedures, votes and minutes explaining the authority claimed. These two reports cannot adjudicate every legal dispute over the Senate."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kandida ki pale de respekte enstitisyon bezwen esplike tou ki pwosedi li aksepte lè pwosedi a ka limite pwòp pouvwa li. Se pwen ki konekte de dosye yo: règ yo dwe mache lè yo ede yon lidè ak lè yo anpeche l fè sa li vle.",
+            "en": "A candidate advocating respect for institutions must also explain which procedures he accepts when they limit his own power. That connects the records: rules must operate both when they help a leader and when they prevent him doing what he wants."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "deus-deronneth-vs-marc-arthur-drouillard",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-318821d7c6585a15b714",
+        "c-11e21ae7092757dcaaaa"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Déus Deronneth ak Marc-Arthur Drouillard: yon rezilta pa tout istwa yon eleksyon",
+        "en": "Déus Deronneth vs Marc-Arthur Drouillard: a result is not the whole election story"
+      },
+      "description": {
+        "ht": "Youn te jwenn yon chanjman rezilta apre kontestasyon. Lòt la te anonse retrè li pou soutni Jovenel Moïse. Se de zak diferan pou egzamine nan dosye yo.",
+        "en": "One obtained a changed result after challenges. The other announced withdrawal to support Jovenel Moïse. These are different political acts to examine."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon lis vòt ka kache jan yon kandida te rive nan pozisyon li. Nan dosye 2016 yo, Déus Deronneth ak Marc-Arthur Drouillard montre poukisa fòk nou li desizyon ak alyans ki vini ansanm ak chif yo.",
+            "en": "A vote table can obscure how a candidate reached his position. Déus Deronneth’s and Marc-Arthur Drouillard’s 2016 records show why decisions and alliances must be read alongside totals."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò obsèvatè Inyon Ewopeyen yo di egzamen 34 kontestasyon lejislatif te chanje yon sèl rezilta depite: Marigo. Rezo Nòdwès te rapòte an Janvye 2017 desizyon final la bay Deronneth, ki te kandida PONT, viktwa sou Dieudonné Lhérisson, ki te devan nan rezilta preliminè yo. Atik la pa kopi jijman elektoral la.",
+            "en": "The EU observers’ report says examination of 34 legislative challenges reversed one deputy result: Marigot. In January 2017, Rezo Nòdwès reported that the final decision gave PONT candidate Deronneth victory over Dieudonné Lhérisson, who led in preliminary results. The article is not the electoral judgment itself."
+          },
+          "sources": [
+            "eu-election-2016",
+            "deronneth-marigot-result"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Drouillard, menm rapò Inyon Ewopeyen an note retrè li an favè Jovenel Moïse 27 Septanm 2016. Anèks rezilta pwovizwa yo bay Drouillard 978 vòt. De enfòmasyon yo ka mache ansanm: anonse retrè pa otomatikman retire yon non nan tout materyèl elektoral oswa anpeche moun vote pou li.",
+            "en": "For Drouillard, the same EU report records his September 27, 2016 withdrawal in favour of Jovenel Moïse. Its provisional-results annex gives Drouillard 978 votes. Both can be true: announcing withdrawal does not automatically remove a name from every electoral material or prevent votes for it."
+          },
+          "sources": [
+            "eu-election-2016"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Deronneth bezwen esplike dosye ak règ ki te chanje rezilta a. Drouillard bezwen esplike chwa soutni Moïse a ak fason li evalye l apre sa. Lè yon kandida genyen yon kontestasyon, sa pa otomatikman prèv fwod; soutni yon kandida pa prèv patisipasyon nan zak lòt moun fè pita. Nou pa sèvi ak 978 vòt pwovizwa yo pou mezire sipò Drouillard genyen jodi a.",
+            "en": "Deronneth’s record calls for the documents and rules that changed the result. Drouillard’s calls for an account of his endorsement and how he assesses it afterward. Winning a challenge is not automatically proof of fraud; endorsing a candidate is not participation in others’ later acts. The provisional 978 votes do not measure Drouillard’s support today."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Konparezon an se sou fason yo antre nan konpetisyon ak aksepte règ li yo. Elektè bezwen desizyon ki aksesib ak alyans ki gen dat, pou yo pa pran yon chif pou tout yon karyè.",
+            "en": "The comparison concerns how they compete and accept the contest’s rules. Voters need accessible decisions and dated alliances so a single figure does not stand in for an entire career."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "gandhy-dorfeuille-vs-joanas-gue",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-6294b51c7cdc5f969078",
+        "c-bf5bb68eea8a5b819128"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Gandhy Dorfeuille ak Joanas Gué: apre seremoni an, èske sèvis la dire?",
+        "en": "Gandhy Dorfeuille vs Joanas Gué: after the launch, does the service last?"
+      },
+      "description": {
+        "ht": "Elektrisite ak irigasyon pa menm sèvis. Yo pataje yon egzamen: konekte lajan, travay ki fèt ak antretyen moun bezwen apre sa.",
+        "en": "Electricity and irrigation are different services. Both require tracing money through completed work to the maintenance people need afterward."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon liy elektrik bezwen bay kouran. Yon kanal bezwen pote dlo lè plant yo bezwen li. Dosye Gandhy Dorfeuille ak Joanas Gué mande pou nou gade sa ki rete apre yon travay anonse oswa inogire.",
+            "en": "An electricity line needs to deliver power. A canal needs to carry water when crops need it. Gandhy Dorfeuille’s and Joanas Gué’s records call for examining what remains after work is announced or inaugurated."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon atik 22 Avril 2014, Le Nouvelliste dekri dezyèm faz elektrifikasyon Senlwi Disid, avèk depite Dorfeuille. Ekstrè piblik la bay yon bidjè 24 milyon goud finanse nan Trezò, ak 18 milyon ki te deja disponib. Diferans sis milyon an pa prèv lajan disparèt: bidjè, lajan disponib ak depans ki fèt se mezi diferan.",
+            "en": "An April 22, 2014 Le Nouvelliste report describes a second electrification phase in Saint-Louis du Sud involving deputy Dorfeuille. The public excerpt gives a Treasury-funded budget of 24 million gourdes, with 18 million already available. The six-million difference is not proof of missing money: a budget, available funds and executed expenditure are different measures."
+          },
+          "sources": [
+            "dorfeuille-electricity-2014"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Gué, Métropole rapòte 7 Janvye 2009 deklarasyon li kòm minis Agrikilti: fon ijans te sèvi pou repare 115 sistèm irigasyon apre siklòn 2008 yo. Se kont minis la bay; se pa odit pa nou sou chak sistèm. Kantite reparasyon an pa bay kantite rekòt ki te pwoteje pandan ane apre yo.",
+            "en": "For Gué, Métropole reported his January 7, 2009 statement as agriculture minister that emergency funds had repaired 115 irrigation systems after the 2008 hurricanes. This is his account, not our audit of each system. A repair total does not establish harvests protected in subsequent years."
+          },
+          "sources": [
+            "gue-agriculture-2009"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nou pa kapab klase de travay sa yo ak yon sèl chif. Ane yo, pòs yo ak sèvis yo diferan. Pou Dorfeuille, nou bezwen resepsyon travay, koneksyon ki te antre an sèvis ak dire sèvis la. Pou Gué, nou bezwen kote 115 sistèm yo ye, sa yo repare ak responsab antretyen yo. Nan toude, kontra ak peman dwe konekte ak yon sèvis moun kapab verifye.",
+            "en": "A single figure cannot rank the two records. Years, roles and services differ. For Dorfeuille, assessment needs completion records, connections entering service and duration of supply. For Gué, it needs the 115 systems’ locations, repairs and maintenance responsibilities. In both, contracts and payments must connect to a service people can verify."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon pann jodi a pa pwouve yon travay ansyen pa t fèt: lòt dezas ak lòt administrasyon kapab pase apre. Men eksperyans yon kandida dwe ede l esplike kijan pwochen pwojè a pral kontinye sèvi piblik la. Antretyen se yon pati nan pwomès la, menm si li fè mwens foto pase yon inogirasyon.",
+            "en": "A failure today does not prove earlier work never occurred: later disasters and administrations can intervene. A candidate’s experience should nevertheless explain how the next project will keep serving the public. Maintenance belongs in the promise, even when it produces fewer photographs than an inauguration."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jude-elie-vs-wilner-joseph",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-a16d010ca47352d98607",
+        "c-270874e16ee85d36bc51"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jude Elie ak Wilner Joseph: non yon enstitisyon pa esplike wòl yon moun",
+        "en": "Jude Elie vs Wilner Joseph: an institution’s name does not explain a person’s role"
+      },
+      "description": {
+        "ht": "Yon tablo NYCHA ak yon rapò sou yon konseye gouvènman bay de pwen depa. Fòk nou separe pòs, dat ak rezilta anvan nou evalye eksperyans yo.",
+        "en": "A NYCHA chart and a report identifying a government adviser provide two starting points. Roles, dates and outcomes need separating before experience can be assessed."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè yon kandida site yon gwo enstitisyon, elektè bezwen konnen sa moun nan te fè ladan l. Dosye Jude Elie ak Wilner Joseph fè nou egzamine travay presi, san fè tout reyalizasyon yon administrasyon tounen reyalizasyon yon sèl moun.",
+            "en": "When a candidate cites a major institution, voters need to know what the person did there. Jude Elie’s and Wilner Joseph’s records call for specific responsibilities, without turning an entire administration’s achievements into one individual’s record."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon tablo òganizasyon 2018 sou sit Vil Nouyòk la, non Jude Elie parèt pami twa planifikatè «A/E» nan ekip planifikasyon kapital NYCHA, anba responsab bezwen fizik yo. Nou te verifye plasman sa a vizyèlman. Sa konfime yon wòl ekip nan dat la, pa direksyon tout ajans lan, travay aktyèl li oswa yon evalyasyon pèfòmans li.",
+            "en": "A 2018 organization chart on New York City’s website places Jude Elie among three “A/E Planners” in NYCHA capital planning, under the Physical Needs Manager. We checked that placement visually. It confirms a team role at that time, not leadership of the entire agency, current employment or a performance evaluation."
+          },
+          "sources": [
+            "nycha-elie-chart-2018"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Vant Bèf Info, nan rapò 16 Septanm 2026 sou enskripsyon Wilner Joseph anba VIKTWA, idantifye l kòm konseye espesyal Premye minis la. Nou pa pran rapò sa a kòm prèv salè oswa fonksyon li genyen jodi a. Li bay yon wòl rapòte nan yon dat presi, ki pèmèt egzamine kijan travay gouvènman ak aktivite elektoral te rete separe.",
+            "en": "Vant Bèf Info’s September 16, 2026 report on Wilner Joseph’s registration under VIKTWA identifies him as the prime minister’s special adviser. We do not treat that report as verification of his current payroll or role. It supplies a dated reported position from which to examine the separation of government work and electoral activity."
+          },
+          "sources": [
+            "wilner-adviser-registration-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa yo pa de tit ki sou yon menm echèl. NYCHA se yon otorite lojman nan Nouyòk; yon konseye Premye minis la nan yon lòt estrikti politik. Pou Elie, dosye itil yo se pwojè, responsablite desizyon ak rezilta. Pou Joseph, yo se manda konseye a, travay li te livre ak règ sou itilizasyon resous piblik pandan kanpay. Yon tit pa bay repons sa yo poukont li.",
+            "en": "These are not two titles on a common ladder. NYCHA is a New York housing authority; a prime minister’s adviser works in a different political structure. Useful records for Elie concern projects, decision responsibilities and outcomes. For Joseph, they concern the adviser’s mandate, work delivered and rules on public resources during a campaign. A title does not supply those answers by itself."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Konparezon an pa deklare youn pi wo pase lòt la. Li mande menm disiplin nan men toude: montre sa w te responsab fè, sa w te gen dwa deside ak sa piblik la ka verifye apre sa.",
+            "en": "The comparison does not rank one above the other. It requires the same discipline from both: establish assigned responsibilities, actual decision authority and what the public can verify afterward."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "walsonn-sanon-vs-clarens-renois",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-9aa099e78f485f8daa4b",
+        "c-a8679d21107058f5bc35"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Walsonn Sanon ak Clarens Renois: refize yon pak, siyen yon lòt",
+        "en": "Walsonn Sanon vs Clarens Renois: rejecting one pact, signing another"
+      },
+      "description": {
+        "ht": "Se pa menm akò a ni menm ane a. De pozisyon yo pèmèt egzamine kiyès ki patisipe nan desizyon tranzisyon yo ak kijan lidè yo rann kont.",
+        "en": "The agreements and years differ. Their positions allow scrutiny of participation in transitional decisions and how leaders account for those choices."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Siyen yon akò pa sifi pou fè l lejitim pou tout moun; refize yon akò pa otomatikman yon refi dyalòg. Dosye Walsonn Sanon ak Clarens Renois montre poukisa fòk nou li kondisyon yon pozisyon politik, pa sèlman foto siyati yo.",
+            "en": "Signing an agreement does not establish legitimacy for everyone; rejecting one does not automatically reject dialogue. Walsonn Sanon’s and Clarens Renois’s records show why a political position’s conditions matter alongside photographs of signatures."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan entèvyou Scoop FM te rapòte 27 Desanm 2022, Sanon, lidè SOLID lè sa a, te rejte akò 21 Desanm nan. Li di yo te pwomèt fè chanjman pou reponn ak rezèv òganizasyon li te fè yo, men li te aprann sou rezo sosyal yo siyati a t ap fèt. Li te kritike fason yo chwazi Mirlande Manigat nan Wo Konsèy Tranzisyon an tou. Sa se kont li bay sou pwosesis la.",
+            "en": "In Scoop FM’s December 27, 2022 interview, Sanon, then SOLID’s leader, rejected the December 21 agreement. He said his organization’s reservations had received promises of revision, but he learned through social media that signing would proceed. He also criticized Mirlande Manigat’s selection in the High Transition Council. This is his account of the process."
+          },
+          "sources": [
+            "sanon-solid-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Renois parèt kòm siyatè yon lòt pak: akò politik Avril 2024 la, pou Kolektif Pati Politik 30 Janvye 2023 a. Edgard Leblanc Fils, pa Renois, te reprezantan kolektif la nan Konsèy Prezidansyèl Tranzisyon an. Pak sa a te bay sekirite, refòm ak eleksyon kòm priyorite, ak mekanis pou suiv aplikasyon l.",
+            "en": "Renois appears as a signatory to a different pact: the April 2024 agreement, for the Collective of Political Parties of January 30, 2023. Edgard Leblanc Fils, not Renois, was its Transitional Presidential Council representative. The pact prioritized security, reform and elections, with implementation-monitoring mechanisms."
+          },
+          "sources": [
+            "transition-pact-april-2024"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Wo Konsèy Tranzisyon ki mache ak akò 2022 a pa menm ak Konsèy Prezidansyèl 2024 la. Konpare de dosye yo pa fè Sanon ak Renois pran pozisyon opoze sou yon menm tèks. Siyati Renois pa fè l otè chak desizyon konsèy la; kritik Sanon pa pwouve pwòp pati li ouvè devan tout manm li.",
+            "en": "The High Transition Council associated with the 2022 agreement differs from the 2024 Presidential Council. Comparing these records does not place Sanon and Renois on opposing sides of one text. Renois’s signature does not make him the author of every council decision; Sanon’s criticism does not prove his own party is open to all its members."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Egzamen ki komen an se règ patisipasyon: kiyès ki chwazi reprezantan yo, kijan yon dezakò anrejistre ak kiyès ki ka mande eksplikasyon apre yon echèk? Toude ka montre sa yo te mande pou tranzisyon an ak sa yo pratike nan pwòp òganizasyon yo. Se konsa konsansis ka vin yon pwosesis sitwayen ka suiv, olye li rete yon mo lidè itilize sèlman.",
+            "en": "The common test concerns participation: who selects representatives, how disagreement is recorded and who can demand explanations after failure. Both can show what they required of the transition and what their own organizations practise. That lets consensus become a process citizens can follow rather than a word leaders invoke."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "martine-moise-vs-claude-joseph",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-7a166482a2bb5b41af62",
+        "c-c9c792b353345247be19"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Martine Moïse ak Claude Joseph: menm asasina, wòl jidisyè diferan",
+        "en": "Martine Moïse vs Claude Joseph: one killing, different judicial roles"
+      },
+      "description": {
+        "ht": "Yon sivivan ak yon ansyen Premye minis parèt nan diferan etap jidisyè. Enskripsyon yo nan eleksyon pa ni efase dosye yo ni bay yon vèdik sou yo.",
+        "en": "A survivor and a former prime minister appear at different judicial stages. Election registration neither erases those records nor supplies a verdict on them."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Martine Moïse ak Claude Joseph parèt nan ras prezidansyèl la, men non yo nan dosye asasina Jovenel Moïse a pa bay yo menm wòl. Pou yon elektè konprann, fòk nou mete fonksyon, akizasyon ak desizyon nan lòd yo.",
+            "en": "Martine Moïse and Claude Joseph appear in the presidential race, but their names in the Jovenel Moïse assassination record do not give them identical roles. Voters need responsibilities, allegations and decisions placed in sequence."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kominike Depatman Jistis ameriken an sou vèdik 8 Me 2026 la dekri Martine kòm Premyè dam ki te blese grav pandan atak 7 Jiyè 2021 an. Kominike Depatman Deta pou jou asasina a idantifye Joseph kòm Premye minis enterimè. Blesi yon sivivan ak responsablite yon chèf gouvènman se de pwen depa diferan. AP rapòte Martine Moïse te temwaye nan pwosè kat gason nan Miami an Mas 2026.",
+            "en": "The U.S. Justice Department’s May 8, 2026 verdict statement describes Martine as the first lady seriously wounded during the July 7, 2021 attack. The State Department’s statement on the assassination date identifies Joseph as acting prime minister. A survivor’s injuries and a government leader’s responsibilities are different starting points. AP reported her testimony at four men’s Miami trial in March 2026."
+          },
+          "sources": [
+            "doj-moise-four-verdict-20260508",
+            "state-joseph-20210707",
+            "ap-martine-witness-20260311"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Vant Bèf Info rapòte ansyen òdonans 2024 la te voye toude devan tribinal kriminèl pou akizasyon konplisite. Men menm sous la rapòte Koudapèl Pòtoprens te anile òdonans lan 13 Oktòb 2025 epi mande yon nouvo enstriksyon. Rapò BINUH pou Jiyè–Septanm 2026 konfime odyans nan ankèt siplemantè a te kontinye an Jiyè ak Out.",
+            "en": "Vant Bèf Info reports that the earlier 2024 order referred both for criminal trial over alleged complicity. The same source reports that the Port-au-Prince appeals court annulled that order on October 13, 2025 and required renewed investigation. BINUH’s July–September 2026 report confirms further hearings in the supplementary inquiry during July and August."
+          },
+          "sources": [
+            "vbi-moise-20251013",
+            "binuh-q3-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa anpeche de rakousi: repete ansyen òdonans lan san anilasyon an, oswa rele anilasyon an yon akitman apre pwosè. Ozetazini, vèdik 8 Me a konsène Arcangel Pretel Ortiz, Antonio Intriago, Walter Veintemilla ak James Solages. Se pa yon kondanasyon Martine Moïse oswa Claude Joseph. Yon dosye ki gen plizyè akize pa fè koupabilite pase soti nan youn ale sou lòt.",
+            "en": "That prevents two shortcuts: repeating the old order without its annulment, or treating annulment as acquittal after trial. In the United States, the May 8 verdict concerns Arcangel Pretel Ortiz, Antonio Intriago, Walter Veintemilla and James Solages. It is not a conviction of Martine Moïse or Claude Joseph. A multi-defendant case does not transfer guilt from one person to another."
+          },
+          "sources": [
+            "doj-moise-four-verdict-20260508"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa pretann rezime tout transkripsyon ak desizyon yo. Enskripsyon eleksyon an pa tranche ankèt la nonplis. Egzamen politik la dwe suiv zak piblik chak kandida ak pwogram li; egzamen penal la bezwen prèv ak desizyon ki konsène moun nan presizeman. San separasyon sa a, yon elektè ka konfonn yon non ki site ak yon vèdik.",
+            "en": "This does not summarize every transcript and decision. Registration does not settle the inquiry either. Political scrutiny should follow each candidate’s public acts and programme; criminal scrutiny requires evidence and decisions about that specific person. Without that distinction, voters can mistake a mentioned name for a verdict."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "michel-martelly-vs-etzer-emile",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a",
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Michel Martelly ak Etzer Emile: suiv lajan lekòl la jouk nan klas la",
+        "en": "Michel Martelly vs Etzer Emile: follow school money into the classroom"
+      },
+      "description": {
+        "ht": "Yon dosye sou frè transfè ak de objektif bidjè montre poukisa lajan kolekte, lajan otorize ak lajan depanse pa menm bagay.",
+        "en": "A transfer-fee record and two budget targets show why money collected, authorized and spent must remain distinct."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon paran bezwen yon klas ki ouvè ak yon pwofesè ki la. Chif finansman yo itil si yo esplike kijan sèvis sa a rive sou timoun nan. Se sou chimen sa a dosye Michel Martelly ak pwopozisyon Etzer Emile ka konpare.",
+            "en": "A parent needs an open classroom and a teacher present. Funding figures help when they explain how that service reaches a child. That chain provides a way to compare Michel Martelly’s record with Etzer Emile’s proposals."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou Martelly, BRH konfime yon frè 1.50 dola ameriken sou transfè lajan, ki antre an vigè 1 Jen 2011. Yon desizyon yon tribinal ameriken te pran an 2023 rakonte pwomès finansman edikasyon an. Rapò Kou Siperyè Kont la anrejistre, pou 2011–2018, anviwon 120 milyon dola kolekte atravè BRH ak prèske 118 milyon transfere nan Trezò.",
+            "en": "Under Martelly, the central bank confirms a US$1.50 transfer fee effective June 1, 2011. A 2023 U.S. court decision recounts the education-funding promise. The audit court’s report records about US$120 million collected through the central bank and nearly US$118 million transferred to the Treasury during 2011–2018."
+          },
+          "sources": [
+            "brh-2011",
+            "court-2023-fees",
+            "cscca-2019-fne"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Peryòd sa a depase prezidans Martelly. Tablo a konsève anviwon 2.37 milyon dola kòm rès nan fen peryòd la; li pa rele montan sa a lajan disparèt. Pou evalye pwomès lekòl la, fòk kont resèt sa yo konekte ak depans, lekòl ak timoun ki te benefisye yo. Yon antre nan Trezò se yon etap nan chimen an.",
+            "en": "That period extends beyond Martelly’s presidency. The table records about US$2.37 million remaining at its end; it does not call that missing money. Assessing the school promise requires connecting those receipts to spending, schools and children served. A Treasury entry is one step in the chain."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Emile prezante yon lòt kalite chif: edikasyon ta resevwa 16 pousan depans piblik ki egzekite an 2029 ak 22 pousan bidjè nasyonal la an 2033. Premye mezi a se depans ki fèt; dezyèm nan se bidjè a. Nou pa ka fè diferans sis pwen an tounen yon amelyorasyon ki deja mezire. Se objektif kanpay, sou de baz diferan.",
+            "en": "Emile offers a different kind of figure: education would receive 16 percent of public spending executed in 2029 and 22 percent of the national budget in 2033. The first measures actual spending; the second concerns the budget. The six-point difference cannot be treated as a measured improvement. These are campaign targets on different bases."
+          },
+          "sources": [
+            "etzer-education"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Diferans lan se ant yon mekanis resèt ki te antre an pratik ak yon pwopozisyon sou plas edikasyon nan depans Leta. Egzamen ki mare yo ansanm lan senp: konbyen ki antre, konbyen ki otorize, konbyen ki peye epi ki sèvis timoun yo resevwa? Menm tablo anyèl sa a ta pèmèt yon paran konpare yon ansyen pwomès ak yon nouvo pwogram san konfonn lajan ki pase nan kont ak ansèyman ki fèt.",
+            "en": "The difference is between a revenue mechanism put into practice and a proposal for education’s share of state expenditure. Their common test is simple: how much comes in, is authorized, is paid and reaches children as services? The same annual table would let a parent compare a past promise with a new programme without mistaking money moving through accounts for teaching delivered."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
     }
   ],
   "word_limit": 500,

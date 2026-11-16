@@ -1,0 +1,29 @@
+{
+  "reviewed_at": "2026-11-15",
+  "additional_distinct_comparisons": 8,
+  "published_articles": 126,
+  "total_pair_articles": 23,
+  "presidential_candidates_covered": 33,
+  "total_unordered_pairs": 528,
+  "remaining_pair_articles": 505,
+  "bilingual_word_ceiling": 500,
+  "language_review": {
+    "Creole_reading_saved_before_English": true,
+    "paired_fields_checked": 98,
+    "required_replacements_applied": 3,
+    "optional_refinements_applied": 3,
+    "English_spacing_fix_applied": 1,
+    "packets": [
+      "comparison03",
+      "comparison04",
+      "comparison-pending"
+    ]
+  },
+  "checks": {
+    "local_browser_comparison_cases": 190,
+    "new_article_browser_cases": 38,
+    "all252native_article_pages_SEO_audit": "pass",
+    "all33candidate_IDs_in_published_comparisons": true
+  },
+  "court_source_scope": "May8juryverdict identifiesfourmen; September18defendanttransfer and30indictments kept separate. Aggregate counts in two official summaries did not reconcile without a named docket review, so the article uses documented named events. Martine witness role attributed toAP; no fulltranscript review or candidate conviction claimed."
+}

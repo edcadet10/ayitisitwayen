@@ -1,0 +1,16 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_comparisons": 1,
+  "articles": [
+    "michel-martelly-vs-etzer-emile"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 19,
+  "required_applied": 1,
+  "optional_applied": 1,
+  "public_word_ceiling": 500,
+  "facts_review": "Contrasts checked against the existing reviewed source records; no invented ratings, current alliances or criminal convictions.",
+  "english_spacing_correction_applied": 1,
+  "includes_additional_two_court_paragraph_reviews": true,
+  "court_count_scope": "Named May8four-defendantverdict andSeptember18transfer/30indictmentevents retained. No incompatibleaggregatecount presented as one total."
+}
