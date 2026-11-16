@@ -2685,6 +2685,90 @@
         "ht": "Gid edisyon 2019 la separe kontra pou yon byen oswa sèvis piblik ak lòt finansman prive. Li se yon referans jeneral, pa yon desizyon sou estati legal yon pwojè ayisyen patikilye.",
         "en": "The 2019 guide distinguishes public-asset/service contracts from other private financing. It is general guidance, not a ruling on a particular Haitian project’s legal status."
       }
+    },
+    "ulcc-badio-employment-note-2021": {
+      "publisher": "ULCC / note reproduced by Juno7",
+      "url": "https://www.juno7.ht/lulcc-prend-ses-distances-avec-joseph-felix-badio/",
+      "published_at": "2021-07-13",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "ULCC: nòt sou depa Joseph Félix Badio ak yon plent Me 2021",
+        "en": "ULCC: statement on Joseph Félix Badio’s departure and a May 2021 complaint"
+      },
+      "note": {
+        "ht": "Juno7 repwodui deklarasyon enstitisyon an sou dat antre, revokasyon ak plent. Sa pa kopi dosye disiplinè a oswa tout dosye ankèt asasina a. Relasyon travay la pa prèv Hans Joseph te konnen oswa patisipe nan yon konplo.",
+        "en": "Juno7 reproduces the institution’s statement on employment, dismissal and a complaint. It is not the disciplinary file or full assassination inquiry. Employment association does not prove Hans Joseph knew of or participated in a plot."
+      }
+    },
+    "privert-release-order-2006": {
+      "publisher": "Cour d’appel des Gonaïves / copy hosted by IJDH",
+      "url": "https://ijdh.org/pdf/PoliticalPrisoner6-20-06.pdf",
+      "published_at": "2006-06-13",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Privert: desizyon sou liberasyon an, 13 Jen 2006",
+        "en": "Privert: the June 13, 2006 release decision"
+      },
+      "note": {
+        "ht": "Tout twa paj eskane yo te egzamine. Paj 3 bay dat ak dispozitif la, ak obligasyon pou parèt lè yo rele l; li separe demann liberasyon an ak egzamen fon dosye a. Dat nan non fichye a pa dat desizyon an. Nou pa deklare sa se dènye desizyon nan tout pwosedi a.",
+        "en": "All three scanned pages inspected. Page 3 gives the date and operative terms, requires appearance when summoned and separates release from merits. The filename date is not the decision date. This is not presented as the final decision in the entire case."
+      }
+    },
+    "privert-response-scierie-2009": {
+      "publisher": "Scoop FM",
+      "url": "https://www.scoopfmhaiti.com/719/haitijusticeelections-jocelerme-privert-sen-prend-a-ceux-la-qui-laccuse-dans-le-massacre-de-la-scierie-pour-mettre-en-question-sa-candidature/",
+      "published_at": "2009-12-18",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Privert rejte akizasyon Lasiri yo pandan kanpay 2009 la",
+        "en": "Privert rejects the La Scierie allegations during the 2009 campaign"
+      },
+      "note": {
+        "ht": "Rapòte deklarasyon li te fè 17 Desanm. Sa li di sou jistis la se pozisyon li, pa kopi yon lòt jijman nou verifye. Nou pa dedui pa t gen okenn lòt desizyon nan okenn ane.",
+        "en": "Reports his December 17 statement. His account of clearance is his position, not another judgment obtained by us. It does not establish that no other decision ever existed."
+      }
+    },
+    "aic-balance-sheet-2022": {
+      "publisher": "Alternative Insurance Company",
+      "url": "https://aic.ht/wp-content/uploads/2024/02/AIC-Annual-Report_2022_French.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "AIC: bilan 2022, paj 29, an milye goud",
+        "en": "AIC: 2022 balance sheet, page 29, in thousands of gourdes"
+      },
+      "note": {
+        "ht": "Bilan konpayi an separe aktif, pasif ak valè ki rete pou tout aksyonè yo. Lèt odit la nan paj 26. Sa pa deklarasyon byen pèsonèl kandida a oswa yon lis konplè aksyonè aktyèl yo. Tout inite yo konsève.",
+        "en": "The company balance sheet separates assets, liabilities and all shareholders’ equity; audit letter on page 26. This is not the candidate’s personal asset declaration or a complete current shareholder register. Units retained."
+      }
+    },
+    "aic-health-premiums-2022": {
+      "publisher": "Alternative Insurance Company",
+      "url": "https://aic.ht/wp-content/uploads/2024/02/AIC-Annual-Report_2022_French.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "AIC: endikatè sosyal sou kotizasyon sante ak lanmò, paj 32–33",
+        "en": "AIC: social indicators on health/death premiums, pages 32–33"
+      },
+      "note": {
+        "ht": "Deklarasyon konpayi an pou 2021–2022 sou 53% asire nan pòtfolyo maladi ak lanmò ki peye omaksimòm 10 dola ameriken pa mwa. Sa pa pri tout pwodwi, tout fanmi oswa Novanm 2026. Tablo yo pa prèv tout frè swen kouvri.",
+        "en": "Company statement for 2021–2022: 53% of insured people in its sickness/death portfolio pay at most US$10 monthly. Not every product, family or November 2026 price. The tables do not establish coverage of all care costs."
+      }
+    },
+    "cep-representation-calculation-20261115": {
+      "publisher": "CEP / Ayiti Sitwayen calculation",
+      "url": "https://www.ayitisitwayen.org/data/candidate-public/representation-2026-11-15.json",
+      "published_at": "2026-11-16",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Kalkil Ayiti Sitwayen: enskripsyon selon sèks, pòs ak pozisyon",
+        "en": "Ayiti Sitwayen calculation: registrations by reported sex, office and position"
+      },
+      "note": {
+        "ht": "11,142 liy enskripsyon nan kopi anreta 15 Novanm ann Ayiti, pran 16 Novanm 04:16 UTC. Konte egzak kòd pati, pòs, pozisyon ak chan F/M KEP la; pa dediksyon dapre non. Liy enskripsyon pa vòt, moun eli oswa yon desizyon sou kota legal. Nou pa melanje pozisyon prensipal ak adjwen.",
+        "en": "11,142 registration rows in the late November 15 Haiti snapshot, captured November 16 at 04:16 UTC. Exact party, office, position and CEP F/M field counts; no inference from names. Rows are not votes, elected officials or a legal-quota determination. Principal and deputy positions remain distinct."
+      }
     }
   },
   "articles": [
@@ -13173,6 +13257,679 @@
           "text": {
             "ht": "Kòm kandida, toude ka esplike kijan eksperyans sa yo antre nan yon politik kote sitwayen konprann dwa yo ak kote pou pote plent. Konparezon an bay kredi pou sa ki egziste, pandan li mande prèv pou gwo rezilta. Yon dwa itil lè yon moun kapab egzèse l, pa sèlman site non li.",
             "en": "As candidates, both can explain how that experience informs policy enabling citizens to understand rights and complaint routes. The comparison credits existing work while requiring evidence of larger outcomes. A right matters when a person can use it, beyond naming it."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "hans-joseph-badio-ulcc-may-2021-file",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-20a19b185cd2557e8e12"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Hans Joseph ak Badio: sa dosye travay Me 2021 la etabli",
+        "en": "Hans Joseph and Badio: what the May 2021 employment record establishes"
+      },
+      "description": {
+        "ht": "Yon nòt ULCC te mete dat antre, depa ak plent sou papye. Li pa fè yon ansyen relasyon travay tounen prèv konplo.",
+        "en": "An ULCC statement put employment, departure and complaint dates on record. It does not turn past employment into proof of conspiracy."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Anvan asasina Jovenel Moïse la, te gen yon dosye administratif sou Joseph Félix Badio nan ULCC. Apre asasina a, enstitisyon an te pibliye dat sou dosye sa a. Pou egzamine bilan Hans Joseph, fòk nou li sa dat yo etabli san mete ladan yo yon konklizyon yo pa bay.",
+            "en": "Before Jovenel Moïse’s assassination, ULCC had an administrative matter concerning Joseph Félix Badio. After the killing, the institution published dates about it. Examining Hans Joseph’s record requires reading what those dates establish without adding conclusions they do not supply."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan nòt Juno7 repwodui 13 Jiyè 2021 la, ULCC di Badio te antre 11 Mas 2013, li pa t nan pèsonèl la ankò depi 17 Me 2021, epi yo te voye yon plent kont Badio bay pakè Pòtoprens 20 Me. Enstitisyon an te bay mankman grav nan règ etik kòm rezon revokasyon an. Sa se kont ULCC sou aksyon li.",
+            "en": "In the statement reproduced by Juno7 on July 13, 2021, ULCC says Badio joined March 11, 2013, ceased being staff on May 17, 2021 and was the subject of a complaint sent to Port-au-Prince prosecutors on May 20. It gave serious ethical breaches as dismissal grounds. This is ULCC’s account of its actions."
+          },
+          "sources": [
+            "ulcc-badio-employment-note-2021"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Joseph te dirije ULCC depi 2020, dapre entèvyou AyiboPost sou depa li an 2026. Dat sa yo pa prèv li te rekrite Badio an 2013. Yo pa pwouve li te konnen yon konplo asasina nonplis. Yon relasyon nan menm enstitisyon dwe separe ak sa chak moun te konnen, deside oswa fè.",
+            "en": "Joseph had led ULCC since 2020, according to AyiboPost’s account of his 2026 departure. These dates do not establish that he recruited Badio in 2013 or knew of an assassination plot. Sharing an institution must remain distinct from each person’s knowledge, decisions or conduct."
+          },
+          "sources": [
+            "hans-joseph-removal-interview-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Tras ki bezwen egzamine a se pi presi: desizyon disiplinè a, prèv ki te soutni l, ak resi pakè a pou plent la. Nòt piblik la pa bay tout dokiman sa yo. San yo, nou pa kapab di yon plent te jwenn tout swivi li, ni li te kache.",
+            "en": "The documentary trail is more precise: the disciplinary decision, supporting evidence and prosecutors’ receipt of the complaint. The public statement does not supply the entire file. Without it, we cannot establish complete follow-up or concealment."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kòm kandida, Joseph ka esplike kijan yon enstitisyon li te dirije trete yon ka anplwaye epi suiv yon plent. Se yon kesyon administrasyon ak responsablite. Li pa yon lisans pou devine sa ki te nan tèt li oswa fè yon ansyen anplwaye tounen prèv kont tout kòlèg li yo.",
+            "en": "As a candidate, Joseph can explain how an institution he led handled an employee case and followed a complaint. That concerns administration and accountability. It is no license to guess his thoughts or treat one former employee as evidence against all colleagues."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jocelerme-privert-2006-release-order-merits",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-cfa0ce450d335df39e36"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Jocelerme Privert: twa paj ki esplike limit liberasyon 2006 la",
+        "en": "Jocelerme Privert: three pages explaining the limits of his 2006 release"
+      },
+      "description": {
+        "ht": "Kopi desizyon Gonayiv la bay yon liberasyon ak kondisyon pou parèt. Li di tou demann nan pa louvri egzamen fon dosye a.",
+        "en": "The Gonaïves decision grants release subject to appearance. It also says the application does not open a merits examination."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Soti nan prizon ak jwenn yon desizyon final sou akizasyon yo se de bagay. Dosye Jocelerme Privert an 2006 montre poukisa li enpòtan pou li dokiman an. Kopi twa paj IJDH konsève a pa mande nou devine sa yon mo tankou libere vle di: li bay limit desizyon an.",
+            "en": "Leaving prison and obtaining a final decision on allegations are different things. Jocelerme Privert’s 2006 record shows why the document matters. The three-page copy preserved by IJDH supplies the decision’s limits rather than leaving readers to guess what released means."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Desizyon premye seksyon Lakou dapèl Gonayiv la gen dat 13 Jen 2006. Li site dosye Lasiri nan Senmak ak demann plizyè moun, pami yo Privert ak Yvon Neptune. Sa mete ansyen minis la nan yon pwosedi sou akizasyon grav; li pa yon kondanasyon ki soti nan paj sa yo.",
+            "en": "The Gonaïves Court of Appeal’s first-section decision is dated June 13, 2006. It references the La Scierie matter in Saint-Marc and applications involving Privert and Yvon Neptune among others. That places the former minister in proceedings over serious allegations; these pages are not a conviction."
+          },
+          "sources": [
+            "privert-release-order-2006"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan paj 3, Lakou a leve manda depo ak manda arestasyon kont Privert, ak obligasyon pou li prezante lè yo mande l pou zak pwosedi yo. Menm paj la presize demann liberasyon an pa louvri egzamen fon dosye a. Se poutèt sa desizyon sa a pa dwe vann kòm yon vèdik sou tout responsablite nan Lasiri.",
+            "en": "Page 3 lifts Privert’s detention and arrest warrants, requiring his appearance when called for procedural acts. It expressly separates the release application from examination of the merits. This decision therefore cannot be sold as a verdict on all responsibility in La Scierie."
+          },
+          "sources": [
+            "privert-release-order-2006"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Privert te rejte akizasyon yo piblikman. Scoop FM rapòte an Desanm 2009 li te di lajistis te blanchi l. Sa dwe nan dosye a kòm repons li. Men nou pa gen tout dosye jidisyè ki ta pèmèt konekte deklarasyon sa a ak yon lòt desizyon final. Nou pa di okenn lòt desizyon pa egziste.",
+            "en": "Privert publicly rejected the allegations. Scoop FM reported in December 2009 that he said justice had cleared him. That belongs in the record as his response. We lack the complete judicial file to connect that account to another final decision; we do not assert that none exists."
+          },
+          "sources": [
+            "privert-response-scierie-2009"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Bon egzamen an konsève de dwa an menm tan: dwa moun yo akize a pou yo pa rele l koupab san baz, ak dwa viktim yo pou yo pa efase kesyon dosye a pa rezoud. Yon dat ak yon dispozitif presi pi itil pou elektè a pase yon etikèt ki depase sa dokiman an di.",
+            "en": "Sound scrutiny preserves the accused person’s right not to be labeled guilty without grounds and victims’ right not to have unresolved questions erased. A precise date and operative decision help voters more than a label exceeding the document."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "olivier-barrau-aic-assets-liabilities-shareholders",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Olivier Barrau: sa AIC genyen ak sa li dwe",
+        "en": "Olivier Barrau: what AIC owns and what it owes"
+      },
+      "description": {
+        "ht": "Bilan 2022 a pèmèt separe sa konpayi an genyen, sa li dwe ak sa ki rete pou aksyonè yo. Sa pa richès pèsonèl kandida a.",
+        "en": "The 2022 balance sheet separates what the company holds, owes and retains for shareholders. It is not the candidate’s personal wealth."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon konpayi ka montre anpil byen pandan li gen gwo obligasyon. Rele tout byen sa yo richès moun k ap dirije l ta efase yon pati nan kont yo. Se sa pou evite lè eksperyans Olivier Barrau nan AIC antre nan deba prezidansyèl la.",
+            "en": "A company can hold substantial assets while carrying substantial obligations. Calling all those assets its leader’s wealth erases part of the accounts. That matters when Olivier Barrau’s AIC experience enters the presidential debate."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Bilan AIC 2022 a pibliye an milye goud. Li bay 4,205,550 nan total aktif ak 2,755,231 nan total pasif: sa vle di anviwon 4.206 milya goud aktif ak 2.755 milya pasif. Nou pa li milye yo kòm inite goud ni konvèti yo an dola san yon baz chanj.",
+            "en": "AIC’s 2022 balance sheet is in thousands of gourdes. It gives total assets of 4,205,550 and liabilities of 2,755,231: approximately 4.206 billion gourdes in assets and 2.755 billion in liabilities. We neither read thousands as single gourdes nor convert them into dollars without an exchange-rate basis."
+          },
+          "sources": [
+            "aic-balance-sheet-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò a bay anviwon 1.450 milya goud kòm valè pou tout aksyonè yo ansanm. Sa pa fè tout montan sa a pati Barrau. Rapò a idantifye l kòm prezidan konsèy administrasyon, men li pa poukont li yon deklarasyon konplè sou pòsyon li posede oswa richès aktyèl li.",
+            "en": "The report gives approximately 1.450 billion gourdes in all shareholders’ equity. That does not assign the entire amount to Barrau. It identifies him as board president, but is not a complete declaration of his ownership percentage or current wealth."
+          },
+          "sources": [
+            "aic-balance-sheet-2022",
+            "aic-finances-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Lèt odit la nan menm rapò a di kont yo prezante sitiyasyon konpayi an fidèlman nan aspè enpòtan yo. Sa gen yon sans presi sou kont konpayi an pou dat sa a. Li pa yon odit kanpay la, tout enterè pèsonèl kandida a oswa pèfòmans yon gouvènman li poko dirije.",
+            "en": "The report’s audit letter says the accounts fairly present the company’s position in material respects. That has a specific meaning for company accounts at that date. It is not an audit of the campaign, all personal interests or a government he has not led."
+          },
+          "sources": [
+            "aic-balance-sheet-2022"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou elektè a, kesyon ki rete se ki patisipasyon kandida a deklare, kiyès ki ta jere l pandan yon manda ak ki desizyon Leta ki ta ka touche konpayi an. Bon lekti finansye pèmèt poze kesyon sa yo san fè yon gwo bilan tounen swa yon richès envante swa yon akizasyon.",
+            "en": "Voters still need declared ownership, who would manage it during a term and which state decisions could affect the company. Reading accounts properly makes that scrutiny possible without turning a large balance sheet into invented wealth or an accusation."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "olivier-barrau-health-insurance-ten-dollar-premium",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Olivier Barrau ak asirans 10 dola: yon kotizasyon pa tout pri swen an",
+        "en": "Olivier Barrau and ten-dollar insurance: a premium is not the whole cost of care"
+      },
+      "description": {
+        "ht": "AIC bay yon endikatè sou pri pou yon pati nan kliyan li an 2022. Li pa yon garanti tout swen gratis oswa yon pri aktyèl pou tout fanmi.",
+        "en": "AIC supplies a 2022 price indicator for part of its clientele. It guarantees neither free care nor a current price for every family."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon fanmi ka peye asirans chak mwa epi toujou bezwen konnen sa k ap pase lè yon moun malad. Konbyen li peye nan klinik la, ki kote yo aksepte kat li ak ki sa kontra a pa kouvri? Se kesyon sa yo yon pri ki parèt abòdab dwe ede reponn.",
+            "en": "A family paying insurance monthly still needs to know what happens when someone falls ill: the clinic payment, where its card is accepted and exclusions. An apparently affordable price should help answer those questions."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan endikatè sosyal rapò 2022 li a, AIC di 53% asire nan pòtfolyo maladi ak lanmò li te peye yon kotizasyon mansyèl ki pa depase 10 dola ameriken. Sa se deklarasyon konpayi an sou egzèsis 2021–2022, kote li idantifye Barrau kòm prezidan konsèy administrasyon.",
+            "en": "In its 2022 social indicators, AIC says 53% of insured people in its sickness/death portfolio paid monthly premiums no higher than US$10. That is the company’s statement for fiscal 2021–2022; its report identifies Barrau as board president."
+          },
+          "sources": [
+            "aic-health-premiums-2022",
+            "aic-finances-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Pousantaj sa a pa vle di 53% tout Ayisyen te asire. Li pa di tout pwodwi oswa tout fanmi koute 10 dola, ni pri sa a toujou aplike nan Novanm 2026. Rapò a dekri yon gwoup kliyan ak yon peryòd; li pa bay yon pri nasyonal pou yon pwogram prezidansyèl.",
+            "en": "It does not mean 53% of Haitians were insured. It does not say every product or family costs ten dollars or that the price still applies in November 2026. It describes a customer group and period, not a national presidential-programme price."
+          },
+          "sources": [
+            "aic-health-premiums-2022"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou evalye eksperyans sa a, bezwen mete kotizasyon ansanm ak plafon kouvèti, pati kliyan peye, swen ki eskli ak delè ranbousman. De kontra ka gen menm kotizasyon ak rezilta diferan pou menm maladi a. Nou pa pretann rapò sa a bay tout kondisyon kontra endividyèl yo.",
+            "en": "Assessment needs premiums alongside coverage ceilings, customer contributions, exclusions and reimbursement delays. Two policies can share a premium but produce different results for the same illness. We do not pretend this report contains every individual policy term."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kòm kandida, Barrau ka montre ki leson yon eksperyans asirans bay pou sèvis piblik, epi ki limit ki rete. Pou yon fanmi, reyisit la pa sèlman yon peman chak mwa li kapab fè. Se si li ka jwenn swen lè li bezwen l, san yon depans kontra a pa t fè l konprann.",
+            "en": "As a candidate, Barrau can explain the public-service lessons and remaining limits of insurance experience. For a family, success is more than an affordable monthly payment: it is obtaining care without expenses the policy failed to make clear."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "women-candidate-registrations-office-position-2026",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83",
+        "c-7a166482a2bb5b41af62",
+        "c-044a28564a40545cb553"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Fanm nan lis kandida yo: yon total 30.6% ka kache plas ki gen mwens fanm",
+        "en": "Women in the candidate registry: a 30.6% total can conceal positions with fewer women"
+      },
+      "description": {
+        "ht": "Nou konte 11,142 liy KEP dapre sèks, pòs ak pozisyon. Pòs prensipal majistra ak pòs adjwen yo bay de foto diferan.",
+        "en": "We counted 11,142 CEP rows by reported sex, office and position. Principal and deputy mayoral positions present different pictures."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan kopi anreta 15 Novanm nou an, KEP make F sou 3,413 nan 11,142 liy enskripsyon: anviwon 30.6%. Chif la vre pou liy sa yo. Men li pa reponn kesyon ki pòs fanm yo ta okipe si yo eli. Se pou sa nou separe done yo olye nou rete sou yon sèl total.",
+            "en": "In our late November 15 snapshot, CEP marks 3,413 of 11,142 registration rows F: approximately 30.6%. That describes those rows. It does not answer which offices women would occupy if elected. We therefore separated the data rather than relying on one total."
+          },
+          "sources": [
+            "cep-representation-calculation-20261115"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou meri, 936 sou 2,624 liy yo make F, anviwon 35.7%. Men kategori sa a gen pòs prensipal ak adjwen. Pou pozisyon Titulaire sèlman, se 107 sou 906 enskripsyon, anviwon 11.8%. Sa pa 906 meri diferan oswa majistra ki deja eli; se enskripsyon moun k ap fè konpetisyon pou pozisyon an.",
+            "en": "For mayoral offices, 936 of 2,624 rows are marked F, approximately 35.7%. That category includes principal and deputy positions. In Titulaire alone, it is 107 of 906 registrations, approximately 11.8%. These are not 906 different municipalities or elected mayors; they are competing registrations."
+          },
+          "sources": [
+            "cep-representation-calculation-20261115"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan nasyonal la, gen 137 liy F sou 1,846 pou depite, ak 78 sou 532 pou Sena. Lis prezidansyèl la gen twa sou 33: Dominique Dupuy, Martine Moïse ak Savannah Savary. Se chan KEP la nou konte, pa yon dediksyon sou sèks yon moun dapre non oswa foto li.",
+            "en": "Nationally, there are 137 F rows among 1,846 deputy registrations and 78 among 532 Senate registrations. The presidential list has three among 33: Dominique Dupuy, Martine Moïse and Savannah Savary. We count CEP’s field rather than infer sex from names or photographs."
+          },
+          "sources": [
+            "cep-representation-calculation-20261115"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa yo se done enskripsyon preliminè, pa vòt, ganyan oswa yon desizyon sou respè kota legal. Nou pa konte ansyen liy enskripsyon nou konsève apa nan sit la. Kopi a gen dat ak lè pou nenpòt lòt lekti pa fè yon chanjman pita sanble yon erè nan kalkil sa a.",
+            "en": "These are preliminary registrations, not votes, winners or a legal-quota determination. Retained historical entries elsewhere on the site are excluded. The snapshot is dated so later changes are not mistaken for errors in this calculation."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Leson politik la se gade kote pouvwa a ye. Yon gwo total patisipasyon ka mache ansanm ak mwens fanm nan pòs prensipal oswa nan lejislatif la. Pati yo kapab esplike kijan yo chwazi kandida pou chak pozisyon. Done yo bay kesyon sa a yon baz, san devine entansyon moun ki fè chwa yo.",
+            "en": "The political lesson is to examine where authority sits. A participation total can coexist with fewer women in principal or legislative positions. Parties can explain selection for each position. The data ground that question without guessing selectors’ intentions."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "savannah-savary-vs-martine-moise",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-044a28564a40545cb553",
+        "c-7a166482a2bb5b41af62"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Savannah Savary ak Martine Moïse: kiyès lòt moun pati yo mete devan elektè yo?",
+        "en": "Savannah Savary vs Martine Moïse: who else do their parties present to voters?"
+      },
+      "description": {
+        "ht": "Yon fanm kandida prezidansyèl pa esplike konpozisyon tout enskripsyon pati li. Kopi KEP la bay yon pwen depa, ak limit ki klè.",
+        "en": "A woman presidential registrant does not explain the composition of all her party’s registrations. The CEP snapshot provides a bounded starting point."
+      },
+      "paragraphs": [
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Yon kanpay ka mete yon fanm nan premye plan pandan lòt pòs yo bay yon lòt foto. Pou Savannah Savary ak Martine Moïse, nou egzamine enskripsyon lejislatif anba kòd HAMAD ak GAD. Se yon kalkil sou dosye KEP, pa yon sondaj sou sipò oswa yon jijman sou angajman yon moun pou fanm.",
+            "en": "A campaign can put a woman at the front while other positions present a different picture. For Savannah Savary and Martine Moïse, we examined legislative registrations under HAMAD and GAD. This is a CEP-record calculation, not a support poll or judgment of commitment to women."
+          },
+          "sources": [
+            "cep-representation-calculation-20261115"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan kopi anreta 15 Novanm nan, HAMAD gen sèt enskripsyon depite ak twa Sena; tout dis make M. GAD gen 44 depite, youn make F, ak 22 Sena, de make F. Sa fè twa liy F sou 66 enskripsyon lejislatif GAD, kont zewo sou dis HAMAD.",
+            "en": "In the late November 15 snapshot, HAMAD has seven deputy and three Senate registrations, all ten marked M. GAD has 44 deputy registrations, one marked F, and 22 Senate registrations, two marked F: three F rows among GAD’s 66 legislative registrations, versus zero among HAMAD’s ten."
+          },
+          "sources": [
+            "cep-representation-calculation-20261115"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou konsève diferans gwosè a: dis ak 66 se pa de gwoup menm kantite. Kòd pati pa pwouve kandida prezidansyèl la te chwazi pèsonèlman chak non. Li pa bay tout pwosedi nominasyon entèn yo nonplis. Enskripsyon sa yo toujou pa validasyon final KEP oswa rezilta eleksyon.",
+            "en": "The size difference matters: ten and 66 are unequal groups. A party code does not establish that its presidential candidate personally selected every name or reveal the complete internal nomination process. Registration is still neither final CEP approval nor an election result."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa done yo pèmèt mande se kiyès ki gen pouvwa sou nominasyon yo, ki kandida pati yo te chèche ak ki baryè moun te rankontre. Yon repons ta ka esplike chwa, demann ki pa abouti ak metòd pou louvri aksè. Yon slogan sou reprezantasyon pa ka ranplase dosye sa a.",
+            "en": "The data permit questions about nomination authority, whom parties recruited and barriers applicants encountered. Answers could explain selections, unsuccessful applications and access methods. A representation slogan cannot replace that record."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou elektè a, konparezon an deplase je l soti sou yon sèl afich pou rive sou ekip ki ta mande fè lwa yo. Sa pa retire eksperyans oswa dwa de fanm yo pou yo kandida. Li mande menm transparans sou tout pòs, kèlkeswa sèks moun ki nan tèt lis la.",
+            "en": "The comparison moves attention from one poster to the team seeking legislative power. It diminishes neither woman’s experience or right to run. It requires the same transparency across positions, regardless of who heads the ticket."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "gary-bodeau-vs-jocelerme-privert",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-656331d267b75fc0aa53",
+        "c-cfa0ce450d335df39e36"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Gary Bodeau ak Jocelerme Privert: yon konte vòt pa tout istwa chwa yon dirijan",
+        "en": "Gary Bodeau vs Jocelerme Privert: a vote count is not the entire story of selecting a leader"
+      },
+      "description": {
+        "ht": "Yon vòt Asanble Nasyonal an 2016 ak akizasyon ameriken sou nominasyon an 2018–2019 se dosye diferan sou pouvwa palman an.",
+        "en": "A 2016 National Assembly vote and U.S. allegations concerning 2018–2019 appointments are different records of parliamentary power."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè palman an chwazi yon dirijan oswa apwouve yon nominasyon, piblik la bezwen konnen plis pase kantite men ki leve. Ki règ ki bay vòt la sans, ak ki enterè ki antoure l? Dosye Jocelerme Privert ak Gary Bodeau bay de kalite prèv pou egzamine.",
+            "en": "When Parliament selects a leader or approves an appointment, the public needs more than raised hands. Which rules give the vote meaning and which interests surround it? Jocelerme Privert and Gary Bodeau present different evidentiary records."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò Nasyonzini sou tranzisyon 2016 la bay Privert 77 vòt Asanble Nasyonal kont 34 pou Edgard Leblanc. Vòt sa a te enstale yon prezidan pwovizwa anba yon akò limite nan tan. Li pa yon eleksyon dirèk popilasyon an ni yon garanti tout aksyon ki vini apre yo te valide.",
+            "en": "The UN’s 2016 transition report records 77 National Assembly votes for Privert against Edgard Leblanc’s 34. It installed a provisional president under a time-limited agreement. That is neither a direct popular election nor validation of all later conduct."
+          },
+          "sources": [
+            "un-transition-2016-march"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Bodeau, Trezò ameriken te dekri an 2023 swadizan peman pou vòt sou nominasyon nan ane 2018 ak 2019. Li te site 500–600 milyon goud biznisman te bay manm Chanm nan pou epizòd 2019 la. Sa pa yon deklarasyon tout montan an te nan pòch Bodeau. Li te demanti akizasyon ki te lakòz sanksyon an.",
+            "en": "For Bodeau, the U.S. Treasury in 2023 described alleged payments for appointment votes in 2018 and 2019. It cited 500–600 million gourdes businessmen supplied to Chamber members in the 2019 episode. That does not assign the whole amount to Bodeau’s pocket. He denied allegations behind the sanction."
+          },
+          "sources": [
+            "treasury-bodeau-2023",
+            "bodeau-response-2023"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa transfere akizasyon peman sa yo sou vòt Privert an 2016. Sous yo pa etabli yon lyen konsa. Nou pa fè sanksyon administratif Bodeau a tounen yon kondanasyon penal nonplis. Yon konte ofisyèl ak yon akizasyon sou mekanis yon lòt vòt bezwen dokiman diferan.",
+            "en": "Those payment allegations are not transferred to Privert’s 2016 election; the sources establish no such link. Nor is Bodeau’s administrative sanction turned into a criminal conviction. An official count and allegations about another vote’s mechanism require different records."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou toude kandida yo, yon angajman transparans sou chwa piblik ta mete règ, dosye kandida, enterè ak vòt yo sou papye. Sa pèmèt yon sitwayen distenge yon majorite ak yon manda san limit, epi egzamine lajan san devine li dèyè tout desizyon.",
+            "en": "Both can commit to records of rules, appointee files, interests and votes in public selections. That lets citizens distinguish a majority from unlimited authority and investigate money without imagining it behind every decision."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "kely-bastien-vs-clarens-renois",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-eafa5d1131725d7384c9",
+        "c-a8679d21107058f5bc35"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Kely Bastien ak Clarens Renois: yon antant ant dirijan pa yon manda chak sitwayen",
+        "en": "Kely Bastien vs Clarens Renois: leaders’ agreement is not every citizen’s mandate"
+      },
+      "description": {
+        "ht": "Nominasyon DELIVRANS ak negosyasyon pwotestan 2015 yo mande konprann kiyès ki te ka angaje kiyès.",
+        "en": "DELIVRANS nomination and 2015 Protestant negotiations require understanding who could commit whom."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon òganizasyon ka chwazi yon kandida san li pa posede vòt tout moun li di li reprezante. Sa pa yon feblès demokrasi; se libète elektè a. Dosye nominasyon Kely Bastien ak yon ansyen antant ki te mete Clarens Renois devan montre poukisa limit manda a dwe vizib.",
+            "en": "An organization can select a candidate without owning the votes of everyone it says it represents. That reflects voters’ freedom. Kely Bastien’s nomination record and a past agreement favoring Clarens Renois show why a mandate’s boundaries need to be visible."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò sou DELIVRANS la idantifye Bastien kòm chwa pou prezidans. Sa se yon desizyon nan yon estrikti politik, pa prèv tout moun nan baz li dakò oswa tout lòt opinyon disparèt. Bon dosye a bezwen esplike kò ki te chwazi a ak fason desizyon an te fèt.",
+            "en": "Reporting identifies Bastien as DELIVRANS’s presidential choice. That records a political structure’s decision, not agreement by every supporter or disappearance of other views. A useful record explains the selecting body and decision process."
+          },
+          "sources": [
+            "bastien-delivrans-choice"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2015, yon rapò Rezo Nòdwès dekri negosyasyon ant kandida pwotestan ki te fini ak Renois kòm chwa. Patisipasyon lòt aktè nan negosyasyon an pa t fè legliz yo tounen yon sèl bilten vòt. Se yon epizòd istorik; nou pa rele l tout alyans Renois genyen an 2026.",
+            "en": "A 2015 Rezo Nòdwès report describes Protestant-candidate negotiations resulting in Renois’s selection. Other actors’ participation did not turn churches into one ballot. This is a historical episode, not a map of all Renois’s 2026 alliances."
+          },
+          "sources": [
+            "renois-protestant-choice-2015"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "De desizyon yo pa soti nan menm ane oswa menm gwoup. Men yo mande menm enfòmasyon sou ki moun ki te gen dwa deside ak ki moun ki te kapab pa dakò. Yon prensip relijye oswa yon afilyasyon politik pa dwe efase dwa pèsonèl pou konpare yon pwogram ak yon lòt.",
+            "en": "The decisions involve different years and groups. Both warrant information about decision-makers and room for dissent. Religious principle or political affiliation should not erase an individual’s freedom to compare programmes."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Bastien ak Renois, antre nan deba piblik vle di esplike règ chwa yo epi aksepte kesyon moun ki pa t nan sal la. Yon antant ka lanse yon kanpay. Li pa ranplase rezon yon sitwayen bezwen pou li bay pwòp vòt pa li.",
+            "en": "For Bastien and Renois, public debate means explaining selection rules and accepting questions from people outside the room. An agreement can launch a campaign. It does not replace the reasons a citizen needs to cast their own vote."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jude-elie-vs-olivier-barrau",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-a16d010ca47352d98607",
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Jude Elie ak Olivier Barrau: yon non konpayi pa yon deklarasyon byen",
+        "en": "Jude Elie vs Olivier Barrau: a company name is not an asset declaration"
+      },
+      "description": {
+        "ht": "Biyografi antreprenè, tit patnè ak bilan yon konpayi bay enfòmasyon diferan. Konpare yo mande konsève limit chak dokiman.",
+        "en": "Entrepreneurial biographies, partner titles and a company balance sheet supply different information. Comparing them requires preserving each document’s limits."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon kandida ka site plizyè antrepriz; yon lòt ka montre yon gwo bilan. Ni lis la ni chif la pa poukont li di konbyen moun nan posede, sa li dwe oswa ki enterè li ta genyen pandan yon manda. Sa se pwen depa pou konpare Jude Elie ak Olivier Barrau.",
+            "en": "A candidate can name several firms; another can point to a large balance sheet. Neither alone establishes personal ownership, debt or interests during a term. That is the starting point for comparing Jude Elie and Olivier Barrau."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Elie site biznis konstriksyon, enèji ak petwòl nan pwòp biyografi li. Million Billion Group prezante l kòm yon patnè nan enfrastrikti ak estrateji devlopman. Paj sa yo dokimante fason yo prezante wòl li; yo pa yon rejis aksyonè ki bay pousantaj ak dat chak enterè.",
+            "en": "Elie names construction, energy and petroleum businesses in his own biography. Million Billion Group presents him as an infrastructure and development-strategy partner. Those pages document how his roles are presented, not a shareholder register with dated ownership percentages."
+          },
+          "sources": [
+            "jude-elie-biography",
+            "million-billion-elie"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò AIC 2022 a idantifye Barrau kòm prezidan konsèy administrasyon epi li pibliye yon bilan ak yon lèt odit. Aktif yo anviwon 4.206 milya goud, pasif yo anviwon 2.755 milya. Se kont konpayi an, pa tout byen kandida a. Valè tout aksyonè yo pa otomatikman pòsyon pa li.",
+            "en": "AIC’s 2022 report identifies Barrau as board president and publishes a balance sheet and audit letter. Assets are approximately 4.206 billion gourdes and liabilities 2.755 billion. These are company accounts, not the candidate’s entire estate. All shareholders’ equity is not automatically his share."
+          },
+          "sources": [
+            "aic-balance-sheet-2022",
+            "aic-finances-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Si nou pa jwenn yon rejis piblik, sa pa prèv yon antrepriz pa egziste oswa yon moun kache yon krim. Menm jan an, egzistans yon odit pa vle di tout enterè pèsonèl deja klè. Konparezon an se sou sa dokiman diferan pèmèt verifye.",
+            "en": "Not locating a public register proves neither that a business is fictitious nor that someone concealed a crime. An audit’s existence likewise does not settle all personal interests. The comparison concerns what different documents allow readers to verify."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Toude ka bay yon lis patisipasyon aktyèl, dat relasyon ki fini ak fason desizyon Leta ta evite favorize antrepriz konekte. Sa ta mete eksperyans biznis la nan yon kad sitwayen ka suiv: kiyès ki gen enterè, kiyès ki pran desizyon ak kiyès ki kontwole l.",
+            "en": "Both can provide current interests, dates of ended relationships and rules preventing state decisions from favoring connected firms. That places business experience in a chain citizens can follow: interests, decision-makers and oversight."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "wilson-jeudy-vs-savannah-savary",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-0723179885b7514ab8ce",
+        "c-044a28564a40545cb553"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Wilson Jeudy ak Savannah Savary: kantite anplwaye pa montre si salè ka peye",
+        "en": "Wilson Jeudy vs Savannah Savary: employee numbers do not establish capacity to pay wages"
+      },
+      "description": {
+        "ht": "Yon deklarasyon majistra sou kès minisipal ak yon kont antreprenè sou anplwa mande separe lajan disponib, depans ak chif travay.",
+        "en": "A mayor’s statement on municipal cash and an entrepreneur’s employment account require separating available funds, costs and job totals."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Bay travay ak kapab peye salè pandan lontan se de kesyon ki mache ansanm. Dosye Wilson Jeudy ak Savannah Savary bay de kalite deklarasyon pou egzamine. Nou pa mete yon meri ak yon antrepriz prive nan yon klasman sou baz kantite anplwaye yo.",
+            "en": "Creating work and sustaining payroll belong together. Wilson Jeudy and Savannah Savary provide different kinds of statements to examine. We do not rank a municipality against a private company by employee totals."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Lè li te retounen kòm majistra Dèlma an Jen 2016, Jeudy te di kès la te gen kat milyon goud pandan salè chak mwa te depase 18 milyon. Li te blame administratè pwovizwa yo. Se deklarasyon li Métropole rapòte, pa yon odit nou verifye sou kòz pwoblèm nan.",
+            "en": "Returning as Delmas mayor in June 2016, Jeudy said the treasury held four million gourdes against monthly payroll exceeding 18 million. He blamed interim administrators. Métropole reports his statement; it is not our verified audit of the cause."
+          },
+          "sources": [
+            "jeudy-delmas-cash-2016"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan entèvyou Haitian Times Oktòb 2026 la, Savary di biznis li eritye yo bay plis pase 100 anplwa. Li te limite detay finansye yo pou rezon sekirite. Sa pa bay yon montan salè oswa kont lajan likid antrepriz yo. Nou pa envante youn pou konpare l ak meri a.",
+            "en": "In her October 2026 Haitian Times interview, Savary says inherited businesses provide more than 100 jobs. She limited financial details for security reasons. That supplies neither a payroll amount nor business cash accounts. We invent none for comparison with the municipality."
+          },
+          "sources": [
+            "savary-ht-interview-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kat milyon nan yon kès nan yon jou ak depans yon mwa pa menm peryòd. Bezwen konnen revni k ap antre, dèt ak dat peman pou evalye sitiyasyon an. Menm jan an, yon kantite anplwa pa montre salè, kondisyon oswa estabilite travay. Chak chif mande kontèks pa li.",
+            "en": "Cash held on one day and one month’s expenditure cover different periods. Assessment needs incoming revenue, debt and payment dates. Likewise, employment totals do not reveal wages, conditions or job stability. Each figure needs its own context."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou kandida yo, prèv jesyon ta konekte travay moun fè ak mwayen pou peye l. Jeudy ka montre dosye revni ak salè meri a pou peryòd li jere; Savary ka esplike ki enfòmasyon sou enterè biznis li ki ka pibliye san risk prive initil. Yon bilan bezwen plis pase yon gwo kantite djòb.",
+            "en": "Management evidence connects work performed to the means of paying for it. Jeudy can show municipal revenue and payroll records for his administration; Savary can explain business-interest information publishable without unnecessary private risk. A record needs more than a large job total."
           },
           "sources": []
         }

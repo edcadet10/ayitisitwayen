@@ -1,0 +1,25 @@
+{
+  "reviewed_at": "2026-11-16",
+  "distinct_articles": 10,
+  "distinct_comparisons": 5,
+  "articles": [
+    "hans-joseph-badio-ulcc-may-2021-file",
+    "jocelerme-privert-2006-release-order-merits",
+    "olivier-barrau-aic-assets-liabilities-shareholders",
+    "olivier-barrau-health-insurance-ten-dollar-premium",
+    "women-candidate-registrations-office-position-2026",
+    "savannah-savary-vs-martine-moise",
+    "gary-bodeau-vs-jocelerme-privert",
+    "kely-bastien-vs-clarens-renois",
+    "jude-elie-vs-olivier-barrau",
+    "wilson-jeudy-vs-savannah-savary"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 104,
+  "required_applied": 3,
+  "optional_applied": 1,
+  "public_word_ceiling": 500,
+  "facts_review": "Records and contrasts checked against reviewed sources, including fresh primary material. Allegations, responses, proposals and verified arithmetic remain distinct; no invented ratings, current alliances or criminal convictions.",
+  "parent_english_clarifications_applied": 1,
+  "balance_sheet_rounding": "Assets, liabilities and equity taken separately from printed balance sheet; table has a one-thousand-gourde rounding difference. No missing-money inference."
+}
