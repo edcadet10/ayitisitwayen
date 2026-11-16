@@ -1,0 +1,243 @@
+{
+  "reviewed_at": "2026-11-16",
+  "home": {
+    "title": {
+      "ht": "Ayiti: eleksyon, kandida ak analiz",
+      "en": "Ayiti (Haiti): Elections, Candidates and Analysis"
+    },
+    "description": {
+      "ht": "Ayiti Sitwayen: enfòmasyon endepandan sou Ayiti, kandida, eleksyon ak dwa sitwayen. Li analiz ki gen sous epi jwenn gid pratik an kreyòl ak anglè.",
+      "en": "Independent information on Ayiti (Haiti): candidates, elections and citizens’ rights. Read sourced analysis and practical guides in Haitian Creole and English."
+    },
+    "heading": {
+      "ht": "Ayiti: konprann, konpare epi patisipe",
+      "en": "Ayiti: understand, compare and participate"
+    },
+    "intro": {
+      "ht": "Yon espas endepandan pou konprann lavi piblik an Ayiti: konnen kandida yo, egzamine dosye yo epi jwenn enfòmasyon pou w patisipe. Analiz ak opinyon yo make klèman; enfòmasyon elektoral yo gen sous KEP.",
+      "en": "An independent place to understand public life in Haiti: get to know candidates, examine their records and find information to participate. Analysis and opinion are clearly labeled; election information cites the CEP."
+    },
+    "guide_heading": {
+      "ht": "Konprann Ayiti, pi lwen pase yon eleksyon",
+      "en": "Understand Ayiti beyond one election"
+    },
+    "guide_intro": {
+      "ht": "Kòmanse ak peyi a, dwa sitwayen yo ak wòl enstitisyon piblik yo. Gid sa a konekte resous yo pou ede w poze kesyon sou sa pouvwa a dwe fè.",
+      "en": "Start with the country, citizens’ rights and the roles of public institutions. This guide connects resources to help you question what power should deliver."
+    },
+    "guide_link": {
+      "ht": "Ayiti: peyi a ak lavi sitwayen",
+      "en": "Ayiti: the country and civic life"
+    }
+  },
+  "guide": {
+    "title": {
+      "ht": "Ayiti: peyi a, dwa w ak lavi piblik",
+      "en": "Ayiti (Haiti): the country, your rights and public life"
+    },
+    "description": {
+      "ht": "Ayiti se non peyi a an kreyòl. Konnen peyi a epi jwenn gid endepandan ki gen sous sou dwa sitwayen, enstitisyon, eleksyon ak kandida.",
+      "en": "Ayiti is Haiti’s name in Haitian Creole. Explore the country, citizens’ rights, institutions, elections and candidates through sourced independent civic guides."
+    },
+    "kicker": {
+      "ht": "Peyi a ak sitwayen li yo",
+      "en": "The country and its citizens"
+    },
+    "heading": {
+      "ht": "Ayiti: konnen peyi a, konprann pouvwa a",
+      "en": "Ayiti: know the country, understand power"
+    },
+    "intro": {
+      "ht": "Yon peyi pa sèlman non moun k ap dirije l. Li se kominote, lang, memwa ak sitwayen ki gen dwa. Paj sa a se yon pwen depa pou konprann Ayiti epi egzamine lavi piblik li.",
+      "en": "A country is more than the people governing it. It is communities, language, memory and citizens with rights. This page is a starting point for understanding Haiti and examining its public life."
+    },
+    "identity_heading": {
+      "ht": "Ayiti ak Haïti: menm peyi a",
+      "en": "Ayiti and Haiti: the same country"
+    },
+    "identity_text": {
+      "ht": "Ayiti se non peyi a an kreyòl; Haïti se non li an franse. Kreyòl ak franse se lang ofisyèl yo. Pòtoprens se kapital la. Peyi a pataje zile Ispayola ak Repiblik Dominikèn, epi li te pran endepandans li nan men Lafrans an 1804. Sous non ak enfòmasyon sa yo anba paj la.",
+      "en": "Ayiti is the country’s Haitian Creole name; Haïti is its French name. Haitian Creole and French are official languages. Port-au-Prince is the capital. Haiti shares Hispaniola with the Dominican Republic and gained independence from France in 1804. The source for these names and facts appears below."
+    },
+    "explore_heading": {
+      "ht": "Ki sa ou vle konprann?",
+      "en": "What do you want to understand?"
+    },
+    "sections": [
+      {
+        "title": {
+          "ht": "Chwazi moun k ap reprezante w",
+          "en": "Choose who represents you"
+        },
+        "text": {
+          "ht": "Konpare eksperyans, pwopozisyon ak dosye kandida yo. Enskripsyon sou platfòm KEP la pa menm bagay ak validasyon final yon kandidati.",
+          "en": "Compare candidates’ experience, proposals and records. Registration on the CEP platform is distinct from final approval of a candidacy."
+        },
+        "links": [
+          {
+            "url": "/candidates/president/",
+            "label": {
+              "ht": "Kandida prezidansyèl",
+              "en": "Presidential candidates"
+            }
+          },
+          {
+            "url": "/elections/analysis/",
+            "label": {
+              "ht": "Analiz ak opinyon",
+              "en": "Analysis and opinion"
+            }
+          },
+          {
+            "url": "/elections/analysis/comparisons/",
+            "label": {
+              "ht": "Konpare de kandida",
+              "en": "Compare two candidates"
+            }
+          },
+          {
+            "url": "/elections.html",
+            "label": {
+              "ht": "Kalandriye ak demach elektoral",
+              "en": "Election calendar and procedures"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "ht": "Konnen dwa w",
+          "en": "Know your rights"
+        },
+        "text": {
+          "ht": "Kòmanse ak gid sou sitwayènte, dwa ak Konstitisyon an. Chèche ki obligasyon Leta genyen, epi distenge yon tèks ki an vigè ak yon pwopozisyon chanjman.",
+          "en": "Start with guides to citizenship, rights and the Constitution. Ask what the state owes citizens, and distinguish a text in force from a proposed change."
+        },
+        "links": [
+          {
+            "url": "/citizenship.html",
+            "label": {
+              "ht": "Sitwayènte",
+              "en": "Citizenship"
+            }
+          },
+          {
+            "url": "/rights.html",
+            "label": {
+              "ht": "Dwa sitwayen",
+              "en": "Citizens’ rights"
+            }
+          },
+          {
+            "url": "/constitution.html",
+            "label": {
+              "ht": "Konstitisyon an",
+              "en": "The Constitution"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "ht": "Konprann kiyès ki dwe fè kisa",
+          "en": "Understand who should do what"
+        },
+        "text": {
+          "ht": "Yon pwomès bezwen yon enstitisyon ki gen pouvwa pou reyalize l. Gid yo esplike wòl palman, lajistis ak otorite lokal yo; diksyonè a ede ak mo politik yo.",
+          "en": "A promise needs an institution with the power to deliver it. The guides explain Parliament, justice and local government; the dictionary helps with political terms."
+        },
+        "links": [
+          {
+            "url": "/parliament.html",
+            "label": {
+              "ht": "Palman",
+              "en": "Parliament"
+            }
+          },
+          {
+            "url": "/judiciary.html",
+            "label": {
+              "ht": "Lajistis",
+              "en": "Justice"
+            }
+          },
+          {
+            "url": "/local-government.html",
+            "label": {
+              "ht": "Otorite lokal yo",
+              "en": "Local government"
+            }
+          },
+          {
+            "url": "/glossary.html",
+            "label": {
+              "ht": "Diksyonè politik",
+              "en": "Political dictionary"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "ht": "Kenbe memwa, egzamine prèv",
+          "en": "Keep memory, examine evidence"
+        },
+        "text": {
+          "ht": "Istwa ede poze pi bon kesyon jodi a. Lè w li yon dosye, verifye dat, sous ak etap pwosedi a. Yon akizasyon, yon opinyon ak yon jijman pa menm bagay.",
+          "en": "History helps us ask better questions today. When reading a record, check dates, sources and procedural stage. An allegation, an opinion and a judgment are different things."
+        },
+        "links": [
+          {
+            "url": "/election-history.html",
+            "label": {
+              "ht": "Istwa eleksyon yo",
+              "en": "Election history"
+            }
+          },
+          {
+            "url": "/drapo.html",
+            "label": {
+              "ht": "Drapo ak senbòl",
+              "en": "Flag and symbols"
+            }
+          },
+          {
+            "url": "/about.html",
+            "label": {
+              "ht": "Misyon ak prensip nou yo",
+              "en": "Our mission and principles"
+            }
+          }
+        ]
+      }
+    ],
+    "sources_heading": {
+      "ht": "Sous ak fason pou sèvi ak gid la",
+      "en": "Sources and using this guide"
+    },
+    "sources_intro": {
+      "ht": "Non peyi a, lang yo, kapital la, jewografi ak dat endepandans lan soti nan fich ofisyèl PCGN 2024 la. Pou yon demach elektoral, verifye dènye piblikasyon KEP yo. Ayiti Sitwayen se yon platfòm endepandan, li pa KEP.",
+      "en": "Country names, languages, capital, geography and independence date come from the official 2024 PCGN factfile. For an electoral procedure, check the CEP’s latest publications. Ayiti Sitwayen is an independent platform, separate from the CEP."
+    },
+    "sources": [
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/65f31bf09d99de001d03df19/Haiti_toponymic_factfile.pdf",
+        "title": {
+          "ht": "PCGN — fich non jewografik Ayiti, 2024",
+          "en": "PCGN — Haiti toponymic factfile, 2024"
+        }
+      },
+      {
+        "url": "https://cephaiti.ht/",
+        "title": {
+          "ht": "Konsèy Elektoral Pwovizwa — piblikasyon ofisyèl",
+          "en": "Provisional Electoral Council — official publications"
+        }
+      }
+    ],
+    "reviewed_label": {
+      "ht": "Dènye revizyon",
+      "en": "Last reviewed"
+    }
+  }
+}

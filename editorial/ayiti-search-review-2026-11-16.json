@@ -1,0 +1,17 @@
+{
+  "reviewed_at": "2026-11-16",
+  "paired_fields_checked": 42,
+  "independent_ht_first_review": true,
+  "required_applied": 2,
+  "optional_applied": 1,
+  "native_Creole_titles_retained": true,
+  "primary_country_source": "PCGN2024HaitiFactfile,page1",
+  "source_facts_checked": [
+    "Ayiti/Ha\u00efti names",
+    "Creole and French official languages",
+    "PortauPrince/Potoprens capital",
+    "shared Hispaniola with DominicanRepublic",
+    "independencefromFrance1804"
+  ],
+  "ranking_claim": "Technical relevance and discoverability only; ranking improvement unmeasured."
+}
