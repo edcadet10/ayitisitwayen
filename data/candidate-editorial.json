@@ -1054,8 +1054,8 @@
       "published_at": null,
       "checked_at": "2026-11-15",
       "title": {
-        "ht": "Manifès MPH — sekirite paj 9, ekonomi ak finans paj 10",
-        "en": "MPH manifesto — security on page 9, economy and finance on page 10"
+        "ht": "Manifès MPH — sante ak sekirite paj 9, ekonomi ak finans paj 10",
+        "en": "MPH manifesto — health and security on page 9, economy and finance on page 10"
       },
       "note": {
         "ht": "Nou li dokiman 14 paj la. Se pwopozisyon pati a, pa yon lwa bidjè oswa prèv lajan ki disponib.",
@@ -1606,6 +1606,174 @@
       "note": {
         "ht": "Pèmèt konpare tit kout nouvèl la ak mo desizyon 2016 la. Detay sou dat nominasyon an pa sèvi kòm yon dat nou verifye nan atik sa a.",
         "en": "Used to compare a short news headline with the 2016 order’s wording. Its appointment-date detail is not adopted as a verified date in this article."
+      }
+    },
+    "ifc-oasis-loan-2011": {
+      "publisher": "International Finance Corporation",
+      "url": "https://www.ifc.org/content/dam/ifc/doc/mgrt/ar2011-chapter1.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "IFC: prè pou Oasis ak Jerry Tardieu kòm direktè jeneral, paj PDF 14",
+        "en": "IFC: Oasis loan and Jerry Tardieu as chief executive, PDF page 14"
+      },
+      "note": {
+        "ht": "Rapò finansè a rele finansman an yon prè. Pwomès sou travay ak acha lokal pa yon kontwòl endepandan rezilta yo.",
+        "en": "The financier describes a loan. Employment and local-sourcing claims are not an independent outcome audit."
+      }
+    },
+    "oasis-equity-exit-2013": {
+      "publisher": "TechnoServe / The Coca-Cola Company",
+      "url": "https://www.technoserve.org/blog/hope-in-haiti-why-job-creation-and-economic-development-will-drive-nations/",
+      "published_at": "2013-01-14",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Royal Oasis: envestisman Clinton Bush Haiti Fund ak lavant aksyon yo",
+        "en": "Royal Oasis: Clinton Bush Haiti Fund investment and share sale"
+      },
+      "note": {
+        "ht": "Se yon atik yon patnè devlopman pibliye. Li dekri envestisman an aksyon ak lajan ki te reyenvesti; li pa bay tout kont aktyèl otèl la.",
+        "en": "A development-partner article describing equity and recycled proceeds; it does not supply the hotel’s complete current accounts."
+      }
+    },
+    "aic-finances-2022": {
+      "publisher": "Alternative Insurance Company",
+      "url": "https://aic.ht/wp-content/uploads/2024/02/AIC-Annual-Report_2022_French.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "AIC 2022: direksyon, lèt odit ak rezilta finansye, paj 10, 26 ak 28",
+        "en": "AIC 2022: leadership, audit letter and financial results, pages 10, 26 and 28"
+      },
+      "note": {
+        "ht": "Tablo a an milye goud. Chanjman pousantaj yo kalkile apati montan ki enprime yo; se kont konpayi an, pa byen pèsonèl yon kandida.",
+        "en": "The table is in thousands of gourdes. Percentage changes are calculated from printed amounts; these are company accounts, not a candidate’s personal assets."
+      }
+    },
+    "wfp-insurance-haiti-2022": {
+      "publisher": "World Food Programme",
+      "url": "https://wfp.tind.io/record/129981/files/ELR%203222.pdf?version=1",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "PAM: asirans klima an Ayiti, rapò 2022, paj enprime 54",
+        "en": "WFP: climate insurance in Haiti, 2022 report, printed page 54"
+      },
+      "note": {
+        "ht": "Rapò patnè pwogram nan bay kantite patisipan ak limit pwoteksyon an. Li pa pwouve chak moun te resevwa yon peman.",
+        "en": "The programme partner reports participants and coverage limits; this does not mean every participant received a payout."
+      }
+    },
+    "ifc-index-insurance": {
+      "publisher": "International Finance Corporation",
+      "url": "https://www.ifc.org/en/what-we-do/sector-expertise/financial-institutions/financial-inclusion/insurance",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "IFC: kijan asirans ki baze sou yon endis mache",
+        "en": "IFC: how index insurance works"
+      },
+      "note": {
+        "ht": "Eksplikasyon jeneral sou endis ak risk yon peman pa koresponn ak pèt reyèl la; se pa tout kondisyon kontra pilòt ayisyen an.",
+        "en": "General explanation of indices and the risk of payouts not matching actual losses; not the complete Haitian pilot’s policy terms."
+      }
+    },
+    "muscadin-file-incomplete-2026": {
+      "publisher": "Juno7",
+      "url": "https://www.juno7.ht/jean-ernest-muscadin-dossier-candidature-irrecevable/",
+      "published_at": "2026-10-29",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Juno7 rapòte pyès ki te manke nan dosye kandidati Muscadin",
+        "en": "Juno7 reports missing documents in Muscadin’s candidacy file"
+      },
+      "note": {
+        "ht": "Jounal la di li poko gen dokiman ofisyèl desizyon an. Se yon rapò sou yon etap nan dosye a, pa prèv estati final kandidati a.",
+        "en": "The newsroom says it does not yet possess the official decision document. This reports a procedural stage, not the candidacy’s final status."
+      }
+    },
+    "transition-pact-april-2024": {
+      "publisher": "Accord politique / La Loi de ma Bouche",
+      "url": "https://laloidemabouche.ht/wp-content/uploads/2024/04/accord-politique-pour-une-transition-pacif-condi.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Akò tranzisyon Avril 2024: angajman yo ak siyati Clarens Renois",
+        "en": "April 2024 transition agreement: commitments and Clarens Renois’s signature"
+      },
+      "note": {
+        "ht": "Kopi 14 paj; paj siyati 13 verifye vizyèlman. Siyen kòm reprezantan yon sektè pa vle di moun nan te manm Konsèy Prezidansyèl la.",
+        "en": "Fourteen-page copy; signature page 13 visually checked. Signing for a sector does not make someone a Presidential Council member."
+      }
+    },
+    "sanon-solid-2022": {
+      "publisher": "Scoop FM",
+      "url": "https://www.scoopfmhaiti.com/14653/haiti-debat-walsonn-sanon-de-la-structure-solid-rejette-laccord-du-21-decembre-deplore-le-mecanisme-du-choix-de-madame-manigat-dans-le-hct/",
+      "published_at": "2022-12-27",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Walsonn Sanon eksplike poukisa SOLID pa t siyen akò Desanm 2022 a",
+        "en": "Walsonn Sanon explains SOLID’s refusal to sign the December 2022 agreement"
+      },
+      "note": {
+        "ht": "Rezime ekri estasyon an sou entèvyou pa li. Nou pa prezante l kòm yon anrejistreman nou te koute nèt. HCT 2022 a diferan ak CPT 2024 la.",
+        "en": "The station’s written account of its own interview; not represented as a complete recording reviewed. The 2022 HCT differs from the 2024 CPT."
+      }
+    },
+    "sanon-refoundation-2025": {
+      "publisher": "Rezo Nòdwès",
+      "url": "https://rezonodwes.com/2025/05/en-haiti-walson-sanon-appelle-a-une-refondation-citoyenne-face-a-la-crise-politique/",
+      "published_at": "2025-05-04",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Walson Sanon, kowòdonatè ANFÒS, kritike tranzisyon an",
+        "en": "Walson Sanon, ANFÒS coordinator, criticizes the transition"
+      },
+      "note": {
+        "ht": "Entèvyou sou pozisyon kandida a. Jijman li sou lòt pati yo rete opinyon li; atik la pa mezire rezilta pwojè agrikòl li.",
+        "en": "Interview reporting the candidate’s positions. His assessments of other parties remain his opinions; the article does not measure his agricultural project’s outcomes."
+      }
+    },
+    "gue-ant-response-2007": {
+      "publisher": "Radio Métropole",
+      "url": "https://metropole.ht/le-ministere-de-lagriculture-annonce-une-campagne-contre-les-fourmis-devastatrices/",
+      "published_at": "2007-09-02",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué anonse yon kanpay kont fourmi nan Nò a",
+        "en": "Joanas Gué announces a campaign against ants in the North"
+      },
+      "note": {
+        "ht": "Deklarasyon sekretè deta a sou bezwen ak lajan li te anonse. Se pa kont depans oswa evalyasyon rezilta kanpay la.",
+        "en": "The secretary of state’s statements on needs and announced funding; not an expenditure audit or outcome evaluation."
+      }
+    },
+    "etzer-budget-commentary-2020": {
+      "publisher": "Etzer Émile / Juno7",
+      "url": "https://www.juno7.ht/commentaires-economiste-etzer-emile-budget-2019-2020/",
+      "published_at": "2020-06-10",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Émile egzamine bidjè 2019–2020 a",
+        "en": "Etzer Émile examines the 2019–2020 budget"
+      },
+      "note": {
+        "ht": "Analiz ekonomis la pibliye sou Juno7. Nou separe kalkil ak kesyon li te poze yo ak rezilta final ane bidjè a, atik la pa bay.",
+        "en": "The economist’s analysis published by Juno7. His calculations and questions are distinct from final fiscal-year outcomes, which the article does not establish."
+      }
+    },
+    "etzer-court-controls-2020": {
+      "publisher": "Juno7",
+      "url": "https://www.juno7.ht/pierre-esperance-et-etzer-emile-critiquent-le-decret/",
+      "published_at": "2020-11-10",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Émile kritike chanjman ki konsène Kour Dèkont la",
+        "en": "Etzer Émile criticizes changes affecting the Court of Auditors"
+      },
+      "note": {
+        "ht": "Atik la rapòte kritik Émile ak yon opinyon legal ki diferan. Nou pa pran tit li kòm yon desizyon tribinal sou tout pouvwa kour la.",
+        "en": "Reports Émile’s criticism and a differing legal interpretation. Its headline is not treated as a judicial determination of all the court’s powers."
       }
     }
   },
@@ -5706,6 +5874,594 @@
           "text": {
             "ht": "Pou elektè ki egzamine yon retou Martelly sou pouvwa a, kesyon an rete konkrè: si yon komisyon prezidansyèl enfliyanse pwojè piblik, kiyès ki konsève prèv sou desizyon ak depans yo? Egzamen an pa dwe limite ak moun ki siyen yon chèk la. Men responsablite chak aktè bezwen etabli ak prèv.",
             "en": "For voters assessing a Martelly return, the concrete question is who preserves decision and spending records when a presidential commission influences public projects. Scrutiny must look beyond the person signing a check, while establishing each actor’s responsibility with evidence."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jerry-tardieu-royal-oasis-loan-equity-financing",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jerry Tardieu ak Royal Oasis: twa fason diferan pou suiv lajan an",
+        "en": "Jerry Tardieu and Royal Oasis: following three different kinds of money"
+      },
+      "description": {
+        "ht": "Yon prè, aksyon yon fondasyon achte, ak yon lavant aksyon pa menm bagay. Dosye otèl la montre poukisa diferans sa yo konte.",
+        "en": "A loan, a foundation’s share purchase and a later share sale are different transactions. The hotel’s history shows why those distinctions matter."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan rapò anyèl IFC pou 2011 la, Jerry Tardieu parèt kòm direktè jeneral Oasis Hotel. Rapò a dekri yon pwojè tranblemanntè a te kanpe, epi yon prè 7.5 milyon dola ameriken ki te ede atire 15 milyon dola anplis nan men lòt envestisè. Se yon prè, pa yon don san ranbousman.",
+            "en": "IFC’s 2011 annual report identifies Jerry Tardieu as Oasis Hotel’s chief executive. It describes an earthquake-interrupted project and a US$7.5 million loan that helped attract another US$15 million from investors. A loan carries a repayment obligation; it is not a grant."
+          },
+          "sources": [
+            "ifc-oasis-loan-2011"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon lòt mekanis te sèvi pou Clinton Bush Haiti Fund. Dapre atik TechnoServe pibliye 14 Janvye 2013 la, fon an te achte 2 milyon dola aksyon nan Royal Oasis. Apre sa, li te vann aksyon yo epi reyenvesti 2 milyon dola sa yo nan rekonstriksyon Fakilte Syans Inivèsite Leta d Ayiti a. Sa pa yon prèv IFC te deja jwenn ranbousman prè pa li.",
+            "en": "Clinton Bush Haiti Fund used another mechanism. A January 14, 2013 article published by TechnoServe says the fund invested US$2 million in Royal Oasis shares, later sold them and recycled the original investment into rebuilding the State University of Haiti’s science faculty. That does not establish repayment of IFC’s separate loan."
+          },
+          "sources": [
+            "oasis-equity-exit-2013"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon elektè, istwa a bay yon pwen depa ki pi solid pase jis di « li te resevwa èd ». Tardieu te dirije yon biznis ki te jwenn finansman entènasyonal. Pou mezire bilan sa a, fòk nou separe lajan yo te prete, lajan envestisè te mete, travay yo te anonse ak rezilta yo ka verifye.",
+            "en": "For voters, this is more useful than saying he “received aid.” Tardieu ran a business that secured international financing. Assessing that record requires separating borrowed money, investment capital, announced jobs and independently verifiable results."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Dokiman sa yo pa etabli aksyon Tardieu posede jodi a, tout dèt aktyèl otèl la oswa sous lajan kanpay li. Yo pa pwouve detounman lajan nonplis. Yon bilan biznis ki sèvi kòm agiman politik merite kont ki pèmèt piblik la wè sa eksperyans lan te pwodui.",
+            "en": "These documents do not establish Tardieu’s present shareholding, the hotel’s current debts or his campaign funding. They do not establish diversion of funds either. When business experience becomes a political credential, accounts should show what that experience delivered."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "olivier-barrau-aic-premiums-profit-2022",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Olivier Barrau: AIC te fè plis biznis, men mwens benefis",
+        "en": "Olivier Barrau: AIC’s business grew while profit fell"
+      },
+      "description": {
+        "ht": "De chif nan menm rapò a rakonte de istwa diferan. Li tablo a byen anvan w fè l tounen yon jijman sou kandida a.",
+        "en": "Two figures in one report tell different stories. Reading the table carefully changes how the candidate’s business record should be assessed."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan rapò AIC pou 2022 a, Olivier Barrau parèt kòm prezidan konsèy administrasyon an. Tablo rezilta yo montre valè prim asirans konpayi an te emèt yo te monte soti anviwon 1.507 milya goud an 2021 pou rive 1.827 milya an 2022. Sa fè yon ogmantasyon anviwon 21.2%. Men benefis nèt la te bese soti anviwon 167.6 milyon goud pou rive 148.5 milyon: yon bès anviwon 11.4%.",
+            "en": "AIC’s 2022 report names Olivier Barrau as board president. Written premiums increased from approximately 1.507 billion gourdes in 2021 to 1.827 billion in 2022, a rise of about 21.2%. Yet net profit fell from about 167.6 million gourdes to 148.5 million, a decline of approximately 11.4%."
+          },
+          "sources": [
+            "aic-finances-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Tablo orijinal la ekri montan yo an milye goud. Se poutèt sa liy « 148,512 » la vle di 148,512,000 goud. Prim emèt yo mezire valè kontra asirans yo; yo pa benefis ki rete apre tout depans. Rapò a atribye bès benefis la ak yon ogmantasyon pèt yo. Li gen yon lèt odit Joseph Paillant siyen sou eta finansye yo.",
+            "en": "The original table uses thousands of gourdes: “148,512” means 148,512,000 gourdes. Written premiums measure insurance business written, not profit remaining after expenses. The report attributes the profit decline to increased losses and includes Joseph Paillant’s audit opinion on the financial statements."
+          },
+          "sources": [
+            "aic-finances-2022"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou konprann diferans lan, panse ak yon boutik ki vann plis men ki depanse plis toujou. Aktivite a ka grandi pandan sa ki rete nan fen ane a diminye. Chif sa yo anpeche nou sèvi ak yon sèl pousantaj kwasans pou esplike tout bilan jesyon an. Yo pa sifi pou deklare jesyon an bon oswa move.",
+            "en": "Think of a shop that sells more while its costs also rise. Activity can expand even as the amount left at year-end shrinks. These figures prevent one growth percentage from standing in for the entire management record. Alone, they do not establish good or bad management."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa yo se rezilta konpayi an pou yon ane, pa salè Barrau, fòtin fanmi li oswa lajan kanpay li. Pou evalye eksperyans li kòm kandida, elektè yo ta bezwen wè plizyè ane, kalite sèvis kliyan yo ak fason responsablite li te separe ak responsablite lòt dirijan yo.",
+            "en": "These are one year’s company results, not Barrau’s salary, family wealth or campaign funds. Evaluating his experience as a candidate would require several years of results, customer-service evidence and a clear account of his responsibilities alongside those of other executives."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "olivier-barrau-aic-farmers-rainfall-insurance",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Olivier Barrau ak asirans peyizan: lè lapli a deside peman an",
+        "en": "Olivier Barrau and farmers’ insurance: when rainfall determines payment"
+      },
+      "description": {
+        "ht": "Yon pwojè AIC ak PAM bay yon egzanp konkrè pou egzamine eksperyans kandida a: kiyès asirans lan pwoteje, epi nan ki kondisyon?",
+        "en": "An AIC–WFP project offers a concrete way to examine the candidate’s experience: whom does insurance protect, and under what conditions?"
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon peyizan ka pèdi rekòt li epi bezwen lajan tousuit pou rekòmanse. An 2022, AIC, konpayi kote Olivier Barrau te prezidan konsèy administrasyon an, te lanse yon pilòt asirans ak Pwogram Alimantè Mondyal la, WRMS ak SCOR. Rapò PAM la dekri 4,990 ti pwodiktè nan 11 komin nan Grandans ak Sid; 51% te fanm.",
+            "en": "A farmer who loses a harvest needs money to plant again. In 2022, AIC, whose board president was Olivier Barrau, launched an insurance pilot with the World Food Programme, WRMS and SCOR. WFP reports 4,990 smallholders across 11 communes in Grand’Anse and Sud, 51% of them women."
+          },
+          "sources": [
+            "aic-finances-2022",
+            "wfp-insurance-haiti-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Asirans lan te vize twòp lapli ak mank lapli. PAM bay yon limit anviwon 900 dola ameriken pou chak peyizan, divize egalman ant de risk yo. Sa pa vle di chak patisipan te gen dwa resevwa 900 dola nenpòt lè li pèdi yon rekòt. Limit pwoteksyon ak lajan yo peye toutbon se de bagay diferan.",
+            "en": "Coverage addressed excess rainfall and rainfall deficit. WFP gives a maximum of about US$900 per farmer, divided equally between the two risks. That is not a promise of US$900 whenever a harvest fails. A coverage ceiling and an actual payout are different things."
+          },
+          "sources": [
+            "wfp-insurance-haiti-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan kalite asirans sa a, yon mezi ki defini davans, tankou kantite lapli, sèvi pou deklanche peman an. IFC eksplike feblès prensipal la: mezi a ka pa koresponn ak pèt yon moun sibi. Yon peyizan ka gen gwo domaj pandan endis la pa deklanche yon peman ki kouvri domaj sa yo. Sa se yon risk nan mekanis la, pa prèv pilòt AIC la te refize yon reklamasyon presi.",
+            "en": "This kind of insurance uses a predefined measure, such as rainfall, to trigger payment. IFC explains its central weakness: the index may not match an individual’s losses. A farmer can suffer serious damage without receiving a payment that covers it. That is a design risk, not evidence that this AIC pilot rejected a particular claim."
+          },
+          "sources": [
+            "ifc-index-insurance"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Enterè politik egzanp lan se kapasite pou pwoteje moun ki gen ti mwayen. Yon bilan serye ta montre konbyen moun ki te touche, konbyen tan sa te pran, ak sa patisipan yo te konprann anvan yo enskri. Kantite moun ki antre nan yon pwogram enpòtan; kondisyon ak rezilta pwoteksyon an enpòtan menm jan an.",
+            "en": "The political test is whether a system protects people with little financial cushion. A useful record would show how many received payouts, how quickly and what participants understood before enrolling. Enrolment matters; the conditions and results of protection matter just as much."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "muscadin-candidacy-file-resignation-documents",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-260d6761d0c65693b074"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Muscadin: yon dosye enkonplè pa rakonte tout istwa kandidati a",
+        "en": "Muscadin: an incomplete file does not settle a candidacy"
+      },
+      "description": {
+        "ht": "Nouvèl sou pyès ki manke, yon lèt demisyon ak yon non nan rejis la dekri twa etap. Fòk nou pa konfonn yo.",
+        "en": "A missing-document report, a resignation letter and a registry entry describe three stages. They should not be treated as the same decision."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "29 Oktòb 2026, Juno7 rapòte dosye kandidati Jean Ernest Muscadin te deklare iresevab paske li te manke deklarasyon definitif taks pou 2025 ak 2026, ansanm ak lèt demisyon li. Men jounal la te presize li poko gen dokiman ofisyèl desizyon sa a. Se yon limit enpòtan nan sa nouvèl la pèmèt nou verifye.",
+            "en": "On October 29, 2026, Juno7 reported that Jean Ernest Muscadin’s candidacy file had been declared inadmissible because it lacked definitive tax declarations for 2025 and 2026 and his resignation letter. The newsroom also said it did not yet possess the official decision document. That limits what can be verified from its report."
+          },
+          "sources": [
+            "muscadin-file-incomplete-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Apre sa, Juno7 rapòte 6 Novanm Minis Jistis Patrick Pélissier te aksepte demisyon Muscadin te soumèt 29 Oktòb la. Lèt ministè a, ki pote referans MJSP/SCGe/33, konsène depa li nan pòs komisè gouvènman Miragwàn. Li pa yon desizyon KEP sou apwobasyon kandidati prezidansyèl li.",
+            "en": "Juno7 subsequently reported on November 6 that Justice Minister Patrick Pélissier accepted the resignation Muscadin submitted on October 29. Ministry letter MJSP/SCGe/33 concerns his departure as Miragoâne’s government commissioner. It is not a CEP decision approving his presidential candidacy."
+          },
+          "sources": [
+            "muscadin-resignation-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Non Muscadin parèt tou nan kopi rejis enskripsyon KEP nou verifye 14 Novanm nan, anba FCN. Prezans yon non nan rejis la pa vle di tout kondisyon legal yo deja ranpli. Yon rejis enskripsyon ak yon lis final kandida ki apwouve pa menm dokiman.",
+            "en": "Muscadin also appears under FCN in the CEP registration snapshot reviewed November 14. An entry does not establish that every legal requirement has been satisfied. A registration registry and a final approved-candidate list are different documents."
+          },
+          "sources": [
+            "cep-20261114"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pyès taks ki manke nan yon dosye pa pwouve kandida a pa peye taks. Yon lèt demisyon ki pa nan dosye a pa pwouve li pa t janm demisyone. E yon lèt ki vini apre pa esplike poukont li sa otorite elektoral yo te genyen nan men yo pi bonè.",
+            "en": "Missing tax paperwork does not prove unpaid taxes. A resignation letter missing from a file does not prove no resignation occurred. A later letter does not, by itself, establish what electoral authorities possessed earlier."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa ki ta rezoud kesyon an se desizyon ofisyèl la, lis pyès ki te depoze yo ak nenpòt regilarizasyon oswa rekou. San dokiman sa yo, deklare kandidati a definitivman rejte oswa definitivman valide ta ale pi lwen pase prèv ki egzamine isit la.",
+            "en": "The official decision, submitted-document list and any correction or appeal would resolve the question. Without them, declaring the candidacy definitively rejected or definitively approved would go beyond the evidence examined here."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "clarens-renois-2024-transition-pact-signature",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-a8679d21107058f5bc35"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Clarens Renois: siyati ki mare l ak pwomès tranzisyon an",
+        "en": "Clarens Renois: the signature tying him to transition promises"
+      },
+      "description": {
+        "ht": "Li pa t manm Konsèy Prezidansyèl la. Men siyati li nan akò 2024 la bay elektè yo yon angajman presi pou egzamine.",
+        "en": "He was not a Presidential Council member. His signature on the 2024 agreement nevertheless gives voters a concrete commitment to examine."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan paj 13 akò politik Avril 2024 la, siyati Clarens Renois parèt pou Kolektif Pati Politik 30 Janvye 2023 yo. Liné Balthazar ak Edgard Leblanc Fils parèt nan menm gwoup la. Se yon lyen dokimante ak achitekti tranzisyon an, pa yon lyen nou dedui apati yon foto.",
+            "en": "Page 13 of the April 2024 political agreement carries Clarens Renois’s signature for the Collective of Political Parties of January 30, 2023, alongside Liné Balthazar and Edgard Leblanc Fils. This is a documented connection to the transition’s design."
+          },
+          "sources": [
+            "transition-pact-april-2024"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Akò a te fikse twa priyorite: sekirite, refòm ak eleksyon. Atik 12.1 te mete fen manda Konsèy Prezidansyèl la nan dat 7 Fevriye 2026; atik 13 te entèdi pwolongasyon manda sa a. Atik 47 te prevwa yon asanble sektè yo pou suiv akò a ak fè rekòmandasyon. Kidonk, tèks la pa t sèlman distribye plas: li te ekri règ pou suiv sa ki t ap fèt.",
+            "en": "The pact prioritized security, reform and elections. Article 12.1 set February 7, 2026 as the council’s end date; article 13 barred an extension. Article 47 envisaged a sectors’ assembly to monitor implementation and make recommendations. The text provided a mechanism for scrutiny as well as distributing roles."
+          },
+          "sources": [
+            "transition-pact-april-2024"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou sektè Renois a, manm konsèy la se te Edgard Leblanc Fils. Se pa Renois. Nou pa ka ba li tout desizyon oswa tout fot yon konsèy li pa t chita ladan. Men yon moun ki siyen yon akò ka esplike sa li te soutni, sa li te konteste ak fason li te sèvi ak mekanis swivi yo.",
+            "en": "The collective’s council member was Edgard Leblanc Fils, not Renois. Decisions and failures cannot automatically be assigned to a nonmember. A signatory can nevertheless account for what he supported, what he challenged and how he used the proposed oversight mechanisms."
+          },
+          "sources": [
+            "transition-pact-april-2024"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Distenksyon sa a enpòtan nan yon eleksyon: responsablite politik pi laj pase siyen yon chèk, men li pa menm ak responsablite kriminèl. Akò a pa pwouve Renois te komèt yon enfraksyon. Li bay yon mezi konkrè pou egzamine pawòl ak aksyon li sou tranzisyon an: angajman li te siyen yo.",
+            "en": "This distinction matters at election time. Political accountability extends beyond spending authority, while remaining distinct from criminal liability. The pact establishes no offence by Renois. It supplies a concrete standard against which to examine his transition positions and actions: the commitments he signed."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "walsonn-sanon-transition-consensus-party-rules",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-9aa099e78f485f8daa4b"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Walsonn Sanon: refize yon akò, men ki jan pou konstwi konsansis la?",
+        "en": "Walsonn Sanon: rejecting a pact, then building consent"
+      },
+      "description": {
+        "ht": "Ant 2022 ak 2025, li te kritike fason lidè yo chwazi moun ak dirije pati yo. Menm kritè sa yo ka sèvi pou egzamine pwòp òganizasyon li.",
+        "en": "Between 2022 and 2025, he challenged political selection and party practices. Those standards also offer a way to examine his own organization."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "27 Desanm 2022, Scoop FM rapòte Walsonn Sanon, responsab SOLID, te refize rekonèt akò 21 Desanm nan. Li te di òganizasyon li te fè rezèv sou tèks la, yo te pwomèt revize l, epi li te aprann sou rezo sosyal yo siyati a t ap fèt. Li te mande yon konsansis pi laj, olye li te rejte lide yon akò nèt.",
+            "en": "On December 27, 2022, Scoop FM reported that SOLID leader Walsonn Sanon rejected the December 21 agreement. He said his organization’s reservations had received promises of revision, but he then learned through social media that signing would proceed. He sought broader consent rather than rejecting any agreement in principle."
+          },
+          "sources": [
+            "sanon-solid-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Li te kritike tou fason yo te chwazi Mirlande Manigat pou HCT a. Sa se te Wo Konsèy Tranzisyon ki te lye ak akò 2022 a. Li pa menm estrikti ak Konsèy Prezidansyèl Tranzisyon, CPT, ki te vini an 2024. Konfonn yo ta efase chanjman ki te fèt nan sistèm nan.",
+            "en": "He also criticized the selection process for Mirlande Manigat in the HCT, the High Transition Council associated with the 2022 agreement. That body differs from the Transitional Presidential Council, or CPT, formed in 2024. Combining them would blur two separate arrangements."
+          },
+          "sources": [
+            "sanon-solid-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon entèvyou Rezo Nòdwès pibliye 4 Me 2025, Sanon, prezante kòm kowòdonatè ANFÒS, te akize pati politik yo sèvi privilèj pèsonèl olye yo konekte sitwayen ak Leta. Li te rele pou nouvo lidè ki soti nan reyalite lokal yo. Sa yo se jijman politik li, pa konklizyon yon ankèt sou tout pati yo.",
+            "en": "In a May 4, 2025 Rezo Nòdwès interview, Sanon, identified as ANFÒS coordinator, accused parties of serving personal privilege instead of connecting citizens to the state. He called for new leadership rooted in local life. Those are his political assessments, not findings from an investigation of every party."
+          },
+          "sources": [
+            "sanon-refoundation-2025"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Gen yon fil ki konekte de pozisyon yo: kiyès ki patisipe lè yo deside? Pou elektè yo, tès ki pi itil la se règ ANFÒS yo menm: kijan yo chwazi dirijan, trete dezakò ak esplike desizyon bay manm yo. Kritike eksklizyon nan tèt Leta vin pi solid lè òganizasyon ki pote kritik la rann pwòp metòd li vizib.",
+            "en": "Both positions turn on who participates in decisions. For voters, the useful test is ANFÒS’s own rules: selecting leaders, handling disagreement and explaining decisions to members. Criticism of exclusion at state level becomes more persuasive when the critic’s organization makes its own methods visible."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "joanas-gue-2007-ants-response-budget-delay",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-bf5bb68eea8a5b819128"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Joanas Gué: sa kanpay kont fourmi 2007 la montre sou ijans agrikòl",
+        "en": "Joanas Gué: what a 2007 ant campaign reveals about agricultural response"
+      },
+      "description": {
+        "ht": "Pwoblèm nan te deja evalye. Lajan ak entèvansyon te toujou ap tann. Se nan espas ant de moman sa yo nou ka egzamine jesyon an.",
+        "en": "The problem had been assessed; resources and action were still being arranged. The gap between those stages is where management can be examined."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan Septanm 2007, pandan fourmi t ap fè dega nan Limbé, Plaisance ak Pilate, Joanas Gué te sekretè deta Agrikilti. Radio Métropole rapòte li te anonse yon kanpay twa ane. Li te estime bezwen yo nan 100 milyon goud epi li te di yo te mete 50 milyon goud nan bidjè 2007–2008 la pou premye faz la.",
+            "en": "In September 2007, as ants damaged communities in Limbé, Plaisance and Pilate, Joanas Gué was secretary of state for agriculture. Radio Métropole reported his announcement of a three-year campaign. He estimated needs at 100 million gourdes and said 50 million had been allocated in the 2007–2008 budget for its first phase."
+          },
+          "sources": [
+            "gue-ant-response-2007"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Detay ki pi revele a se te tan an. Dapre Gué, espesyalis ministè a te ale evalye pwoblèm nan yon ane anvan epi yo te prepare yon dokiman. Li te rekonèt reta a te fè sitiyasyon an vin pi grav. Majistra Plaisance la te fè yon lòt apèl ijan pou entèvansyon de semèn anvan nouvèl la.",
+            "en": "The revealing detail was timing. Gué said ministry specialists had assessed the infestation a year earlier and produced a document. He acknowledged that delay had worsened the situation. Plaisance’s mayor had made another urgent appeal for intervention two weeks before the report."
+          },
+          "sources": [
+            "gue-ant-response-2007"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon fanmi k ap viv sou rekòt ak bèt li, yon evalyasyon pa ankò yon solisyon. Administrasyon an dwe fè dyagnostik la tounen desizyon, fè lajan an disponib epi verifye entèvansyon an mache. Epizòd sa a montre poukisa eksperyans nan yon ministè merite egzamine ak delè repons yo, pa sèlman ak kantite pwojè yo anonse.",
+            "en": "For a household living from crops and livestock, assessment is not yet relief. An administration must turn diagnosis into decisions, release resources and check whether intervention works. This episode shows why ministry experience should be examined through response times as well as announced projects."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nouvèl 2007 la pa bay yon kont depans final oswa yon mezi rezilta kanpay la. Li pa pèmèt nou rele 50 milyon yo lajan ki te depanse, ni lajan ki te disparèt. Pou konplete bilan Gué sou dosye sa a, pyès ki konte yo se rapò entèvansyon, dat debousman ak evalyasyon sa ki te chanje pou zòn ki te afekte yo.",
+            "en": "The 2007 report supplies neither final expenditure accounts nor measured campaign outcomes. It does not establish that the 50 million was spent or went missing. Completing Gué’s record on this episode requires intervention reports, disbursement dates and evidence of what changed in the affected areas."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "munir-mourra-health-mobile-clinics-continuity",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Munir Joseph Mourra: apre klinik mobil la fin pase, kiyès ki pran swen malad la?",
+        "en": "Munir Joseph Mourra: who cares for the patient after the mobile clinic leaves?"
+      },
+      "description": {
+        "ht": "Manifès MPH a pwopoze lopital modèn, kowòdinasyon ONG ak klinik mobil. Defi a se fè twa zouti sa yo tounen yon sèvis ki kontinye.",
+        "en": "MPH proposes modern hospitals, NGO coordination and mobile clinics. The challenge is making those tools work as a continuing service."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan manifès MPH 2026 la, pati Munir Joseph Mourra a bay twa pwopozisyon presi pou sante: modènize sant ospitalye Inivèsite Leta d Ayiti yo, òganize yon rezo ONG pou pi byen kowòdone aksyon yo, epi ankouraje klinik mobil rive nan zòn ki pi lwen yo. Se mezi ki ekri nan pwogram pati a, pa sèvis nou verifye deja egziste.",
+            "en": "MPH’s 2026 manifesto sets out three health measures: modernizing State University of Haiti hospital centres, creating an NGO coordination network and encouraging mobile clinics in remote areas. These are proposals by Munir Joseph Mourra’s party, not services verified as already delivered."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "mph-candidate-mourra"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pwopozisyon yo ka konplete youn lòt. Yon klinik mobil ka pote yon premye konsiltasyon; yon lopital ka pran ka ki mande plis mwayen; yon rezo ka ede òganizasyon yo pa travay chak bò pa yo. Men koneksyon ant yo bezwen òganize menm jan ak chak sèvis apa.",
+            "en": "The measures can complement one another. A mobile clinic can offer an initial consultation; a hospital can handle more demanding cases; a network can reduce fragmented work. The connections between services need organizing as carefully as each service itself."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pran yon egzanp imajinè: yon pasyan jwenn yon konsiltasyon nan yon komin lwen, men li bezwen yon egzamen nan yon lopital. Plan an dwe pèmèt li konnen kote pou ale, pri li pral peye ak moun ki pral suiv rezilta a. Sinon, premye konsiltasyon an ka ouvri yon pòt san li pa bay mwayen pou franchi pwochen an.",
+            "en": "Consider a hypothetical patient seen in a remote commune who needs a hospital test. A working plan must identify where to go, what the patient pays and who follows the result. Otherwise, an initial consultation can open one door without providing a route through the next."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Seksyon sante nou li a pa bay yon bidjè apa, yon kalandriye deplwaman oswa règ pou transfere pasyan ant sèvis yo. Sa pa pwouve lòt dokiman pa egziste. Men sa montre sa elektè yo poko ka mezire nan manifès la: konbyen komin ki pral jwenn sèvis regilye, ak kiyès ki responsab lè yon pasyan bezwen kontinye swen.",
+            "en": "The reviewed health section gives no separate budget, rollout timetable or patient-referral rules. That does not establish that other documents do not exist. It identifies what voters cannot yet measure from this manifesto: how many communes receive regular service and who answers for continuity of care."
+          },
+          "sources": [
+            "mph-manifesto-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-2020-budget-calendar-revenue-credibility",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Émile: yon bidjè ki rive ta, yon pwomès ki bezwen prèv",
+        "en": "Etzer Émile: a late budget and promises needing evidence"
+      },
+      "description": {
+        "ht": "An 2020, ekonomis la te mande si kalandriye ak resèt Leta te anonse yo te kredib. Tès sa a kapab sèvi pou egzamine pwòp pwomès li yo.",
+        "en": "In 2020, the economist questioned the credibility of the government’s timetable and revenue forecasts. The same test can examine his own promises."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "10 Jen 2020, Juno7 te pibliye analiz Etzer Émile sou bidjè 2019–2020 a. Li te souliye yon pwoblèm senp: Konsèy Minis la te adopte bidjè a 5 Jen, tandiske ane li te dwe planifye a te kòmanse 1 Oktòb 2019 epi li t ap fini 30 Septanm 2020. Pifò ane a te deja pase.",
+            "en": "On June 10, 2020, Juno7 published Etzer Émile’s analysis of the 2019–2020 budget. He highlighted a straightforward problem: cabinet adopted it on June 5 for a year running from October 1, 2019 to September 30, 2020. Most of the period being planned had already elapsed."
+          },
+          "sources": [
+            "etzer-budget-commentary-2020"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Li te poze yon dezyèm kesyon: èske lajan yo prevwa a ap antre toutbon? Li te konpare ritm resèt ki te deja antre yo ak ritm pi rapid ki t ap nesesè pou rive nan objektif ane a. Li te mete an dout tou posiblite pou tout sipò entènasyonal yo te prevwa a rive anvan fen egzèsis la. Sa yo te kesyon sou previzyon yo, pa yon rapò sou rezilta final ane a.",
+            "en": "He also tested whether forecast money would arrive. He compared revenue already collected with the faster pace needed to reach the annual target and questioned whether expected international support could arrive before year-end. These were challenges to forecasts, not findings about the year’s final results."
+          },
+          "sources": [
+            "etzer-budget-commentary-2020"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Leson an fasil pou konprann: yon bidjè dwe di sa ou kapab fè ak lajan ki gen chans antre, nan tan ki rete a. Yon kantite ekri sou papye pa finanse yon lekòl oswa yon lopital poukont li. Diferans ant lajan ou espere, lajan ki antre ak lajan ou depanse dwe rete vizib.",
+            "en": "The lesson is accessible: a budget must connect achievable work, likely income and available time. A figure on paper does not, by itself, finance a school or hospital. Expected revenue, actual receipts and spending must remain distinguishable."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Émile kòm kandida, analiz ansyen li a kreye yon estanda itil. Nenpòt pwomès li ta finanse ak nouvo resèt oswa èd etranje merite menm kesyon an: ki sous, ki delè, epi kisa ki chanje si lajan an pa rive? Kritik 2020 la pa pwouve pwogram aktyèl li finanse; li montre kijan pou egzamine finansman an.",
+            "en": "For Émile as a candidate, his earlier analysis supplies a useful standard. Promises funded through new revenue or foreign assistance merit the same questions: which source, what timetable and what changes if the money fails to arrive? His 2020 criticism does not finance his current programme; it shows how to scrutinize its financing."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-2020-court-auditors-executive-limits",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Émile ak Kour Dèkont la: ki limit yon prezidan dwe aksepte?",
+        "en": "Etzer Émile and the Court of Auditors: what limits should a president accept?"
+      },
+      "description": {
+        "ht": "Kritik li te fè an 2020 la pèmèt nou egzamine yon kesyon pouvwa: èske kontwòl ki deranje yon advèsè ta rete lè se ou ki dirije?",
+        "en": "His 2020 criticism opens a question about power: should scrutiny that restrains an opponent remain when you take office?"
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan Novanm 2020, Etzer Émile te kritike sevèman yon chanjman konsènan wòl konsiltatif Kour Siperyè Dèkont ak Kontansye Administratif la. Juno7 te rapòte li wè mezi a kòm yon atak sou demokrasi ak Leta de dwa. Pierre Espérance, responsab RNDDH, te kritike l tou pou risk li te wè sou kontwòl kontra piblik yo.",
+            "en": "In November 2020, Etzer Émile strongly criticized a change affecting the consultative role of the Superior Court of Auditors and Administrative Disputes. Juno7 reported that he considered it an attack on democracy and the rule of law. RNDDH’s Pierre Espérance also warned about scrutiny of public contracts."
+          },
+          "sources": [
+            "etzer-court-controls-2020"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men menm atik la te rapòte yon lòt lekti legal. Espesyalis Claudie Marsan te soutni Konstitisyon an pa t bay kour la pouvwa pou bay apwobasyon sou pwojè kontra, epi li te ensiste sou wòl odit li. Kidonk, deba a pa t senpleman ant moun ki vle kontwòl ak moun ki pa vle kontwòl: li te konsène ki kontwòl, nan ki moman, ak anba ki baz legal.",
+            "en": "The same article recorded a different legal interpretation. Specialist Claudie Marsan argued that the Constitution did not give the court authority to approve draft contracts and emphasized its audit role. The dispute concerned which checks apply, at what stage and under what legal authority."
+          },
+          "sources": [
+            "etzer-court-controls-2020"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou piblik la, diferans tan an konte. Yon egzamen anvan yon kontra siyen ka anpeche yon pwoblèm. Yon odit apre lajan depanse ka etabli sa ki te fèt ak kiyès ki dwe reponn. Youn pa otomatikman ranplase tout sèvis lòt la. Sa se yon analiz sou konsepsyon kontwòl yo, pa yon desizyon tribinal sou dekrè a.",
+            "en": "Timing matters to the public. Review before a contract is signed can prevent a problem. An audit after spending can establish what happened and who must answer. One does not automatically perform every function of the other. This is an analysis of oversight design, not a judicial ruling on the decree."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Dosye a bay yon tès pou Émile kòm kandida: esplike ki verifikasyon yon administrasyon li ta dirije ta aksepte anvan kontra, apre depans ak lè yon rapò mete pwòp alye li an koz. Nou pa dedui yon pwogram legal aktyèl apati yon deklarasyon 2020. Nou sèvi ak pozisyon li te pran an pou mande yon angajman ki ka verifye.",
+            "en": "For Émile as a candidate, the test is to specify what checks his administration would accept before contracting, after expenditure and when a report implicates its allies. A 2020 statement does not establish his current legal programme. It supplies a basis for seeking a verifiable commitment."
           },
           "sources": []
         }

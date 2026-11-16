@@ -1,0 +1,36 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_articles": 10,
+  "articles": [
+    "jerry-tardieu-royal-oasis-loan-equity-financing",
+    "olivier-barrau-aic-premiums-profit-2022",
+    "olivier-barrau-aic-farmers-rainfall-insurance",
+    "muscadin-candidacy-file-resignation-documents",
+    "clarens-renois-2024-transition-pact-signature",
+    "walsonn-sanon-transition-consensus-party-rules",
+    "joanas-gue-2007-ants-response-budget-delay",
+    "munir-mourra-health-mobile-clinics-continuity",
+    "etzer-emile-2020-budget-calendar-revenue-credibility",
+    "etzer-emile-2020-court-auditors-executive-limits"
+  ],
+  "languages": [
+    "ht",
+    "en"
+  ],
+  "independent_language_review": {
+    "ht_only_retellings_saved_before_english": true,
+    "paired_passages_checked": 93,
+    "required_replacements_applied": 7,
+    "optional_refinements_applied": 2,
+    "word_ceiling_per_article_per_language": 500
+  },
+  "parent_copy_edit": "Corrected a shared prepublication identity error from Gilbert Mourra to the source-identified Munir Joseph Mourra in both languages and draft slug; no alias inferred. Added health to the existing manifesto source label.",
+  "source_checks": [
+    "AIC printed financial units and 2021/2022 columns visually checked; calculated premium growth 21.2435% and profit decline 11.3636%.",
+    "IFC identifies Oasis funding as a loan; development-partner account distinguishes equity and later sale.",
+    "WFP primary report independently confirms the pilot, participating farmers and US$900 total coverage ceiling; index design not proof of a denied individual claim.",
+    "Transition signature page visually checked: Renois signs for Collective30January, not employers, and is not a council member.",
+    "Gué2007 funding announcements not expenditure evidence; contemporary role secretary of state retained.",
+    "Muscadin official final admission/rejection not inferred from the reported incomplete file, resignation acceptance or preliminary registry."
+  ]
+}
