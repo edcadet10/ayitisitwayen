@@ -1,0 +1,552 @@
+{
+  "source_name": "Conseil Électoral Provisoire (CEP / KEP)",
+  "source_url": "https://tableau.cephaiti.ht/",
+  "retrieved_at": "2026-11-16T04:16:23.629524+00:00",
+  "source_generated_at": "2026-11-16T04:15:13.1976671Z",
+  "snapshot_sha256": "f303c7db2e56f71186057331048b192188e15175fd31d29f95908dadcc9aac8d",
+  "records": 11142,
+  "method": "Count current snapshot records by exact office, position, party code and reported F/M field. No sex inference from names. Registrations are preliminary and are not unique voters or validated candidacies. No population normalization.",
+  "overall": {
+    "M": 7729,
+    "F": 3413
+  },
+  "offices": {
+    "ASEC": {
+      "F": 1016,
+      "M": 1454
+    },
+    "CASEC": {
+      "M": 2394,
+      "F": 1243
+    },
+    "Député": {
+      "M": 1709,
+      "F": 137
+    },
+    "Maire": {
+      "F": 936,
+      "M": 1688
+    },
+    "Président": {
+      "M": 30,
+      "F": 3
+    },
+    "Sénateur": {
+      "M": 454,
+      "F": 78
+    }
+  },
+  "positions": {
+    "ASEC": {
+      "1er Adjoint": {
+        "M": 287,
+        "F": 205
+      },
+      "2ème Adjoint": {
+        "M": 261,
+        "F": 217
+      },
+      "3ème Adjoint": {
+        "M": 220,
+        "F": 241
+      },
+      "4ème Adjoint": {
+        "F": 202,
+        "M": 200
+      },
+      "5ème Adjoint": {
+        "M": 29,
+        "F": 19
+      },
+      "6ème Adjoint": {
+        "M": 29,
+        "F": 18
+      },
+      "7ème Adjoint": {
+        "M": 15,
+        "F": 9
+      },
+      "8ème Adjoint": {
+        "F": 15,
+        "M": 4
+      },
+      "Titulaire": {
+        "M": 409,
+        "F": 90
+      }
+    },
+    "CASEC": {
+      "1er Adjoint": {
+        "F": 458,
+        "M": 754
+      },
+      "2ème Adjoint": {
+        "M": 479,
+        "F": 678
+      },
+      "Titulaire": {
+        "F": 107,
+        "M": 1161
+      }
+    },
+    "Député": {
+      "Titulaire": {
+        "M": 1709,
+        "F": 137
+      }
+    },
+    "Maire": {
+      "1er Adjoint": {
+        "F": 342,
+        "M": 529
+      },
+      "2ème Adjoint": {
+        "M": 360,
+        "F": 487
+      },
+      "Titulaire": {
+        "M": 799,
+        "F": 107
+      }
+    },
+    "Président": {
+      "Titulaire": {
+        "M": 30,
+        "F": 3
+      }
+    },
+    "Sénateur": {
+      "Titulaire": {
+        "M": 454,
+        "F": 78
+      }
+    }
+  },
+  "party_legislative": {
+    "AAA": {
+      "Député": {
+        "M": 48,
+        "F": 3
+      },
+      "Sénateur": {
+        "M": 7
+      }
+    },
+    "ANF": {
+      "Député": {
+        "M": 82,
+        "F": 10
+      },
+      "Sénateur": {
+        "M": 22,
+        "F": 3
+      }
+    },
+    "ANFOS POU SOVE LONE": {
+      "Député": {
+        "M": 27,
+        "F": 4
+      },
+      "Sénateur": {
+        "M": 7,
+        "F": 1
+      }
+    },
+    "AYITI TRANSFOME": {
+      "Député": {
+        "M": 83,
+        "F": 10
+      },
+      "Sénateur": {
+        "M": 24,
+        "F": 2
+      }
+    },
+    "CHA": {
+      "Député": {},
+      "Sénateur": {}
+    },
+    "CI-CLAIRE-LYDIE": {
+      "Député": {},
+      "Sénateur": {}
+    },
+    "CI-STEPHANE": {
+      "Député": {
+        "M": 1
+      },
+      "Sénateur": {}
+    },
+    "DEBLOKE": {
+      "Député": {
+        "M": 90,
+        "F": 6
+      },
+      "Sénateur": {
+        "M": 21,
+        "F": 5
+      }
+    },
+    "DEBOUT CITOYEN": {
+      "Député": {
+        "M": 7,
+        "F": 1
+      },
+      "Sénateur": {
+        "M": 7
+      }
+    },
+    "DELIVRANS": {
+      "Député": {
+        "M": 34,
+        "F": 1
+      },
+      "Sénateur": {
+        "M": 2,
+        "F": 2
+      }
+    },
+    "DPA": {
+      "Député": {
+        "M": 34
+      },
+      "Sénateur": {
+        "M": 15,
+        "F": 1
+      }
+    },
+    "DVNH": {
+      "Député": {
+        "M": 18,
+        "F": 1
+      },
+      "Sénateur": {
+        "M": 3,
+        "F": 1
+      }
+    },
+    "EAPH": {
+      "Député": {
+        "M": 85,
+        "F": 8
+      },
+      "Sénateur": {
+        "M": 14,
+        "F": 2
+      }
+    },
+    "EDE": {
+      "Député": {
+        "M": 52,
+        "F": 3
+      },
+      "Sénateur": {
+        "M": 11,
+        "F": 3
+      }
+    },
+    "ENA": {
+      "Député": {
+        "M": 74,
+        "F": 7
+      },
+      "Sénateur": {
+        "M": 19,
+        "F": 2
+      }
+    },
+    "ESCANP": {
+      "Député": {
+        "M": 11,
+        "F": 2
+      },
+      "Sénateur": {
+        "M": 3,
+        "F": 1
+      }
+    },
+    "FCN": {
+      "Député": {
+        "M": 67,
+        "F": 5
+      },
+      "Sénateur": {
+        "M": 23,
+        "F": 3
+      }
+    },
+    "GAD": {
+      "Député": {
+        "M": 43,
+        "F": 1
+      },
+      "Sénateur": {
+        "M": 20,
+        "F": 2
+      }
+    },
+    "HAMAD": {
+      "Député": {
+        "M": 7
+      },
+      "Sénateur": {
+        "M": 3
+      }
+    },
+    "KAPAB": {
+      "Député": {
+        "M": 59,
+        "F": 6
+      },
+      "Sénateur": {
+        "M": 13,
+        "F": 3
+      }
+    },
+    "KONA": {
+      "Député": {
+        "M": 19
+      },
+      "Sénateur": {
+        "M": 1,
+        "F": 1
+      }
+    },
+    "KONKET-K2": {
+      "Député": {
+        "M": 20,
+        "F": 2
+      },
+      "Sénateur": {
+        "M": 8,
+        "F": 1
+      }
+    },
+    "LAPEH.": {
+      "Député": {
+        "M": 12,
+        "F": 1
+      },
+      "Sénateur": {
+        "F": 2,
+        "M": 3
+      }
+    },
+    "MPH": {
+      "Député": {
+        "M": 91,
+        "F": 6
+      },
+      "Sénateur": {
+        "M": 21,
+        "F": 1
+      }
+    },
+    "MRN": {
+      "Député": {
+        "M": 7,
+        "F": 1
+      },
+      "Sénateur": {
+        "F": 2,
+        "M": 3
+      }
+    },
+    "MTH": {
+      "Député": {
+        "M": 97,
+        "F": 10
+      },
+      "Sénateur": {
+        "M": 20,
+        "F": 10
+      }
+    },
+    "MYEL": {
+      "Député": {
+        "M": 70,
+        "F": 6
+      },
+      "Sénateur": {
+        "M": 16,
+        "F": 5
+      }
+    },
+    "OPL": {
+      "Député": {
+        "M": 49,
+        "F": 5
+      },
+      "Sénateur": {
+        "M": 13,
+        "F": 1
+      }
+    },
+    "P.R": {
+      "Député": {
+        "M": 54,
+        "F": 2
+      },
+      "Sénateur": {
+        "F": 2,
+        "M": 15
+      }
+    },
+    "PANAH": {
+      "Député": {
+        "M": 9
+      },
+      "Sénateur": {
+        "M": 3
+      }
+    },
+    "PDCH": {
+      "Député": {
+        "M": 9,
+        "F": 1
+      },
+      "Sénateur": {
+        "M": 2
+      }
+    },
+    "PFSDH": {
+      "Député": {
+        "M": 41,
+        "F": 2
+      },
+      "Sénateur": {
+        "M": 9,
+        "F": 2
+      }
+    },
+    "PPGA": {
+      "Député": {
+        "F": 3,
+        "M": 44
+      },
+      "Sénateur": {
+        "F": 2,
+        "M": 14
+      }
+    },
+    "PRC": {
+      "Député": {
+        "M": 8
+      },
+      "Sénateur": {
+        "M": 6,
+        "F": 1
+      }
+    },
+    "PRN": {
+      "Député": {
+        "M": 2,
+        "F": 1
+      },
+      "Sénateur": {
+        "M": 3
+      }
+    },
+    "PUR": {
+      "Député": {
+        "M": 14,
+        "F": 2
+      },
+      "Sénateur": {
+        "M": 8,
+        "F": 2
+      }
+    },
+    "PVD": {
+      "Député": {
+        "M": 22,
+        "F": 5
+      },
+      "Sénateur": {
+        "M": 13
+      }
+    },
+    "RASANBLE": {
+      "Député": {
+        "M": 17,
+        "F": 1
+      },
+      "Sénateur": {
+        "F": 1,
+        "M": 1
+      }
+    },
+    "RCH": {
+      "Député": {
+        "M": 19,
+        "F": 3
+      },
+      "Sénateur": {
+        "M": 12,
+        "F": 4
+      }
+    },
+    "RPPD": {
+      "Député": {
+        "M": 18
+      },
+      "Sénateur": {
+        "M": 4
+      }
+    },
+    "SOL AYITI": {
+      "Député": {
+        "M": 19,
+        "F": 2
+      },
+      "Sénateur": {
+        "M": 10
+      }
+    },
+    "SOLEY": {
+      "Député": {
+        "M": 76,
+        "F": 5
+      },
+      "Sénateur": {
+        "F": 4,
+        "M": 14
+      }
+    },
+    "SUDD": {
+      "Député": {
+        "M": 5
+      },
+      "Sénateur": {
+        "M": 1
+      }
+    },
+    "UNIR AYITI INI": {
+      "Député": {
+        "M": 8
+      },
+      "Sénateur": {
+        "M": 3
+      }
+    },
+    "VAR": {
+      "Député": {
+        "M": 54,
+        "F": 5
+      },
+      "Sénateur": {
+        "M": 14,
+        "F": 1
+      }
+    },
+    "VIKTWA": {
+      "Député": {
+        "M": 103,
+        "F": 6
+      },
+      "Sénateur": {
+        "M": 23,
+        "F": 5
+      }
+    }
+  }
+}
