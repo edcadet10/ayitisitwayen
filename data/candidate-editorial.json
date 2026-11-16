@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "publisher": "Ayiti Sitwayen",
   "copy": {
     "title": {
@@ -2346,7 +2346,7 @@
         "en": "France’s 2020–2021 scholarships launch: partners and selection criteria"
       },
       "note": {
-        "ht": "Pati piblik rapò seremoni an site anbasadè a. Nou pa trete tout pwogram ki mansyone yo kòm yon sèl bous oswa yon kont pèsonèl Tardieu.",
+        "ht": "Pati piblik rapò seremoni an site anbasadè a. Nou pa trete tout pwogram ki mansyone yo kòm yon sèl bous oswa kòm finansman Tardieu te bay ak pwòp lajan li.",
         "en": "Public ceremony report quotes the ambassador. The various programmes mentioned are not merged into one scholarship or treated as Tardieu’s personal funding."
       }
     },
@@ -10653,6 +10653,554 @@
           "text": {
             "ht": "Diferans lan se ant yon mekanis resèt ki te antre an pratik ak yon pwopozisyon sou plas edikasyon nan depans Leta. Egzamen ki mare yo ansanm lan senp: konbyen ki antre, konbyen ki otorize, konbyen ki peye epi ki sèvis timoun yo resevwa? Menm tablo anyèl sa a ta pèmèt yon paran konpare yon ansyen pwomès ak yon nouvo pwogram san konfonn lajan ki pase nan kont ak ansèyman ki fèt.",
             "en": "The difference is between a revenue mechanism put into practice and a proposal for education’s share of state expenditure. Their common test is simple: how much comes in, is authorized, is paid and reaches children as services? The same annual table would let a parent compare a past promise with a new programme without mistaking money moving through accounts for teaching delivered."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "etzer-emile-vs-olivier-barrau",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60",
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile ak Olivier Barrau: apre yon pèt, kiyès ki pote chay la?",
+        "en": "Etzer Emile vs Olivier Barrau: after a loss, who carries the cost?"
+      },
+      "description": {
+        "ht": "Yon prè ede kòmanse oswa elaji yon aktivite. Yon asirans ka ede apre yon chòk. Konpare dosye yo mande pou nou suiv risk la, pa sèlman lajan ki anonse a.",
+        "en": "A loan can start or expand an activity. Insurance can help after a shock. Comparing these records means following risk as well as announced money."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Ann pran yon ti biznis kòm egzanp: li resevwa yon prè, achte ekipman, epi yon katastwòf anpeche l travay. Lajan prè a te ede l kòmanse; sa pa esplike kijan li pral peye apre pèt la. Se de moman sa yo pwopozisyon Etzer Emile ak eksperyans asirans Olivier Barrau pèmèt nou egzamine.",
+            "en": "Consider a hypothetical small business: it borrows, buys equipment, then a disaster stops it operating. The loan helped it start; that does not explain repayment after the loss. Those two moments provide a way to examine Etzer Emile’s proposals and Olivier Barrau’s insurance experience."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kanpay Emile la pwopoze prè san enterè pou 5,000 pwojè, yon milyon goud pou chak, ak yon fon garanti nan premye 100 jou yo. Valè prè sa yo fè senk milya goud. Yon garanti ka fasilite kredi, men fòk règ yo di ki pati pèt la bank, Leta ak moun ki prete a ap pote.",
+            "en": "Emile’s campaign proposes interest-free loans of one million gourdes each for 5,000 projects, alongside a guarantee fund in the first 100 days. That gives five billion gourdes in loan value. A guarantee can facilitate lending, but rules must specify the losses borne by bank, state and borrower."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon lòt dosye, PAM rapòte yon pilòt asirans AIC ak patnè li yo te lanse an 2022 pou 4,990 ti eksplwatè agrikòl nan 11 komin. Rapò AIC a idantifye Barrau kòm prezidan konsèy administrasyon nan ane sa a. Pwoteksyon an te depann de mezi lapli, ak yon maksimòm anviwon 900 dola ameriken pa moun, separe ant twòp lapli ak mank lapli.",
+            "en": "In a separate record, WFP reports a 2022 insurance pilot launched with AIC and other partners for 4,990 smallholders in 11 communes. AIC’s report identifies Barrau as board president that year. Coverage depended on rainfall measures, with a maximum of about US$900 per farmer divided between excess rainfall and rainfall deficit."
+          },
+          "sources": [
+            "wfp-insurance-haiti-2022",
+            "aic-finances-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa pa yon sèl pwogram ni de pwomès kanpay ki menm jan. Dosye AIC a se yon aktivite konpayi ki dokimante; li pa poukont li pwogram prezidansyèl Barrau. Plafon 900 dola a pa yon peman tout patisipan resevwa. IFC esplike yon risk nan kalite asirans sa a: mezi ki deklanche peman an ka pa koresponn ak pèt reyèl yon moun.",
+            "en": "These are separate programmes and different kinds of record. AIC’s activity does not, by itself, constitute Barrau’s presidential programme. The US$900 ceiling is not a payment received by every participant. IFC explains a risk in this insurance design: the payment trigger may not match an individual’s actual loss."
+          },
+          "sources": [
+            "ifc-index-insurance"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Leson konparezon an se konekte finansman ak pwoteksyon. Pou Emile, garanti a bezwen yon règ klè sou sa ki rive lè yon pwojè pa ka remèt lajan an. Pou egzamine eksperyans Barrau a, bezwen gen done sou peman, delè ak pèt ki pa kouvri. Bay yon moun aksè ak lajan se yon etap; ede aktivite li kenbe apre yon chòk se yon lòt.",
+            "en": "The comparison connects financing to protection. Emile’s guarantee needs clear rules for projects unable to repay. Assessing Barrau’s experience needs payouts, delays and uncovered losses. Access to money is one step; helping an activity survive a shock is another."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "etzer-emile-vs-jerry-tardieu",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60",
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile ak Jerry Tardieu: kiyès ki chwazi wout la, kiyès ki okipe antretyen li?",
+        "en": "Etzer Emile vs Jerry Tardieu: who chooses the road, and who maintains it?"
+      },
+      "description": {
+        "ht": "Yon gwo plan envestisman ak yon deba sou pouvwa depatman yo rive sou menm kesyon: kijan yon desizyon nasyonal sèvi yon komin pandan lontan?",
+        "en": "A large investment plan and a debate over departmental power meet at one question: how does a national decision keep serving a commune?"
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon wout pa konnen ki pati majistra a oswa prezidan an ye. Men chwa kote pou konstwi l, lajan antretyen ak responsablite lè li kraze se desizyon politik. Se la pwogram enfrastrikti Etzer Emile ak pozisyon Jerry Tardieu sou òganizasyon Leta a rankontre.",
+            "en": "A road does not know the mayor’s or president’s party. But choosing its location, paying for maintenance and answering when it fails are political decisions. That is where Etzer Emile’s infrastructure programme meets Jerry Tardieu’s position on state organization."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kanpay Emile la bay enfrastrikti 15 milya dola ameriken nan yon pwogram 30 milya. Li pwopoze reyabilite wout epi pwoteje yon liy antretyen sou plizyè ane pou chak enfrastrikti livre. Li anonse tou etid pwojè, pri referans ak yon tablo piblik sou avansman chantye. Se angajman kanpay, pa kontra nou verifye finanse.",
+            "en": "Emile’s campaign assigns infrastructure US$15 billion within a US$30 billion programme. It proposes rehabilitating roads and protecting a multiyear maintenance line for each completed infrastructure project. It also promises project studies, reference prices and a public construction dashboard. These are campaign commitments, not verified funded contracts."
+          },
+          "sources": [
+            "etzer-infrastructure"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Me 2025, Tardieu te kritike lide gouvènè depatmantal nan avanpwojè Konstitisyon an. Juno7 rapòte li te pè konfli ak prezidan an, depans administrasyon ak diferans ant depatman rich ak depatman pòv. Li te defann yon Leta initè. Se pozisyon li te pran nan deba sa a, pa prèv yon nouvo Konstitisyon te antre an vigè.",
+            "en": "In May 2025, Tardieu criticized proposed departmental governors. Juno7 reports his concerns about presidential rivalry, administrative costs and inequalities between richer and poorer departments. He defended a unitary state. That records his position in the debate, not the entry into force of a new constitution."
+          },
+          "sources": [
+            "tardieu-governors-warning-2025"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Tèks avanpwojè a merite li tou: atik 68-6 mande kolaborasyon ak administrasyon santral sou plan devlopman, epi 68-8 mande rann kont ak rapò. Nou pa ka prezante otonomi ki pwopoze a kòm absans tout kontwòl. Men egzistans yon règ pa pwouve resous ak kontwòl yo ta mache nan pratik.",
+            "en": "The draft also warrants reading: article 68-6 requires collaboration with central government on development plans, and 68-8 requires accountability and reporting. Proposed autonomy cannot simply be described as an absence of oversight. A written rule, however, does not establish that funding and scrutiny would work in practice."
+          },
+          "sources": [
+            "draft-constitution-governors-2025"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon komin, de kesyon yo mache ansanm. Yon plan Emile bezwen presize kiyès ki chwazi priyorite lokal yo ak kiyès ki reponn pou antretyen. Pozisyon Tardieu a bezwen esplike kijan yon sant desizyon nasyonal ap sèvi zòn ki gen mwens resous. Konparezon an deplase deba a soti nan gwosè bidjè ak non sistèm nan pou rive sou desizyon yon sitwayen ka suiv.",
+            "en": "For a commune, the questions belong together. Emile’s plan needs to identify who sets local priorities and answers for maintenance. Tardieu’s position needs to explain how a national decision centre would serve places with fewer resources. The comparison moves from budget size and system labels to decisions citizens can follow."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jean-ernest-muscadin-vs-michel-martelly",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-260d6761d0c65693b074",
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Muscadin ak Martelly: pwoteksyon piblik bezwen repons sou itilizasyon pouvwa",
+        "en": "Jean Ernest Muscadin vs Michel Martelly: public protection needs answers about power"
+      },
+      "description": {
+        "ht": "Rapò Nasyonzini sou yon komisè ak sanksyon ameriken kont yon ansyen prezidan pa menm kalite dosye. Yo mande de chemen prèv diferan, ak menm egzijans presizyon an.",
+        "en": "A UN report about a prosecutor and U.S. sanctions against a former president are different records. They require distinct evidentiary paths and the same precision."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè yon dirijan rele tèt li yon pwoteksyon kont ensekirite, fòk piblik la kapab egzamine fason li sèvi ak pouvwa. Dosye Jean Ernest Muscadin ak Michel Martelly poze kesyon sa a nan de sans diferan: itilizasyon fòs Leta ak enfliyans sou rezo vyolan.",
+            "en": "When a leader presents himself as protection against insecurity, the public must be able to examine his use of power. Jean Ernest Muscadin’s and Michel Martelly’s records raise that question in different ways: state force and influence over violent networks."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan rapò Avril–Jen 2026 li a, BINUH site posib patisipasyon Muscadin nan omwen 76 egzekisyon san pwosè dokimante pou 2022–2025. Li di pa t gen pouswit jidisyè ki te kòmanse kont li pou sa. Se pa 76 moun ki mouri nan twa mwa rapò a, ni yon jijman penal sou komisè a.",
+            "en": "BINUH’s April–June 2026 report cites Muscadin’s possible involvement in at least 76 summary executions documented for 2022–2025, saying no judicial proceedings had begun against him for them. That is neither a three-month death toll nor a criminal judgment against the prosecutor."
+          },
+          "sources": [
+            "binuh-q2-muscadin"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Martelly, Trezò ameriken te anonse sanksyon 20 Out 2024 sou baz akizasyon trafik dwòg, blanchiman ak patwonaj gang. Desizyon an entèdi kredi nan men enstitisyon finansye ameriken, sèten tranzaksyon chanj ak envestisman ameriken. Li se yon aksyon administratif sou lis NS-MBS, pa yon vèdik kriminèl oswa yon deklarasyon tout byen li bloke.",
+            "en": "For Martelly, the U.S. Treasury announced sanctions on August 20, 2024 over alleged drug trafficking, money laundering and gang sponsorship. The action restricts U.S. financial-institution credit, certain foreign-exchange transactions and U.S. investment. It is an administrative NS-MBS action, not a criminal verdict or a blanket statement that all assets are frozen."
+          },
+          "sources": [
+            "treasury-martelly-2024",
+            "ofac-martelly-action"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon rapò sou vyolasyon ak yon sanksyon finansye pa bay menm dokiman ni menm mwayen pou egzamine yon zak. Pou Muscadin, egzamen an bezwen idantite viktim, sikonstans itilizasyon fòs ak yon ankèt endepandan. Pou Martelly, li bezwen tranzaksyon, entèmedyè ak repons sou zak otorite yo atribye l. Nou pa sipoze gen yon rezo komen ant de kandida yo.",
+            "en": "A violations report and a financial designation do not provide the same records or route to examining conduct. For Muscadin, scrutiny needs victims’ identities, circumstances of force and independent investigation. For Martelly, it needs transactions, intermediaries and responses to the attributed conduct. This comparison establishes no shared network between the candidates."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Absans yon kondanasyon pa efase kesyon politik yo; kesyon politik yo pa ranplase yon jijman. Yon elektè kapab mande menm angajman nan men toude: aksepte yon ankèt sou pwòp zak ou ak sou moun ki soutni w. Sekirite ki depann de lwayote pèsonèl san kontwòl endepandan kite sitwayen an san pwoteksyon lè pouvwa a chanje men.",
+            "en": "The absence of a conviction does not erase political questions; political questions do not replace a trial. Voters can seek the same commitment from both: scrutiny of personal conduct and supporters’ conduct. Security depending on personal loyalty without independent checks leaves citizens vulnerable when power changes hands."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "claude-joseph-vs-etzer-emile",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c9c792b353345247be19",
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Claude Joseph ak Etzer Emile: mezi ijans ak kapasite ki dwe rete",
+        "en": "Claude Joseph vs Etzer Emile: emergency powers and capacity that must endure"
+      },
+      "description": {
+        "ht": "Youn te dirije yon kabinè apre asasina prezidan an. Lòt la pwopoze agrandi lapolis. Konparezon an suiv delè, kontwòl ak sa ki rete apre premye anons la.",
+        "en": "One headed a cabinet after the president’s assassination. The other proposes expanding police. The comparison follows deadlines, oversight and what lasts after the first announcement."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon operasyon ka reponn ak yon kriz san li pa konstwi sèvis ki rete. Yon rekritman ka ogmante kantite moun san li pa bay yon ekip ki pare. Konpare Claude Joseph ak Etzer Emile sou sekirite mande pou nou suiv tan desizyon an ak tan kapasite a pran pou devlope.",
+            "en": "An operation can respond to a crisis without building a lasting service. Recruitment can increase headcount without producing a prepared unit. Comparing Claude Joseph and Etzer Emile on security requires following the timing of decisions and the time needed to develop capacity."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Apre asasina Jovenel Moïse 7 Jiyè 2021, kabinè Claude Joseph t ap dirije a te deklare yon ijans 15 jou, selon rapò Nasyonzini S/2021/828. Mezi yo te gen mobilizasyon fòs sekirite, fouy, arestasyon ak restriksyon sou deplasman. Ariel Henry te pran fonksyon 20 Jiyè; Joseph te rete minis Afè Etranjè.",
+            "en": "After Jovenel Moïse’s July 7, 2021 assassination, Claude Joseph’s cabinet declared a 15-day emergency, according to UN report S/2021/828. Measures included security-force mobilization, searches, arrests and movement restrictions. Ariel Henry took office July 20; Joseph remained foreign minister."
+          },
+          "sources": [
+            "un-handover-joseph-henry-2021"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pwogram Emile la pwopoze pase soti nan anviwon 13,000 polisye operasyonèl rive 26,000 an 2033. Li pwomèt akselere rekritman ak fòmasyon 1,000–2,000 polisye nan premye 100 jou yo, ansanm ak verifikasyon rekrit ak sanksyon pou abi. Chif depa a soti nan kanpay la. Akselere fòmasyon pa vle di tout rekrit fin pare nan jou 100 la.",
+            "en": "Emile’s programme proposes increasing operational police from about 13,000 to 26,000 by 2033, with faster recruitment and training of 1,000–2,000 officers in the first 100 days, screening and sanctions for abuse. The baseline is the campaign’s. Faster training does not mean every recruit would be ready on day 100."
+          },
+          "sources": [
+            "etzer-security"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "De dosye yo montre yon diferans ant bay lòd ak bati yon enstitisyon. Pou desizyon 2021 yo, bezwen gen tras aplikasyon, limit ak kontwòl sou mezi ki touche dwa moun. Pou pwopozisyon Emile la, bezwen gen fòmatè, salè, ekipman ak ajan ki rete nan sèvis. Ni yon deklarasyon ijans ni yon chif rekrit pa mezire pwoteksyon yon katye poukont li.",
+            "en": "The records distinguish issuing orders from building an institution. The 2021 decisions require a record of implementation, limits and oversight of measures affecting rights. Emile’s proposal requires trainers, pay, equipment and officers retained in service. Neither an emergency declaration nor a recruitment figure measures neighbourhood protection by itself."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Rapò Nasyonzini an pa valide legalite chak mezi ni etabli Joseph te patisipe nan asasina a. Pwogram kanpay la pa yon rezilta Emile deja reyalize. Pwen pou swiv la se menm chenn nan: yon desizyon ki gen baz, yon ekip ki kapab aji, yon kontwòl endepandan ak sèvis ki kontinye. Se chenn sa a chak kandida dwe kapab esplike.",
+            "en": "The UN report neither validates every measure’s legality nor establishes Joseph’s involvement in the assassination. The campaign programme is not an achievement already delivered by Emile. The common chain is a grounded decision, an operational team, independent oversight and continuing service. Each candidate should be able to explain it."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jerry-tardieu-vs-jacky-lumarque",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a",
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Jerry Tardieu ak Jacky Lumarque: yon bous pa dwe kache kiyès ki peye ak kiyès ki chwazi",
+        "en": "Jerry Tardieu vs Jacky Lumarque: a scholarship must identify who pays and who selects"
+      },
+      "description": {
+        "ht": "Yo te prezan nan yon lansman bous an 2020. Lyen sa a pa fè tout pwogram yo tounen yon sèl fon oswa tout lajan an tounen yon kado pèsonèl.",
+        "en": "Both attended a 2020 scholarship launch. That connection does not merge the programmes into one fund or make the financing a personal gift."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon elèv ki bezwen yon bous, kesyon an pa sèlman kiyès ki sou foto seremoni an. Li bezwen konnen si li kalifye, kiyès ki chwazi ak ki lajan ki disponib. Dosye Jerry Tardieu ak Jacky Lumarque pèmèt nou suiv diferans ant kontak politik, finansman ak seleksyon.",
+            "en": "For a student seeking a scholarship, the question extends beyond who appears in the ceremony photograph. Eligibility, selection and available funding matter. Jerry Tardieu’s and Jacky Lumarque’s records allow us to distinguish political connections, financing and selection."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou pwòp sit li, Tardieu te dekri lansman bous ekselans Ayiti–Frans an Desanm 2016. Kont sa a idantifye BRH kòm finansè premye gwoup la epi li rapòte yon angajman pou chwazi sou merit. Sa bay yon sous sou patenarya a; li pa etabli Tardieu te peye bous yo ak pwòp lajan li.",
+            "en": "On his own website, Tardieu described the December 2016 Haiti–France excellence scholarship launch. That account identifies BRH as financier of the first cohort and reports a commitment to merit-based selection. It supplies a partnership record, not proof that Tardieu personally financed the scholarships."
+          },
+          "sources": [
+            "tardieu-scholarships-brh-2016"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Le National rapòte Tardieu ak Lumarque te prezan nan lansman kanpay bous Lafrans 2020–2021 an. Anbasadè José Gomez te site BRH, Fondation Sogebank ak AUF pami patnè yo. Atik la te anonse tou yon nouvo dispozitif bous doktora Anténor Firmin. Plizyè mekanis parèt nan menm seremoni an; sa pa fè yo tout menm akò 2016 la.",
+            "en": "Le National reports that Tardieu and Lumarque attended France’s 2020–2021 scholarship campaign launch. Ambassador José Gomez named BRH, Fondation Sogebank and AUF among partners. The article also announced a new Anténor Firmin doctoral scheme. Several mechanisms appeared at one ceremony; that does not make them all the 2016 agreement."
+          },
+          "sources": [
+            "france-scholarships-launch-2020"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lumarque gen yon lòt responsablite pou egzamine: Université Quisqueya di li rektè li depi 2007. Sa pa fè chak bous etidyan inivèsite a resevwa yon reyalizasyon pèsonèl li. Menm jan an, inisyativ yon depite pa fè l pwopriyetè resous enstitisyon ki finanse yon pwogram.",
+            "en": "Lumarque has a separate responsibility to examine: Université Quisqueya says he has been its rector since 2007. That does not turn every scholarship received by its students into his personal achievement. Similarly, a deputy’s initiative does not make him the owner of institutional resources funding a programme."
+          },
+          "sources": [
+            "lumarque-career"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Konparezon an mande yon chenn ki klè: finansè, administratè, jiri seleksyon ak benefisyè. Kritè ki pibliye ak rezilta ki verifyab ta pèmèt piblik la bay chak moun kredi pou travay li san kreye yon dèt politik pou elèv la. Nou pa etabli yon echanj bous kont vòt. Nou montre ki dokiman ki ka separe yon opòtinite ouvè ak yon favè yon moun ta reklame kòm byen pa li.",
+            "en": "The comparison requires a clear chain: funder, administrator, selection panel and beneficiaries. Published criteria and verifiable outcomes would let the public credit each contribution without creating a political debt for students. This record establishes no scholarship-for-votes exchange. It identifies the documents distinguishing an open opportunity from a benefit claimed as someone’s personal possession."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "olivier-barrau-vs-munir-mourra",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee",
+        "c-c95770456abb5c95962b"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Olivier Barrau ak Munir Mourra: bank agrikòl la bezwen yon repons lè rekòt la pèdi",
+        "en": "Olivier Barrau vs Munir Mourra: an agricultural bank needs an answer when a harvest fails"
+      },
+      "description": {
+        "ht": "Kredi, irigasyon ak asirans antre nan menm sezon agrikòl la. Yo pa rezoud menm pwoblèm nan, men règleman sou yo dwe mache ansanm.",
+        "en": "Credit, irrigation and insurance belong to the same farming season. They address different problems, but their rules need to work together."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè yon rekòt pèdi, yon nouvo prè pa otomatikman efase ansyen dèt la. Se rezon pou li pwopozisyon Munir Mourra sou finansman agrikòl ansanm ak eksperyans asirans konpayi Olivier Barrau a, san fè de mekanis yo tounen youn.",
+            "en": "When a harvest fails, a new loan does not automatically erase old debt. That is why Munir Mourra’s agricultural-financing proposals deserve reading alongside the insurance experience of Olivier Barrau’s company, without treating the mechanisms as identical."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Manifès MPH la pwopoze kreye yon bank agrikòl, netwaye kanal irigasyon ak mete sant distribisyon pwodwi agrikòl sou pye nan patenarya piblik-prive. Paj kandida pati a idantifye Munir Joseph Mourra kòm kandida ki pote manifès sa a. Se yon pwopozisyon sou kredi ak kondisyon pwodiksyon, pa yon bank nou verifye deja finanse oswa ouvè.",
+            "en": "The MPH manifesto proposes an agricultural bank, irrigation-channel clearing and agricultural distribution centres through public-private partnerships. The party identifies Munir Joseph Mourra as the candidate carrying the manifesto. These are proposals on credit and production conditions, not a bank verified as funded or operating."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "mph-candidate-mourra"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2022, AIC te patisipe ak PAM, WRMS ak SCOR nan yon pilòt asirans pou 4,990 ti eksplwatè agrikòl. Rapò konpayi an idantifye Barrau kòm prezidan konsèy administrasyon an. PAM bay yon plafon anviwon 900 dola ameriken pou chak agrikiltè, separe ant twòp lapli ak mank lapli. Plafon sa a pa kantite lajan chak moun te resevwa.",
+            "en": "In 2022, AIC participated with WFP, WRMS and SCOR in an insurance pilot for 4,990 smallholders. Its report identifies Barrau as board president. WFP gives a ceiling of about US$900 per farmer divided between excess rainfall and rainfall deficit. That ceiling is not an amount every farmer received."
+          },
+          "sources": [
+            "aic-finances-2022",
+            "wfp-insurance-haiti-2022"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kredi ede peye semans ak travay anvan vant lan. Irigasyon ka diminye kèk risk sou pwodiksyon. Asirans ka transfere yon pati risk finansye lè kondisyon kontra a reyini. Men yon mezi lapli ka pa mache ak pèt chak jaden; IFC idantifye limit sa a nan asirans ki baze sou yon endis. Twa zouti yo bezwen konekte, san pwomèt yo efase tout pèt.",
+            "en": "Credit pays for inputs before sale. Irrigation can reduce some production risks. Insurance can transfer financial risk when contract conditions are met. But a rainfall measure may not match each field’s loss; IFC identifies that limitation in index insurance. The three tools need connecting without promising to erase every loss."
+          },
+          "sources": [
+            "ifc-index-insurance"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Mourra, bank la bezwen règ sou ranbousman apre yon dezas ak sou kredi ki ale nan men moun ki gen koneksyon politik. Pou egzamine eksperyans Barrau a, bezwen gen done sou peman ak sa asirans lan pa kouvri. Dosye 2022 a pa poukont li pwogram kanpay li. Konparezon an bay yon kesyon komen: èske yon move sezon kite agrikiltè a ak yon chemen pou reprann aktivite, oswa sèlman yon lòt dèt?",
+            "en": "For Mourra, the bank needs rules on disaster repayment and politically connected lending. Assessing Barrau’s experience requires payouts and exclusions. The 2022 pilot is not, by itself, his campaign programme. Their common question is whether a bad season leaves farmers a route to restart, or simply another debt."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "clarens-renois-vs-junior-salomon",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-a8679d21107058f5bc35",
+        "c-53033c82b2e954b2a7c5"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Clarens Renois ak Junior Salomon: ki kontwòl ki rete lè alye yo sou pouvwa?",
+        "en": "Clarens Renois vs Junior Salomon: what oversight remains when allies hold power?"
+      },
+      "description": {
+        "ht": "Yon siyati sou pak 2024 la ak yon manifestasyon OPL an 2025 montre poukisa responsablite politik bezwen plis pase etikèt alye oswa opozan.",
+        "en": "A signature on the 2024 pact and an OPL protest in 2025 show why political accountability needs more than ally or opponent labels."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon lidè ka patisipe nan yon antant san li pa dirije gouvènman ki soti ladan l. Yon manm pati ka manifeste kont yon enstitisyon kote yon lòt moun menm pati a chita. Dosye Clarens Renois ak Jean-Marie Junior Salomon montre de sitiyasyon sa yo.",
+            "en": "A leader can participate in an agreement without running the resulting government. A party member can protest an institution that includes another figure from the same party. Clarens Renois’s and Jean-Marie Junior Salomon’s records illustrate those situations."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Siyati Renois parèt sou pak politik Avril 2024 la pou Kolektif Pati Politik 30 Janvye 2023 a. Pak la te bay Edgard Leblanc Fils plas reprezantan kolektif la nan Konsèy Prezidansyèl la. Renois pa t moun sa a. Men siyati li bay yon baz pou egzamine angajman li te soutni ak sa li te fè pou suiv yo.",
+            "en": "Renois’s signature appears on the April 2024 pact for the Collective of Political Parties of January 30, 2023. The pact assigned Edgard Leblanc Fils the collective’s Presidential Council representation. Renois was not that member. His signature nevertheless supplies a basis for examining the commitments he supported and his follow-through."
+          },
+          "sources": [
+            "transition-pact-april-2024"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Jiyè 2025, Rezo Nòdwès rapòte yon manifestasyon anti-CPT Okay ki te enplike Salomon ak manm OPL. Atik la site sitou patisipan Hervé Saintilus, ki te kritike Leblanc, yon lòt figi OPL sou konsèy la. Nou pa bay Salomon tout pawòl Saintilus, ni fè prezans nan manifestasyon an prèv li te koupe tout lyen politik li.",
+            "en": "In July 2025, Rezo Nòdwès reported an anti-CPT demonstration in Les Cayes involving Salomon and OPL members. It chiefly quotes participant Hervé Saintilus, who criticized Leblanc, another OPL figure on the council. We do not assign Saintilus’s every statement to Salomon or treat protest participation as proof of severed political ties."
+          },
+          "sources": [
+            "salomon-opl-protest-2025"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Se la tras desizyon yo vin enpòtan. Pou Renois, li bezwen montre pozisyon li sou angajman pak la ak mekanis kontwòl yo. Pou Salomon, bezwen gen manda ak desizyon pati ki esplike pozisyon li te defann. Yon kolektif pati, yon reprezantan sou konsèy ak tout moun yon pati pa yon sèl aktè.",
+            "en": "That makes decision records important. Renois’s record needs his positions on the pact’s commitments and oversight mechanisms. Salomon’s needs the mandates and party decisions explaining his position. A party collective, its council representative and every individual in a party are not one actor."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Konparezon an pa transfere zak Leblanc sou youn nan de kandida yo. Li egzamine kijan yon politisyen rann relasyon li ak pouvwa a vizib: sa li te otorize, sa li te konteste ak sa li te mande kòm repons. Se dokiman sa yo ki ka fè rann kont kontinye menm lè yon alye gen plas nan gouvènman.",
+            "en": "The comparison does not transfer Leblanc’s actions to either candidate. It examines how politicians make their relationship with power visible: what they authorized, challenged and demanded in response. Those records allow accountability to continue when an ally holds a place in government."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "dominique-dupuy-vs-savannah-savary",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83",
+        "c-044a28564a40545cb553"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Dominique Dupuy ak Savannah Savary: menm egzijans presizyon, lajan ki gen règ diferan",
+        "en": "Dominique Dupuy vs Savannah Savary: the same precision, different rules for money"
+      },
+      "description": {
+        "ht": "Yon desizyon sou depans diplomasi ak yon kont sou antrepriz familyal pa menm bilan. Yo ede esplike ki enfòmasyon piblik la bezwen pou evalye chak kandida.",
+        "en": "A diplomatic-spending decision and an account of family businesses are different records. They help identify what the public needs to assess each candidate."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Rann kont pa vle di mande tout moun egzakteman menm papye. Yon minis sèvi ak lajan piblik; yon antreprenè gen enterè prive ki ka vin touche desizyon Leta. Dosye Dominique Dupuy ak Savannah Savary montre kijan egzijans presizyon an rete menm pandan dokiman ki nesesè yo chanje.",
+            "en": "Accountability does not mean demanding exactly the same papers from everyone. A minister uses public resources; an entrepreneur has private interests that may intersect with state decisions. Dominique Dupuy’s and Savannah Savary’s records show how the same requirement for precision can require different documents."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Jiyè 2024, Dupuy te defann rapèl diplomat kòm yon refòm pou adapte depans ak mwayen peyi a. Métropole te rapòte plis pase 80 diplomat ak manm reprezantasyon ta konsène. Minis la pa t pibliye lis la nan entèvansyon sa a; li te mete aksan sou konpetans ak wotasyon, pandan li rejte motif politik oswa klanik.",
+            "en": "In July 2024, Dupuy defended diplomatic recalls as reform to align expenditure with Haiti’s means. Métropole reported that more than 80 diplomats and representation staff were reportedly affected. She did not publish the list during that appearance, emphasizing competence and rotation while rejecting political or factional motives."
+          },
+          "sources": [
+            "dupuy-diplomat-recalls"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Savary, nan entèvyou Haitian Times an Oktòb 2026, dekri Distillerie 1928 ak Habitation Robert kòm antrepriz li eritye, ki anplwaye plis pase 100 moun. Li pa t bay detay finansye, poutèt li te pè tounen yon sib. Sa se kont li bay sou biznis yo; nou pa prezante l kòm yon odit sou anplwa, dèt oswa byen li.",
+            "en": "In an October 2026 Haitian Times interview, Savary describes inheriting Distillerie 1928 and Habitation Robert and says they employ more than 100 people. She declined financial details, citing fear of becoming a target. That is her account, not our audit of employment, debt or assets."
+          },
+          "sources": [
+            "savary-ht-interview-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Dupuy, kantite rapèl pa kantite ekonomi. Egzamen an bezwen depans anvan ak apre, ranplasman ak sèvis konsilè moun resevwa. Pou Savary, kantite anplwaye pa richès pèsonèl; egzamen an bezwen enterè ekonomik ki ka enfliyanse yon desizyon piblik ak règ pou evite sa. Yon risk sekirite pa retire kesyon sa yo, men li mande yon fason responsab pou pibliye enfòmasyon yo.",
+            "en": "For Dupuy, recalls do not measure savings. Assessment needs expenditure before and after, replacements and consular service. For Savary, employment does not measure personal wealth; assessment needs economic interests that could affect public decisions and safeguards against that influence. Security concerns do not erase those questions, but require responsible disclosure."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa nou pa dwe fè se envante yon ekonomi sou baz yon kantite moun, oswa yon favè Leta sou baz yon biznis familyal. Konparezon an swiv sa chak kandida te gen dwa deside epi ki tras desizyon sa yo kite. Se konsa yon lektè ka egzamine depans piblik ak enterè prive san konfonn yo.",
+            "en": "The comparison must not invent savings from a headcount or state favour from a family business. It follows what each candidate had authority to decide and the records those decisions leave. That lets readers examine public spending and private interests without conflating them."
           },
           "sources": []
         }

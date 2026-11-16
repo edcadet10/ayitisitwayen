@@ -1,0 +1,20 @@
+{
+  "reviewed_at": "2026-11-16",
+  "distinct_comparisons": 8,
+  "articles": [
+    "etzer-emile-vs-olivier-barrau",
+    "etzer-emile-vs-jerry-tardieu",
+    "jean-ernest-muscadin-vs-michel-martelly",
+    "claude-joseph-vs-etzer-emile",
+    "jerry-tardieu-vs-jacky-lumarque",
+    "olivier-barrau-vs-munir-mourra",
+    "clarens-renois-vs-junior-salomon",
+    "dominique-dupuy-vs-savannah-savary"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 98,
+  "required_applied": 2,
+  "optional_applied": 2,
+  "public_word_ceiling": 500,
+  "facts_review": "Contrasts checked against the existing reviewed source records; no invented ratings, current alliances or criminal convictions."
+}
