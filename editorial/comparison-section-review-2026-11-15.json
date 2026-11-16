@@ -1,0 +1,34 @@
+{
+  "reviewed_at": "2026-11-15",
+  "published_source_articles": 118,
+  "candidate_pair_articles": 15,
+  "new_pair_articles": 12,
+  "existing_focused_comparisons_classified": 3,
+  "current_presidential_registrations": 33,
+  "all_unordered_pairs": 528,
+  "remaining_pair_articles": 513,
+  "independent_language_review": {
+    "Creole_only_reading_saved_before_English": true,
+    "paired_fields": 199,
+    "packets": [
+      "comparison01",
+      "comparison02",
+      "registry33",
+      "comparison-data"
+    ],
+    "required_replacements": 5,
+    "optional_refinements": 6,
+    "ui_fields_passed": 21,
+    "native_human_certification": false
+  },
+  "verification": {
+    "browser_pair_and_negative_cases": 126,
+    "all_pair_data_language_selection_cases": 1056,
+    "party_counts_checked_against_raw_CEP": true,
+    "per_article_per_language_word_ceiling": 500,
+    "date_falsifier": "Mobile screenshot exposed a staleNovember14snapshot label. Replaced the literal date with the current reviewed registry date and added a regression check.",
+    "duplicate_pair_rejected_including_reverse": true,
+    "published_comparisons_and_full_data_readable_without_JavaScript": true
+  },
+  "scope": "Editorial comparisons are source-led examinations, not votes, opinion polls, endorsements, criminal judgments or fabricated candidate ratings. Registry data compares registration footprints, not political support."
+}

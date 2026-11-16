@@ -25,6 +25,11 @@ class EditorialChecks(unittest.TestCase):
             for lang in builder.LANGUAGES:
                 self.assertLessEqual(builder.word_count(article,lang),500,(article['slug'],lang))
 
+    def test_registration_notice_uses_the_current_reviewed_snapshot_date(self):
+        registry=json.loads((ROOT/'data/candidates/registry.json').read_text(encoding='utf-8'))
+        for lang in builder.LANGUAGES:
+            self.assertIn(registry['reviewed_at'],self.data['copy']['status_note'][lang])
+
     def test_overlong_article_is_rejected(self):
         data=copy.deepcopy(self.data)
         data['articles'][0]['paragraphs'][0]['text']['en']='word '*501
@@ -45,6 +50,51 @@ class EditorialChecks(unittest.TestCase):
         data=copy.deepcopy(self.data)
         data['articles'].append(copy.deepcopy(data['articles'][0]))
         with self.assertRaises(AssertionError):builder.validate(data,self.about,self.people)
+
+    def test_reversed_pair_cannot_create_a_second_comparison(self):
+        data=copy.deepcopy(self.data)
+        article=next(a for a in data['articles'] if a.get('comparison'))
+        reversed_article=copy.deepcopy(article)
+        reversed_article['slug']+='-reverse'
+        reversed_article['candidate_ids'].reverse()
+        data['articles'].append(reversed_article)
+        with self.assertRaisesRegex(AssertionError,'Duplicate candidate pair'):
+            builder.validate(data,self.about,self.people)
+
+    def test_comparison_is_between_two_presidential_registrations(self):
+        for invalid in ('self','three','other_office'):
+            data=copy.deepcopy(self.data)
+            article=next(a for a in data['articles'] if a.get('comparison'))
+            if invalid=='self':article['candidate_ids']=[article['candidate_ids'][0]]*2
+            elif invalid=='three':article['candidate_ids'].append(next(cid for cid,p in self.people.items() if p['office']=='president' and cid not in article['candidate_ids']))
+            else:article['candidate_ids'][1]=next(cid for cid,p in self.people.items() if p['office']!='president')
+            with self.subTest(invalid=invalid),self.assertRaises(AssertionError):
+                builder.validate(data,self.about,self.people)
+
+    def test_comparison_hub_links_only_published_articles_without_javascript(self):
+        data=copy.deepcopy(self.data)
+        first=next(a for a in data['articles'] if a.get('comparison'))
+        first['status']='draft'
+        for lang in builder.LANGUAGES:
+            html=builder.comparison_page(lang,data,self.people,self.portraits)
+            self.assertNotIn('href="'+builder.route(lang,first['slug'])+'"',html)
+            for article in builder.comparison_articles(data):
+                self.assertIn('href="'+builder.route(lang,article['slug'])+'"',html)
+
+    def test_party_footprint_counts_source_entries_and_distinct_localities(self):
+        def row(office,party,place):return {'office':office,'party':party,'locality':place}
+        registry={'candidates':[
+            row('president','A',['National']),
+            row('senator','A',['SUD']),
+            row('deputy','A',['NORD','CAP-HAITIEN']),
+            row('mayor','A',['NORD','CAP-HAITIEN']),
+            row('mayor','A',['NORD','CAP-HAITIEN']),
+            row('mayor','A',['NORD','CAP-HAITIEN']),
+            row('senator','a',['NIPPES']),
+        ],'retained_candidates':[row('senator','A',['NIPPES'])]}
+        counts=builder.party_footprints(registry)
+        self.assertEqual(counts['A'],{'senator':1,'deputy':1,'departments':2,'communes':1})
+        self.assertEqual(counts['a'],{'senator':1,'deputy':0,'departments':1,'communes':0})
 
     def test_stale_audio_is_rejected(self):
         data=copy.deepcopy(self.data)

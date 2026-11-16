@@ -70,9 +70,14 @@ def load():
             p=entry['portrait']; assert p['path'].startswith('/assets/candidates/') and (ROOT / p['path'].lstrip('/')).resolve().is_relative_to(ROOT) and (ROOT / p['path'].lstrip('/')).is_file();safe_url(p['source_url'])
             assert re.fullmatch(r'\d{1,3}% \d{1,3}%',p.get('position','50% 30%'))
             for variant in p['variants']:
-                asset=variant['path'];assert re.fullmatch(r'/assets/candidates/[a-z0-9-]+\.webp',asset) and (ROOT/asset.lstrip('/')).is_file()
-                assert variant['width'] in [160,320,480] and variant['height']*4==variant['width']*5
-            assert re.fullmatch(r'/assets/candidates/[a-z0-9-]+\.webp',p['web_path']) and (ROOT/p['web_path'].lstrip('/')).is_file()
+                asset=variant['path'];assert re.fullmatch(r'/assets/candidates/[a-z0-9-]+\.(?:webp|jpg)',asset) and (ROOT/asset.lstrip('/')).is_file()
+                if asset.endswith('.jpg'):
+                    assert p.get('unmodified_original') and len(p['variants'])==1 and p['path']==asset==p['web_path']
+                    assert 0<variant['width']<=10000 and 0<variant['height']<=10000
+                    assert (ROOT/asset.lstrip('/')).read_bytes().startswith(b'\xff\xd8\xff')
+                else:
+                    assert variant['width'] in [160,320,480] and variant['height']*4==variant['width']*5
+            assert re.fullmatch(r'/assets/candidates/[a-z0-9-]+\.(?:webp|jpg)',p['web_path']) and (ROOT/p['web_path'].lstrip('/')).is_file()
         aliases=entry.get('name_variants',[])
         for website in entry.get('websites',[]):
             safe_url(website['url'])
@@ -200,10 +205,11 @@ def archive_page(lang,person,sources,year='all',page=1):
 
 def related_editorial(person,lang):
     articles=[article for article in EDITORIAL['articles'] if article['status']=='published' and person['id'] in article['candidate_ids']]
-    if not articles:return ''
+    if not articles and person['office']!='president':return ''
     copy=EDITORIAL['copy']
     rows=''.join('<li><span>'+esc(copy[article['kind']][lang])+'</span><a href="'+prefix(lang)+'elections/analysis/'+article['slug']+'/">'+esc(article['title'][lang])+'</a></li>' for article in articles)
-    return '<section class="candidate-editorial" aria-labelledby="candidate-editorial-title"><h2 id="candidate-editorial-title">'+esc(copy['related'][lang])+'</h2><ul>'+rows+'</ul></section>'
+    compare='<p><a href="'+prefix(lang)+'elections/analysis/comparisons/?first='+person['id']+'">'+esc(copy['comparison_title'][lang])+' →</a></p>' if person['office']=='president' else ''
+    return '<section class="candidate-editorial" aria-labelledby="candidate-editorial-title"><h2 id="candidate-editorial-title">'+esc(copy['related'][lang])+'</h2>'+compare+'<ul>'+rows+'</ul></section>'
 
 def profile_page(lang,person,registry,enrichment):
     entry=enrichment['profiles'].get(person['id'],{});sources=sources_for(person,registry,enrichment)

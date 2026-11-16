@@ -1,0 +1,18 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_comparisons": 6,
+  "articles": [
+    "etzer-emile-vs-jean-ernst-muscadin",
+    "jerry-tardieu-vs-olivier-barrau",
+    "michel-martelly-vs-jocelerme-privert",
+    "dominique-dupuy-vs-claude-joseph",
+    "jerry-tardieu-vs-gary-bodeau",
+    "clarens-renois-vs-maxo-joseph"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 97,
+  "required_applied": 2,
+  "optional_applied": 2,
+  "public_word_ceiling": 500,
+  "facts_review": "Contrasts checked against the existing reviewed source records; no invented ratings, current alliances or criminal convictions."
+}

@@ -70,6 +70,17 @@ def audit():
         hub=Page((ROOT/(prefix+'elections/analysis/index.html').lstrip('/')).read_text(encoding='utf-8'))
         feed=ET.parse(ROOT/(prefix+'elections/analysis/feed.xml').lstrip('/'))
         feed_urls={x.text for x in feed.findall('./channel/item/link')}
+        comparison_route=prefix+'elections/analysis/comparisons/'
+        comparison_hub=Page((ROOT/(comparison_route+'index.html').lstrip('/')).read_text(encoding='utf-8'))
+        assert comparison_hub.canon==[SITE+comparison_route] and comparison_hub.language==lang
+        expected_comparisons={SITE+prefix+'elections/analysis/'+a['slug']+'/' for a in articles if a.get('comparison')}
+        collections=[item for block in comparison_hub.structured for item in block.get('@graph',[]) if item.get('@type')=='CollectionPage']
+        assert len(collections)==1 and {a['url'] for a in collections[0]['hasPart']}==expected_comparisons
+        assert expected_comparisons <= {absolute(h) for h in comparison_hub.hrefs}
+        registry=json.loads((ROOT/'data/candidates/registry.json').read_text(encoding='utf-8'))
+        presidential_profiles={SITE+prefix+'candidates/'+p['id']+'/' for p in registry['candidates'] if p['office']=='president'}
+        assert presidential_profiles <= {absolute(h) for h in comparison_hub.hrefs}
+        assert SITE+comparison_route in sitemap and comparison_route in hub.hrefs
         for a in articles:
             route=prefix+'elections/analysis/'+a['slug']+'/'
             url=SITE+route

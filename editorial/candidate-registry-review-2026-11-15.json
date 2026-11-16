@@ -1,0 +1,368 @@
+{
+  "reviewed_at": "2026-11-15",
+  "retrieved_at": "2026-11-16T04:16:23.629524+00:00",
+  "source_url": "https://tableau.cephaiti.ht/",
+  "source_sha256": "f303c7db2e56f71186057331048b192188e15175fd31d29f95908dadcc9aac8d",
+  "previous_total": 10710,
+  "current_total": 11142,
+  "office_counts": {
+    "asec": 2470,
+    "casec": 3637,
+    "mayor": 2624,
+    "deputy": 1846,
+    "senator": 532,
+    "president": 33
+  },
+  "exact_unchanged": 10648,
+  "reviewed_one_field_corrections": [
+    {
+      "field": "structure",
+      "before_fingerprint": "0deea6131301b6db94a8bd8ee08f8daa4fd14d23519c527367a7609e11a01f04",
+      "after_fingerprint": "8a1e7b26f072570f7a8cb1940db52f67f70014d99475e927ccca4741057a3791",
+      "before": {
+        "nom": "SAINVAL",
+        "prenom": "ERICK",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "AAA",
+        "localite": [
+          "SUD"
+        ]
+      },
+      "after": {
+        "nom": "SAINVAL",
+        "prenom": "ERICK",
+        "sexe": "M",
+        "poste": "Sénateur",
+        "position": "Titulaire",
+        "structure": "EAPH",
+        "localite": [
+          "SUD"
+        ]
+      }
+    },
+    {
+      "field": "structure",
+      "before_fingerprint": "2ddc211df13e751634a829a26c357902128dd6d2a8a4d7360d23f51b6cd1a0a8",
+      "after_fingerprint": "c1a95bf7a6551e908cea5b72b5fe0c1cccbd882dd2973ecea9e2377eacc94d70",
+      "before": {
+        "nom": "JOSEPH",
+        "prenom": "EDMACKLY",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "PPGA",
+        "localite": [
+          "NORD-OUEST",
+          "JEAN RABEL"
+        ]
+      },
+      "after": {
+        "nom": "JOSEPH",
+        "prenom": "EDMACKLY",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "ENA",
+        "localite": [
+          "NORD-OUEST",
+          "JEAN RABEL"
+        ]
+      }
+    },
+    {
+      "field": "structure",
+      "before_fingerprint": "54ed20f407c602c70613cf647a4355ca7ff0b5098ea0078d0b64d8938de8486f",
+      "after_fingerprint": "d5b67f97076db74fd2fd34377e2c6a889bed8f1dd7b37d2a093ec2971ce8d544",
+      "before": {
+        "nom": "BARTHELEMY",
+        "prenom": "SONEL",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "DEBLOKE",
+        "localite": [
+          "GRAND'ANSE",
+          "ANSE D'HAINAULT/IROIS"
+        ]
+      },
+      "after": {
+        "nom": "BARTHELEMY",
+        "prenom": "SONEL",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "SOLEY",
+        "localite": [
+          "GRAND'ANSE",
+          "ANSE D'HAINAULT/IROIS"
+        ]
+      }
+    },
+    {
+      "field": "structure",
+      "before_fingerprint": "b4c8784af608dec3d1b52a913caca75b4f345772eb767eb8fee34c9ba0b20d6e",
+      "after_fingerprint": "93a14b78be8f4890c91edf9b6c3bdf987d7b69ba814e33439e33abc75abaf719",
+      "before": {
+        "nom": "PIERRE",
+        "prenom": "RICHARD",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "ANF",
+        "localite": [
+          "NORD",
+          "PLAINE-DU-NORD/MILOT"
+        ]
+      },
+      "after": {
+        "nom": "PIERRE",
+        "prenom": "RICHARD",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "DELIVRANS",
+        "localite": [
+          "NORD",
+          "PLAINE-DU-NORD/MILOT"
+        ]
+      }
+    },
+    {
+      "field": "structure",
+      "before_fingerprint": "b629cc83de1cedcb9555e3f511a5217dd842f188ac45f74f518b8e61afa33860",
+      "after_fingerprint": "76cdb8b75f01e27355da9aa86f95fe4c5ad060ac03f11270d850bd2a6c22864e",
+      "before": {
+        "nom": "VERVIL",
+        "prenom": "ABNEL",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "SUDD",
+        "localite": [
+          "SUD",
+          "CHARDONNIÈRES/LES ANGLAIS"
+        ]
+      },
+      "after": {
+        "nom": "VERVIL",
+        "prenom": "ABNEL",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "EAPH",
+        "localite": [
+          "SUD",
+          "CHARDONNIÈRES/LES ANGLAIS"
+        ]
+      }
+    },
+    {
+      "field": "structure",
+      "before_fingerprint": "f27c1468899cae08cc8e003f208ca4198037ac93e9a0655348fbe44f676042b8",
+      "after_fingerprint": "c232e9a14f29283a842f0c46d81862b7fab7ffb8cbe71d5568a7e84681641399",
+      "before": {
+        "nom": "JOSAPHAT",
+        "prenom": "MARC RODLIN",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "PPGA",
+        "localite": [
+          "NORD-OUEST",
+          "BOMBARDOPOLIS/BAIE DE HENNE"
+        ]
+      },
+      "after": {
+        "nom": "JOSAPHAT",
+        "prenom": "MARC RODLIN",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "ENA",
+        "localite": [
+          "NORD-OUEST",
+          "BOMBARDOPOLIS/BAIE DE HENNE"
+        ]
+      }
+    },
+    {
+      "field": "structure",
+      "before_fingerprint": "fdb4e83f0c1ae696af6a4c158f57ed96e7c84e2e3e67c977f043e8bd8d8d198e",
+      "after_fingerprint": "7000bf6957bb27ccc01842dadc93f16ec784aabb6b5f68d5ba1884a8a3efd7e5",
+      "before": {
+        "nom": "AMBEAU",
+        "prenom": "STANFORD",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "PPGA",
+        "localite": [
+          "NORD-OUEST",
+          "MÔLE SAINT-NICOLAS"
+        ]
+      },
+      "after": {
+        "nom": "AMBEAU",
+        "prenom": "STANFORD",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "ENA",
+        "localite": [
+          "NORD-OUEST",
+          "MÔLE SAINT-NICOLAS"
+        ]
+      }
+    },
+    {
+      "field": "structure",
+      "before_fingerprint": "ffaa2c1040fb7ba3ddf73419db3227e3e6ba67e5ddc4dfc8e8157e0b7eaed34a",
+      "after_fingerprint": "111f00f931d3db3919a8c2495204689c5f4b091ef35a0922c9a03d42234adbe0",
+      "before": {
+        "nom": "PIERRE",
+        "prenom": "EMMANUEL",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "DEBLOKE",
+        "localite": [
+          "OUEST",
+          "KENSCOFF"
+        ]
+      },
+      "after": {
+        "nom": "PIERRE",
+        "prenom": "EMMANUEL",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "ENA",
+        "localite": [
+          "OUEST",
+          "KENSCOFF"
+        ]
+      }
+    },
+    {
+      "field": "localite",
+      "before_fingerprint": "3e86bfb25069f69185e8fb5d0d86d27c636abcd386019edc4c668e9945e3358d",
+      "after_fingerprint": "928ce7614fd8985fe4144511b7d5db7578c362f0ae794fd2096054a26c508b3e",
+      "before": {
+        "nom": "ZEPHYRIN",
+        "prenom": "JEAN-CLAUDE",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "2ème Adjoint",
+        "structure": "VIKTWA",
+        "localite": [
+          "NORD",
+          "BAHON"
+        ]
+      },
+      "after": {
+        "nom": "ZEPHYRIN",
+        "prenom": "JEAN-CLAUDE",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "2ème Adjoint",
+        "structure": "VIKTWA",
+        "localite": [
+          "NORD",
+          "CAP-HAITIEN"
+        ]
+      }
+    },
+    {
+      "field": "localite",
+      "before_fingerprint": "efc20809d4bbbfff9df601a3d82dd3f3266663948750147bd28cf444f462cdee",
+      "after_fingerprint": "f1f48715ce9011dd50965e3ff4f30474182363977c2645f261cefe873777963c",
+      "before": {
+        "nom": "ETIENNE",
+        "prenom": "JEAN-ROBERT",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "RCH",
+        "localite": [
+          "ARTIBONITE",
+          "SAINT-MICHEL-DE-L'ATTALAYE"
+        ]
+      },
+      "after": {
+        "nom": "ETIENNE",
+        "prenom": "JEAN-ROBERT",
+        "sexe": "M",
+        "poste": "Député",
+        "position": "Titulaire",
+        "structure": "RCH",
+        "localite": [
+          "ARTIBONITE",
+          "L'ESTÈRE"
+        ]
+      }
+    },
+    {
+      "field": "localite",
+      "before_fingerprint": "f842801de2afe36163ea693b7edf0cfa4670729d5c61097fa232a5fbabf2608f",
+      "after_fingerprint": "65746cc944e636d238864d14ec6656201cf5af9c0b8b7d7b30cdcf6a299dc440",
+      "before": {
+        "nom": "OLIBRICE",
+        "prenom": "MARC OCCIUS",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "VIKTWA",
+        "localite": [
+          "NORD",
+          "ACUL-DU-NORD"
+        ]
+      },
+      "after": {
+        "nom": "OLIBRICE",
+        "prenom": "MARC OCCIUS",
+        "sexe": "M",
+        "poste": "Maire",
+        "position": "Titulaire",
+        "structure": "VIKTWA",
+        "localite": [
+          "NORD",
+          "CAP-HAITIEN"
+        ]
+      }
+    }
+  ],
+  "restored_existing_ids": [
+    "c-37602df262135517af44",
+    "c-fc2f6942738258a0a6a6",
+    "c-696464a8bab8502a94fb"
+  ],
+  "new_registrations": 480,
+  "new_presidential_registrations": [
+    {
+      "id": "c-7a166482a2bb5b41af62",
+      "given_name": "MARIE ETIENNE MARTINE JOSEPH",
+      "surname": "MOISE",
+      "name": "MARIE ETIENNE MARTINE JOSEPH MOISE",
+      "office": "president",
+      "party": "GAD",
+      "locality": [
+        "National"
+      ],
+      "position": "Titulaire",
+      "status": "preliminary",
+      "source_fingerprint": "17bec09cc92bd558a0b7040262f6c0a92679f38f711ab75bdb95d955b1b0b02d"
+    }
+  ],
+  "newly_not_observed": 51,
+  "retained_count": 155,
+  "checks": [
+    "All six office counts and total reconcile; each source row unique.",
+    "Active senate/deputy collections retried; final office counts match CEP summary.",
+    "Persistent IDs retained for unchanged rows, exact restored fingerprints and11unique full-context one-field corrections.",
+    "Every old URL preserved; absence is not withdrawal or rejection."
+  ],
+  "initial_hypothesis_disconfirmed": "62previous fingerprints absent;11context corrections,3exact restores and51newly not-observed entries require separate treatment.",
+  "result": "pass"
+}

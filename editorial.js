@@ -15,6 +15,7 @@
   });
   document.querySelector('.lang-switch')?.addEventListener('click', event => {
     if (location.hash) event.currentTarget.hash = location.hash;
+    if (document.querySelector('[data-comparison-tool]')) event.currentTarget.search = location.search;
     const lang = document.documentElement.lang === 'en' ? 'ht' : 'en';
     document.cookie = 'ayiti_lang=' + lang + '; Max-Age=31536000; Path=/; SameSite=Lax; Secure';
     try { localStorage.setItem('lang', lang); } catch (_) {}
@@ -51,6 +52,47 @@
         apply();
       });
     }
+  }
+  const comparisonTool = document.querySelector('[data-comparison-tool]');
+  if (comparisonTool) {
+    const first = document.getElementById('compare-first');
+    const second = document.getElementById('compare-second');
+    const status = comparisonTool.querySelector('[data-comparison-status]');
+    const rows = [...document.querySelectorAll('[data-comparison-pair]')];
+    const pairs = new Map(rows.map(row => [row.dataset.comparisonPair.split(' ').sort().join(' '), row.querySelector('a').getAttribute('href')]));
+    const params = new URLSearchParams(location.search);
+    for (const [key, control] of [['first', first], ['second', second]]) {
+      const value = params.get(key) || '';
+      if ([...control.options].some(option => option.value === value)) control.value = value;
+    }
+    let destination;
+    const apply = () => {
+      destination = undefined;
+      const selected = [first.value, second.value].filter(Boolean);
+      for (const row of rows) row.hidden = !selected.every(id => row.dataset.comparisonPair.split(' ').includes(id));
+      for (const row of document.querySelectorAll('[data-comparison-person]')) row.hidden = selected.length > 0 && !selected.includes(row.dataset.comparisonPerson);
+      if (selected.length < 2) status.textContent = '';
+      else if (first.value === second.value) status.textContent = comparisonTool.dataset.same;
+      else {
+        destination = pairs.get(selected.sort().join(' '));
+        status.textContent = destination ? comparisonTool.dataset.ready : comparisonTool.dataset.pending;
+      }
+      const query = new URLSearchParams();
+      if (first.value) query.set('first', first.value);
+      if (second.value) query.set('second', second.value);
+      history.replaceState(null, '', location.pathname + (query.size ? '?' + query : '') + location.hash);
+    };
+    first.addEventListener('change', apply);
+    second.addEventListener('change', apply);
+    comparisonTool.addEventListener('submit', event => {
+      event.preventDefault();
+      apply();
+      if (destination) location.assign(destination);
+      else status.textContent = selectedPrompt();
+    });
+    const selectedPrompt = () => !first.value || !second.value ? comparisonTool.dataset.choose : status.textContent;
+    comparisonTool.hidden = false;
+    apply();
   }
   const form = document.getElementById('editorial-contact-form');
   form?.addEventListener('submit', event => {

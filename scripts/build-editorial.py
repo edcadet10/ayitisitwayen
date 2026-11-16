@@ -58,6 +58,30 @@ def route(lang, slug=''):
     return prefix(lang) + 'elections/analysis/' + (slug + '/' if slug else '')
 
 
+def comparison_pair(article):
+    return tuple(sorted(article['candidate_ids'])) if article.get('comparison') else None
+
+
+def comparison_articles(data):
+    return [a for a in published_articles(data) if a.get('comparison')]
+
+
+def party_footprints(registry):
+    """Count current source entries, without merging party or locality aliases."""
+    parties = {}
+    for person in registry['candidates']:
+        row = parties.setdefault(person['party'], {'senator':0,'deputy':0,'departments':set(),'communes':set()})
+        office = person['office']
+        if office in ('senator','deputy'):
+            row[office] += 1
+        if office != 'president' and person['locality']:
+            row['departments'].add(person['locality'][0])
+        if office == 'mayor':
+            assert len(person['locality']) == 2
+            row['communes'].add(tuple(person['locality']))
+    return {party:{key:len(value) if isinstance(value,set) else value for key,value in row.items()} for party,row in parties.items()}
+
+
 def bilingual(value):
     assert isinstance(value, dict) and set(value) == set(LANGUAGES)
     assert all(isinstance(value[lang], str) and value[lang].strip() for lang in LANGUAGES)
@@ -69,6 +93,7 @@ def validate(data, about, people):
     for value in data['copy'].values():
         bilingual(value)
     slugs = set()
+    pairs = set()
     for source in data['sources'].values():
         parsed = urlparse(source['url'])
         assert parsed.scheme == 'https' and parsed.hostname and not parsed.username and not parsed.password
@@ -85,6 +110,13 @@ def validate(data, about, people):
         assert article['kind'] in ('analysis', 'opinion')
         assert article['candidate_ids'] and len(article['candidate_ids']) == len(set(article['candidate_ids']))
         assert all(cid in people for cid in article['candidate_ids'])
+        if article.get('comparison'):
+            assert article['kind'] == 'analysis' and len(article['candidate_ids']) == 2
+            assert all(people[cid]['office'] == 'president' for cid in article['candidate_ids'])
+            pair = comparison_pair(article)
+            assert pair not in pairs, (slug, 'Duplicate candidate pair, including reversed order')
+            pairs.add(pair)
+        assert slug != 'comparisons', 'Reserved collection route'
         assert date.fromisoformat(article['published_at']) <= date.fromisoformat(article['updated_at']) <= date.fromisoformat(data['updated_at'])
         for key in ('title', 'description'):
             bilingual(article[key])
@@ -125,6 +157,8 @@ def load():
     people = {person['id']: person for person in registry['candidates'] + registry.get('retained_candidates', [])}
     portraits = json.loads((ROOT / 'data/candidates/enrichment.json').read_text(encoding='utf-8'))['profiles']
     validate(data, about, people)
+    for lang in LANGUAGES:
+        data['copy']['status_note'][lang] = data['copy']['status_note'][lang].format(date=registry['reviewed_at'])
     return data, about, people, portraits
 
 
@@ -146,7 +180,7 @@ def shell(lang, title, description, path, body, modified, copy, graph=None, imag
     metadata = {'@context': 'https://schema.org', '@graph': [org, page] + (graph or [])}
     image = image or SITE + '/logo.png'
     author_meta = '<meta name="author" content="Ayiti Sitwayen">' if article else ''
-    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)} | Ayiti Sitwayen</title><meta name="description" content="{escape(description, quote=True)}">{author_meta}<meta name="theme-color" content="#ffffff"><meta name="robots" content="max-image-preview:large"><meta property="og:title" content="{escape(title, quote=True)}"><meta property="og:description" content="{escape(description, quote=True)}"><meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:url" content="{SITE}{path}"><meta property="og:image" content="{escape(image, quote=True)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{escape(image, quote=True)}"><link rel="canonical" href="{SITE}{path}"><link rel="alternate" hreflang="ht" href="{SITE}{ht}"><link rel="alternate" hreflang="en" href="{SITE}{en}"><link rel="alternate" hreflang="x-default" href="{SITE}{ht}"><link rel="alternate" type="application/rss+xml" title="Ayiti Sitwayen" href="{route(lang)}feed.xml"><link rel="icon" href="/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles.css?v=3"><link rel="stylesheet" href="/theme.css?v=3"><link rel="stylesheet" href="/editorial.css?v=2"><script type="application/ld+json">{compact(metadata)}</script></head><body class="editorial-site"><a class="skip-link" href="#kontni">{escape(copy['skip'][lang])}</a><nav class="navbar"><div class="container"><a class="nav-brand" href="{prefix(lang)}"><img class="logo" src="/logo.webp" alt="Ayiti Sitwayen" width="300" height="200"></a><button class="nav-toggle" aria-label="{escape(copy['menu'][lang], quote=True)}" aria-expanded="false" aria-controls="navLinks">☰</button><div class="nav-links" id="navLinks">{nav}<a class="lang-switch" href="{alternate}" lang="{'en' if lang == 'ht' else 'ht'}">{'EN' if lang == 'ht' else 'HT'}</a></div></div></nav>{body}<footer class="editorial-footer container"><a href="{prefix(lang)}">Ayiti Sitwayen</a><div>{link(prefix(lang)+'about.html#mission', 'Misyon nou' if lang == 'ht' else 'Our mission')} {link(prefix(lang)+'about.html#contact', copy['correction'][lang])} {link(prefix(lang)+'privacy.html', 'Konfidansyalite' if lang == 'ht' else 'Privacy')}</div></footer><script src="/editorial.js?v=3" defer></script></body></html>'''
+    return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)} | Ayiti Sitwayen</title><meta name="description" content="{escape(description, quote=True)}">{author_meta}<meta name="theme-color" content="#ffffff"><meta name="robots" content="max-image-preview:large"><meta property="og:title" content="{escape(title, quote=True)}"><meta property="og:description" content="{escape(description, quote=True)}"><meta property="og:type" content="{'article' if article else 'website'}"><meta property="og:url" content="{SITE}{path}"><meta property="og:image" content="{escape(image, quote=True)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{escape(image, quote=True)}"><link rel="canonical" href="{SITE}{path}"><link rel="alternate" hreflang="ht" href="{SITE}{ht}"><link rel="alternate" hreflang="en" href="{SITE}{en}"><link rel="alternate" hreflang="x-default" href="{SITE}{ht}"><link rel="alternate" type="application/rss+xml" title="Ayiti Sitwayen" href="{route(lang)}feed.xml"><link rel="icon" href="/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles.css?v=3"><link rel="stylesheet" href="/theme.css?v=3"><link rel="stylesheet" href="/editorial.css?v=3"><script type="application/ld+json">{compact(metadata)}</script></head><body class="editorial-site"><a class="skip-link" href="#kontni">{escape(copy['skip'][lang])}</a><nav class="navbar"><div class="container"><a class="nav-brand" href="{prefix(lang)}"><img class="logo" src="/logo.webp" alt="Ayiti Sitwayen" width="300" height="200"></a><button class="nav-toggle" aria-label="{escape(copy['menu'][lang], quote=True)}" aria-expanded="false" aria-controls="navLinks">☰</button><div class="nav-links" id="navLinks">{nav}<a class="lang-switch" href="{alternate}" lang="{'en' if lang == 'ht' else 'ht'}">{'EN' if lang == 'ht' else 'HT'}</a></div></div></nav>{body}<footer class="editorial-footer container"><a href="{prefix(lang)}">Ayiti Sitwayen</a><div>{link(prefix(lang)+'about.html#mission', 'Misyon nou' if lang == 'ht' else 'Our mission')} {link(prefix(lang)+'about.html#contact', copy['correction'][lang])} {link(prefix(lang)+'privacy.html', 'Konfidansyalite' if lang == 'ht' else 'Privacy')}</div></footer><script src="/editorial.js?v=4" defer></script></body></html>'''
 
 
 def breadcrumb(lang, copy, article_title=None):
@@ -181,10 +215,32 @@ def index_page(lang, data, people, portraits):
     cards = ''.join(card(article, lang, copy, people, portraits, i == 0) for i, article in enumerate(articles))
     covered_ids = {cid for article in articles for cid in article['candidate_ids']}
     options = '<option value="">'+escape(copy['all_candidates'][lang])+'</option>'+''.join('<option value="'+cid+'">'+escape(people[cid]['name'])+'</option>' for cid in sorted(covered_ids,key=lambda cid:people[cid]['name']))
-    tools = '<div class="editorial-tools" hidden><div class="editorial-search-fields"><label for="editorial-search">'+escape(copy['search_articles'][lang])+'<input id="editorial-search" type="search" autocomplete="off" maxlength="200"></label><label for="editorial-candidate">'+escape(copy['choose_candidate'][lang])+'<select id="editorial-candidate">'+options+'</select></label></div><div class="editorial-filters" role="group" aria-label="'+escape(copy['filter_label'][lang],quote=True)+'">'+controls+'</div></div>'
+    tools = '<p class="editorial-comparison-entry">'+link(route(lang,'comparisons'),copy['comparison_title'][lang]+' →')+'</p><div class="editorial-tools" hidden><div class="editorial-search-fields"><label for="editorial-search">'+escape(copy['search_articles'][lang])+'<input id="editorial-search" type="search" autocomplete="off" maxlength="200"></label><label for="editorial-candidate">'+escape(copy['choose_candidate'][lang])+'<select id="editorial-candidate">'+options+'</select></label></div><div class="editorial-filters" role="group" aria-label="'+escape(copy['filter_label'][lang],quote=True)+'">'+controls+'</div></div>'
     body = f'''<main id="kontni" class="editorial-main container">{breadcrumb(lang, copy)}<header class="editorial-intro"><p class="editorial-kicker">Ayiti Sitwayen · {escape(copy['elections'][lang])}</p><h1>{escape(copy['title'][lang])}</h1><p class="editorial-lead">{escape(copy['intro'][lang])}</p><p class="editorial-status">{escape(copy['status_note'][lang])}</p></header><div class="editorial-definitions"><p><strong>{escape(copy['analysis'][lang])}</strong> {escape(copy['analysis_note'][lang])}</p><p><strong>{escape(copy['opinion'][lang])}</strong> {escape(copy['opinion_note'][lang])}</p></div>{tools}<p class="editorial-count" role="status" aria-live="polite" data-count-pattern="{escape(copy['result_count'][lang], quote=True)}">{escape(copy['result_count'][lang].format(count=len(articles)))}</p><div class="editorial-grid">{cards}</div><p class="editorial-empty" hidden>{escape(copy['no_results'][lang])}</p><p class="editorial-feed">{link(route(lang)+'feed.xml', copy['follow_feed'][lang])}</p>{method(lang, copy)}</main>'''
     graph = [{'@type': 'CollectionPage', '@id': SITE + route(lang) + '#collection', 'url': SITE + route(lang), 'name': copy['title'][lang], 'hasPart': [{'@type': 'Article', 'url': SITE + route(lang, a['slug']), 'headline': a['title'][lang], 'genre': copy[a['kind']][lang]} for a in articles]}]
     return shell(lang, copy['title'][lang], copy['intro'][lang], route(lang), body, data['updated_at'], copy, graph)
+
+
+def comparison_page(lang, data, people, portraits):
+    copy = data['copy']
+    # Only current registrations set the scope; retained profiles are not counted.
+    registry = json.loads((ROOT/'data/candidates/registry.json').read_text(encoding='utf-8'))
+    candidates = sorted([p for p in registry['candidates'] if p['office']=='president'], key=lambda p:p['name'])
+    articles = comparison_articles(data)
+    title = copy['comparison_title'][lang]
+    options = '<option value="">'+escape(copy['comparison_choose'][lang])+'</option>'+''.join('<option value="'+p['id']+'">'+escape(p['name'])+'</option>' for p in candidates)
+    controls = '<form class="editorial-comparison-tool" data-comparison-tool hidden data-choose="'+escape(copy['comparison_choose'][lang],quote=True)+'" data-same="'+escape(copy['comparison_same'][lang],quote=True)+'" data-pending="'+escape(copy['comparison_pending'][lang],quote=True)+'" data-ready="'+escape(copy['comparison_ready'][lang],quote=True)+'"><div class="editorial-comparison-selects"><label for="compare-first">'+escape(copy['comparison_first'][lang])+'<select id="compare-first" name="first">'+options+'</select></label><label for="compare-second">'+escape(copy['comparison_second'][lang])+'<select id="compare-second" name="second">'+options+'</select></label></div><button type="submit">'+escape(copy['comparison_read'][lang])+'</button><p data-comparison-status role="status" aria-live="polite"></p></form>'
+    rows = ''.join('<li data-comparison-pair="'+' '.join(comparison_pair(a))+'">'+link(route(lang,a['slug']),a['title'][lang])+'<p>'+escape(a['description'][lang])+'</p></li>' for a in articles)
+    profiles = ''.join('<li>'+link(prefix(lang)+'candidates/'+p['id']+'/',p['name']+' · '+p['party'])+'</li>' for p in candidates)
+    metrics = party_footprints(registry)
+    headings = ''.join('<th scope="col">'+escape(copy['comparison_data_'+key][lang])+'</th>' for key in ('candidate','senate','deputy','departments','communes'))
+    metric_rows = ''.join('<tr data-comparison-person="'+p['id']+'"><th scope="row">'+link(prefix(lang)+'candidates/'+p['id']+'/',p['name'])+'<span class="editorial-metric-party">'+escape(p['party'])+'</span></th>'+''.join('<td>'+str(metrics[p['party']][key])+'</td>' for key in ('senator','deputy','departments','communes'))+'</tr>' for p in candidates)
+    table = '<section class="editorial-comparison-data" aria-labelledby="comparison-data-title"><h2 id="comparison-data-title">'+escape(copy['comparison_data_title'][lang])+'</h2><p>'+escape(copy['comparison_data_note'][lang])+'</p><div class="editorial-comparison-table"><table><caption>'+escape(copy['comparison_data_date'][lang].format(date=registry['reviewed_at']))+' '+link(registry['source_url'],'CEP →')+'</caption><thead><tr>'+headings+'</tr></thead><tbody>'+metric_rows+'</tbody></table></div><p class="editorial-source-meta">'+escape(copy['comparison_data_method'][lang])+'</p></section>'
+    count = copy['comparison_count'][lang].format(count=len(articles),candidates=len(candidates))
+    body = '<main id="kontni" class="editorial-main container">'+breadcrumb(lang,copy,title)+'<header class="editorial-intro"><p class="editorial-kicker">Ayiti Sitwayen · '+escape(copy['analysis'][lang])+'</p><h1>'+escape(title)+'</h1><p class="editorial-lead">'+escape(copy['comparison_intro'][lang])+'</p><p>'+escape(count)+'</p><p class="editorial-status">'+escape(copy['status_note'][lang])+'</p></header>'+controls+table+'<section class="editorial-comparison-list"><h2>'+escape(copy['comparison_published'][lang])+'</h2><ul>'+rows+'</ul></section><section class="editorial-comparison-profiles"><h2>'+escape(copy['comparison_profiles'][lang])+'</h2><ul>'+profiles+'</ul></section>'+method(lang,copy)+'</main>'
+    path = route(lang,'comparisons')
+    graph = [{'@type':'CollectionPage','@id':SITE+path+'#collection','url':SITE+path,'name':title,'hasPart':[{'@type':'Article','url':SITE+route(lang,a['slug']),'headline':a['title'][lang]} for a in articles]}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i,'name':name,'item':SITE+target} for i,(name,target) in enumerate([(copy['elections'][lang],prefix(lang)+'elections.html'),(copy['title'][lang],route(lang)),(title,path)],1)]}]
+    return shell(lang,title,copy['comparison_intro'][lang],path,body,data['updated_at'],copy,graph)
 
 
 def article_page(lang, article, data, people, portraits):
@@ -208,7 +264,7 @@ def article_page(lang, article, data, people, portraits):
     others = [a for a in published_articles(data) if a['slug']!=article['slug']]
     others.sort(key=lambda a: (bool(set(a['candidate_ids']) & set(article['candidate_ids'])), a['published_at']), reverse=True)
     related = ''.join('<li>' + link(route(lang, other['slug']), copy[other['kind']][lang] + ' · ' + other['title'][lang]) + '</li>' for other in others[:6])
-    related += '<li>' + link(route(lang), copy['browse_all'][lang]) + '</li>'
+    related += '<li>' + (link(route(lang,'comparisons'),copy['comparison_title'][lang]) if article.get('comparison') else link(route(lang),copy['browse_all'][lang])) + '</li>'
 
     count=word_count(article,lang)
     series=''
@@ -258,6 +314,7 @@ def outputs():
     for lang in LANGUAGES:
         yield ROOT / route(lang).strip('/') / 'feed.xml', rss_feed(lang, data)
         yield ROOT / route(lang).strip('/') / 'index.html', index_page(lang, data, people, portraits)
+        yield ROOT / route(lang,'comparisons').strip('/') / 'index.html', comparison_page(lang,data,people,portraits)
         for article in data['articles']:
             if article['status'] == 'published':
                 yield ROOT / route(lang, article['slug']).strip('/') / 'index.html', article_page(lang, article, data, people, portraits)

@@ -1,5 +1,6 @@
 """Meaningful invariants for reviewed data and source/render safety, without a network dependency."""
 import importlib.util
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -143,6 +144,18 @@ class CandidateDataChecks(unittest.TestCase):
             self.assertEqual(portrait['source_url'],evidence['source_url'])
             self.assertIn(portrait['source_url'],[self.enrichment['publications'][key]['url'] for key in entry['source_ids']])
             self.assertEqual(len(evidence['source_sha256']),64)
+            if portrait.get('unmodified_original'):
+                # A licensed archive original is kept byte-for-byte; do not
+                # silently replace a person's photograph with a generated face.
+                self.assertEqual(len(portrait['variants']),1)
+                original=ROOT/portrait['path'].lstrip('/')
+                self.assertEqual(hashlib.sha256(original.read_bytes()).hexdigest(),evidence['source_sha256'])
+                self.assertLessEqual(original.stat().st_size,450000)
+                self.assertEqual(portrait['variants'][0]['width'],evidence['source_dimensions'][0])
+                self.assertEqual(portrait['variants'][0]['height'],evidence['source_dimensions'][1])
+                self.assertIn('creativecommons.org/licenses/by-sa/2.0/',portrait['reuse_basis'])
+                self.assertEqual(original.read_bytes()[:3],b'\xff\xd8\xff')
+                continue
             self.assertEqual({v['width'] for v in portrait['variants']},{160,320,480})
             for variant in portrait['variants']:
                 asset=ROOT/variant['path'].lstrip('/')

@@ -2134,6 +2134,27 @@
       "published_at": null,
       "reviewed_at": "2026-11-15",
       "review_status": "reviewed"
+    },
+    "martine-moise-commons-lima-2018": {
+      "id": "martine-moise-commons-lima-2018",
+      "url": "https://commons.wikimedia.org/wiki/File:Martine_Mo%C3%AFse_in_Lima.jpg",
+      "publisher": "Ministerio de Relaciones Exteriores (Perú) / Wikimedia Commons",
+      "type": "archive_source",
+      "categories": [
+        "articles"
+      ],
+      "format": "article",
+      "title": {
+        "ht": "Martine Moïse nan Lima an 2018",
+        "en": "Martine Moïse in Lima in 2018"
+      },
+      "summary": {
+        "ht": "Sous foto a idantifye Martine Moïse nan Lima, 13 Avril 2018. Se yon foto achiv, pa yon foto enskripsyon kandida an 2026. Fichye orijinal la pa modifye.",
+        "en": "The photograph source identifies Martine Moïse in Lima on April 13, 2018. This is an archive photograph, not her 2026 candidate registration. The original file is unmodified."
+      },
+      "published_at": "2018-04-13",
+      "reviewed_at": "2026-11-15",
+      "review_status": "reviewed"
     }
   },
   "profiles": {
@@ -5480,6 +5501,39 @@
         {
           "name": "Savannah Savary",
           "source_id": "portrait-source-044a28564a40545cb553"
+        }
+      ]
+    },
+    "c-7a166482a2bb5b41af62": {
+      "source_ids": [
+        "martine-moise-commons-lima-2018"
+      ],
+      "portrait": {
+        "path": "/assets/candidates/martine-moise-lima-2018.jpg",
+        "variants": [
+          {
+            "path": "/assets/candidates/martine-moise-lima-2018.jpg",
+            "width": 1160,
+            "height": 1337
+          }
+        ],
+        "web_path": "/assets/candidates/martine-moise-lima-2018.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Martine_Mo%C3%AFse_in_Lima.jpg",
+        "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Martine_Mo%C3%AFse_in_Lima.jpg",
+        "credit": "Ministerio de Relaciones Exteriores (Perú) · CC BY-SA 2.0 · 2018",
+        "context": {
+          "ht": "Sous foto a idantifye Martine Moïse nan Lima, 13 Avril 2018. Se yon foto achiv, pa yon foto enskripsyon kandida an 2026. Fichye orijinal la pa modifye.",
+          "en": "The photograph source identifies Martine Moïse in Lima on April 13, 2018. This is an archive photograph, not her 2026 candidate registration. The original file is unmodified."
+        },
+        "reviewed_at": "2026-11-15",
+        "position": "50% 50%",
+        "reuse_basis": "CC BY-SA2.0. https://creativecommons.org/licenses/by-sa/2.0/ Original downloaded JPEG unmodified; author credited and Commons source with license linked. CSS layout may frame the original. Reuse under the same license.",
+        "unmodified_original": true
+      },
+      "name_variants": [
+        {
+          "name": "Martine Moïse",
+          "source_id": "martine-moise-commons-lima-2018"
         }
       ]
     }

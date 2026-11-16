@@ -1,0 +1,15 @@
+{
+  "reviewed_at": "2026-11-15",
+  "articles": [
+    "martine-moise-registration-33-presidential-candidates"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 17,
+  "required_applied": 0,
+  "optional_applied": 2,
+  "public_word_ceiling": 500,
+  "facts_review": "Contrasts checked against the existing reviewed source records; no invented ratings, current alliances or criminal convictions.",
+  "distinct_articles": 1,
+  "includes_historical_count_update": true,
+  "includes_new_profile_photo_translation": true
+}

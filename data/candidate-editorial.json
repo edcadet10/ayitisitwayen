@@ -75,8 +75,8 @@
       "en": "Analysis examines what the evidence supports. Opinion makes a clearly labeled editorial argument. We distinguish verified information, our interpretations and open questions. The same sourcing and accuracy requirements apply to every candidate; the initial selection is neither a ranking nor an endorsement."
     },
     "status_note": {
-      "ht": "Enskripsyon nan rejis la pa yon apwobasyon kandida a. Enfòmasyon sou enskripsyon yo soti nan kopi rejis KEP/CEP nou te verifye 14 Novanm 2026 la.",
-      "en": "A registry entry is not candidate approval. Registration information comes from the CEP snapshot reviewed November 14, 2026."
+      "ht": "Enskripsyon nan rejis la pa yon apwobasyon kandida a. Enfòmasyon sou enskripsyon yo soti nan kopi rejis KEP/CEP nou te verifye {date} la.",
+      "en": "A registry entry is not candidate approval. Registration information comes from the CEP snapshot reviewed {date}."
     },
     "correction": {
       "ht": "Voye yon koreksyon oswa yon sous",
@@ -177,6 +177,90 @@
     "follow_feed": {
       "ht": "Suiv nouvo atik yo · RSS",
       "en": "Follow new articles · RSS"
+    },
+    "comparison_title": {
+      "ht": "Kandida prezidansyèl yo fas a fas",
+      "en": "Presidential candidates: head-to-head comparisons"
+    },
+    "comparison_intro": {
+      "ht": "Chwazi de kandida. Li diferans ki dokimante yo, sa yo pwopoze ak sa dosye yo poko pèmèt nou di.",
+      "en": "Choose two candidates. Examine documented differences, proposals and what the records do not yet establish."
+    },
+    "comparison_choose": {
+      "ht": "Chwazi yon kandida",
+      "en": "Choose a candidate"
+    },
+    "comparison_first": {
+      "ht": "Premye kandida",
+      "en": "First candidate"
+    },
+    "comparison_second": {
+      "ht": "Dezyèm kandida",
+      "en": "Second candidate"
+    },
+    "comparison_same": {
+      "ht": "Chwazi de kandida diferan.",
+      "en": "Choose two different candidates."
+    },
+    "comparison_pending": {
+      "ht": "Nou poko pibliye konparezon sa a. Ou ka li dosye kandida yo pi ba a.",
+      "en": "This comparison has not been published yet. You can read the candidate profiles below."
+    },
+    "comparison_ready": {
+      "ht": "Konparezon sa a disponib. Peze bouton an pou li l.",
+      "en": "This comparison is available. Use the button to read it."
+    },
+    "comparison_read": {
+      "ht": "Li konparezon an",
+      "en": "Read the comparison"
+    },
+    "comparison_count": {
+      "ht": "{count} konparezon pibliye · {candidates} enskripsyon prezidansyèl",
+      "en": "{count} published comparisons · {candidates} presidential registrations"
+    },
+    "comparison_published": {
+      "ht": "Konparezon ki disponib yo",
+      "en": "Published comparisons"
+    },
+    "comparison_profiles": {
+      "ht": "Dosye kandida prezidansyèl yo",
+      "en": "Presidential candidate profiles"
+    },
+    "comparison_data_title": {
+      "ht": "Enskripsyon ki pote menm kòd pati ak kandida a",
+      "en": "Registrations under the candidate’s party code"
+    },
+    "comparison_data_note": {
+      "ht": "Nou konte antre ki pote egzakteman menm kòd pati nan kopi rejis la. Sa pa kantite manm pati, sipòtè oswa vòt. Antant ak lòt pati pa antre nan kalkil sa a.",
+      "en": "We count entries under the exact same party code in the registry snapshot. These are not party membership, supporters or votes. Agreements with other parties are not included."
+    },
+    "comparison_data_candidate": {
+      "ht": "Kandida ak pati",
+      "en": "Candidate and party"
+    },
+    "comparison_data_senate": {
+      "ht": "Antre pou Sena",
+      "en": "Senate entries"
+    },
+    "comparison_data_deputy": {
+      "ht": "Antre pou Chanm Depite",
+      "en": "Chamber of Deputies entries"
+    },
+    "comparison_data_departments": {
+      "ht": "Depatman ki gen antre pou lòt pòs",
+      "en": "Departments with entries for other offices"
+    },
+    "comparison_data_communes": {
+      "ht": "Komin ki gen antre pou majistra",
+      "en": "Communes with mayoral entries"
+    },
+    "comparison_data_method": {
+      "ht": "Yon depatman konte yon sèl fwa, sou baz lokalite ki nan antre pou tout pòs apa prezidan. Yon komin konte yon sèl fwa si li gen omwen yon antre pou majistra anba kòd pati sa a; sa pa di ekip twa moun nan konplè. Yon zewo pa vle di kandida a pa gen sipò nan zòn nan. Tout antre yo preliminè.",
+      "en": "Each department is counted once using locality fields for all offices except president. A commune is counted once if it has at least one mayoral entry under that party code; this does not establish a complete three-person team. A zero does not mean the candidate lacks support there. All entries are preliminary."
+    },
+    "comparison_data_date": {
+      "ht": "Kopi revize: {date} · Kalkil Ayiti Sitwayen sou done CEP yo.",
+      "en": "Snapshot reviewed: {date} · Ayiti Sitwayen calculations from CEP data."
     }
   },
   "sources": {
@@ -1618,7 +1702,7 @@
         "en": "IFC: Oasis loan and Jerry Tardieu as chief executive, PDF page 14"
       },
       "note": {
-        "ht": "Rapò finansè a rele finansman an yon prè. Pwomès sou travay ak acha lokal pa yon kontwòl endepandan rezilta yo.",
+        "ht": "Rapò finansè a rele finansman an yon prè. Deklarasyon sou travay ak acha lokal pa yon kontwòl endepandan rezilta yo.",
         "en": "The financier describes a loan. Employment and local-sourcing claims are not an independent outcome audit."
       }
     },
@@ -1926,7 +2010,7 @@
         "en": "VBI identifies René St-Fort as a PRN leader"
       },
       "note": {
-        "ht": "Entèvyou sou aksè elektè ki deplase ak zòn lwen yo nan enskripsyon; li etabli wòl politik moun nan.",
+        "ht": "Entèvyou sou aksè nan enskripsyon pou elektè ki deplase ak moun k ap viv nan zòn lwen yo; li etabli wòl politik moun nan.",
         "en": "Interview on registration access for displaced and remote populations; establishes the speaker’s political role."
       }
     },
@@ -2334,6 +2418,34 @@
       "note": {
         "ht": "Kat paj rekonsilye a 21:42 UTC. Kalkil la sèvi ak chan sexe sous la: 30 M ak 2 F. Se enskripsyon preliminè, pa kandida ki deja apwouve oswa yon sondaj.",
         "en": "Four reconciled pages at 21:42 UTC. Calculation uses the source’s sexe field: 30 M and 2 F. Preliminary registrations, not approved candidates or polling."
+      }
+    },
+    "cep-presidents-33-20261115": {
+      "publisher": "Conseil Électoral Provisoire",
+      "url": "https://tableau.cephaiti.ht/",
+      "published_at": null,
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "KEP: 33 enskripsyon prezidansyèl nan lekti ta 15 Novanm nan",
+        "en": "CEP: 33 presidential registrations in the late November 15 reading"
+      },
+      "note": {
+        "ht": "Kat paj filtre pou prezidan epi yon koleksyon konplè pa pòs rive sou 33 non, ladan yo twa ak kòd F. Koleksyon an fini 16 Novanm a 04:16 UTC, sa vle di 15 Novanm a 11:16 nan aswè ann Ayiti. Done yo preliminè e yo ka chanje.",
+        "en": "Four pages filtered for president and a complete collection by office reconcile 33 names, including three coded F. Collection finished November 16 at 04:16 UTC, which is November 15 at 11:16 p.m. in Haiti. These are preliminary, changing records."
+      }
+    },
+    "reuters-martine-registration-20261115": {
+      "publisher": "Reuters / MarketScreener",
+      "url": "https://ca.marketscreener.com/news/widow-of-haiti-s-slain-leader-moise-to-contest-presidential-election-ce785ededf80f525",
+      "published_at": "2026-11-15",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Reuters: Martine Moïse enskri pou prezidan",
+        "en": "Reuters: Martine Moïse registers for president"
+      },
+      "note": {
+        "ht": "Harold Isaac idantifye ansyen Premyè dam nan kòm nouvo kandida nan lekti CEP a. Li di Martine Moïse poko fè kòmantè piblik sou enskripsyon an; pa pran yon ansyen deklarasyon kòm pwogram kanpay sa a.",
+        "en": "Harold Isaac identifies the former first lady as the new registrant in the CEP reading. He reports no public comment from her on registration; an earlier statement is not treated as this campaign’s programme."
       }
     }
   },
@@ -5144,7 +5256,8 @@
           },
           "sources": []
         }
-      ]
+      ],
+      "comparison": true
     },
     {
       "slug": "celestin-martelly-2010-runoff-verification-dispute",
@@ -5212,7 +5325,8 @@
           },
           "sources": []
         }
-      ]
+      ],
+      "comparison": true
     },
     {
       "slug": "hans-joseph-ulcc-drone-housing-million",
@@ -7723,7 +7837,8 @@
           },
           "sources": []
         }
-      ]
+      ],
+      "comparison": true
     },
     {
       "slug": "rene-st-fort-displaced-voters-registration-access",
@@ -8670,12 +8785,12 @@
       "published_at": "2026-11-15",
       "updated_at": "2026-11-15",
       "title": {
-        "ht": "Dupuy ak Savary: de non nan yon lis prezidansyèl 32 moun",
-        "en": "Dupuy and Savary: two names in a 32-person presidential list"
+        "ht": "Anvan antre Martine Moïse: Dupuy ak Savary nan lis 32 non an",
+        "en": "Before Martine Moïse’s entry: Dupuy and Savary in the 32-name list"
       },
       "description": {
-        "ht": "Kopi rejis la bay 2 enskripsyon ak kòd F sou 32. Sa mezire yon prezans nan pwosesis la, pa sipò elektoral ni yon rezilta final.",
-        "en": "The snapshot records two entries coded F among 32. That measures presence in the process, not electoral support or a final outcome."
+        "ht": "Premye lekti 15 Novanm nan te bay de kòd F sou 32. Pi ta, antre Martine Moïse fè lis la rive 33 non ak twa kòd F. Se de moman diferan nan yon rejis k ap chanje.",
+        "en": "The earlier November 15 reading had two entries coded F among 32. Martine Moïse’s later entry brought the list to 33, with three coded F. These are two points in a changing registry."
       },
       "paragraphs": [
         {
@@ -8713,6 +8828,16 @@
             "en": "Dupuy and Savary merit the same scrutiny as other candidates: experience, decisions, economic interests and programmes. Their presence should not reduce them to symbols. Meaningful choice requires access to competition and consistent scrutiny of everyone entering it."
           },
           "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Mizajou: nan lekti ta 15 Novanm nan, Martine Moïse parèt anba GAD. Kounye a nou verifye 33 enskripsyon, ladan yo twa ak kòd F. Chif 2 sou 32 ki anlè yo konsève premye moman nou te egzamine a; yo pa chif dènye lekti a.",
+            "en": "Update: in the late November 15 reading, Martine Moïse appears under GAD. We now verify 33 registrations, including three coded F. The two-of-32 figures above preserve the earlier reading; they are not the latest count."
+          },
+          "sources": [
+            "cep-presidents-33-20261115"
+          ]
         }
       ]
     },
@@ -9056,6 +9181,901 @@
           "text": {
             "ht": "Sa pa mande yon seri nòt nou envante pou deklare yon gayan. Li mande sous, repons klè ak espas pou moun verifye sa yo tande. Lè yon pati fin chwazi kandida li, travay pou konvenk ak prèv la fèk kòmanse. Pati a ka bay yon moun manda pou reprezante li; se devan piblik la moun nan dwe montre sa manda sa a vo.",
             "en": "That does not require invented scores declaring a winner. It requires sources, clear answers and room to verify claims. Nomination begins the work of making an evidence-based case. A party may authorize someone to represent it; the public must be able to assess what that mandate offers."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-vs-jean-ernst-muscadin",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60",
+        "c-260d6761d0c65693b074"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Emile ak Muscadin: plis polisye, men anba kontwòl kiyès?",
+        "en": "Etzer Emile vs Jean Ernest Muscadin: more police, accountable to whom?"
+      },
+      "description": {
+        "ht": "Youn prezante chif pou agrandi lapolis. Dosye lòt la kòm komisè gouvènman poze kesyon sou fason yo sèvi ak fòs piblik. Se de pati nan menm pwoblèm sekirite a.",
+        "en": "One offers police recruitment targets. The other has a prosecutorial record that raises questions about the use of force. Security requires examining both."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon wout san gang pa dwe tounen yon wout kote nenpòt moun ka pè ajan Leta. Konpare Etzer Emile ak Jean Ernest Muscadin mande pou nou gade de bagay ansanm: kapasite pou pwoteje moun ak kontwòl sou moun ki pote zam pou Leta.",
+            "en": "A road free of gangs should not become a road where anyone must fear state agents. Comparing Etzer Emile and Jean Ernest Muscadin means examining two things together: the capacity to protect people and control over those who carry weapons for the state."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pwogram Emile la pwopoze pase soti nan anviwon 13,000 polisye operasyonèl rive 26,000 an 2033. Li pwomèt akselere rekritman ak fòmasyon 1,000–2,000 polisye nan premye 100 jou yo. Li pale tou de verifikasyon rekrit yo, sanksyon pou abi ak yon enspeksyon ki pi solid. Chif depa a ak objektif yo soti nan kanpay la.",
+            "en": "Emile’s programme proposes increasing operational police from about 13,000 to 26,000 by 2033. It promises faster recruitment and training of 1,000–2,000 officers during the first 100 days, alongside recruit screening, sanctions for abuse and a stronger inspectorate. Both the baseline and targets come from the campaign."
+          },
+          "sources": [
+            "etzer-security"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Muscadin vini ak yon dosye kòm komisè gouvènman. Gen manifestan nan Miragwàn ki te prezante l kòm yon defansè kont gang an Novanm 2025. Men rapò BINUH pou Avril–Jen 2026 la site posib patisipasyon li nan omwen 76 egzekisyon san pwosè, ki dokimante pou 2022–2025. Rapò a di pa t gen pouswit jidisyè ki te kòmanse kont li pou sa.",
+            "en": "Muscadin brings a record as a prosecutor. Demonstrators in Miragoâne portrayed him as a defender against gangs in November 2025. But BINUH’s April–June 2026 report cites his possible involvement in at least 76 summary executions documented for 2022–2025, saying no judicial proceedings had begun against him for them."
+          },
+          "sources": [
+            "muscadin-support-2025",
+            "binuh-q2-muscadin"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "De dosye sa yo pa mezire menm bagay. Emile prezante yon plan; objektif sa yo poko rezilta. Rapò Nasyonzini an egzamine zak ki ta deja fèt; li pa yon kondanasyon penal. Nou pa gen yon menm mezi pou de kandida yo ki ta pèmèt nou di kiyès ki pwoteje plis moun.",
+            "en": "These records measure different things. Emile presents a plan; its targets are not results. The UN report examines alleged past conduct; it is not a criminal conviction. We do not have a common measure for both candidates that would establish who has protected more people."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa fè chwa a pi klè. Plis rekrit pa sifi si fòmasyon, salè ak sipèvizyon pa suiv. Repitasyon yon sèl moun pa montre kijan yon sistèm ap fonksyone nan tout peyi a. Toude bezwen esplike kiyès ki verifye idantite yon moun yo sispèk, kiyès ki egzamine yon abi ak kijan fanmi yon viktim jwenn jistis. Se la pwoteksyon ak rann kont rankontre.",
+            "en": "The practical distinction becomes clearer. More recruits are insufficient without training, pay and supervision. One individual’s reputation does not show how a nationwide system would function. Both need to explain who checks a suspect’s identity, who investigates abuse and how a victim’s family obtains justice. Protection and accountability meet at that point."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jerry-tardieu-vs-olivier-barrau",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a",
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jerry Tardieu ak Olivier Barrau: eksperyans biznis la dwe montre kiyès li sèvi",
+        "en": "Jerry Tardieu vs Olivier Barrau: business experience must show whom it serves"
+      },
+      "description": {
+        "ht": "Yon otèl ak yon konpayi asirans te resevwa finansman entènasyonal. Konpare dosye yo mande pou nou suiv lajan an rive sou moun li te sipoze ede yo.",
+        "en": "A hotel and an insurer received international financing. Comparing the records means following the money to the people it was intended to help."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Jere yon antrepriz ka prepare yon moun pou pran gwo desizyon. Men yon prezidan ap sèvi sitwayen ki pa aksyonè li. Dosye Jerry Tardieu ak Olivier Barrau pèmèt nou egzamine diferans sa a atravè de operasyon finansman ki dokimante.",
+            "en": "Running a business can prepare someone to make major decisions. A president, however, serves citizens who are not his shareholders. Jerry Tardieu’s and Olivier Barrau’s records allow us to examine that difference through two documented financing operations."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò anyèl IFC pou 2011 la idantifye Tardieu kòm direktè jeneral Oasis Hotel. Li dekri yon prè 7.5 milyon dola ameriken ki te ede atire 15 milyon dola anplis nan men envestisè. Se yon prè pou pwojè a, pa yon kado pèsonèl oswa yon kontribisyon elektoral.",
+            "en": "IFC’s 2011 annual report identifies Tardieu as Oasis Hotel’s chief executive. It describes a US$7.5 million loan that helped attract another US$15 million from investors. This was project lending, not a personal gift or an election contribution."
+          },
+          "sources": [
+            "ifc-oasis-loan-2011"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou AIC, rejis BID la montre yon prè 2 milyon dola ameriken, apwouve an Mas 2012, nan yon operasyon 8 milyon dola. Finansman prive sa a pa t gen garanti Leta. Objektif BID te bay la se te ede konpayi an elaji asirans pou moun ki gen ti revni apre tranblemanntè 2010 la. Rapò AIC pou 2022 la idantifye Barrau kòm direktè jeneral.",
+            "en": "For AIC, the IDB register shows a US$2 million loan approved in March 2012 within an US$8 million operation. The private-sector financing had no sovereign guarantee. The IDB described an aim of expanding insurance for lower-income people after the 2010 earthquake. AIC’s 2022 report identifies Barrau as chief executive."
+          },
+          "sources": [
+            "idb-aic-loan",
+            "idb-aic-purpose",
+            "aic-report-2022"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Gwosè prè yo pa yon klasman sou kiyès ki pi bon administratè. Pwojè yo, ane yo ak sèvis yo diferan. Pou otèl la, egzamen an bezwen travay ki te kreye, kondisyon travay ak acha nan men founisè lokal. Pou asirans lan, li bezwen pri kliyan peye, pwoteksyon yo resevwa ak dedomajman konpayi an peye. Objektif yon finansè pa ranplase rezilta sa yo.",
+            "en": "Loan size does not rank management ability. The projects, years and services differ. For the hotel, assessment needs jobs created, working conditions and local purchasing. For the insurer, it needs customer prices, coverage and claims paid. A financier’s stated purpose cannot substitute for those outcomes."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lòt egzamen an konsène pouvwa piblik: ki enterè finansye chak kandida toujou genyen, epi ki desizyon Leta li ta kite nan men lòt responsab pou evite enterè pèsonèl enfliyanse yo? Sous sa yo pa bay deklarasyon byen aktyèl konplè yo. Yo pa pwouve yon favè ilegal nonplis. Yo bay yon pwen depa pou mande prèv sou rezilta biznis la ak sou distans kandida a pral mete ant biznis li ak Leta.",
+            "en": "The other test concerns public power: what financial interests does each candidate retain, and which state decisions would he leave to others to prevent personal interests influencing them? These sources supply neither complete current asset declarations nor proof of an unlawful favour. They provide a starting point for examining business outcomes and the safeguards each candidate would place between business and government."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "michel-martelly-vs-jocelerme-privert",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a",
+        "c-cfa0ce450d335df39e36"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Martelly ak Privert: de ansyen prezidan, de kalite responsablite",
+        "en": "Michel Martelly vs Jocelerme Privert: two presidents, different accountability tests"
+      },
+      "description": {
+        "ht": "Pwomès lekòl Martelly a ak manda tranzisyon Privert la pa menm dosye. Konpare yo mande pou nou separe lajan, pouvwa ak dat limit.",
+        "en": "Martelly’s school promise and Privert’s transitional mandate are different records. Comparing them requires separating money, authority and deadlines."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon ansyen prezidan pa bezwen sèlman di sa li pral fè. Li dwe esplike sa li te fè ak pouvwa li te deja genyen. Michel Martelly ak Jocelerme Privert pase egzamen sa a nan de kondisyon diferan: yon pwogram yon prezidan te lanse ak yon manda pwovizwa pou soti nan yon blokaj elektoral.",
+            "en": "A former president must explain what he did with the power he already held, as well as what he promises next. Michel Martelly and Jocelerme Privert face that test in different circumstances: a programme launched by one president and a provisional mandate to resolve an electoral deadlock."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sou Martelly, BRH konfime yon frè 1.50 dola ameriken sou transfè lajan, ki antre an vigè 1 Jen 2011. Finansman lekòl te nan sant pwomès la. Pou 2011–2018, tab 59 nan rapò Kou Siperyè Kont la anrejistre anviwon 120 milyon dola kolekte atravè BRH, prèske 118 milyon transfere nan Trezò ak anviwon 2.37 milyon ki rete nan fen peryòd la.",
+            "en": "Under Martelly, the central bank confirms a US$1.50 transfer fee effective June 1, 2011. School funding was central to the promise. For 2011–2018, table 59 of the audit court’s report records about US$120 million collected through the central bank, nearly US$118 million transferred to the Treasury and about US$2.37 million remaining at the period’s end."
+          },
+          "sources": [
+            "brh-2011",
+            "court-2023-fees",
+            "cscca-2019-fne"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kont sa a pa vle di 2.37 milyon an disparèt. Li pa yon bilan pèsonèl Martelly nonplis: peryòd la depase prezidans li. Egzamen politik la se suiv lajan sa a jouk sou depans, lekòl ak timoun ki te benefisye yo. Yon transfè nan Trezò pa, poukont li, yon plas lekòl.",
+            "en": "That account does not mean US$2.37 million disappeared. Nor is it Martelly’s personal balance sheet: the period extends beyond his presidency. The political test is tracing receipts through expenditure to schools and children served. A Treasury transfer is not, by itself, a school place."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Privert te resevwa yon lòt kalite misyon. Asanble Nasyonal la eli l prezidan pwovizwa 14 Fevriye 2016, pou yon peryòd ki pa t dwe depase 120 jou. Rapò Nasyonzini an di manda a ekspire 14 Jen. Palman an pa t rive pran desizyon sou fason pouvwa egzekitif la ta kontinye. Plizyè enstitisyon te patisipe nan reta elektoral yo; se pa tout reta ki soti nan yon sèl desizyon Privert.",
+            "en": "Privert received a different mission. The National Assembly elected him provisional president on February 14, 2016, for no more than 120 days. The UN report says the term expired June 14 and Parliament failed to decide arrangements for continued executive governance. Several institutions contributed to electoral delays; not every delay came from a single Privert decision."
+          },
+          "sources": [
+            "un-transition-2016-march",
+            "un-transition-2016-august"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Konparezon an pa rezime ak «kiyès ki te kite plis lajan?». Martelly dwe rann kont sou chenn ki soti nan frè fanmi yo peye rive nan sèvis yo resevwa. Privert dwe rann kont sou pouvwa li te egzèse, dat limit li ak kontwòl li te aksepte. Ni yon pwomès sosyal ni yon misyon tranzisyon pa retire obligasyon pou montre rezilta ak respekte limit pouvwa.",
+            "en": "The comparison is not simply who left more money behind. Martelly’s test follows the chain from family fees to services received. Privert’s concerns the authority exercised, its deadline and the scrutiny he accepted. Neither a social promise nor a transitional mission removes the obligation to demonstrate results and respect limits on power."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "dominique-dupuy-vs-claude-joseph",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83",
+        "c-c9c792b353345247be19"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Dominique Dupuy ak Claude Joseph: apre pawòl diplomatik yo, ki pwoteksyon?",
+        "en": "Dominique Dupuy vs Claude Joseph: after diplomatic words, what protection?"
+      },
+      "description": {
+        "ht": "De ansyen chèf diplomasi gen dosye diferan devan menm fwontyè a. Yon pozisyon piblik pa sifi pou mezire sa ki chanje pou sitwayen yo.",
+        "en": "The former foreign ministers bring different records at the same border. A public stance alone does not measure what changed for citizens."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon fanmi ki fè fas ak depòtasyon, diplomasi pa yon diskou byen di sèlman. Li dwe ede moun jwenn pwoteksyon ak repons. Se nan distans ant pozisyon piblik ak rezilta sa yo konparezon Dominique Dupuy ak Claude Joseph la vin itil.",
+            "en": "For a family facing deportation, diplomacy is more than a strongly worded speech. It should help people obtain protection and answers. The distance between a public stance and those results makes a comparison of Dominique Dupuy and Claude Joseph useful."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon kominike 8 Oktòb 2024, prezidans Ayiti bay chif ONM: 5,323 moun rapatriye ant 4 ak 7 Oktòb, ladan yo 140 timoun. Konsèy Prezidansyèl la te bay Dupuy, ki te minis Afè Etranjè, misyon diplomatik pou defann dwa ak diyite moun sa yo. Sa dokimante responsablite yo te konfye l, men li pa bay tout rezilta demach li yo.",
+            "en": "An October 8, 2024 Haitian presidency communiqué gives ONM’s count of 5,323 people repatriated between October 4 and 7, including 140 children. The Presidential Council assigned Foreign Minister Dupuy diplomatic work to defend their rights and dignity. This documents her assignment, but not all its outcomes."
+          },
+          "sources": [
+            "dupuy-deportation-response-2024"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Joseph, yon lòt epizòd te mete relasyon ak Repiblik Dominikèn devan piblik la. Selon AP, yon enstriksyon 7 Septanm 2022 te entèdi l antre nan peyi a. Li te rele mezi a yon onè epi li te defann pozisyon li kont rasis. Se te yon desizyon sou antre nan yon teritwa; sous la pa bay yon kondanasyon penal kont li.",
+            "en": "For Joseph, another episode brought Dominican relations into public view. AP reported that a September 7, 2022 instruction barred his entry. He called the measure an honour and defended his stance against racism. This was an entry decision; the source supplies no criminal conviction against him."
+          },
+          "sources": [
+            "claude-joseph-dominican-ban-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa ka mete de epizòd sa yo sou yon menm echèl rezilta. Dupuy te resevwa yon travay kòm minis an 2024; entèdiksyon Joseph la te vize yon ansyen minis an 2022. Sa yon lòt Leta deside sou yon kandida pa di, poukont li, kijan kandida a ta jere relasyon ant de peyi yo sou kesyon fwontyè a.",
+            "en": "The episodes cannot be placed on a single results scale. Dupuy received an assignment as minister in 2024; Joseph’s 2022 ban targeted a former minister. Another state’s decision about a candidate does not, by itself, show how that candidate would manage border relations."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou chak kandida, yon dosye ki pi itil ta montre demann ki te fèt, repons ki te vini ak chanjman ki te verifyab: dokiman pou moun, asistans konsilè, pwoteksyon timoun ak tretman plent. Yon pozisyon fèm kapab enpòtan. Men pou yon moun ki rive sou fwontyè a san resous, kesyon an se kiyès ki ede l, ak ki mwayen. Se sou etap sa a toude dwe esplike pwogram yo.",
+            "en": "For each, a more useful record would show requests made, responses received and verifiable changes: documentation, consular help, child protection and complaint handling. A firm position can matter. For someone arriving at the border without resources, however, the question is who helps and with what means. Both candidates need to explain their programmes at that level."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jerry-tardieu-vs-gary-bodeau",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a",
+        "c-656331d267b75fc0aa53"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jerry Tardieu ak Gary Bodeau: kiyès ki te kontwole pòt Palman an?",
+        "en": "Jerry Tardieu vs Gary Bodeau: who controlled access in Parliament?"
+      },
+      "description": {
+        "ht": "Dosye 2019 la mete aksè ak dokiman devan nou. Sanksyon ameriken kont Bodeau a poze yon lòt kesyon sou enfliyans lajan, ki dwe rete byen separe.",
+        "en": "The 2019 record raises access to documents. U.S. sanctions against Bodeau raise a separate question about money and influence that must remain distinct."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nan Palman an, pouvwa pa nan kantite vòt sèlman. Li nan kapasite pou mete yon kesyon sou tab la ak bay aksè ak dokiman anvan yon desizyon. Dosye Jerry Tardieu ak Gary Bodeau nan deba 2019 sou mete Jovenel Moïse an akizasyon montre sa.",
+            "en": "Parliamentary power lies in more than vote totals. It also concerns putting an issue on the agenda and providing documents before a decision. Jerry Tardieu’s and Gary Bodeau’s records in the 2019 debate over impeaching Jovenel Moïse illustrate that."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Tardieu te mande Bodeau, ki te prezidan Chanm Depite a, pou rann dokiman yo te mande yo disponib. Rezo Nòdwès te rapòte sa Tardieu te di sou yon angajman Bodeau te pran. Sa etabli demann Tardieu a; li pa pwouve Bodeau te detwi oswa fè espre kache yon dokiman presi.",
+            "en": "Tardieu asked Chamber president Bodeau to make requested documents available. Rezo Nòdwès reported Tardieu’s account of a commitment Bodeau had made. This establishes Tardieu’s demand; it does not prove Bodeau destroyed or deliberately concealed a particular document."
+          },
+          "sources": [
+            "tardieu-records-request-2019"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò Nasyonzini S/2019/805 anrejistre vòt 22 Out la: 53 kont, twa pou ak senk abstansyon. Depite opozisyon te konteste legalite vòt la poutèt prezans lan te pi ba pase kowòm 80 manm yo te site a. Chif kolektif sa yo pa di kijan Tardieu te vote pèsonèlman. Rejte mosyon an pa t yon jijman penal ki valide tout tranzaksyon PetroCaribe yo.",
+            "en": "UN report S/2019/805 records the August 22 vote: 53 against, three in favour and five abstentions. Opposition deputies challenged its legality because attendance fell below the 80-member quorum they invoked. These collective totals do not identify Tardieu’s personal vote. Rejecting the motion was not a criminal judgment validating every PetroCaribe transaction."
+          },
+          "sources": [
+            "un-impeachment-vote-2019"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon dosye diferan vini apre: an Avril 2023, Trezò ameriken te sanksyone Bodeau sou baz akizasyon koripsyon nan vòt pou nominasyon an 2018 ak 2019. Bodeau te rejte akizasyon yo. Sa pa yon kondanasyon penal, epi sous yo pa konekte peman sa yo ak vòt sou mete Moïse an akizasyon an. Melanje yo ta kreye yon lyen nou pa pwouve.",
+            "en": "A different record followed: in April 2023, the U.S. Treasury sanctioned Bodeau over alleged corruption in appointment votes in 2018 and 2019. Bodeau denied the allegations. This is not a criminal conviction, and the sources do not connect those payments to the impeachment vote. Merging the episodes would create an unproven link."
+          },
+          "sources": [
+            "treasury-bodeau-2023",
+            "bodeau-response-2023"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Diferans ki dokimante a se wòl yo: Tardieu te mande aksè; Bodeau te dirije biwo ki òganize travay Chanm lan. Pou premye a, egzamen an suiv demann lan ak sa li te fè apre. Pou dezyèm nan, li suiv règ aksè, desizyon biwo a ak repons li bay akizasyon finansye yo. Yon bon konparezon egzije tras chak zak, san bay youn yon vòt nou pa verifye oswa lòt la yon kondanasyon nou pa genyen.",
+            "en": "The documented difference concerns their roles: Tardieu sought access; Bodeau headed the bureau organizing Chamber business. For the first, scrutiny follows the request and his subsequent actions. For the second, it follows access rules, bureau decisions and his response to financial allegations. A useful comparison requires a record of each act, without assigning an unverified vote to one or an undocumented conviction to the other."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "clarens-renois-vs-maxo-joseph",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-a8679d21107058f5bc35",
+        "c-e0b68eca43eb5b8cb369"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Clarens Renois ak Maxo Joseph: yon antant legliz pa posede vòt pèsonn",
+        "en": "Clarens Renois vs Maxo Joseph: a church agreement does not own anyone’s vote"
+      },
+      "description": {
+        "ht": "Yo te patisipe nan menm demach politik an 2015. Dosye ki vin apre yo montre poukisa fòk nou date alyans yo epi separe rezo sipò ak dwa elektè a.",
+        "en": "They participated in the same political process in 2015. Later records show why alliances need dates and support networks must be distinguished from voters’ rights."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "De moun ka soti nan menm milye relijye san yo pa pwopoze menm direksyon pou peyi a. Pou Clarens Renois ak Maxo Joseph, yon negosyasyon 2015 bay yon lyen politik ki dokimante. Li pa bay yon pèmisyon pou nou prezante tout Pwotestan kòm yon sèl blòk elektoral.",
+            "en": "Two people can come from the same religious milieu without proposing the same direction for the country. For Clarens Renois and Maxo Joseph, a 2015 negotiation supplies a documented political connection. It does not permit treating all Protestants as one electoral bloc."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Selon rapò Rezo Nòdwès pou Septanm 2015, yon komite fasilitasyon pastè Gérald Bataille te dirije te chwazi Renois apre negosyasyon ant sèt kandida. Maxo Joseph te patisipe nan antant lan. Yon premye etap te kenbe twa non anvan dènye chwa a tonbe sou Renois.",
+            "en": "According to Rezo Nòdwès’s September 2015 report, a facilitation committee headed by pastor Gérald Bataille selected Renois after negotiations among seven candidates. Maxo Joseph participated in the agreement. An initial stage retained three names before the final choice went to Renois."
+          },
+          "sources": [
+            "renois-protestant-choice-2015"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Sa montre yon efò lidè te fè pou rasanble kandidati. Li pa montre chak legliz oswa chak fidèl te patisipe. Li pa etabli tout lòt kandida yo te retire non yo sou bilten an nonplis. Siyen yon antant, bay sipò ak retire yon kandidati se twa zak diferan.",
+            "en": "That shows an effort by leaders to consolidate candidacies. It does not show every church or believer participated, or establish that all other candidates removed their names from the ballot. Signing an agreement, endorsing someone and withdrawing a candidacy are different acts."
+          },
+          "sources": [
+            "renois-protestant-choice-2015"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon dosye ki vin apre mete Renois nan yon lòt wòl: siyati li parèt sou pak politik Avril 2024 la pou Kolektif Pati Politik 30 Janvye 2023 a. Reprezantan kolektif la nan Konsèy Prezidansyèl la se te Edgard Leblanc Fils, pa Renois. Siyati a pa fè Renois responsab otomatikman pou chak desizyon konsèy la; li pèmèt egzamine angajman politik li te soutni yo.",
+            "en": "A later record places Renois in another role: his signature appears on the April 2024 political pact for the Collective of Political Parties of January 30, 2023. Its council representative was Edgard Leblanc Fils, not Renois. The signature does not automatically make Renois responsible for every council decision; it allows scrutiny of the political commitments he supported."
+          },
+          "sources": [
+            "transition-pact-april-2024"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Rejis CEP nou te verifye a mete Renois anba UNIR AYITI INI ak Maxo Joseph anba RCH. Antant 2015 la pa sifi pou deklare yo toujou alye. Sous nou egzamine yo pa bay yon pak tranzisyon ki menm jan pou Maxo; sa pa pwouve li pa t gen okenn relasyon politik ak tranzisyon an.",
+            "en": "The checked CEP registry records Renois under UNIR AYITI INI and Maxo Joseph under RCH. The 2015 agreement does not establish a continuing alliance. Our reviewed sources supply no equivalent transition pact for Maxo; that does not prove he had no political relationship with the transition."
+          },
+          "sources": [
+            "cep-20261114"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Konpare yo jodi a mande pou chak moun bay pwòp pwogram li, finansman li ak angajman li. Yon rezo ka ede yon kandida pale ak elektè. Li pa dwe sèvi kòm prèv elektè yo deja bay konsantman yo. Vòt la rete pou sitwayen an, menm lè yon lidè relijye fè yon chwa.",
+            "en": "Comparing them today requires each person’s programme, financing and commitments. A network can help a candidate reach voters. It cannot serve as evidence that voters have already consented. The vote belongs to the citizen, even when a religious leader makes a choice."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "etzer-emile-vs-moise-durocher",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60",
+        "c-6f201415a1ea54e1984a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Emile ak Moïse Durocher: kiyès ki konte sa kòm yon travay?",
+        "en": "Etzer Emile vs Moïse Durocher: what counts as a job?"
+      },
+      "description": {
+        "ht": "Prè pou yon ti biznis, yon djòb tanporè ak yon travay ki dire pa menm rezilta. Chif kanpay yo bezwen menm definisyon an anvan nou konpare yo.",
+        "en": "A small-business loan, temporary employment and a lasting job are different outcomes. Campaign totals need common definitions before comparison."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon jèn moun bezwen konnen si travay la ap peye l regilyèman, pa sèlman si non li antre nan yon estatistik. Pwopozisyon Etzer Emile ak Moïse Durocher sou travay montre kijan gwo chif ka kache diferans sa a.",
+            "en": "A young person needs to know whether work will provide regular pay, not simply whether their name enters a statistic. Etzer Emile’s and Moïse Durocher’s employment proposals show how large numbers can obscure that distinction."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Paj travay kanpay Emile la pwopoze 5,000 pwojè ki resevwa prè san enterè, yon milyon goud pou chak, ak yon fon garanti. Li mete mezi sa a nan premye 100 jou yo. Li bay tou objektif 50,000 djòb tanporè nan travay piblik ak 300,000 travay fòmèl an 2033.",
+            "en": "Emile’s campaign jobs page proposes interest-free loans of one million gourdes each for 5,000 projects, alongside a guarantee fund. It places that measure within the first 100 days. It also sets targets of 50,000 temporary public-works jobs and 300,000 formal jobs by 2033."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon pwofil Durocher ki parèt 12 Novanm 2026 bay yon objektif 1,500,000 travay dirèk. Li konekte pwodiksyon ak fòmasyon nan syans lanmè, elvaj ak etid dlo ak ekosistèm. Sous sa a pa bay yon dat limit presi pou tout travay sa yo. Nou pa ka mete 2033 bò kote chif li a kòm si li te pwomèt dat sa a.",
+            "en": "A November 12, 2026 profile gives Durocher’s goal of 1,500,000 direct jobs, connecting production and training in marine science, animal production, and water and ecosystems. That source supplies no precise deadline for the full total. We cannot attach 2033 to his figure as though he promised that date."
+          },
+          "sources": [
+            "durocher-profile-jobs-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Diferans lan pa senpleman 1.5 milyon kont 300,000. Kalite travay yo ak delè yo poko sou menm baz. Pou Emile, miltipliye 5,000 prè pa yon milyon goud bay senk milya goud nan valè prè. Sa pa bay kantite moun pwojè yo ap anplwaye, ni tout depans Leta. Pou Durocher, kantite travay yo pa di konbyen ki sezonye oswa ki bay salè pandan tout ane a.",
+            "en": "The difference is not simply 1.5 million against 300,000. Job types and timeframes do not yet share a common basis. For Emile, 5,000 loans of one million gourdes equal five billion gourdes in loan value. That does not establish employment created or total state expenditure. For Durocher, the job total does not show how much work would be seasonal or provide year-round wages."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon konparezon serye bezwen menm tablo pou toude: nouvo pozisyon ki peye, patwon ki pral anboche, dire travay, fòmasyon, pri ak sous lajan. Fòk yo separe travay ki deja egziste ak travay yo kreye. Sinon, yon kanpay ka konte yon moun ki resevwa fòmasyon kòm yon travayè anvan moun sa a janm resevwa yon salè.",
+            "en": "A sound comparison needs the same table from both: new paid positions, employers hiring, duration, training, cost and funding. Existing work must be separated from employment created. Otherwise a campaign can count a trainee as an employed person before that person has received a wage."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "etzer-emile-vs-munir-mourra",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60",
+        "c-c95770456abb5c95962b"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Etzer Emile ak Munir Mourra: double polisye pa menm ak double bidjè",
+        "en": "Etzer Emile vs Munir Mourra: doubling police is not doubling budgets"
+      },
+      "description": {
+        "ht": "De pwopozisyon sekirite sèvi ak lide double a. Youn konte moun; lòt la konte lajan. Rezilta pou sitwayen an bezwen plis pase de chif sa yo.",
+        "en": "Two security proposals use doubling. One counts people; the other counts money. The outcome for citizens requires more than those figures."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon moun k ap tann èd apre yon atak bezwen yon ekip ki ka rive, mennen ankèt epi fè dosye a avanse nan lajistis. Pwomès Etzer Emile ak Munir Mourra mete resous devan nou, men yo konte resous sa yo yon fason diferan.",
+            "en": "Someone awaiting help after an attack needs a team that can respond, investigate and move a case through justice. Etzer Emile’s and Munir Mourra’s promises emphasize resources, but count those resources differently."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Emile pwopoze pase soti nan anviwon 13,000 polisye operasyonèl rive 26,000 an 2033. Pwogram li a pale de akselere rekritman ak fòmasyon 1,000–2,000 polisye nan premye 100 jou yo, ansanm ak verifikasyon rekrit yo ak sanksyon pou abi. Sa se objektif kanpay, pa polisye anplis nou deja verifye sou teren an.",
+            "en": "Emile proposes moving from about 13,000 operational police officers to 26,000 by 2033. His programme calls for faster recruitment and training of 1,000–2,000 officers in the first 100 days, alongside recruit screening and sanctions for abuse. These are campaign targets, not additional officers we have verified in service."
+          },
+          "sources": [
+            "etzer-security"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Manifès MPH la pwopoze ogmante bidjè lajistis, lapolis ak lame pa 100 pousan. Paj kandida pati a idantifye Munir Joseph Mourra kòm kandida ki pote manifès la. Ogmante yon montan pa 100 pousan double l. Men sa pa di konbyen lajan ki pral nan chak enstitisyon san bidjè depa a.",
+            "en": "The MPH manifesto proposes increasing justice, police and army budgets by 100 percent. The party’s candidate page identifies Munir Joseph Mourra as the candidate carrying it. Increasing an amount by 100 percent doubles it. Without the starting budgets, however, it does not establish the amount going to each institution."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "mph-candidate-mourra"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Double anplwaye ak double lajan pa menm mezi. Rekrit ka ranplase polisye ki kite sèvis la. Yon bidjè ka grandi pandan gaz ak ekipman vin pi chè. Lajan ki otorize nan yon bidjè ka pa janm depanse. Se poutèt sa nou pa ka bay youn pi bon nòt sekirite sou baz mo «double» a.",
+            "en": "Doubling staff and doubling money are different measures. Recruits can replace departing officers. A budget can grow while fuel and equipment become more expensive. Authorized funds may never be spent. The word “double” therefore cannot establish a superior security score for either candidate."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Emile bezwen montre pri fòmasyon, kantite ajan ki fini fòmasyon ak kantite ki rete nan sèvis. MPH bezwen montre ane referans, montan yo ak fason lajan an separe ant salè, operasyon, tribinal ak prizon. Pou toude, egzamen ki mare yo ansanm se sèvis: tan repons, bon jan ankèt, pwoteksyon kont abi ak dosye ki rive devan yon jij. Se la resous yo dwe bay rezilta.",
+            "en": "Emile needs to show training costs, graduates and retention. MPH needs the baseline year, amounts and allocations among pay, operations, courts and prisons. Both face a common service test: response time, sound investigations, protection from abuse and cases reaching a judge. That is where resources must produce results."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jacky-lumarque-vs-rene-st-fort",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-8cc27cd6c9bb5f41a143",
+        "c-7308041793ef5e32b5ff"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Jacky Lumarque ak René St-Fort: soti nan leson an rive nan lavi elèv la",
+        "en": "Jacky Lumarque vs René St-Fort: from the lesson to a student’s life"
+      },
+      "description": {
+        "ht": "Eksperyans nan fòmasyon ak pwopozisyon sou kondisyon pwofesè yo antre nan de bout menm chenn lan. Fòk nou gade aksè, aprantisaj ak sa ki vini apre.",
+        "en": "Training experience and proposals on teachers’ conditions address different parts of the same chain. Access, learning and what follows all need examination."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon lekòl ka ouvè pòt li san chak timoun aprann. Yon sant ka bay diplòm san chak jèn jwenn travay. Konpare Jacky Lumarque ak René St-Fort mande pou nou separe non enstitisyon yo ak rezilta pou moun ki pase ladan yo.",
+            "en": "A school can open without every child learning. A centre can issue certificates without every young person finding work. Comparing Jacky Lumarque and René St-Fort requires separating institutional names from outcomes for the people attending."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Biyografi Université Quisqueya bay la plase Lumarque kòm direktè adjwen INFP an 1984, apre sa direktè jeneral an 1987. Li di li rektè inivèsite a depi 2007. Se yon dosye responsablite nan fòmasyon pwofesyonèl Leta ak nan yon inivèsite prive. Biyografi enstitisyon li dirije a pa yon evalyasyon endepandan sou rezilta travay li.",
+            "en": "Université Quisqueya’s biography places Lumarque as INFP deputy director in 1984 and director-general in 1987, and says he has been the university’s rector since 2007. This records responsibilities in state vocational training and a private university. His institution’s biography is not an independent evaluation of his performance."
+          },
+          "sources": [
+            "lumarque-career"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan entèvyou Vant Bèf Info te pibliye 15 Me 2026, St-Fort mande pwogram lekòl komen ak pi bon kalite ansèyman. Li denonse salè pwofesè ki ensifizan e ki pa regilye. Li se avoka, pwofesè ak yon lidè PRN. Entèvyou sa a etabli lide li defann yo; li pa bay yon bidjè oswa yon kalandriye pou mete yo an pratik.",
+            "en": "In Vant Bèf Info’s May 15, 2026 interview, St-Fort calls for common curricula and improved teaching quality, criticizing insufficient and irregular teacher pay. He is a lawyer, teacher and PRN leader. The interview establishes the ideas he defended, but supplies no implementation budget or timetable."
+          },
+          "sources": [
+            "stfort-teachers-2026",
+            "stfort-prn-registration-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa yo pa de politik ki oblije opoze. Yon sistèm bezwen ansèyman debaz ak bon jan fòmasyon apre sa. Men gen de egzamen diferan: Lumarque ka montre kantite moun ki antre, fini epi jwenn travay nan domèn yo te aprann lan. St-Fort bezwen montre kijan Leta peye pwofesè, distribye materyèl epi swiv jou ansèyman ak pwogrè elèv.",
+            "en": "These approaches need not be opposed. A system needs basic education and sound training afterward. But there are different tests: Lumarque can show entrants, completions and subsequent work in the trained field. St-Fort needs to explain reliable teacher pay, materials and tracking of teaching days and student progress."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kesyon ki mare yo se aksè. Kiyès ki peye, e kisa ki rive yon fanmi ki pa gen mwayen? Eksperyans nan yon gwo enstitisyon pa reponn sa poukont li. Yon pwogram komen pa fè tout lekòl jwenn menm resous. Konparezon an vin itil lè chak kandida konekte lide li ak kantite elèv li ka sèvi, pri sèvis la ak yon fason pou verifye rezilta yo.",
+            "en": "Access connects the two. Who pays, and what happens to a family that cannot afford it? Experience in a prominent institution does not answer that by itself. A common curriculum does not give every school equal resources. The comparison becomes useful when each candidate connects his approach to students served, cost and a way to verify results."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "hans-joseph-vs-lucmanne-delille",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-20a19b185cd2557e8e12",
+        "c-89917a3266b65e969c3d"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Hans Joseph ak Lucmanne Delille: ankèt la bezwen rive devan yon jij",
+        "en": "Hans Joseph vs Lucmanne Delille: an investigation must reach a judge"
+      },
+      "description": {
+        "ht": "Yon ansyen chèf ULCC ak yon ansyen minis Jistis gen responsablite ki diferan. Dosye yo fè nou gade tout chimen lajistis la, pa sèlman anons yon ankèt.",
+        "en": "A former ULCC head and a former justice minister held different responsibilities. Their records direct attention to the full justice process, beyond an investigation’s announcement."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon dosye ka fè gwo bri lè li anonse, epi pèsonn pa konnen sa li tounen. Se pwoblèm sa a ki bay yon pwen depa pou konpare Hans Joseph, ansyen chèf ULCC, ak Lucmanne Delille, ansyen minis Jistis. Yo pa t nan menm pòs; fòk nou suiv travay chak enstitisyon.",
+            "en": "A case can make headlines when announced, then become impossible to follow. That problem provides a starting point for comparing former ULCC head Hans Joseph and former justice minister Lucmanne Delille. They held different posts; each institution’s work needs tracing."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan etid 2025 li a, Ensemble Contre la Corruption te suiv 166 dosye ULCC ak UCREF te voye nan lajistis ant 2005 ak 2024. Li te jwenn enfòmasyon sou 95, men li pa t rive retrase 71. Nan total la, 96 soti nan ULCC ak 70 nan UCREF. Se pa 166 dosye Hans Joseph te dirije pèsonèlman: peryòd la kouvri prèske 20 ane ak de enstitisyon.",
+            "en": "In its 2025 study, Ensemble Contre la Corruption traced 166 referrals from ULCC and UCREF during 2005–2024. It located information on 95 but could not trace 71. Of the total, 96 came from ULCC and 70 from UCREF. These are not 166 cases personally directed by Hans Joseph: the period spans almost 20 years and two institutions."
+          },
+          "sources": [
+            "ecc-justice-outcomes-2025"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon dokiman yon kowalisyon dwa moun te soumèt bay Nasyonzini an 2026 reprann rezilta etid la: kat jijman, ladan yo de kondanasyon. Yon dosye yo pa retrase pa prèv yon moun detwi l pou kache yon krim. Men sa montre poukisa konte ankèt pa sifi pou mezire rann kont.",
+            "en": "A human-rights coalition’s 2026 UN submission cites the study’s result: four judgments, including two convictions. An unlocated file is not proof that someone destroyed it to conceal a crime. It nevertheless shows why investigation totals cannot measure accountability on their own."
+          },
+          "sources": [
+            "ijdh-justice-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Delille, yon desizyon presi parèt nan dosye a: non li kòm minis Jistis sou arete 10 Mas 2020 ki rekonèt dwa polisye asosye ak òganize sendika anba kondisyon lalwa. Premye minis Joseph Jouthe te siyen l tou. Sa etabli patisipasyon Delille nan desizyon an, pa otè li poukont li ni yon rezilta nou mezire sou tout plent polisye yo.",
+            "en": "For Delille, a specific decision appears in the record: his name as justice minister on the March 10, 2020 order recognizing police officers’ right to associate and organize in unions under legal conditions. Prime Minister Joseph Jouthe also signed. This establishes Delille’s participation, not sole authorship or a measured outcome for all police grievances."
+          },
+          "sources": [
+            "delille-police-union-order-2020"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Diferans enstitisyonèl la enpòtan: ULCC mennen ankèt sou koripsyon; yon ministè Jistis gen lòt responsablite nan administrasyon sistèm nan. Ni direktè ni minis pa jij; yo pa dwe bay lòd pou fè kondane yon moun. Toude kandida bezwen esplike kijan yo ta ede suiv yon dosye, pwoteje endepandans moun k ap deside yo epi fè piblik la konnen sa ki rive li. Se chimen sa a ki ka fè yon anons tounen jistis.",
+            "en": "The institutional difference matters: ULCC investigates corruption; a justice ministry has other responsibilities in administering the system. Neither director nor minister is a judge; neither should order a conviction. Both candidates need to explain case tracking, protection for independent decision-making and public information on outcomes. That process can turn an announcement into justice."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "wilson-jeudy-vs-jude-celestin",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-0723179885b7514ab8ce",
+        "c-792c5ce25dbb58bfa7d9"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Wilson Jeudy ak Jude Célestin: travay piblik dwe pran moun li afekte yo an kont",
+        "en": "Wilson Jeudy vs Jude Célestin: public works must account for the people affected"
+      },
+      "description": {
+        "ht": "Degèpisman nan kan Delmas yo ak acha ekipman CNE yo se de dosye diferan. Yo bay de fason pou egzamine otorite, resous ak sèvis piblik.",
+        "en": "Delmas camp clearances and CNE equipment purchases are different records. They offer two ways to examine authority, resources and public service."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Netwaye yon espas oswa achte machin lou ka parèt kòm siy yon otorite k ap aji. Men efè sou moun ak tras depans yo fè pati rezilta a. Se de bout sa yo dosye Wilson Jeudy ak Jude Célestin pèmèt nou egzamine.",
+            "en": "Clearing an area or buying heavy machinery can look like decisive action. Effects on people and a traceable spending record are also part of the outcome. Wilson Jeudy’s and Jude Célestin’s records allow examination of those two aspects."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Amnesty International rapòte plis pase 300 fanmi te sibi ekspilsyon nan de kan Delmas an Me 2011, avèk destriksyon abri ak byen. Jeudy te majistra a. Haïti en Marche te defann responsablite majistra a pou sekirite epi kritike fason Leta santral ak lòt òganizasyon te jere deplasman moun yo.",
+            "en": "Amnesty International reports more than 300 families evicted from two Delmas camps in May 2011, with shelters and belongings destroyed. Jeudy was mayor. Haïti en Marche defended the mayor’s security responsibilities and criticized the central state’s and other organizations’ handling of displacement."
+          },
+          "sources": [
+            "jeudy-amnesty-2011",
+            "jeudy-hem-2011"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Òganizasyon legal BAI te anonse yon plent kont Jeudy. Sa pa yon kondanasyon; nan dosye nou egzamine yo, nou pa jwenn desizyon final sou plent sa a. Yon rezon sekirite pa di ki avi fanmi yo te resevwa, ki lòt kote yo te ka ale oswa ki posiblite yo te genyen pou konteste operasyon an.",
+            "en": "Legal organization BAI announced a complaint against Jeudy. That is not a conviction; the reviewed records supplied no final decision on that complaint. A security rationale does not establish what notice families received, where else they could go or how they could challenge the operation."
+          },
+          "sources": [
+            "jeudy-bai-2011"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Célestin, komisyon Sena sou PetroCaribe a te retounen sou acha ekipman CNE pandan li te dirije enstitisyon an. Rapò 2016 la pale de yon alokasyon 80 milyon dola ameriken epi li di komisyon an pa t jwenn yon envantè konplè. Yon antre nan tablo kontra yo montre 81 kamyon livre olye 100, avèk yon dediksyon 2,565,000 dola. Prezante 19 lòt yo kòm kamyon disparèt ta efase dediksyon tablo a anrejistre a.",
+            "en": "For Célestin, the Senate PetroCaribe commission revisited CNE equipment purchases during his leadership. Its 2016 report records an US$80 million allocation and says it lacked a complete inventory. One contract-table entry shows 81 trucks delivered instead of 100, with US$2,565,000 deducted. Calling the other 19 missing would erase the adjustment the table records."
+          },
+          "sources": [
+            "senate-petrocaribe-2016"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Ankèt palmantè sa a pa yon kondanasyon Célestin. Konparezon an pa fè de dosye yo menm. Li bay chak kandida yon egzamen presi: Jeudy dwe esplike pwosedi ak pwoteksyon pou moun operasyon minisipal afekte; Célestin dwe konekte kontra, peman ak machin ki egziste epi ki sèvi piblik la. Aksyon piblik merite jijman sou sèvis li bay ak limit li respekte, pa sou imaj fòs sèlman.",
+            "en": "The parliamentary inquiry is not a conviction of Célestin. This comparison does not equate the two records. It gives each candidate a specific test: Jeudy must explain procedures and protection for people affected by municipal operations; Célestin must connect contracts and payments to equipment that exists and serves the public. Public action warrants assessment through service delivered and limits respected, beyond an image of strength."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "savannah-savary-vs-olivier-barrau",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-044a28564a40545cb553",
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Savannah Savary ak Olivier Barrau: biznis fanmi an devan enterè piblik la",
+        "en": "Savannah Savary vs Olivier Barrau: family businesses and the public interest"
+      },
+      "description": {
+        "ht": "Istwa antrepriz yo esplike yon pati nan chemen kandida yo. Kesyon pou Leta a se sa yo kontwole jodi a ak règ yo aksepte pou demen.",
+        "en": "Their business histories explain part of their careers. The public question concerns what they control today and the safeguards they accept for tomorrow."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Eritye yon antrepriz pa yon fòt. Li pa yon garanti kapasite pou dirije yon peyi nonplis. Pou Savannah Savary ak Olivier Barrau, fanmi ak biznis antre nan dosye piblik la paske yo ka ede esplike enterè finansye moun ki mande pouvwa a.",
+            "en": "Inheriting a business is no offence. Nor does it guarantee an ability to govern. For Savannah Savary and Olivier Barrau, family and business belong in the public record where they help explain the financial interests of someone seeking power."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan entèvyou Haitian Times te pibliye an Oktòb 2026, Savary di li eritye Distillerie 1928 ak Habitation Robert, epi antrepriz yo anplwaye plis pase 100 moun. Sa se kont li bay, pa yon total anplwa nou verifye endepandamman. Li pa t bay detay finansye, poutèt li te pè tounen yon sib.",
+            "en": "In an October 2026 Haitian Times interview, Savary says she inherited Distillerie 1928 and Habitation Robert and that the businesses employ more than 100 people. That is her account, not an independently verified employment total. She declined financial details, citing fear of becoming a target."
+          },
+          "sources": [
+            "savary-ht-interview-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò anyèl AIC pou 2022 la di Barrau te reprann jesyon koutye asirans fanmi an apre etid li. Li idantifye Lucien Barrau kòm papa li epi li date kreyasyon AIC an Desanm 2001. Sa dokimante yon istwa biznis ak yon lyen fanmi; li pa bay yon envantè konplè sou byen li genyen jodi a.",
+            "en": "AIC’s 2022 annual report says Barrau took over management of the family insurance brokerage after his studies. It identifies Lucien Barrau as his father and dates AIC’s creation to December 2001. This documents business history and a family relationship; it supplies no complete inventory of his current assets."
+          },
+          "sources": [
+            "aic-report-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "De sous yo gen limit diferan. Pou Savary, nou gen pwòp deklarasyon li nan yon entèvyou. Pou Barrau, nou gen istwa konpayi an rakonte. Ni youn ni lòt pa yon odit pèsonèl endepandan. Nou pa ka sèvi ak kantite anplwaye youn oswa dat kreyasyon konpayi lòt la pou klase richès yo oswa efikasite yo.",
+            "en": "The sources have different limits. For Savary, there is her interview account. For Barrau, there is the company’s history. Neither is an independent personal financial audit. One candidate’s employment claim and the other company’s founding date cannot rank their wealth or effectiveness."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Egzamen ki komen an kòmanse ak desizyon Leta: kiyès ki ta jere antrepriz yo pandan manda a, e kiyès ki ta deside sou yon kontra oswa yon avantaj ki touche yo? Yon pwosedi ki anpeche enterè pèsonèl enfliyanse desizyon piblik pi itil pase lis fanmi san okenn wòl ki dokimante. Sous sa yo pa etabli yon kontra ilegal. Yo montre poukisa règ sou enterè finansye yo dwe vini anvan egzèsis pouvwa a.",
+            "en": "The common test starts with state decisions: who would manage the businesses during a term, and who would decide on a contract or benefit affecting them? A process preventing personal interests influencing public decisions is more useful than a list of relatives without documented roles. These sources establish no unlawful contract. They show why financial-interest safeguards should precede taking power."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "martine-moise-registration-33-presidential-candidates",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-7a166482a2bb5b41af62",
+        "c-85da87af028d528d8f83",
+        "c-044a28564a40545cb553"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Martine Moïse antre nan lis la: kounye a, 33 enskripsyon prezidansyèl",
+        "en": "Martine Moïse joins the list: 33 presidential registrations"
+      },
+      "description": {
+        "ht": "Twa fanm parèt nan lekti ta 15 Novanm nan. Yon enskripsyon ouvè yon dosye pou egzamine; li pa yon apwobasyon final oswa yon chif sou chans genyen.",
+        "en": "Three women appear in the late November 15 reading. Registration opens a record to examine; it is neither final approval nor a measure of election chances."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Martine Moïse antre nan rejis prezidansyèl CEP a anba GAD, sou non konplè Marie Etienne Martine Joseph Moise. Lekti nou fè ta 15 Novanm nan bay 33 enskripsyon. Reuters idantifye nouvo kandida a kòm ansyen Premyè dam nan, vèv Jovenel Moïse. Sa konekte non konplè rejis la ak non piblik moun nan, san envante yon lòt idantite.",
+            "en": "Martine Moïse appears in the CEP presidential registry under GAD, with the full name Marie Etienne Martine Joseph Moise. Our late November 15 reading records 33 registrations. Reuters identifies the new registrant as the former first lady and Jovenel Moïse’s widow. This connects the registry’s full name with her public name without inventing another identity."
+          },
+          "sources": [
+            "cep-presidents-33-20261115",
+            "reuters-martine-registration-20261115"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Gen yon chanjman nan chif la: anvan sa, nou te verifye 32 non, ladan yo Dominique Dupuy ak Savannah Savary kòm de enskripsyon ki pote kòd F. Avèk nouvo antre a, gen twa sou 33, sa vle di anviwon 9.1 pousan. Se kalkil prezans nan rejis la. Se pa rezilta yon sondaj, yon prediksyon vòt oswa yon konklizyon sou kota legal.",
+            "en": "The count has changed: an earlier check recorded 32 names, with Dominique Dupuy and Savannah Savary as the two entries coded F. The new entry makes three of 33, or about 9.1 percent. This measures registry presence. It is not a poll, a vote forecast or a finding about a legal quota."
+          },
+          "sources": [
+            "cep-presidents-33-20261115",
+            "cep-presidential-gender-snapshot-20261115"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Enskripsyon pa vle di CEP fin egzamine tout pyès oswa fin apwouve kandidati a. Non GAD nan rejis la pa bay finansman kanpay la, lis donatè oswa tout alyans li yo. Li montre estrikti ki anrejistre ansanm ak kandida a. Etap sa yo dwe rete separe pou elektè pa pran yon antre sou yon sit pou yon desizyon final.",
+            "en": "Registration does not mean the CEP has finished examining documents or approved the candidacy. GAD’s registry label supplies neither campaign financing, donors nor all alliances. It identifies the structure recorded with the candidate. These steps must stay separate so voters do not mistake a website entry for a final decision."
+          },
+          "sources": [
+            "cep-presidents-33-20261115"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon non anpil moun konnen pa ranplase yon pwogram. Pou egzamine nouvo kandidati a, fòk nou separe wòl li te genyen, desizyon ki dokimante ak angajman li pran kounye a. Deklarasyon byen, sous finansman, ekip ak mezi presi sou sekirite ak lavi chè ap pèmèt piblik la ale pi lwen pase repitasyon. Menm egzamen sa a dwe aplike pou chak lòt kandida.",
+            "en": "A familiar name does not replace a programme. Examining the candidacy requires separating her previous role, documented decisions and current commitments. Asset declarations, funding sources, personnel and specific measures on security and living costs would let the public move beyond reputation. The same scrutiny must apply to every other candidate."
           },
           "sources": []
         }

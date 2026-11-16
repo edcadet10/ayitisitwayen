@@ -5547,6 +5547,34 @@
       "web_bytes": 3550,
       "photograph_date": null,
       "reviewed_at": "2026-11-15"
+    },
+    {
+      "id": "c-7a166482a2bb5b41af62",
+      "name": "MARIE ETIENNE MARTINE JOSEPH MOISE",
+      "office": "president",
+      "party": "GAD",
+      "locality": [
+        "National"
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:Martine_Mo%C3%AFse_in_Lima.jpg",
+      "asset_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Martine_Mo%C3%AFse_in_Lima.jpg",
+      "credit": "Ministerio de Relaciones Exteriores (Perú) · CC BY-SA 2.0 · 2018",
+      "identity_context": "SourcecaptionidentifiesMartineMoïse,2018Lima;CEPfullregisterednamecorroboratedbyReutersreport15Nov2026.",
+      "source_sha256": "04a034c4689eca20db80decedde45727a1db39043e24ed72123acaf329684442",
+      "source_dimensions": [
+        1160,
+        1337
+      ],
+      "variants": [
+        {
+          "path": "/assets/candidates/martine-moise-lima-2018.jpg",
+          "width": 1160,
+          "height": 1337,
+          "bytes": 408180
+        }
+      ],
+      "modifications": "None. Original JPEG preserved.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/"
     }
   ]
 }
