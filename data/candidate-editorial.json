@@ -2825,6 +2825,20 @@
         "ht": "Rezime a separe estimasyon peryòd Septanm–Fevriye ak pwojeksyon Mas–Jen. Faz 3 oswa plis pa menm etikèt ak grangou katastwofik pou chak moun; baz analiz la se 11.2 milyon moun.",
         "en": "Snapshot separates the September–February estimate from the March–June projection. Phase 3 or above does not mean every person is in famine; the analysed population is 11.2 million."
       }
+    },
+    "neptune-court-judgment-2008": {
+      "publisher": "Inter-American Court of Human Rights",
+      "url": "https://jurisprudencia.corteidh.or.cr/vid/883974225/download/MsD3ypgiRNoY_7I0NsdERGhq1TwVZIk7cNdL63fZP62M=",
+      "published_at": "2008-05-06",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Neptune kont Ayiti: jijman 6 Me 2008, espesyalman paragraf 58–64 ak 75–84",
+        "en": "Neptune v Haiti: May 6, 2008 judgment, especially paragraphs 58–64 and 75–84"
+      },
+      "note": {
+        "ht": "Jijman kont Leta a site desizyon dapèl 13 Avril 2007 la, ak non Privert pami moun ki fè apèl. Rekou entènasyonal Neptune a pa yon akitman Privert; sitasyon an pa pèmèt idantifye kat lòt moun li pa nonmen nan lis eksepsyon an.",
+        "en": "Judgment against the State quotes the April 13, 2007 appeal decision and names Privert among appellants. Neptune’s international remedy is not Privert’s acquittal; the excerpt does not identify four unnamed people in the jurisdiction exception."
+      }
     }
   },
   "articles": [
@@ -14660,6 +14674,663 @@
           "text": {
             "ht": "Pou pwochen manda a, yon bon angajman ta esplike dat limit, moun ki kontwole yo ak etap ki swiv si kalandriye a echwe. Lidè ki deja viv pwovizwa a gen yon eksperyans espesyal pou esplike kijan li pap tounen yon abitid san fen.",
             "en": "For a future term, a useful commitment would explain deadlines, oversight and what happens if the timetable fails. Leaders who experienced temporary authority have particular experience to explain how it need not become an endless habit."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jocelerme-privert-neptune-2007-appeal-court-record",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-cfa0ce450d335df39e36"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Privert ak dosye Neptune a: yon lòt etap an 2007",
+        "en": "Privert and the Neptune record: another step in 2007"
+      },
+      "description": {
+        "ht": "Jijman entèameriken an site yon desizyon apre liberasyon 2006 la. Sa li di sou konpetans tribinal pa yon vèdik kolektif.",
+        "en": "The inter-American judgment quotes a decision after the 2006 release. Its jurisdiction discussion is not a collective verdict."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Dosye Lasiri a pa fini nan yon sèl paj liberasyon. Yon tras ki pi ta parèt nan yon lòt tribinal: jijman 2008 nan zafè Yvon Neptune kont Leta ayisyen. Li ede wè poukisa fòk nou separe moun ki fè apèl, moun jijman an pwoteje ak kesyon li tranche.",
+            "en": "The La Scierie record does not stop at one release page. A later trail appears in another court: the 2008 Yvon Neptune v Haiti judgment. It shows why appellants, beneficiaries and issues decided must be separated."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Paragraf 58 ak nòt 86 site desizyon Lakou dapèl Gonayiv 13 Avril 2007 la. Privert parèt pami moun ki fè apèl. Sitasyon an separe kesyon konpetans pou Neptune ak kat lòt moun, epi rekòmansman enstriksyon pou lòt akize yo. Li di Lakou a tann anvan li tranche sou fon.",
+            "en": "Paragraph 58 and footnote 86 quote the Gonaïves appeal decision of April 13, 2007. Privert is named among appellants. The excerpt separates jurisdiction concerning Neptune and four others from renewed investigation concerning other defendants, while reserving the merits."
+          },
+          "sources": [
+            "neptune-court-judgment-2008"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Kat lòt non yo pa nan pasaj la. Nou pa kapab mete Privert nan yon kategori pasaj la pa idantifye pou li. Nou pa gen kopi konplè desizyon 2007 la isit la; se sitasyon li nan jijman entènasyonal la nou egzamine.",
+            "en": "The four other names are absent from that passage. We cannot assign Privert to a category it does not identify for him. We examine the quotation in the international judgment, not a complete copy of the 2007 decision."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan paragraf 75–84, Lakou entèameriken an egzamine ensètitid legal Neptune ak mank aksè li devan yon tribinal konpetan. Desizyon an konsène vyolasyon dwa pa Leta a. Li pa yon pwosè penal ki akite Privert oswa kondane li pou Lasiri.",
+            "en": "In paragraphs 75–84, the inter-American court examines Neptune’s legal uncertainty and lack of access to a competent court. It addresses state rights violations, not a criminal trial acquitting or convicting Privert over La Scierie."
+          },
+          "sources": [
+            "neptune-court-judgment-2008"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa chanje fason pou li istwa a: yon dosye kapab gen yon desizyon reyèl sou dwa yon moun san li pa reponn tout kesyon sou zak yo te akize yo. Elektè a merite konnen toude bagay yo olye yon etikèt ki efase youn.",
+            "en": "That changes how the history should be read: a case can produce a real ruling on someone’s rights without answering every allegation about events. Voters deserve both facts rather than a label erasing either one."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-temporary-jobs-person-workdays-test",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile: konbyen tan 50,000 travay tanporè yo ta dire?",
+        "en": "Etzer Emile: how long would 50,000 temporary jobs last?"
+      },
+      "description": {
+        "ht": "Kantite moun ak kantite jou travay se de mezi. Yon egzanp senp montre poukisa dire a chanje pri ak valè pwomès la.",
+        "en": "People employed and days worked are different measures. A simple example shows why duration changes the promise’s cost and value."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Senkant mil moun ki jwenn travay se yon gwo chif. Men pou yon fanmi, kesyon ki swiv la rive vit: pandan konbyen jou? San repons sa a, nou pa konnen konbyen revni travay la ta pote ni konbyen li ta koute Leta a.",
+            "en": "Fifty thousand people finding work is a large figure. For a household, the next question comes quickly: for how many days? Without duration, neither household income nor the state’s wage cost can be assessed."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Paj travay Etzer Emile la pwopoze 50,000 travay tanporè nan travay piblik. Sa diferan ak objektif li pou 300,000 travay fòmèl pou 2033. Nou pa konte menm moun de fwa oswa pretann travay tanporè a se deja yon salè ki dire plizyè ane.",
+            "en": "Etzer Emile’s jobs page proposes 50,000 temporary public-works jobs, separately from 300,000 formal jobs by 2033. We do not count people twice or treat temporary work as an established multiyear wage."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Men yon egzanp nou envante pou esplike kalkil la, pa yon delè kanpay la anonse: 50,000 moun ki travay 20 jou bay yon milyon jou travay. Si chak moun travay 60 jou, sa bay twa milyon. Menm kantite moun, twa fwa kantite jou ak depans salè si to a menm.",
+            "en": "Consider an illustration, not a campaign timetable: 50,000 people working 20 days produce one million person-workdays; 60 days produce three million. The headcount is unchanged, but workdays and wages triple at the same daily rate."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon dokiman PARSA Bank Mondyal rapòte 83,748 jou travay nan travay piblik li yo. Sa pa di konbyen moun inik ki te travay oswa konbyen djòb pèmanan ki te kreye. Egzanp sa a montre poukisa rapò sou travay dwe bay inite yo ak presizyon.",
+            "en": "A World Bank PARSA paper reports 83,748 public-works person-workdays. That does not establish unique workers or permanent jobs. It illustrates why employment reporting needs precise units."
+          },
+          "sources": [
+            "wb-food-af2-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon angajman ki kapab mezire ta bay kantite moun, jou pou chak moun, salè, lè peman ak travay ki dwe rete apre chantye a. Lè sa a, fanmi an ka evalye sa li jwenn, epi piblik la ka konpare depans ak sèvis ki fèt.",
+            "en": "A measurable commitment would state workers, days per worker, wages, payment dates and the asset left after construction. Households could assess income while the public compares spending with delivered services."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "munir-mourra-agriculture-water-cistern-maintenance",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Munir Mourra: anvan yon nouvo sant, ki kote dlo a ye?",
+        "en": "Munir Mourra: before a new centre, where is the water?"
+      },
+      "description": {
+        "ht": "Yon dokiman sou sitèn fanmi montre kijan yon ti enfrastrikti mande antretyen, pataj ak verifikasyon sèvis tou.",
+        "en": "A family-cistern project shows why even small infrastructure needs maintenance, sharing rules and service checks."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon sant agrikòl kapab gen yon bèl bilding pandan jaden ki bò kote l manke dlo. Nan pwogram MPH Munir Mourra a, sant ak travay sou kanal yo dwe egzamine ansanm ak bezwen ki pi pre lakay pwodiktè a.",
+            "en": "An agricultural centre can have an impressive building while nearby fields lack water. In Munir Mourra’s MPH programme, centres and canal works deserve examination alongside needs closest to farmers’ homes."
+          },
+          "sources": [
+            "mph-manifesto-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon lòt pwogram deja pwopoze yon solisyon ki pi piti. Nan dokiman Jen 2026 PARSA a, Bank Mondyal dekri 95 sitèn fanmi anplis, chak ak yon kapasite yon ti jan mwens pase 20 mèt kib, pou sèvi senk fwaye vwazen. Se aktivite pwopoze, pa yon envantè sitèn nou verifye fin bati.",
+            "en": "Another programme proposes a smaller intervention. PARSA’s June 2026 paper describes 95 additional family cisterns, each holding just under 20 cubic metres and serving five neighbouring households. These are proposed activities, not cisterns we verified as completed."
+          },
+          "sources": [
+            "wb-food-af2-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Ven mèt kib egal 20,000 lit; kapasite yo dekri a yon ti jan pi piti pase sa. Men kapasite yon tank pa dlo ki disponib chak jou. Lapli, twati ki ranmase dlo, antretyen ak fason fanmi yo pataje rezèv la chanje sèvis la. Dokiman sa a pa yon tès dlo potab.",
+            "en": "Twenty cubic metres equals 20,000 litres; the described capacity is slightly lower. Tank capacity is not daily water availability. Rainfall, catchment roofs, maintenance and sharing change the service. This document is not a drinking-water quality test."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa di kandida a te pwopoze sitèn PARSA yo oswa li responsab aplikasyon yo. Yo bay yon egzanp konkrè pou egzamine pwomès agrikòl li: ki pwoblèm dlo yon envestisman rezoud, pou kiyès, epi pandan konbyen tan?",
+            "en": "We do not attribute PARSA’s cistern proposal or implementation to the candidate. It provides a concrete example for assessing his agricultural promises: whose water problem an investment solves, and for how long."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sant, kanal ak sitèn pa ranplase youn lòt otomatikman. Yon bon plan ta montre kote chak itil, kiyès ki okipe l ak kijan yon kominote fè repare li. Se sèvis dlo a ki gen valè pou jaden an, pa kantite bilding nan yon afich.",
+            "en": "Centres, canals and cisterns are not automatic substitutes. A useful plan would show where each belongs, who maintains it and how communities get repairs. Water service matters to fields more than buildings on a campaign poster."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "joanas-gue-school-meals-closures-local-market",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-bf5bb68eea8a5b819128"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Joanas Gué: lè lekòl fèmen, ki kote manje timoun nan pase?",
+        "en": "Joanas Gué: when school closes, what happens to the child’s meal?"
+      },
+      "description": {
+        "ht": "Achte lokal kapab soutni kiltivatè ak timoun. Fèmti lekòl montre poukisa kantite repa pa reponn tout kesyon sou aksè.",
+        "en": "Local buying can support farmers and children. School closures show why meal totals do not answer every access question."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè yon repa pase nan yon lekòl, li kapab soutni de fanmi: fanmi timoun k ap manje a ak fanmi kiltivatè ki vann manje a. Men si lekòl la fèmen, chenn sa a bezwen yon lòt chemen. Sa se yon detay esansyèl nan politik acha lokal.",
+            "en": "A school meal can support two households: the child’s and the farmer’s. But when school closes, that chain needs another route. This is an essential detail in local-purchasing policy."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Joanas Gué te defann acha lokal pou pwogram alimantè an 2010. Sa se yon pozisyon istorik ki merite konpare ak fason pwogram yo mache jodi a; li pa fè li otè tout pwogram repa lekòl ki vini apre.",
+            "en": "Joanas Gué advocated local purchasing for food programmes in 2010. That historical position deserves comparison with programmes operating today; it does not make him the author of every later school-feeding programme."
+          },
+          "sources": [
+            "gue-local-aid-2010"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Dokiman PARSA Jen 2026 la rapòte prèske 25 milyon repa, plis pase 157,900 timoun, ak acha manje lokal. Men li esplike tou kijan pri acha ak jou lekòl fèmen poutèt ensekirite kite lajan pou pwolonje aktivite yo. Yon ekonomi nan bidjè pa otomatikman yon repa timoun nan resevwa.",
+            "en": "The June 2026 PARSA paper reports nearly 25 million meals, over 157,900 children and local food purchases. It also explains how purchase prices and insecurity-related closures left funding to extend activities. A budget saving is not automatically a meal received."
+          },
+          "sources": [
+            "wb-food-af2-2026"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa pa prèv chak timoun te rete san manje chak jou lekòl fèmen. Dokiman an pa bay tout sa fanmi yo te manje lòt kote. Li fè yon kesyon vin vizib: kijan pou konsève pwoteksyon alimantè a lè pòt lekòl la pa kapab louvri?",
+            "en": "That does not establish that every child went without food on every closure day. The paper cannot describe every alternative household meal. It makes a question visible: how is food protection maintained when school doors cannot open?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou kandida Gué, yon repons ki itil ta konekte pwodiktè, depo, peman ak yon plan sèvis pandan kriz. Objektif la se pa blame yon ansyen minis pou tout fèmti aktyèl. Se fè eksperyans li bay yon repons sou fason yon politik rive jouk nan asyèt la.",
+            "en": "A useful answer from candidate Gué would connect producers, storage, payment and delivery during disruption. The aim is not to blame a former minister for every current closure, but to make his experience answer how policy reaches a plate."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-public-assets-inventory-before-campaign-credit",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-20a19b185cd2557e8e12",
+        "c-792c5ce25dbb58bfa7d9"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Opinyon: yon machin Leta dwe gen plis pase yon foto",
+        "en": "Opinion: a public machine needs more than a photograph"
+      },
+      "description": {
+        "ht": "Nou vle envantè ki konekte peman, ekipman ak sèvis. Sa pwoteje lajan piblik san kondane moun sou yon foto sèlman.",
+        "en": "We want inventories connecting payments, equipment and service. That protects public money without convicting anyone from a photograph."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè yon machin Leta parèt nan yon foto, nou konnen omwen te gen yon machin devan kamera a. Nou poko konnen kiyès ki posede li, si pri a kòrèk, oswa si li toujou ap travay. Nou kwè envantè yo dwe antre nan deba eleksyon an kòm yon kesyon sèvis.",
+            "en": "A photograph of a public machine establishes at least that a machine faced a camera. It does not establish ownership, fair pricing or continuing operation. We believe inventories belong in election debate as a service issue."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Ankèt sou CNE pandan peryòd Jude Célestin lan gen kesyon sou ekipman ak envantè. Yon dokiman ULCC sou travay enstitisyon Hans Joseph te dirije a dekri imaj dwòn ki pa t montre kay yo te anonse sou yon sit. Sa yo se dosye diferan; nou pa kole yo pou envante yon operasyon komen.",
+            "en": "The CNE record during Jude Célestin’s period raises equipment and inventory questions. An ULCC account from the institution Hans Joseph led describes drone images showing no announced houses on a site. These are different files, not evidence of a shared operation."
+          },
+          "sources": [
+            "senate-petrocaribe-2016",
+            "ulcc-oas-drone-2021"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Dokiman PARSA Jen 2026 la bay yon lòt rezon pratik: li rapòte yon envantè byen ki pa konplè ansanm ak feblès kontwòl. Sa pa yon akizasyon kont de kandida sa yo nan jesyon PARSA. Li montre enpòtans menm kalite zouti kontwòl nan yon lòt pwogram.",
+            "en": "PARSA’s June 2026 paper gives another practical reason: an incomplete asset inventory alongside control weaknesses. That is no accusation against these two candidates over PARSA management. It shows the relevance of the same control tool elsewhere."
+          },
+          "sources": [
+            "wb-food-af2-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nou ta mande yon fich pou chak gwo ekipman: idantifikasyon, dat acha, pri, kote li sèvi, responsab ak antretyen. Pou byen ki bezwen pwoteksyon, nivo enfòmasyon piblik la dwe evite mete sekirite an danje. Kontwòl pa egzije pibliye tout mouvman sansib.",
+            "en": "We would require an entry for major equipment: identification, purchase date, cost, service location, custodian and maintenance. Public detail should protect security where necessary. Accountability does not require publishing every sensitive movement."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè fich la rankontre ak yon verifikasyon sou teren, piblik la kapab swiv sa li peye. Yon absans nan rejis toujou mande ankèt; li pa otomatikman yon vòl. Men san yon rejis ki mache, yon peyi peye san li pa ka suiv sa li achte.",
+            "en": "Combined with physical checks, that entry lets people follow purchases. A missing record requires investigation rather than an automatic theft finding. Without functioning records, a country pays without being able to follow what it bought."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-women-registration-count-principal-positions",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83",
+        "c-044a28564a40545cb553"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Opinyon: konte fanm yo, men gade ki plas yo jwenn",
+        "en": "Opinion: count women, then examine the positions"
+      },
+      "description": {
+        "ht": "Yon pousantaj jeneral ka kache diferans ant pozisyon prensipal ak adjwen. Rann diferans lan vizib fè deba a pi jis.",
+        "en": "An overall percentage can hide principal–deputy differences. Making them visible gives the debate a fairer foundation."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nou kwè yon bon deba sou patisipasyon fanm dwe konte ni prezans ni pozisyon. Sa pa vle di yon pòs adjwen pa itil. Sa vle di yon sèl pousantaj ka fè moun pa wè diferans ki genyen nan plas pou moun dirije.",
+            "en": "We believe debate on women’s participation should count presence and position. Deputy roles matter. But one overall percentage can hide differences in access to principal leadership."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan 11,142 liy preliminè KEP nou analize nan kopi anreta 15 Novanm nan, 30.6% make F. Pou tout pozisyon majistra yo ansanm, se 35.7%. Pou pozisyon prensipal majistra yo sèlman, se 11.8%. Nou itilize chan F/M KEP la, pa devinèt dapre non oswa foto.",
+            "en": "In the late-November-15 snapshot of 11,142 preliminary CEP rows, 30.6% are coded F. Across all mayoral positions the share is 35.7%; among principal mayoral positions alone it is 11.8%. We use CEP’s F/M field, not guesses from names or photographs."
+          },
+          "sources": [
+            "cep-representation-calculation-20261115"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Sa yo pa rezilta eleksyon, kantite komin oswa yon jijman sou vyolasyon kota. Yo pa pwouve yon kandida prezidansyèl te chwazi chak non nan pati li. Kopye pousantaj la sou yon akizasyon konsa ta depase done yo.",
+            "en": "These are not election results, commune counts or a quota-violation ruling. They do not establish that a presidential candidate selected every party nominee. Turning the percentage into such an accusation would exceed the data."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Men done yo jistifye yon demann nou soutni: pati yo ta dwe esplike fason yo chwazi moun pou pozisyon prensipal, baryè pou aplike ak sipò yo bay kandida. Fanm pa bezwen sèlman parèt nan yon foto; yo dwe kapab egzamine règ ki ouvri oswa fèmen pòt yo.",
+            "en": "The data do justify a request we support: parties should explain principal-candidate selection, entry barriers and candidate support. Beyond appearing in photographs, women should be able to examine the rules opening or closing doors."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Dominique Dupuy ak Savannah Savary merite menm egzamen sou pwogram ak bilan ak lòt kandida yo. Patisipasyon yo pa fè done lokal yo disparèt, epi done lokal yo pa yon jijman sou valè pèsonèl yo. Se règ ak rezilta nou vle mete devan.",
+            "en": "Dominique Dupuy and Savannah Savary deserve the same scrutiny of programmes and records as other candidates. Their participation does not erase local patterns, and those patterns do not judge their personal worth. The focus should be rules and outcomes."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-health-clinic-referral-follow-patient",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b",
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Opinyon: yon konsiltasyon dwe gen yon chemen apre li",
+        "en": "Opinion: a consultation needs a route to follow"
+      },
+      "description": {
+        "ht": "Nou soutni yon mezi sante ki swiv swen an: kote pasyan ale apre premye konsiltasyon, sa li peye ak kiyès ki suiv li.",
+        "en": "We support following the care pathway: where patients go next, what they pay and who follows up."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon konsiltasyon gratis kapab yon soulajman. Men si doktè a mande yon tès fanmi an pa ka peye, swen an ka rete bloke. Nou kwè kanpay la dwe mezire chemen pasyan an, pa sèlman kantite konsiltasyon oswa pri pou antre nan yon pwogram.",
+            "en": "A free consultation can bring relief. But care can stall when a doctor requests a test the household cannot afford. We believe campaigns should measure a patient’s route through care, not only consultation totals or entry prices."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "MPH pwopoze klinik mobil ak modènizasyon sant lopital. AIC rapòte plis pase mwatye moun ki asire nan pòtfolyo maladi ak lanmò li a te peye omaksimòm dis dola ameriken pa mwa pandan 2021–2022. Sa yo se de kalite enfòmasyon: yon pwopozisyon sèvis ak yon endikatè konpayi ki gen dat.",
+            "en": "MPH proposes mobile clinics and hospital-centre modernization. AIC reported that over half its sickness/death portfolio’s insured people paid at most US$10 monthly in 2021–2022. These are different evidence: a service proposal and a dated company indicator."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "aic-health-premiums-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Ni pwomès klinik la ni pri kotizasyon an pa bay, poukont yo, tout sa yon pasyan bezwen konnen sou tès, medikaman, transpò ak frè ki rete pou li peye. Nou pa di tout bagay sa yo eskli; nou di de enfòmasyon sa yo pa sifi pou etabli tout pwoteksyon an.",
+            "en": "Neither the clinic promise nor premium alone establishes everything a patient needs to know about tests, medicine, transport and remaining charges. We do not say all are excluded; these two facts cannot establish complete protection."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nou ta mande chak plan montre yon egzanp pasyan ki klèman prezante kòm egzanp: premye vizit, tès, tretman, depans ak swivi. Pa envante yon temwayaj; mete kondisyon sèvis la sou papye. Yon fanmi ta kapab wè ki pòt ki louvri epi ki kote li bezwen lòt sipò.",
+            "en": "We would ask each plan to publish a clearly hypothetical patient example: first visit, tests, treatment, charges and follow-up. No invented testimony—just service terms on paper. A household could see where access exists and where further support is needed."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa pa bay yon sèl modèl monopòl sou bon sante. Li bay moun yon mezi ki senp: lè mwen antre nan swen, èske gen yon chemen reyèl pou rive jwenn tretman mwen bezwen an?",
+            "en": "That gives no single model a monopoly on good health policy. It offers a simple measure: once I enter care, is there a real path to the treatment I need?"
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "dominique-dupuy-vs-michelet-nestor",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83",
+        "c-07a633c73b3950999f76"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Dominique Dupuy ak Michelet Nestor: soti nan lèt rive nan pwoteksyon",
+        "en": "Dominique Dupuy vs Michelet Nestor: from a letter to protection"
+      },
+      "description": {
+        "ht": "Yon lèt kandida an 2015 ak yon misyon minis an 2024 mande egzamen sou otorite, swivi ak rezilta diferan.",
+        "en": "A candidate’s 2015 letter and a minister’s 2024 assignment call for different scrutiny of authority, follow-up and results."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè yon moun ap riske pèdi dwa li oswa yo fòse li travèse yon fwontyè, yon deklarasyon solid kapab konte. Men li pa menm bagay ak yon dokiman ki pwoteje moun nan oswa yon sèvis ki resevwa li. Dosye de kandida sa yo kòmanse nan plas diferan.",
+            "en": "A strong statement can matter when someone risks losing rights or being forced across a border. It is different from a protective document or a reception service. These candidates’ records begin from different positions."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan Jen 2015, biwo Michelet Nestor te pibliye yon lèt bay Danilo Medina ak direktè imigrasyon dominiken an pou mande kanpe ekspilsyon masiv ak yon chemen aksesib pou sitwayènte. Se yon demann politik; li pa bay moun rezidans oswa nasyonalite.",
+            "en": "In June 2015 Michelet Nestor’s office published a letter to Danilo Medina and the Dominican immigration director, seeking a halt to mass expulsions and an accessible citizenship path. It was a political demand, not a grant of residence or nationality."
+          },
+          "sources": [
+            "nestor-medina-letter-2015"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan Oktòb 2024, prezidans ayisyen an te bay Dominique Dupuy, kòm minis afè etranjè, misyon diplomatik pou defann dwa ak diyite moun yo te rapatriye. Kominike a site done ONM sou resepsyon. Li pa yon rapò final sou tout rezilta diplomasi li.",
+            "en": "In October 2024 Haiti’s presidency assigned Foreign Minister Dominique Dupuy diplomatic work protecting repatriated people’s rights and dignity. Its communiqué cites ONM reception figures, not final outcomes of all her diplomacy."
+          },
+          "sources": [
+            "dupuy-deportation-response-2024"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon kandida ki voye lèt pa gen tout otorite yon minis. Yon minis ayisyen pa kontwole tout desizyon yon lòt Leta nonplis. Se poutèt sa bon egzamen an separe sa chak te kapab fè, sa li te mande ak chanjman li kapab dokimante.",
+            "en": "A letter-writing candidate lacks a minister’s full authority. A Haitian minister does not control another state’s decisions either. Assessment should separate each person’s powers, requests and documented changes."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Gen orijin ayisyen pa di poukont li ki kote yon moun fèt oswa ki nasyonalite li genyen. Nou pa sèvi ak dokiman istorik sa yo kòm konsèy sou règ imigrasyon aktyèl. Nou sèvi avè yo pou mande yon politik ki suiv sitiyasyon moun, olye li mete tout moun nan menm sak.",
+            "en": "Haitian ancestry alone establishes neither birthplace nor citizenship. These historical records are not current immigration advice. They invite policy that follows individual circumstances instead of treating everyone as one category."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "olivier-barrau-vs-wilson-jeudy",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee",
+        "c-0723179885b7514ab8ce"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Olivier Barrau ak Wilson Jeudy: ki kalite lajan chif la mezire?",
+        "en": "Olivier Barrau vs Wilson Jeudy: what kind of money does the figure measure?"
+      },
+      "description": {
+        "ht": "Yon bilan konpayi ak yon deklarasyon sou kès minisipal pa de fason pou mezire fòtin pèsonèl kandida yo.",
+        "en": "A company balance sheet and a municipal cash statement are not two measures of the candidates’ personal wealth."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon gwo chif ka bay yon fo sans si nou pa di sa li mezire. Bilan yon konpayi montre byen ak obligasyon nan yon dat. Kès yon meri montre lajan ki disponib nan yon moman. Ni youn pa otomatikman lajan pèsonèl moun ki nan tèt la.",
+            "en": "A large figure misleads without a definition. A company balance sheet reports assets and obligations at a date; a municipality’s cash statement reports money available at a moment. Neither automatically describes its leader’s personal money."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Bilan AIC 2022 la rapòte apeprè 4.206 milya goud aktif ak 2.755 milya pasif. Sa konsène konpayi Olivier Barrau te dirije a. Li pa montre tout byen sa yo se byen kandida a oswa ki pati kapital li posede jodi a.",
+            "en": "AIC’s 2022 balance sheet reports approximately G4.206 billion in assets and G2.755 billion in liabilities. This concerns the company Olivier Barrau led, not proof that all those assets are his or his current ownership share."
+          },
+          "sources": [
+            "aic-balance-sheet-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Me 2016, Wilson Jeudy te di meri Delma te gen kat milyon goud nan kès ak yon mas salè ki depase 18 milyon goud pa mwa. Deklarasyon an montre yon tansyon lajan likid dapre li; li pa yon odit endepandan ki tabli tout aktif, dèt oswa rezon pwoblèm nan.",
+            "en": "In May 2016 Wilson Jeudy said Delmas municipality had G4 million in cash against monthly payroll exceeding G18 million. His statement describes liquidity pressure, not an independent audit establishing all assets, debts or causes."
+          },
+          "sources": [
+            "jeudy-delmas-cash-2016"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nou pa soustrè chif de dosye sa yo pou klase kandida yo. Ane, enstitisyon ak mezi yo diferan. Men yo louvri yon kesyon prezidansyèl komen: èske yon moun esplike diferans ant lajan ki disponib, byen li kontwole ak obligasyon li dwe peye?",
+            "en": "We do not subtract these figures to rank the candidates. Years, institutions and measures differ. They open a shared presidential question: can a leader explain available cash, controlled assets and obligations falling due?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon travayè, lajan likid nan jou peman an gen valè menm si yon enstitisyon posede gwo byen. Pou piblik la, dwa sou byen yo enpòtan menm si kès la ba. Bon kont fè toude vizib; yon sèl gwo chif pa kapab ranplase yo.",
+            "en": "For workers, cash on payday matters even when an institution owns substantial assets. For citizens, ownership matters even when cash is low. Good accounts make both visible; one impressive number cannot replace them."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "munir-mourra-vs-joanas-gue",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b",
+        "c-bf5bb68eea8a5b819128"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Munir Mourra ak Joanas Gué: kredi bezwen yon rekòt ki ka rive nan mache",
+        "en": "Munir Mourra vs Joanas Gué: credit needs a harvest that can reach a market"
+      },
+      "description": {
+        "ht": "Yon bank agrikòl pwopoze ak yon ansyen bilan kanal mete finansman, dlo ak antretyen nan menm kesyon politik la.",
+        "en": "A proposed agricultural bank and a past canal-repair account connect finance, water and maintenance in one policy question."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon prè kapab peye semans san li pa fè lapli tonbe. Yon kanal kapab pote dlo san kiltivatè a pa gen lajan pou plante. Konpare pwogram agrikòl mande wè si pyès yo rankontre, olye nou konte enstitisyon ak chantye apa.",
+            "en": "A loan can buy seed without bringing rain. A canal can bring water while a farmer lacks planting money. Agricultural comparison should examine whether the pieces connect rather than count institutions and construction separately."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "MPH Munir Mourra a pwopoze yon bank agrikòl, travay sou kanal ak distribisyon agrikòl. Dokiman an se yon pwogram pati, pa prèv bank la deja louvri oswa li deja rezoud risk rekòt la.",
+            "en": "Munir Mourra’s MPH proposes an agricultural bank, canal works and agricultural distribution. This is a party programme, not evidence of an already operating bank or resolved harvest risk."
+          },
+          "sources": [
+            "mph-manifesto-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon entèvyou rapòte an Janvye 2009, Joanas Gué te di fon ijans yo te pèmèt repare 115 sistèm irigasyon apre siklòn 2008 yo. Se kont ansyen minis la sou aksyon sa yo, pa yon verifikasyon nou fè sou chak sistèm. Li te kritike feblès kredi agrikòl la tou.",
+            "en": "In an interview reported in January 2009, Joanas Gué said emergency funds repaired 115 irrigation systems after the 2008 hurricanes. This is the former minister’s account, not our verification of each system. He also criticized limited agricultural lending."
+          },
+          "sources": [
+            "gue-agriculture-2009"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa fè de dosye yo itil ansanm: lajan an dwe rive anvan plante, dlo dwe disponib lè rekòt la bezwen li, epi moun dwe ka pase sou wout ki mennen nan mache yo. Kalandriye ranbousman dwe pran sezon an an konsiderasyon. Sa se prensip analiz nou, pa kondisyon nou verifye bank MPH la deja adopte.",
+            "en": "Together, the records expose connected needs: finance before planting, water when crops need it and usable routes to market. Repayment should fit the season. That is our assessment, not verified terms already adopted by MPH’s proposed bank."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Gué, swivi sou reparasyon yo ta montre leson eksperyans lan. Pou Mourra, yon premye pwojè ki gen pri ak règ ta montre kijan pwopozisyon an fonksyone. Ni yon chif istorik ni yon nouvo non bank pa sifi pou pwouve pwochen rekòt la ap pi an sekirite.",
+            "en": "For Gué, repair follow-up would demonstrate lessons from experience. For Mourra, a costed first project and lending rules would explain the proposal. Neither a historical total nor a new bank’s name proves the next harvest safer."
           },
           "sources": []
         }

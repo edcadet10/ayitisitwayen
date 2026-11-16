@@ -1,0 +1,26 @@
+{
+  "reviewed_at": "2026-11-16",
+  "distinct_articles": 10,
+  "distinct_comparisons": 3,
+  "articles": [
+    "jocelerme-privert-neptune-2007-appeal-court-record",
+    "etzer-emile-temporary-jobs-person-workdays-test",
+    "munir-mourra-agriculture-water-cistern-maintenance",
+    "joanas-gue-school-meals-closures-local-market",
+    "opinion-public-assets-inventory-before-campaign-credit",
+    "opinion-women-registration-count-principal-positions",
+    "opinion-health-clinic-referral-follow-patient",
+    "dominique-dupuy-vs-michelet-nestor",
+    "olivier-barrau-vs-wilson-jeudy",
+    "munir-mourra-vs-joanas-gue"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 98,
+  "required_applied": 3,
+  "optional_applied": 1,
+  "public_word_ceiling": 500,
+  "facts_review": "Records and contrasts checked against reviewed sources, including fresh primary material. Allegations, responses, proposals and verified arithmetic remain distinct; no invented ratings, current alliances or criminal convictions.",
+  "shared_fields_already_satisfied": [
+    "/sources/wb-food-af2-2026/title"
+  ]
+}
