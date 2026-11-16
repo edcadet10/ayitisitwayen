@@ -1,0 +1,22 @@
+{
+  "reviewed_at": "2026-11-16",
+  "distinct_articles": 6,
+  "distinct_comparisons": 4,
+  "articles": [
+    "etzer-emile-vs-rene-st-fort",
+    "etzer-emile-vs-joanas-gue",
+    "jean-ernest-muscadin-vs-munir-mourra",
+    "jerry-tardieu-vs-jude-celestin",
+    "martine-moise-dermalog-signature-influence-record",
+    "martine-moise-malaria-2020-goal-public-record"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 79,
+  "required_applied": 3,
+  "optional_applied": 1,
+  "public_word_ceiling": 500,
+  "facts_review": "Records and contrasts checked against reviewed sources, including fresh primary material. Allegations, responses, proposals and verified arithmetic remain distinct; no invented ratings, current alliances or criminal convictions.",
+  "english_only_optional_applied": 1,
+  "factual_arithmetic": "2025 MSPP raw HTML table: 10 department rows sum to 36465; GrandAnse 20687 plus Sud 12222, share 90.248 percent. Confirmed cases, not all infections or individual causation.",
+  "parent_currency_check": "Vehicle report uses dollar signs without a verified national qualifier; parent retained unspecified dollars in both languages, superseding the suggestion to copy US specificity from the English draft. CNE allocation remains explicitly US dollars as documented."
+}
