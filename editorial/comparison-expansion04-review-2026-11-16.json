@@ -1,0 +1,24 @@
+{
+  "reviewed_at": "2026-11-16",
+  "distinct_articles": 10,
+  "distinct_comparisons": 6,
+  "articles": [
+    "jovenel-moise-assassination-pandemic-loan-money-trail",
+    "etzer-emile-2033-industrial-jobs-hope-help-2028",
+    "joanas-gue-existing-food-security-project-inheritance",
+    "opinion-food-emergency-campaign-two-calendars",
+    "martine-moise-vs-jocelerme-privert",
+    "hans-joseph-vs-kely-bastien",
+    "walsonn-sanon-vs-michelet-nestor",
+    "etzer-emile-vs-jude-elie",
+    "munir-mourra-vs-jude-elie",
+    "claude-joseph-vs-jocelerme-privert"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 120,
+  "required_applied": 10,
+  "optional_applied": 1,
+  "public_word_ceiling": 500,
+  "facts_review": "Records and contrasts checked against reviewed sources, including fresh primary material. Allegations, responses, proposals and verified arithmetic remain distinct; no invented ratings, current alliances or criminal convictions.",
+  "parent_post_review_language_fix": "Definite article an after ameriken in grant paragraph; currency and meaning preserved."
+}

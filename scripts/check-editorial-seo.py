@@ -109,6 +109,10 @@ def audit():
             assert item['datePublished'] in p.dates and item['dateModified'] in p.dates,(route,'dates not visible')
             assert item['author']['@type']=='Organization' and item['author']['name']=='Ayiti Sitwayen',(route,'publisher attribution')
             assert all(u in p.hrefs for u in item['citation']),(route,'structured sources not visible')
+            for citation in item['citation']:
+                if citation.startswith(SITE+'/assets/'):
+                    public_path=Path(citation.removeprefix(SITE)).as_posix()
+                    assert (ROOT/'dist'/public_path.lstrip('/')).is_file(),(route,'public citation asset missing from publish output',citation)
             refs=[h.removeprefix('#') for h in p.hrefs if h.startswith('#source-')]
             assert refs and set(refs)<=p.ids,(route,'citation target missing')
             for person in item['about']:

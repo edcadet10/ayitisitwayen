@@ -2769,6 +2769,62 @@
         "ht": "11,142 liy enskripsyon nan kopi anreta 15 Novanm ann Ayiti, pran 16 Novanm 04:16 UTC. Konte egzak kòd pati, pòs, pozisyon ak chan F/M KEP la; pa dediksyon dapre non. Liy enskripsyon pa vòt, moun eli oswa yon desizyon sou kota legal. Nou pa melanje pozisyon prensipal ak adjwen.",
         "en": "11,142 registration rows in the late November 15 Haiti snapshot, captured November 16 at 04:16 UTC. Exact party, office, position and CEP F/M field counts; no inference from names. Rows are not votes, elected officials or a legal-quota determination. Principal and deputy positions remain distinct."
       }
+    },
+    "senate-hope-help-extension-2026": {
+      "publisher": "U.S. Senate Committee on Finance",
+      "url": "https://www.finance.senate.gov/chairmans-news/crapo-wyden-applaud-extension-of-africa-and-haiti-trade-programs/",
+      "published_at": "2026-09-03",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Sena ameriken: HOPE/HELP pwolonje jouk fen 2028",
+        "en": "U.S. Senate: HOPE/HELP extended through the end of 2028"
+      },
+      "note": {
+        "ht": "Nòt ofisyèl komite a di pwolongasyon an antre nan lwa H.R. 6500. Li konsène aksè san dwa ladwàn pou sèten pwodwi tekstil ak rad ayisyen; li pa garanti tout ekspòtasyon oswa yon nouvo pwolongasyon apre 2028.",
+        "en": "Official committee account of enactment in H.R. 6500. Covers duty-free access for certain Haitian textile/apparel products, not all exports or guaranteed renewal beyond 2028."
+      }
+    },
+    "wb-food-af2-2026": {
+      "publisher": "World Bank",
+      "url": "https://documents1.worldbank.org/curated/en/099060926173013367/pdf/BOSIB-b3b277ed-6bc8-4d05-a76a-d15789ded882.pdf",
+      "published_at": "2026-06-08",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "PARSA: dokiman sou yon lòt don 50 milyon dola ameriken, rezilta ak feblès kontwòl",
+        "en": "PARSA: paper on another US$50 million grant, results and control weaknesses"
+      },
+      "note": {
+        "ht": "Paj PDF 13–17 separe pwojè ki deja egziste, rezilta li rapòte ak lòt finansman li pwopoze. Jou travay pa kantite djòb pèmanan. Feblès kontwòl pa yon konklizyon sou lajan yon kandida ta vòlè.",
+        "en": "PDF pages 13–17 separate the existing project, reported results and proposed additional finance. Workdays are not permanent jobs. Control weaknesses are not a finding that a candidate stole money."
+      }
+    },
+    "wb-haiti-finance-oct2026": {
+      "publisher": "World Bank",
+      "url": "https://financesone.worldbank.org/countries/haiti",
+      "published_at": null,
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Pòtay finans Bank Mondyal: don IDA E7310 pou P177072",
+        "en": "World Bank finance portal: IDA E7310 grant for P177072"
+      },
+      "note": {
+        "ht": "Done ki make 31 Oktòb 2026 bay 50 milyon dola ameriken, apwobasyon 8 Jen 2026 ak estati efektif. Yon don apwouve pa menm bagay ak lajan peye oswa rezilta lakay fanmi; yon tirè nan chan debousman pa yon chif zewo.",
+        "en": "As-of October 31, 2026 data list US$50 million, approval June 8, 2026 and effective status. Approval is not payment or household outcomes; a dash in disbursement is not a measured zero."
+      }
+    },
+    "ipc-haiti-oct2026": {
+      "publisher": "IPC / CNSA and analysis partners",
+      "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Haiti_Acute_Food_Insecurity_Sept2026_June2027_Snapshot.pdf",
+      "published_at": "2026-10-28",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "IPC: kriz alimantè Septanm 2026–Jen 2027",
+        "en": "IPC: food insecurity, September 2026–June 2027"
+      },
+      "note": {
+        "ht": "Rezime a separe estimasyon peryòd Septanm–Fevriye ak pwojeksyon Mas–Jen. Faz 3 oswa plis pa menm etikèt ak grangou katastwofik pou chak moun; baz analiz la se 11.2 milyon moun.",
+        "en": "Snapshot separates the September–February estimate from the March–June projection. Phase 3 or above does not mean every person is in famine; the analysed population is 11.2 million."
+      }
     }
   },
   "articles": [
@@ -13930,6 +13986,680 @@
           "text": {
             "ht": "Pou kandida yo, prèv jesyon ta konekte travay moun fè ak mwayen pou peye l. Jeudy ka montre dosye revni ak salè meri a pou peryòd li jere; Savary ka esplike ki enfòmasyon sou enterè biznis li ki ka pibliye san risk prive initil. Yon bilan bezwen plis pase yon gwo kantite djòb.",
             "en": "Management evidence connects work performed to the means of paying for it. Jeudy can show municipal revenue and payroll records for his administration; Savary can explain business-interest information publishable without unnecessary private risk. A record needs more than a large job total."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jovenel-moise-assassination-pandemic-loan-money-trail",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-7a166482a2bb5b41af62"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Asasina Jovenel Moïse: tras yon prè 175,000 dola ameriken",
+        "en": "Jovenel Moïse’s assassination: the trail of a US$175,000 loan"
+      },
+      "description": {
+        "ht": "Rezime pwosè Miami an dekri lajan sekou pandemi ki te pase nan finansman konplo a. Fòk nou swiv moun ak kont presi yo.",
+        "en": "The Miami trial summary describes pandemic-relief proceeds entering the plot’s financing. The trail requires specific people and accounts."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon asasina politik bezwen moun, zam ak lajan. Pou konprann dosye Jovenel Moïse la, tras lajan an ede soti nan gwo rimè pou rive sou yon operasyon presi: kiyès ki te bay lajan an kòm prè, ki kont ki sèvi, ki sa lajan an finanse?",
+            "en": "A political assassination requires people, weapons and money. In Jovenel Moïse’s case, following money can replace sweeping rumours with a specific operation: who lent it, which account carried it and what it financed?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Dapre Depatman Jistis ameriken apre vèdik 8 Me 2026 la, Walter Veintemilla te dakò finanse konplo a ak yon prè 175,000 dola ameriken depi Avril 2021. Lajan an te soti nan fon sekou pandemi PPP ak EIDL lòt moun te resevwa, atravè yon kont yon konplis te kontwole.",
+            "en": "According to the U.S. Justice Department after the May 8, 2026 verdict, Walter Veintemilla agreed from April 2021 to finance the plot through a US$175,000 loan. Proceeds came from other people’s PPP and EIDL pandemic-relief funds, through an account controlled by a co-conspirator."
+          },
+          "sources": [
+            "doj-moise-four-verdict-20260508"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "PPP isit la se pwogram ameriken pou pwoteje salè pandan pandemi an. Se pa yon patenarya piblik-prive. Fè lajan yon pwogram pase nan yon konplo pa prèv gouvènman ki te kreye pwogram nan te bay lòd asasina a.",
+            "en": "PPP here means the U.S. pandemic Paycheck Protection Program, not a public-private partnership. Programme proceeds entering a plot do not establish that the government creating the programme ordered the assassination."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Martine Moïse te blese grav nan atak la. Rezime sa a pa idantifye li kòm moun ki te finanse prè a. Nou pa gen tout resi bankè ak pyès pwosè yo pou nonmen tout moun ki te resevwa fon sekou yo. Nou pa pral ranpli espas sa a ak non kandida.",
+            "en": "Martine Moïse was seriously wounded in the attack. This account does not identify her as financing the loan. We lack the full banking exhibits needed to name every relief recipient; that gap cannot be filled with candidates’ names."
+          },
+          "sources": [
+            "doj-moise-four-verdict-20260508"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa tras la revele se yon danje presi: lajan ki gen yon objektif piblik kapab chanje wout atravè entèmedyè. Pi bon swivi a ta mare chak transfè ak yon moun, yon dat ak yon itilizasyon. Se konsa kesyon politik la jwenn yon baz ki ka verifye.",
+            "en": "The trail exposes a specific danger: money intended for a public purpose can be redirected through intermediaries. Stronger follow-up would connect each transfer to a person, date and use. That gives political scrutiny something verifiable."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-2033-industrial-jobs-hope-help-2028",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile: travay pou 2033, aksè komèsyal jouk 2028",
+        "en": "Etzer Emile: 2033 jobs and a trade window ending in 2028"
+      },
+      "description": {
+        "ht": "Pwogram endistriyèl la gen yon orizon ki depase pwolongasyon HOPE/HELP la. Sa mande yon plan pou apre 2028.",
+        "en": "The industrial programme runs beyond the HOPE/HELP extension. That calls for a plan for the years after 2028."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon faktori pa anboche pou yon sèl jou. Moun ki envesti bezwen konnen kiyès ki pral achte pwodwi yo pandan plizyè ane. Se la de kalandriye nan kanpay Etzer Emile la merite rankontre: objektif travay li ak règ antre sou mache ameriken an.",
+            "en": "A factory does not hire for a single day. Investors need to know who can buy its products for years. Two calendars therefore deserve to meet in Etzer Emile’s campaign: his employment target and access to the U.S. market."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pwogram li anonse 300,000 travay fòmèl pou 2033, avèk 150,000 nan kat zòn ekonomik. Li pa di tout travay sa yo se travay tekstil. Li pale de plizyè endistri; donk nou pa ka fè tout pwogram nan depann de yon sèl avantaj ladwàn.",
+            "en": "His programme targets 300,000 formal jobs by 2033, including 150,000 in four economic zones. It does not make them all textile jobs. Several industries are involved, so the entire programme cannot be reduced to one customs preference."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men, nan nòt 3 Septanm 2026 li a, komite finans Sena ameriken an di lwa H.R. 6500 pwolonje HOPE/HELP jouk fen 2028. Pwogram yo bay sèten pwodwi tekstil ak rad ayisyen aksè san dwa ladwàn nan mache ameriken an. Nòt sa a pa pwomèt yon lòt pwolongasyon.",
+            "en": "However, the U.S. Senate Finance Committee’s September 3, 2026 announcement says H.R. 6500 extends HOPE/HELP through the end of 2028. These programmes provide duty-free U.S. access for certain Haitian textile and apparel products. The announcement promises no further extension."
+          },
+          "sources": [
+            "senate-hope-help-extension-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa pa prèv plan an kondane. Se yon risk pou pati ki konte sou ekspòtasyon ki kalifye yo. Yon plan solid ta separe travay ki bezwen avantaj sa a, travay ki sèvi mache lokal la, ak lòt mache ki kapab pran relè si règ yo chanje.",
+            "en": "That does not doom the plan. It identifies a risk for qualifying export-dependent activities. A credible plan would separate jobs relying on that preference, jobs serving Haiti and alternative markets if rules change."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon fanmi, bon nouvèl la se pa sèlman yon faktori ki louvri. Se yon salè ki dire. Eksplike kisa ki rive ant 2029 ak 2033 ta ede mezire kalite pwomès la san konfonn yon objektif kanpay ak yon garanti Washington deja bay.",
+            "en": "For a household, the good news is not merely a factory opening; it is a wage that lasts. Explaining 2029–2033 would help assess the promise without turning a campaign target into a guarantee from Washington."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "joanas-gue-existing-food-security-project-inheritance",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-bf5bb68eea8a5b819128"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Joanas Gué: pwochen prezidan an pap kòmanse agrikilti a nan zewo",
+        "en": "Joanas Gué: the next president will not start agriculture from zero"
+      },
+      "description": {
+        "ht": "PARSA deja gen finansman, aktivite ak feblès li rapòte. Sa dwe fè pati egzamen yon ansyen minis agrikilti.",
+        "en": "PARSA already has funding, activities and reported weaknesses. They belong in scrutiny of a former agriculture minister."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nan yon kanpay, li fasil pou prezante tout solisyon kòm bagay ki pral kòmanse apre viktwa a. Dosye agrikilti a pi konplike. Yon pwochen prezidan ap jwenn pwogram ki deja la, kontra ki deja pase ak fanmi ki deja tann sèvis.",
+            "en": "A campaign can make every solution sound as though it begins after victory. Agriculture is more complicated. The next president inherits programmes, contracts and households already waiting for services."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Dokiman Bank Mondyal 8 Jen 2026 la sou PARSA rapòte prèske 25 milyon repa lekòl ak 83,748 jou travay nan aktivite travay piblik. Jou travay sa yo pa 83,748 travay pèmanan. Dokiman an rapòte tou sipò pou pwodiktè ak travay sou enfrastrikti riral.",
+            "en": "The World Bank’s June 8, 2026 PARSA paper reports nearly 25 million school meals and 83,748 person-workdays in public works. Those are not 83,748 permanent jobs. It also reports producer support and rural infrastructure work."
+          },
+          "sources": [
+            "wb-food-af2-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men menm dokiman an site dokiman jistifikatif ki pa konplè, envantè byen ki poko konplè ak feblès nan kontwòl entèn. Pòtay finans Bank lan make lòt don 50 milyon dola ameriken an apwouve ak efektif. Apwobasyon pa vle di tout lajan deja rive nan men benefisyè yo.",
+            "en": "The same paper identifies incomplete supporting documents and asset inventories, plus weak internal controls. The Bank’s finance portal lists the additional US$50 million grant as approved and effective. Approval does not mean all funds have reached beneficiaries."
+          },
+          "sources": [
+            "wb-food-af2-2026",
+            "wb-haiti-finance-oct2026"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Joanas Gué te minis agrikilti an 2007; sa pa fè li responsab jesyon PARSA an 2026. Men eksperyans li bay yon pwen depa pou yon repons presi: ki aktivite li ta konsève, ki kontwòl li ta korije, epi kijan li ta verifye moun resevwa sèvis?",
+            "en": "Joanas Gué was agriculture minister in 2007; that does not make him responsible for PARSA’s 2026 management. His experience does provide a starting point for specifics: what would he keep, which controls would he repair and how would delivery be verified?"
+          },
+          "sources": [
+            "gue-mango-reopening-2007"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa se analiz nou: chanje non yon pwojè pa yon politik agrikòl. Fè lekòl la resevwa repa, fè kiltivatè a jwenn sèvis, epi rann kont sou depans yo se yon bilan yon fanmi kapab konprann ak verifye.",
+            "en": "Our assessment: renaming a project is not agricultural policy. Delivering school meals, reaching farmers and accounting for spending would give households a record they can understand and check."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-food-emergency-campaign-two-calendars",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60",
+        "c-c95770456abb5c95962b"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Opinyon: grangou a bezwen de kalandriye nan kanpay la",
+        "en": "Opinion: the food crisis needs two campaign calendars"
+      },
+      "description": {
+        "ht": "Nou bezwen mezire sa ki pèmèt yon fanmi manje kounye a ansanm ak sa ki fè li viv miyò pandan plizyè ane.",
+        "en": "We should assess what feeds a household now alongside what improves its livelihood over several years."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon manman k ap chèche manje jodi a pa viv nan menm kalandriye ak yon gwo plan pou 2033. Nou kwè kanpay la dwe bay de repons ansanm: kijan fanmi an travèse pwochen mwa yo, epi kijan li soti nan bezwen sekou a.",
+            "en": "A mother looking for food today lives on a different clock from a major plan for 2033. We believe campaigns owe two answers together: how a household gets through the next months and how it becomes less dependent on relief."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "IPC estime 5.94 milyon moun nan kriz alimantè grav oswa pi mal pou Septanm 2026–Fevriye 2027. Li pwojte 6.35 milyon pou Mas–Jen 2027, sou 11.2 milyon moun li analize. Dezyèm chif la se yon pwojeksyon, pa yon konte ki deja fèt nan mwa sa yo.",
+            "en": "IPC estimates 5.94 million people face Crisis-level acute food insecurity or worse in September 2026–February 2027. It projects 6.35 million for March–June 2027, out of 11.2 million analysed. The latter is a projection, not an observed count for those future months."
+          },
+          "sources": [
+            "ipc-haiti-oct2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Etzer Emile pwopoze objektif travay pou 2033 epi travay tanporè nan premye san jou yo. Pwogram MPH la pwopoze sant agrikòl ak enèji. Li ta enjis pou di tout kandida yo pale sèlman de lavni lwen; men elektè a bezwen wè lyen ant ijans la ak chanjman estriktirèl la.",
+            "en": "Etzer Emile proposes 2033 employment targets and temporary work in his first hundred days. MPH proposes agricultural centres and energy investment. It would be unfair to say candidates discuss only distant goals. Voters still need the bridge between immediate relief and lasting change."
+          },
+          "sources": [
+            "etzer-jobs",
+            "etzer-programme",
+            "mph-manifesto-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nou ta egzije yon premye lis ki senp: ki fanmi ki jwenn sipò, ki kantite sipò, ki lè, ak kijan yo pote plent si li pa rive. Apre sa, yon dezyèm lis pou dlo, wout, mache ak travay ki ka dire. De lis yo dwe gen depans ak moun responsab.",
+            "en": "We would require a simple first list: which households receive support, how much, when and how to complain if it fails to arrive. Then a second list for water, roads, markets and lasting work. Both need costs and accountable officials."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon repa pa ranplase yon ekonomi. Yon pwomès ekonomi pa ranplase repa jodi a nonplis. Yon kanpay ki pran lavi moun oserye dwe kapab esplike toude san fè fanmi an tann yon dat byen lwen pou tout repons.",
+            "en": "A meal cannot replace an economy. An economic promise cannot replace today’s meal either. A campaign taking people’s lives seriously should explain both without postponing every answer to a distant year."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martine-moise-vs-jocelerme-privert",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-7a166482a2bb5b41af62",
+        "c-cfa0ce450d335df39e36"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Martine Moïse ak Jocelerme Privert: de desizyon, de sans diferan",
+        "en": "Martine Moïse vs Jocelerme Privert: two decisions with different effects"
+      },
+      "description": {
+        "ht": "Rekòmanse yon ankèt ak libere yon moun pa menm desizyon. Ni youn pa otomatikman yon vèdik sou fon akizasyon yo.",
+        "en": "Restarting an inquiry and releasing a person are different decisions. Neither automatically decides the substance of the allegations."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè non yon kandida parèt nan yon dosye jidisyè, mo ki dekri desizyon an enpòtan menm jan ak non an. Nan dosye Martine Moïse ak Jocelerme Privert yo, yon sèl mo tankou blanchi kapab efase diferans ki vrèman konte pou lektè a.",
+            "en": "When a candidate appears in proceedings, the word describing the decision matters as much as the name. In Martine Moïse’s and Jocelerme Privert’s records, a label such as cleared can erase distinctions readers need."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Vant Bèf Info rapòte 13 Oktòb 2025 Lakou dapèl te anile òdonans 2024 la nan dosye asasina Jovenel Moïse la epi relanse enstriksyon an. Sa pa yon jijman ki deklare Martine Moïse koupab; relans ankèt la pa yon akitman sou fon nonplis.",
+            "en": "Vant Bèf Info reported on October 13, 2025 that the appeal court annulled the 2024 order in Jovenel Moïse’s assassination case and restarted the investigation. That is neither a judgment finding Martine Moïse guilty nor an acquittal on the merits."
+          },
+          "sources": [
+            "vbi-moise-20251013"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan kopi desizyon 13 Jen 2006 la pou Privert, Lakou dapèl Gonayiv leve manda kont li ak obligasyon pou li parèt lè yo rele l. Paj 3 presize demann liberasyon an pa louvri egzamen fon dosye Lasiri a. Privert te rejte akizasyon yo epi reklame jistis te blanchi l an 2009.",
+            "en": "The June 13, 2006 Gonaïves appeal decision lifts warrants against Privert while requiring appearance when summoned. Page 3 expressly separates release from the merits of the La Scierie case. Privert rejected the allegations and claimed judicial clearance in 2009."
+          },
+          "sources": [
+            "privert-release-order-2006",
+            "privert-response-scierie-2009"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa gen tout dosye pita yo pou di sa se dènye etap nan chak pwosedi. Dosye yo konsène evènman, ane ak moun diferan. Nou pa fè youn sèvi kòm prèv nan lòt la, ni nou pa mete de moun yo nan menm konplo.",
+            "en": "We lack complete later files establishing each proceeding’s final stage. These concern different events, years and people. Neither supplies evidence in the other; comparing procedure does not place the candidates in a shared plot."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Bon kesyon elektè a se sa chak desizyon fè: li libere kiyès, li anile ki zak, li kite ki etap ouvè? Se repons sa yo ki pèmèt egzamine dosye a san kondane sou rimè oswa efase sa jistis poko tranche.",
+            "en": "The useful voter question is what each decision actually does: whom it releases, which act it annuls and what remains open. Those answers permit scrutiny without conviction by rumour or erasure of unresolved issues."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "hans-joseph-vs-kely-bastien",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-20a19b185cd2557e8e12",
+        "c-eafa5d1131725d7384c9"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Hans Joseph ak Kely Bastien: transparans dwe kite yon tras",
+        "en": "Hans Joseph vs Kely Bastien: transparency should leave a record"
+      },
+      "description": {
+        "ht": "Youn te dirije ULCC, lòt la Sena a. Eksperyans yo mande dokiman diferan pou egzamine sa yo te fè.",
+        "en": "One led ULCC, the other the Senate. Their experience calls for different records to assess what they did."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Transparans fasil pou pwononse nan yon mikwo. Li vin pi itil lè yon sitwayen kapab jwenn yon desizyon, yon depans oswa swivi yon dosye. Hans Joseph ak Kely Bastien gen eksperyans ki pèmèt poze kesyon sa a sou de enstitisyon diferan.",
+            "en": "Transparency is easy to pronounce into a microphone. It becomes useful when a citizen can find a decision, expenditure or case follow-up. Hans Joseph and Kely Bastien offer experience against which to ask that question in different institutions."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon rapò vwayaj 2011 ki sou sit komite relasyon etranjè Sena ameriken an prezante Bastien, ansyen prezidan Sena ayisyen an, ak objektif transparans epi pi bon relasyon ant pouvwa yo. Sa se objektif rapò a dekri, pa yon odit ki pwouve tout te reyalize.",
+            "en": "A 2011 trip report on the U.S. Senate Foreign Relations Committee’s website presents Bastien, a former Haitian Senate president, with objectives of transparency and better relations between branches. These are reported objectives, not audited achievements."
+          },
+          "sources": [
+            "senate-fund-2011-bastien"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan nòt sou Badio Juno7 repwodui an Jiyè 2021 la, ULCC bay dat revokasyon ak yon plent kont ansyen anplwaye a. Hans Joseph te dirije ULCC depi 2020. Nòt la pa tout dosye disiplinè a; li pa pwouve sa direktè a te konnen sou yon konplo asasina.",
+            "en": "In the Badio statement reproduced by Juno7 in July 2021, ULCC gives dismissal and complaint dates concerning its former employee. Hans Joseph had led ULCC since 2020. The statement is not the complete disciplinary file or proof of his knowledge of an assassination plot."
+          },
+          "sources": [
+            "ulcc-badio-employment-note-2021",
+            "hans-joseph-removal-interview-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Bastien, dokiman ki itil yo se bidjè, depans ak desizyon asanble a. Pou Joseph, se fason enstitisyon an anrejistre desizyon ak suiv plent pandan li pwoteje ankèt legal yo. Nou pa mande pibliye idantite temwen oswa enfòmasyon ki mete moun an danje.",
+            "en": "For Bastien, useful records include assembly budgets, spending and decisions. For Joseph, they include decision records and complaint follow-up while protecting lawful investigations. Scrutiny need not expose witnesses or information that endangers people."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Konparezon an pa deklare youn pi pwòp. Li montre yon mezi ki pi solid pase tit: ki tras chak moun kite pou piblik la kapab verifye travay li? Yon kandida ki mande konfyans kapab kòmanse ak sa li deja te gen pouvwa fè.",
+            "en": "This comparison does not declare one cleaner. It identifies something stronger than a title: what record each left for public examination. A candidate asking for trust can begin with responsibilities already held."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "walsonn-sanon-vs-michelet-nestor",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-9aa099e78f485f8daa4b",
+        "c-07a633c73b3950999f76"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Walsonn Sanon ak Michelet Nestor: kiyès ki bay konsantman an?",
+        "en": "Walsonn Sanon vs Michelet Nestor: whose consent counts?"
+      },
+      "description": {
+        "ht": "Refize yon akò ak jwenn yon nominasyon pa mezire menm bagay. Toude mande règ ki esplike kiyès ki te patisipe.",
+        "en": "Rejecting an agreement and winning a nomination measure different things. Both invite clear rules on who participated."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon sal kapab di gen konsansis pandan kèk moun rete deyò pòt la. Nan politik, mo a pa sifi: fòk nou konnen kiyès ki te gen dwa pale, kiyès ki te dakò, epi kijan yo te trete dezakò a.",
+            "en": "A room can announce consensus while others remain outside its door. In politics, the word alone is insufficient: who could speak, who agreed and how was disagreement handled?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Scoop FM rapòte 27 Desanm 2022 Walsonn Sanon, nan tèt SOLID, te rejte akò 21 Desanm nan. Li te di chanjman yo te pwomèt pou reponn ak rezèv òganizasyon li a pa t fèt anvan siyati yo te anonse a. Kritik li a te konsène pwosesis ak patisipasyon, pa refi tout akò nan prensip.",
+            "en": "Scoop FM reported on December 27, 2022 that SOLID leader Walsonn Sanon rejected the December 21 agreement. He said promised revisions addressing his organization’s reservations had not preceded the announced signing. His criticism concerned process and participation, not rejection of every agreement in principle."
+          },
+          "sources": [
+            "sanon-solid-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Kayimit News rapòte Michelet Nestor te enskri pou DPA an Novanm 2026 apre yon chwa pa konsansis. Sa etabli yon nominasyon nan òganizasyon an; li pa konte sipò nan tout popilasyon an. Menm jan an, refize akò 2022 a pa yon rezilta eleksyon pou Sanon.",
+            "en": "Kayimit News reports Michelet Nestor registering for DPA in November 2026 after selection by consensus. That records an organizational nomination, not nationwide support. Likewise, refusing the 2022 agreement is not an electoral result for Sanon."
+          },
+          "sources": [
+            "nestor-dpa-registration-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "An 2025, Sanon te rele pou yon refondasyon ki soti nan lavi lokal. Egzamen ki swiv la se règ pwòp òganizasyon an: fason manm yo chwazi lidè ak fason yo kapab konteste yon desizyon. Pou DPA, menm kesyon an konsène moun ki te patisipe nan konsansis nominasyon an.",
+            "en": "In 2025 Sanon called for renewal rooted in local life. That invites examination of his organization’s own leadership selection and ways members can challenge decisions. For DPA, the equivalent question concerns participation in its nomination consensus."
+          },
+          "sources": [
+            "sanon-refoundation-2025"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nou pa gen pwosè-vèbal konplè pwosedi entèn sa yo pou bay yon nòt demokrasi. Sa nou kapab di: yon metòd vin kredib lè moun ki pa genyen yo kapab konprann règ yo tou. Konsantman bezwen plis pase anons moun ki genyen an.",
+            "en": "We lack complete internal minutes to assign democracy scores. What can be said is that a method gains credibility when those who lose can understand its rules too. Consent needs more than the winner’s announcement."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "etzer-emile-vs-jude-elie",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60",
+        "c-a16d010ca47352d98607"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile ak Jude Elie: pwomèt enfrastrikti, planifye travay",
+        "en": "Etzer Emile vs Jude Elie: infrastructure promises and planning experience"
+      },
+      "description": {
+        "ht": "Yon pwogram nasyonal ak yon wòl nan NYCHA se prèv diferan. Yo bezwen rankontre sou pri, antretyen ak responsablite.",
+        "en": "A national programme and a NYCHA role are different evidence. Costs, maintenance and responsibility connect their assessment."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon wout ki fèt epi ki kraze vit pa menm sèvis ak yon wout kote moun ka kontinye pase. Pou yon elektè, kesyon enfrastrikti a pa sèlman kantite chantye. Se ki bezwen ki pase an premye, ki lajan ki disponib, epi kiyès ki pran swen sa yo fin bati.",
+            "en": "A road built and quickly ruined is not the same service as a road that remains passable. Infrastructure scrutiny involves priorities, available funding and responsibility for what gets built, as well as construction totals."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Etzer Emile gen yon paj pwogram espesyal pou enfrastrikti. Sa pèmèt egzamine angajman politik li yo kòm pwopozisyon. Li pa yon rapò sou chantye administrasyon li ta deja livre kòm prezidan.",
+            "en": "Etzer Emile has a dedicated infrastructure programme page. It provides political commitments to assess as proposals, not projects already delivered by a presidential administration of his own."
+          },
+          "sources": [
+            "etzer-infrastructure"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Jude Elie, yon tablo òganizasyon NYCHA sou sit Vil Nouyòk an 2018 mete non li pami twa planifikatè A/E, anba responsab bezwen fizik yo. Li etabli yon wòl nan ekip la nan dat sa a. Li pa di li te chèf NYCHA ni li pa mezire rezilta pèsonèl li.",
+            "en": "For Jude Elie, a 2018 NYCHA organization chart on New York City’s website places him among three A/E planners under the Physical Needs Manager. It establishes a team role at that time, not leadership of NYCHA or measured personal outcomes."
+          },
+          "sources": [
+            "nycha-elie-chart-2018"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa se de pwen depa, pa de rezilta nou kapab mete nan menm kolòn. Pou pwogram Emile la, nou ta chèche yon premye lis pwojè ak finansman. Pou eksperyans Elie a, nou ta chèche responsablite presi ak egzanp travay kote kontribisyon li dokimante.",
+            "en": "These are two starting points, not comparable results. Emile’s programme invites an initial funded project list. Elie’s experience invites specific responsibilities and examples documenting his contribution."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon sèl dosye pwojè byen esplike ta fè deba a avanse: pwoblèm nan, pri a, dire travay la, antretyen an ak moun ki rann kont. Sa ta fè yon gwo pwomès ak yon gwo non enstitisyon vin pi itil nan lavi yon komin.",
+            "en": "One clearly explained project could advance the debate: problem, cost, schedule, maintenance and accountability. It would make both a major promise and a major institution’s name more useful to a community."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "munir-mourra-vs-jude-elie",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b",
+        "c-a16d010ca47352d98607"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Munir Mourra ak Jude Elie: lè sektè prive a vle dirije Leta",
+        "en": "Munir Mourra vs Jude Elie: when private-sector experience seeks state power"
+      },
+      "description": {
+        "ht": "Pwogram patenarya ak enterè nan konstriksyon mande yon distenksyon klè ant eksperyans ak avantaj pèsonèl.",
+        "en": "Partnership proposals and construction interests require clear separation between experience and personal benefit."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Gen eksperyans nan antrepriz kapab itil pou konprann yon pwojè. Men yon prezidan pa sèlman bezwen fè yon pwojè mache. Li bezwen chwazi règ ki jis pou konpayi pa li, konpetitè li ak sitwayen k ap peye yo.",
+            "en": "Business experience can help someone understand a project. A president must also choose fair rules for personal businesses, competitors and the citizens paying for services."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Manifès MPH la, pati Munir Mourra a, pwopoze sant agrikòl nan patenarya ant Leta ak sektè prive. Sa se yon modèl pwopoze; dokiman an pa yon kontra ki deja bay yon konpayi espesifik. Li pa pwouve kandida a ta pran kontra yo pou tèt li.",
+            "en": "The manifesto of Munir Mourra’s MPH proposes agricultural centres through public-private partnerships. That is a proposed model, not a contract already awarded to a specified firm. It does not establish that the candidate would take contracts personally."
+          },
+          "sources": [
+            "mph-manifesto-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Jude Elie prezante sou sit li antrepriz nan konstriksyon, enèji vèt ak distribisyon petwòl. Million Billion Group prezante li kòm patnè pou enfrastrikti ak estrateji devlopman. Sa se deklarasyon sou sit yo, pa yon rejis verifye ki bay tout pati kapital li genyen jodi a.",
+            "en": "Jude Elie’s website describes interests in construction, green energy and petroleum distribution. Million Billion Group presents him as an infrastructure and development-strategy partner. These are website statements, not a verified register of his complete current holdings."
+          },
+          "sources": [
+            "jude-elie-biography",
+            "million-billion-elie"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nan toude ka yo, kesyon pratik la se kijan desizyon piblik la ta pwoteje kont enterè prive. Ki enterè ki ta deklare? Kiyès ki ta evalye òf? Kijan yon responsab ta retire kò li nan yon desizyon ki touche biznis li? Sa yo se pwoteksyon nou pwopoze, se pa konklizyon ki di kandida yo te vyole règ yo.",
+            "en": "In both cases, the practical issue is protecting public decisions from private interests. Which interests would be declared, who would evaluate bids and how would officials step aside from decisions touching their businesses? These are proposed safeguards, not findings of violations."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon bon kontra ta pèmèt yon fanmi konnen sèvis li dwe jwenn, pri li dwe peye ak kote pou li pote plent. Deba a vin pi itil lè li rive la. Se pa tout antreprenè ki gen konfli; se règ yo ki dwe fè nenpòt konfli vizib.",
+            "en": "A sound contract would let households identify the service owed, price payable and complaint route. That is a more useful debate. Businesspeople do not all have conflicts; rules should make any actual conflict visible."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "claude-joseph-vs-jocelerme-privert",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c9c792b353345247be19",
+        "c-cfa0ce450d335df39e36"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Claude Joseph ak Jocelerme Privert: pouvwa pwovizwa ak dat limit",
+        "en": "Claude Joseph vs Jocelerme Privert: temporary power and deadlines"
+      },
+      "description": {
+        "ht": "Premye minis enterimè an 2021 ak prezidan pwovizwa an 2016 se pa menm pòs. Men toude dosye poze kesyon sou remiz pouvwa.",
+        "en": "An acting premier in 2021 and a provisional president in 2016 held different offices. Both records raise questions about handing over power."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè pouvwa a pwovizwa, piblik la bezwen konnen sa ki fè li fini. Yon kriz kapab esplike poukisa yon aranjman fèt; li pa poukont li esplike konbyen tan li dwe dire. Dosye Claude Joseph ak Jocelerme Privert yo montre de pwoblèm diferan ak menm bezwen pou limit klè.",
+            "en": "When authority is temporary, the public needs to know what ends it. A crisis may explain an arrangement without explaining its duration. Claude Joseph’s and Jocelerme Privert’s records involve different problems and a shared need for clear limits."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò Nasyonzini S/2021/828 dekri kabinè Claude Joseph te dirije apre asasina 7 Jiyè 2021 la, mezi ijans li yo ak enstalasyon Ariel Henry 20 Jiyè. Joseph te premye minis enterimè, pa prezidan. Li te rete minis afè etranjè apre remiz pòs premye minis la.",
+            "en": "UN report S/2021/828 describes Claude Joseph’s cabinet after the July 7, 2021 assassination, its emergency measures and Ariel Henry’s installation on July 20. Joseph was acting prime minister, not president. He remained foreign minister after handing over the premiership."
+          },
+          "sources": [
+            "un-handover-joseph-henry-2021"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2016, Asanble nasyonal te eli Privert prezidan pwovizwa sou yon akò ki te prevwa omaksimòm 120 jou. Rapò Nasyonzini an dekri dat limit 14 Jen an ak enkapasite Palman an pou deside sou kontinyasyon an. Nou pa fè absans yon desizyon tounen yon manda san limit.",
+            "en": "In 2016 the National Assembly elected Privert provisional president under an agreement allowing at most 120 days. The UN account describes the June 14 deadline and Parliament’s failure to decide on continuation. An absent decision cannot be presented as an unlimited mandate."
+          },
+          "sources": [
+            "un-transition-2016-march",
+            "un-transition-2016-august"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Rapò politik sa yo pa jijman ki valide tout zak yo. Nou pa fè de kriz yo menm bagay, ni nou pa dedui patisipasyon nan asasina apati pòs yon moun te okipe apre li. Konparezon an konsène limit ak remiz pouvwa, pa yon konplo komen.",
+            "en": "These political reports are not judgments validating every act. The crises differ; holding office after an assassination does not establish participation in it. This comparison concerns limits and handover, not a shared conspiracy."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou pwochen manda a, yon bon angajman ta esplike dat limit, moun ki kontwole yo ak etap ki swiv si kalandriye a echwe. Lidè ki deja viv pwovizwa a gen yon eksperyans espesyal pou esplike kijan li pap tounen yon abitid san fen.",
+            "en": "For a future term, a useful commitment would explain deadlines, oversight and what happens if the timetable fails. Leaders who experienced temporary authority have particular experience to explain how it need not become an endless habit."
           },
           "sources": []
         }
