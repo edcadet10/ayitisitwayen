@@ -554,7 +554,7 @@
         "en": "BINUH April–June 2026 — Jean Ernest Muscadin, page 24"
       },
       "note": {
-        "ht": "Limit tan sou absans pwosedi a se peryòd rapò sa a. Nou verifye rapò Jiyè–Septanm 2026 la tou; nou pa jwenn yon nouvo pasaj ki nonmen Muscadin ladan l. Sa pa pwouve pa t gen okenn chanjman apre sa.",
+        "ht": "Deklarasyon rapò a sou absans pwosedi a konsène sèlman peryòd rapò a kouvri a. Nou verifye rapò Jiyè–Septanm 2026 la tou; nou pa jwenn yon nouvo pasaj ki nonmen Muscadin ladan l. Sa pa pwouve pa t gen okenn chanjman apre sa.",
         "en": "The statement about proceedings is limited to this reporting period. The July–September 2026 report was also checked and has no new passage naming Muscadin; that does not prove nothing changed later."
       }
     },
@@ -1478,7 +1478,7 @@
         "en": "Reuters identifies Saint-Rémy’s family tie and advisory role"
       },
       "note": {
-        "ht": "Rapò a rele l konseye ak bòfrè Martelly. Reuters di li pa t reponn demann kòmantè yo lè rapò sa a te parèt; nou pa prezante sa kòm yon nouvo demann pa nou.",
+        "ht": "Rapò a dekri Saint-Rémy kòm konseye ak bòfrè Martelly. Demann kòmantè Reuters yo pa t jwenn repons nan epòk rapò a; nou pa prezante sa kòm yon nouvo demann pa nou.",
         "en": "The report describes Martelly’s adviser and brother-in-law. Its unanswered comment requests refer to Reuters’s reporting at that time, not new outreach by us."
       }
     },
@@ -8772,6 +8772,290 @@
           "text": {
             "ht": "Pèsonn pa dwe prezime koupab paske li gen yon biznis, yon alye oswa yon fanmi enfliyan. Pèsonn pa dwe chape anba kesyon paske li gen yon bèl repitasyon nonplis. Konfyans piblik la dwe kapab sipòte yon verifikasyon ki presi, ki jis epi ki sèvi ak menm règ pou tout moun. Se estanda sa a nou mande kandida yo ak tèt nou.",
             "en": "Business ownership, allies or influential relatives should not create presumed guilt. A good reputation should not exempt anyone from scrutiny either. Public trust should withstand precise, fair verification under consistent rules. That is the standard we ask of candidates and ourselves."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-transition-deadlines-belong-to-citizens",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-cfa0ce450d335df39e36",
+        "c-a8679d21107058f5bc35",
+        "c-318821d7c6585a15b714"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Yon tranzisyon bezwen yon sòti ki pa depann de volonte chèf li",
+        "en": "A transition needs an exit beyond its leader’s discretion"
+      },
+      "description": {
+        "ht": "Pozisyon nou: kondisyon sekirite yo bezwen mezi piblik, epi manda tanporè yo bezwen limit sitwayen ka fè respekte.",
+        "en": "Our view: security conditions need public measures, and temporary mandates need enforceable limits."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò ONU Out 2016 la di manda 120 jou Jocelerme Privert la te fini 14 Jen, pandan Asanble Nasyonal la pa t rive pran desizyon sou swivi pouvwa a. Akò Avril 2024 la te fikse yon lòt dat bout pou yon lòt tranzisyon: 7 Fevriye 2026. Sa yo se de aranjman diferan; yo pa menm istwa oswa menm bilan.",
+            "en": "The UN’s August 2016 report records Privert’s 120-day mandate expiring June 14 while the National Assembly failed to decide subsequent governance. The April 2024 agreement set February 7, 2026 as another transition’s endpoint. These are different arrangements and records."
+          },
+          "sources": [
+            "un-transition-2016-august",
+            "transition-pact-april-2024"
+          ]
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Men yo montre poukisa ekri yon dat pa sifi. Fòk gen yon enstitisyon ki gen devwa verifye etap yo, rann reta yo piblik ak egzije yon desizyon lè dat la rive. Sinon, kalandriye a vin yon afich sou miray olye yon limit sou pouvwa.",
+            "en": "They show why writing a date is insufficient. An institution must track milestones, disclose delays and require a decision when the deadline arrives. Otherwise a calendar becomes a wall poster instead of a limit on authority."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Agiman sekirite a merite pran oserye. Fòse moun ale vote nan danje pa yon solisyon. Men « tann sekirite » dwe vini ak kesyon ki gen repons: ki kondisyon ki manke, ki travay ki fèt ak ki lè piblik la ap wè yon lòt evalyasyon? Se pa chèf ki bezwen plis tan an sèlman ki dwe mezire pwogrè pa li.",
+            "en": "Security concerns deserve a serious response. Sending voters into danger is no solution. Yet waiting for security requires answers: what is missing, what has been done and when will the next assessment be public? A leader seeking more time should not be the sole judge of progress."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Nou mande tout kandida ki ta soutni yon tranzisyon aplike menm règ la: yon manda presi, etap ki ka verifye ak yon sòti ki pa depann sèlman de moun ki sou pouvwa a. Sitwayen yo pa dwe oblije chwazi ant yon eleksyon danjere ak yon pouvwa ki pa gen bout. Devwa politik la se konstwi yon chemen ki evite toude.",
+            "en": "Any candidate supporting a transition should accept a defined mandate, verifiable milestones and an exit beyond the incumbent’s discretion. Citizens should not have to choose between dangerous elections and indefinite authority. Political leadership must build a route avoiding both."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-family-ties-follow-public-decisions",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-044a28564a40545cb553",
+        "c-c47f363b53dc5a6ea7ee",
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Lè n ap egzamine fanmi yon kandida, se tras pouvwa a pou n suiv",
+        "en": "When examining a candidate’s family, follow the exercise of power"
+      },
+      "description": {
+        "ht": "Pozisyon nou: eritaj, nominasyon ak enterè biznis merite kesyon presi. Yon lyen fanmi pa yon prèv koupabilite.",
+        "en": "Our view: inheritance, appointments and business interests merit precise scrutiny. Kinship does not establish guilt."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Savannah Savary te dekri biznis li eritye nan yon entèvyou Haitian Times. Yon rapò Reuters te dekri Charles Saint-Rémy kòm bòfrè ak konseye Michel Martelly. De kalite lyen sa yo pa menm bagay: youn konsène yon pakou ekonomik; lòt la ajoute yon wòl politik ak yon relasyon fanmi.",
+            "en": "Savannah Savary described inherited businesses to The Haitian Times. Reuters described Charles Saint-Rémy as Michel Martelly’s brother-in-law and adviser. These are different relationships: economic background in one case, kinship combined with a political role in the other."
+          },
+          "sources": [
+            "savary-ht-interview-2026",
+            "reuters-kiko-family-2023"
+          ]
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Bon kesyon yo kòmanse kote relasyon an rankontre pouvwa piblik. Èske yon fanmi jwenn yon nominasyon? Èske yon antrepriz ki lye ak yon responsab fè biznis ak Leta? Kiyès ki pran desizyon an, ak ki règ pou evite enterè pèsonèl enfliyanse li? Se la dokiman ka pote yon repons ki sèvi sitwayen.",
+            "en": "Useful scrutiny begins where relationships meet public authority: appointments, state business and decisions affecting connected interests. Who decided, and what rules prevented personal interests from shaping the decision? Those are questions documents can answer in the public interest."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Yon pyebwa fanmi ki long san desizyon, kontra oswa enterè pou suiv ka bay anpil non epi pa esplike anyen. Li ka menm fè yon timoun oswa yon fanmi ki pa gen wòl piblik peye pri yon konfli politik. Nou pa bezwen konnen tout detay lavi prive yon moun pou egzamine yon nominasyon oswa yon kontra.",
+            "en": "A long family tree without decisions, contracts or interests to trace can supply names without explanation. It can also expose children or uninvolved relatives to political conflict. Examining an appointment or contract does not require every detail of private life."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Men fanmi pa dwe sèvi kòm yon miray pou kache yon wòl ofisyèl nonplis. Lè yon relasyon gen konsekans sou byen, lajan oswa desizyon piblik, se dwa sitwayen pou konprann li. Nou defann yon egzamen ki rive lwen nan dosye yo epi ki rete jis sou moun yo: pwouve chak lyen, esplike konsekans li, pa transmèt koupabilite tankou yon eritaj.",
+            "en": "Family privacy should not conceal official roles either. When a relationship affects public assets, money or decisions, citizens deserve an explanation. Scrutiny should go far into the records while treating people fairly: establish each connection, explain its consequences and never make guilt hereditary."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-security-muscadin-accountability-courts",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-260d6761d0c65693b074"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Sekirite dwe bay sitwayen yon pwoteksyon yo ka fè konfyans",
+        "en": "Security should give citizens protection they can trust"
+      },
+      "description": {
+        "ht": "Pozisyon nou: kòlè devan gang yo bezwen yon repons Leta ki pwoteje lavi epi ki kapab rann kont sou pwòp fòs li.",
+        "en": "Our view: anger at gang violence requires a state response that protects life and answers for its own use of force."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan Novanm 2025, Vant Bèf Info te rapòte manifestan Miragwàn ki soutni Jean Ernest Muscadin paske yo te wè l kòm yon defans kont gang. Yon rapò BINUH 2026 te, bò pa li, dokimante posib enplikasyon li nan omwen 76 egzekisyon somè ant 2022 ak 2025. Se akizasyon yon rapò dwa moun, pa yon kondanasyon; chif la pa yon total tout ane jiska jodi a.",
+            "en": "Vant Bèf Info reported Miragoâne demonstrators backing Muscadin in November 2025 as protection against gangs. A 2026 BINUH report documented his possible involvement in at least 76 summary executions during 2022–2025. Those are human-rights findings alleging involvement, not a conviction or a count covering every subsequent period."
+          },
+          "sources": [
+            "muscadin-support-2025",
+            "binuh-q2-muscadin"
+          ]
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Nou dwe tande bezwen sekirite sa a san nou pa fè l tounen yon otorizasyon san limit. Lè moun pè, yon responsab ki aji ka parèt pi kredib pase yon enstitisyon ki sèlman fè pwomès. Men menm yon pouvwa ki popilè bezwen règ ki pèmèt egzamine sa li fè.",
+            "en": "The demand for safety deserves to be heard without becoming unlimited authorization. Amid fear, an official who acts can appear more credible than institutions offering promises. Popular power still needs rules allowing its actions to be examined."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Yon Leta serye dwe kapab esplike yon arestasyon, konsève prèv, prezante yon dosye epi rann kont lè yon moun mouri anba fòs li. Sa mande polis ki gen mwayen ak tribinal ki kapab travay. Si nou abandone etap sa yo, yon akizasyon ka tounen yon santans anvan pèsonn egzamine prèv la.",
+            "en": "A serious state must explain arrests, preserve evidence, present cases and account for deaths involving its force. That requires functioning police and courts. Abandoning those stages allows accusation to become punishment before evidence is examined."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Se menm estanda a nou mande nenpòt kandida ki pwomèt retabli lòd. Ki pwoteksyon moun inosan genyen si yon responsab fè erè? Ki moun ki egzamine yon plent kont fòs sekirite? Rann kont se yon garanti sitwayen yo bezwen pou pouvwa ki pwoteje yo pa ka kraze yo san repons.",
+            "en": "Any candidate promising order should answer the same questions: what protects an innocent person from official error, and who investigates complaints against security forces? Accountability is a guarantee for citizens that the power protecting them cannot harm them without answering for it."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-public-scholarships-merit-civic-freedom",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Yon bous yon enstitisyon finanse dwe rete yon opòtinite pou sitwayen",
+        "en": "An institution-funded scholarship should remain a civic opportunity"
+      },
+      "description": {
+        "ht": "Pozisyon nou: rekonèt moun ki ouvri yon pòt pa dwe fè benefisyè a santi li dwe bay yon angajman politik an retou.",
+        "en": "Our view: crediting someone who opens a door should never create a political obligation for the recipient."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan istwa bous Ayiti–Lafrans pwòp sit Jerry Tardieu pibliye an 2016, BRH parèt kòm finansè premye gwoup etidyan an. Tèks la rapòte patnè yo te pwomèt seleksyon sou merit. Sa bay yon baz ki itil: moun ki te ede rasanble patnè yo ak enstitisyon ki te peye a pa dwe konfonn.",
+            "en": "Tardieu’s own 2016 scholarship account names BRH as financier of the first cohort and records partners’ promise of merit-based selection. It supplies a useful starting point: the person assembling partners and the institution providing funding should remain distinguishable."
+          },
+          "sources": [
+            "tardieu-scholarships-brh-2016"
+          ]
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Nou ka rekonèt sèvis yon depite san nou pa transfòme yon opòtinite enstitisyonèl an yon dèt pèsonèl. Yon etidyan dwe kapab di mèsi, kenbe pwòp opinyon li epi vote jan konsyans li di l. Rekonesans pa dwe yon kontra politik ki pa ekri.",
+            "en": "A deputy’s service can be credited without making an institutional opportunity a personal debt. A student should be free to express thanks, retain independent opinions and vote freely. Gratitude must not become an unwritten political contract."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Pou sa, règ yo bezwen parèt anvan lis benefisyè yo: kondisyon pou aplike, kritè seleksyon, moun ki pran desizyon ak fason pou konteste yon erè. Lè enstitisyon an bay règ sa yo klèman, li pwoteje ni etidyan yo ni moun ki te defann pwogram nan kont akizasyon san prèv.",
+            "en": "Rules should precede the beneficiary list: eligibility, selection criteria, decision-makers and a way to challenge error. Publishing them protects both students and those who advocated the programme against unsupported allegations."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Nou pa di pwogram Tardieu a te achte vòt oswa te chwazi moun sou baz patipri. Sous la pa pwouve sa. Nou defann yon prensip pou tout kandida ak tout pwogram: fè sèvis la kontinye san li pa depann de lwayote ak yon moun. Pi gwo reyalizasyon yon lidè ka kite se yon pòt ki rete ouvè menm lè se yon lòt moun ki sou pouvwa a.",
+            "en": "This does not allege vote-buying or partisan scholarship selection; the source establishes neither. Our principle applies to every candidate and programme: services should continue independently of personal loyalty. Leadership can leave its strongest legacy in an opportunity that remains open after power changes hands."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-party-nomination-public-debate-candidates",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-07a633c73b3950999f76",
+        "c-270874e16ee85d36bc51"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Lè pati yo fin chwazi, se pou deba piblik la kòmanse",
+        "en": "After parties choose, public debate should begin"
+      },
+      "description": {
+        "ht": "Pozisyon nou: yon nominasyon dwe ouvri egzamen pwogram nan devan sitwayen, olye li fèmen kesyon yo andedan yon òganizasyon.",
+        "en": "Our view: nomination should open a programme to public scrutiny rather than close questions inside an organization."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kayimit News rapòte Debout Patriotes te chwazi Michelet Nestor pa konsansis an Novanm 2026. Vant Bèf Info te rapòte yon primè entèn pou Wilner Joseph nan Viktwa an Septanm. De fason diferan sa yo ka chwazi yon moun pou pote koulè yon òganizasyon. Yo pa ranplase eleksyon kote sitwayen deside kiyès ki pral dirije.",
+            "en": "Kayimit News reports Debout Patriotes selecting Nestor by consensus in November 2026. Vant Bèf Info reports Viktwa’s internal primary for Wilner Joseph in September. Different mechanisms can select an organization’s standard-bearer. They do not replace the public election deciding who governs."
+          },
+          "sources": [
+            "nestor-dpa-registration-2026",
+            "wilner-adviser-registration-2026"
+          ]
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Yon pati gen dwa esplike poukisa li fè yon chwa. Sitwayen yo gen dwa mande sa chwa a pote: ki pwoblèm kandida a pral trete an premye, ki lajan ki disponib ak ki rezilta ki ka verifye. Aplodisman nan yon sal pa reponn kesyon sa yo.",
+            "en": "A party can explain its choice. Citizens can ask what that choice offers: first priorities, available funding and verifiable outcomes. Applause in a hall cannot answer those questions."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Nou defann deba kote kandida yo resevwa kesyon ki konparab epi kote repons yo rete disponib pou tout moun. Pa egzanp, si yon moun pwomèt plis polisye, li dwe esplike fòmasyon ak depans yo. Si yon lòt pwomèt plis lekòl, li dwe esplike pwofesè ak finansman. Menm prensip la sèvi pou egzamine plan ki diferan.",
+            "en": "We support debates with comparable questions and publicly accessible answers. A promise of more police should explain training and cost; more schools should explain teachers and financing. A consistent principle can examine different plans."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "ht": "Sa pa mande yon seri nòt nou envante pou deklare yon gayan. Li mande sous, repons klè ak espas pou moun verifye sa yo tande. Lè yon pati fin chwazi kandida li, travay pou konvenk ak prèv la fèk kòmanse. Pati a ka bay yon moun manda pou reprezante li; se devan piblik la moun nan dwe montre sa manda sa a vo.",
+            "en": "That does not require invented scores declaring a winner. It requires sources, clear answers and room to verify claims. Nomination begins the work of making an evidence-based case. A party may authorize someone to represent it; the public must be able to assess what that mandate offers."
           },
           "sources": []
         }

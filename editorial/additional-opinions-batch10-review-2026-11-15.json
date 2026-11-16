@@ -1,0 +1,32 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_articles": 5,
+  "kind": "opinion",
+  "articles": [
+    "opinion-transition-deadlines-belong-to-citizens",
+    "opinion-family-ties-follow-public-decisions",
+    "opinion-security-muscadin-accountability-courts",
+    "opinion-public-scholarships-merit-civic-freedom",
+    "opinion-party-nomination-public-debate-candidates"
+  ],
+  "languages": [
+    "ht",
+    "en"
+  ],
+  "independent_language_review": {
+    "ht_only_retellings_saved_before_english": true,
+    "paired_passages_checked": 48,
+    "required_replacements_applied": 4,
+    "optional_refinements_applied": 3,
+    "word_ceiling_per_article_per_language": 500
+  },
+  "source_checks": [
+    "Factual openings retain attribution and dated scope; subsequent arguments explicitly labeled as the publisher opinion.",
+    "No candidate endorsements or invented public-opinion poll scores.",
+    "2016Privert term and2024CPTterm distinguished; no claim2024council stayed after its mandate.",
+    "Kinship not guilt; official roles and financial interests are the public-interest focus.",
+    "UN2026Muscadin possible-involvement findings not convictions or a complete updated fatality total.",
+    "Tardieu own2016account identifiesBRHfunding and merit promises; no allegation that scholarships bought votes.",
+    "Internal party selection distinguished from a public election mandate."
+  ]
+}
