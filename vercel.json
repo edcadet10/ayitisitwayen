@@ -10,6 +10,48 @@
       ],
       "destination": "https://www.ayitisitwayen.org/$1",
       "permanent": true
+    },
+    {
+      "source": "/:page((?:[A-Za-z0-9_-]+\\.html|(?:candidates|elections/analysis)(?:/[^.]*(?:\\.html)?)?|))",
+      "has": [
+        {"type": "header", "key": "sec-fetch-dest", "value": "document"},
+        {"type": "cookie", "key": "ayiti_lang", "value": "en"}
+      ],
+      "destination": "/en/:page",
+      "permanent": false
+    },
+    {
+      "source": "/:page((?:[A-Za-z0-9_-]+\\.html|(?:candidates|elections/analysis)(?:/[^.]*(?:\\.html)?)?|))",
+      "has": [
+        {"type": "header", "key": "sec-fetch-dest", "value": "document"}
+      ],
+      "missing": [
+        {"type": "cookie", "key": "ayiti_lang", "value": "ht"},
+        {"type": "header", "key": "x-vercel-ip-country", "value": "HT"}
+      ],
+      "destination": "/en/:page",
+      "permanent": false
+    },
+    {
+      "source": "/en/:page((?:[A-Za-z0-9_-]+\\.html|(?:candidates|elections/analysis)(?:/[^.]*(?:\\.html)?)?|))",
+      "has": [
+        {"type": "header", "key": "sec-fetch-dest", "value": "document"},
+        {"type": "cookie", "key": "ayiti_lang", "value": "ht"}
+      ],
+      "destination": "/:page",
+      "permanent": false
+    },
+    {
+      "source": "/en/:page((?:[A-Za-z0-9_-]+\\.html|(?:candidates|elections/analysis)(?:/[^.]*(?:\\.html)?)?|))",
+      "has": [
+        {"type": "header", "key": "sec-fetch-dest", "value": "document"},
+        {"type": "header", "key": "x-vercel-ip-country", "value": "HT"}
+      ],
+      "missing": [
+        {"type": "cookie", "key": "ayiti_lang", "value": "en"}
+      ],
+      "destination": "/:page",
+      "permanent": false
     }
   ],
   "headers": [

@@ -5,7 +5,12 @@
     menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));links.classList.toggle('active',open);});
     document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){menu.setAttribute('aria-expanded','false');links.classList.remove('active');menu.focus();}});
   }
-  document.querySelector('.lang-switch')?.addEventListener('click',event=>{if(location.hash)event.currentTarget.hash=location.hash;try{localStorage.setItem('lang',document.documentElement.lang==='en'?'ht':'en');}catch(_){}});
+  document.querySelector('.lang-switch')?.addEventListener('click',event=>{
+    if(location.hash)event.currentTarget.hash=location.hash;
+    const lang=document.documentElement.lang==='en'?'ht':'en';
+    document.cookie='ayiti_lang='+lang+'; Max-Age=31536000; Path=/; SameSite=Lax; Secure';
+    try{localStorage.setItem('lang',lang);}catch(_){}
+  });
   function revealPortrait(image){
     if(image.dataset.portraitSizes)image.sizes=image.dataset.portraitSizes;
     if(image.dataset.portraitSrcset)image.srcset=image.dataset.portraitSrcset;

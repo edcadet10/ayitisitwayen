@@ -1,6 +1,6 @@
 // Ayiti Sitwayen - JavaScript
 
-// Language Toggle (persisted across pages via localStorage; Kreyòl is the default)
+// Language choice overrides the country default on every page.
 const DEFAULT_TITLE = document.title;
 
 const EN_TITLES = {
@@ -42,7 +42,23 @@ const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)
 // The language this document was authored in (ht pages vs /en/ pages)
 const DOC_LANG = document.documentElement.lang === 'en' ? 'en' : 'ht';
 
-let currentLang = localStorage.getItem('lang') === 'en' ? 'en' : 'ht';
+function storedLanguage() {
+    const query = new URLSearchParams(location.search).get('lang');
+    if (query === 'ht' || query === 'en') return query;
+    const cookie = document.cookie.match(/(?:^|;\s*)ayiti_lang=(ht|en)(?:;|$)/);
+    if (cookie) return cookie[1];
+    try {
+        const stored = localStorage.getItem('lang');
+        return stored === 'ht' || stored === 'en' ? stored : null;
+    } catch (_) { return null; }
+}
+
+function rememberLanguage(lang) {
+    document.cookie = 'ayiti_lang=' + lang + '; Max-Age=31536000; Path=/; SameSite=Lax; Secure';
+    try { localStorage.setItem('lang', lang); } catch (_) {}
+}
+
+let currentLang = storedLanguage() || DOC_LANG;
 
 // Real URL of this page in the other language (from the hreflang cluster)
 function alternateUrl(lang) {
@@ -57,7 +73,7 @@ function pageFile() {
 
 function applyLanguage(lang) {
     currentLang = lang;
-    localStorage.setItem('lang', lang);
+    rememberLanguage(lang);
 
     // Swap all bilingual elements (inputs swap their placeholder, not innerHTML)
     document.querySelectorAll('[data-ht][data-en]').forEach(element => {
@@ -95,7 +111,7 @@ function applyLanguage(lang) {
 
 function toggleLanguage() {
     const target = DOC_LANG === 'ht' ? 'en' : 'ht';
-    localStorage.setItem('lang', target);
+    rememberLanguage(target);
     const url = alternateUrl(target);
     if (url) {
         // Each language lives at its own crawlable URL
@@ -108,7 +124,10 @@ function toggleLanguage() {
 // Honor an explicit stored language choice by moving to that language's URL.
 // Fresh visitors (no stored choice) always stay on the page they landed on.
 (function () {
-    const stored = localStorage.getItem('lang');
+    const stored = storedLanguage();
+    // Migrate old explicit choices before redirecting, preventing a country/
+    // localStorage loop. Merely opening a page does not save its language.
+    if (stored) rememberLanguage(stored);
     if (!stored || stored === DOC_LANG) return;
     const url = alternateUrl(stored);
     if (url && url !== window.location.href) {

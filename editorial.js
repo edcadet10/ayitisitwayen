@@ -15,7 +15,9 @@
   });
   document.querySelector('.lang-switch')?.addEventListener('click', event => {
     if (location.hash) event.currentTarget.hash = location.hash;
-    try { localStorage.setItem('lang', document.documentElement.lang === 'en' ? 'ht' : 'en'); } catch (_) {}
+    const lang = document.documentElement.lang === 'en' ? 'ht' : 'en';
+    document.cookie = 'ayiti_lang=' + lang + '; Max-Age=31536000; Path=/; SameSite=Lax; Secure';
+    try { localStorage.setItem('lang', lang); } catch (_) {}
   });
   const tools = document.querySelector('.editorial-tools');
   const filters = document.querySelector('.editorial-filters');
