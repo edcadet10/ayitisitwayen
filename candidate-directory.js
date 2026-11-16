@@ -45,6 +45,7 @@
     else{const initials=element('span','candidate-initials',row.initials);initials.setAttribute('aria-hidden','true');photo.append(initials,element('span','photo-pending',c.photo_pending));}
     const arrow=element('span','photo-open','↗');arrow.setAttribute('aria-hidden','true');photo.append(arrow);
     const info=element('div','candidate-card-info');info.append(element('p','candidate-card-office',c[row.office]+' · '+row.party),element('h2','',row.name),element('p','candidate-card-place',row.locality.join(' · ')),element('span','candidate-status',c[row.status]));
+    if(row.name_variants?.length)info.querySelector('h2').after(element('p','candidate-card-alias',c.names_in_sources+': '+row.name_variants.join(' · ')));
     const role=element('p','candidate-card-position',c.position+': '+(c[positionKeys[row.position]]||row.position));info.querySelector('.candidate-status').before(role);
     const action=element('span','candidate-card-cta',c.view_web);action.append(element('span','','↗'));info.append(action);link.append(photo);if(row.portrait)link.append(element('p','candidate-card-photo-credit',c.photo_credit+': '+row.portrait.credit));link.append(info);article.append(link);return article;
   }

@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-11-16",
+  "candidate_id": "c-7a166482a2bb5b41af62",
+  "registered_name": "MARIE ETIENNE MARTINE JOSEPH MOISE",
+  "published_name": "Martine Moïse",
+  "party_code": "GAD",
+  "CEP_presidential_count": 33,
+  "CEP_checked_at": "2026-11-16T12:50:08.713144+00:00",
+  "registration_status": "preliminary",
+  "change": "Show existing source-verified name variants on native and filtered candidate cards; preserve the official registered name and single existing profile.",
+  "grounded_failure_before_change": "Both live directory languages had the registered name and photo, but no visible Martine Moïse alias. Her existing profile already displayed the alias.",
+  "independent_registry_addition_needed": false,
+  "browser_cases": 8,
+  "coverage": [
+    "HT and EN",
+    "390px and1280px",
+    "JavaScript enabled and disabled",
+    "accented public name, unaccented public name and registered-name search",
+    "photo loaded, GAD code, native alias, profile link and horizontal overflow"
+  ],
+  "translation": "Reuses the existing reviewed names_in_sources label and verified proper names; no new translated copy.",
+  "result": "pass"
+}

@@ -34,3 +34,6 @@
 .candidate-official-websites ul { padding-left: 1.2rem; }
 .candidate-official-websites li { margin: 1rem 0; overflow-wrap: anywhere; }
 .candidate-official-websites p { line-height: 1.7; font-size: .9rem; color: #444; }
+
+.candidate-card-alias{font-size:11px;line-height:1.55;color:#36566c;margin:7px 0;overflow-wrap:anywhere}
+@media(max-width:650px){.candidate-card-alias{font-size:10px}}
