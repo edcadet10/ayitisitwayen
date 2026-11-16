@@ -2629,6 +2629,62 @@
         "ht": "Rapò P156719, paj 2: anviwon 35% travay yo te fèt, ak Avril 2027 kòm dat fini yo espere. Se avansman chantye dapre finansè a, pa sèvis ki deja livre. Nou pa melanje chif kapasite diferan nan rezime ak tablo rapò a.",
         "en": "P156719, page 2: works approximately 35% complete, with April 2027 expected completion. This is financier-reported construction progress, not delivered service. Differing capacity figures in the summary and tables are not merged."
       }
+    },
+    "ohchr-defenders-dermalog-2021": {
+      "publisher": "UN Special Procedures mandate holders",
+      "url": "https://spcommreports.ohchr.org/TMResultsBase/DownLoadPublicCommunicationFile?gId=25874",
+      "published_at": "2021-02-05",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Ekspè Nasyonzini yo mande repons sou menas kont defansè dwa moun",
+        "en": "UN experts request answers about threats against rights defenders"
+      },
+      "note": {
+        "ht": "Kominikasyon AL HTI 1/2021, sitou paj 3 ak 5–6. Li rapòte akizasyon sou menas ak mande ankèt; li pa idantifye Martine Moïse oswa konpayi Dermalog kòm otè menas yo, ni li pa yon vèdik.",
+        "en": "Communication AL HTI 1/2021, especially pages 3 and 5–6. It relays threat allegations and seeks investigation; it identifies neither Martine Moïse nor Dermalog as the threat authors and is not a verdict."
+      }
+    },
+    "iachr-occius-protection-2021": {
+      "publisher": "Inter-American Commission on Human Rights",
+      "url": "https://www.oas.org/en/iachr/decisions/mc/2021/res_74-21_mc_1175-20_ca_en.pdf",
+      "published_at": "2021-09-04",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "CIDH: rezolisyon 74/2021 pou pwoteksyon Camille Occius",
+        "en": "IACHR: resolution 74/2021 on Camille Occius’s protection"
+      },
+      "note": {
+        "ht": "Dispozitif la nan paj 9–10 mande pwoteksyon, konsiltasyon ak swivi. Se yon evalyasyon risk pou mezi konsèvatwa, pa yon jijman sou kilpabilite yon kandida. Absans repons Leta a rapòte pou dat rezolisyon an, pa pou tout ane ki vini apre yo. Detay fanmi prive yo pa repwodui.",
+        "en": "Pages 9–10 request protection, consultation and follow-up. This precautionary risk assessment does not adjudicate a candidate’s guilt. State nonresponse is reported as of the resolution, not all later years. Private family details are not reproduced."
+      }
+    },
+    "brh-credit-geography-octdec2025": {
+      "publisher": "Banque de la République d’Haïti",
+      "url": "https://www.brh.ht/wp-content/uploads/Note-sur-la-Politique-Moneetaire-premier-trimestre-de-lexercice-fiscal-2025-2026-octobre-deecembre-2025-.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "BRH: distribisyon kredi pa depatman, paj 16",
+        "en": "BRH: credit distribution by department, page 16"
+      },
+      "note": {
+        "ht": "Done Oktòb–Desanm 2025: 75.64% pou Lwès, 0.68% pou Nòdwès. Se kredi sistèm finansye a dapre klasifikasyon rapò a, pa sèlman kredi agrikòl, kantite elektè oswa kat tout kote envestisman yo fèt.",
+        "en": "October–December 2025: Ouest 75.64%, Nord-Ouest 0.68%. These describe financial-system credit under the report’s classification, not agricultural lending alone, voter totals or a map of every investment’s physical location."
+      }
+    },
+    "wb-ppp-contract-guide-2019": {
+      "publisher": "World Bank",
+      "url": "https://ppp.worldbank.org/sites/default/files/2021-03/Guidance%20on%20PPP%20Contractual%20Provisions_2019%20edition.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Bank mondyal: eleman yon kontra patenarya piblik-prive",
+        "en": "World Bank: elements of a public-private partnership contract"
+      },
+      "note": {
+        "ht": "Gid edisyon 2019 la separe kontra pou yon byen oswa sèvis piblik ak lòt finansman prive. Li se yon referans jeneral, pa yon desizyon sou estati legal yon pwojè ayisyen patikilye.",
+        "en": "The 2019 guide distinguishes public-asset/service contracts from other private financing. It is general guidance, not a ruling on a particular Haitian project’s legal status."
+      }
     }
   },
   "articles": [
@@ -12434,6 +12490,689 @@
           "text": {
             "ht": "Pou yon elektè, kesyon pou toude se ki chemen plent yo ta pwoteje: chemen ajan ki maltrete nan travay li, ak chemen sitwayen ki di yon ajan fè abi sou li. Si youn disparèt, sèvis piblik la pèdi yon kontwòl. Sekirite bezwen moun ki byen trete epi ki dwe rann kont.",
             "en": "Voters can ask which complaint channels both would protect: for an officer mistreated at work and for a citizen alleging official abuse. Losing either removes a check on public service. Security needs personnel treated fairly and held accountable."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "opinion-dermalog-critics-protection-public-scrutiny",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-7a166482a2bb5b41af62"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Opinyon: egzamen yon kontra bezwen moun ki ka poze kesyon san menas",
+        "en": "Opinion: scrutiny of a contract needs people able to question it without threats"
+      },
+      "description": {
+        "ht": "Dosye Dermalog la gen yon lòt tras: pwoteksyon moun ki te kritike l. Sa pa bay pèmisyon pou envante otè menas yo.",
+        "en": "Dermalog has another documentary trail: protection of those who criticized it. That does not permit inventing the threats’ authors."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè yon kontra Leta konteste, piblik la bezwen plis pase de vèsyon k ap lite nan medya. Li bezwen moun ki kapab pote plent, bay enfòmasyon ak reponn devan lajistis san pè pou lavi yo. Pwoteksyon sa a ede ni moun k ap akize a ni moun yo akize a: li pèmèt egzamine prèv.",
+            "en": "When a state contract is contested, the public needs more than competing media accounts. People must be able to complain, provide information and answer justice without fearing for their lives. That protection serves complainants and accused people alike by allowing evidence to be examined."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nan kominikasyon 5 Fevriye 2021 yo a, ekspè Nasyonzini te rapòte menas kont Camille Occius apre kritik ak aksyon li sou Dermalog. Lèt la mande Leta enfòmasyon sou ankèt ak pwoteksyon. Li pale de otè ki pa idantifye. Nou pa atribye menas yo ak Martine Moïse, konpayi an oswa yon lòt kandida.",
+            "en": "In their February 5, 2021 communication, UN experts relayed threats against Camille Occius after his Dermalog criticism and actions. They requested state information on investigation and protection. The letter describes unidentified perpetrators. We attribute the threats to neither Martine Moïse, the company nor another candidate."
+          },
+          "sources": [
+            "ohchr-defenders-dermalog-2021"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Gen yon desizyon presi tou: rezolisyon CIDH 74/2021, 4 Septanm 2021, mande Ayiti pwoteje Occius, pèmèt travay li kontinye epi fè swivi sou ankèt. Komisyon an te konsidere risk la grav ak ijan sou premye egzamen li. Li presize mezi a pa yon jijman sou vyolasyon dwa yo oswa kilpabilite yon moun.",
+            "en": "There is also a specific decision: IACHR resolution 74/2021, dated September 4, 2021, requests Haiti to protect Occius, enable his work and report on investigation. The Commission considered the risk serious and urgent on its initial assessment. It specifies that the measure does not prejudge rights violations or individual guilt."
+          },
+          "sources": [
+            "iachr-occius-protection-2021"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa gen yon dosye konplè ki montre tout swivi apre rezolisyon an. Nou kenbe tou demanti biwo Martine sou enfliyans li nan kontra a. Dwa li pou defann tèt li ak dwa yon kritik pou rete vivan pa an kontradiksyon. Toude bezwen yon pwosesis ki mache ak dokiman.",
+            "en": "We lack a complete record of later implementation. We also retain Martine’s office’s denial of influence over the contract. Her right to defend herself and a critic’s right to remain safe are compatible. Both require a functioning documentary process."
+          },
+          "sources": [
+            "martine-dermalog-denial-2018"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Opinyon nou se sa: kandida yo dwe angaje yo pou pwoteje moun k ap egzamine kontra yo, menm lè kritik la enkonvenyan. Sa mande yon kote endepandan pou depoze plent ak yon swivi ki ka verifye. San sa, piblik la ka pa janm konnen si yon kontra bon oswa move; li ka sèlman konnen kiyès ki te pi pè pale.",
+            "en": "Our view is that candidates should protect those examining contracts even when criticism is inconvenient. That requires independent complaint channels and verifiable follow-up. Otherwise the public may never learn whether a contract was sound; it may learn only who was most afraid to speak."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "opinion-agricultural-credit-ouest-regional-access",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60",
+        "c-c95770456abb5c95962b"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Opinyon: yon bank agrikòl dwe chanje kote kredi a rive",
+        "en": "Opinion: an agricultural bank must change where credit reaches"
+      },
+      "description": {
+        "ht": "BRH rapòte 75.64% kredi nan Lwès pou yon trimès. Pwomès sou finansman riral bezwen yon mezi ki montre kijan yo rive pi lwen.",
+        "en": "BRH reports 75.64% of credit in Ouest for one quarter. Rural-finance promises need measures of how lending reaches beyond it."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yo ka louvri yon bank ak mo agrikòl sou pòt la san yon pwodiktè andeyò jwenn yon prè alè. Non enstitisyon an pa di kote lajan an rive. Sa se tès nou ta aplike ni ak bank agrikòl MPH Munir Mourra pwopoze a ni ak kredi riral pwogram Etzer Emile la.",
+            "en": "A bank can open with agricultural in its name while a rural producer still lacks timely credit. The institution’s name does not establish where money reaches. That is our test for MPH candidate Munir Mourra’s proposed bank and Etzer Emile’s rural-credit programme."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nòt BRH pou Oktòb–Desanm 2025 la bay Lwès 75.64% kredi sistèm finansye a, kont 0.68% pou Nòdwès. Se pa yon tablo kredi agrikòl sèlman. Klasifikasyon kote yon prè anrejistre a pa nesesèman kat tout kote lajan sa a sèvi nonplis. Men konsantrasyon rapòte a mande egzamen.",
+            "en": "BRH’s October–December 2025 note assigns Ouest 75.64% of financial-system credit and Nord-Ouest 0.68%. This is not agricultural credit alone. Where a loan is recorded is not necessarily a map of every place its funds serve. The reported concentration nevertheless warrants examination."
+          },
+          "sources": [
+            "brh-credit-geography-octdec2025"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa dedui yon prè te refize poutèt moun nan soti yon depatman. Chif sa yo pa pwouve diskriminasyon nan yon desizyon endividyèl. Yo montre poukisa yon pwomès nasyonal dwe bay plis pase yon total lajan: bezwen konnen kote demann fèt, kote yo apwouve yo ak sa lajan an finanse.",
+            "en": "We do not infer that a particular borrower was rejected because of their department. The figures establish no discriminatory individual decision. They show why a national promise needs more than a money total: where applications originate, where approvals occur and what the funds finance."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Opinyon nou se mete sèvis la sou kat pwodiktè a. Ki kote li ka depoze demann san plizyè vwayaj, ki papye yo aksepte, konbyen tan desizyon pran ak kilè premye peman rive? Dwe gen yon mezi pou moun ki pa gen garanti fasil ak yon fason pou konteste yon refi.",
+            "en": "Our view is to map service around the producer: where they apply without repeated journeys, which documents are accepted, decision time and first payment date. There should be measures for applicants lacking easy collateral and a route to challenge refusal."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon nouvo bank oswa fon kredi ta dwe pibliye rezilta pa depatman ak kalite aktivite, avèk pwoteksyon done pèsonèl. Se konsa piblik la ka wè si yon chanjman non vin tounen yon chanjman aksè. Yon plan riral pa dwe sèlman jwenn lajan ki te deja pi fasil pou jwenn nan menm kote yo.",
+            "en": "A new bank or credit fund should publish results by department and activity while protecting personal data. That lets the public distinguish a new name from changed access. A rural plan should not merely reproduce lending already easiest to obtain in the same places."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martine-moise-vs-dominique-dupuy",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-7a166482a2bb5b41af62",
+        "c-85da87af028d528d8f83"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Martine Moïse ak Dominique Dupuy: reprezante peyi a pa esplike tout pouvwa yon pòs",
+        "en": "Martine Moïse vs Dominique Dupuy: representing Haiti does not explain every power of an office"
+      },
+      "description": {
+        "ht": "Yon wòl kowòdinasyon sante an 2018 ak yon ministè an 2024 mande pou nou separe aparans piblik, desizyon ak responsablite.",
+        "en": "A 2018 health-coordination role and a 2024 ministry require separating public appearances, decisions and accountability."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè yon moun pale nan non peyi a aletranje, yon foto pa di ki desizyon li kapab pran. Dosye Martine Moïse ak Dominique Dupuy mande egzamine manda a: ki moun ki reprezante, ki moun ki siyen ak ki moun ki ka chanje yon sèvis?",
+            "en": "When someone speaks for Haiti abroad, a photograph does not establish their decision-making powers. Martine Moïse and Dominique Dupuy require scrutiny of mandates: who represents, who signs and who can change a service?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kominike Sant Carter Avril 2018 la idantifye Martine kòm premye dam ak prezidan mekanis kowòdinasyon nasyonal Fon mondyal la. Fon mondyal dekri yon komite ki kowòdone demann finansman epi siveye sibvansyon. Sa pa etabli li te dirije tout pwogram malarya oswa jere tout depans patnè yo.",
+            "en": "The Carter Center’s April 2018 release identifies Martine as first lady and chair of the Global Fund Country Coordinating Mechanism. The Fund describes committees coordinating funding applications and overseeing grants. That does not establish her management of all malaria programmes or partners’ expenditure."
+          },
+          "sources": [
+            "carter-martine-malaria-2018",
+            "globalfund-ccm-functions"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Jiyè 2024, kòm minis afè etranjè, Dupuy te defann rapèl pèsonèl diplomatik yo kòm yon refòm sou konpetans ak depans. Métropole rapòte plis pase 80 moun te konsène, san yon lis konplè pandan entèvansyon an. Rapò a raple tou wòl Konsèy Prezidansyèl la nan nominasyon anbasadè yo.",
+            "en": "In July 2024, as foreign minister, Dupuy defended diplomatic recalls as reform concerning competence and costs. Métropole reported more than 80 people affected, without a complete list during that appearance. It also identifies the Presidential Council’s role in ambassadorial appointments."
+          },
+          "sources": [
+            "dupuy-diplomat-recalls"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Se de fòm responsablite diferan. Pou Martine, yon bilan dwe presize desizyon komite a, rapò li te egzamine ak sa li te mande korije. Pou Dupuy, li dwe konekte rapèl, ranplasman, depans ak delè sèvis konsila. Nou pa mete yon tit komite ak tout pouvwa yon minis nan menm bwat.",
+            "en": "These are different responsibilities. Martine’s record needs committee decisions, reports reviewed and corrections sought. Dupuy’s needs recalls connected to replacements, expenditure and consular-service delays. A committee title cannot simply be equated with a minister’s full authority."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou konpare kandida yo, sa ki pi itil se yon chenn ki gen non moun ak dat: ki desizyon yo te kapab pran, kiyès ki te dwe dakò ak ki rezilta ki swiv? Sa pèmèt bay kredi ak mande kont san fè yon foto entènasyonal tounen yon bilan administrasyon.",
+            "en": "A useful comparison follows a dated chain of responsibility: which decisions they could make, whose agreement was needed and what followed. That permits credit and accountability without treating an international photograph as an administrative record."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "gandhy-dorfeuille-vs-munir-mourra",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-6294b51c7cdc5f969078",
+        "c-c95770456abb5c95962b"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Gandhy Dorfeuille ak Munir Mourra: kalandriye yon chantye pa menm ak lè limyè rive",
+        "en": "Gandhy Dorfeuille vs Munir Mourra: construction schedules differ from the hours electricity arrives"
+      },
+      "description": {
+        "ht": "Senlwidisid an 2014 ak yon dosye Jakmèl an 2026 bay de fason pou egzamine rezilta yon pwomès enèji.",
+        "en": "Saint-Louis du Sud in 2014 and a Jacmel record in 2026 provide two ways to examine an energy promise’s results."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon liy elektrik ki lanse ak yon santral ki sou papye pa menm bagay ak limyè ki rive chak swa. Konpare Gandhy Dorfeuille ak Munir Mourra mande suiv twa etap: lajan angaje, travay fèt ak sèvis moun jwenn. Dosye yo konsène vil ak peryòd diferan.",
+            "en": "An electricity-line launch and a plant on paper are different from power arriving nightly. Comparing Gandhy Dorfeuille and Munir Mourra means following committed money, completed works and delivered service. Their records concern different cities and periods."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Le Nouvelliste rapòte an Avril 2014 yon dezyèm faz elèktrifikasyon Senlwidisid, ak depite Dorfeuille pami responsab yo. Ekstrè piblik la bay 24 milyon goud kòm bidjè ak 18 milyon disponib. Sis milyon diferans lan pa otomatikman lajan ki manke; li se diferans ant de etap finansman.",
+            "en": "Le Nouvelliste reported a second electrification phase in Saint-Louis du Sud in April 2014, naming deputy Dorfeuille among officials involved. Its public excerpt gives a 24-million-gourde budget and 18 million available. The six-million difference is not automatically missing money; it separates financing stages."
+          },
+          "sources": [
+            "dorfeuille-electricity-2014"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Mourra, manifès MPH la pwopoze reyamenaje santral ak devlope solè ak ewolyèn. Gen yon baz aktyèl pou pran an kont: rapò Bank mondyal Oktòb 2026 di chantye solè ak batri Jakmèl te anviwon 35% fini. Sa pa ni yon reyalizasyon Mourra ni yon mezi tout aksè elektrik peyi a.",
+            "en": "For Mourra, MPH proposes plant rehabilitation and solar and wind development. An existing baseline matters: the World Bank’s October 2026 report puts Jacmel’s solar-and-battery works at approximately 35% completion. That is neither Mourra’s achievement nor a national electricity-access measure."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "wb-jacmel-progress-20261026"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Dosye istorik Dorfeuille la bezwen dokiman livrezon ak prèv sèvis. Pwopozisyon Mourra a bezwen yon envantè pwojè ak yon plan ki konekte yo. Nou pa rele absans dokiman livrezon nan yon ekstrè prèv echèk; nou pa rele yon pwopozisyon prèv finansman nonplis.",
+            "en": "Dorfeuille’s historical record needs delivery documents and service evidence. Mourra’s proposal needs a project inventory and a plan connecting projects. Missing delivery records in an excerpt do not establish failure; a proposal does not establish financing."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Tès komen an se lavi kay la: èdtan sèvis, pri koneksyon, fakti ak reparasyon. Lajan ak beton ede sèlman si yo antre nan chenn sa a. Se sa ki ta fè yon elektè konpare yon ansyen pwojè ak yon nouvo angajman sou rezilta li ka wè.",
+            "en": "The common test is household life: service hours, connection cost, bills and repairs. Money and concrete help when connected to that chain. It gives voters observable outcomes for comparing an old project and a new commitment."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "munir-mourra-vs-jerry-tardieu",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b",
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Munir Mourra ak Jerry Tardieu: patenarya pa vle di menm kalite kontra",
+        "en": "Munir Mourra vs Jerry Tardieu: partnership does not always mean the same contract"
+      },
+      "description": {
+        "ht": "Sant distribisyon agrikòl yo pwopoze nan MPH ak finansman Royal Oasis mande separe prè, kapital ak responsablite Leta.",
+        "en": "MPH’s proposed farm-distribution centres and Royal Oasis financing require separating loans, equity and state responsibility."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Mo patenarya ka fè tout lajan parèt nan yon sèl kategori. Men yon bank ki prete yon otèl lajan, yon envestisè ki achte aksyon ak yon konpayi ki opere yon sèvis piblik pa pran menm obligasyon. Dosye Munir Mourra ak Jerry Tardieu bay yon rezon pou suiv kontra a.",
+            "en": "Partnership can make different money appear interchangeable. A bank lending to a hotel, an investor buying shares and a company operating a public service take different obligations. Munir Mourra and Jerry Tardieu provide reasons to follow the contract."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Manifès MPH Mourra pote a pwopoze sant distribisyon agrikòl nan patenarya piblik-prive. Li pa bay kontra nou verifye sou kiyès ki posede sant yo, kiyès ki fikse frè oswa kiyès ki pote pèt lè revni pa sifi. Se yon pwopozisyon pou egzamine, pa yon sistèm ki deja livre.",
+            "en": "MPH’s manifesto carried by Mourra proposes agricultural distribution centres through public-private partnerships. It provides no verified contracts allocating ownership, fees or losses when revenue falls short. This is a proposal to examine, not an operating system."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "mph-candidate-mourra"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò IFC 2011 la prezante Tardieu kòm chèf egzekitif Oasis Hotel epi li dekri yon prè 7.5 milyon dola ameriken ki te ede atire 15 milyon nan men envestisè. Sa pa etabli Royal Oasis te yon patenarya piblik-prive ak Leta ayisyen. Yon finansè entènasyonal pa fè tout kontra prive tounen yon kontra sèvis piblik.",
+            "en": "IFC’s 2011 report identifies Tardieu as Oasis Hotel chief executive and describes a US$7.5 million loan helping attract US$15 million from investors. That does not establish Royal Oasis as a public-private partnership with the Haitian state. International financing does not turn every private deal into a public-service contract."
+          },
+          "sources": [
+            "ifc-oasis-loan-2011"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Gid Bank mondyal sou kontra patenarya yo mete yon relasyon sou tan ant yon otorite piblik ak yon pati prive, ak responsablite sou sèvis ak risk. Se yon referans jeneral, pa yon jijman sou dosye de kandida yo. Li montre poukisa nou bezwen otorite ki siyen, kalite peman ak règ lè sèvis la pa mache.",
+            "en": "The World Bank’s contract guide describes a long-term relationship between a public authority and private party with service and risk responsibilities. It is general guidance, not a ruling on either candidate. It shows why signatories, payment types and service-failure rules matter."
+          },
+          "sources": [
+            "wb-ppp-contract-guide-2019"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Mourra, priyorite a se montre dwa agrikiltè yo ak limit chay Leta. Pou Tardieu, se montre sa finansman antrepriz li te livre ak obligasyon ki te vini avè l. Yon bèl mo pa sifi pou eksplike kiyès ki touche revni ak kiyès ki peye lè yon pwojè tonbe.",
+            "en": "Mourra needs to show farmers’ rights and limits on the state’s burden. Tardieu can show what business financing delivered and its obligations. An attractive word cannot explain who receives revenue and who pays when a project fails."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "joanas-gue-vs-olivier-barrau",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-bf5bb68eea8a5b819128",
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Joanas Gué ak Olivier Barrau: yon rekòt ka bon, men mache a fèmen",
+        "en": "Joanas Gué vs Olivier Barrau: a harvest can be good while its market is closed"
+      },
+      "description": {
+        "ht": "Mango ki pa ka ekspòte ak asirans ki depann de lapli se de risk diferan pou menm lavi agrikòl la.",
+        "en": "Mangoes barred from export and rainfall-triggered insurance concern different risks within farming life."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon agrikiltè ka sove rekòt li epi toujou pa ka vann li nan mache li te espere a. Se diferans ant pwodiksyon ak aksè nan mache. Dosye Joanas Gué sou mango an 2007 ak asirans AIC Olivier Barrau a ede separe risk sa yo.",
+            "en": "A farmer can save a harvest and still be unable to sell in the expected market. Production and market access differ. Joanas Gué’s 2007 mango record and Olivier Barrau’s AIC insurance experience help separate those risks."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Jiyè 2007, ekspòtasyon mango Ozetazini te sispann apre yo te jwenn lav mouch vivan nan kagezon. Gué te anonse yon relansman pou sis izin 19 Jiyè. Men 31 Jiyè, Métropole te rapòte yon lòt sispansyon ak yon pwogram leta 25 milyon goud li te anonse pou konbat enfestasyon an.",
+            "en": "In July 2007, mango exports to the United States were suspended after live fruit-fly larvae were found in shipments. Gué announced a July 19 restart for six plants. By July 31, Métropole reported another suspension and his announced 25-million-gourde state programme against infestation."
+          },
+          "sources": [
+            "gue-mango-reopening-2007",
+            "gue-mango-new-suspension-2007"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2022, AIC, kote rapò konpayi an idantifye Barrau kòm prezidan konsèy administrasyon, te patisipe nan yon pilòt asirans ak PAM ak patnè. Li te konsène 4,990 ti eksplwatè agrikòl. Pwoteksyon ki dekri a te depann de mezi twòp lapli oswa mank lapli, pa yon garanti sou tout aksè nan mache ekspòtasyon.",
+            "en": "In 2022, AIC, whose report identifies Barrau as board president, participated in a WFP-partner insurance pilot for 4,990 smallholders. The described protection used excess-rainfall or rainfall-deficit measures, not a guarantee of all export-market access."
+          },
+          "sources": [
+            "aic-finances-2022",
+            "wfp-insurance-haiti-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou pa di se menm agrikiltè, menm rekòt oswa menm pwogram. Nou pa reklame yon kontra asirans te pwomèt kouvri yon risk li pa t kouvri. Konparezon an montre plizyè travay dwe fèt: kontwòl sanitè, transfòmasyon, transpò, kontra vant ak pwoteksyon finansye apre yon chòk.",
+            "en": "These are not presented as the same farmers, crop or programme. We do not claim an insurance contract promised a risk it excluded. The comparison shows distinct tasks: sanitary controls, processing, transport, sales contracts and financial protection after shocks."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Gué, bilan an mande prèv mache a te rete ouvè apre anons yo. Pou Barrau, li mande rezilta peman ak limit pwoteksyon an. Pou yon kandida k ap pale de relans agrikòl, kesyon komen an se ki risk plan an rezoud ak ki risk li kite sou do moun k ap pwodui a.",
+            "en": "Gué’s record needs evidence of sustained market access after announcements. Barrau’s needs payout results and coverage limits. For a candidate promising agricultural recovery, the shared question is which risks the plan addresses and which remain with producers."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "kely-bastien-vs-jocelerme-privert",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-eafa5d1131725d7384c9",
+        "c-cfa0ce450d335df39e36"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Kely Bastien ak Jocelerme Privert: lè delè yon pouvwa pwovizwa fini",
+        "en": "Kely Bastien vs Jocelerme Privert: when provisional power reaches its deadline"
+      },
+      "description": {
+        "ht": "Yon pozisyon an 2010 ak yon manda 120 jou an 2016 mete menm kesyon an sou tab la: kiyès ki deside apre delè a?",
+        "en": "A 2010 position and a 120-day mandate in 2016 raise a shared question: who decides after the deadline?"
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon kriz ka rann yon eleksyon difisil. Li pa esplike poukont li kiyès ki dwe gouvène pandan reta a, ni pou konbyen tan. Kely Bastien te pale sou dilèm sa a an 2010; Jocelerme Privert te dirije yon tranzisyon ki te rankontre l an 2016.",
+            "en": "A crisis can make an election difficult. That does not itself establish who governs during delay or for how long. Kely Bastien discussed that dilemma in 2010; Jocelerme Privert led a transition confronting it in 2016."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Apre tranblemanntè 2010 la, Bastien, ki te prezidan Sena, te mande egzamine opsyon ki pi pre Konstitisyon an. Métropole rapòte li te mete aksan sou efò pou òganize eleksyon nan 90 jou epi li te kritike yon ane manda pou yon gouvènman san lejitimite popilè. Se pozisyon li, pa yon kalandriye nou di li te mete an vigè.",
+            "en": "After the 2010 earthquake, Senate president Bastien urged examination of the option closest to the Constitution. Métropole reports his emphasis on election efforts within 90 days and criticism of a one-year mandate for a government lacking popular legitimacy. That is his position, not an enacted calendar attributed to him."
+          },
+          "sources": [
+            "bastien-transition-2010"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2016, Asanble Nasyonal la te eli Privert prezidan pwovizwa anba yon akò ki te bay omaksimòm 120 jou. Rapò Nasyonzini Out la di delè a te fini 14 Jen, men Asanble a pa t rive vote sou aranjman pou kontinye gouvènans egzekitif la. Sa pa yon desizyon tribinal ki valide yon ekstansyon.",
+            "en": "In 2016, the National Assembly elected Privert provisional president under an agreement allowing no more than 120 days. The UN’s August report says the term expired June 14 while the Assembly failed to vote on continued executive-governance arrangements. That is not a court ruling validating an extension."
+          },
+          "sources": [
+            "un-transition-2016-march",
+            "un-transition-2016-august"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Kriz 2010 ak 2016 yo pa menm bagay. Fòmasyon gouvènman, verifikasyon vòt ak desizyon KEP te antre nan reta 2016 la; nou pa mete yo tout sou kont yon sèl moun. Men yon delè bezwen yon règ sou sa k rive lè li pa respekte.",
+            "en": "The crises were distinct. Government formation, vote verification and CEP decisions contributed to 2016 delay; these are not all assigned to one person. A deadline nevertheless needs a rule for what happens when it is missed."
+          },
+          "sources": [
+            "un-transition-2016-august"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Bastien, kesyon an se ki mekanis ki fè prensip 2010 li a mache. Pou Privert, se ki baz li te prezante pou kontinye ak ki kontwòl li te aksepte. Pou toude, yon pwomès tranzisyon bezwen yon sòti piblik ki pa sèlman depann de moun ki kenbe pòs la.",
+            "en": "Bastien can explain mechanisms making his 2010 principle workable. Privert can explain the basis presented for continuing and scrutiny accepted. For both, a transition promise needs a public exit beyond the discretion of whoever holds office."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "wilson-jeudy-vs-rene-st-fort",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-0723179885b7514ab8ce",
+        "c-7308041793ef5e32b5ff"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Wilson Jeudy ak René St-Fort: yon fanmi ki deplase pa dwe disparèt nan sèvis piblik",
+        "en": "Wilson Jeudy vs René St-Fort: a displaced family should not disappear from public services"
+      },
+      "description": {
+        "ht": "Eviksyon 2011 nan Dèlma ak aksè elektoral an 2026 se dosye diferan. Toude poze kesyon sou fason otorite yo kontinye rann kont devan moun ki pèdi kote yo te rete.",
+        "en": "The 2011 Delmas evictions and 2026 electoral access are distinct records. Both raise how authorities remain accountable to people losing their place of residence."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lè yon fanmi kite kote li rete, pwoblèm nan pa sèlman jwenn yon lòt espas pou dòmi. Li ka vin pi difisil jwenn dokiman, sèvis ak enfòmasyon sou vòt. Se sou obligasyon otorite yo devan moun sa yo nou konpare dosye Wilson Jeudy ak pozisyon René St-Fort.",
+            "en": "When a family loses its residence, the problem extends beyond somewhere to sleep. Documents, services and voting information may become harder to reach. Authorities’ responsibilities toward those people connect Wilson Jeudy’s record with René St-Fort’s position."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Amnesty International rapòte plis pase 300 fanmi te sibi degèpisman nan de kan Dèlma an Me 2011, nan operasyon travayè minisipal ak lapolis. Jeudy te majistra a. Haïti en Marche te defann agiman sekirite majistra a; sa pa fè tout rezidan kan yo kriminèl. Nou pa konfonn eviksyon sa yo ak lòt menas Septanm otorite minisipal yo te demanti.",
+            "en": "Amnesty International reports more than 300 families evicted from two Delmas camps in May 2011 in operations involving municipal workers and police. Jeudy was mayor. Haïti en Marche defended his security rationale; that does not make all camp residents criminals. These evictions remain separate from September threats municipal authorities denied."
+          },
+          "sources": [
+            "jeudy-amnesty-2011",
+            "jeudy-hem-2011"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan entèvyou Vant Bèf Info Mas 2026 la, St-Fort te soutni efò pou rive jwenn elektè yo epi mete aksan sou baryè moun vyolans deplase yo rankontre. Se yon priyorite li defann, pa yon plan operasyon ak depans nou verifye. Li pa yon repons li te bay sou operasyon Jeudy an 2011 nonplis.",
+            "en": "In his March 2026 Vant Bèf Info interview, St-Fort supported voter outreach and highlighted barriers for people displaced by violence. This is an expressed priority, not a verified costed operating plan. Nor was it a response to Jeudy’s 2011 operations."
+          },
+          "sources": [
+            "stfort-prn-registration-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon politik dwe di kijan yon fanmi resevwa avi, jwenn enfòmasyon ak konteste yon desizyon pandan li chanje kote li rete. Pou Jeudy, se kesyon yon dosye administrasyon. Pou St-Fort, se kesyon ki sèvis ki ta fè pozisyon li tounen aksè reyèl. Ane ak koz deplasman yo pa efase diferans ant de dosye yo.",
+            "en": "Policy must explain how a family receives notice, information and a route to challenge decisions while its residence changes. For Jeudy, this concerns an administrative record. For St-Fort, it concerns services turning a position into access. Different years and displacement causes remain distinct."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Mezi ki itil la pa sèlman kantite espas ki netwaye oswa kantite elektè ki enskri. Li dwe montre si moun ki te pi difisil pou jwenn yo resevwa sèvis tou. Sinon, yon bon total ka mache ansanm ak anpil fanmi ki toujou pa jwenn okenn chemen.",
+            "en": "A useful measure extends beyond spaces cleared or voters registered. It should show whether people hardest to reach received service too. Otherwise an impressive total can coexist with families still lacking any route."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "claude-joseph-vs-gary-bodeau",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c9c792b353345247be19",
+        "c-656331d267b75fc0aa53"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Claude Joseph ak Gary Bodeau: de lis etranje pa bay menm desizyon an",
+        "en": "Claude Joseph vs Gary Bodeau: two foreign lists do not mean the same decision"
+      },
+      "description": {
+        "ht": "Yon entèdiksyon antre nan peyi ak yon sanksyon finansye mande separe otorite, mezi, rezon ak repons moun ki konsène a.",
+        "en": "An entry restriction and financial sanctions require separating the authority, measure, grounds and the person’s response."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Mo sanksyon ka fè plizyè desizyon etranje parèt tankou yon sèl jijman. Dosye Claude Joseph ak Gary Bodeau montre poukisa sa danjere. Yon lis ka limite deplasman; yon lòt ka bloke byen oswa tranzaksyon. Fòk nou li mezi a anvan nou bay li yon sans.",
+            "en": "Sanctions can make different foreign decisions sound like one judgment. Claude Joseph and Gary Bodeau show why that is hazardous. One list may restrict travel; another may block assets or transactions. The measure needs reading before meaning is assigned."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "AP rapòte an Septanm 2022 prezidan dominiken an te entèdi Joseph antre nan peyi a. Enstriksyon an te gen lòt non ladan l, pami yo swadizan chèf gang. Prezans sou menm lis la pa pwouve moun yo t ap travay ansanm. Joseph te reponn li konsidere mezi a kòm yon onè nan opozisyon li ak politik li te denonse yo.",
+            "en": "AP reported in September 2022 that the Dominican president barred Joseph’s entry. The instruction included other names, among them alleged gang leaders. Inclusion on one list does not establish joint activity. Joseph responded that he considered the restriction an honor in opposing policies he denounced."
+          },
+          "sources": [
+            "claude-joseph-dominican-ban-2022"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pou Bodeau, Trezò ameriken te anonse yon sanksyon administratif an Avril 2023 sou baz akizasyon koripsyon ak peman pou vòt sou nominasyon. Bodeau te demanti li te fè sa ki ta jistifye sanksyon an epi anonse li ta konteste l. Yon akizasyon administratif pa yon kondanasyon nan yon pwosè penal.",
+            "en": "For Bodeau, the U.S. Treasury announced an administrative sanction in April 2023 over alleged corruption and payments for appointment votes. He denied conduct warranting the action and announced a challenge. Administrative allegations are not a criminal-trial conviction."
+          },
+          "sources": [
+            "treasury-bodeau-2023",
+            "bodeau-response-2023"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Nou egzamine desizyon istorik sa yo; nou pa deklare tout restriksyon toujou menm jan jodi a san yon nouvo verifikasyon. Pou Joseph, bezwen dokiman ki esplike baz endividyèl entèdiksyon an. Pou Bodeau, bezwen tranzaksyon, dosye vòt ak nenpòt desizyon sou kontestasyon an.",
+            "en": "These are historical actions, not an unchecked claim that every restriction remains unchanged today. Joseph’s record needs documents explaining the individual basis of the ban. Bodeau’s needs transactions, vote records and any decision on his challenge."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon elektè, bon kesyon an se ki zak otorite a atribye yon moun ak ki prèv li bay. Repons yon kandida dwe nan menm dosye a. Yon etikèt etranje pa dwe sèvi pou envante yon kondanasyon oswa yon rezo ant tout moun ki sou yon paj.",
+            "en": "Voters need the conduct attributed to a person and the evidence supplied. The candidate’s response belongs in the same record. A foreign label cannot justify inventing a conviction or a network connecting everyone on a page."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "savannah-savary-vs-jacky-lumarque",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-044a28564a40545cb553",
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Savannah Savary ak Jacky Lumarque: ki sa ki rete apre yon aktivite sou dwa moun?",
+        "en": "Savannah Savary vs Jacky Lumarque: what remains after an activity about rights?"
+      },
+      "description": {
+        "ht": "Atelye ekriti Savary ak yon bibliyotèk rechèch Lumarque prezante bay de kalite resous pou egzamine, san fè yon aktivite tounen yon rezilta nasyonal.",
+        "en": "Savary’s writing workshops and a research library presented by Lumarque offer different resources to examine without treating an activity as a national outcome."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Aprann pale sou dwa se yon etap. Kapab sèvi ak enfòmasyon sa yo lè gen yon pwoblèm se yon lòt. Dosye Savannah Savary ak Jacky Lumarque gen de aktivite edikasyon piblik ki pèmèt mande sa ki rete disponib apre yon atelye oswa yon diskou.",
+            "en": "Learning to discuss rights is one step. Using that knowledge when a problem arises is another. Savannah Savary and Jacky Lumarque have public-education records allowing scrutiny of what remains after a workshop or speech."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon achiv MINUJUSTH idantifye Savary ak Frankétienne kòm animatè ki te ede elèv ekri fab. Li plase dènye jou yon atelye uit jou nan 3 Jiyè 2018, ak patisipasyon 18 lekòl Pòtoprens. Tèm yo te gen dwa moun, Leta de dwa ak sekirite. Sa se yon aktivite dokimante, pa yon mezi efè sou tout jèn peyi a.",
+            "en": "A MINUJUSTH archive identifies Savary and Frankétienne as facilitators helping pupils write fables. It dates an eight-day workshop’s final day to July 3, 2018, with 18 Port-au-Prince schools participating. Themes included human rights, rule of law and security. This documents an activity, not effects on all Haitian youth."
+          },
+          "sources": [
+            "savary-un-workshop-2018"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan diskou 9 Mas 2023 li a, Lumarque te prezante Mouka, yon resous dokimantè sou sèks sosyal ak dwa fanm ayisyen. Sit la disponib ak rechèch ak piblikasyon. Sa se yon resous enstitisyonèl ki ka verifye; nou pa atribye tout travay kolektif la ak yon sèl moun.",
+            "en": "In his March 9, 2023 address, Lumarque presented Mouka, a documentary resource on gender and Haitian women’s rights. Its site offers research and publications. This is a verifiable institutional resource, not collective work attributed entirely to one person."
+          },
+          "sources": [
+            "lumarque-women-speech-2023",
+            "mouka-public-library"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Atelye ak bibliyotèk la pa menm pwogram, ni menm gwoup moun. Youn montre yon travay animasyon; lòt la montre yon resous ki rete aksesib. Pou mezire efè yo, bezwen egzanp sou fason elèv, pwofesè oswa òganizasyon itilize sa yo aprann nan yon desizyon oswa yon sèvis.",
+            "en": "The workshop and library are different programmes and populations. One documents facilitation; the other provides a continuing resource. Assessing impact needs examples of pupils, teachers or organizations using knowledge in a decision or service."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kòm kandida, toude ka esplike kijan eksperyans sa yo antre nan yon politik kote sitwayen konprann dwa yo ak kote pou pote plent. Konparezon an bay kredi pou sa ki egziste, pandan li mande prèv pou gwo rezilta. Yon dwa itil lè yon moun kapab egzèse l, pa sèlman site non li.",
+            "en": "As candidates, both can explain how that experience informs policy enabling citizens to understand rights and complaint routes. The comparison credits existing work while requiring evidence of larger outcomes. A right matters when a person can use it, beyond naming it."
           },
           "sources": []
         }

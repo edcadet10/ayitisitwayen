@@ -1,0 +1,25 @@
+{
+  "reviewed_at": "2026-11-16",
+  "distinct_articles": 10,
+  "distinct_comparisons": 8,
+  "articles": [
+    "opinion-dermalog-critics-protection-public-scrutiny",
+    "opinion-agricultural-credit-ouest-regional-access",
+    "martine-moise-vs-dominique-dupuy",
+    "gandhy-dorfeuille-vs-munir-mourra",
+    "munir-mourra-vs-jerry-tardieu",
+    "joanas-gue-vs-olivier-barrau",
+    "kely-bastien-vs-jocelerme-privert",
+    "wilson-jeudy-vs-rene-st-fort",
+    "claude-joseph-vs-gary-bodeau",
+    "savannah-savary-vs-jacky-lumarque"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 130,
+  "required_applied": 3,
+  "optional_applied": 1,
+  "public_word_ceiling": 500,
+  "facts_review": "Records and contrasts checked against reviewed sources, including fresh primary material. Allegations, responses, proposals and verified arithmetic remain distinct; no invented ratings, current alliances or criminal convictions.",
+  "english_required_applied": 1,
+  "parent_facts": "2007 mango destination is the United States; 2021 IACHR measure is protective, not merits; regional credit classified by recorded department and all sectors. Original sources and limits checked."
+}
