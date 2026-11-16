@@ -1,0 +1,38 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_articles": 10,
+  "articles": [
+    "jocelerme-privert-120-day-term-parliament-2016",
+    "jude-celestin-2015-boycott-2016-election-rerun",
+    "tardieu-bodeau-2019-impeachment-records-vote",
+    "claude-joseph-july-2021-emergency-henry-handover",
+    "jerry-tardieu-governors-autonomy-accountability-2025",
+    "wilson-jeudy-delmas-2016-cash-payroll-gap",
+    "rene-st-fort-teachers-curriculum-payroll",
+    "rene-st-fort-party-supporter-consent-30000",
+    "hans-joseph-ulcc-removal-2026-independence",
+    "deus-deronneth-security-election-deadline-2026"
+  ],
+  "languages": [
+    "ht",
+    "en"
+  ],
+  "independent_language_review": {
+    "ht_only_retellings_saved_before_english": true,
+    "paired_passages_checked": 88,
+    "required_replacements_applied": 4,
+    "optional_refinements_applied": 5,
+    "word_ceiling_per_article_per_language": 500
+  },
+  "parent_reconciliation": "Jeudy previous-year qualifier preserved in HT and added to EN because the contemporaneous source explicitly says année écoulée. Independent reviewer flagged an unpaired qualifier, not a falsehood.",
+  "source_checks": [
+    "UN2016 contemporaneous reports distinguish boycott, security-related postponement, verification sample and rerun from a declared Célestin victory.",
+    "Privert120day expiry and National Assembly failure to decide governance are separate; no court-approved extension inferred.",
+    "UN2019 paragraph4 confirms collective53against/3for/5abstentions and quorum controversy, not Tardieu individual vote.",
+    "UN2021 cabinet handover and emergency measures separate from assassination liability.",
+    "Draft68.6/68.8 contain central-administration collaboration/reporting; departmental autonomy not absence of all scrutiny. Draft not identified as law in force.",
+    "Jeudy reported cash and payroll are conditional inputs, not an independent audit or a proven missing-money calculation.",
+    "Hans Joseph removal and allegations of motive attributed to AyiboPost interview; chronology not causation.",
+    "PRN30k challenge is a formal demand not a judicial finding; proposed privacy standard is explicitly opinion."
+  ]
+}
