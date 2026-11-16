@@ -2923,6 +2923,20 @@
         "ht": "Rapòte vòl batri, pano solè ak ekipman 15 Out 2026. Pa konfonn sit sa a ak pwojè Senlwidisid 2014 la oswa yon chantye Jacmel. Sa pa yon akizasyon kandida yo òganize atak la.",
         "en": "Reports theft of batteries, solar panels and equipment on August 15, 2026. Different from the 2014 Saint-Louis du Sud project and a Jacmel project. Not an allegation that candidates organized the attack."
       }
+    },
+    "etzer-justice-poles-first100": {
+      "publisher": "Etzer Emile campaign",
+      "url": "https://www.voteetzer.ht/priorite/securite",
+      "published_at": null,
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile: mwayen pou estrikti lajistis nan premye 100 jou yo",
+        "en": "Etzer Emile: resources for justice units within the first 100 days"
+      },
+      "note": {
+        "ht": "Seksyon sou finansman gang yo pwomèt bay estrikti krim finansye ak krim an mas ki te kreye an 2025 mwayen pou yo fonksyone nèt. Sa se yon angajman kanpay, pa yon depans oswa yon rezilta verifye.",
+        "en": "The gang-financing section promises resources for the financial-crime and mass-crime units created in 2025 to operate fully. Campaign pledge, not verified expenditure or delivery."
+      }
     }
   },
   "articles": [
@@ -16082,6 +16096,89 @@
         }
       ],
       "comparison": true
+    },
+    {
+      "slug": "etzer-emile-first-100-days-specialized-justice-units",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile: 41 dosye ak yon pwomès pou premye 100 jou yo",
+        "en": "Etzer Emile: 41 files and a promise for his first 100 days"
+      },
+      "description": {
+        "ht": "Li pwomèt bay estrikti lajistis ki deja la mwayen pou travay. Dosye BINUH la bay yon baz pou egzamine pwomès sa a.",
+        "en": "He promises resources for existing justice units. BINUH’s record provides a baseline for examining that pledge."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon pòt ki louvri pa menm bagay ak yon dosye ki avanse. Pou moun k ap tann lajistis apre yon masak, yon nouvo biwo kapab yon kòmansman. Sa ki konte apre sa se si prèv rive devan yon tribinal, si temwen jwenn pwoteksyon epi si dosye a jwenn yon desizyon san presyon politik.",
+            "en": "An opened door is not the same as an advancing case. For people awaiting justice after a massacre, a new office can be a beginning. What follows matters: evidence reaching a court, protected witnesses and a decision free from political pressure."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "BINUH rapòte de estrikti pou krim an mas ak krim finansye, kreye an Avril 2025 epi lanse an Me 2026. Rapò a konte 24 magistra yo mete pou travay nan estrikti yo ak 41 dosye yo idantifye epi egzamine pou wè si estrikti yo gen dwa trete yo. Magistra yo gen jij ak pwokirè. Se pwokirè yo ki pouswiv akizasyon pou Leta.",
+            "en": "BINUH reports two units for mass crimes and financial crimes, created in April 2025 and launched in May 2026: 24 magistrates assigned and 41 files identified and reviewed as potentially within their jurisdiction. Magistrates include judges and prosecutors; prosecutors bring cases for the State."
+          },
+          "sources": [
+            "binuh-q3-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men menm rapò a di pa t gen pwogrè pandan trimès la nan pwosedi sou masak Gran Ravin (2017), Lasalin (2018), Bèlè (2019) ak Ponsonde (2024). Se sitiyasyon Jiyè–Septanm 2026 la li dekri, pa yon deklarasyon sou tout sa ki ta ka fèt apre.",
+            "en": "The same report records no progress that quarter in proceedings on Grand Ravine (2017), La Saline (2018), Bel Air (2019) and Pont-Sondé (2024). That describes July–September 2026, not every possible later development."
+          },
+          "sources": [
+            "binuh-q3-2026"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "De konsta yo kapab vre ansanm. Gen moun ak estrikti ki mete an plas; gen gwo dosye ki pa avanse nan peryòd la. Chif 41 an pa kantite jijman, kondanasyon oswa masak ki rezoud. Pasaj la pa bay lis 41 dosye yo: nou pa sipoze kat masak sa yo deja ladan l.",
+            "en": "Both findings can be true: staffing and institutions advanced while major proceedings stalled. The 41 is not a count of judgments, convictions or resolved massacres. The passage does not list those files; we cannot assume the four massacre cases are already among them."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pwogram Etzer Emile la gen yon angajman presi: nan premye 100 jou li yo, estrikti sa yo ta jwenn mwayen pou fonksyone nèt. Li rekonèt yo deja egziste. Sa bay yon pwomès ki ka egzamine: ki kantite lajan, ki ekipman, ki pwoteksyon ak ki dat livrezon? Pwogram nan se yon plan, pa prèv mwayen sa yo deja rive.",
+            "en": "Etzer Emile’s programme makes a specific commitment: within his first 100 days these units would receive resources to operate fully. It recognizes that they already exist. That supplies a measurable pledge: how much funding, which equipment, what protection and which delivery dates? The programme is a plan, not proof of delivery."
+          },
+          "sources": [
+            "etzer-justice-poles-first100"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou mezire pwomès la, fòk nou separe mwayen ki apwouve, depans ki fèt toutbon ak sa sèvis la resevwa. Apre sa, swivi kapab montre etap dosye yo san revele temwen oswa prèv ki dwe rete pwoteje. Nou pwopoze mezi sa yo; nou pa di chak dosye dwe fini nan 100 jou.",
+            "en": "Measurement should distinguish approved resources, actual spending and delivery to the service. Follow-up can then show case stages without exposing witnesses or protected evidence. These are proposed measures; we do not say every case must conclude within 100 days."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Eleksyon an ta dwe fè diferans sa a klè: yon prezidan kapab rann kont sou mwayen li bay lajistis; li pa dwe chwazi vèdik la. Pou moun ki sibi krim ak moun yo akize, se yon sistèm ki egzamine prèv epi tranche selon lalwa ki dwe bay repons lan.",
+            "en": "The election should make this distinction clear: a president can answer for resources supplied to justice without choosing the verdict. For victims and accused people, the answer should come from a system examining evidence and deciding according to law."
+          },
+          "sources": []
+        }
+      ]
     }
   ],
   "word_limit": 500,

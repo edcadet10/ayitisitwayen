@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-11-16",
+  "distinct_articles": 1,
+  "distinct_comparisons": 0,
+  "articles": [
+    "etzer-emile-first-100-days-specialized-justice-units"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": {
+    "articles": 1,
+    "analyses": 1,
+    "paired_fields": 13,
+    "article_fields": 9,
+    "paragraphs": 7,
+    "sources": 2,
+    "source_fields": 4
+  },
+  "required_applied": 2,
+  "optional_applied": 1,
+  "public_word_ceiling": 500,
+  "facts_review": "Records and contrasts checked against reviewed sources, including fresh primary material. Allegations, responses, proposals and verified arithmetic remain distinct; no invented ratings, current alliances or criminal convictions.",
+  "shared_fields_already_satisfied": []
+}
