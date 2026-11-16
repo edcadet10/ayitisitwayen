@@ -1,0 +1,24 @@
+{
+  "reviewed_at": "2026-11-16",
+  "distinct_articles": 10,
+  "distinct_comparisons": 6,
+  "articles": [
+    "etzer-emile-business-window-existing-mci-portal",
+    "etzer-emile-reserve-reduction-bank-categories",
+    "etzer-emile-women-credit-target-count-money",
+    "munir-mourra-jacmel-energy-existing-solar-site",
+    "munir-mourra-vs-jacky-lumarque",
+    "etzer-emile-vs-jacky-lumarque",
+    "jerry-tardieu-vs-rene-st-fort",
+    "savannah-savary-vs-jude-elie",
+    "hans-joseph-vs-etzer-emile",
+    "lucmanne-delille-vs-jean-ernest-muscadin"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 106,
+  "required_applied": 3,
+  "optional_applied": 0,
+  "public_word_ceiling": 500,
+  "facts_review": "Records and contrasts checked against reviewed sources, including fresh primary material. Allegations, responses, proposals and verified arithmetic remain distinct; no invented ratings, current alliances or criminal convictions.",
+  "parent_clarity_check": "Credit-formation paraphrased as financial training support in both languages; no unverified loan/tax classification. BRH currency/gender shares retain their reported categories without inferring value/count denominators."
+}

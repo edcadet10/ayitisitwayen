@@ -2573,6 +2573,62 @@
         "ht": "Eksplikasyon enstitisyon an sou demann finansman ak siveyans sibvansyon. Nou separe wòl komite a ak jesyon chak jou lajan yo; paj aktyèl la pa pwouve chak desizyon Martine Moïse te pran an 2018.",
         "en": "The institution’s explanation of funding applications and grant oversight. Committee oversight is distinct from daily grant management; this current page does not establish each decision Martine Moïse made in 2018."
       }
+    },
+    "brh-credit-reserves-octdec2025": {
+      "publisher": "Banque de la République d’Haïti",
+      "url": "https://www.brh.ht/wp-content/uploads/Note-sur-la-Politique-Moneetaire-premier-trimestre-de-lexercice-fiscal-2025-2026-octobre-deecembre-2025-.pdf",
+      "published_at": null,
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "BRH: rezèv ak distribisyon kredi, Oktòb–Desanm 2025",
+        "en": "BRH: reserves and credit distribution, October–December 2025"
+      },
+      "note": {
+        "ht": "Paj 11 separe kategori bank ak lajan; paj 15 separe kredi an goud ak kredi an dola selon sèks. Sa pa yon pousantaj inik pou tout bank, ni yon konte benefisyè pwogram kanpay. Peryòd la fini an Desanm 2025; nou pa rele tout chif sa yo to aktyèl Novanm 2026.",
+        "en": "Page 11 distinguishes bank and currency categories; page 15 splits credit by currency and gender. These are not one rate for all banks or counts of campaign-programme beneficiaries. The period ends December 2025; figures are not all described as current November 2026 rates."
+      }
+    },
+    "mci-guichet-help-2026": {
+      "publisher": "Ministère du Commerce et de l’Industrie",
+      "url": "https://guichet.mci.ht/aide-et-questions",
+      "published_at": null,
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "MCI: sa pòtay enskripsyon antrepriz la ofri",
+        "en": "MCI: what its business-registration portal offers"
+      },
+      "note": {
+        "ht": "Paj èd ofisyèl la dekri sèvis pou antrepriz endividyèl, swivi ak verifikasyon sètifika. Nou verifye egzistans paj la, nou pa soumèt yon aplikasyon ni mezire delè reyèl sèvis la.",
+        "en": "The official help page describes individual-business registration, tracking and certificate checks. We verified the page’s existence, not an application submission or measured processing time."
+      }
+    },
+    "mci-guichet-banks-2026": {
+      "publisher": "Ministère du Commerce et de l’Industrie",
+      "url": "https://www.mci.gouv.ht/post/digitalisation-des-services-publics-le-mci-lance-un-atelier-de-travail-avec-les-institutions-financieres",
+      "published_at": "2026-01-27",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "MCI prezante dokiman dijital li yo bay bank ak kowoperativ",
+        "en": "MCI presents digital documents to banks and cooperatives"
+      },
+      "note": {
+        "ht": "Rapò ministè a sou atelye 27 Janvye a, pa yon odit ki pwouve tout bank aksepte tout dokiman oswa tout demach administratif deja konekte.",
+        "en": "The ministry’s account of its January 27 workshop, not an audit proving universal bank acceptance or complete administrative integration."
+      }
+    },
+    "wb-jacmel-progress-20261026": {
+      "publisher": "World Bank",
+      "url": "https://documents1.worldbank.org/curated/en/099102626190037397/pdf/P156719-5872fabb-7ea5-40eb-9cfa-f6be3cb6227e.pdf",
+      "published_at": "2026-10-26",
+      "checked_at": "2026-11-16",
+      "title": {
+        "ht": "Bank mondyal: chantye solè Jakmèl la, rapò Oktòb 2026",
+        "en": "World Bank: Jacmel solar construction, October 2026 report"
+      },
+      "note": {
+        "ht": "Rapò P156719, paj 2: anviwon 35% travay yo te fèt, ak Avril 2027 kòm dat fini yo espere. Se avansman chantye dapre finansè a, pa sèvis ki deja livre. Nou pa melanje chif kapasite diferan nan rezime ak tablo rapò a.",
+        "en": "P156719, page 2: works approximately 35% complete, with April 2027 expected completion. This is financier-reported construction progress, not delivered service. Differing capacity figures in the summary and tables are not merged."
+      }
     }
   },
   "articles": [
@@ -11717,6 +11773,672 @@
           "sources": []
         }
       ]
+    },
+    {
+      "slug": "etzer-emile-business-window-existing-mci-portal",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile ak antrepriz nan 48 èdtan: ki sa ki nouvo nan yon sèl pòtay?",
+        "en": "Etzer Emile and business creation in 48 hours: what is new about one window?"
+      },
+      "description": {
+        "ht": "Yon pòtay MCI deja sou entènèt. Pwomès kanpay la bezwen montre diferans ant ranpli yon fòm ak jwenn tout dokiman yon antrepriz bezwen.",
+        "en": "An MCI portal already exists online. The campaign promise needs to distinguish completing a form from obtaining every document a business needs."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon machann ka ranpli yon fòm sou entènèt epi toujou bezwen yon lòt biwo aksepte papye li. Se diferans sa a pou egzamine nan pwomès Etzer Emile sou kreye antrepriz pi vit. Kesyon an pa sèlman si gen yon sit, men si demach la rive nan bout li.",
+            "en": "A trader can complete an online form and still need another office to accept the paperwork. That distinction matters in Etzer Emile’s promise of faster business creation. The question extends beyond having a website to completing the process."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pwogram li a anonse yon sèl pòtay nan premye 100 jou yo, ak nimewo fiskal, patant ak anrejistreman ansanm. Li fikse senk jou pou kreye antrepriz an 2029 epi 48 èdtan an 2033. Se de etap diferan; 48 èdtan pa delè li fikse pou premye 100 jou yo.",
+            "en": "His programme announces a single window within the first 100 days, combining tax number, business license and registration. It sets five-day creation in 2029 and 48 hours in 2033. Those are separate stages; 48 hours is not the first-100-days deadline."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Men MCI deja prezante yon pòtay ofisyèl pou anrejistre antrepriz endividyèl, suiv demann ak verifye sètifika. An Janvye 2026, ministè a te menm òganize yon atelye ak bank ak kowoperativ sou valè dokiman dijital li yo. Sa dokimante yon sèvis ak yon efò rekonesans; li pa pwouve tout administrasyon deja konekte.",
+            "en": "MCI already presents an official portal for individual-business registration, application tracking and certificate checks. In January 2026, the ministry held a workshop with banks and cooperatives on its digital documents’ validity. That documents a service and recognition effort, not complete integration across government."
+          },
+          "sources": [
+            "mci-guichet-help-2026",
+            "mci-guichet-banks-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Se poutèt sa nou pa rele pwomès Emile la otomatikman initil oswa deja reyalize. Li ka gen yon dimansyon pòtay aktyèl la pa kouvri. Men kanpay la bezwen di ki sèvis li konsève, ki biwo li konekte ak ki etap ki toujou mande yon deplasman.",
+            "en": "Emile’s promise is therefore neither automatically redundant nor already achieved. It may cover functions the present portal does not. The campaign needs to identify services retained, offices connected and steps still requiring travel."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon tès senp ta suiv yon demann depi premye soumisyon rive nan dokiman bank ak administrasyon aksepte. Pibliye tan total la, depans yo ak rezon refi yo. Se la yon antreprenè ap wè si yon nouvo non sou yon pòtay pote yon nouvo sèvis.",
+            "en": "A practical test follows an application from submission to documents accepted by banks and government. Publish total time, cost and refusal reasons. That lets an entrepreneur see whether a new portal name brings a new service."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-reserve-reduction-bank-categories",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile ak rezèv bank yo: 40% pa menm règ pou tout lajan",
+        "en": "Etzer Emile and bank reserves: 40% is not the rule for every currency"
+      },
+      "description": {
+        "ht": "Pwogram nan pwopoze bese rezèv sou depo an goud. Yon nòt BRH montre poukisa kategori bank ak lajan yo dwe rete klè.",
+        "en": "The programme proposes lower reserves on gourde deposits. A BRH note shows why bank and currency categories must remain clear."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon moun ka tande yo pral libere lajan bank yo epi panse kredi ap rive otomatikman nan men li. Men lajan ki vin disponib ak yon prè yo dakò ba ou se de etap. Pwopozisyon Etzer Emile sou rezèv obligatwa yo bezwen esplike pon ki ant yo a.",
+            "en": "Someone hearing that bank money will be freed may expect credit to arrive automatically. Available funds and approval of your loan are separate stages. Etzer Emile’s reserve proposal needs to explain the bridge between them."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Kanpay la pwopoze fè rezèv obligatwa sou depo an goud pase soti 40% rive 24% an 2029 epi 18% an 2033. Li presize sa ta fèt nan konsiltasyon ak BRH, ak siveyans sou chanj ak pri. Nou pa prezante l kòm yon to ki deja chanje oswa yon lòd bank santral la deja resevwa.",
+            "en": "The campaign proposes lowering required reserves on gourde deposits from 40% to 24% in 2029 and 18% in 2033. It specifies consultation with BRH and monitoring of exchange rates and prices. This is neither an already changed rate nor an instruction BRH has already received."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nòt BRH pou Oktòb–Desanm 2025 la montre poukisa mo yo enpòtan. Pou bank k ap kreye lajan yo, li bay 40% sou obligasyon an goud ak 53% sou obligasyon an deviz. Pou bank epay ak lojman yo, chif yo se 28.5% ak 41.5%. Se kategori nan peryòd sa a, pa yon sèl règ pou tout bank nan Novanm 2026.",
+            "en": "BRH’s October–December 2025 note shows why wording matters. For money-creating banks, it reports 40% on gourde liabilities and 53% on foreign-currency liabilities; savings and housing banks have 28.5% and 41.5%. These are categories for that period, not one rule for all banks in November 2026."
+          },
+          "sources": [
+            "brh-credit-reserves-octdec2025"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Rezèv obligatwa se lajan yon enstitisyon dwe kenbe selon règ bank santral la. Diminye egzijans lan ka bay plis espas finansye; sa pa poukont li chwazi kliyan, garanti ranbousman oswa elimine risk ensekirite. Se poutèt sa objektif kredi agrikòl la bezwen yon mekanis anplis bese yon pousantaj.",
+            "en": "Required reserves are funds an institution must maintain under central-bank rules. Lowering the requirement can create financial room; it does not choose borrowers, guarantee repayment or remove security risks. Agricultural lending therefore needs a mechanism beyond reducing a percentage."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Elektè a ka mande yon chemen ki verifyab: ki kategori ki chanje, ki lajan ki konsène, ki moun ki jwenn kredi ak ki mezi ki montre efè sou pri? Pwogram nan deja rekonèt nesesite siveyans. Sa ki rete se montre kilè yon risk ta fè yo ralanti oswa korije politik la.",
+            "en": "Voters can ask for a traceable path: which categories change, which currency is covered, who receives credit and what measures show price effects? The programme recognizes monitoring. It still needs to show when a risk would cause the policy to slow or change."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "etzer-emile-women-credit-target-count-money",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile ak 40% fanm nan kredi: kiyès nou konte, ki lajan nou suiv?",
+        "en": "Etzer Emile and the 40% women’s credit target: whom do we count, what money do we follow?"
+      },
+      "description": {
+        "ht": "Yon objektif sou benefisyè pa otomatikman yon objektif sou montan prè. Chif BRH yo mande lòt distenksyon ankò.",
+        "en": "A beneficiary target is not automatically a loan-amount target. BRH’s figures require additional distinctions."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Si kat sou dis benefisyè yon pwogram se fanm, èske yo resevwa kat sou dis goud tou? Pa nesesèman. Se yon egzanp lojik, pa rezilta yon pwogram nou evalye. Men li montre sa ki dwe defini nan objektif Etzer Emile sou fanm ak kredi.",
+            "en": "If four in ten programme beneficiaries are women, do they receive four in ten gourdes too? Not necessarily. That is a logical example, not an evaluated programme result. It shows what Etzer Emile’s women-and-credit target must define."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Pwogram kanpay la fikse fanm nan 40% benefisyè kredi pou mikwo, ti ak mwayen antrepriz an 2033. Li mete objektif sa a bò kote mache ekipe, depo, transpò machandiz ak aksè nan epay ak asirans pou madan sara yo. Se pwopozisyon pou lavni, pa yon konte fanm ki deja resevwa lajan.",
+            "en": "The campaign sets women at 40% of micro, small and medium enterprise credit beneficiaries in 2033. It places the target alongside equipped markets, storage, freight transport and access to savings and insurance for madan sara traders. These are proposals, not counts of women already funded."
+          },
+          "sources": [
+            "etzer-jobs"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nòt BRH pou Oktòb–Desanm 2025 la bay yon lòt kalite tablo: li separe kredi selon sèks ak lajan. Fanm parèt ak 37.40% nan kredi an goud, 23.51% nan kredi an dola. Nou pa ka fè de pousantaj sa yo tounen yon sèl chif oswa rele yo konte benefisyè pwogram Emile la.",
+            "en": "BRH’s October–December 2025 note offers a different table, separating credit by gender and currency. Women appear with 37.40% of gourde credit and 23.51% of dollar credit. Those percentages cannot be merged or relabeled as beneficiary counts for Emile’s programme."
+          },
+          "sources": [
+            "brh-credit-reserves-octdec2025"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Kanpay la bezwen presize si yon benefisyè se yon moun, yon antrepriz oswa chak nouvo prè. Li bezwen bay montan, dire ak pri kredi yo tou. Sinon, menm moun nan ka parèt plizyè fwa oswa yon gwoup ka gen anpil ti prè pandan yon lòt jwenn pi gwo montan.",
+            "en": "The campaign needs to specify whether a beneficiary means a person, a business or each new loan. It also needs amounts, duration and borrowing costs. Otherwise one person could appear repeatedly, or one group receive many small loans while another receives larger sums."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa pa pwouve diskriminasyon nan yon dosye patikilye. Sa bay yon fason pou verifye pwomès enklizyon an: kiyès ki jwenn yon opòtinite, sou ki kondisyon ak pou ki kantite lajan? Yon bon mezi dwe ede yon machann konprann kondisyon pa li, pa sèlman fè yon rapò sanble pi bèl.",
+            "en": "This establishes no discrimination in a particular case. It provides a way to test inclusion: who gains an opportunity, on what terms and for how much? A useful measure helps a trader understand her own terms, beyond improving a report’s appearance."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "munir-mourra-jacmel-energy-existing-solar-site",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Munir Mourra: plan enèji Jakmèl la deja gen yon chantye pou pran an kont",
+        "en": "Munir Mourra: Jacmel’s energy plan already has a construction site to account for"
+      },
+      "description": {
+        "ht": "Manifès MPH site Jakmèl nan reyamenajman santral dyezèl. Yon rapò Bank mondyal dokimante yon lòt chantye solè ak batri nan vil la.",
+        "en": "MPH names Jacmel in diesel-plant rehabilitation. A World Bank report documents a separate solar-and-battery construction project there."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon nouvo gouvènman pa resevwa yon kat vid. Li resevwa pwojè, kontra ak ekipman ki deja la. Pou egzamine pwomès enèji Munir Joseph Mourra, Jakmèl bay yon egzanp presi sou sa yon pwogram dwe konekte anvan li anonse yon nouvo depa.",
+            "en": "A new government does not inherit a blank map. It inherits projects, contracts and equipment. Jacmel provides a concrete test of what Munir Joseph Mourra’s energy programme must connect before announcing a fresh start."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Manifès MPH la pwopoze fèm solè ak ewolyèn sou kat ane, reyamenaje baraj Pelig la ak santral dyezèl Kafou, Gonayiv, Okap ak Jakmèl. Sa se pwopozisyon pati ki prezante Mourra kòm kandida li. Tèks la pa yon lis kontra nou verifye finanse.",
+            "en": "MPH proposes solar and wind farms over four years and rehabilitation of Péligre dam and diesel plants in Carrefour, Gonaïves, Cap-Haïtien and Jacmel. These are proposals from the party presenting Mourra as its candidate, not a list of verified funded contracts."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "mph-candidate-mourra"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Rapò Bank mondyal 26 Oktòb 2026 sou pwojè P156719 di travay sou enstalasyon solè ak batri Jakmèl la te anviwon 35% fini, ak Avril 2027 kòm dat yo espere fini. Se eta yon chantye dapre finansè a. Nou pa rele 35% travay sa yo 35% bezwen elektrik vil la ki satisfè.",
+            "en": "The World Bank’s October 26, 2026 P156719 report says Jacmel’s solar-and-battery facility was approximately 35% complete, with completion expected in April 2027. That is financier-reported construction progress, not 35% of the city’s electricity needs being met."
+          },
+          "sources": [
+            "wb-jacmel-progress-20261026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "De sous yo pa pwouve yon konfli ant de pwojè yo. Solè, batri ak dyezèl ka gen wòl diferan nan menm sèvis la. Men koneksyon yo mande yon repons: ki ekipman ki mache ansanm, ki kontra ki kontinye ak ki moun ki peye antretyen, gaz ak ranplasman batri?",
+            "en": "The sources establish no conflict between the projects. Solar, batteries and diesel can have different roles within a service. Connecting them requires answers: which equipment works together, which contracts continue and who funds maintenance, fuel and battery replacement?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon rezidan, kesyon an se konbyen èdtan limyè li jwenn, ak ki fakti. Pou Mourra, tès la se montre yon envantè pwojè ki deja angaje ak yon plan sèvis ki pran yo an kont. Kontinite ki byen esplike ka pi itil pase yon lòt seremoni kòmansman.",
+            "en": "For residents, the question is hours of electricity and the bill. Mourra’s test is an inventory of committed projects and a service plan accounting for them. Explained continuity can be more useful than another opening ceremony."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "munir-mourra-vs-jacky-lumarque",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c95770456abb5c95962b",
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Munir Mourra ak Jacky Lumarque: yon kanpis bezwen yon bidjè apre konstriksyon",
+        "en": "Munir Mourra vs Jacky Lumarque: a campus needs a budget after construction"
+      },
+      "description": {
+        "ht": "Yon pwomès kanpis pou omwen 4,000 etidyan ak eksperyans yon rektè louvri yon kesyon sou frè, pwofesè ak travay inivèsite a dwe fè.",
+        "en": "A proposed campus for at least 4,000 students and a rector’s experience raise questions about fees, teachers and the university’s purpose."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon kanpis ka gen bilding san li pa gen ase pwofesè oswa laboratwa ki mache. Se diferans ant konstwi yon espas ak finanse yon inivèsite pou plizyè ane. Li bay yon fason pou konpare pwomès Munir Mourra ak eksperyans Jacky Lumarque.",
+            "en": "A campus can have buildings without enough teachers or working laboratories. Constructing a site differs from financing a university over years. That provides a way to compare Munir Mourra’s promise with Jacky Lumarque’s experience."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Manifès MPH la pwopoze bati yon kanpis pou omwen 4,000 etidyan, finanse sant teknik ak fè yon envantè lekòl. Se pwopozisyon pati Mourra a. Kantite plas yo pa yon kantite diplome ki deja jwenn travay, epi tèks pasaj sa a pa yon bidjè fonksyònman pou kanpis la.",
+            "en": "MPH proposes a campus for at least 4,000 students, technical-centre financing and a school inventory. These are Mourra’s party proposals. Places are not graduates already employed, and the passage is not the campus’s operating budget."
+          },
+          "sources": [
+            "mph-manifesto-2026",
+            "mph-candidate-mourra"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Université Quisqueya idantifye Lumarque kòm rektè depi 2007, apre wòl nan INFP ki remonte nan ane 1980 yo. Sa bay yon eksperyans enstitisyonèl pou egzamine. Biyografi inivèsite li a pa poukont li yon odit sou frè, kalite diplòm oswa travay ansyen etidyan yo.",
+            "en": "Université Quisqueya identifies Lumarque as rector since 2007, following INFP roles dating to the 1980s. That provides institutional experience to examine. His university’s biography is not itself an audit of fees, degree quality or graduates’ employment."
+          },
+          "sources": [
+            "lumarque-career"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Toude dosye yo mande menm twa kont, sou baz diferan: pri konstriksyon, depans chak ane ak chay fanmi yo. Pou Mourra, sa vle di esplike yon pwojè ki poko livre. Pou Lumarque, sa vle di bay rezilta yon enstitisyon li dirije. Yon tit pa yon garanti kalite; yon bilding pa yon garanti aksè.",
+            "en": "Both require three accounts from different starting points: construction cost, annual expenditure and families’ burden. Mourra must explain an undelivered project; Lumarque can supply results from an institution he leads. A title does not guarantee quality; a building does not guarantee access."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon etidyan ta dwe kapab konnen pri pou fini fòmasyon an, èd finansye ki disponib ak sa diplòm nan pèmèt li fè. Se enfòmasyon sa yo ki ta mete yon gwo kanpis ak yon long karyè nan menm deba sou opòtinite reyèl.",
+            "en": "Students should be able to learn the full cost of completing training, available financial help and what the qualification enables them to do. Those answers bring a large campus and a long career into the same debate about real opportunity."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "etzer-emile-vs-jacky-lumarque",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-e8698b3339a756e88e60",
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Etzer Emile ak Jacky Lumarque: kiyès ki verifye travay la apre diplòm nan?",
+        "en": "Etzer Emile vs Jacky Lumarque: who checks employment after the diploma?"
+      },
+      "description": {
+        "ht": "Pwogram Emile la mare sipò pou antrepriz fòmasyon ak antre nan travay. Dosye Lumarque a pèmèt mande kijan yo mezire rezilta fòmasyon sou tan.",
+        "en": "Emile links employer-training support to employment entry. Lumarque’s record allows scrutiny of how training outcomes are measured over time."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon jèn ki fini fòmasyon kapab gen yon sètifika san li pa gen yon salè. Pou li, kesyon an se sa k pase apre kou a. Se sou etap sa a pwogram Etzer Emile ak dosye ansyen responsab fòmasyon pwofesyonèl Jacky Lumarque rankontre.",
+            "en": "A young person finishing training can have a certificate without a wage. What happens after the course matters. That is where Etzer Emile’s programme meets former vocational-training administrator Jacky Lumarque’s record."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Emile pwopoze sètifye 100,000 jèn nan yon metye an 2033. Pwogram li a fikse omwen 60% antre nan travay douz mwa apre diplòm, epi li pwopoze yon sipò finansye pou antrepriz k ap fòme selon rezilta antre nan travay. Se objektif ak mekanis kanpay, pa rezilta yon gwoup etidyan nou verifye.",
+            "en": "Emile proposes certifying 100,000 young people in a trade by 2033. His programme targets at least 60% employment entry twelve months after graduation and proposes financial training support for firms according to employment-entry results. These are campaign targets and mechanisms, not verified student-cohort outcomes."
+          },
+          "sources": [
+            "etzer-education"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Biyografi Université Quisqueya a mete Lumarque kòm direktè adjwen INFP an 1984, direktè jeneral an 1987 ak rektè depi 2007. Dat sa yo bay responsablite pou egzamine; yo pa bay yon pousantaj plasman etidyan. Nou pa envante youn pou kreye yon klasman ant kandida yo.",
+            "en": "Université Quisqueya’s biography dates Lumarque’s INFP deputy directorship to 1984, directorship to 1987 and rectorship to 2007. Those dates identify responsibilities to examine, not a placement rate. We invent none to rank the candidates."
+          },
+          "sources": [
+            "lumarque-career"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon mezi travay bezwen di si li konte yon kontra pèmanan, travay pou tèt ou oswa yon djòb kout. Li bezwen di tou sa ki rive lè yo pa jwenn yon ansyen etidyan pou verifye sitiyasyon li. Si se sèlman moun ki reponn yo konte, yon pousantaj ka kache anpil moun ki disparèt nan swivi a.",
+            "en": "An employment measure must specify permanent work, self-employment and short jobs. It must address graduates whose situation cannot be verified. Counting only respondents can hide many people lost to follow-up."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Emile, règ sa yo dwe vini anvan lajan sipò a distribye. Pou Lumarque, rezilta ansyen gwoup etidyan yo ta pèmèt teste eksperyans li. Konparezon an mande yon swivi piblik sou opòtinite jèn yo, san fè tout diplòm oswa tout karyè tounen yon prèv siksè otomatik.",
+            "en": "For Emile, those rules should precede support payments. For Lumarque, past cohorts’ results could test his experience. The comparison requires public follow-up of young people’s opportunities, without treating every diploma or career as automatic proof of success."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "jerry-tardieu-vs-rene-st-fort",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a",
+        "c-7308041793ef5e32b5ff"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Jerry Tardieu ak René St-Fort: pale ak yon sitwayen pa vle di li siyen pou ou",
+        "en": "Jerry Tardieu vs René St-Fort: speaking with a citizen is not their signature of support"
+      },
+      "description": {
+        "ht": "Konsiltasyon sou Konstitisyon ak non sou lis manm pati gen fonksyon diferan. Toude bezwen yon tras sou sa sitwayen an te aksepte.",
+        "en": "Constitutional consultation and party membership serve different functions. Both need a record of what the citizen actually agreed to."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon moun ka vini nan yon reyinyon pou kritike yon lide, pa pou apiye l. Menm jan an, non yon moun nan yon baz done pa esplike poukont li ki angajman li te pran. Se distenksyon sa a ki konekte de dosye Jerry Tardieu ak René St-Fort.",
+            "en": "Someone may attend a meeting to criticize an idea rather than support it. A name in a database likewise does not explain the commitment made. That distinction connects two records involving Jerry Tardieu and René St-Fort."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Oktòb 2017, komisyon amannman konstitisyonèl Tardieu te prezide a te pibliye yon kominike sou konsiltasyon ak sektè biznis, medya, lajistis ak inivèsite. Li te anonse tou atelye nan dis depatman yo ak dyaspora a. Travay rapòte ak etap anonse yo dwe rete separe.",
+            "en": "In October 2017, the constitutional-amendment commission chaired by Tardieu issued a communiqué on consultations with business, media, justice and universities. It also announced workshops in ten departments and the diaspora. Reported activity and announced steps must remain distinct."
+          },
+          "sources": [
+            "tardieu-constitution-consultation-2017"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2026, Vant Bèf Info rapòte PRN René St-Fort la te konteste kondisyon 30,000 sipòtè a epi mande sispann pwosesis la. Sa dokimante yon pozisyon pati a; sa pa pwouve yon lis non te fo oswa tout moun sou yon lis te bay konsantman yo.",
+            "en": "In 2026, Vant Bèf Info reported René St-Fort’s PRN challenging the 30,000-supporter condition and seeking suspension of the process. That documents the party’s position; it establishes neither a falsified list nor consent from everyone on any list."
+          },
+          "sources": [
+            "stfort-prn-30000-challenge-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon konsiltasyon mande konprann sa yon moun te pwopoze ak sa otorite a te fè ak pwopozisyon an. Yon lis manm mande konnen si moun nan te dakò ak enskripsyon an ak itilizasyon non li. Mete de dosye sa yo ansanm pa fè yo menm pwosedi legal; li fè limit siyifikasyon yon non parèt.",
+            "en": "Consultation requires knowing what someone proposed and how the authority used it. Membership requires knowing whether the person agreed to registration and use of their name. The records are not the same legal procedure; comparing them exposes the limits of what a name establishes."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Tardieu, yon bon tras montre ki opinyon ki chanje tèks la. Pou St-Fort, li montre kiyès ki bay yon pati yon manda pou pale nan non li. Patisipasyon pa dwe tounen yon chif ki pran sans sitwayen an pa t ba li.",
+            "en": "For Tardieu, a useful record shows which views changed the text. For St-Fort, it shows who gave a party authority to speak for them. Participation should not become a number carrying a meaning the citizen never gave it."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "savannah-savary-vs-jude-elie",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-044a28564a40545cb553",
+        "c-a16d010ca47352d98607"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Savannah Savary ak Jude Elie: kiyès ki kontwole biznis la pandan yon manda?",
+        "en": "Savannah Savary vs Jude Elie: who controls the business during a presidential term?"
+      },
+      "description": {
+        "ht": "Antrepriz yo eritye, biznis yo deklare ak yon tit patnè mande dokiman diferan. Kesyon piblik la se pouvwa sou desizyon ki ka touche enterè sa yo.",
+        "en": "Inherited firms, declared businesses and a partner title require different records. The public issue is power over decisions affecting those interests."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Si yon antrepriz kandida a gen bezwen yon pèmi oswa yon kontra Leta, kiyès ki deside pandan kandida a sou pouvwa? Sa se yon kesyon sou règ davans, pa yon akizasyon yon kontra patikilye te favorize yon moun. Dosye Savannah Savary ak Jude Elie bay de pwen depa pou egzamen an.",
+            "en": "If a candidate’s business needs a permit or state contract, who decides while the candidate holds power? That concerns advance rules, not an allegation of favoritism in a particular contract. Savannah Savary and Jude Elie provide different starting points."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan entèvyou Haitian Times Oktòb 2026 la, Savary di li eritye Distillerie 1928 ak Habitation Robert epi li site plis pase 100 anplwa. Li te refize detay finansye pou rezon sekirite. Se kont li bay sou biznis yo; kantite anplwa pa revele tout patisipasyon, dèt oswa pwofi li.",
+            "en": "In an October 2026 Haitian Times interview, Savary describes inheriting Distillerie 1928 and Habitation Robert and cites more than 100 jobs. She withheld financial details for security reasons. This is her account; employment totals do not reveal all ownership interests, debt or profit."
+          },
+          "sources": [
+            "savary-ht-interview-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Biyografi Elie sou pwòp sit li site antrepriz konstriksyon, enèji ak distribisyon petwòl. Yon paj Million Billion Group prezante l tou kòm patnè nan enfrastrikti ak estrateji devlopman. Tit sa a pa yon rejis aksyonè; paj biyografi a pa bay yon dat ki fè l tounen yon deklarasyon byen aktyèl.",
+            "en": "Elie’s own biography names construction, energy and petroleum-distribution businesses. Million Billion Group also presents him as an infrastructure and development-strategy partner. That title is not a shareholder register; the biography supplies no date making it a current asset declaration."
+          },
+          "sources": [
+            "jude-elie-biography",
+            "million-billion-elie"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Savary bezwen yon fason pou bay piblik la enfòmasyon sou enterè li san ekspoze detay sekirite prive. Elie bezwen separe pwopriyetè, patnè, konseye ak ansyen relasyon yo. Nan toude ka yo, yon tit biznis pa etabli kiyès ki finanse kanpay la. Lyen sa a bezwen kontribisyon oswa peman dokimante.",
+            "en": "Savary needs a way to disclose interests without exposing private security details. Elie needs to distinguish ownership, partnership, advisory work and ended relationships. For both, a business title does not establish campaign financing. That link requires documented contributions or payments."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon angajman ki ka verifye ta idantifye moun k ap dirije antrepriz yo, desizyon kandida a pa ta patisipe ladan yo ak kontwòl sou kontra piblik. Sa pèmèt evalye eksperyans antreprenarya san fè eritaj tounen kilpabilite oswa yon bèl biyografi tounen yon garanti entegrite.",
+            "en": "A verifiable commitment would identify business managers, decisions the candidate would step aside from and scrutiny of public contracts. That assesses entrepreneurial experience without treating inheritance as guilt or a polished biography as a guarantee of integrity."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "hans-joseph-vs-etzer-emile",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-20a19b185cd2557e8e12",
+        "c-e8698b3339a756e88e60"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Hans Joseph ak Etzer Emile: kontwòl yo dwe kapab egzamine pwòp kan pa yo",
+        "en": "Hans Joseph vs Etzer Emile: oversight must be able to examine their own side"
+      },
+      "description": {
+        "ht": "Yon ekonomis ki te kritike limit sou Lakou Kont yo ak yon ansyen direktè ULCC dwe esplike ki pwoteksyon yo ta bay moun k ap kontwole pouvwa yo.",
+        "en": "An economist who criticized constraints on the Court of Accounts and a former ULCC director must explain protections for those scrutinizing their own power."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Li fasil pou mande ankèt lè se advèsè a ki sou pouvwa. Pi bon tès la vini lè yon ankèt touche yon alye oswa yon desizyon pa w. De pozisyon piblik Etzer Emile ak Hans Joseph fè kesyon sa a presi, san sipoze yo te viv menm dosye a.",
+            "en": "It is easy to demand investigation when an opponent governs. A sharper test comes when an inquiry concerns an ally or your decision. Public positions taken by Etzer Emile and Hans Joseph make that question concrete without treating their records as one case."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An 2020, Juno7 rapòte Emile te kritike chanjman ki te afekte kontwòl Lakou Siperyè Kont yo sou kontra piblik. Sa se pozisyon li nan deba a, pa yon desizyon jij nou atribye l. Li bay yon egzijans pou sonje lè menm moun nan mande dirije egzekitif la.",
+            "en": "In 2020, Juno7 reported Emile criticizing changes affecting the Court of Accounts’ control over public contracts. That is his position in the debate, not a judicial decision attributed to him. It creates a standard to revisit when he seeks executive power."
+          },
+          "sources": [
+            "etzer-court-controls-2020"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan entèvyou AyiboPost Jiyè 2026 la, Joseph te lye depa li nan ULCC ak kritik li sou dekrè Wo Kou Jistis la. Li te dirije ULCC depi 2020. Nou kenbe relasyon koz li reklame a kòm deklarasyon li; sekans dat yo pa pwouve poukont li rezon revokasyon an.",
+            "en": "In his July 2026 AyiboPost interview, Joseph linked his departure from ULCC to criticism of the High Court of Justice decree. He had led ULCC since 2020. His claimed causal link remains his statement; chronology alone does not prove the removal’s motive."
+          },
+          "sources": [
+            "hans-joseph-removal-interview-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lakou Kont yo ak ULCC pa menm enstitisyon epi yo pa gen menm travay. Men endepandans yo poze yon kesyon komen sou rekritman, bidjè, aksè ak dokiman ak rezon piblik pou ranplase dirijan yo. Yon pwoteksyon ki depann sèlman de bon volonte prezidan an pa yon pwoteksyon ki ka siviv yon dezakò.",
+            "en": "The Court of Accounts and ULCC are distinct institutions with different duties. Their independence raises shared questions about appointments, budgets, document access and public reasons for replacing leaders. Protection depending only on presidential goodwill may not survive disagreement."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou Emile ak Joseph, yon angajman konkrè ta bay règ ki aplike menm lè kontwòl la deranje kan yo. Ki dokiman ki rete aksesib, kiyès ki ka egzamine yon revokasyon ak kilè rezilta yo pibliye? Se konsa yon kritik ansyen pouvwa ka tounen yon limit yo aksepte sou pwòp pouvwa yo.",
+            "en": "A concrete commitment from Emile and Joseph would set rules applying even when scrutiny troubles their side. Which records remain accessible, who can review a dismissal and when are findings published? That turns criticism of previous power into limits accepted on their own."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
+    },
+    {
+      "slug": "lucmanne-delille-vs-jean-ernest-muscadin",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-89917a3266b65e969c3d",
+        "c-260d6761d0c65693b074"
+      ],
+      "published_at": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "title": {
+        "ht": "Lucmanne Delille ak Muscadin: dwa yon ajan ak limit pouvwa li mache ansanm",
+        "en": "Lucmanne Delille vs Jean Ernest Muscadin: an officer’s rights and limits on power belong together"
+      },
+      "description": {
+        "ht": "Yon desizyon sou sendika lapolis an 2020 ak yon rapèl sou jiridiksyon an 2023 montre de kote menm sèvis piblik la.",
+        "en": "A 2020 police-union decision and a 2023 jurisdictional reprimand illuminate two sides of public service."
+      },
+      "paragraphs": [
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Yon ajan Leta bezwen dwa pou defann kondisyon travay li. Sitwayen an bezwen dwa pou konteste zak ajan an. Konpare dosye Lucmanne Delille ak Jean Ernest Muscadin vle di egzamine de bezwen sa yo ansanm, san envante yon konfli pèsonèl ant yo.",
+            "en": "A state officer needs rights to defend working conditions. Citizens need rights to challenge the officer’s actions. Comparing Lucmanne Delille and Jean Ernest Muscadin means examining those needs together without inventing a personal conflict."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Arete 10 Mas 2020 sou estati pèsonèl PNH la, jan HaitiLibre repwodui l, pote non minis lajistis Delille ak premye minis Joseph Jouthe. Li rekonèt espas pou asosye ak òganize nan sendika pou defann dwa, selon kondisyon lalwa. Sa pa fè Delille sèl otè tout dwa sendikal lapolis.",
+            "en": "The March 10, 2020 PNH personnel order reproduced by HaitiLibre bears Justice Minister Delille’s and Prime Minister Joseph Jouthe’s names. It recognizes space to associate and organize in unions to defend rights under legal conditions. It does not make Delille sole author of all police union rights."
+          },
+          "sources": [
+            "delille-police-union-order-2020"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Desanm 2023, Juno7 rapòte yon lèt ministè lajistis te raple Muscadin limit jiridiksyon ak obligasyon rann kont li. Lèt la te kritike yon entèvansyon nan yon lòt jiridiksyon san otorizasyon ak yon baraj sipòtè te monte nan non li. Se pozisyon otorite siperyè li nan yon rapèl, pa yon kondanasyon penal.",
+            "en": "In December 2023, Juno7 reported a justice-ministry letter reminding Muscadin of jurisdiction and accountability limits. It criticized intervention in another jurisdiction without authorization and a roadblock supporters mounted in his name. This is a supervising authority’s reprimand, not a criminal conviction."
+          },
+          "sources": [
+            "muscadin-ministry-warning-2023"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Dwa pou òganize pa yon otorizasyon pou sèvi ak pouvwa san kontwòl. Men disiplin pa dwe sèvi kòm yon eskiz pou efase dwa travay. De dosye yo soti nan ane ak responsablite diferan; youn pa pwouve Delille te bay Muscadin lòd ki nan lòt la.",
+            "en": "Organizing rights do not authorize unchecked power. Discipline should not become an excuse to erase workplace rights. The records involve different years and responsibilities; one does not establish that Delille issued the order concerning Muscadin in the other."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Pou yon elektè, kesyon pou toude se ki chemen plent yo ta pwoteje: chemen ajan ki maltrete nan travay li, ak chemen sitwayen ki di yon ajan fè abi sou li. Si youn disparèt, sèvis piblik la pèdi yon kontwòl. Sekirite bezwen moun ki byen trete epi ki dwe rann kont.",
+            "en": "Voters can ask which complaint channels both would protect: for an officer mistreated at work and for a citizen alleging official abuse. Losing either removes a check on public service. Security needs personnel treated fairly and held accountable."
+          },
+          "sources": []
+        }
+      ],
+      "comparison": true
     }
   ],
   "word_limit": 500,
