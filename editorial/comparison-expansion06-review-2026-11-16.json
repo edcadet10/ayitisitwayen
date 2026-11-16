@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-11-16",
+  "distinct_articles": 10,
+  "distinct_comparisons": 2,
+  "articles": [
+    "etzer-emile-police-vetting-investigation-closure",
+    "jean-ernest-muscadin-prison-pretrial-justice-capacity",
+    "deus-deronneth-gang-candidate-lists-election-freedom",
+    "olivier-barrau-youth-corps-minors-protection-rules",
+    "opinion-sexual-violence-data-reporting-date",
+    "opinion-election-silence-not-proof-of-security",
+    "opinion-energy-assets-security-maintenance",
+    "hans-joseph-vs-jean-ernest-muscadin",
+    "jerry-tardieu-vs-olivier-barrau-youth-service-command",
+    "etzer-emile-vs-gandhy-dorfeuille"
+  ],
+  "independent_ht_first_review": true,
+  "paired_fields_checked": 104,
+  "required_applied": 7,
+  "optional_applied": 0,
+  "public_word_ceiling": 500,
+  "facts_review": "Records and contrasts checked against reviewed sources, including fresh primary material. Allegations, responses, proposals and verified arithmetic remain distinct; no invented ratings, current alliances or criminal convictions.",
+  "shared_fields_already_satisfied": [],
+  "parent_english_clarifications_applied": 1,
+  "plain_language_explanations_added": 4,
+  "explanations_checked": "UN rights definitions and ICCPR article14(2); source report confirms extrajudicial category. Closure explanation limited to a written end-of-investigation record; full report contents not asserted.",
+  "actor_alignment": "Two residents reported killed, without adding an unnamed perpetrator in the supplied English note. Report itself attributes killings to gang leader; no presidential-candidate link inferred."
+}
