@@ -1,0 +1,27 @@
+{
+  "reviewed_at": "2026-11-15",
+  "distinct_articles": 4,
+  "articles": [
+    "wilson-jeudy-2011-evictions-security-housing",
+    "savannah-savary-inherited-businesses-public-power",
+    "savannah-savary-un-workshops-citizens-rights",
+    "gandhy-dorfeuille-electricity-24-million-follow-through"
+  ],
+  "languages": [
+    "ht",
+    "en"
+  ],
+  "independent_language_review": {
+    "ht_only_retellings_saved_before_english": true,
+    "paired_passages_checked": 42,
+    "required_replacements_applied": 5,
+    "optional_refinements_applied": 2,
+    "word_ceiling_per_article_per_language": 500
+  },
+  "factual_scope": [
+    "May evictions distinguished from September threats and municipal denial.",
+    "Savary business/employment and family account attributed to the interview, without an audited financial claim.",
+    "UN archive date of activity distinguished from upload date; no longitudinal impact claim.",
+    "Dorfeuille publication date distinguished from inconsistent ceremony date; budget difference not missing-money allegation."
+  ]
+}

@@ -1341,6 +1341,104 @@
         "ht": "Atik la rapòte de lèt diferan: youn pou Muscadin, youn pou Ronald Richemond. Nou pa transfere kritik sou youn sou lòt la.",
         "en": "Reports separate letters to Muscadin and Ronald Richemond. Criticism directed at one is not transferred to the other."
       }
+    },
+    "jeudy-amnesty-2011": {
+      "publisher": "Amnesty International",
+      "url": "https://www.amnesty.org/fr/wp-content/uploads/2021/07/amr360132011en.pdf",
+      "published_at": "2011-09-15",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Amnisti sou degèpisman ak menas nan Delmas an 2011",
+        "en": "Amnesty on Delmas evictions and threats in 2011"
+      },
+      "note": {
+        "ht": "AMR 36/013/2011, de paj. Separe degèpisman Me yo ak menas Septanm yo: meri a te demanti patisipasyon li nan menas Septanm yo.",
+        "en": "AMR 36/013/2011, two pages. Distinguishes the May evictions from September threats, for which municipal authorities denied responsibility."
+      }
+    },
+    "jeudy-bai-2011": {
+      "publisher": "Bureau des Avocats Internationaux / IJDH",
+      "url": "https://www.ijdh.org/press_release/press-release-human-rights-group-sues-mayor-in-haiti-for-terrorizing-earthquake-victims-during-unlawful-evictions-bai/",
+      "published_at": "2011-05-31",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "BAI anonse yon plent kont majistra Delmas la",
+        "en": "BAI announces a complaint against the Delmas mayor"
+      },
+      "note": {
+        "ht": "Kominike a anonse depo yon plent pou 1 Jen 2011. Li pa prèv yon kondanasyon, ni yon kopi jijman final.",
+        "en": "The release announces a complaint planned for June 1, 2011. It is neither proof of a conviction nor a copy of a final judgment."
+      }
+    },
+    "jeudy-hem-2011": {
+      "publisher": "Haïti en Marche / University of Florida archive",
+      "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/88/09/00458/00006-01-2011.pdf",
+      "published_at": "2011-06-01",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Deba sou kan Delmas yo: paj 1 ak 7",
+        "en": "Debate over the Delmas camps: pages 1 and 7"
+      },
+      "note": {
+        "ht": "Atik la defann bezwen sekirite a epi kritike fason Leta ak òganizasyon yo te jere deplasman an. Se pozisyon jounal la, pa yon jijman.",
+        "en": "The article defends the security rationale and criticizes the handling of displacement by the State and organizations. It is the newspaper’s position, not a judgment."
+      }
+    },
+    "savary-ht-interview-2026": {
+      "publisher": "The Haitian Times",
+      "url": "https://haitiantimes.com/2026/10/19/savannah-savary-president-haiti-elections/",
+      "published_at": "2026-10-19",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Savannah Savary: entèvyou sou fanmi, biznis ak antre nan politik",
+        "en": "Savannah Savary: interview on family, business and entering politics"
+      },
+      "note": {
+        "ht": "Nou li tèks orijinal la atravè API piblik piblikatè a, atik 263003. Deklarasyon sou konpayi, travay ak fanmi pa yon odit oswa yon verifikasyon endepandan sou tout jeneyaloji a.",
+        "en": "Original text read through the publisher’s public API, post 263003. Business, employment and family accounts are not an audit or independent verification of the complete genealogy."
+      }
+    },
+    "savary-un-workshop-2018": {
+      "publisher": "MINUJUSTH / United Nations",
+      "url": "https://www.flickr.com/photos/minujusth/32145075158/",
+      "published_at": "2018-11-23",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Achiv Nasyonzini: atelye ekriti ak Savannah Savary",
+        "en": "UN archive: writing workshops with Savannah Savary"
+      },
+      "note": {
+        "ht": "Foto ak deskripsyon ofisyèl sou dènye jou atelye a, 3 Jiyè 2018; piblikasyon sou kont la fèt 23 Novanm. Deskripsyon an site 18 lekòl ak uit jou, pa rezilta alontèm.",
+        "en": "Official photograph and account of the final workshop day, July 3, 2018; uploaded November 23. Describes 18 schools and eight days, without a long-term outcomes evaluation."
+      }
+    },
+    "dorfeuille-electricity-2014": {
+      "publisher": "Le Nouvelliste",
+      "url": "https://lenouvelliste.com/article/129992/saint-louis-du-sud-lancement-de-la-2e-phase-du-projet-delectrification",
+      "published_at": "2014-04-22",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "Gandhy Dorfeuille ak pwojè elektrifikasyon Senlwi di Sid la",
+        "en": "Gandhy Dorfeuille and the Saint-Louis du Sud electrification project"
+      },
+      "note": {
+        "ht": "Se ekstrè piblik la sèlman nou li. Li bay 24 milyon goud ak 18 milyon ki disponib. Dat seremoni a ak jou semèn nan pa mache ansanm ak ane piblikasyon an; nou pa envante yon dat seremoni.",
+        "en": "Only the public excerpt was read. Reports 24 million gourdes and 18 million available. The ceremony’s date and weekday do not align with the publication year; no ceremony date is inferred."
+      }
+    },
+    "dorfeuille-anf-2026": {
+      "publisher": "VeliPost",
+      "url": "https://velipost.com/?p=7037",
+      "published_at": "2026-09-24",
+      "checked_at": "2026-11-15",
+      "title": {
+        "ht": "ANF anonse chwa Gandhy Dorfeuille",
+        "en": "ANF announces its choice of Gandhy Dorfeuille"
+      },
+      "note": {
+        "ht": "Rapò sou yon kominike ANF ki gen dat 14 Septanm 2026. Prezantasyon pati a sou eksperyans li pa yon evalyasyon endepandan sou rezilta manda li.",
+        "en": "Report of an ANF statement dated September 14, 2026. The party’s presentation of his experience is not an independent evaluation of his terms."
+      }
     }
   },
   "articles": [
@@ -4753,6 +4851,274 @@
           "text": {
             "ht": "Nan egzamen kandidati Muscadin nan, sa mande yon repons sou kontwòl li ta aksepte sou pwòp aksyon li: kiyès ki ka revize yon lòd, ki prèv li konsève ak ki kote yon sitwayen ka pote plent. Pwoteje popilasyon an ak rann kont sou mwayen yo itilize pou sa se menm responsablite piblik la.",
             "en": "Scrutinizing Muscadin’s candidacy therefore requires an answer about oversight he would accept over his own actions: who can review an order, what evidence is preserved and where a citizen can complain. Protecting residents and accounting for the means used are parts of the same public responsibility."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "wilson-jeudy-2011-evictions-security-housing",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-0723179885b7514ab8ce"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Wilson Jeudy: sa destriksyon kan yo an 2011 mande nou egzamine",
+        "en": "Wilson Jeudy: what the 2011 camp clearances require us to examine"
+      },
+      "description": {
+        "ht": "Sekirite te sèvi kòm rezon pou yon operasyon. Fanmi ki pèdi abri yo te gen dwa tou. Dosye epòk la mete de responsablite sa yo fasafas.",
+        "en": "Security was the rationale for an operation. Families losing shelter had rights too. The contemporary record puts those responsibilities side by side."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "An Me 2011, plis pase 300 fanmi te sibi degèpisman nan de kan Delmas, dapre Amnisti Entènasyonal. Òganizasyon an rapòte ajan minisipal ak polisye te detwi tant ak byen moun ki te pèdi kay yo apre tranblemanntè a. Wilson Jeudy te majistra komin nan.",
+            "en": "In May 2011, more than 300 families were evicted from two Delmas camps, Amnesty International reported. Its account describes municipal workers and police destroying shelters and belongings after the earthquake had left residents homeless. Wilson Jeudy was the mayor."
+          },
+          "sources": [
+            "jeudy-amnesty-2011"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Nan menm epòk la, jounal Haïti en Marche te defann nesesite pou majistra a pwoteje sekirite nan zòn nan. Li te kritike Leta santral la ak òganizasyon ki t ap jere kriz deplasman an. Men yon agiman sou sekirite pa pwouve chak moun ki rete nan yon kan se yon kriminèl.",
+            "en": "At the time, Haïti en Marche defended the mayor’s responsibility to protect security and criticized the central State and organizations handling displacement. That competing account matters. A security rationale, however, does not establish that every camp resident is a criminal."
+          },
+          "sources": [
+            "jeudy-hem-2011"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "BAI, yon òganizasyon avoka, te anonse li t ap depoze yon plent kont Jeudy sou operasyon yo. Kominike sa a anonse yon demach; li pa yon jijman ki kondane l. Nou pa jwenn yon desizyon final sou plent sa a nan dosye nou egzamine yo.",
+            "en": "The BAI legal organization announced plans to file a complaint against Jeudy over the operations. That release announces a legal step; it is not a conviction. We did not locate a final decision on that complaint in the records reviewed."
+          },
+          "sources": [
+            "jeudy-bai-2011"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon lòt detay anpeche nou mete tout evènman yo nan menm sak. An Septanm, lè moun te menase kan Mosayik ak kan Mormon, meri a te di se pa li ki te voye moun sa yo. Rapò Amnisti a anrejistre demanti sa a. Menas Septanm yo ak degèpisman Me yo se de evènman diferan.",
+            "en": "Another detail prevents a blanket accusation. When people threatened Camp Mosayik and neighboring Camp Mormon in September, municipal authorities denied sending them. Amnesty recorded that denial. Those threats and the May evictions were separate events."
+          },
+          "sources": [
+            "jeudy-amnesty-2011"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Pou elektè jodi a, kesyon an depase yon operasyon pase. Lè yon responsab vle reprann yon espas pou sekirite piblik, kiyès ki verifye lòd la? Ki avètisman fanmi yo resevwa? Ki kote yo ka ale, epi ki kote yo pote plent? Yon politik sekirite dwe esplike ki jan li pwoteje lavi san li pa fè moun pèdi dwa yo.",
+            "en": "For voters today, the issue reaches beyond one operation. When an official clears an area for public security, who checks the authority for doing so? What notice do families receive? Where can they go, and where can they challenge the action? A security policy must explain how it protects lives while preserving rights."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "savannah-savary-inherited-businesses-public-power",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-044a28564a40545cb553"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Savannah Savary: biznis li eritye yo ak pouvwa li mande a",
+        "en": "Savannah Savary: inherited businesses and the power she seeks"
+      },
+      "description": {
+        "ht": "Kann, kleren ak tè fè pati istwa li. Sa l esplike sou biznis fanmi an ouvri yon kesyon sou enterè prive ak desizyon piblik.",
+        "en": "Sugarcane, kleren and land form part of her story. Her account of the family businesses opens a question about private interests and public decisions."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Savannah Savary pa prezante tèt li kòm yon moun ki fèk dekouvri biznis. Nan yon entèvyou The Haitian Times pibliye an Oktòb 2026, li rakonte eritaj de antrepriz: Distillerie 1928 ak Habitation Robert. Li di aktivite yo bay plis pase 100 moun travay. Se deklarasyon li nan entèvyou a, pa yon kont travay nou verifye.",
+            "en": "Savannah Savary does not present herself as a newcomer to business. In an October 2026 Haitian Times interview, she describes inheriting Distillerie 1928 and Habitation Robert and says the enterprises employ more than 100 people. That is her reported account, rather than an independently verified employment total."
+          },
+          "sources": [
+            "savary-ht-interview-2026"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Entèvyou a idantifye papa li kòm Philippe Savary, yon antreprenè agrikòl ki te antre nan politik, ak manman li kòm Soad Chamy Savary, yon komèsant. Li rakonte angajman papa li nan mouvman politik 1946 la. Sa bay yon istwa fanmi; li pa tabli kiyès ki kontwole kanpay li jodi a.",
+            "en": "The interview identifies her father as agricultural entrepreneur and political participant Philippe Savary and her mother as merchant Soad Chamy Savary. It places her father in the political movement of 1946. That supplies family history; it does not establish who controls her campaign today."
+          },
+          "sources": [
+            "savary-ht-interview-2026"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Savary pa t bay detay finansye sou antrepriz yo, paske li te di li pè vin yon sib. Risk sekirite sa a merite respè. An menm tan, kantite travay yon moun bay pa di nou pwofi biznis la, dèt li oswa kiyès ki posede lòt pati ladan l.",
+            "en": "Savary declined financial details, citing fear of becoming a target. That security concern deserves respect. At the same time, an employment claim does not reveal a company’s profit, debts or other ownership interests."
+          },
+          "sources": [
+            "savary-ht-interview-2026"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Se la kesyon prezidans lan antre. Si yon prezidan gen biznis, elektè yo bezwen konprann kiyès k ap dirije yo pandan manda li. Si yon konpayi ki konekte avè l mande yon kontra Leta, ki moun ki pran desizyon an? Ki jan lòt antreprenè yo jwenn menm chans lan?",
+            "en": "That is where the presidency enters the story. Voters need to understand who would run a president’s businesses during the term. If a connected company sought a State contract, who would decide? How would competing businesses receive an equal chance?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Pa gen kontra konsa ki etabli nan dosye sa a. Kesyon an se mete règ yo klè davans. Eksperyans nan pwodiksyon ka sèvi peyi a; elektè yo dwe kapab suiv kote enterè biznis yo fini ak kote desizyon Leta yo kòmanse.",
+            "en": "This record establishes no such contract. The point is to make the rules clear beforehand. Production experience can serve the country; voters should be able to trace where business interests end and State decisions begin."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "savannah-savary-un-workshops-citizens-rights",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-044a28564a40545cb553"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Savannah Savary: yon tras travay sivik ki soti anvan kanpay la",
+        "en": "Savannah Savary: a civic-work record predating the campaign"
+      },
+      "description": {
+        "ht": "Yon achiv Nasyonzini montre travay ekriti ak jèn an 2018. Tèm yo te dwa moun, jistis ak sekirite: twa kesyon ki retounen nan eleksyon an.",
+        "en": "A UN archive documents writing workshops in 2018. Their themes—rights, justice and security—return in this election."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Nan yon achiv Nasyonzini, Savannah Savary parèt ansanm ak ekriven Frankétienne kòm moun ki te akonpaye elèv nan ekriti fab. Deskripsyon an bay dat 3 Jiyè 2018 pou dènye jou yon atelye uit jou, ak patisipasyon elèv ki soti nan 18 lekòl Pòtoprens.",
+            "en": "A United Nations archive identifies Savannah Savary and writer Frankétienne as facilitators helping pupils write fables. It dates the final day of an eight-day workshop to July 3, 2018 and describes participation from 18 Port-au-Prince schools."
+          },
+          "sources": [
+            "savary-un-workshop-2018"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Tèm yo pa t sèlman sou jan pou ekri yon bèl istwa. Yo te gen ladan yo dwa moun, Leta k ap respekte lalwa ak sekirite. Se misyon MINUJUSTH, ansyen misyon Nasyonzini pou soutni lajistis ann Ayiti, ki konsève deskripsyon ak foto travay sa a.",
+            "en": "The themes extended beyond writing a good story. They included human rights, the rule of law and security. The account and photograph come from MINUJUSTH, the former UN mission supporting justice in Haiti."
+          },
+          "sources": [
+            "savary-un-workshop-2018"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Sa bay yon tras travay espesifik ki pi solid pase yon senp deklarasyon sou angajman li. Men achiv la pa mezire sa elèv yo te sonje kèk ane apre, ni efè atelye a sou lavi yo. Patisipasyon nan yon pwojè ak prèv yon rezilta alontèm se de bagay nou dwe egzamine apa.",
+            "en": "This supplies a concrete work record beyond a general statement of commitment. The archive does not measure what pupils retained years later or how the workshop affected their lives. Participation and demonstrated long-term results require different evidence."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Lyen politik la enteresan. Yon moun ki ede jèn pale sou dwa yo ka pote eksperyans sa a nan yon diskisyon sou sekirite. Men elektè yo gen dwa mande sa pwogram prezidansyèl li ta fè lè dwa yon sitwayen antre an konfli ak yon operasyon otorite yo vle mennen.",
+            "en": "The political connection is worth examining. Experience helping young people discuss rights can inform a security debate. Voters can also ask what her presidential program would do when a citizen’s rights conflict with an operation the authorities want to conduct."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Ki kote yon jèn ka pote plent kont yon ajan Leta? Ki jan li aprann sa nan lang li konprann? Travay 2018 la bay yon pwen depa pou kesyon sa yo. Yon kanpay ki sèvi ak eksperyans sa a dwe montre ki jan l ap fè dwa yo vin itil nan lavi chak jou.",
+            "en": "Where could a young person complain about a State agent? How would they learn that in a language they understand? The 2018 work offers a starting point for those questions. A campaign drawing on that experience should show how rights become usable in everyday life."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "gandhy-dorfeuille-electricity-24-million-follow-through",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-6294b51c7cdc5f969078"
+      ],
+      "published_at": "2026-11-15",
+      "updated_at": "2026-11-15",
+      "title": {
+        "ht": "Gandhy Dorfeuille: apre lansman kouran an, ki rezilta?",
+        "en": "Gandhy Dorfeuille: after the electricity launch, what followed?"
+      },
+      "description": {
+        "ht": "Dapre atik epòk la, pwojè a te gen yon bidjè 24 milyon goud. Sa bay yon fason konkrè pou egzamine eksperyans ansyen depite a.",
+        "en": "An older project with a reported 24-million-gourde budget offers a concrete way to examine the former deputy’s experience."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "ht": "Yon atik Le Nouvelliste pibliye 22 Avril 2014 rakonte lansman yon dezyèm faz elektrifikasyon nan Senlwi di Sid. Li site Gandhy Dorfeuille, ki te depite nan epòk la, epi li dekri yon liy ki ta soti Senjòj rive Moriso sou wout nasyonal nimewo 2.",
+            "en": "A Le Nouvelliste article published April 22, 2014 reports the launch of a second electrification phase in Saint-Louis du Sud. It names then-deputy Gandhy Dorfeuille and describes a line running from Saint-Georges to Maurisseau along National Road 2."
+          },
+          "sources": [
+            "dorfeuille-electricity-2014"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "Ekstrè piblik la bay yon bidjè 24 milyon goud ki soti nan Trezò piblik, avèk 18 milyon ki te deja disponib. Diferans lan se 6 milyon goud. Kalkil sa a pa montre 6 milyon te disparèt: yon bidjè, yon lajan ki disponib ak yon depans ki fèt pa menm bagay.",
+            "en": "The public excerpt reports a Treasury-funded budget of 24 million gourdes, with 18 million already available. The difference is six million. That arithmetic does not show missing money: a budget, available funds and completed expenditure are different things."
+          },
+          "sources": [
+            "dorfeuille-electricity-2014"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "ht": "An Septanm 2026, lè ANF anonse li chwazi Dorfeuille pou prezidans lan, pati a mete aksan sou eksperyans palmantè li. Ansyen pwojè kouran sa a bay eksperyans sa a yon bagay pou nou mezire: yon kote, yon sèvis ak yon montan.",
+            "en": "When ANF announced Dorfeuille as its presidential choice in September 2026, the party emphasized his parliamentary experience. The electricity project gives that experience something measurable: a place, a service and an amount."
+          },
+          "sources": [
+            "dorfeuille-anf-2026"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "ht": "Pou konnen sa pwojè a bay, fòk nou ta jwenn prèv sou travay ki te fin fèt, koneksyon ki te antre an sèvis ak moun ki te responsab antretyen an. Nou pa jwenn dokiman sa yo nan ekstrè nou li a. Sa pa pwouve pwojè a echwe; li montre yon anons lansman pa ase pou evalye rezilta li.",
+            "en": "Assessing the result would require completion records, evidence of connections entering service and responsibility for maintenance. The excerpt we read does not provide those records. That does not prove failure; it shows why a launch announcement cannot establish the outcome."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "ht": "Kesyon elektè a kapab senp: konbyen fanmi ki te jwenn kouran, pandan konbyen tan, epi ak ki depans? Se repons sa yo ki ta fè yon ansyen seremoni tounen yon bilan ki itil pou yon eleksyon.",
+            "en": "The voter’s question can be simple: how many households received electricity, for how long, and at what cost? Those answers would turn an old ceremony into an election record worth assessing."
           },
           "sources": []
         }
