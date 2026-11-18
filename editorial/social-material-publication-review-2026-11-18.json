@@ -28,7 +28,7 @@
     "Hans:SELis a campaign statement;the opinion proposes performance measures without claiming a complete institutional audit."
   ],
   "publication_authorization": "Explicit user instruction on2026-11-18 to add material to candidate spider webs,create new pieces and publish ASAP.",
-  "source_index_sha256": "94989ec8c0e1a635bbf123365e7dd17594d6a6f9ace5226643adf13fa09da243",
+  "source_index_sha256": "3b0d0648ea58aa92671bdef869647ab55c024a28d352cdf1601de1e7d0b10bd4",
   "limits": "All candidate histories and the wider audit remain incomplete. No candidate interview,right-of-reply contact or hidden-source access is claimed. No new narration is attached to this edition.",
   "language_review": {
     "method": "Independent Creole-only reading saved before English comparison;all70blocks and new interface strings covered. Changed passages rechecked after corrections.",
@@ -42,5 +42,6 @@
       "correction-recheck.json": "d749b01cd03a96b515bfc6cb95102368333a7f2bd753384422f4d2f9742bdd06"
     },
     "scope_limit": "Not native-human certification or a human-reader comprehension study."
-  }
+  },
+  "source_index_fingerprint": "canonical-json-utf8-v1:sorted-keys,compact-separators,unescaped-unicode"
 }

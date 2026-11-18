@@ -1,9 +1,13 @@
 """Check public source/candidate associations and bilingual publication boundaries."""
-import hashlib,importlib.util,json,re,unittest
+import copy,hashlib,importlib.util,json,re,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('candidate_social_builder',ROOT/'scripts/build-candidates.py')
 builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
+
+def source_fingerprint(document):
+    canonical=json.dumps(document,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf-8')
+    return hashlib.sha256(canonical).hexdigest()
 
 class SocialPublicationTests(unittest.TestCase):
     @classmethod
@@ -14,7 +18,7 @@ class SocialPublicationTests(unittest.TestCase):
         cls.people={p['id']:p for p in cls.registry['candidates']+cls.registry.get('retained_candidates',[])}
 
     def test_exact_source_coverage_and_identity_links(self):
-        self.assertEqual(self.review['source_index_sha256'],hashlib.sha256((ROOT/'data/candidates/reviewed-social.json').read_bytes()).hexdigest())
+        self.assertEqual(self.review['source_index_sha256'],source_fingerprint(self.data))
         posts={sid:p for sid,p in self.data['publications'].items() if p['format']=='social_post'}
         self.assertEqual(len(posts),self.review['social_source_count'])
         self.assertEqual(len(posts),616)
@@ -31,6 +35,14 @@ class SocialPublicationTests(unittest.TestCase):
                     self.assertIn(profile['source_relations'][sid],['candidate_authored','candidate_coauthored'])
         self.assertEqual(len(linked),616)
         self.assertEqual(set(linked),set(posts))
+
+    def test_fingerprint_preserves_content_integrity_across_checkout_line_endings(self):
+        lf=json.dumps(self.data,ensure_ascii=False,indent=2)+'\n'
+        crlf=lf.replace('\n','\r\n')
+        self.assertEqual(source_fingerprint(json.loads(lf)),source_fingerprint(json.loads(crlf)))
+        changed=copy.deepcopy(self.data)
+        next(iter(changed['publications'].values()))['url']='https://example.org/different-source'
+        self.assertNotEqual(source_fingerprint(self.data),source_fingerprint(changed))
 
     def test_source_indices_do_not_present_statements_as_verified_outcomes(self):
         for source in self.data['publications'].values():
