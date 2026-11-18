@@ -1,0 +1,55 @@
+{
+  "reviewed_at": "2026-11-18",
+  "original_article_count": 4,
+  "analysis_count": 3,
+  "opinion_count": 1,
+  "article_slugs": [
+    "jerry-tardieu-2018-quorum-absent-members-power",
+    "tardieu-deronneth-local-government-asec-pay-design",
+    "jude-elie-del-rio-investigation-reins-dangerous-conduct",
+    "jude-elie-del-rio-court-count-four-clarification"
+  ],
+  "scope": "Four additional bilingual pieces;all223previous article records and source records preserved.",
+  "source_checks": [
+    "Constitution:one-third and any-attendance formulations both retain special-majority references;fictional90member illustration is explicitly hypothetical. Proposal is not enacted law or verified final text.",
+    "Local government:2018commission proposal and2024pay statement are six years apart;chairing does not establish individual support for every clause;recorded reservation defeats unanimity.",
+    "DelRio:statement does not explicitly establish rein contact;DHS dangerous-conduct findings and no-evidence-of-rein-contact finding both retained;2022findings postdate2021statement.",
+    "Court:all27substantive page texts in fresh current PDF match retained copy after wrapper removal. Its conflicting final Count4paragraph requires the actual April6clarifying order,which was reread on public docket. Pleading-stage survival is not a merits verdict or a candidate achievement."
+  ],
+  "publication_authorization": "User explicitly instructed continued articles,web connections and prompt publication.",
+  "word_counts": {
+    "jerry-tardieu-2018-quorum-absent-members-power": {
+      "ht": 304,
+      "en": 239
+    },
+    "tardieu-deronneth-local-government-asec-pay-design": {
+      "ht": 301,
+      "en": 254
+    },
+    "jude-elie-del-rio-investigation-reins-dangerous-conduct": {
+      "ht": 306,
+      "en": 263
+    },
+    "jude-elie-del-rio-court-count-four-clarification": {
+      "ht": 307,
+      "en": 265
+    }
+  },
+  "language_review": {
+    "article_blocks": 28,
+    "source_title_note_blocks": 12,
+    "independent_blind_reading_before_english": true,
+    "definite_findings": 2,
+    "all_definite_fixes_applied": true,
+    "optional_findings_applied": 3,
+    "replacement_occurrences_rechecked": 7,
+    "final_result": "pass",
+    "evidence_sha256": {
+      "creole-blind-reading.md": "2b701928e05551a7c0ce293b8ee319e6722bac9a69d37526ec0417fbcbaaaa6d",
+      "creole-fidelity-review.json": "baf2ba053143f4d1c425d8dce92338eee4b42f6ef05a8d8b902bc54b00eccacf",
+      "source-note-QC.json": "d01d811a17fa76ebf1f03ccf0fcf31fd8e508bae2098ce2904b32f8ea46614ff",
+      "correction-recheck.json": "7f2d940d0beae848ce40a91954db5579fd98ea7794664a677d70485074e94501"
+    }
+  },
+  "limits": "No native-human certification,candidate contact,private case access or complete current immigration litigation review claimed. No new narration."
+}
