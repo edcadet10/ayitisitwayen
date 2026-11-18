@@ -111,7 +111,10 @@ class CandidateDataChecks(unittest.TestCase):
             self.assertIn(source['review_status'],['reviewed','indexed'])
             if source['review_status']=='indexed':
                 self.assertEqual(source['editorial_level'],'index')
-                self.assertIn(source['summary'],[builder.COPY['index_note'],builder.COPY['video_metadata_note']])
+                if source['format']=='social_post':
+                    self.assertEqual(source['summary'],builder.COPY['social_review_index_note'])
+                else:
+                    self.assertIn(source['summary'],[builder.COPY['index_note'],builder.COPY['video_metadata_note']])
     def test_historical_records_and_candidate_identity_boundaries(self):
         history=json.loads((ROOT/'data/candidates/history-index.json').read_text(encoding='utf-8'))
         self.assertGreater(len(history['publications']),8000)

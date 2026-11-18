@@ -75,7 +75,7 @@
     else link.addEventListener('click',()=>close());
     action.append(link);
     if(item.relation==='mention')action.append(element('p','source-relationship',c.mention_note));
-    else if(['candidate_channel','archive_context'].includes(item.relation))action.append(element('p','source-relationship',c['relation_'+item.relation]));
+    else if(['candidate_channel','archive_context','candidate_authored','candidate_coauthored'].includes(item.relation))action.append(element('p','source-relationship',c['relation_'+item.relation]));
     if(item.availability==='archived_page_only')action.append(element('p','source-access-note',c.video_archive_note));
     if(item.native){
       const facts=element('dl','web-record-facts');
@@ -173,7 +173,7 @@
   search.type='search';search.id='web-source-query';search.autocomplete='off';searchLabel.append(search);year.id='web-source-year';year.append(new Option(c.all_years,''));
   for(const value of (data.years||[]).filter(value=>value!=='unknown'))year.append(new Option(value,value));if(data.years?.includes('unknown'))year.append(new Option(c.unknown_year,'unknown'));yearLabel.append(year);
   const advanced=element('details','web-archive-more'),summaryControl=element('summary','',c.more_filters),relationLabel=element('label','',c.archive_relation),relation=element('select'),clear=element('button','candidate-clear',c.clear);relation.id='web-source-relation';
-  for(const [value,text] of [['',c.all_references],['headline',c.relation_headline],['mention',c.relation_mention],['candidate_channel',c.relation_candidate_channel],['archive_context',c.relation_archive_context]])relation.append(new Option(text,value));
+  for(const [value,text] of [['',c.all_references],['headline',c.relation_headline],['mention',c.relation_mention],['candidate_channel',c.relation_candidate_channel],['archive_context',c.relation_archive_context],['candidate_authored',c.relation_candidate_authored],['candidate_coauthored',c.relation_candidate_coauthored]])relation.append(new Option(text,value));
   relationLabel.append(relation);clear.type='reset';advanced.append(summaryControl,relationLabel,clear);controls.append(searchLabel,yearLabel,advanced);hint.before(controls);
   const resultStatus=element('p','web-filter-status');resultStatus.id='web-filter-status';resultStatus.setAttribute('role','status');controls.after(resultStatus);
   const fullArchiveLink=archive.querySelector('.candidate-coverage'),archivePager=element('nav','candidate-pagination');archivePager.id='source-archive-pagination';archivePager.setAttribute('aria-label',c.page);archive.after(archivePager);
@@ -188,7 +188,7 @@
       if(source.availability==='archived_page_only')card.append(element('p','source-access-note',c.video_archive_note));
       const original=element('a','',source.native?c.registry_title+' ↑':c.original+' ↗');original.href=source.native?'#registration':source.url;if(!source.native){original.target='_blank';original.rel='noopener noreferrer';}
       if(source.event_date||source.event_year)card.append(element('p','source-date',c.event_date+': '+(source.event_date||source.event_year)));
-      if(['candidate_channel','archive_context'].includes(source.relation))card.append(element('p','source-relationship',c['relation_'+source.relation]));
+      if(['candidate_channel','archive_context','candidate_authored','candidate_coauthored'].includes(source.relation))card.append(element('p','source-relationship',c['relation_'+source.relation]));
       const preview=element('a','source-preview-link',c.view_web+' →');preview.href='#source='+encodeURIComponent(source.id)+'&topic='+encodeURIComponent(source.categories[0])+(filters.year?'&year='+encodeURIComponent(filters.year):'');
       card.append(original,preview);fragment.append(card);
     }

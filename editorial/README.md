@@ -73,6 +73,20 @@ in this repository. The existing human-recorded evergreen clips are preserved.
 
 ## Candidate directory and source webs
 
+The 18 November social-material edition adds 616 dated source pointers from the
+completed post reviews to eleven candidate source webs, alongside ten new original
+pieces (eight analyses and two opinions). The pointers are archive entries rather
+than 616 articles or independently established outcomes. Their brief excerpts retain
+the original language; the interface and original articles are bilingual. Publication
+times use Haiti time and do not establish the date of the depicted activity.
+
+`data/candidates/reviewed-social.json` keeps this reviewed import separate from the
+older press archive. Its per-profile relationships distinguish account publication
+and platform-listed co-publication from personal authorship or electoral alliances.
+Original article nodes link to the Elections analysis section. The public build
+contains these source pointers and the articles, not the private research corpus.
+Run `python scripts/check-social-publication.py` with the other publication checks.
+
 The candidate directory lives at `/candidates/` and `/en/candidates/`. The older
 `candidates.html` pages remain educational guides. The election landing page
 links prominently to the directory. White is the main color throughout the

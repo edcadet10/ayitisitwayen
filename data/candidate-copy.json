@@ -722,5 +722,21 @@
   "follow_feed": {
     "ht": "Suiv nouvo atik yo · RSS",
     "en": "Follow new articles · RSS"
+  },
+  "format_social_post": {
+    "ht": "Piblikasyon sou rezo sosyal",
+    "en": "Social post"
+  },
+  "social_review_index_note": {
+    "en": "This link opens the original publication. Its date is the publication date, not proof an activity or outcome happened that day. Statements remain attributed to the publishing account; inclusion does not independently establish their truth. Dates and times use Haiti time.",
+    "ht": "Lyen sa a mennen nan piblikasyon orijinal la. Dat la se dat piblikasyon an; li pa pwouve aktivite a te fèt oswa rezilta a te reyalize jou sa a. Deklarasyon yo rete sa kont lan pibliye; yo pa otomatikman prèv sa ki rive toutbon. Nou bay dat ak lè yo selon lè Ayiti."
+  },
+  "relation_candidate_authored": {
+    "ht": "Pibliye nan kont kandida a; sa pa pwouve se kandida a ki te ekri mesaj la.",
+    "en": "Published on the candidate’s account; this does not establish personal drafting."
+  },
+  "relation_candidate_coauthored": {
+    "ht": "Platfòm nan montre plizyè kont pibliye mesaj sa a ansanm. Sa pa pwouve yon alyans elektoral.",
+    "en": "The platform lists multiple co-publishing accounts. This does not establish an electoral alliance."
   }
 }

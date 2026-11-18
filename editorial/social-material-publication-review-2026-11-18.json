@@ -1,0 +1,46 @@
+{
+  "reviewed_at": "2026-11-18",
+  "scope": "616pre-cutoff social-post source pointers and ten original bilingual pieces. The source pointers are not616articles.",
+  "social_source_count": 616,
+  "original_article_count": 10,
+  "article_source_nodes": 10,
+  "affected_candidate_profiles": 11,
+  "article_slugs": [
+    "jacky-lumarque-cite-soleil-47-deaths-source-check",
+    "jacky-lumarque-quisqueya-programme-fifty-student-gap",
+    "jacky-lumarque-scholarships-public-rules-opinion",
+    "dominique-dupuy-brazil-four-hundred-thirty-police-training",
+    "dominique-dupuy-six-diplomatic-reforms-submission-adoption",
+    "dominique-dupuy-thirty-three-women-promotion-timing",
+    "deus-deronneth-la-gonave-symposium-announced-cancelled",
+    "deus-deronneth-presidential-council-changing-position-2024",
+    "olivier-barrau-eight-hundred-mobile-clinics-accountability",
+    "hans-joseph-sel-case-results-opinion"
+  ],
+  "source_pointer_policy": "Short original-language excerpts retain publisher attribution. Titles label publication dates in Haiti time. Public source pointers do not reproduce private research,medical files,personal identifiers or court downloads. Account attribution does not prove personal drafting. Co-publication does not prove electoral alliance.",
+  "factual_checks": [
+    "Lumarque:234/5=46.8combined casualties,not a death-only rate. Author calculation and Ukraine source unresolved.",
+    "Quisqueya:2720+2507=5227,50below stated5277. Discrepancy belongs to institutional webpage,not the candidate’s post.",
+    "Brazil:400training opportunity,initial course up to30,first30-person opening;different stages and incomplete outcomes.",
+    "Dupuy:submission is not adoption;staff promotion tenses differ and staffing populations are not silently merged.",
+    "Deronneth:later cancellation qualifies the symposium publicity;changed public position establishes no private bargain.",
+    "Barrau:four images do not audit800unique patients,funding or health outcomes.",
+    "Hans:SELis a campaign statement;the opinion proposes performance measures without claiming a complete institutional audit."
+  ],
+  "publication_authorization": "Explicit user instruction on2026-11-18 to add material to candidate spider webs,create new pieces and publish ASAP.",
+  "source_index_sha256": "94989ec8c0e1a635bbf123365e7dd17594d6a6f9ace5226643adf13fa09da243",
+  "limits": "All candidate histories and the wider audit remain incomplete. No candidate interview,right-of-reply contact or hidden-source access is claimed. No new narration is attached to this edition.",
+  "language_review": {
+    "method": "Independent Creole-only reading saved before English comparison;all70blocks and new interface strings covered. Changed passages rechecked after corrections.",
+    "initial_definite_findings": 4,
+    "all_definite_findings_corrected": true,
+    "optional_refinements_applied": 6,
+    "final_recheck": "passed_no_new_findings",
+    "evidence_sha256": {
+      "creole-blind-reading.md": "70fc2f055f7343e8b32f74140cb8629115a5298bf355e61e584d1d804d6df7eb",
+      "creole-fidelity-review.json": "0f609b2eebc818c5696a53bb57aef6ea84702e2480bce69b1d96afe5db817f0a",
+      "correction-recheck.json": "d749b01cd03a96b515bfc6cb95102368333a7f2bd753384422f4d2f9742bdd06"
+    },
+    "scope_limit": "Not native-human certification or a human-reader comprehension study."
+  }
+}

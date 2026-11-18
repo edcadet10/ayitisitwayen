@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-18",
   "publisher": "Ayiti Sitwayen",
   "copy": {
     "title": {
@@ -2936,6 +2936,258 @@
       "note": {
         "ht": "Seksyon sou finansman gang yo pwomèt bay estrikti krim finansye ak krim an mas ki te kreye an 2025 mwayen pou yo fonksyone nèt. Sa se yon angajman kanpay, pa yon depans oswa yon rezilta verifye.",
         "en": "The gang-financing section promises resources for the financial-crime and mass-crime units created in 2025 to operate fully. Campaign pledge, not verified expenditure or delivery."
+      }
+    },
+    "social-un-cite-20220716": {
+      "url": "https://news.un.org/en/story/2022/07/1122662",
+      "publisher": "UN News",
+      "published_at": "2022-07-16",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "UN warning on gang violence, July 16, 2022",
+        "ht": "Avètisman Nasyonzini sou vyolans gang yo, 16 jiyè 2022"
+      },
+      "note": {
+        "en": "Complete substantive article read. The five-day figure combines killed and injured; the original underlying datasets and source audio were not reviewed.",
+        "ht": "Nou li tout tèks prensipal atik la. Chif sou senk jou a mete mò ak blese ansanm; nou pa verifye tout bazdone orijinal ni odyo sous la."
+      }
+    },
+    "social-jacky-casualty-20220717": {
+      "url": "https://x.com/JackyLumarque/status/1548817246134362113",
+      "publisher": "Jacky Lumarque / X",
+      "published_at": "2022-07-17",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Lumarque’s Creole casualty comparison",
+        "ht": "Konparezon Lumarque sou kantite viktim yo"
+      },
+      "note": {
+        "en": "Exact Creole original and the visible French parent with its UN-News link were read. The separate French direct-page attempt stayed loading. No later correction or author explanation was established.",
+        "ht": "Nou li tèks kreyòl la ak tèks franse ki te parèt anlè li, ansanm ak lyen Nasyonzini an. Tantativ pou louvri paj franse a apa te rete ap chaje. Nou poko jwenn yon eksplikasyon otè a oswa verifye si li te korije chif la pita."
+      }
+    },
+    "social-uniq-saline-programme": {
+      "url": "https://uniq.edu.ht/success-story-d-un-jeune-de-la-saline/",
+      "publisher": "Université Quisqueya",
+      "published_at": null,
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Quisqueya’s student and remedial-programme account",
+        "ht": "Istwa yon etidyan ak pwogram ratrapaj Quisqueya a"
+      },
+      "note": {
+        "en": "Undated institutional webpage, written by the rector’s chief of staff. Relevant full body read and refreshed November 18. The linked student letter and private academic records were not reviewed.",
+        "ht": "Paj enstitisyon an pa bay dat piblikasyon. Chèf kabinè rektè a ekri li. Nou li tèks prensipal la epi verifye li ankò 18 novanm. Nou pa egzamine lèt etidyan paj la bay lyen li a ni dosye lekòl prive."
+      }
+    },
+    "social-jacky-saline-20260426": {
+      "url": "https://x.com/JackyLumarque/status/2048560564499251362",
+      "publisher": "Jacky Lumarque / X",
+      "published_at": "2026-04-26",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Lumarque’s La Saline student tribute",
+        "ht": "Omaj Lumarque pou etidyan ki soti Lasalin nan"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-jacky-scholarships-20150711": {
+      "url": "https://x.com/JackyLumarque/status/620035713501782016",
+      "publisher": "Jacky Lumarque / X",
+      "published_at": "2015-07-11",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Lumarque’s Cerca Carvajal scholarship statement",
+        "ht": "Deklarasyon Lumarque sou bous etid nan Sèka Kavajal"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-dupuy-brazil-20240828": {
+      "url": "https://x.com/DominiqueAyiti/status/1828938670499307830",
+      "publisher": "Dominique Dupuy / X",
+      "published_at": "2024-08-28",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Dupuy’s announcement of training for 400 officers",
+        "ht": "Anons Dupuy sou fòmasyon pou 400 polisye"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-brazil-police-plan-20241119": {
+      "url": "https://www.gov.br/pf/pt-br/acesso-a-informacao/convenios/termos-de-execucao-descentralizada/termo-de-execucao-descentralizada-ted-ministerio-das-relacoes-exteriores/20241911_plano_de_trabalho_dpf_abc-1.pdf",
+      "publisher": "Polícia Federal / Brazil",
+      "published_at": "2024-11-19",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Signed Brazilian police-training work plan",
+        "ht": "Plan travay Brezil siyen pou fòmasyon polisye yo"
+      },
+      "note": {
+        "en": "All four pages read as text and rendered images. An initial course plan is not the complete bilateral programme, a payment ledger or a graduation record.",
+        "ht": "Nou li kat paj yo, ni tèks ni imaj paj yo. Plan yon premye kou pa tout pwogram ant de peyi yo, yon rejis peman oswa yon lis moun ki diplome."
+      }
+    },
+    "social-brazil-course-20250808": {
+      "url": "https://www.gov.br/abc/pt-br/assuntos/noticias/brasil-inicia-capacitacao-de-forcas-especiais-do-haiti-com-curso-ministrado-pela-pf",
+      "publisher": "Agência Brasileira de Cooperação",
+      "published_at": "2025-08-08",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Brazil reports the first 30-person police course",
+        "ht": "Brezil rapòte premye kou pou 30 polisye a"
+      },
+      "note": {
+        "en": "Relevant course, size, continuity and preparation passages read and refreshed November 18. The article describes a first stage and further planned actions; no complete graduation or effectiveness audit was recovered.",
+        "ht": "Nou li pasaj sou kou a, kantite patisipan, etap ki prevwa ak preparasyon yo; nou verifye paj la ankò 18 novanm. Li dekri yon premye etap. Nou poko jwenn tout rezilta diplòm ak evalyasyon efè fòmasyon an."
+      }
+    },
+    "social-dupuy-reform-20240805": {
+      "url": "https://x.com/DominiqueAyiti/status/1820584113256214648",
+      "publisher": "Dominique Dupuy / X",
+      "published_at": "2024-08-05",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Six diplomatic-reform instruments submitted for possible adoption",
+        "ht": "Sis tèks sou refòm diplomasi, soumèt pou yon posib adopsyon"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-dupuy-women-20240624": {
+      "url": "https://www.instagram.com/dominiqueayiti/p/C8mgQ3otlSK/",
+      "publisher": "Dominique Dupuy / Instagram",
+      "published_at": "2024-06-24",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Dupuy’s bilingual announcement on women in diplomacy",
+        "ht": "Anons bileng Dupuy sou fanm nan diplomasi"
+      },
+      "note": {
+        "en": "Full original bilingual caption and complete delivered images reviewed. The Creole and French promotion sentences differ in tense; appointment and historical staffing registers were not recovered.",
+        "ht": "Nou egzamine tout tèks kreyòl ak franse a ansanm ak imaj yo. Fraz sou pwomosyon an pa nan menm tan nan de lang yo. Nou poko jwenn rejis nominasyon ak tout lis ansyen pèsonèl yo."
+      }
+    },
+    "social-deus-petition-20240319": {
+      "url": "https://www.instagram.com/deusderonneth/p/C4spBjBuBGj/",
+      "publisher": "Deus Deronneth / Instagram",
+      "published_at": "2024-03-19",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Deronneth shares the March transition petition",
+        "ht": "Deronneth pataje petisyon sou tranzisyon an nan mwa mas"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-deus-cpt-20240425": {
+      "url": "https://www.instagram.com/deusderonneth/p/C6MPt7xMM6E/",
+      "publisher": "Deus Deronneth / Instagram",
+      "published_at": "2024-04-25",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Deronneth’s qualified welcome for the presidential council",
+        "ht": "Deronneth akeyi konsèy prezidansyèl la, avèk rezèv"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-deus-cpt-20240928": {
+      "url": "https://www.instagram.com/deusderonneth/p/DAeDTy3tdO7/",
+      "publisher": "Deus Deronneth / Instagram",
+      "published_at": "2024-09-28",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Deronneth congratulates Edgard Leblanc Fils",
+        "ht": "Deronneth felisite Edgard Leblanc Fils"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-deus-event-20240708": {
+      "url": "https://www.instagram.com/deusderonneth/p/C9KtzFhRDGy/",
+      "publisher": "Deus Deronneth / Instagram",
+      "published_at": "2024-07-08",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Announcement of the La Gonâve governance symposium",
+        "ht": "Anons senpozyòm sou gouvènans Lagonav la"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-deus-cancel-20240719": {
+      "url": "https://www.instagram.com/deusderonneth/p/C9mu6S7xAQd/",
+      "publisher": "Deus Deronneth / Instagram",
+      "published_at": "2024-07-19",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "The organiser’s July 19 cancellation notice",
+        "ht": "Avi òganizatè a pou anile aktivite 19 jiyè a"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-deus-event-20240810": {
+      "url": "https://www.instagram.com/deusderonneth/p/C-gES4yJU2w/",
+      "publisher": "Deus Deronneth / Instagram",
+      "published_at": "2024-08-10",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Later symposium images from La Vallée de Jacmel",
+        "ht": "Imaj yon senpozyòm pita nan Lavale Jakmèl"
+      },
+      "note": {
+        "en": "Original public source. Statements are attributed to the publisher; this source does not establish every outcome discussed in the article.",
+        "ht": "Sous piblik orijinal. Nou atribiye deklarasyon yo ak moun oswa enstitisyon ki pibliye yo; sous sa a pa pwouve tout rezilta atik la egzamine yo."
+      }
+    },
+    "social-barrau-clinics-20261006": {
+      "url": "https://x.com/OlivierBarrauHT/status/2107613161817825472",
+      "publisher": "Olivier Barrau / X",
+      "published_at": "2026-10-06",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Barrau’s statement that mobile clinics reached over 800 people",
+        "ht": "Deklarasyon Barrau sou plis pase 800 moun klinik mobil yo te sèvi"
+      },
+      "note": {
+        "en": "Complete original caption and four images reviewed. The patient total, unique people, dates of care, funding and health outcomes were not independently verified.",
+        "ht": "Nou egzamine tout tèks orijinal la ak kat imaj yo. Nou poko verifye apa kantite moun yo, si se moun diferan, dat swen yo, sous lajan an ak rezilta pou sante moun yo."
+      }
+    },
+    "social-hans-sel-20261116": {
+      "url": "https://x.com/hansjosephl1/status/2122421518432960946",
+      "publisher": "Hans Joseph / X",
+      "published_at": "2026-11-16",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Hans Joseph’s SEL campaign poster",
+        "ht": "Afich kanpay SEL Hans Joseph la"
+      },
+      "note": {
+        "en": "Complete poster and original caption reviewed. Campaign branding and a displayed number do not establish official ballot assignment, a measured result or a costed programme.",
+        "ht": "Nou egzamine tout afich la ak tèks orijinal la. Non kanpay la ak nimewo sou afich la pa pwouve yon nimewo bilten ofisyèl, yon rezilta mezire oswa yon pwogram ki gen bidjè."
       }
     }
   },
@@ -16175,6 +16427,669 @@
           "text": {
             "ht": "Eleksyon an ta dwe fè diferans sa a klè: yon prezidan kapab rann kont sou mwayen li bay lajistis; li pa dwe chwazi vèdik la. Pou moun ki sibi krim ak moun yo akize, se yon sistèm ki egzamine prèv epi tranche selon lalwa ki dwe bay repons lan.",
             "en": "The election should make this distinction clear: a president can answer for resources supplied to justice without choosing the verdict. For victims and accused people, the answer should come from a system examining evidence and deciding according to law."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jacky-lumarque-cite-soleil-47-deaths-source-check",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Jacky Lumarque’s 47 deaths a day: what the linked report actually counted",
+        "ht": "Jacky Lumarque ak 47 mò pa jou a: ki sa rapò li site a te konte?"
+      },
+      "description": {
+        "en": "A July 2022 comparison loses a crucial distinction between deaths and injuries. The horror needs no inflated category.",
+        "ht": "Yon konparezon nan mwa jiyè 2022 pèdi yon diferans enpòtan ant mò ak blese. Gravite vyolans lan pa bezwen konfizyon sa a."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On July 17, 2022, Jacky Lumarque’s account compared 30 people killed daily in Ukraine with 47 killed daily in Cité Soleil from July 8 to 12. The Creole post asked whether Haiti was at war. Its visible French parent quoted UN News and linked a report.",
+            "ht": "Nan dat 17 jiyè 2022, kont Jacky Lumarque la te konpare 30 moun ki mouri pa jou nan Ikrèn ak 47 ki mouri pa jou nan Site Solèy, soti 8 rive 12 jiyè. Mesaj kreyòl la te mande si Ayiti pa t nan lagè. Tèks franse ki te anlè li a te site UN News epi bay lyen yon rapò."
+          },
+          "sources": [
+            "social-jacky-casualty-20220717"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The linked July 16 report says at least 234 people were killed or injured over those five days. It also reports 99 deaths and 135 injuries. The five-day figure combines two different outcomes.",
+            "ht": "Rapò 16 jiyè a di omwen 234 moun te mouri oswa blese pandan senk jou sa yo. Li rapòte tou 99 mò ak 135 blese. Chif sou senk jou a mete de kalite viktim ansanm."
+          },
+          "sources": [
+            "social-un-cite-20220716"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "Dividing 234 by five gives 46.8. That resembles the rounded 47 in the post. It cannot establish 47 deaths each day because the total includes injured people. The author’s actual calculation is unknown.",
+            "ht": "Lè nou divize 234 pa senk, nou jwenn 46.8. Sa pwòch 47 ki nan mesaj la. Men sa pa pwouve te gen 47 mò chak jou, paske total la gen blese ladan l. Nou pa konnen ki kalkil otè a te fè."
+          },
+          "sources": [
+            "social-un-cite-20220716"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "The source for the Ukraine figure remains unidentified. A counting mistake or hurried summary is a plausible explanation; deliberate deception is not established. We have not established whether Lumarque later corrected or explained the comparison.",
+            "ht": "Nou poko jwenn sous chif sou Ikrèn nan. Yon erè nan kalkil oswa yon rezime ki fèt twò vit kapab esplike sa; nou pa gen prèv se yon twonpri volontè. Nou poko verifye si Lumarque te korije oswa esplike konparezon an pita."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "The UN report still describes targeted residents, sexual violence and blocked humanitarian access. Correcting the count does not diminish that suffering. It makes the public argument answerable to the people being counted.",
+            "ht": "Rapò Nasyonzini an toujou dekri atak ki vize abitan yo, vyolans seksyèl ak blokaj èd imanitè. Korije chif la pa diminye soufrans sa a. Sa fè agiman piblik la respekte moun chif yo reprezante yo."
+          },
+          "sources": [
+            "social-un-cite-20220716"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jacky-lumarque-quisqueya-programme-fifty-student-gap",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Lumarque, Quisqueya and the fifty learners between two totals",
+        "ht": "Lumarque, Quisqueya ak diferans 50 elèv ki genyen ant de total yo"
+      },
+      "description": {
+        "en": "An encouraging student story leads to a simple arithmetic check—and a larger question about measuring results.",
+        "ht": "Yon bèl istwa etidyan mennen nou nan yon senp kalkil, epi nan yon pi gwo kesyon sou fason pou mezire rezilta."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "In April 2026, Lumarque’s account celebrated a student’s path from disrupted schooling in La Saline to a law degree at Quisqueya. The university’s website describes a remedial programme and gives a numerical example from 2020–2021.",
+            "ht": "Nan mwa avril 2026, kont Lumarque la te selebre chemen yon etidyan: soti Lasalin, kote etid li te sibi deranjman, pou rive jwenn yon lisans nan syans jiridik nan Quisqueya. Sit inivèsite a dekri yon pwogram ratrapaj epi bay yon egzanp ki gen chif pou ane 2020–2021 an."
+          },
+          "sources": [
+            "social-jacky-saline-20260426",
+            "social-uniq-saline-programme"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "That webpage states a total of 5,277 learners: 2,720 preparing for the baccalaureate and 2,507 in ninth year. It is an institutional account written by the rector’s chief of staff, not an independent outcome audit.",
+            "ht": "Paj la bay yon total 5,277 elèv: 2,720 ki t ap prepare bakaloreya ak 2,507 nan nevyèm ane. Se yon tèks chèf kabinè rektè a ekri pou enstitisyon an, se pa yon evalyasyon endepandan sou rezilta yo."
+          },
+          "sources": [
+            "social-uniq-saline-programme"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "The two groups add up to 5,227. Fifty learners separate the stated breakdown from the stated total. A typing or aggregation error is plausible. This does not establish invented students or dishonesty. Lumarque’s post did not quote the disputed total.",
+            "ht": "Lè nou ajoute de gwoup yo, nou jwenn 5,227. Gen yon diferans 50 elèv ant detay yo ak total paj la bay la. Sa kapab yon erè nan tape oswa nan mete chif yo ansanm. Sa pa pwouve gen elèv envante oswa malonètete. Mesaj Lumarque la pa t site total ki pa mache a."
+          },
+          "sources": [
+            "social-uniq-saline-programme",
+            "social-jacky-saline-20260426"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "The practical question is which total should anchor the programme’s results. How many entered, completed the course and passed? What did it cost? Which selection rules applied? Anonymous cohort figures can answer those questions without exposing students’ private records.",
+            "ht": "Kesyon pratik la se ki total pou nou itilize pou mezire rezilta pwogram nan. Konbyen ki te antre, fini kou a epi reyisi? Ki pri li te koute? Ki règ ki te sèvi pou chwazi elèv yo? Chif sou gwoup yo, san non moun, ka reponn kesyon sa yo san ekspoze dosye prive yo."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "One person’s progress deserves to be understood on its own terms. Before an institutional example becomes an argument for national policy, readers need figures they can reproduce and results someone outside the institution has checked.",
+            "ht": "Pwogrè yon moun merite pou nou konprann li jan li ye a. Anvan egzanp yon enstitisyon vin sèvi pou defann yon politik nasyonal, lektè yo bezwen chif yo ka rekalkile ak rezilta yon moun ki pa nan enstitisyon an fin verifye."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jacky-lumarque-scholarships-public-rules-opinion",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-8cc27cd6c9bb5f41a143"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Lumarque’s scholarship promise needs rules that outlive a benefactor",
+        "ht": "Pwomès bous Lumarque yo bezwen règ ki ka dire pi lontan pase moun k ap ede a"
+      },
+      "description": {
+        "en": "Personal educational help can change a life. A national policy must explain who qualifies, who pays and how selection stays fair.",
+        "ht": "Èd pou etid ka chanje lavi yon moun. Yon politik nasyonal dwe esplike kiyès ki kalifye, kiyès ki peye ak kijan chwa yo rete jis."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "In July 2015, Lumarque’s account said around twenty Cerca Carvajal scholarship recipients had become professionals. In April 2026, it celebrated a student from La Saline. Education as a route to a different life connects the two messages.",
+            "ht": "Nan mwa jiyè 2015, kont Lumarque la te di anviwon ven etidyan Sèka Kavajal ki te jwenn bous nan men li te vin pwofesyonèl. Nan mwa avril 2026, li te selebre yon etidyan ki soti Lasalin. Nan toude mesaj yo, edikasyon parèt kòm yon chemen pou chanje lavi."
+          },
+          "sources": [
+            "social-jacky-scholarships-20150711",
+            "social-jacky-saline-20260426"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "The older number is approximate and self-reported. Independent aggregate graduation results, full funding records and selection rules were not recovered. That gap proves neither that the assistance failed nor that it bought political loyalty.",
+            "ht": "Chif ki nan mesaj 2015 la se yon estimasyon kandida a bay. Nou poko jwenn rezilta diplòm pou tout gwoup la ki verifye endepandamman, tout dosye finansman yo ak règ seleksyon yo. Mank sa a pa pwouve èd la te echwe ni li te sèvi pou achte fidelite politik."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "But voters should demand more than the portrait of a generous person. A public scholarship belongs to citizens under published rules. A student should know how to apply, how decisions are made, how to challenge an error and whether political allegiance can affect selection.",
+            "ht": "Men elektè yo dwe mande plis pase imaj yon moun ki jenere. Yon bous piblik dwe sèvi sitwayen yo selon règ ki pibliye. Yon etidyan dwe konnen kijan pou li aplike, kijan yo pran desizyon, kijan pou li konteste yon erè ak si pozisyon politik li ka afekte chwa a."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "The same standard applies to every contender. Publish the budget, sources of money, eligibility rules and anonymous results. Explain the boundary between personal giving, university support and a programme financed by the state. Those are different responsibilities.",
+            "ht": "Menm egzijans lan dwe valab pou tout moun ki vle dirije peyi a. Pibliye bidjè a, sous lajan yo, kondisyon pou kalifye ak rezilta ki pa bay non moun. Esplike diferans ant èd pèsonèl, sipò yon inivèsite ak yon pwogram Leta finanse. Se pa menm responsablite."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "A scholarship can open a door. The presidential test is whether that door would remain open, on equal terms, after the benefactor leaves office. Gratitude is personal. Access to a public opportunity should not have to be.",
+            "ht": "Yon bous ka louvri yon pòt. Pou yon moun ki vle prezidan, tès la se si pòt sa a ap rete ouvè, sou menm kondisyon pou tout moun, lè moun ki bay èd la kite pouvwa. Rekonesans se yon bagay pèsonèl. Aksè ak yon opòtinite piblik pa ta dwe depann de sa."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "dominique-dupuy-brazil-four-hundred-thirty-police-training",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Dupuy announced 400 police trainees. Brazil’s records show a first group of 30.",
+        "ht": "Dupuy te anonse fòmasyon pou 400 polisye. Dosye Brezil yo montre yon premye gwoup 30."
+      },
+      "description": {
+        "en": "The documents establish a start, explain a narrower first phase and leave the full outcome unresolved.",
+        "ht": "Dokiman yo montre yon kòmansman, esplike poukisa premye etap la pi piti epi kite rezilta tout pwogram nan pou verifye."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On August 28, 2024, Dominique Dupuy’s account said 400 Haitian police officers would be able to receive training at centres in Brazil. This described an opportunity ahead, not 400 completed graduations.",
+            "ht": "Nan dat 28 out 2024, kont Dominique Dupuy la te di 400 polisye ayisyen t ap kapab jwenn fòmasyon nan sant nan Brezil. Se te yon posiblite pou pi devan, se pa 400 polisye ki te deja fini fòmasyon."
+          },
+          "sources": [
+            "social-dupuy-brazil-20240828"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "A Brazilian work plan signed November 19 provides an initial course for up to 30 officers. It records preparation beginning with an October 2023 mission, well before her August 2024 announcement, and attributes the initial narrowing to budget limits and a Haitian police request.",
+            "ht": "Yon plan travay Brezil siyen 19 novanm prevwa yon premye kou pou jiska 30 polisye. Li montre preparasyon yo te kòmanse ak yon misyon nan mwa oktòb 2023, byen anvan anons li nan mwa out 2024 la. Li esplike premye etap la te limite poutèt bidjè ak yon demann Polis Nasyonal Ayiti."
+          },
+          "sources": [
+            "social-brazil-police-plan-20241119"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "Brazil’s cooperation agency reported that a 30-person course opened on August 8, 2025. It described the course as a first stage and said further training was planned. A first group of 30 therefore proves neither 400 graduates nor cancellation of every other phase.",
+            "ht": "Ajans koperasyon Brezil la rapòte yon kou pou 30 moun te louvri 8 out 2025. Li rele kou a yon premye etap epi li di lòt fòmasyon te prevwa. Kidonk, yon premye gwoup 30 pa pwouve 400 moun diplome; li pa pwouve nonplis tout lòt etap yo te anile."
+          },
+          "sources": [
+            "social-brazil-course-20250808"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The signed plan budgets R$301,647.43, while excluding flights, daily allowances and travel insurance assigned separately. Treating that figure as the complete programme cost would erase those exclusions.",
+            "ht": "Plan ki siyen an prevwa 301,647.43 reyèl brezilyen, men li pa gen ladan l vòl, alokasyon chak jou ak asirans vwayaj ki dwe regle apa. Si nou rele chif sa a pri tout pwogram nan, nou ta efase depans dokiman an mete sou kote yo."
+          },
+          "sources": [
+            "social-brazil-police-plan-20241119"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "The next records should follow the officers beyond the opening ceremony: completion, return to duty, deployment, further cohorts and independently assessed results. International access matters when training becomes safer daily life. The records recovered here document a start, not that final outcome.",
+            "ht": "Pwochen dosye yo dwe swiv polisye yo apre seremoni ouvèti a: èske yo fini, retounen nan sèvis, deplwaye, epi èske lòt gwoup suiv? Ki rezilta yon evalyasyon endepandan jwenn? Relasyon entènasyonal gen valè lè fòmasyon an ede lavi moun vin pi an sekirite. Dosye nou jwenn yo montre yon kòmansman, se pa rezilta final sa a."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "dominique-dupuy-six-diplomatic-reforms-submission-adoption",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Dupuy’s six reform texts: the distance between submitting and changing the rules",
+        "ht": "Sis tèks refòm Dupuy yo: diferans ant soumèt yon tèks ak chanje règ yo"
+      },
+      "description": {
+        "en": "Her own August 2024 wording describes possible cabinet adoption. That qualification matters when judging a governing record.",
+        "ht": "Tèks li te pibliye nan mwa out 2024 la pale de yon posib adopsyon nan Konsèy minis. Nuans sa a konte lè n ap evalye travay li."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On August 5, 2024, Dupuy’s account listed six legal instruments submitted for possible adoption by the Council of Ministers. The list covers diplomatic reform, an arts-and-letters order, ministry organisation, a diplomatic academy, career rules and diplomatic or official passports.",
+            "ht": "Nan dat 5 out 2024, kont Dupuy la te bay lis sis tèks li te soumèt pou yon posib adopsyon nan Konsèy minis. Lis la konsène refòm diplomasi, yon lòd onorifik pou rekonèt travay nan atizay ak literati, òganizasyon ministè a, yon akademi diplomatik, règ karyè ak paspò diplomatik oswa ofisyèl."
+          },
+          "sources": [
+            "social-dupuy-reform-20240805"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "The central word is possible. Submission is a documented claim about a step in a process. It is not an adoption notice, a published legal text or evidence that officials began applying new rules.",
+            "ht": "Mo ki pi enpòtan an se posib. Deklarasyon sou yon tèks ki soumèt pale de yon etap nan yon pwosesis. Li pa yon avi adopsyon, yon tèks legal ki pibliye oswa prèv fonksyonè yo te kòmanse aplike nouvo règ."
+          },
+          "sources": [
+            "social-dupuy-reform-20240805"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "No complete draft package, original cabinet adoption record or corresponding gazette publication was recovered in this review. That absence does not establish rejection or prove that no reform ever took effect. The legal status remains unresolved here.",
+            "ht": "Nan rechèch sa a, nou poko jwenn tout pwojè tèks yo, desizyon orijinal Konsèy minis la oswa piblikasyon ki koresponn nan Le Moniteur. Mank sa a pa pwouve yo te rejte yo ni okenn refòm pa t janm antre an aplikasyon. Nou poko ka etabli estati legal yo."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "The useful follow-up is specific. Which texts were adopted, on what dates and with what changes? Where can citizens read them? Which appointment, training or passport procedures changed? What budget and oversight accompanied implementation?",
+            "ht": "Men kesyon pou swiv yo: ki tèks yo te adopte, nan ki dat, avèk ki chanjman? Ki kote sitwayen yo ka li yo? Ki pwosedi nominasyon, fòmasyon oswa paspò ki chanje? Ki bidjè ak kontwòl ki te akonpaye aplikasyon yo?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "A reform announcement can identify a minister’s priorities. A governing record needs the next documents in the chain. Voters should be able to move from a promise, to an adopted rule, to a result they can inspect.",
+            "ht": "Yon anons refòm ka montre priyorite yon minis. Pou mezire travay li nan pouvwa, fòk gen pwochen dokiman nan chèn nan. Elektè yo dwe kapab pase soti nan yon pwomès, rive nan yon règ ki adopte, epi nan yon rezilta yo ka verifye."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "dominique-dupuy-thirty-three-women-promotion-timing",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Dupuy’s 33 women: the same announcement, two different tenses",
+        "ht": "Dupuy ak 33 fanm yo: menm anons la, de tan diferan"
+      },
+      "description": {
+        "en": "The Creole text promises promotions; the French says they happened. Appointment records would resolve the timing.",
+        "ht": "Tèks kreyòl la anonse pwomosyon ki pral fèt; franse a di yo deja fèt. Dosye nominasyon yo ta ka klarifye ki lè sa te rive."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "A June 24, 2024 Instagram post on Dupuy’s account announces diplomatic recalls, women’s interim leadership of more than half of missions, and recognition for 33 women ministry staff members.",
+            "ht": "Yon piblikasyon 24 jen 2024 sou kont Instagram Dupuy la anonse rapèl pèsonèl diplomatik, fanm ki pral dirije plis pase mwatye misyon yo pandan enterim, ak rekonesans pou 33 fanm ki se kad nan ministè a."
+          },
+          "sources": [
+            "social-dupuy-women-20240624"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The Creole promotion sentence says the women will receive a promotion and be honoured. The French sentence says they have been promoted and honoured. These are different descriptions of when an action happened.",
+            "ht": "Fraz kreyòl sou pwomosyon an di fanm yo ap jwenn yon pwomosyon epi y ap onore yo. Fraz franse a di yo deja resevwa pwomosyon epi yo deja onore yo. Se pa menm deskripsyon sou ki lè yon aksyon fèt."
+          },
+          "sources": [
+            "social-dupuy-women-20240624"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "A translation mismatch or an announcement written while arrangements were being completed could explain the difference. It does not establish that the promotions were invented. The appointment decisions and dates would answer the question more directly than either formulation.",
+            "ht": "Yon diferans nan tradiksyon, oswa yon anons ki fèt pandan yo t ap fini preparasyon yo, ta ka esplike sa. Sa pa pwouve pwomosyon yo te envante. Desizyon nominasyon yo ak dat yo ta reponn kesyon an pi byen pase youn nan de fraz yo."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "There is also a counting problem to avoid. Thirty-three ministry staff members are not automatically 33 heads of mission. An interim leadership target is not a permanent staffing result. Readers need the number of missions, the appointments and the period being measured.",
+            "ht": "Gen yon lòt konfizyon pou evite nan konte a. Trant-twa kad ministè a pa otomatikman 33 chèf misyon. Yon objektif pou direksyon pandan enterim pa menm bagay ak yon rezilta pèmanan. Lektè yo bezwen kantite misyon yo, nominasyon yo ak peryòd yo mezire a."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "This review did not recover the complete appointment register or the historical staffing series needed to verify the first-ever claim. The announcement remains evidence of a stated representation agenda. Its precise timing and measured result still need documentation.",
+            "ht": "Rechèch sa a pa jwenn tout rejis nominasyon an ni lis pèsonèl nan diferan epòk ki ta pèmèt verifye deklarasyon ki di se premye fwa sa fèt. Anons la montre yon priyorite sou reprezantasyon fanm. Ki lè egzak aksyon yo fèt ak ki rezilta yo bay toujou bezwen dokiman."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "deus-deronneth-la-gonave-symposium-announced-cancelled",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-318821d7c6585a15b714"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Deronneth’s symposium trail: the cancellation belongs beside the invitation",
+        "ht": "Tras senpozyòm Deronneth yo: avi anilasyon an dwe parèt bò kote envitasyon an"
+      },
+      "description": {
+        "en": "A later notice changes what the earlier publicity can prove. Other meetings cannot silently replace the cancelled event.",
+        "ht": "Yon avi ki vini pita chanje sa anons anvan an ka pwouve. Lòt reyinyon pa ka otomatikman pran plas aktivite ki te anile a."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "In July 2024, Deronneth’s account promoted a communal-governance symposium at Anse-à-Galets, La Gonâve. The publicity named a discussion of local-government funds and announced speakers.",
+            "ht": "Nan mwa jiyè 2024, kont Deronneth la te fè pwomosyon yon senpozyòm sou gouvènans kominal nan Ansagalè, Lagonav. Anons yo te pale de fon pou kolektivite lokal yo epi yo te bay non moun ki te sipoze pale."
+          },
+          "sources": [
+            "social-deus-event-20240708"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "On July 19, the account published an organiser’s notice cancelling that day’s event at Nyflog. The organiser said the reasons were beyond its control and that it was working on a new date.",
+            "ht": "Nan dat 19 jiyè, kont lan te pibliye yon avi òganizatè a ki anile aktivite jounen an nan lokal Nyflog. Òganizatè a te di rezon yo pa t depann de li epi li t ap travay sou yon lòt dat."
+          },
+          "sources": [
+            "social-deus-cancel-20240719"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "That later notice changes the record. An invitation and a speaker card cannot be counted as a completed July 19 meeting. The explanation for cancellation remains the organiser’s statement; this review establishes no separate cause.",
+            "ht": "Avi ki vini pita a chanje dosye a. Yon envitasyon ak yon afich sou moun ki pral pale pa ka sèvi kòm prèv reyinyon 19 jiyè a te fèt. Eksplikasyon sou anilasyon an rete deklarasyon òganizatè a; rechèch sa a pa etabli yon lòt kòz."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "An August post presents a later symposium at La Vallée de Jacmel. Its images support a public-meeting sequence. They do not establish that the cancelled La Gonâve event was rescheduled there or that both events occurred.",
+            "ht": "Yon piblikasyon nan mwa out prezante yon senpozyòm pita nan Lavale Jakmèl. Imaj yo montre yon aktivite piblik. Yo pa pwouve aktivite Lagonav ki te anile a te deplase la, ni toude aktivite yo te fèt."
+          },
+          "sources": [
+            "social-deus-event-20240810"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "For a candidate who promotes decentralisation, the next useful evidence concerns participation and results: who attended, what was proposed, what it cost and what local authorities implemented. Following an announcement through its cancellation is part of measuring a record fairly.",
+            "ht": "Pou yon kandida ki defann desantralizasyon, pwochen prèv ki itil yo konsène patisipasyon ak rezilta: kiyès ki te la, ki pwopozisyon ki te fèt, konbyen sa te koute ak ki sa otorite lokal yo te aplike? Swiv yon anons jouk nan avi anilasyon li fè pati yon evalyasyon ki jis."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "deus-deronneth-presidential-council-changing-position-2024",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-318821d7c6585a15b714"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Deronneth and the council: rejection, qualified support, congratulations",
+        "ht": "Deronneth ak konsèy la: rejè, sipò avèk rezèv, felisitasyon"
+      },
+      "description": {
+        "en": "Three dated messages show a change in public positioning. They do not explain a private motive.",
+        "ht": "Twa mesaj ki gen dat montre pozisyon piblik la chanje. Yo pa esplike yon motif prive."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On March 19, 2024, Deronneth’s account shared a petition opposing the proposed presidential council. The linked petition offered an alternative transition structure. Sharing it establishes a public association with that proposal, not authorship of every line or authenticated mandates for every named signatory.",
+            "ht": "Nan dat 19 mas 2024, kont Deronneth la te pataje yon petisyon ki opoze ak konsèy prezidansyèl ki te pwopoze a. Petisyon an te ofri yon lòt estrikti pou tranzisyon an. Pataje lyen an montre yon asosiyasyon piblik ak pwopozisyon an; sa pa pwouve li te ekri chak liy ni tout moun ki site yo te gen manda pou siyen."
+          },
+          "sources": [
+            "social-deus-petition-20240319"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "On April 25, his account said the council was neither a solution in itself nor the best solution, but called its formation a major achievement. It wished the body courage and success while stressing security, competence and local participation.",
+            "ht": "Nan dat 25 avril, kont li a te di konsèy la pa t ni yon solisyon nan limenm ni pi bon solisyon an, men li te rele fòmasyon li yon gwo akonplisman. Li te swete konsèy la kouraj ak reyisit pandan li te ensiste sou sekirite, konpetans ak patisipasyon lokal."
+          },
+          "sources": [
+            "social-deus-cpt-20240425"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "In September, a published letter congratulated council president Edgard Leblanc Fils on his United Nations speech. The letter documents praise. It does not establish that the recipient received it, met Deronneth or entered an electoral agreement.",
+            "ht": "Nan mwa septanm, yon lèt ki pibliye te felisite prezidan konsèy la, Edgard Leblanc Fils, pou diskou li nan Nasyonzini. Lèt la montre felisitasyon. Li pa pwouve moun yo voye l bay la te resevwa li, rankontre Deronneth oswa fè yon akò elektoral avè l."
+          },
+          "sources": [
+            "social-deus-cpt-20240928"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "The sequence complicates a simple label of permanent opposition or unconditional support. Pragmatic acceptance, a changed arrangement or continued critical cooperation could explain the shift. A secret payment or bargain is not established.",
+            "ht": "Sekans lan fè li difisil pou rele pozisyon an yon opozisyon ki pa janm chanje oswa yon sipò san kondisyon. Aksepte travay ak yon estrikti ki deja la, chanjman nan aranjman an oswa koperasyon ki toujou gen kritik ladan l ka esplike sa. Nou pa gen prèv yon peman oswa yon antant sekrè."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "The question voters can fairly ask is what changed between March and April: the structure, the safeguards or his judgment? What conditions would make him withdraw support? The dates establish a change in public positioning. His explanation and documented actions would establish more.",
+            "ht": "Kesyon elektè yo ka poze avèk jistis se kisa ki te chanje ant mas ak avril: estrikti a, garanti yo oswa jijman pa li? Ki kondisyon ki ta fè li retire sipò li? Dat yo montre yon chanjman nan pozisyon piblik. Eksplikasyon li ak aksyon ki dokimante ta ede nou konprann plis."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "olivier-barrau-eight-hundred-mobile-clinics-accountability",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-c47f363b53dc5a6ea7ee"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Barrau’s 800 patients: what a clinic photograph cannot count",
+        "ht": "800 moun Barrau di klinik yo sèvi: sa yon foto pa ka konte"
+      },
+      "description": {
+        "en": "His own caption recognises the limits of mobile care. Patient totals and funding need a different kind of evidence.",
+        "ht": "Tèks li a rekonèt limit klinik mobil yo. Pou verifye kantite moun ak finansman, fòk gen lòt kalite prèv."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On October 6, 2026, Olivier Barrau’s account said several mobile clinics had brought care to more than 800 people. It thanked health workers and explicitly acknowledged that a mobile clinic cannot solve every health problem.",
+            "ht": "Nan dat 6 oktòb 2026, kont Olivier Barrau a te di plizyè klinik mobil te pote swen bay plis pase 800 moun. Li te remèsye pwofesyonèl lasante yo epi li te rekonèt klèman yon klinik mobil pa ka rezoud tout pwoblèm lasante."
+          },
+          "sources": [
+            "social-barrau-clinics-20261006"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "Four reviewed images depict care-related activity, medicines and people wearing Fondation AIC clothing. They provide visual context for the announcement. They cannot independently verify the 800 total, whether people were counted twice or what happened after consultation.",
+            "ht": "Kat imaj nou egzamine yo montre aktivite swen, medikaman ak moun ki gen rad Fondation AIC sou yo. Yo bay kontèks vizyèl pou anons la. Yo pa ka verifye apa total 800 la, si kèk moun te konte de fwa oswa sa ki te pase apre konsiltasyon."
+          },
+          "sources": [
+            "social-barrau-clinics-20261006"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "The distinction matters because a photograph answers a different question from a patient register. Visible activity supports an activity claim. A service total needs defined dates, locations and counting rules. A publication date is not automatically the treatment date.",
+            "ht": "Diferans lan enpòtan paske yon foto pa reponn menm kesyon ak yon rejis pasyan. Aktivite ki parèt la ka apiye deklarasyon sou yon aktivite. Yon total sèvis bezwen dat, kote ak règ pou konte. Dat piblikasyon an pa otomatikman dat yo te bay swen an."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "Anonymous totals could show unique patients, services provided, referrals and follow-up. Financial records could show who paid, what the activity cost and how foundation, business and campaign funds were kept distinct. None requires exposing individual medical files.",
+            "ht": "Chif ki pa bay non moun ta ka montre kantite pasyan diferan, sèvis yo te jwenn, moun yo te voye jwenn lòt swen ak swivi yo. Dosye finansye ta ka montre kiyès ki peye, konbyen aktivite a koute ak kijan lajan fondasyon, biznis ak kanpay rete separe. Sa pa mande pou ekspoze dosye medikal moun."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "The reviewed evidence does not establish false patient numbers, an improper payment or an undisclosed political exchange. It identifies what remains unverified. A useful service deserves recognition on the strength of its actual record, and a presidential programme needs evidence of how it would reach beyond occasional activities.",
+            "ht": "Prèv nou egzamine yo pa etabli fo kantite pasyan, yon peman ki pa kòrèk oswa yon echanj politik kache. Yo montre sa ki rete pou verifye. Yon sèvis itil merite rekonesans sou baz travay li fè toutbon, epi yon pwogram prezidansyèl bezwen prèv sou fason li ta rive pi lwen pase aktivite detanzantan."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "hans-joseph-sel-case-results-opinion",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-20a19b185cd2557e8e12"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Hans Joseph’s SEL: count the path from investigation to justice",
+        "ht": "SEL Hans Joseph la: mezire chemen ankèt la jouk nan lajistis"
+      },
+      "description": {
+        "en": "Security, the rule of law and fighting corruption are clear priorities. Citizens need to see how results would be measured.",
+        "ht": "Sekirite, Leta de dwa ak batay kont koripsyon se priyorite klè. Sitwayen yo bezwen wè kijan yo ta mezire rezilta yo."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "A November 16, 2026 post on Hans Joseph’s account presents SEL: security, the rule of law and fighting corruption. The complete poster and caption offer a campaign message, not a costed implementation plan.",
+            "ht": "Yon piblikasyon 16 novanm 2026 sou kont Hans Joseph la prezante SEL: sekirite, Leta de dwa ak lit kont koripsyon. Afich la ak tèks la bay yon mesaj kanpay, se pa yon plan aplikasyon ki gen tout depans li kalkile."
+          },
+          "sources": [
+            "social-hans-sel-20261116"
+          ]
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "The initials are memorable. The harder question is what citizens would be able to check one year into government. A corruption complaint, an agency investigation, a file sent to prosecutors, a charge, a judgment and recovered money are different steps.",
+            "ht": "Inisyal yo fasil pou sonje. Kesyon ki pi difisil la se sa sitwayen yo ta kapab verifye apre yon ane nan gouvènman. Yon plent koripsyon, yon ankèt ajans, yon dosye yo voye bay pwokirè yo, yon akizasyon, yon jijman ak lajan yo rekipere se etap diferan."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "A credible scorecard would publish anonymous or legally public case totals at each step, with dates and definitions. It would explain delays and identify which institution controls the next decision. Counting only investigations can exaggerate success; counting only convictions can hide obstacles outside an investigator’s control.",
+            "ht": "Yon bilan ki serye ta bay kantite dosye nan chak etap, avèk dat ak definisyon, san bay non moun oswa avèk enfòmasyon lalwa pèmèt rann piblik. Li ta esplike reta yo ak ki enstitisyon ki kontwole pwochen desizyon an. Konte ankèt sèlman ka fè siksè a parèt twò gwo; konte kondanasyon sèlman ka kache baryè ankètè a pa kontwole."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "The same rules should apply to political opponents and allies. Readers should see safeguards against selective investigations, protection for witnesses and a way to correct mistaken accusations. Security and legal limits belong in the same plan.",
+            "ht": "Menm règ yo dwe valab pou advèsè politik ak alye. Lektè yo dwe wè garanti kont ankèt ki chwazi moun selon enterè politik, pwoteksyon pou temwen ak yon fason pou korije akizasyon ki pa kòrèk. Sekirite ak limit lalwa dwe antre nan menm plan an."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "This is a proposed standard, not an audit of Joseph’s complete institutional record. That record still requires original case files, court outcomes and responses. A strong anti-corruption promise should make those distinctions easier for citizens to follow, not ask them to accept a slogan as a result.",
+            "ht": "Sa a se yon egzijans nou pwopoze, se pa yon evalyasyon sou tout travay Joseph te fè nan enstitisyon yo. Pou sa, fòk gen dosye ankèt orijinal, rezilta tribinal ak repons moun ki konsène yo. Yon bon pwomès kont koripsyon dwe ede sitwayen yo konprann diferans sa yo, olye li mande yo aksepte yon slogan kòm rezilta."
           },
           "sources": []
         }
