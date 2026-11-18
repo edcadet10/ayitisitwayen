@@ -77,4 +77,33 @@ class SocialPublicationTests(unittest.TestCase):
                     target=(' /en/' if lang=='en' else ' /').strip()+'elections/analysis/'+slug+'/'
                     self.assertIn('href="'+target+'"',page)
 
+    def test_every_published_piece_is_in_each_relevant_candidate_web(self):
+        for article in builder.EDITORIAL['articles']:
+            sid='ayiti-analysis-'+hashlib.sha256(article['slug'].encode()).hexdigest()[:24]
+            if article['status']!='published':
+                self.assertNotIn(sid,self.enrichment['publications'])
+                continue
+            source=self.enrichment['publications'][sid]
+            self.assertEqual(source['title'],article['title'])
+            self.assertEqual(source['summary'],article['description'])
+            self.assertEqual(source['reviewed_at'],article['updated_at'])
+            for cid in article['candidate_ids']:
+                self.assertEqual(self.enrichment['profiles'][cid]['source_ids'].count(sid),1)
+
+    def test_returning_a_piece_to_draft_removes_its_web_node(self):
+        original=builder.EDITORIAL
+        try:
+            changed=copy.deepcopy(original)
+            # Exercise both a pre-import article and an initial imported pointer.
+            for slug in [changed['articles'][0]['slug'],self.review['article_slugs'][0]]:
+                article=next(a for a in changed['articles'] if a['slug']==slug)
+                article['status']='draft'
+                builder.EDITORIAL=changed
+                _,enrichment=builder.load()
+                sid='ayiti-analysis-'+hashlib.sha256(slug.encode()).hexdigest()[:24]
+                self.assertNotIn(sid,enrichment['publications'])
+                for cid in article['candidate_ids']:
+                    self.assertNotIn(sid,enrichment['profiles'][cid]['source_ids'])
+        finally:builder.EDITORIAL=original
+
 if __name__=='__main__':unittest.main()

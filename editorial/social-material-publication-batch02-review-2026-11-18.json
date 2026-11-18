@@ -1,0 +1,107 @@
+{
+  "reviewed_at": "2026-11-18",
+  "original_article_count": 12,
+  "article_slugs": [
+    "martelly-occide-jeanty-five-thousand-seats-capacity",
+    "martelly-cap-haitien-first-flight-route-record",
+    "jerry-tardieu-paris-agreement-three-dates",
+    "jerry-tardieu-terrorist-financing-law-legislative-stages",
+    "jerry-tardieu-ucref-vote-independence-safeguards",
+    "jerry-tardieu-aquin-hospital-donation-patient-results",
+    "jerry-tardieu-library-digitisation-service-test",
+    "deus-deronneth-budget-dividing-number-territories",
+    "deus-deronneth-equal-departments-different-residents",
+    "deus-deronneth-local-salaries-recurring-revenue",
+    "dominique-dupuy-field-aspen-public-network-record",
+    "dominique-dupuy-ten-thousand-target-four-day-count"
+  ],
+  "analysis_count": 10,
+  "opinion_count": 2,
+  "publication_authorization": "Explicit user instruction to continue developing reviewed material, add it to candidate webs and publish promptly.",
+  "scope": "Twelve bilingual stories drawn from reviewed posts, primary records, attributed contemporaneous reporting and new calculations. All211existing articles and source records preserved.",
+  "source_checks": [
+    "Kiosk:4000seated plus1000standing is5000people,not5000seats;capacity certification and intent unestablished.",
+    "Flight:American route announcement concerns Miami–Cap-Haitien,not the first commercial flight to Haiti;conflicting secondary endpoint remains explicit.",
+    "Treaty:domestic approval,international deposit and entry into force remain distinct;personal roll call unrecovered.",
+    "2016law:lower-house and Senate dates differ;selected mirror pages,not the complete current legal chain,were read.",
+    "UCREF:NGO criticism is attributed,does not name Tardieu,and is not a judicial judgment;other statutes may supply safeguards.",
+    "Aquin/library:announcements and visible setting do not establish delivery or failure;targeted followthrough searches yielded no project-specific outcome record.",
+    "Budget:reconstructed571/146divisors are inferred;later574/149IHSIcounts are not proof of an April error;authorised budget is not execution.",
+    "Equal departments:new perresident calculation794Ouest/7956Nippes covers only the10percent component and combines dates transparently;fairness remains a policy choice.",
+    "Salaries:alleged160billion historical diversion is unproved;annual perposition thresholds exclude expenses and no headcount is invented.",
+    "Dupuy:programme participation and institutional photo establish access,not endorsement,funding or a private pact;later cohort rules and neighbouring bios are excluded.",
+    "Deportation:up-to10000weekly target and ONM5323four-day reception count are different measures;no invented weekly count or performance conclusion."
+  ],
+  "language_review": {
+    "result": "pass",
+    "edition_fingerprint": "5de7deddf95c8f8ddf44e91897130ed10804927d883f541ae0e7775c603a93c2",
+    "article_blocks_reviewed": 85,
+    "source_title_note_blocks_reviewed": 56,
+    "article_definite_fixes": 3,
+    "article_optional_fixes": 4,
+    "article_changed_passages_independently_rechecked": true,
+    "source_definite_fixes": 3,
+    "source_optional_fixes": 2,
+    "source_changed_passages": "All5exact reviewer-prescribed replacements reopened and verified by primary after saving.",
+    "evidence_sha256": {
+      "creole-blind-reading.md": "3e1000e0331b9f3001f1279c80be363734c5c96114e6325c111d8fc3a4ca90c0",
+      "creole-fidelity-review.json": "dcaf9ec99e81b275969b795bb6ea40b992cc2ebd1d99f7a07c998ae7b1da9751",
+      "correction-recheck.json": "1efa71917d5a3bd9bad9e137802efdea66367148c90cd057e6e6176d8a8382eb",
+      "sources-creole-blind-reading.md": "7b62ca4dccb6a5eed5a26111768e7d76bc896c5aaa9be9b3c79883d79be35ee3",
+      "source-note-QC.json": "c7749bcd89cada7369f836e0d656df20695d5454c8982f317a69442fe4d5fa28"
+    },
+    "limits": "Language QC,not independent source verification or native-human certification."
+  },
+  "web_linking": "Build regenerates source nodes from every explicitly published article for every linked candidate;draft withdrawal and updates tested.",
+  "word_counts": {
+    "martelly-occide-jeanty-five-thousand-seats-capacity": {
+      "ht": 277,
+      "en": 227
+    },
+    "martelly-cap-haitien-first-flight-route-record": {
+      "ht": 268,
+      "en": 223
+    },
+    "jerry-tardieu-paris-agreement-three-dates": {
+      "ht": 258,
+      "en": 218
+    },
+    "jerry-tardieu-terrorist-financing-law-legislative-stages": {
+      "ht": 278,
+      "en": 227
+    },
+    "jerry-tardieu-ucref-vote-independence-safeguards": {
+      "ht": 296,
+      "en": 238
+    },
+    "jerry-tardieu-aquin-hospital-donation-patient-results": {
+      "ht": 284,
+      "en": 233
+    },
+    "jerry-tardieu-library-digitisation-service-test": {
+      "ht": 313,
+      "en": 247
+    },
+    "deus-deronneth-budget-dividing-number-territories": {
+      "ht": 297,
+      "en": 259
+    },
+    "deus-deronneth-equal-departments-different-residents": {
+      "ht": 281,
+      "en": 225
+    },
+    "deus-deronneth-local-salaries-recurring-revenue": {
+      "ht": 290,
+      "en": 243
+    },
+    "dominique-dupuy-field-aspen-public-network-record": {
+      "ht": 276,
+      "en": 244
+    },
+    "dominique-dupuy-ten-thousand-target-four-day-count": {
+      "ht": 305,
+      "en": 257
+    }
+  },
+  "limits": "No candidate contact,hidden-source access,private financial records or unreviewed full court docket is claimed. No new narration in this batch."
+}

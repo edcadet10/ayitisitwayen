@@ -56,13 +56,32 @@ def load():
         current.setdefault('source_relations',{}).update(entry.get('source_relations',{}))
     social = json.loads((ROOT / 'data/candidates/reviewed-social.json').read_text(encoding='utf-8'))
     assert social['status'] == 'reviewed'
+    # Original pieces follow their explicit publication status. The initial
+    # reviewed import also contains article pointers; regenerate those below
+    # so later corrections or a return to draft cannot leave a stale web node.
+    imported_articles={source_id for source_id,source in social['publications'].items()
+                       if source_id.startswith('ayiti-analysis-') and source['url'].startswith(SITE+'/elections/analysis/')}
     for source_id, source in social['publications'].items():
+        if source_id in imported_articles:continue
         assert source_id not in enrichment['publications']
         enrichment['publications'][source_id] = source
     for person_id, entry in social['profiles'].items():
         current = enrichment['profiles'].setdefault(person_id, {'source_ids': []})
-        current['source_ids'] = list(dict.fromkeys(current.get('source_ids', []) + entry['source_ids']))
-        current.setdefault('source_relations', {}).update(entry['source_relations'])
+        current['source_ids'] = list(dict.fromkeys(current.get('source_ids', []) + [sid for sid in entry['source_ids'] if sid not in imported_articles]))
+        current.setdefault('source_relations', {}).update({sid:relation for sid,relation in entry['source_relations'].items() if sid not in imported_articles})
+    for article in EDITORIAL['articles']:
+        if article['status']!='published':continue
+        source_id='ayiti-analysis-'+hashlib.sha256(article['slug'].encode()).hexdigest()[:24]
+        enrichment['publications'][source_id]={
+            'id':source_id,'url':SITE+'/elections/analysis/'+article['slug']+'/',
+            'publisher':'Ayiti Sitwayen','type':'opinion' if article['kind']=='opinion' else 'journalism',
+            'categories':['articles','positions'],'format':'article','title':article['title'],
+            'summary':article['description'],'published_at':article['published_at'],
+            'reviewed_at':article['updated_at'],'review_status':'reviewed','editorial_level':'summary'}
+        for person_id in article['candidate_ids']:
+            current=enrichment['profiles'].setdefault(person_id,{'source_ids':[]})
+            if source_id not in current['source_ids']:current['source_ids'].append(source_id)
+            current.setdefault('source_relations',{})[source_id]='headline'
     assert registry['status'] == 'reviewed' and registry['total'] == len(registry['candidates'])
     people = registry['candidates']; retained = registry.get('retained_candidates', []); ids = set()
     for person in people + retained:

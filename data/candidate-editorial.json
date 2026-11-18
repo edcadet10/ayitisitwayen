@@ -3189,6 +3189,398 @@
         "en": "Complete poster and original caption reviewed. Campaign branding and a displayed number do not establish official ballot assignment, a measured result or a costed programme.",
         "ht": "Nou egzamine tout afich la ak tèks orijinal la. Non kanpay la ak nimewo sou afich la pa pwouve yon nimewo bilten ofisyèl, yon rezilta mezire oswa yon pwogram ki gen bidjè."
       }
+    },
+    "b02-martelly-kiosk-post": {
+      "url": "https://www.instagram.com/mjmartelly/p/2qumJaKaje/",
+      "publisher": "Michel Martelly / Instagram",
+      "title": {
+        "en": "Martelly’s May 2015 amphitheatre post",
+        "ht": "Piblikasyon Martelly sou anfiteyat la nan mwa me 2015"
+      },
+      "published_at": "2015-05-14",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-lemay-kiosk": {
+      "url": "https://lemay.com/projects/champ-de-mars-and-occide-jeanty-kiosk/",
+      "publisher": "Lemay",
+      "title": {
+        "en": "Designer’s Occide Jeanty project account",
+        "ht": "Prezantasyon pwojè Occide Jeanty a sou sit konsèptè a"
+      },
+      "published_at": null,
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Project participant’s account, not an independent capacity or safety certification. Relevant full substantive page read.",
+        "ht": "Se yon patisipan nan pwojè a ki prezante travay la, se pa yon sètifika endepandan sou kapasite oswa sekirite. Nou li tèks prensipal paj la."
+      }
+    },
+    "b02-haitilibre-kiosk": {
+      "url": "https://www.haitilibre.com/article-13877-haiti-culture-inauguration-du-kiosque-occide-jeanty.html",
+      "publisher": "HaïtiLibre",
+      "title": {
+        "en": "Contemporary account distinguishes seats and standing places",
+        "ht": "Atik nan epòk la fè diferans ant plas chita ak plas kanpe"
+      },
+      "published_at": "2015-05-15",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-martelly-aa-post": {
+      "url": "https://www.instagram.com/mjmartelly/p/tqdVehqajd/",
+      "publisher": "Michel Martelly / Instagram",
+      "title": {
+        "en": "Martelly’s Cap-Haïtien inaugural-flight post",
+        "ht": "Piblikasyon Martelly sou premye vòl American Airlines pou Okap la"
+      },
+      "published_at": "2014-10-02",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-aa-route": {
+      "url": "https://news.aa.com/news/news-details/2014/American-Airlines-Provides-Customers-Access-To-Cap-Haitien-Haiti/default.aspx",
+      "publisher": "American Airlines",
+      "title": {
+        "en": "Airline announces Miami–Cap-Haïtien service",
+        "ht": "Konpayi avyon an anonse liy Miami–Okap la"
+      },
+      "published_at": "2014-07-28",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Primary company announcement, with government-approval condition; not a complete operational record.",
+        "ht": "Anons orijinal konpayi an, ki mete kondisyon apwobasyon gouvènman; se pa tout rejis operasyon vòl yo."
+      }
+    },
+    "b02-metropole-aa": {
+      "url": "https://metropole.ht/american-airlines-inaugure-son-vol-sur-le-cap-haitien/",
+      "publisher": "Radio Métropole",
+      "title": {
+        "en": "Contemporary report of the October 2 inaugural flight",
+        "ht": "Atik nan epòk la sou premye vòl 2 oktòb la"
+      },
+      "published_at": "2014-10-03",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Reports Martelly’s participation and earlier project history. The U.S. endpoint conflicts with the airline announcement; passenger and funding figures are not adopted here as independently verified.",
+        "ht": "Atik la rapòte patisipasyon Martelly ak istwa pwojè a. Non vil ameriken li bay la pa menm ak anons konpayi an; nou pa pran chif pasaje ak finansman yo kòm done nou verifye apa."
+      }
+    },
+    "b02-tardieu-paris": {
+      "url": "https://x.com/JerryTardieu/status/826920545883193350",
+      "publisher": "Jerry Tardieu / X",
+      "title": {
+        "en": "Tardieu’s February 2017 Paris Agreement announcement",
+        "ht": "Anons Tardieu sou Akò Pari a nan fevriye 2017"
+      },
+      "published_at": "2017-02-01",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-un-paris": {
+      "url": "https://treaties.un.org/doc/Publication/CN/2017/CN.428.2017-Eng.pdf",
+      "publisher": "United Nations Treaty Section",
+      "title": {
+        "en": "Haiti’s Paris Agreement ratification notice",
+        "ht": "Avi sou ratifikasyon Akò Pari a pou Ayiti"
+      },
+      "published_at": "2017-07-31",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "The complete retained one-page original was reread. This notice records international action, not an individual parliamentary roll call.",
+        "ht": "Nou reli tout dokiman orijinal yon paj la ki konsève a. Avi sa a bay aksyon entènasyonal la, se pa yon lis vòt chak palmantè."
+      }
+    },
+    "b02-tardieu-terror-vote": {
+      "url": "https://x.com/JerryTardieu/status/773860720756699136",
+      "publisher": "Jerry Tardieu / X",
+      "title": {
+        "en": "Tardieu’s September 8 vote announcement",
+        "ht": "Anons Tardieu te fè 8 septanm nan sou vòt la"
+      },
+      "published_at": "2016-09-08",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-2016-law-mirror": {
+      "url": "https://docs.haitidocs.org/ht-loi-2016-modifiant-blanchiment.pdf",
+      "publisher": "Le Moniteur / HaitiDocs mirror",
+      "title": {
+        "en": "2016 amendment and its legislative transmission letter",
+        "ht": "Amannman 2016 la ak lèt transmisyon lejislatif li a"
+      },
+      "published_at": "2016-10-13",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Selected physical pages 1 and 8 read visually. This is a public mirror; original publisher-byte comparison and the complete current legal chain remain unverified. The letter supplies chamber dates, not Tardieu’s personal roll-call vote.",
+        "ht": "Nou li paj fizik 1 ak 8 vizyèlman. Se yon kopi piblik; konparezon ak fichye piblikatè orijinal la ak tout chèn tèks legal ki aplikab kounye a poko verifye. Lèt la bay dat vòt chanm yo, se pa vòt pèsonèl Tardieu."
+      }
+    },
+    "b02-tardieu-ucref": {
+      "url": "https://x.com/JerryTardieu/status/860520946238619649",
+      "publisher": "Jerry Tardieu / X",
+      "title": {
+        "en": "Tardieu celebrates the UCREF bill vote",
+        "ht": "Tardieu selebre vòt sou pwojè lwa UCREF la"
+      },
+      "published_at": "2017-05-05",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-rnddh-ucref": {
+      "url": "https://web.rnddh.org/wp-content/uploads/2017/05/4-UCREF-Blanchiment-des-avoirs-17-Mai-2017.pdf",
+      "publisher": "RNDDH",
+      "title": {
+        "en": "RNDDH’s May 2017 critique of UCREF reform",
+        "ht": "Kritik RNDDH sou refòm UCREF nan mwa me 2017"
+      },
+      "published_at": "2017-05-15",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "The nine-page publisher-hosted report was read. Cover date May 15 differs from the May 17 file path. NGO legal analysis is not a judgment; the report does not name Tardieu. Later promulgation, amendments and outcomes require separate records.",
+        "ht": "Nou li rapò nèf paj sou sit RNDDH la. Dat 15 me sou kouvèti a diferan ak 17 me ki nan chemen fichye a. Analiz legal yon ONG pa yon jijman; rapò a pa site Tardieu. Pwomilgasyon ki fèt pita, amannman ak rezilta bezwen lòt dosye."
+      }
+    },
+    "b02-tardieu-aquin": {
+      "url": "https://x.com/JerryTardieu/status/791371357397344258",
+      "publisher": "Jerry Tardieu / X",
+      "title": {
+        "en": "Tardieu’s Aquin hospital-equipment statement",
+        "ht": "Deklarasyon Tardieu sou ekipman pou lopital Aken an"
+      },
+      "published_at": "2016-10-26",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Complete post and image reviewed. The hospital sign supports the setting; equipment contents, donor routes, costs and patient use remain unverified.",
+        "ht": "Nou egzamine tout piblikasyon an ak imaj li. Pankat lopital la ede idantifye enstitisyon foto a prezante a; kontni ekipman yo, sous don an, pri yo ak itilizasyon pou pasyan rete pou verifye."
+      }
+    },
+    "b02-nasa-matthew": {
+      "url": "https://gpm.nasa.gov/extreme-weather/matthew-brings-heavy-rains-destruction-parts-northern-caribbean",
+      "publisher": "NASA",
+      "title": {
+        "en": "Dated account of Hurricane Matthew’s Haiti landfall",
+        "ht": "Rapò ki bay dat siklòn Matye te frape Ayiti"
+      },
+      "published_at": "2016-10-06",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Used for the October 4 landfall date. Early casualty estimates are not repeated as final totals; the article does not verify a later equipment donation.",
+        "ht": "Nou itilize li pou dat 4 oktòb la. Nou pa repete premye estimasyon viktim kòm bilan final; atik la pa verifye don ekipman ki te anonse pita."
+      }
+    },
+    "b02-tardieu-library": {
+      "url": "https://x.com/JerryTardieu/status/824380466610524161",
+      "publisher": "Jerry Tardieu / X",
+      "title": {
+        "en": "Proposed digitisation of the Pétion-Ville library",
+        "ht": "Pwopozisyon pou nimerize bibliyotèk Petyonvil la"
+      },
+      "published_at": "2017-01-25",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-deus-model": {
+      "url": "https://www.instagram.com/deusderonneth/p/C50wbVSuVa_/",
+      "publisher": "Deus Deronneth / Instagram",
+      "title": {
+        "en": "Posted 2023–2024 territorial amounts",
+        "ht": "Montan pou kolektivite yo nan modèl 2023–2024 la"
+      },
+      "published_at": "2024-04-16",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-deus-shares": {
+      "url": "https://www.instagram.com/deusderonneth/p/C5lx2yPLyR5/",
+      "publisher": "Deus Deronneth / Instagram",
+      "title": {
+        "en": "The 60/16/14/10 budget-share graphic",
+        "ht": "Grafik pataj bidjè 60/16/14/10 la"
+      },
+      "published_at": "2024-04-10",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-budget-2023-24": {
+      "url": "https://budget.gouv.ht/storage/app/uploads/public/651/c4b/fd0/651c4bfd07a4d805199361.pdf",
+      "publisher": "Direction Générale du Budget",
+      "title": {
+        "en": "Initial 2023–2024 state budget",
+        "ht": "Premye bidjè Leta pou ane 2023–2024 la"
+      },
+      "published_at": null,
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Selected pages of the 236-page original were read. Calculations use the printed global envelope of HTG320.645billion, not execution. A separate HTG100,000 grants-table discrepancy is preserved and is not attributed to the candidate.",
+        "ht": "Nou li kèk paj nan dokiman orijinal 236 paj la. Kalkil yo sèvi ak anvlòp global 320.645 milya goud ki enprime a, se pa depans ki fèt. Yon lòt diferans 100,000 goud ant de chif sibvansyon nan dokiman an rete note; nou pa atribiye li ak kandida a."
+      }
+    },
+    "b02-ihsi-2024": {
+      "url": "https://ihsi.gouv.ht/public/storage/document-views/March2025/Oan4m17p5LEKtsGEnHgt.pdf",
+      "publisher": "Institut Haïtien de Statistique et d’Informatique",
+      "title": {
+        "en": "IHSI’s disaggregated 2024 population estimates",
+        "ht": "Estimasyon detaye IHSI sou popilasyon an an 2024"
+      },
+      "published_at": null,
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Selected pages of the 509-page original, including geographic counts and physical page28 population table, were read. These are estimates, not a new census or proof of the exact denominator the candidate used in April.",
+        "ht": "Nou li kèk paj nan dokiman orijinal 509 paj la, ki gen kantite inite teritoryal yo ak tablo popilasyon nan paj fizik 28. Se estimasyon, se pa yon nouvo resansman ni prèv sou kantite egzak kandida a te itilize nan mwa avril."
+      }
+    },
+    "b02-deus-pay": {
+      "url": "https://www.instagram.com/deusderonneth/p/DBoMOBTPMML/",
+      "publisher": "Deus Deronneth / Instagram",
+      "title": {
+        "en": "Deronneth’s historical-fund and local-pay claims",
+        "ht": "Deklarasyon Deronneth sou fon istorik ak salè eli lokal yo"
+      },
+      "published_at": "2024-10-27",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-dupuy-field": {
+      "url": "https://x.com/DominiqueAyiti/status/2088436356120752436",
+      "publisher": "Dominique Dupuy / X",
+      "title": {
+        "en": "Dupuy’s Field Fellowship message",
+        "ht": "Mesaj Dupuy sou Field Fellowship"
+      },
+      "published_at": "2026-08-14",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-field-fellows": {
+      "url": "https://www.fieldleaders.org/fellows",
+      "publisher": "Field",
+      "title": {
+        "en": "The programme’s 2026 fellows list",
+        "ht": "Lis patisipan pwogram nan pou ane 2026 la"
+      },
+      "published_at": null,
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Dupuy’s named entry and cohort heading read. Other fellows’ biographies, donor relationships and private family details are not attributed to her.",
+        "ht": "Nou li non Dupuy ak tit gwoup 2026 la. Nou pa atribiye biyografi lòt patisipan, relasyon ak donatè oswa detay lavi prive fanmi yo ak li."
+      }
+    },
+    "b02-field-about": {
+      "url": "https://www.fieldleaders.org/",
+      "publisher": "Field",
+      "title": {
+        "en": "The programme’s purpose and founder",
+        "ht": "Objektif pwogram nan ak fondatris li"
+      },
+      "published_at": null,
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Programme description, founder and cohort sections read. Current 2027–2028 application rules do not establish the terms or funding of an individual 2026 participant.",
+        "ht": "Nou li prezantasyon pwogram nan, non fondatris la ak seksyon sou gwoup yo. Règ aplikasyon 2027–2028 ki sou paj la kounye a pa etabli kondisyon oswa finansman yon patisipan an 2026."
+      }
+    },
+    "b02-dupuy-aspen": {
+      "url": "https://x.com/DominiqueAyiti/status/2078173726281994380",
+      "publisher": "Dominique Dupuy / X",
+      "title": {
+        "en": "Dupuy’s account of an Aspen conversation with Albert Ramdin",
+        "ht": "Deklarasyon Dupuy sou yon konvèsasyon ak Albert Ramdin nan Aspen"
+      },
+      "published_at": "2026-07-17",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-oas-aspen": {
+      "url": "https://www.flickr.com/photos/oasoea/55398417805/",
+      "publisher": "OAS / OEA",
+      "title": {
+        "en": "Institution-linked record of Dupuy at Aspen",
+        "ht": "Dosye sou yon kont OEA bay lyen li, ki montre Dupuy nan Aspen"
+      },
+      "published_at": "2026-07-15",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Caption and event metadata read; the account is linked by the OAS official photo page. No private-conversation transcript or campaign-finance record is established.",
+        "ht": "Nou li deskripsyon foto a ak enfòmasyon sou aktivite a; paj foto ofisyèl OEA a bay lyen kont sa a. Sa pa etabli yon transkripsyon konvèsasyon prive oswa yon dosye finansman kanpay."
+      }
+    },
+    "b02-dupuy-deportation": {
+      "url": "https://x.com/DominiqueAyiti/status/1841856523888206115",
+      "publisher": "Dominique Dupuy / X",
+      "title": {
+        "en": "Dupuy responds to the weekly deportation target",
+        "ht": "Reyaksyon Dupuy sou objektif depòtasyon chak semèn nan"
+      },
+      "published_at": "2024-10-03",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Original public source; statements and documented outcomes remain distinct.",
+        "ht": "Sous piblik orijinal; deklarasyon ak rezilta ki dokimante rete bagay diferan."
+      }
+    },
+    "b02-dominican-target": {
+      "url": "https://presidencia.gob.do/noticias/consejo-de-seguridad-y-defensa-nacional-acuerda-operativo-para-repatriar-hasta-10000",
+      "publisher": "Presidencia de la República Dominicana",
+      "title": {
+        "en": "October 2 announcement of an up-to-10,000 weekly objective",
+        "ht": "Anons 2 oktòb la sou objektif jiska 10,000 moun pa semèn"
+      },
+      "published_at": "2024-10-02",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "The complete substantive government release was read. Announced protections are official assurances, not independently established compliance or a measured weekly count.",
+        "ht": "Nou li tout tèks prensipal kominike gouvènman an. Pwoteksyon li anonse yo se angajman otorite yo, se pa prèv endepandan sou respè dwa oswa yon bilan chak semèn."
+      }
+    },
+    "b02-haiti-reception": {
+      "url": "https://lapresidence.ht/reunion-speciale-autour-des-deportations-massives-dhaitiens-par-la-republique-dominicaine/",
+      "publisher": "Bureau de Communication de la Présidence",
+      "title": {
+        "en": "ONM reception count for October 4–7 and diplomatic assignment",
+        "ht": "Bilan resepsyon ONM pou 4–7 oktòb ak misyon diplomatik la"
+      },
+      "published_at": "2024-10-08",
+      "checked_at": "2026-11-18",
+      "note": {
+        "en": "Government communique preserved in the earlier reviewed source register. Counts are attributed to ONM; they are not an independent adjudication of every removal or proof of the result of diplomacy.",
+        "ht": "Kominike gouvènman ki konsève nan rejis sous nou te verifye a. Nou atribiye konte a ak ONM; li pa yon jijman endepandan sou chak depòtasyon ni prèv rezilta demach diplomatik yo."
+      }
     }
   },
   "articles": [
@@ -17090,6 +17482,814 @@
           "text": {
             "en": "This is a proposed standard, not an audit of Joseph’s complete institutional record. That record still requires original case files, court outcomes and responses. A strong anti-corruption promise should make those distinctions easier for citizens to follow, not ask them to accept a slogan as a result.",
             "ht": "Sa a se yon egzijans nou pwopoze, se pa yon evalyasyon sou tout travay Joseph te fè nan enstitisyon yo. Pou sa, fòk gen dosye ankèt orijinal, rezilta tribinal ak repons moun ki konsène yo. Yon bon pwomès kont koripsyon dwe ede sitwayen yo konprann diferans sa yo, olye li mande yo aksepte yon slogan kòm rezilta."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martelly-occide-jeanty-five-thousand-seats-capacity",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Martelly’s 5,000 seats: a public number with two different meanings",
+        "ht": "5,000 plas Martelly yo: yon chif piblik ki gen de sans diferan"
+      },
+      "description": {
+        "en": "The inauguration account separated 4,000 seats from 1,000 standing places. The distinction changes what citizens can check.",
+        "ht": "Atik sou inogirasyon an te separe 4,000 plas chita ak 1,000 plas kanpe. Diferans lan chanje sa sitwayen yo ka verifye."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On May 14, 2015, Michel Martelly’s Instagram account presented the renovated Occide Jeanty amphitheatre with a claim of 5,000 seated places. The accompanying collage shows a stage and occupied stands. It is publicity for a public project, not a seating survey.",
+            "ht": "Nan dat 14 me 2015, kont Instagram Michel Martelly a te prezante anfiteyat Occide Jeanty ki te renove a avèk yon deklarasyon sou 5,000 plas chita. Montaj foto a montre yon sèn ak moun sou gradin. Se yon prezantasyon pwojè piblik, se pa yon konte chèz."
+          },
+          "sources": [
+            "b02-martelly-kiosk-post"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The project designer, Lemay, describes accommodation for 4,000 spectators. A contemporary HaïtiLibre report is more specific: 4,000 seated places and an esplanade for 1,000 standing spectators. Those categories add to 5,000 people without producing 5,000 seats.",
+            "ht": "Lemay, ki te travay sou konsepsyon pwojè a, pale de kapasite pou 4,000 espektatè. Yon atik HaïtiLibre nan epòk la bay plis detay: 4,000 plas chita ak yon esplanad pou 1,000 moun kanpe. De kategori sa yo bay 5,000 moun ansanm, men yo pa bay 5,000 plas chita."
+          },
+          "sources": [
+            "b02-lemay-kiosk",
+            "b02-haitilibre-kiosk"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "The strongest conclusion is a mismatch in the category being described. Combining seated and standing capacity is a plausible explanation. Neither source establishes a deliberate falsehood, and the reviewed photographs cannot settle the technical capacity.",
+            "ht": "Sa ki pi klè a se kategori yo pa menm. Mete plas chita ak plas kanpe ansanm kapab esplike diferans lan. Sous sa yo pa pwouve yon manti volontè, epi foto nou egzamine yo pa ka fikse kapasite teknik lokal la."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "The next useful records are the final plans, acceptance documents and approved occupancy figures. They would also separate the design’s intended capacity from the building as delivered. A designer’s portfolio and an inauguration article are valuable sources, with different interests and limits.",
+            "ht": "Pwochen dosye ki itil yo se plan final yo, dokiman resepsyon travay la ak kantite moun yo te apwouve pou lokal la. Yo ta ede separe sa plan an te prevwa ak sa yo te livre toutbon. Prezantasyon konsèptè a ak atik inogirasyon an itil, men yo gen enterè ak limit pa yo."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "For voters assessing construction claims, the lesson reaches beyond one amphitheatre. A headline total becomes meaningful when the units survive inspection: seats or people, planned or delivered, announced cost or audited spending. The public should be able to follow that trail after the ribbon is cut.",
+            "ht": "Pou elektè k ap evalye deklarasyon sou konstriksyon, kesyon an depase yon sèl anfiteyat. Yon gwo total vin gen sans lè n konnen sa yo konte: chèz oswa moun, sa ki prevwa oswa sa ki livre, pri ki anonse oswa depans ki verifye. Piblik la dwe kapab suiv tras sa a apre yo koupe riban an."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "martelly-cap-haitien-first-flight-route-record",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-73cb6b93ef8b5e7e9d1a"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Martelly’s Cap-Haïtien flight: what was new, and what came before",
+        "ht": "Vòl Martelly pou Okap la: sa ki te nouvo ak sa ki te la anvan"
+      },
+      "description": {
+        "en": "The airline’s own announcement identifies a particular route. It also reminds readers that the company had served Haiti for decades.",
+        "ht": "Anons konpayi avyon an idantifye yon liy byen presi. Li raple tou konpayi an te deja sèvi Ayiti pandan plizyè dizèn ane."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "Martelly’s October 2, 2014 post places him aboard American Airlines’ first commercial service to Cap-Haïtien. The destination matters: the post does not claim Haiti was receiving its first commercial flight.",
+            "ht": "Piblikasyon Martelly nan dat 2 oktòb 2014 la di li te abò premye vòl komèsyal American Airlines pou Okap. Destinasyon an enpòtan: mesaj la pa di se te premye vòl komèsyal ki te rive Ayiti."
+          },
+          "sources": [
+            "b02-martelly-aa-post"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "American’s July announcement names Miami–Cap-Haïtien, with an October 2 start subject to government approval. It says the company had served Haiti for more than forty years and describes the northern route as additional to its longstanding Port-au-Prince service.",
+            "ht": "Anons American nan mwa jiyè a bay liy Miami–Okap la, avèk yon kòmansman 2 oktòb sou kondisyon apwobasyon gouvènman. Li di konpayi an te sèvi Ayiti depi plis pase karantan epi li prezante liy pou Nò a kòm yon sèvis anplis sa ki te deja egziste pou Pòtoprens."
+          },
+          "sources": [
+            "b02-aa-route"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "Métropole’s report the following day describes the inaugural flight and Martelly’s participation. But it names Fort Lauderdale, while the airline’s release names Miami. That conflict is a reason to seek the operational record, not to merge the two endpoints.",
+            "ht": "Nan demen, yon atik Métropole dekri premye vòl la ak patisipasyon Martelly. Men li site Fort Lauderdale, tandiske kominike konpayi an site Miami. Diferans sa a mande pou chèche rejis operasyon vòl la; li pa yon rezon pou melanje de vil yo."
+          },
+          "sources": [
+            "b02-metropole-aa",
+            "b02-aa-route"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The same newspaper account traces airport expansion to a project launched under René Préval and reports Martelly acknowledging earlier Venezuelan support. Those financing details remain attributed to the report; original agreements and project accounts were not recovered here.",
+            "ht": "Menm atik jounal la remonte agrandisman ayewopò a nan yon pwojè ki te lanse sou René Préval epi li rapòte Martelly te rekonèt sipò Venezyela ki te vini anvan. Detay finansman sa yo rete sa atik la rapòte; nou poko jwenn akò orijinal ak kont pwojè yo nan rechèch sa a."
+          },
+          "sources": [
+            "b02-metropole-aa"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "An inauguration photograph captures one moment in a longer chain: planning, financing, construction, approval and actual service. A fair account can recognise the new connection while asking how credit and responsibility were shared. Neither personal credit nor political blame should swallow the institutions that made the service possible.",
+            "ht": "Yon foto inogirasyon kenbe yon moman nan yon chèn ki pi long: planifikasyon, finansman, konstriksyon, apwobasyon ak sèvis ki fèt toutbon. Yon bilan ki jis ka rekonèt nouvo koneksyon an pandan li egzamine kijan yo pataje merit ak responsablite. Ni merit pèsonèl ni blam politik pa dwe efase enstitisyon ki te rann sèvis la posib."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jerry-tardieu-paris-agreement-three-dates",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Tardieu and the Paris Agreement: three dates, three different steps",
+        "ht": "Tardieu ak Akò Pari a: twa dat, twa etap diferan"
+      },
+      "description": {
+        "en": "A parliamentary announcement and an international ratification notice can both be accurate without describing the same event.",
+        "ht": "Yon anons palmantè ak yon avi ratifikasyon entènasyonal ka toude kòrèk san yo pa dekri menm evènman an."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On February 1, 2017, Jerry Tardieu’s account said the decree ratifying the Paris climate agreement had just been adopted in the National Assembly. That is a claim about a domestic parliamentary action.",
+            "ht": "Nan dat 1ye fevriye 2017, kont Jerry Tardieu a te di Asanble nasyonal la te fèk adopte dekrè ratifikasyon Akò Pari sou klima a. Se yon deklarasyon sou yon aksyon palmantè anndan peyi a."
+          },
+          "sources": [
+            "b02-tardieu-paris"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The United Nations depositary notice records Haiti’s international ratification on July 31, 2017, followed by entry into force on August 30. It does not purport to date every earlier parliamentary step.",
+            "ht": "Avi Nasyonzini ki konsève dosye trete a bay 31 jiyè 2017 kòm dat ratifikasyon entènasyonal Ayiti, epi 30 out kòm dat akò a antre an aplikasyon pou peyi a. Li pa pretann bay dat chak etap palmantè ki te fèt anvan."
+          },
+          "sources": [
+            "b02-un-paris"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "Reading the July date as proof that the February announcement was false would confuse two procedures. Domestic approval, depositing the country’s instrument internationally and the agreement taking effect are different events. An apparent calendar contradiction can disappear when the document’s purpose is read.",
+            "ht": "Si nou pran dat jiyè a kòm prèv anons fevriye a te fo, nou ta melanje de pwosedi. Apwobasyon anndan peyi a, depo dokiman peyi a nan nivo entènasyonal ak dat akò a pran efè se evènman diferan. Yon kontradiksyon ki parèt nan kalandriye a ka disparèt lè nou li objektif chak dokiman."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "The original domestic decree, session minutes, quorum record and individual roll call were not recovered in this review. The UN notice therefore supports the international stage; it does not independently verify Tardieu’s vote, attendance or contribution.",
+            "ht": "Rechèch sa a poko jwenn dekrè nasyonal orijinal la, pwosè-vèbal seyans lan, dosye sou kantite manm ki te prezan oswa lis vòt chak moun. Kidonk, avi Nasyonzini an apiye etap entènasyonal la; li pa verifye apa vòt, prezans oswa kontribisyon Tardieu."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "For a candidate presenting a climate record, the next questions go beyond the calendar. Which commitments became domestic measures? Which projects received money, who implemented them and what changed for exposed communities? Ratification can open a policy path. It is not itself a payment or a completed protective work.",
+            "ht": "Pou yon kandida k ap prezante travay li sou klima, pwochen kesyon yo depase kalandriye a. Ki angajman ki vin tounen mezi anndan peyi a? Ki pwojè ki resevwa lajan, kiyès ki aplike yo ak kisa ki chanje pou kominote ki ekspoze yo? Ratifikasyon ka louvri yon chemen politik piblik. Li pa yon peman oswa yon travay pwoteksyon ki deja fini."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jerry-tardieu-terrorist-financing-law-legislative-stages",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "The votes behind Tardieu’s terrorist-financing announcement",
+        "ht": "Vòt ki dèyè anons Tardieu sou finansman teworis la"
+      },
+      "description": {
+        "en": "A transmission letter separates the first chamber’s vote, the Senate’s vote and publication of the law.",
+        "ht": "Yon lèt transmisyon separe vòt premye chanm nan, vòt Sena a ak piblikasyon lwa a."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On September 8, 2016, Tardieu’s account celebrated a law against terrorist financing being voted and said he belonged to its supporting special commission. A scanned legislative letter helps place that announcement in sequence.",
+            "ht": "Nan dat 8 septanm 2016, kont Tardieu a te selebre vòt yon lwa kont finansman teworis epi li te di li te nan komisyon espesyal ki t ap apiye lwa a. Yon lèt lejislatif ki konsève kòm eskanè ede nou mete anons la nan lòd evènman yo."
+          },
+          "sources": [
+            "b02-tardieu-terror-vote"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The October 6 letter records a lower-house first reading on September 7 and a Senate second reading on September 28. The retained mirror’s cover identifies publication in Le Moniteur on October 13. The instrument amends the November 2013 money-laundering and terrorist-financing law.",
+            "ht": "Lèt 6 oktòb la bay 7 septanm pou premye lekti nan Chanm depite a ak 28 septanm pou dezyèm lekti nan Sena a. Kouvèti kopi nou konsève a montre piblikasyon nan Le Moniteur nan dat 13 oktòb. Tèks la amande lwa novanm 2013 sou blanchiman lajan ak finansman teworis la."
+          },
+          "sources": [
+            "b02-2016-law-mirror"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "Those dates make the September 8 announcement consistent with the lower-house vote. They do not make it evidence that both chambers had finished that day. Nor would the later Senate date, by itself, disprove that an earlier chamber vote occurred.",
+            "ht": "Dat sa yo fè anons 8 septanm nan mache ak vòt Chanm depite a. Yo pa fè li tounen prèv toude chanm yo te deja fini jou sa a. Menm jan an tou, dat vòt Sena a ki vini pita pa ta sifi pou demanti vòt yon lòt chanm ki te fèt anvan."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "This review read selected scanned pages, not the complete current legal framework, and could not compare the mirror’s bytes with the original publisher’s copy. The letter names chamber leaders transmitting the text. It supplies no individual roll call or independent proof of Tardieu’s commission role.",
+            "ht": "Rechèch sa a li kèk paj eskanè, se pa tout tèks legal ki aplikab kounye a, epi li pa t ka konpare fichye kopi a ak fichye piblikatè orijinal la. Lèt la bay non dirijan chanm ki transmèt tèks la. Li pa bay lis vòt chak moun ni prèv apa sou wòl Tardieu nan komisyon an."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "The electoral question is what his contribution changed: the wording, safeguards, oversight or enforcement. Commission records and voting lists would clarify responsibility; implementation records would show results. A public claim of legislative work deserves that follow-through, rather than either automatic credit or an invented contradiction.",
+            "ht": "Kesyon elektoral la se kisa kontribisyon li chanje: tèks la, garanti yo, kontwòl oswa aplikasyon an. Dosye komisyon ak lis vòt ta klarifye responsablite; dosye aplikasyon ta montre rezilta. Yon deklarasyon piblik sou travay lejislatif merite swivi sa a, olye nou bay merit otomatik oswa envante yon kontradiksyon."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jerry-tardieu-ucref-vote-independence-safeguards",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Tardieu’s UCREF vote: who should control the money investigators?",
+        "ht": "Vòt Tardieu sou UCREF: kiyès ki dwe kontwole ankèt sou lajan yo?"
+      },
+      "description": {
+        "en": "His account celebrated a bill. A rights organisation warned about independence. The missing legislative chain matters to both claims.",
+        "ht": "Kont li a te selebre yon pwojè lwa. Yon òganizasyon dwa moun te avèti sou endepandans enstitisyon an. Dosye lejislatif ki manke yo enpòtan pou egzamine toude pozisyon yo."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On May 5, 2017, Tardieu’s account celebrated the vote on the UCREF bill and thanked special-commission colleagues. UCREF is the financial-intelligence unit: it examines suspicious financial information, a function relevant to tracing concealed money.",
+            "ht": "Nan dat 5 me 2017, kont Tardieu a te selebre vòt pwojè lwa UCREF la epi remèsye kòlèg nan komisyon espesyal la. UCREF se inite renseyman finansye a: li egzamine enfòmasyon finansye ki sispèk, yon travay ki enpòtan pou suiv lajan moun eseye kache."
+          },
+          "sources": [
+            "b02-tardieu-ucref",
+            "b02-rnddh-ucref"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "RNDDH’s May report dates lower-house and Senate votes to May 4 and May 8. It criticises appointment powers and institutional safeguards. The organisation’s analysis does not name Tardieu and is not a judicial finding against him.",
+            "ht": "Rapò RNDDH nan mwa me a bay 4 me pou vòt Chanm depite a ak 8 me pou vòt Sena a. Li kritike pouvwa nominasyon yo ak garanti pou enstitisyon an. Analiz òganizasyon an pa site Tardieu epi li pa yon jijman kont li."
+          },
+          "sources": [
+            "b02-rnddh-ucref"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "The date sequence supports a narrower reading of the May 5 celebration: the lower house had acted while the Senate stage was still ahead. The harder issue is the institution’s design. If investigators depend on political appointers, what protects inquiries involving those appointers or their allies?",
+            "ht": "Lòd dat yo apiye yon lekti pi presi nan selebrasyon 5 me a: Chanm depite a te deja vote, men etap Sena a te devan toujou. Pi gwo kesyon an se fason enstitisyon an òganize. Si ankètè yo depann de moun politik ki nonmen yo, ki garanti ki pwoteje ankèt sou moun sa yo oswa alye yo?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "RNDDH compares the 2001 and 2017 texts. The wider framework also includes a 2013 law and a 2016 amendment. Counting fewer articles cannot alone establish that a protection disappeared rather than moved elsewhere. Original statutes, amendments and the commission’s explanations are needed to test that question.",
+            "ht": "RNDDH konpare tèks 2001 ak 2017 yo. Gen yon lwa 2013 ak yon amannman 2016 nan pi gwo kad legal la tou. Konte mwens atik pa sifi pou pwouve yon pwoteksyon disparèt olye li antre nan yon lòt tèks. Fòk gen lwa orijinal, amannman ak eksplikasyon komisyon an pou egzamine kesyon sa a."
+          },
+          "sources": [
+            "b02-rnddh-ucref",
+            "b02-2016-law-mirror"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "A candidate claiming reform experience can answer concretely: which powers changed, which guarantees remained, how did he vote and what was his reasoning? Modernising an agency and making it politically dependent are competing interpretations. The public record should let citizens distinguish them without treating criticism as a conviction.",
+            "ht": "Yon kandida ki site eksperyans refòm li ka reponn klèman: ki pouvwa ki chanje, ki garanti ki rete, kijan li te vote ak poukisa? Modènize yon ajans ak fè li depann de pouvwa politik se de entèpretasyon diferan. Dosye piblik la dwe pèmèt sitwayen yo fè diferans lan san yo pa pran yon kritik pou yon kondanasyon."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jerry-tardieu-aquin-hospital-donation-patient-results",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Tardieu in Aquin: follow the equipment beyond the donation photograph",
+        "ht": "Tardieu nan Aken: suiv ekipman yo pi lwen pase foto don an"
+      },
+      "description": {
+        "en": "A named hospital gives the aid claim a place to investigate. It does not yet give the public a delivery or patient-use record.",
+        "ht": "Non yon lopital bay yon kote pou verifye deklarasyon sou èd la. Li poko bay piblik la yon dosye sou resepsyon oswa itilizasyon ekipman pou pasyan."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "Hurricane Matthew struck Haiti on October 4, 2016. On October 26, Tardieu’s account described an equipment donation at Aquin’s community referral hospital, accompanied by local deputy Jean-Robert Bossé, whom the caption identified with OPL.",
+            "ht": "Siklòn Matye te frape Ayiti nan dat 4 oktòb 2016. Nan dat 26 oktòb, kont Tardieu a te pale de yon don ekipman nan lopital kominotè referans Aken an, ansanm ak depite lokal Jean-Robert Bossé, ki nan tèks la kòm manm OPL."
+          },
+          "sources": [
+            "b02-nasa-matthew",
+            "b02-tardieu-aquin"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The reviewed photograph includes a readable hospital sign. That supports the depicted institutional setting. The caption supplies the donation claim and the other deputy’s role; the sign does not independently inventory equipment, identify its funding or establish receipt.",
+            "ht": "Foto nou egzamine a gen yon pankat lopital moun ka li. Sa ede idantifye enstitisyon foto a prezante a. Se tèks la ki bay deklarasyon sou don an ak wòl lòt depite a; pankat la pa fè yon lis ekipman, idantifye finansman li oswa pwouve yo te resevwa li."
+          },
+          "sources": [
+            "b02-tardieu-aquin"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "That distinction creates a reporting path. A hospital can confirm what arrived, when it arrived, whether it functioned and who maintained it. Donor and shipping records can show the route before arrival. Those sources answer questions a ceremony photograph cannot.",
+            "ht": "Diferans sa a louvri yon chemen pou ankèt. Yon lopital ka konfime sa ki rive, ki lè li rive, si li mache ak kiyès ki antreteni li. Dosye donatè ak transpò ka montre chemen li fè anvan li rive. Sous sa yo reponn kesyon yon foto seremoni pa ka reponn."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "Original receipts, equipment lists, costs, maintenance records and patient-use results were not recovered in this review. Missing records here do not establish that the donation failed or never arrived. Sharing the visit also does not establish a present electoral alliance between the politicians.",
+            "ht": "Rechèch sa a poko jwenn resi orijinal, lis ekipman, pri, dosye antretyen ak rezilta itilizasyon pou pasyan. Mank dosye sa yo nan rechèch nou an pa pwouve don an te echwe oswa li pa t janm rive. Patisipe nan menm vizit la pa pwouve nonplis gen yon alyans elektoral aktyèl ant politisyen yo."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "The measure of hospital aid is the service it makes possible after publicity ends. Who trained staff? Were spare parts available? How long did the equipment remain useful? Voters examining Tardieu’s record should be able to connect the announced assistance with that last, practical stage.",
+            "ht": "Pou mezire èd pou yon lopital, fòk nou gade sèvis li rann posib apre pwomosyon an fini. Kiyès ki fòme pèsonèl la? Èske te gen pyès derechanj? Konbyen tan ekipman an rete itil? Elektè k ap egzamine travay Tardieu dwe kapab konekte èd li anonse a ak dènye etap pratik sa a."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "jerry-tardieu-library-digitisation-service-test",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Tardieu’s library promise should be judged from a reader’s chair",
+        "ht": "Pou jije pwomès Tardieu sou bibliyotèk la, chita nan plas yon lektè"
+      },
+      "description": {
+        "en": "Putting books on a computer can help. The public service begins when a young reader can actually use them.",
+        "ht": "Mete liv sou òdinatè ka itil. Sèvis piblik la kòmanse lè yon jèn ka sèvi ak yo toutbon."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On January 25, 2017, Jerry Tardieu’s account described a meeting with Josette Bruffaerts of Haïti Futur and proposed working together to digitise the Pétion-Ville library. Its wording described work to come, not a completed installation.",
+            "ht": "Nan dat 25 janvye 2017, kont Jerry Tardieu a te pale de yon rankont ak Josette Bruffaerts nan Haïti Futur epi li te pwopoze pou yo travay ansanm pou nimerize bibliyotèk Petyonvil la. Tèks la te pale de travay ki gen pou fèt, se pa yon enstalasyon ki te deja fini."
+          },
+          "sources": [
+            "b02-tardieu-library"
+          ]
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "The useful electoral test starts with an imagined reader, not a machine. Can a sixteen-year-old find the book needed for school? Can someone without a phone or money for data read it? Can a librarian help? A digital project earns public value through those ordinary encounters.",
+            "ht": "Pou evalye pwojè sa a nan eleksyon, ann kòmanse ak yon lektè nou imajine, pa ak yon machin. Èske yon jèn sèzan ka jwenn liv li bezwen pou lekòl? Èske yon moun ki pa gen telefòn oswa lajan pou entènèt ka li li? Èske yon bibliyotekè ka ede li? Se nan moman òdinè sa yo yon pwojè dijital rann piblik la sèvis."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "Digitisation also covers different tasks. A searchable list tells readers which books exist; a scanned book lets them read pages. Neither automatically supplies electricity, accessible equipment, trained staff or permission to distribute copyrighted texts. A promise should say which problem it intends to solve.",
+            "ht": "Nimerizasyon ka vle di travay diferan tou. Yon lis kote moun ka fè rechèch montre ki liv ki egziste; yon liv yo eskane pèmèt moun li paj yo. Ni youn ni lòt pa bay otomatikman kouran, ekipman moun ka itilize, pèsonèl ki resevwa fòmasyon oswa otorizasyon pou distribye liv ki anba pwoteksyon dwa otè. Yon pwomès dwe esplike ki pwoblèm li vize rezoud."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "This review did not recover a signed project agreement, delivery record or usage report. Targeted searches also did not establish that specific project’s outcome. That is a limit of this review, not proof that no work occurred or a verdict on Haïti Futur’s wider activities.",
+            "ht": "Rechèch sa a poko jwenn yon akò pwojè ki siyen, yon dosye livrezon oswa yon rapò itilizasyon. Rechèch presi nou fè yo pa etabli rezilta pwojè sa a nonplis. Se yon limit rechèch nou an, se pa prèv pa t gen travay ni yon jijman sou lòt aktivite Haïti Futur."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "I would ask Tardieu for a simple before-and-after account: what readers could do before, what changed, when it opened, what it cost and who kept it running. Publish the catalogue and service hours alongside it. The achievement worth claiming is easier access to knowledge, demonstrated where readers sit.",
+            "ht": "Mwen ta mande Tardieu yon bilan senp: sa lektè te kapab fè anvan, sa ki chanje, ki lè sèvis la louvri, konbyen li koute ak kiyès ki kenbe li mache. Pibliye katalòg la ak lè sèvis yo tou. Sa ki merite rekonesans lan se pi bon aksè ak konesans, ak prèv ki soti nan eksperyans lektè yo."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "deus-deronneth-budget-dividing-number-territories",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-318821d7c6585a15b714"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Deronneth’s budget: the number beneath the division sign",
+        "ht": "Bidjè Deronneth la: kantite ki anba siy divizyon an"
+      },
+      "description": {
+        "en": "His posted amounts can be reproduced. Changing the number of eligible territories changes the cheque each would receive.",
+        "ht": "Nou ka refè montan li pibliye yo. Lè kantite kolektivite ki kalifye chanje, montan chak ta resevwa chanje tou."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "Deus Deronneth’s April 2024 graphics assign 60% of the budget to central government, 16% to communal sections, 14% to communes and 10% to departments. A second graphic posts amounts for each territorial unit using the 2023–2024 budget.",
+            "ht": "Grafik Deus Deronneth yo nan mwa avril 2024 bay 60% bidjè a pou pouvwa santral, 16% pou seksyon kominal, 14% pou komin ak 10% pou depatman. Yon lòt grafik bay montan pou chak inite teritoryal avèk bidjè 2023–2024 la."
+          },
+          "sources": [
+            "b02-deus-shares",
+            "b02-deus-model"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The initial state budget prints a global envelope of 320.645 billion gourdes. Taking the proposed shares and dividing by 571 sections, 146 communes and ten departments reproduces the posted rounded amounts: about 89.85 million, 307.47 million and 3.20645 billion gourdes respectively.",
+            "ht": "Premye bidjè Leta a enprime yon anvlòp global 320.645 milya goud. Si nou pran pousantaj modèl la epi divize yo pa 571 seksyon, 146 komin ak dis depatman, nou rejwenn montan piblikasyon an awondi yo: anviwon 89.85 milyon, 307.47 milyon ak 3.20645 milya goud, nan menm lòd la."
+          },
+          "sources": [
+            "b02-budget-2023-24",
+            "b02-deus-shares",
+            "b02-deus-model"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "That is a reconstruction of the arithmetic, not proof that Deronneth explicitly used those divisors. It identifies the question his graphic leaves readers to solve: which geographic list determines who gets paid?",
+            "ht": "Sa se yon rekonstriksyon kalkil la, se pa prèv Deronneth te di li sèvi ak kantite sa yo pou divize. Li montre kesyon grafik la kite pou lektè rezoud: ki lis teritwa ki deside kiyès k ap touche?"
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "IHSI’s later publication of 2024 population estimates counts 574 communal sections, 149 communes and ten departments. Using that list with the same budget and shares produces about 89.38 million per section and 301.28 million per commune. The departmental amount stays the same.",
+            "ht": "Piblikasyon IHSI ki vini pita sou estimasyon popilasyon 2024 la konte 574 seksyon kominal, 149 komin ak dis depatman. Avèk lis sa a, menm bidjè ak menm pousantaj yo bay anviwon 89.38 milyon pou chak seksyon ak 301.28 milyon pou chak komin. Montan depatman an pa chanje."
+          },
+          "sources": [
+            "b02-ihsi-2024",
+            "b02-budget-2023-24"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "The later list does not establish which administrative boundaries applied to the April proposal. These are allocations in a model, not evidence that the treasury made transfers. The global budget is an authorised envelope, not actual spending.",
+            "ht": "Lis ki pibliye pita a pa etabli ki limit administratif ki te aplikab nan pwopozisyon mwa avril la. Se montan nan yon modèl, se pa prèv Trezò a te fè transfè. Bidjè global la se yon anvlòp ki otorize, se pa depans ki fèt."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "A workable proposal needs a dated list of eligible units and a rule for changes to that list. Otherwise, creating or recognising another commune changes everyone’s share without voters seeing the mechanism. The division sign is small; the administrative decision underneath it moves millions.",
+            "ht": "Yon pwopozisyon moun ka aplike bezwen yon lis kolektivite ki kalifye avèk dat li, epi yon règ lè lis la chanje. Sinon, kreye oswa rekonèt yon lòt komin chanje pati tout lòt yo san elektè yo pa wè mekanis la. Siy divizyon an piti; desizyon administratif ki anba li a deplase plizyè milyon."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "deus-deronneth-equal-departments-different-residents",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-318821d7c6585a15b714"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Deronneth’s equal departmental grant buys unequal amounts per resident",
+        "ht": "Menm montan Deronneth pou depatman yo bay montan diferan pou chak abitan"
+      },
+      "description": {
+        "en": "A population-based calculation reveals the choice hidden inside an apparently equal split.",
+        "ht": "Yon kalkil dapre popilasyon an montre chwa ki dèyè yon pataj ki parèt egal."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "In Deronneth’s April 2024 budget model, each of Haiti’s ten departments would receive 3.20645 billion gourdes. That is one-tenth of the 10% departmental allocation, calculated from the initial 2023–2024 state budget.",
+            "ht": "Nan modèl bidjè Deronneth nan mwa avril 2024 la, chak nan dis depatman Ayiti yo ta resevwa 3.20645 milya goud. Se yon dizyèm pati 10% li rezève pou depatman yo, avèk premye bidjè Leta 2023–2024 la kòm baz."
+          },
+          "sources": [
+            "b02-deus-model",
+            "b02-deus-shares",
+            "b02-budget-2023-24"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "IHSI estimates 4,038,816 residents in Ouest and 403,045 in Nippes for 2024. Dividing the same proposed grant by those populations gives about 794 gourdes per resident in Ouest and 7,956 in Nippes: roughly ten times as much per person.",
+            "ht": "IHSI estime te gen 4,038,816 abitan nan Lwès ak 403,045 nan Nip pou ane 2024. Lè nou divize menm montan yo pwopoze a pa popilasyon sa yo, nou jwenn anviwon 794 goud pou chak abitan Lwès ak 7,956 nan Nip: anviwon dis fwa plis pou chak moun."
+          },
+          "sources": [
+            "b02-ihsi-2024",
+            "b02-deus-model"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "This is an illustrative calculation combining his earlier model with a later-published estimate. It covers only the departmental component, not all public resources reaching either place, and describes no actual payment. The population figures are estimates, not a new census.",
+            "ht": "Sa se yon kalkil pou esplike modèl li te prezante anvan an avèk yon estimasyon ki pibliye pita. Li konsène sèlman pati pou depatman yo, se pa tout lajan piblik ki rive nan youn oswa lòt, epi li pa dekri yon peman ki fèt. Chif popilasyon yo se estimasyon, se pa yon nouvo resansman."
+          },
+          "sources": []
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "Equal amounts for territories and equal amounts for residents are different political choices. A smaller department can still face fixed costs: maintaining offices, roads or a service network. A larger one can face heavier demand. The calculation identifies a trade-off; it cannot decide fairness by itself.",
+            "ht": "Bay teritwa yo menm montan ak bay abitan yo menm montan se de chwa politik diferan. Yon depatman ki pi piti ka toujou gen depans fiks: kenbe biwo, wout oswa yon rezo sèvis. Yon pi gwo depatman ka gen plis demann. Kalkil la montre yon chwa ki gen avantaj ak dezavantaj; li pa ka deside pou kont li si pataj la jis."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "Deronneth should explain which costs his departmental grant is meant to cover and why every department receives the same amount. Would population, poverty, distance or existing infrastructure change the formula? A transparent answer would let voters compare a flat grant with a base amount plus a needs-based share.",
+            "ht": "Deronneth ta dwe esplike ki depans montan pou depatman an sipoze kouvri ak poukisa tout depatman resevwa menm kantite. Èske popilasyon, povrete, distans oswa enfrastrikti ki deja la ta chanje fòmil la? Yon repons klè ta pèmèt elektè konpare menm montan pou chak depatman ak yon montan debaz plis yon pati dapre bezwen yo."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "deus-deronneth-local-salaries-recurring-revenue",
+      "status": "published",
+      "kind": "opinion",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-318821d7c6585a15b714"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Deronneth’s local-pay proposal needs a monthly revenue story",
+        "ht": "Pwopozisyon salè lokal Deronneth la bezwen esplike kote lajan chak mwa ap soti"
+      },
+      "description": {
+        "en": "Better pay deserves debate. Historical fund allegations and future payroll obligations require different accounts.",
+        "ht": "Pi bon salè merite deba. Akizasyon sou yon fon istorik ak obligasyon peye salè demen bezwen kont diferan."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "In October 2024, Deronneth alleged that roughly 160 billion gourdes from the local-government development fund had been diverted over 28 years. In the same post, he advocated monthly pay above 70,000 gourdes for ASEC members and above 80,000, plus expenses, for CASEC members.",
+            "ht": "Nan mwa oktòb 2024, Deronneth te akize moun detounen anviwon 160 milya goud nan fon devlopman kolektivite teritoryal yo sou 28 ane. Nan menm piblikasyon an, li te defann salè plis pase 70,000 goud pa mwa pou manm ASEC ak plis pase 80,000, plis frè, pou manm CASEC."
+          },
+          "sources": [
+            "b02-deus-pay"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "The diversion claim remains an allegation in this review. Testing it requires annual receipts, the rules governing permitted spending, actual transfers and audits. A total asserted across 28 years is not already an established recoverable balance.",
+            "ht": "Deklarasyon sou detounman an rete yon akizasyon nan rechèch sa a. Pou verifye li, fòk gen resèt chak ane, règ ki di ki depans yo te otorize, transfè ki fèt ak rapò kontwòl. Yon total moun site sou 28 ane pa deja yon balans yo etabli ki disponib pou rekipere."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "The salary proposal deserves its own calculation. At 70,000 a month, one position costs 840,000 gourdes over twelve months; at 80,000, it costs 960,000 before expenses. Because the proposal says more than those amounts, these are reference thresholds, not final annual salaries. The number of paid positions would determine the wider bill.",
+            "ht": "Pwopozisyon salè a merite kalkil pa li. Avèk 70,000 pa mwa, yon pòs koute 840,000 goud sou douz mwa; avèk 80,000, li koute 960,000 anvan frè. Paske pwopozisyon an di plis pase montan sa yo, se nivo referans, se pa salè final pou ane a. Kantite pòs yo peye ta detèmine tout depans lan."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "A recovery from the past and money arriving every month solve different problems. Even a successful recovery does not by itself identify next year’s recurring revenue. Deronneth should publish that revenue plan rather than leave readers to infer it from the historical allegation.",
+            "ht": "Lajan yo ka rekipere nan dosye pase a ak lajan ki antre chak mwa rezoud pwoblèm diferan. Menm si rekiperasyon an reyisi, sa pa idantifye pou kont li resèt regilye pou ane k ap vini an. Deronneth ta dwe pibliye plan resèt sa a olye li kite lektè dedui li nan akizasyon sou pase a."
+          },
+          "sources": []
+        },
+        {
+          "kind": "argument",
+          "text": {
+            "en": "My test is straightforward: explain the work, count the positions, publish the annual cost and name a durable funding source. Add attendance, spending and service checks. Local officials should have the means to do their jobs; citizens should have the means to see what that pay delivers.",
+            "ht": "Men tès mwen: esplike travay la, konte pòs yo, pibliye pri anyèl la epi bay yon sous finansman ki ka dire. Ajoute kontwòl sou prezans, depans ak sèvis. Eli lokal yo dwe gen mwayen pou fè travay yo; sitwayen yo dwe gen mwayen pou wè sa salè sa a bay kòm rezilta."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "dominique-dupuy-field-aspen-public-network-record",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Dupuy’s international network: the links the record actually shows",
+        "ht": "Rezo entènasyonal Dupuy a: lyen dosye yo montre toutbon"
+      },
+      "description": {
+        "en": "A fellowship list and an institutional photograph establish participation. The next reporting questions concern purpose, funding and commitments.",
+        "ht": "Yon lis patisipan ak yon foto enstitisyon etabli patisipasyon. Pwochen kesyon ankèt yo konsène objektif, finansman ak angajman."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "Field lists Dominique Dupuy of Haiti among its 2026 fellows. The programme, founded by former New Zealand prime minister Jacinda Ardern, describes a twelve-month leadership fellowship. Dupuy’s August message thanks Ardern and the programme for the experience.",
+            "ht": "Field mete Dominique Dupuy, Ayiti, nan lis patisipan li pou ane 2026. Pwogram ansyen premye minis Nouvèl Zeland Jacinda Ardern fonde a prezante yon fòmasyon dirijan sou douz mwa. Nan mesaj li nan mwa out la, Dupuy remèsye Ardern ak pwogram nan pou eksperyans lan."
+          },
+          "sources": [
+            "b02-field-fellows",
+            "b02-field-about",
+            "b02-dupuy-field"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "In a separate July post, Dupuy described a conversation with OAS secretary general Albert Ramdin at Aspen. An institutional photo record places her at the July 15 Aspen event and identifies her as a former minister. The post describes the conversation; the photograph does not transcribe it.",
+            "ht": "Nan yon lòt piblikasyon nan mwa jiyè, Dupuy te pale de yon konvèsasyon ak sekretè jeneral OEA Albert Ramdin nan Aspen. Yon dosye foto enstitisyon mete li nan aktivite Aspen 15 jiyè a epi idantifye li kòm ansyen minis. Se piblikasyon an ki dekri konvèsasyon an; foto a pa bay pawòl ki te di yo."
+          },
+          "sources": [
+            "b02-dupuy-aspen",
+            "b02-oas-aspen"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "These are two documented kinds of access: participation in a leadership programme and contact at an international forum. They can inform a candidate’s experience and contacts. They do not establish that the programme, Ardern, Ramdin or the OAS endorses her candidacy.",
+            "ht": "Se de kalite aksè ki dokimante: patisipasyon nan yon pwogram pou dirijan ak kontak nan yon fowòm entènasyonal. Yo ka ede konprann eksperyans ak kontak yon kandida. Yo pa etabli pwogram nan, Ardern, Ramdin oswa OEA apiye kandidati li."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "No individual funding agreement, travel-payment record, campaign donation or private-conversation transcript was recovered here. Rules now advertised for a later fellowship cohort cannot establish Dupuy’s 2026 terms. Her description of the experience as a gift also does not establish a financial gift.",
+            "ht": "Rechèch sa a poko jwenn akò finansman pèsonèl, dosye peman vwayaj, don pou kanpay oswa transkripsyon konvèsasyon prive. Règ yo anonse kounye a pou yon gwoup patisipan ki vini pita pa ka etabli kondisyon Dupuy an 2026. Lè li dekri eksperyans lan kòm yon kado, sa pa etabli yon kado lajan nonplis."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "The useful questions are concrete: who paid participation and travel costs, in what capacity did she attend, and did she accept commitments relevant to public office? Publish the answers and supporting records. Scrutiny should reveal how international access connects to public responsibility, without turning a meeting into an invented alliance.",
+            "ht": "Kesyon itil yo presi: kiyès ki peye patisipasyon ak depans vwayaj, nan ki kapasite li te patisipe, epi èske li pran angajman ki gen rapò ak fonksyon piblik? Pibliye repons yo ak dosye ki apiye yo. Egzamen an dwe montre kijan aksè entènasyonal konekte ak responsablite piblik, san nou pa fè yon rankont tounen yon alyans nou envante."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "dominique-dupuy-ten-thousand-target-four-day-count",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-85da87af028d528d8f83"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Dupuy’s deportation warning: a weekly target is not a weekly count",
+        "ht": "Avètisman Dupuy sou depòtasyon: objektif chak semèn pa bilan chak semèn"
+      },
+      "description": {
+        "en": "The Dominican announcement and Haiti’s reception figure describe different measures over different periods.",
+        "ht": "Anons dominiken an ak chif resepsyon Ayiti a dekri mezi diferan sou peryòd diferan."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "On October 2, 2024, the Dominican presidency announced an operation with an objective of repatriating up to 10,000 migrants a week. On October 3, then foreign minister Dominique Dupuy warned about the measure and said Haiti would strengthen consular support and engage organisations defending migrants’ rights.",
+            "ht": "Nan dat 2 oktòb 2024, prezidans dominikèn nan te anonse yon operasyon ki gen objektif rapatriye jiska 10,000 migran pa semèn. Nan dat 3 oktòb, Dominique Dupuy, ki te minis Afè etranjè lè sa a, te avèti sou mezi a epi di Ayiti pral ranfòse sipò konsila yo ak demach bò kote òganizasyon k ap defann dwa migran."
+          },
+          "sources": [
+            "b02-dominican-target",
+            "b02-dupuy-deportation"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "Haiti’s presidency reported on October 8 that ONM had received 5,323 repatriated Haitians from October 4 through October 7, including 140 children. Its communiqué also assigned diplomatic work to Dupuy. This is an official account of reception over four days, not a measured seven-day Dominican total.",
+            "ht": "Nan dat 8 oktòb, prezidans Ayiti a te rapòte ONM te resevwa 5,323 Ayisyen yo rapatriye ant 4 ak 7 oktòb, ladan yo 140 timoun. Kominike a te bay Dupuy travay diplomatik tou. Se yon bilan ofisyèl sou resepsyon pandan kat jou, se pa yon total dominiken yo mezire sou sèt jou."
+          },
+          "sources": [
+            "b02-haiti-reception"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "text": {
+            "en": "The figures answer different questions. Ten thousand describes the announced weekly objective. The 5,323 describes people Haiti said it received within a specified period. Treating the first as an observed count, or projecting the second across a whole week and reporting that projection as fact, would manufacture a comparison.",
+            "ht": "Chif yo reponn kesyon diferan. Dis mil la dekri objektif chak semèn yo anonse a. Chif 5,323 la dekri moun Ayiti di li resevwa sou yon peryòd presi. Si nou pran premye a pou yon bilan ki mezire, oswa pwolonje dezyèm nan sou yon semèn antye epi prezante kalkil sa a kòm reyalite, nou ta envante yon konparezon."
+          },
+          "sources": []
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "The Dominican release promises respect for rights; that assurance does not independently establish compliance. Haiti’s count likewise does not adjudicate the legality of every removal or verify the outcome of consular assistance. Neither source alone measures whether Dupuy’s diplomacy changed the operation.",
+            "ht": "Kominike dominiken an pwomèt respè dwa; angajman sa a pa etabli apa dwa yo te respekte. Menm jan an tou, konte Ayiti a pa tranche legalite chak depòtasyon ni verifye rezilta èd konsila yo. Okenn nan sous sa yo pou kont li pa mezire si diplomasi Dupuy chanje operasyon an."
+          },
+          "sources": []
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "A meaningful assessment needs matching dates, comparable border records, documented protection cases and the responses to diplomatic representations. Voters should ask what happened to people and what action changed it. A large target and a large arrival count make urgent news; they do not yet make a ministerial performance score.",
+            "ht": "Pou fè yon evalyasyon ki gen sans, fòk gen menm dat, dosye fwontyè moun ka konpare, ka pwoteksyon ki dokimante ak repons pou demach diplomatik yo. Elektè dwe mande sa ki rive moun yo ak ki aksyon ki chanje sa. Yon gwo objektif ak yon gwo kantite moun ki rive fè nouvèl ijan; yo poko bay yon nòt sou pèfòmans yon minis."
           },
           "sources": []
         }
