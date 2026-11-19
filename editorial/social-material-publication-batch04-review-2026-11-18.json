@@ -1,0 +1,87 @@
+{
+  "reviewed_at": "2026-11-18",
+  "original_article_count": 1,
+  "article_slugs": [
+    "haiti-registration-growth-local-tardieu-deronneth-parties"
+  ],
+  "scope": "New article warranted by the complete November18CEP reading;all227previous article records and sources preserved.",
+  "source_checks": {
+    "snapshot_dates": [
+      "2026-11-15",
+      "2026-11-18"
+    ],
+    "net_total_change": 948,
+    "office_deltas": {
+      "asec": 338,
+      "casec": 380,
+      "mayor": 218,
+      "deputy": 9,
+      "senator": 3,
+      "president": 0
+    },
+    "local_net_change": 936,
+    "local_net_percent": 98.7,
+    "party_counts_exact_labels": {
+      "EAPH": {
+        "asec": 109,
+        "mayor": 79,
+        "casec": 143,
+        "deputy": 93,
+        "senator": 18,
+        "president": 1,
+        "local_total": 331
+      },
+      "DVNH": {
+        "asec": 15,
+        "casec": 21,
+        "deputy": 19,
+        "mayor": 10,
+        "senator": 4,
+        "president": 1,
+        "local_total": 46
+      }
+    },
+    "units": "preliminary_registration_rows_not_unique_people_or_complete_teams",
+    "rejected_shortcuts": [
+      "Do not call948the count of newly registered individuals.",
+      "Do not call331or46a count of separate localities or votes.",
+      "Do not interpret unchanged33presidential rows as approved candidacies."
+    ]
+  },
+  "historical_snapshot_check": {
+    "url": "https://raw.githubusercontent.com/edcadet10/ayitisitwayen/ce8dfb8152f8456d8ecfd878aa2b3aec22b6a042/data/candidates/registry.json",
+    "source_bytes_sha256": "46fa7b0455328c8d14d5c5c565d6118371c774ed8378b75096720e8b4cb799a6",
+    "semantic_match_to_saved_baseline": true,
+    "total": 11142,
+    "office_counts": {
+      "asec": 2470,
+      "casec": 3637,
+      "mayor": 2624,
+      "deputy": 1846,
+      "senator": 532,
+      "president": 33
+    }
+  },
+  "language_review": {
+    "article_blocks": 8,
+    "source_blocks": 8,
+    "independent_blind_reading_before_english": true,
+    "definite_corrections": 1,
+    "optional_corrections_applied": 3,
+    "all_changed_blocks_rechecked": "pass",
+    "evidence_sha256": {
+      "creole-blind-reading.md": "0cb27cfd42cd0d1d387192ffb3fe888095748ec5219cb7423e1832e10e1e399e",
+      "sources-creole-blind-reading.md": "5ce8ed2549f14f0738a0e69d7872a4c906d344387b80343cdb4a3c838de79834",
+      "creole-fidelity-review.json": "d0b21595746727cdbe136898fccd8112b63e70fdacd46680752b35f965722b22",
+      "correction-recheck.json": "d165e30ea0b65e31c5ddb7e8ecbce5a8e8233924903c3ca7b40930ceb27a14d6"
+    }
+  },
+  "word_counts": {
+    "haiti-registration-growth-local-tardieu-deronneth-parties": {
+      "ht": 327,
+      "en": 273
+    }
+  },
+  "publication_authorization": "User asked for prompt publication whenever newly collected information warrants a new piece.",
+  "limits": "Registration entries are not votes,unique people,approved candidacies or complete local teams. Exact party labels are not assumed coalitions. No new narration."
+}

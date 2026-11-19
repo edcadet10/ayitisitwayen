@@ -55,11 +55,14 @@ def build():
         for lang in ('ht', 'en')
     )[-32768:]
     db = sqlite3.connect(temporary)
+    db.execute('PRAGMA page_size=4096')
     db.execute('PRAGMA journal_mode=OFF')
     db.execute('PRAGMA synchronous=OFF')
     db.execute('CREATE TABLE metadata(key TEXT PRIMARY KEY, value BLOB NOT NULL) WITHOUT ROWID')
     db.execute('INSERT INTO metadata VALUES(?,?)', ('dictionary', dictionary))
-    db.execute('CREATE TABLE pages(path TEXT PRIMARY KEY, content BLOB NOT NULL, sha256 TEXT NOT NULL, raw_bytes INTEGER NOT NULL) WITHOUT ROWID')
+    # Large compressed pages belong in table leaves. WITHOUT ROWID also puts
+    # their payload in index branches, increasing overflow and pack size.
+    db.execute('CREATE TABLE pages(path TEXT PRIMARY KEY NOT NULL, content BLOB NOT NULL, sha256 TEXT NOT NULL, raw_bytes INTEGER NOT NULL)')
     count = raw_bytes = 0
     try:
         for path, content in builder.outputs(registry, enrichment):

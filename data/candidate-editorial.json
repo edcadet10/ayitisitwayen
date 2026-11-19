@@ -3665,6 +3665,62 @@
         "en": "Original court minute-order text on the public docket recovered and reread through Chrome after web-reader failure. It clarifies partial dismissal, not a final merits victory. Later briefing and every underlying filing are not fully reviewed.",
         "ht": "Nou jwenn epi reli tèks lòd tribinal la sou rejis piblik la nan Chrome apre lektè entènèt la pa t ka louvri li. Li klarifye yon rejè pasyèl, se pa yon viktwa final sou fondman dosye a. Nou poko li tout agiman ki vini pita ak chak dokiman ki dèyè yo."
       }
+    },
+    "b04-cep-current": {
+      "url": "https://tableau.cephaiti.ht/",
+      "publisher": "Conseil Électoral Provisoire",
+      "published_at": null,
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "CEP dashboard and complete November 18 registration reading",
+        "ht": "Tablodbò KEP ak lis enskripsyon nou li 18 novanm nan"
+      },
+      "note": {
+        "en": "Complete public list collected across 1,209 pages; office totals matched the final dashboard reading. A dated preliminary-registration snapshot, not approved candidacies or a count of unique individuals.",
+        "ht": "Nou kolekte tout lis piblik la sou 1,209 paj; total chak pòs mache ak dènye lekti tablodbò a. Se yon foto enskripsyon preliminè nan yon dat, se pa kandidati ki apwouve oswa yon konte moun diferan."
+      }
+    },
+    "b04-cep-before": {
+      "url": "https://github.com/edcadet10/ayitisitwayen/blob/ce8dfb8152f8456d8ecfd878aa2b3aec22b6a042/data/candidates/registry.json",
+      "publisher": "Ayiti Sitwayen / archived CEP reading",
+      "published_at": "2026-11-15",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Versioned November 15 CEP registration snapshot",
+        "ht": "Vèsyon lekti enskripsyon KEP 15 novanm nan ki konsève"
+      },
+      "note": {
+        "en": "Our preserved reading of the official public registry, not an independent second publisher or an official CEP archive. The comparison uses 11,142 then-current entries; previously retained absent entries are excluded.",
+        "ht": "Se lekti nou te fè nan rejis piblik ofisyèl la ki konsève, se pa yon dezyèm piblikatè endepandan oswa yon achiv ofisyèl KEP. Konparezon an sèvi ak 11,142 antre ki te nan lis aktyèl la lè sa a; li pa mete ansyen antre ki pa t parèt ankò yo ladan."
+      }
+    },
+    "b04-deus-local-pay": {
+      "url": "https://www.instagram.com/deusderonneth/p/DBoMOBTPMML/",
+      "publisher": "Deus Deronneth / Instagram",
+      "published_at": "2024-10-27",
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "Deronneth’s local-pay proposal",
+        "ht": "Pwopozisyon Deronneth sou salè eli lokal yo"
+      },
+      "note": {
+        "en": "Original caption and graphic reviewed. Proposed salaries are not enacted appropriations or established payments.",
+        "ht": "Nou egzamine tèks ak grafik orijinal yo. Salè yo pwopoze yo pa fon bidjè ki deja otorize oswa peman ki etabli."
+      }
+    },
+    "b04-tardieu-local-design": {
+      "url": "https://www.haitilibre.com/docs/propositions-amendement-constitutionnel-haiti-aout-2018.pdf",
+      "publisher": "Chambre des députés / HaïtiLibre mirror",
+      "published_at": null,
+      "checked_at": "2026-11-18",
+      "title": {
+        "en": "2018 commission proposals on local representation",
+        "ht": "Pwopozisyon komisyon 2018 la sou reprezantasyon lokal"
+      },
+      "note": {
+        "en": "Relevant local-government passages reread in the 54-page report chaired by Tardieu. A historical commission proposal, not enacted law, every member’s personal view or a verified complete current programme.",
+        "ht": "Nou reli pasaj sou kolektivite yo nan rapò 54 paj komisyon Tardieu te dirije a. Se yon pwopozisyon istorik komisyon, se pa yon lwa ki adopte, pozisyon pèsonèl chak manm oswa yon pwogram aktyèl konplè ki verifye."
+      }
     }
   },
   "articles": [
@@ -18637,6 +18693,87 @@
           "text": {
             "en": "This article explains the March–April procedural record, not the case’s final outcome. Every underlying filing and later merits proceeding has not been read. Evaluating Elie’s advocacy still requires his own follow-through; the court case supplies context rather than an achievement or failure attributable to him.",
             "ht": "Atik sa a esplike dosye pwosedi mas–avril la, se pa rezilta final pwosè a. Nou poko li chak dokiman ki dèyè li ak chak etap sou fondman dosye a ki vini pita. Pou evalye defans Elie a, fòk gen pwòp swivi li toujou; pwosè a bay kontèks, se pa yon reyisit oswa yon echèk nou ka atribiye ak li."
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "slug": "haiti-registration-growth-local-tardieu-deronneth-parties",
+      "status": "published",
+      "kind": "analysis",
+      "format": "narrative",
+      "candidate_ids": [
+        "c-189004967c1e57878f7a",
+        "c-318821d7c6585a15b714"
+      ],
+      "published_at": "2026-11-18",
+      "updated_at": "2026-11-18",
+      "title": {
+        "en": "Haiti’s registration growth is local: what Tardieu and Deronneth’s party entries show",
+        "ht": "Pòs lokal yo bay prèske tout ogmantasyon nan rejis Ayiti a: sa lis pati Tardieu ak Deronneth yo montre"
+      },
+      "description": {
+        "en": "The presidential count stays at 33 while entries for local posts account for almost all the net increase. Entries still need careful interpretation.",
+        "ht": "Kantite antre prezidansyèl yo rete 33 pandan pòs lokal yo bay prèske tout ogmantasyon nèt la. Fòk nou byen entèprete antre sa yo toujou."
+      },
+      "paragraphs": [
+        {
+          "kind": "record",
+          "text": {
+            "en": "Between our November 15 and November 18 readings, the CEP registry rose from 11,142 to 12,090 entries: a net increase of 948. All 33 presidential source rows were unchanged. Most movement happened farther down the ballot.",
+            "ht": "Ant lekti nou fè 15 novanm ak 18 novanm yo, rejis KEP la pase soti 11,142 rive 12,090 antre: yon ogmantasyon nèt 948. Tout 33 liy pou pòs prezidansyèl la rete menm jan nan rejis la. Pifò mouvman an fèt pou lòt pòs yo."
+          },
+          "sources": [
+            "b04-cep-current",
+            "b04-cep-before"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "Mayoral entries increased by 218, CASEC by 380 and ASEC by 338. Together, those local posts account for 936 of the 948 net increase, or 98.7%. Senate entries rose by three and deputy entries by nine. These are our calculations from the two dated snapshots.",
+            "ht": "Antre pou meri yo ogmante 218, CASEC 380 ak ASEC 338. Ansanm, pòs lokal sa yo bay 936 nan 948 ogmantasyon nèt la, oswa 98.7%. Antre pou Sena ogmante twa, pou depite nèf. Se kalkil nou fè apati de lekti ki gen dat yo."
+          },
+          "sources": [
+            "b04-cep-current",
+            "b04-cep-before"
+          ]
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "The current list records 331 local-post entries under EAPH, Tardieu’s listed structure, and 46 under DVNH, Deronneth’s. We counted exact party labels across mayoral, CASEC and ASEC rows. We did not combine supposed aliases or assume coalitions.",
+            "ht": "Lis aktyèl la gen 331 antre pou pòs lokal anba EAPH, estrikti ki nan enskripsyon Tardieu a, ak 46 anba DVNH, estrikti Deronneth la. Nou konte etikèt pati yo egzakteman jan yo parèt pou meri, CASEC ak ASEC. Nou pa mete non nou sipoze vle di menm pati a ansanm ni sipoze gen kowalisyon."
+          },
+          "sources": [
+            "b04-cep-current"
+          ]
+        },
+        {
+          "kind": "scope",
+          "text": {
+            "en": "An entry is not a vote, an approved candidacy, a complete team or a separate locality. Several members of one local team can produce several rows. The figures measure the recorded footprint, not popularity, organisational quality or governing ability.",
+            "ht": "Yon antre pa yon vòt, yon kandidati ki apwouve, yon ekip konplè oswa yon lokalite diferan. Plizyè manm menm ekip lokal la ka bay plizyè liy. Chif yo mezire prezans ki nan rejis la, se pa popilarite, kalite òganizasyon oswa kapasite pou dirije."
+          },
+          "sources": []
+        },
+        {
+          "kind": "record",
+          "text": {
+            "en": "Deronneth has advocated better local pay; the 2018 commission chaired by Tardieu proposed reorganising local representation. Those dated positions differ from their current party-registration totals. Neither the totals nor a historical proposal establish what every listed member supports.",
+            "ht": "Deronneth te defann pi bon salè lokal; komisyon Tardieu te dirije an 2018 la te pwopoze reyòganize reprezantasyon lokal. Pozisyon sa yo, ki gen dat pa yo, pa menm bagay ak total enskripsyon aktyèl pati yo. Ni total yo ni yon ansyen pwopozisyon pa etabli sa chak manm nan lis la apiye."
+          },
+          "sources": [
+            "b04-deus-local-pay",
+            "b04-tardieu-local-design"
+          ]
+        },
+        {
+          "kind": "questions",
+          "text": {
+            "en": "The next electoral questions belong in communes and sections too. Who is on the team, what work will each person do, and how will residents demand accounts? Presidential promises about decentralisation become clearer when voters can inspect the people and responsibilities underneath them.",
+            "ht": "Pwochen kesyon elektoral yo gen plas nan komin ak seksyon yo tou. Kiyès ki nan ekip la, ki travay chak moun ap fè, epi kijan abitan yo ap mande kont? Pwomès prezidansyèl sou desantralizasyon vin pi klè lè elektè ka egzamine moun ak responsablite ki anba yo."
           },
           "sources": []
         }

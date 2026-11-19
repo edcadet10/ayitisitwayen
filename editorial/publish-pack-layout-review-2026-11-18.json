@@ -1,0 +1,121 @@
+{
+  "reviewed_at": "2026-11-18",
+  "problem": "The12090entry directory creates a105598976byte pack,exceeding the unchanged100000000byte check.",
+  "grounding": [
+    "https://www.sqlite.org/withoutrowid.html",
+    "https://www.sqlite.org/pragma.html#pragma_page_size"
+  ],
+  "falsification_results": {
+    "smaller_page_sizes": [
+      {
+        "path": "candidates.sqlite",
+        "page_size": 4096,
+        "bytes": 105598976,
+        "row_count": 29330,
+        "complete_content_fingerprint": "6dfe6e5f71d53dea2eeb582eb05f3b2560acfc80777368d7de6c2831d61ccea3",
+        "median_ms_per512lookups": 28.403399977833033,
+        "runs_ms": [
+          28.403399977833033,
+          27.306500007398427,
+          28.579800040461123
+        ],
+        "below_size_budget": false,
+        "lookup_ratio_to_original": 1.0,
+        "passes": false
+      },
+      {
+        "path": "candidate-pack-2048.sqlite",
+        "page_size": 2048,
+        "bytes": 116482048,
+        "row_count": 29330,
+        "complete_content_fingerprint": "6dfe6e5f71d53dea2eeb582eb05f3b2560acfc80777368d7de6c2831d61ccea3",
+        "median_ms_per512lookups": 33.86210004100576,
+        "runs_ms": [
+          33.86210004100576,
+          33.248200023081154,
+          34.73620000295341
+        ],
+        "below_size_budget": false,
+        "lookup_ratio_to_original": 1.1921847408209187,
+        "passes": false
+      },
+      {
+        "path": "candidate-pack-1024.sqlite",
+        "page_size": 1024,
+        "bytes": 98181120,
+        "row_count": 29330,
+        "complete_content_fingerprint": "6dfe6e5f71d53dea2eeb582eb05f3b2560acfc80777368d7de6c2831d61ccea3",
+        "median_ms_per512lookups": 113.18699998082593,
+        "runs_ms": [
+          113.18699998082593,
+          133.43729998450726,
+          105.70279997773468
+        ],
+        "below_size_budget": true,
+        "lookup_ratio_to_original": 3.984980673763031,
+        "passes": false
+      }
+    ],
+    "alternate_table_layouts": [
+      {
+        "file": "candidates.sqlite",
+        "bytes": 105598976,
+        "median_ms_per512lookups": 26.91200003027916,
+        "runs_ms": [
+          26.91200003027916,
+          26.943800039589405,
+          26.049799984320998
+        ],
+        "complete_content_fingerprint": "6dfe6e5f71d53dea2eeb582eb05f3b2560acfc80777368d7de6c2831d61ccea3",
+        "lookup_ratio_to_original": 1.0,
+        "passes": false
+      },
+      {
+        "file": "layout-4096-rowid.sqlite",
+        "bytes": 94859264,
+        "median_ms_per512lookups": 12.558499991428107,
+        "runs_ms": [
+          12.719299993477762,
+          11.97300001513213,
+          12.558499991428107
+        ],
+        "complete_content_fingerprint": "6dfe6e5f71d53dea2eeb582eb05f3b2560acfc80777368d7de6c2831d61ccea3",
+        "lookup_ratio_to_original": 0.4666505639602527,
+        "passes": true
+      },
+      {
+        "file": "layout-8192-without-rowid.sqlite",
+        "bytes": 164724736,
+        "median_ms_per512lookups": 24.64519999921322,
+        "runs_ms": [
+          24.64519999921322,
+          25.740799959748983,
+          24.529699992854148
+        ],
+        "complete_content_fingerprint": "6dfe6e5f71d53dea2eeb582eb05f3b2560acfc80777368d7de6c2831d61ccea3",
+        "lookup_ratio_to_original": 0.9157699157061711,
+        "passes": false
+      }
+    ]
+  },
+  "decision": "Use ordinary rowid storage for the large pages table at4096byte pages. Retain explicit nonnull path uniqueness and unchanged request queries,HTML,compression and URLs.",
+  "measured_reconstruction_bytes_saved": 10739712,
+  "all29330page_rows_and_metadata_identical": true,
+  "measured_local_lookup_ratio": 0.4666505639602527,
+  "limits": "Local repeated512lookup timings screen for regression. No measured Vercel cold-start or visitor-speed improvement is claimed.",
+  "actual_publisher_result": {
+    "before_bytes": 105598976,
+    "actual_publisher_bytes": 94834688,
+    "saved_bytes": 10764288,
+    "complete_page_rows_and_metadata_unchanged": true,
+    "complete_content_fingerprint": "6dfe6e5f71d53dea2eeb582eb05f3b2560acfc80777368d7de6c2831d61ccea3"
+  },
+  "validation_result": {
+    "actual_publisher_pack_bytes": 94834688,
+    "all29330html_pages_restored_and_hashed": "pass",
+    "sitemap_route_coverage": "exact",
+    "actual_http_get_head_304_404_405": "pass",
+    "concurrent_requests": 40,
+    "original100MBbudget": "pass"
+  }
+}
