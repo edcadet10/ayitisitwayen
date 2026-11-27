@@ -160,10 +160,30 @@ def card(person,enrichment,lang):
     aliases='<p class="candidate-card-alias">'+label('names_in_sources',lang)+': '+esc(' · '.join(names))+'</p>' if names else ''
     return f'''<article class="candidate-card"><a class="candidate-card-link" href="{profile_url(person,lang)}#information-web" aria-label="{esc(person['name'],quote=True)} — {label('view_web',lang)}"><div class="candidate-photo">{portrait(person,enrichment,lang)}<span class="photo-open" aria-hidden="true">↗</span></div>{credit}<div class="candidate-card-info"><p class="candidate-card-office">{label(person['office'],lang)} · {esc(person['party'])}</p><h2>{esc(person['name'])}</h2>{aliases}<p class="candidate-card-place">{esc(' · '.join(person['locality']))}</p><p class="candidate-card-position">{label('position',lang)}: {esc(registration_position(person,lang))}</p><span class="candidate-status">{label(person['status'],lang)}</span><span class="candidate-card-cta">{label('view_web',lang)} <span aria-hidden="true">↗</span></span></div></a></article>'''
 
+def page_navigation(lang,page,count,page_url):
+    page_label=label("page",lang)
+    targets={1, (1+page)//2, page-1, page, page+1, (page+count+1)//2, count}
+    links=[]
+    previous=0
+    for target in sorted(t for t in targets if 1 <= t <= count):
+        if target-previous > 1:
+            links.append('<span aria-hidden="true">…</span>')
+        if target==page:
+            links.append(f'<span aria-current="page">{page_label} {page} {label("of",lang)} {count}</span>')
+        else:
+            url=page_url(target)
+            caption=label("previous",lang) if target==page-1 else label("next",lang) if target==page+1 else str(target)
+            links.append(f'<a href="{url}" class="candidate-button secondary" aria-label="{caption} · {page_label} {target}">{caption}</a>')
+        previous=target
+    return f'<nav class="candidate-pagination" aria-label="{page_label}">'+''.join(links)+'</nav>'
+
 def pagination(lang,office,page,total):
-    count=max(1,(total+PAGE_SIZE-1)//PAGE_SIZE)
     base=directory(lang)+office+'/'
-    return f'<nav class="candidate-pagination" aria-label="{label("page",lang)}">'+(f'<a href="{base}" class="candidate-button secondary">{label("previous",lang)}</a>' if page==2 else f'<a href="{base}page-{page-1}.html" class="candidate-button secondary">{label("previous",lang)}</a>' if page>2 else '')+f'<span>{label("page",lang)} {page} {label("of",lang)} {count}</span>'+(f'<a href="{base}page-{page+1}.html" class="candidate-button secondary">{label("next",lang)}</a>' if page<count else '')+'</nav>'
+    def page_url(target):
+        if target==1:
+            return directory(lang) if office=='president' else base
+        return f'{base}page-{target}.html'
+    return page_navigation(lang,page,max(1,(total+PAGE_SIZE-1)//PAGE_SIZE),page_url)
 
 def directory_page(lang,registry,enrichment,office='president',page=1,main=True):
     people=[p for p in registry['candidates'] if office=='all' or p['office']==office]
@@ -180,6 +200,17 @@ def directory_page(lang,registry,enrichment,office='president',page=1,main=True)
         names=''.join(f'<li><a href="{profile_url(person,lang)}">{esc(person["name"])}</a> · {esc(person["party"])}</li>' for person in people)
         name_index=f'<details class="candidate-name-index"><summary>{label("presidential_name_index",lang)} ({len(people)})</summary><ul>{names}</ul></details>'
     body=f'''<main id="kontni" class="candidate-main container" data-directory-office="{office}" data-directory-page="{page}"><div class="candidate-intro"><p class="candidate-kicker">AYITI SITWAYEN <span>—</span> {label('election',lang)}</p><h1>{label('heading',lang)}</h1><p class="candidate-lead">{label('intro',lang)}</p></div><aside class="candidate-registration-note"><span class="candidate-status">{label('preliminary',lang)}</span><p>{label('status_note',lang)}</p><small>{label('snapshot',lang)} <time datetime="{registry['reviewed_at']}">{registry['reviewed_at']}</time> · {registry['total']:,} {label('records',lang)} · {label('source',lang)}: KEP / CEP</small></aside><nav class="candidate-office-tabs" aria-label="{label('office',lang)}">{tabs}</nav>{filters}{name_index}<div class="candidate-results-bar"><p id="candidate-count" role="status" aria-live="polite">{len(people):,} {label('results',lang)}</p><p class="candidate-photo-coverage"><span id="candidate-photo-count">{photo_count}</span><a href="{photo_link}" id="candidate-show-portraits" hidden>{label("available_portraits",lang)} →</a></p></div><p id="candidate-load-error" role="alert" hidden>{label('load_error',lang)} <button type="button" class="candidate-clear" id="candidate-retry">{label('retry',lang)}</button></p><div class="candidate-grid" id="candidate-results">{''.join(card(p,enrichment,lang) for p in current)}</div><div id="candidate-pagination">{pagination(lang,office,page,len(people))}</div><details class="candidate-browse"><summary>{label('browse_office',lang)}</summary><p>{label('browse_note',lang)}</p><div>{fallback}</div></details><p class="candidate-coverage">{label('coverage',lang)}</p><a class="candidate-text-link" href="{prefix(lang)}candidates.html">{label('learn',lang)} ↗</a></main>'''
+    if main:
+        # Keep earlier snapshots discoverable without mixing them into the current results.
+        snapshots={}
+        for person in registry.get('retained_candidates', []):
+            snapshots.setdefault(person['last_observed_at'], []).append(person)
+        sections=[]
+        for date, members in sorted(snapshots.items(), reverse=True):
+            people_by_name=sorted(members, key=lambda member: member['name'].casefold())
+            items=''.join(f'<li><a href="{profile_url(member,lang)}">{esc(member["name"])}</a></li>' for member in people_by_name)
+            sections.append(f'<details class="candidate-browse"><summary>{label("last_observed",lang)} <time datetime="{esc(date)}">{esc(date)}</time> · {len(members)} {label("records",lang)}</summary><ul>{items}</ul></details>')
+        body=body.removesuffix('</main>')+''.join(sections)+'</main>'
     path=directory(lang) if main else directory(lang)+office+('/' if page==1 else f'/page-{page}.html')
     canonical=directory(lang) if office=='president' and page==1 else path
     pages=max(1,(len(people)+PAGE_SIZE-1)//PAGE_SIZE)
@@ -225,7 +256,7 @@ def archive_page(lang,person,sources,year='all',page=1):
     current=rows[(page-1)*24:page*24];pages=max(1,(len(rows)+23)//24)
     years=sorted({year for source in sources for year in source_years(source)},reverse=True)
     links=''.join(f'<a href="{archive_url(person,lang,value)}"'+(' aria-current="page"' if value==year else '')+f'>{label("all_years",lang) if value=="all" else label("unknown_year",lang) if value=="unknown" else esc(value)}</a>' for value in ['all']+years)
-    pagination=f'<nav class="candidate-pagination" aria-label="{label("page",lang)}">'+(f'<a class="candidate-button secondary" href="{archive_url(person,lang,year,page-1)}">{label("previous",lang)}</a>' if page>1 else '')+f'<span>{label("page",lang)} {page} {label("of",lang)} {pages}</span>'+(f'<a class="candidate-button secondary" href="{archive_url(person,lang,year,page+1)}">{label("next",lang)}</a>' if page<pages else '')+'</nav>'
+    pagination=page_navigation(lang,page,pages,lambda target: archive_url(person,lang,year,target))
     body=f'<main id="kontni" class="candidate-main container"><a class="candidate-back" href="{profile_url(person,lang)}#information-web">← {label("archive_back",lang)}</a><p class="candidate-kicker">{esc(person["name"])} · {len(rows):,} {label("sources",lang)}</p><h1>{label("archive",lang)}'+(' · '+(t('unknown_year',lang) if year=='unknown' else year) if year!='all' else '')+f'</h1><p class="candidate-coverage">{label("history_scope",lang)}</p><nav class="candidate-archive-years" aria-label="{label("archive_year",lang)}">{links}</nav><div class="candidate-source-list">'+''.join(source_card(source,lang,person) for source in current)+f'</div>{pagination}</main>'
     path=archive_url(person,lang,year,page)
     year_label=t('all_years',lang) if year=='all' else t('unknown_year',lang) if year=='unknown' else year
